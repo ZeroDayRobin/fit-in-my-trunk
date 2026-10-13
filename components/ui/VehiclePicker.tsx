@@ -323,9 +323,7 @@ function VehicleInfoCard() {
         )}
       </div>
       {info.box.estimated && (
-        <p className="mt-1.5 text-[10.5px] leading-snug text-neutral-500 dark:text-neutral-400">
-          Der Hersteller nennt keine Laderaum-Innenmaße. Die Box wird aus dem VDA-Volumen und typischen Proportionen berechnet.
-        </p>
+        <p className="mt-1.5 text-[10.5px] leading-snug text-neutral-500 dark:text-neutral-400">{estimateNote(info)}</p>
       )}
       {showSources && (
         <ul className="mt-2 max-h-40 space-y-1 overflow-auto text-[10.5px] leading-snug">
@@ -346,6 +344,19 @@ function VehicleInfoCard() {
       )}
     </div>
   );
+}
+
+/** Erklärt, wie die Laderaum-Box zustande kommt, wenn keine Innenmaße veröffentlicht sind */
+function estimateNote(info: NonNullable<ReturnType<typeof useSim.getState>["info"]>) {
+  const { widthCm, heightCm, depthCm } = info.box;
+  const boxL = Math.round((widthCm * heightCm * depthCm) / 1000);
+  const shape =
+    "Breite, Höhe und Tiefe sind geschätzt, weil der Hersteller keine Innenmaße angibt – die echte Form (Radkästen, schräge Heckklappe) kann etwas abweichen.";
+  if (!info.trunkL)
+    return `Für diese Variante ist kein offizielles Kofferraumvolumen bekannt. Die blaue Box (≈ ${fmt(boxL)} L) ist anhand typischer Werte geschätzt.`;
+  if (Math.abs(boxL - info.trunkL) <= info.trunkL * 0.03)
+    return `Die blaue Box hat das offizielle Kofferraumvolumen (${fmt(info.trunkL)} L). ${shape}`;
+  return `Die blaue Box (≈ ${fmt(boxL)} L) nähert das offizielle Volumen von ${fmt(info.trunkL)} L an – sehr hohe oder verwinkelte Laderäume lassen sich nicht vollständig als Quader darstellen. ${shape}`;
 }
 
 function Stat({ label, value, wide }: { label: string; value: string; wide?: boolean }) {
