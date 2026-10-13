@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { initialVehicle } from "@/lib/vehicles/catalog";
 import { useSim } from "@/lib/store";
 import { Sidebar } from "./ui/Sidebar";
@@ -28,16 +28,38 @@ const Scene = dynamic(() => import("./Scene"), { ssr: false, loading: SceneLoadi
 
 export default function Simulator() {
   const ready = useSim((s) => s.info !== null);
+  const [loadError, setLoadError] = useState(false);
+  const [attempt, setAttempt] = useState(0);
 
   // Startfahrzeug laden (Datenbank-Chunk der Marke)
   useEffect(() => {
-    initialVehicle().then((r) => r && useSim.getState().setVehicle(r.car, r.info, r.selection));
-  }, []);
+    let alive = true;
+    initialVehicle().then((r) => {
+      if (!alive || useSim.getState().info) return;
+      if (!r) throw new Error("Kein Startfahrzeug verfügbar");
+      useSim.getState().setVehicle(r.car, r.info, r.selection);
+    }).catch(() => {
+      if (alive) setLoadError(true);
+    });
+    return () => { alive = false; };
+  }, [attempt]);
 
   return (
     <main className="relative h-dvh w-full overflow-hidden bg-[#e3e5e8] text-neutral-900 dark:bg-[#0b0c0f] dark:text-neutral-100">
       {/* isolate: hält die 3D-Html-Labels unterhalb der Overlay-UI */}
-      <div className="absolute inset-0 isolate">{ready ? <Scene /> : <SceneLoading />}</div>
+      <div className="absolute inset-0 isolate">
+        {ready ? <Scene /> : loadError ? (
+          <div className="grid h-full place-items-center px-6">
+            <div role="alert" className="max-w-sm rounded-2xl bg-white p-5 text-center shadow-lg dark:bg-neutral-900">
+              <p className="text-sm">Die Fahrzeugdaten konnten nicht geladen werden.</p>
+              <button className="mt-3 min-h-11 rounded-xl bg-sky-600 px-4 text-sm font-semibold text-white"
+                onClick={() => { setLoadError(false); setAttempt((n) => n + 1); }}>
+                Erneut versuchen
+              </button>
+            </div>
+          </div>
+        ) : <SceneLoading />}
+      </div>
 
       {/* Overlay-UI */}
       <div className="pointer-events-none absolute inset-0 z-10">

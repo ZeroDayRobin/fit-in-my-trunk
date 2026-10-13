@@ -21,14 +21,15 @@ export function ViewToolbar() {
   const setTheme = useSim((s) => s.setTheme);
 
   return (
-    <div className={cx(panel, "pointer-events-auto flex items-center gap-1 rounded-full p-1")}>
+    <div className={cx(panel, "pointer-events-auto flex max-w-full flex-wrap items-center justify-center gap-1 rounded-3xl p-1")}>
       <div className="flex">
         {VIEWS.map((v) => (
           <button
             key={v.name}
             onClick={() => setView(v.name)}
+            aria-pressed={view === v.name}
             className={cx(
-              "rounded-full px-3 py-1.5 text-[13px] font-medium transition sm:px-4",
+              "min-h-11 rounded-full px-2 py-1.5 text-[13px] font-medium transition sm:px-4",
               view === v.name
                 ? "bg-neutral-900 text-white dark:bg-white dark:text-neutral-900"
                 : "text-neutral-600 hover:bg-black/[0.05] hover:text-neutral-900 dark:text-neutral-300 dark:hover:bg-white/[0.08] dark:hover:text-white",
@@ -42,9 +43,10 @@ export function ViewToolbar() {
       <button
         onClick={toggleXray}
         title="Röntgenblick: Karosserie transparent"
+        aria-label="Röntgenblick"
         aria-pressed={xray}
         className={cx(
-          "grid h-8 w-8 place-items-center rounded-full transition",
+          "grid h-11 w-11 place-items-center rounded-full transition",
           xray ? "bg-sky-500 text-white" : "text-neutral-600 hover:bg-black/[0.05] dark:text-neutral-300 dark:hover:bg-white/[0.08]",
         )}
       >
@@ -54,7 +56,7 @@ export function ViewToolbar() {
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         title="Hell/Dunkel umschalten"
         aria-label="Hell/Dunkel umschalten"
-        className="grid h-8 w-8 place-items-center rounded-full text-neutral-600 transition hover:bg-black/[0.05] dark:text-neutral-300 dark:hover:bg-white/[0.08]"
+        className="grid h-11 w-11 place-items-center rounded-full text-neutral-600 transition hover:bg-black/[0.05] dark:text-neutral-300 dark:hover:bg-white/[0.08]"
       >
         <IconMoon className="h-[18px] w-[18px] dark:hidden" />
         <IconSun className="hidden h-[18px] w-[18px] dark:block" />
