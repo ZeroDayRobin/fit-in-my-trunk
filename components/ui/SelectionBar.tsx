@@ -3,7 +3,7 @@
 import { LUGGAGE } from "@/lib/luggage";
 import { orientedSize, type ItemStatus } from "@/lib/packing";
 import { useSim, useStatuses } from "@/lib/store";
-import { IconRotate, IconTip, IconTrash } from "./icons";
+import { IconRotate, IconTip, IconTipSide, IconTrash } from "./icons";
 import { cx, panel } from "./styles";
 
 const STATUS_LABEL: Record<ItemStatus, { text: string; dot: string }> = {
@@ -45,6 +45,9 @@ export function SelectionBar() {
       </ActionButton>
       <ActionButton label="Kippen" kbd="T" onClick={() => rotate("tip")}>
         <IconTip className="h-4 w-4" />
+      </ActionButton>
+      <ActionButton label="Seitlich" kbd="S" onClick={() => rotate("roll")}>
+        <IconTipSide className="h-4 w-4" />
       </ActionButton>
       <ActionButton label="Löschen" kbd="Entf" onClick={remove} danger>
         <IconTrash className="h-4 w-4" />

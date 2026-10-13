@@ -31,6 +31,14 @@ export const IconTip = (p: P) => (
   </svg>
 );
 
+export const IconTipSide = (p: P) => (
+  <svg {...base(p)}>
+    <rect x="8" y="10" width="8" height="11" rx="1.5" />
+    <path d="M4 9a8 8 0 0 1 9-6" />
+    <path d="M4 5v4h4" />
+  </svg>
+);
+
 export const IconTrash = (p: P) => (
   <svg {...base(p)}>
     <path d="M4 7h16M10 11v6M14 11v6M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12M9 7V4h6v3" />

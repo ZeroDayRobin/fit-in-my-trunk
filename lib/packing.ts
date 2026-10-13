@@ -222,9 +222,15 @@ export function clampToStage(x: number, z: number, env: PackEnv): [number, numbe
 
 const ROTATE_YAW = new Quaternion().setFromAxisAngle(new Vector3(0, 1, 0), Math.PI / 2);
 const ROTATE_TIP = new Quaternion().setFromAxisAngle(new Vector3(1, 0, 0), Math.PI / 2);
+const ROTATE_ROLL = new Quaternion().setFromAxisAngle(new Vector3(0, 0, 1), Math.PI / 2);
 
-export function rotateQuat(q: Quat, mode: "yaw" | "tip"): Quat {
-  const r = (mode === "yaw" ? ROTATE_YAW : ROTATE_TIP).clone().multiply(new Quaternion(...q));
+/** yaw = um die Hochachse drehen, tip = nach vorne/hinten kippen, roll = zur Seite kippen */
+export type RotateMode = "yaw" | "tip" | "roll";
+
+export function rotateQuat(q: Quat, mode: RotateMode, direction: 1 | -1 = 1): Quat {
+  let rot = (mode === "yaw" ? ROTATE_YAW : mode === "tip" ? ROTATE_TIP : ROTATE_ROLL).clone();
+  if (direction === -1) rot = rot.invert();
+  const r = rot.multiply(new Quaternion(...q));
   return [r.x, r.y, r.z, r.w];
 }
 

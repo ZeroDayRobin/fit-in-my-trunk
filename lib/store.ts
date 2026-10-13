@@ -20,6 +20,7 @@ import {
   settle,
   supportHeight,
   type Item,
+  type RotateMode,
 } from "./packing";
 
 export type ViewName = "rear" | "top" | "side" | "front";
@@ -47,7 +48,7 @@ interface SimState {
   removeSelected: () => void;
   clearItems: () => void;
   select: (id: string | null) => void;
-  rotateSelected: (mode: "yaw" | "tip") => void;
+  rotateSelected: (mode: RotateMode, direction?: 1 | -1) => void;
   packAll: () => void;
   startDrag: (id: string) => void;
   dragTo: (x: number, z: number) => void;
@@ -140,14 +141,14 @@ export const useSim = create<SimState>((set, get) => ({
 
   select: (selectedId) => set({ selectedId }),
 
-  rotateSelected: (mode) => {
+  rotateSelected: (mode, direction = 1) => {
     const s = get();
     const target = s.items.find((i) => i.id === s.selectedId);
     if (!target) return;
     const env = envOf(s);
     // Liegt das Teil (teilweise) im Kofferraum, wird es nach dem Drehen wieder hineingeschoben
     const inTrunk = footprintOverlap(itemBox(target), env.trunk);
-    const quaternion = rotateQuat(target.quaternion, mode);
+    const quaternion = rotateQuat(target.quaternion, mode, direction);
     let position = target.position;
     if (inTrunk) position = clampIntoTrunk(position, orientedSize(target.type, quaternion), env);
     const items = s.items.map((i) => (i.id === target.id ? { ...i, quaternion, position } : i));

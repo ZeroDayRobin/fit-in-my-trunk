@@ -12,7 +12,8 @@ Interaktiver 3D-Pack-Simulator: Fahrzeug wählen, Gepäck spawnen, per Drag & Dr
 - **Drag & Drop per Raycasting** mit Auto-Stapeln und magnetischem Einrasten
 - **Feedback:** Grün = komplett im Kofferraum. Rot (pulsierend) = ragt heraus oder kollidiert.
 - **Zähler oben rechts:** gepackte Gepäckstücke und genutztes Volumen
-- **Drehen/Kippen** mit `R` / `T` oder über Buttons, **Automatisch packen**, **Rücksitze umklappen**
+- **Drehen und Kippen:** `R` dreht, `T` kippt nach vorne, `S` kippt zur Seite. Mit `Shift` geht es jeweils in die andere Richtung, alternativ über Buttons.
+- **Automatisch packen** und **Rücksitze umklappen**
 - **Nachricht an den Entwickler:** Button unten rechts, siehe unten
 - Kamera-Presets, Röntgenblick, startet immer im hellen Design (Dunkel per Umschalter), responsive
 

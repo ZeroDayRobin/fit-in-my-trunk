@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useSim } from "@/lib/store";
 import { LUGGAGE_TYPES } from "@/lib/luggage";
 
-/** Tastatur: R drehen · T kippen · Entf löschen · Esc abwählen · 1–3 Gepäck hinzufügen */
+/** Tastatur: R drehen · T nach vorne kippen · S zur Seite kippen (mit Shift jeweils andersherum) · Entf löschen · Esc abwählen · 1–3 Gepäck hinzufügen */
 export function KeyboardShortcuts() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -12,12 +12,16 @@ export function KeyboardShortcuts() {
       if (target && (target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName))) return;
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       const s = useSim.getState();
+      const dir = e.shiftKey ? -1 : 1;
       switch (e.key.toLowerCase()) {
         case "r":
-          s.rotateSelected("yaw");
+          s.rotateSelected("yaw", dir);
           break;
         case "t":
-          s.rotateSelected("tip");
+          s.rotateSelected("tip", dir);
+          break;
+        case "s":
+          s.rotateSelected("roll", dir);
           break;
         case "delete":
         case "backspace":

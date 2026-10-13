@@ -53,8 +53,9 @@ export function Sidebar() {
           </section>
           <CargoSection />
           <p className="hidden text-[11px] leading-relaxed text-neutral-400 lg:block dark:text-neutral-500">
-            <Kbd>Ziehen</Kbd> Gepäck verschieben · <Kbd>R</Kbd> drehen · <Kbd>T</Kbd> kippen · <Kbd>Entf</Kbd> löschen · <Kbd>1</Kbd>–
-            <Kbd>3</Kbd> hinzufügen. Ziehen im freien Raum dreht die Kamera, Scrollen zoomt.
+            <Kbd>Ziehen</Kbd> Gepäck verschieben · <Kbd>R</Kbd> drehen · <Kbd>T</Kbd> kippen · <Kbd>S</Kbd> seitlich kippen (mit{" "}
+            <Kbd>Shift</Kbd> andersherum) · <Kbd>Entf</Kbd> löschen · <Kbd>1</Kbd>–<Kbd>3</Kbd> hinzufügen. Ziehen im freien Raum dreht die
+            Kamera, Scrollen zoomt.
           </p>
           <p className="text-[10.5px] leading-relaxed text-neutral-400 dark:text-neutral-500">
             © 2026{" "}
