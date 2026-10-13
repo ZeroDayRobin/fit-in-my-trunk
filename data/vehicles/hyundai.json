@@ -102,7 +102,7 @@
      "bodyType": "hatchback",
      "lengthMm": 4065,
      "widthMm": 1775,
-     "heightMm": null,
+     "heightMm": 1450,
      "wheelbaseMm": 2580,
      "trunkL": 352,
      "trunkFoldedL": 1165,
@@ -151,6 +151,10 @@
       {
        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/hyundai-i20/",
        "what": "ADAC facelift test, measured volumes"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i20/3generation-facelift/329790/",
+       "what": "ADAC: heightMm = 1450 – ADAC Autokatalog, Hyundai i20 1.2 Select (10/23 - 05/24), 3. Generation Facelift: Länge 4065 mm, Höhe 1450 mm, Radstand 2580 mm. Automoli confirms the same figures."
       }
      ],
      "confidence": "medium",
@@ -169,7 +173,7 @@
      "bodyType": "hatchback",
      "lengthMm": 4040,
      "widthMm": 1775,
-     "heightMm": null,
+     "heightMm": 1450,
      "wheelbaseMm": 2580,
      "trunkL": 352,
      "trunkFoldedL": 1165,
@@ -252,6 +256,10 @@
       {
        "url": "https://www.automobiledimension.com/model/hyundai/i20",
        "what": "Facelift length change"
+      },
+      {
+       "url": "https://www.hyundai.news/newsroom/dam/de/Pressemappen/20201014_i20/Hyundai_i20_3_Technische_Daten_0621.pdf",
+       "what": "Hersteller: heightMm = 1450 – Hyundai press kit technical data (i20, 2020): Höhe 1.450 mm (1.455 mm with N Line), Länge 4.040 mm (4.075 mm N Line)."
       }
      ],
      "confidence": "medium",

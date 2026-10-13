@@ -14,7 +14,7 @@
      "bodyType": "van",
      "lengthMm": 4500,
      "widthMm": 1855,
-     "heightMm": null,
+     "heightMm": 1826,
      "wheelbaseMm": 2755,
      "trunkL": 1213,
      "trunkFoldedL": 2556,
@@ -132,6 +132,10 @@
       {
        "url": "https://www.vehiclesizes.com/compare/4416-4418/volkswagen-caddy-maxi-v-minivan-2021-vs-volkswagen-caddy-v-minivan-2021/",
        "what": "Caddy V length 4,500 mm; width 1,855 mm"
+      },
+      {
+       "url": "https://www.volkswagen-nutzfahrzeuge.de/de/modelle/caddy/technische-daten/technische-daten-caddy.html",
+       "what": "Hersteller: heightMm = 1826 – Official VW Nutzfahrzeuge technical data page 'Der neue Caddy': maximum height 1.826 mm for the standard Caddy. The earlier official page for the 2020 model (now filed under Vorgängermodelle) gave 1.833 mm, and MeinAuto.de also lists 1.826 mm."
       },
       {
        "url": "https://www.vw-nutzfahrzeuge.at/caddy/caddy/technische-daten/life",
@@ -965,7 +969,7 @@
      "bodyType": "van",
      "lengthMm": 4962,
      "widthMm": 1985,
-     "heightMm": null,
+     "heightMm": 1905,
      "wheelbaseMm": 3239,
      "trunkL": 1340,
      "trunkFoldedL": 2469,
@@ -1022,6 +1026,10 @@
       {
        "url": "https://www.carwow.de/volkswagen/id-buzz/technische-daten",
        "what": "Conflicting folded volume 1,581-3,456 l"
+      },
+      {
+       "url": "https://www.vw-nutzfahrzeuge.at/id-buzz/id-buzz/technische-daten/gtx-langer-radstand",
+       "what": "Hersteller: heightMm = 1905 – Official VW Nutzfahrzeuge Austria technical data for the ID. Buzz GTX langer Radstand: Länge 4.962 mm, Breite ohne Außenspiegel 1.985 mm, Höhe ohne Dachreling 1.905 mm, Radstand 3.239 mm. This figure is for the GTX LWB variant on the Austrian site. Logistra gives a maxi"
       }
      ],
      "confidence": "medium",

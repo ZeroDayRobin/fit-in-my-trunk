@@ -615,8 +615,8 @@
      "bodyType": "suv-coupe",
      "lengthMm": 4531,
      "widthMm": 1859,
-     "heightMm": null,
-     "wheelbaseMm": null,
+     "heightMm": 1559,
+     "wheelbaseMm": 2681,
      "trunkL": 488,
      "trunkFoldedL": 1275,
      "loadSpace": null,
@@ -649,6 +649,14 @@
       {
        "url": "https://www.angurten.de/is/abmessungen/2259-Q3+Sportback+2025",
        "what": "Fachpresse: widthMm = 1859 – angurten.de Audi Q3 Sportback 2025 (FJ): Breite ohne Spiegel 1.859 mm, mit Spiegeln 2.087 mm; no ADAC/Audi page found"
+      },
+      {
+       "url": "https://www.meinauto.de/audi/neuwagen/q3/angebote/q3-sportback/technische-daten",
+       "what": "Fachpresse: heightMm = 1559 – MeinAuto.de, angurten.de (Q3 Sportback 2025 (FJ)) and carwow all list the new Q3 Sportback height as 1.559 mm. The official Audi dimension PDF (Q3-Sportback-Dimensions_0625) could not be read clearly in the search results."
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2259-Q3+Sportback+2025",
+       "what": "Fachpresse: wheelbaseMm = 2681 – angurten.de gives a wheelbase of 2.681 mm for the Audi Q3 Sportback 2025 (FJ), and MeinAuto.de lists the same value. The official Audi dimension PDF could not be read clearly."
       }
      ],
      "confidence": "low",
@@ -881,7 +889,7 @@
      "bodyType": "suv",
      "lengthMm": 4717,
      "widthMm": 1900,
-     "heightMm": null,
+     "heightMm": 1647,
      "wheelbaseMm": 2820,
      "trunkL": 520,
      "trunkFoldedL": 1473,
@@ -938,6 +946,10 @@
       {
        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/audi-q5-test/",
        "what": "ADAC measurement 475/1395 l (combustion)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/audi-q5-test/",
+       "what": "ADAC: heightMm = 1647 – ADAC (manufacturer data): Audi Q5 2.0 TDI MHEV plus quattro S tronic (ab 07/25) 4.717 x 1.900 x 1.647 mm (L x B x H). carwow, carsized and automobiledimension also give 1.647 mm. Motor1 gives 1.651 mm."
       }
      ],
      "confidence": "medium",

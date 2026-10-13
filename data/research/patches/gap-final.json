@@ -1,0 +1,77 @@
+{
+ "id": "gap-final",
+ "kind": "gaps",
+ "patches": [
+  {
+   "model": "Caddy",
+   "generation": "Caddy 5 (SK)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1826,
+   "sourceUrl": "https://www.volkswagen-nutzfahrzeuge.de/de/modelle/caddy/technische-daten/technische-daten-caddy.html",
+   "sourceType": "hersteller",
+   "evidence": "Official VW Nutzfahrzeuge technical data page 'Der neue Caddy': maximum height 1.826 mm for the standard Caddy. The earlier official page for the 2020 model (now filed under Vorgängermodelle) gave 1.833 mm, and MeinAuto.de also lists 1.826 mm."
+  },
+  {
+   "model": "ID. Buzz langer Radstand",
+   "generation": "1. Generation (langer Radstand)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1905,
+   "sourceUrl": "https://www.vw-nutzfahrzeuge.at/id-buzz/id-buzz/technische-daten/gtx-langer-radstand",
+   "sourceType": "hersteller",
+   "evidence": "Official VW Nutzfahrzeuge Austria technical data for the ID. Buzz GTX langer Radstand: Länge 4.962 mm, Breite ohne Außenspiegel 1.985 mm, Höhe ohne Dachreling 1.905 mm, Radstand 3.239 mm. This figure is for the GTX LWB variant on the Austrian site. Logistra gives a maximum height of about 1.927 to 1.936 mm."
+  },
+  {
+   "model": "Q3 Sportback",
+   "generation": "3. Generation",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1559,
+   "sourceUrl": "https://www.meinauto.de/audi/neuwagen/q3/angebote/q3-sportback/technische-daten",
+   "sourceType": "sonstige",
+   "evidence": "MeinAuto.de, angurten.de (Q3 Sportback 2025 (FJ)) and carwow all list the new Q3 Sportback height as 1.559 mm. The official Audi dimension PDF (Q3-Sportback-Dimensions_0625) could not be read clearly in the search results."
+  },
+  {
+   "model": "Q3 Sportback",
+   "generation": "3. Generation",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2681,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2259-Q3+Sportback+2025",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de gives a wheelbase of 2.681 mm for the Audi Q3 Sportback 2025 (FJ), and MeinAuto.de lists the same value. The official Audi dimension PDF could not be read clearly."
+  },
+  {
+   "model": "Q5",
+   "generation": "GU (3. Generation)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1647,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/audi-q5-test/",
+   "sourceType": "adac",
+   "evidence": "ADAC (manufacturer data): Audi Q5 2.0 TDI MHEV plus quattro S tronic (ab 07/25) 4.717 x 1.900 x 1.647 mm (L x B x H). carwow, carsized and automobiledimension also give 1.647 mm. Motor1 gives 1.651 mm."
+  },
+  {
+   "model": "i20",
+   "generation": "BC3 Facelift",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1450,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i20/3generation-facelift/329790/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog, Hyundai i20 1.2 Select (10/23 - 05/24), 3. Generation Facelift: Länge 4065 mm, Höhe 1450 mm, Radstand 2580 mm. Automoli confirms the same figures."
+  },
+  {
+   "model": "i20",
+   "generation": "BC3 (2020-2023)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1450,
+   "sourceUrl": "https://www.hyundai.news/newsroom/dam/de/Pressemappen/20201014_i20/Hyundai_i20_3_Technische_Daten_0621.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Hyundai press kit technical data (i20, 2020): Höhe 1.450 mm (1.455 mm with N Line), Länge 4.040 mm (4.075 mm N Line)."
+  }
+ ],
+ "notFound": []
+}
