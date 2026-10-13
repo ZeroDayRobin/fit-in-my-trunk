@@ -296,7 +296,36 @@ function cleanGeneration(g, ctx) {
     });
   }
   if (!out.sources.length) warnings.push(`${c}: keine Quellen`);
+  plausibility(out, c);
   return out;
+}
+
+// Günstige Plausibilitätsprüfung statt zweiter Recherche: auffällige Kombinationen melden
+function plausibility(g, c) {
+  const { lengthMm: L, widthMm: W, heightMm: H, trunkL, trunkFoldedL, bodyType } = g;
+  if (L && W && H && trunkL) {
+    // Kofferraum in Promille des umbauten Raums (L × B × H)
+    const share = (trunkL / ((L / 1000) * (W / 1000) * (H / 1000) * 1000)) * 1000;
+    const [lo, hi] = bodyType === "van" ? [30, 220] : bodyType === "convertible" || bodyType === "coupe" ? [20, 80] : [25, 95];
+    if (share < lo || share > hi)
+      warnings.push(`${c}: Kofferraum ${trunkL} l wirkt im Verhältnis zur Fahrzeuggröße unplausibel (${share.toFixed(0)} ‰)`);
+  }
+  if (trunkL && trunkFoldedL && bodyType !== "sedan" && bodyType !== "van" && trunkFoldedL / trunkL < 1.6) {
+    warnings.push(`${c}: umgeklappt nur ${(trunkFoldedL / trunkL).toFixed(1)}× normal – evtl. Messmethode vertauscht`);
+  }
+  const base = g.variants.filter((v) => ["petrol", "diesel", "mhev"].includes(v.powertrain) && v.trunkL).map((v) => v.trunkL);
+  const maxBase = base.length ? Math.max(...base) : g.trunkL;
+  for (const v of g.variants) {
+    if (v.powertrain === "phev" && v.trunkL && maxBase && v.trunkL > maxBase) {
+      warnings.push(`${c} / ${v.name}: Plug-in-Hybrid hat größeren Kofferraum (${v.trunkL} l) als Verbrenner (${maxBase} l)`);
+    }
+    if (v.trunkL && g.trunkL && Math.abs(v.trunkL - g.trunkL) / g.trunkL > 0.5) {
+      warnings.push(`${c} / ${v.name}: Variante weicht stark vom Generationswert ab (${v.trunkL} vs. ${g.trunkL} l)`);
+    }
+  }
+  if (g.wheelbaseMm && L && (g.wheelbaseMm / L < 0.5 || g.wheelbaseMm / L > 0.72)) {
+    warnings.push(`${c}: Radstand ${g.wheelbaseMm} mm passt nicht zur Länge ${L} mm`);
+  }
 }
 
 const PT_ORDER = ["petrol", "mhev", "diesel", "hev", "phev", "bev", "cng", "lpg", "fcev"];

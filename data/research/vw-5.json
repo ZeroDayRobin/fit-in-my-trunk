@@ -1,0 +1,948 @@
+{
+ "id": "vw-5",
+ "brand": "Volkswagen",
+ "data": {
+  "models": [
+   {
+    "brand": "Volkswagen",
+    "model": "ID.4",
+    "generations": [
+     {
+      "name": "1. Generation (E2)",
+      "yearFrom": 2020,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4584,
+      "widthMm": 1852,
+      "heightMm": 1616,
+      "wheelbaseMm": 2771,
+      "trunkL": 543,
+      "trunkFoldedL": 1575,
+      "loadSpace": null,
+      "confidence": "high",
+      "notes": "Official VW figures (volkswagen.at): length 4,584 mm without tow hitch, width 1,852 mm without mirrors, height 1,616 mm without roof rails, wheelbase 2,771 mm, luggage 543 l / 1,575 l. Other sources give different heights depending on roof rails and wheels: auto motor und sport 1,631 mm (1,640 mm for the Pro), ADAC 1,634 mm for the BLACK EDITION from 03/26. ADAC lists 4,582 mm length and 2,769 mm wheelbase for the Pro 4MOTION 06/22-10/23. Market launch 12/2020 (ADAC generation start). Dimensions and trunk did not change with the 2023 update (MY24: new APP550 motor, 286/340 PS) or the 03/2026 update (MY27: 58 kWh LFP Pure, 190 PS). No frunk. Trunk 543/1,575 l is confirmed for Pure, the 77 kWh variants, GTX 4MOTION and BLACK EDITION, so it is set for all variants, 4MOTION included. Successor: ID. Tiguan, world premiere 9 Oct 2026, market launch 2027, so outside this range. Preliminary ID. Tiguan data from dealer/press sources: 4,618 x 1,855 x 1,619 mm, wheelbase 2,765 mm, 534 l + 32 l frunk, up to 1,577 l.",
+      "variants": [
+       {
+        "name": "Pure 52 kWh 148 PS",
+        "powertrain": "bev",
+        "powerPs": 148,
+        "awd": false,
+        "trunkL": 543,
+        "trunkFoldedL": 1575,
+        "yearFrom": 2021,
+        "yearTo": 2023,
+        "notes": "109 kW. Power from third-party data (autoplenum, cars-data). Inferred to be replaced by the 125 kW Pure in 04/2023 (ADAC)."
+       },
+       {
+        "name": "Pure Performance / Pure 52 kWh 170 PS",
+        "powertrain": "bev",
+        "powerPs": 170,
+        "awd": false,
+        "trunkL": 543,
+        "trunkFoldedL": 1575,
+        "yearFrom": 2021,
+        "yearTo": 2026,
+        "notes": "125 kW. Called 'Pure Performance' from 02/21 (ADAC). ADAC lists it as 'Pure' 125 kW/170 PS from 04/23 to 03/26."
+       },
+       {
+        "name": "Pure 58 kWh 190 PS",
+        "powertrain": "bev",
+        "powerPs": 190,
+        "awd": false,
+        "trunkL": 543,
+        "trunkFoldedL": 1575,
+        "yearFrom": 2026,
+        "yearTo": null,
+        "notes": "140 kW, new 58 kWh LFP battery and APP350 motor, model year 2027, from 03/2026 (ADAC, automobile-propre, ev-database). Also sold as Pure ENERGY and BLACK EDITION."
+       },
+       {
+        "name": "Pro 77 kWh 174 PS",
+        "powertrain": "bev",
+        "powerPs": 174,
+        "awd": false,
+        "trunkL": 543,
+        "trunkFoldedL": 1575,
+        "yearFrom": 2021,
+        "yearTo": 2023,
+        "notes": "128 kW. Power and period from manufacturer data I know but could not check against a source in this session."
+       },
+       {
+        "name": "Pro Performance 77 kWh 204 PS",
+        "powertrain": "bev",
+        "powerPs": 204,
+        "awd": false,
+        "trunkL": 543,
+        "trunkFoldedL": 1575,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "150 kW. ADAC entry from 12/20, also as 1st Edition and 'Max'. Power from autotijd. AMS lists 1,640 mm height for the Pro."
+       },
+       {
+        "name": "Pro 77 kWh 286 PS",
+        "powertrain": "bev",
+        "powerPs": 286,
+        "awd": false,
+        "trunkL": 543,
+        "trunkFoldedL": 1575,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "210 kW (APP550). ADAC: 01/24-03/26 and from 03/26. Also ENERGY, GOAL and BLACK EDITION trims."
+       },
+       {
+        "name": "Pro 4MOTION 77 kWh 265 PS",
+        "powertrain": "bev",
+        "powerPs": 265,
+        "awd": true,
+        "trunkL": 543,
+        "trunkFoldedL": 1575,
+        "yearFrom": 2022,
+        "yearTo": 2023,
+        "lengthMm": 4582,
+        "notes": "195 kW, ADAC 06/22-10/23. ADAC gives 4,582 mm length and 2,769 mm wheelbase for this entry."
+       },
+       {
+        "name": "Pro 4MOTION 77 kWh 286 PS",
+        "powertrain": "bev",
+        "powerPs": 286,
+        "awd": true,
+        "trunkL": 543,
+        "trunkFoldedL": 1575,
+        "yearFrom": 2023,
+        "yearTo": 2026,
+        "notes": "210 kW system power, ADAC 10/23-03/26."
+       },
+       {
+        "name": "Pro 4MOTION 77 kWh 299 PS",
+        "powertrain": "bev",
+        "powerPs": 299,
+        "awd": true,
+        "trunkL": 543,
+        "trunkFoldedL": 1575,
+        "yearFrom": 2026,
+        "yearTo": null,
+        "notes": "220 kW system power, ADAC from 03/26."
+       },
+       {
+        "name": "GTX 4MOTION 299 PS",
+        "powertrain": "bev",
+        "powerPs": 299,
+        "awd": true,
+        "trunkL": 543,
+        "trunkFoldedL": 1575,
+        "yearFrom": 2021,
+        "yearTo": 2023,
+        "notes": "220 kW. Power from manufacturer data I know but could not check against a source in this session. Height of the early GTX not verified; the sport suspension sits lower than the standard car."
+       },
+       {
+        "name": "GTX 4MOTION 340 PS",
+        "powertrain": "bev",
+        "powerPs": 340,
+        "awd": true,
+        "trunkL": 543,
+        "trunkFoldedL": 1575,
+        "heightMm": 1601,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "250 kW (Ludego, from the manufacturer list price). VW Austria gives 1,601 mm height without roof rails. ADAC gives 1,619 mm for 10/23-07/25 and from 07/25. Trunk 543/1,575 l confirmed by ADAC and VW Austria."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.volkswagen.at/id4/id4/technische-daten/pure",
+        "what": "Official: length 4,584 mm, height 1,616 mm without roof rails, wheelbase 2,771 mm, trunk 543-1,575 l"
+       },
+       {
+        "url": "https://www.volkswagen.at/id4/id4/technische-daten/pure-business",
+        "what": "Official: same dimensions and trunk range"
+       },
+       {
+        "url": "https://www.volkswagen.at/id4/id4-gtx/technische-daten/gtx-4motion",
+        "what": "Official: GTX height 1,601 mm without roof rails, trunk 543/1,575 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id4/1generation/318521",
+        "what": "ADAC Pro Performance Max 12/20-05/21: 4,584/1,852 mm, 543/1,575 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id4/1generation/329961/",
+        "what": "ADAC GTX 4MOTION 10/23-07/25: height 1,619 mm, 543/1,575 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id4/1generation/352005/",
+        "what": "ADAC GTX 4MOTION from 07/25: same dimensions and trunk"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id4/1generation/325316",
+        "what": "ADAC Pro 4MOTION 06/22-10/23: 195 kW/265 PS, length 4,582, wheelbase 2,769"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id4/1generation/329960/",
+        "what": "ADAC Pro 4MOTION 10/23-03/26: 210 kW/286 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id4/1generation/350440/",
+        "what": "ADAC Pro 4MOTION from 03/26: 220 kW/299 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id4/1generation/350443/",
+        "what": "ADAC Pure from 03/26: 140 kW/190 PS, generation start 12/20"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id4/1generation/350445/",
+        "what": "ADAC Pure BLACK EDITION from 03/26: 4,584/1,852/1,634 mm, wheelbase 2,771, 543 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id4/1generation/332632",
+        "what": "ADAC Pro 01/24-03/26 (210 kW/286 PS)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id4/1generation/350446/",
+        "what": "ADAC Pro from 03/26 (286 PS)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id4/1generation/",
+        "what": "ADAC generation overview, Pure 125 kW/170 PS 04/23-03/26"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id4/1generation/319317",
+        "what": "ADAC Pure Performance 02/21-05/21"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id4/1generation/315754/",
+        "what": "ADAC Pro Performance 12/20-05/21"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/fahrbericht/vw-id-4-kompakter-e-suv/technische-daten/",
+        "what": "AMS: 543-1,575 l for the 77 kWh variants, heights 1,631/1,640 mm"
+       },
+       {
+        "url": "https://www.carwow.de/volkswagen/id4/technische-daten",
+        "what": "543 l / 1,575 l"
+       },
+       {
+        "url": "https://www.autoplenum.de/auto/vw/id-4/suv-2020/109-kw-149-ps",
+        "what": "Pure 109 kW variant"
+       },
+       {
+        "url": "https://autotijd.be/de/abmessungen/volkswagen/id4/77-kwh-204-hp",
+        "what": "77 kWh 204 PS RWD variant"
+       },
+       {
+        "url": "https://www.automobile-propre.com/articles/volkswagen-id-4-pure-plus-dautonomie-pour-la-version-de-base-sans-hausse-de-prix/",
+        "what": "Pure: 58 kWh LFP, APP350, 125 to 140 kW"
+       },
+       {
+        "url": "https://ev-database.org/de/pkw/3495/Volkswagen-ID4-Pure",
+        "what": "Pure MY27 orderable from March 2026"
+       },
+       {
+        "url": "https://www.ludego.com/vw/vw-id-4/",
+        "what": "GTX 4MOTION 250 kW (340 PS)"
+       },
+       {
+        "url": "https://www.carwow.de/volkswagen/id4/auto-news/5423/volkswagen-id4-id-tiguan-facelift-2026-technische-daten-bilder",
+        "what": "ID. Tiguan (ID.4 successor) presented Oct 2026"
+       },
+       {
+        "url": "https://www.volkswagen-automobile-stuttgart.de/blog/elektromobilitaet/id-tiguan-weltpremiere",
+        "what": "Preliminary ID. Tiguan dimensions and trunk (successor, market launch 2027)"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "ID.5",
+    "generations": [
+     {
+      "name": "1. Generation",
+      "yearFrom": 2022,
+      "yearTo": null,
+      "bodyType": "suv-coupe",
+      "lengthMm": 4599,
+      "widthMm": 1852,
+      "heightMm": 1618,
+      "wheelbaseMm": 2771,
+      "trunkL": 549,
+      "trunkFoldedL": 1561,
+      "loadSpace": null,
+      "confidence": "high",
+      "notes": "ADAC manufacturer data: 4,599 x 1,852 mm (2,108 mm with mirrors), height 1,618 mm (10/23 onwards; 1,616 mm and wheelbase 2,770 mm on the 05/22-07/23 entries). Trunk 549 l / 1,561 l folded. The 2023 update (MY24) and the 03/2026 update left dimensions and trunk unchanged. No frunk. Dimensions of the GTX were not checked separately.",
+      "variants": [
+       {
+        "name": "Pro 77 kWh 174 PS",
+        "powertrain": "bev",
+        "powerPs": 174,
+        "awd": false,
+        "trunkL": 549,
+        "trunkFoldedL": 1561,
+        "yearFrom": 2022,
+        "yearTo": 2023,
+        "notes": "128 kW. ADAC Pro 05/22-07/23. Power from manufacturer data I know but could not check against a source in this session."
+       },
+       {
+        "name": "Pro Performance 77 kWh 204 PS",
+        "powertrain": "bev",
+        "powerPs": 204,
+        "awd": false,
+        "trunkL": 549,
+        "trunkFoldedL": 1561,
+        "yearFrom": 2022,
+        "yearTo": 2023,
+        "notes": "150 kW. evkx: 549/1,561 l for Pro Performance. Power from manufacturer data I know but could not check against a source in this session."
+       },
+       {
+        "name": "GTX 4MOTION 299 PS",
+        "powertrain": "bev",
+        "powerPs": 299,
+        "awd": true,
+        "trunkL": 549,
+        "trunkFoldedL": 1561,
+        "yearFrom": 2022,
+        "yearTo": 2023,
+        "notes": "220 kW. Power from manufacturer data I know but could not check against a source in this session. GTX trunk assumed equal to the other BEV variants; not checked separately."
+       },
+       {
+        "name": "Pro 77 kWh 286 PS",
+        "powertrain": "bev",
+        "powerPs": 286,
+        "awd": false,
+        "trunkL": 549,
+        "trunkFoldedL": 1561,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "210 kW (APP550). ADAC Pro 10/23-07/25 and later. Power from manufacturer data I know but could not check against a source in this session."
+       },
+       {
+        "name": "GTX 4MOTION 340 PS",
+        "powertrain": "bev",
+        "powerPs": 340,
+        "awd": true,
+        "trunkL": 549,
+        "trunkFoldedL": 1561,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "250 kW. Power from manufacturer data I know but could not check against a source in this session."
+       },
+       {
+        "name": "Pure 52 kWh 170 PS",
+        "powertrain": "bev",
+        "powerPs": 170,
+        "awd": false,
+        "trunkL": 549,
+        "trunkFoldedL": 1561,
+        "yearFrom": 2024,
+        "yearTo": 2026,
+        "notes": "125 kW. ADAC Pure 06/24-03/26. Power from manufacturer data I know but could not check against a source in this session."
+       },
+       {
+        "name": "Pure (ab 03/2026)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 549,
+        "trunkFoldedL": 1561,
+        "yearFrom": 2026,
+        "yearTo": null,
+        "notes": "ADAC entry from 03/26. Power not found; probably the new 58 kWh LFP drive like the ID.4 Pure (140 kW), but not verified."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id5/1generation/329958",
+        "what": "ADAC Pro 10/23-07/25: 4,599/1,852/1,618 mm, 2,108 mm with mirrors"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id5/1generation/322563",
+        "what": "ADAC Pro 05/22-07/23: height 1,616 mm, wheelbase 2,770 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id5/1generation/335777",
+        "what": "ADAC Pure 06/24-03/26"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id5/1generation/350449/",
+        "what": "ADAC Pure from 03/26"
+       },
+       {
+        "url": "https://www.carwow.de/volkswagen/id5/technische-daten",
+        "what": "Trunk 549 l / 1,561 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/vw/id5/serie/",
+        "what": "Trunk 549 l (seats up) / 1,561 l (folded)"
+       },
+       {
+        "url": "https://evkx.net/models/volkswagen/id.5/id.5_pro_performance/specifications",
+        "what": "Pro Performance trunk 549/1,561 l"
+       },
+       {
+        "url": "https://www.nextpit.de/e-autos/volkswagen-id-5-pro-performance",
+        "what": "Pro Performance variant listing"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "ID. Buzz",
+    "generations": [
+     {
+      "name": "1. Generation (kurzer Radstand)",
+      "yearFrom": 2022,
+      "yearTo": null,
+      "bodyType": "van",
+      "lengthMm": 4712,
+      "widthMm": 1985,
+      "heightMm": 1937,
+      "wheelbaseMm": 2988,
+      "trunkL": 1121,
+      "trunkFoldedL": 2205,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Short-wheelbase 5-seater. 1,121 l is confirmed by carwow and nextpit. The figures 4,712 x 1,985 x 1,937 mm, wheelbase 2,988 mm and 2,205 l are VW press-kit values I know but could not check against a source in this session; the search budget ran out. The official VW Newsroom datasheet is linked below but was not opened. carwow gives different folded values (up to 3,456 l, probably a different measuring method), so trunkFoldedL should be verified. The 2024 update (79 kWh, 286 PS) left the body unchanged. No usable frunk. Load-floor dimensions not found.",
+      "variants": [
+       {
+        "name": "Pro 77 kWh 204 PS",
+        "powertrain": "bev",
+        "powerPs": 204,
+        "awd": false,
+        "trunkL": 1121,
+        "trunkFoldedL": 2205,
+        "yearFrom": 2022,
+        "yearTo": 2024,
+        "notes": "150 kW. Launch version. Power from manufacturer data I know but could not check against a source in this session."
+       },
+       {
+        "name": "Pro 79 kWh 286 PS",
+        "powertrain": "bev",
+        "powerPs": 286,
+        "awd": false,
+        "trunkL": 1121,
+        "trunkFoldedL": 2205,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "210 kW. InsideEVs: up to 79 kWh on the short wheelbase. Power from manufacturer data I know but could not check against a source in this session."
+       },
+       {
+        "name": "Pure 59 kWh 170 PS",
+        "powertrain": "bev",
+        "powerPs": 170,
+        "awd": false,
+        "trunkL": 1121,
+        "trunkFoldedL": 2205,
+        "yearFrom": 2025,
+        "yearTo": null,
+        "notes": "Entry-level version. Power and battery from manufacturer data I know but could not check against a source in this session."
+       },
+       {
+        "name": "GTX 4MOTION 79 kWh 340 PS",
+        "powertrain": "bev",
+        "powerPs": 340,
+        "awd": true,
+        "trunkL": 1121,
+        "trunkFoldedL": 2205,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "250 kW. The front motor does not affect the rear trunk; trunk not checked separately for the short-wheelbase GTX."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.volkswagen-newsroom.com/de/der-neue-id-buzz-und-id-buzz-cargo-die-weltpremiere-7778/datenblatt-der-id-buzz-und-id-buzz-cargo-7796",
+        "what": "Official VW datasheet for ID. Buzz / ID. Buzz Cargo (found, not opened)"
+       },
+       {
+        "url": "https://www.carwow.de/volkswagen/id-buzz/technische-daten",
+        "what": "Trunk 1,121 l with rear seats up (short wheelbase); differing folded values"
+       },
+       {
+        "url": "https://www.nextpit.de/e-autos/volkswagen-id-buzz-kurz-pro",
+        "what": "Pro short-wheelbase variant"
+       },
+       {
+        "url": "https://insideevs.de/features/747515/vw-id-buzz-daten-preise/",
+        "what": "Overview of all variants; short wheelbase up to 79 kWh"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "ID. Buzz langer Radstand",
+    "generations": [
+     {
+      "name": "1. Generation (langer Radstand)",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "van",
+      "lengthMm": 4962,
+      "widthMm": 1985,
+      "heightMm": null,
+      "wheelbaseMm": 3239,
+      "trunkL": 1340,
+      "trunkFoldedL": 2469,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Per InsideEVs: length 4,962 mm, wheelbase 3,239 mm, 86 kWh net battery. Up to 7 seats. 306 l behind the 3rd row (7 seats); 1,340 l with the 3rd row folded or removed (5-seat use); 2,469 l maximum, the figure given at the launch (InsideEVs: missing from the official VWN datasheet). nextpit confirms 1,340 l for the long-wheelbase GTX. carwow gives 1,581-3,456 l folded, apparently a different measurement. Width 1,985 mm is assumed to match the short wheelbase (same body) and is not verified; InsideEVs gives 1,924 mm, which may be a mislabelled height. Height not verified. yearFrom 2024 = European launch of the long wheelbase, not verified.",
+      "variants": [
+       {
+        "name": "Pro 86 kWh 286 PS",
+        "powertrain": "bev",
+        "powerPs": 286,
+        "awd": false,
+        "trunkL": 1340,
+        "trunkFoldedL": 2469,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "210 kW. Power from manufacturer data I know but could not check against a source in this session. nextpit lists 1,121 l for 'Pro langer Radstand 2025', which contradicts the 1,340 l above; likely a data error."
+       },
+       {
+        "name": "GTX 4MOTION 86 kWh 340 PS",
+        "powertrain": "bev",
+        "powerPs": 340,
+        "awd": true,
+        "trunkL": 1340,
+        "trunkFoldedL": 2469,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "250 kW. nextpit: 1,340 l trunk."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://insideevs.de/features/747515/vw-id-buzz-daten-preise/",
+        "what": "Long wheelbase: 4,962 mm, wheelbase 3,239 mm, 86 kWh, trunk 306 / 1,340 / 2,469 l"
+       },
+       {
+        "url": "https://www.nextpit.de/e-autos/volkswagen-id-buzz-gtx-4motion-langer-radstand",
+        "what": "GTX 4MOTION long wheelbase: 1,340 l"
+       },
+       {
+        "url": "https://www.nextpit.de/e-autos/volkswagen-id-buzz-lang-pro",
+        "what": "Pro long-wheelbase variant"
+       },
+       {
+        "url": "https://www.nextpit.de/e-autos/volkswagen-id-buzz-pro-langer-radstand-2025",
+        "what": "Pro long wheelbase 2025 (lists conflicting 1,121 l)"
+       },
+       {
+        "url": "https://www.carwow.de/volkswagen/id-buzz/technische-daten",
+        "what": "Conflicting folded volume 1,581-3,456 l"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Multivan",
+    "generations": [
+     {
+      "name": "T7 (kurzer Überhang)",
+      "yearFrom": 2021,
+      "yearTo": null,
+      "bodyType": "van",
+      "lengthMm": 4973,
+      "widthMm": 1941,
+      "heightMm": 1907,
+      "wheelbaseMm": 3124,
+      "trunkL": 1850,
+      "trunkFoldedL": 3672,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "AMS (1.4 eHybrid test): 4,973 x 1,941 x 1,907 mm, wheelbase 3,124 mm, trunk 469-3,672 l. 7-seat value: 469 l behind the 3rd row. trunkL 1,850 l = 3rd row folded/removed (5-seat use), from Wikipedia; the exact official value was not verified. trunkFoldedL 3,672 l = 2nd and 3rd row removed (seats can be taken out individually). The long-overhang version is a separate model. Market launch late 2021 (MY2022), not verified. The T6.1 Multivan (MY2020-2021) is not covered.",
+      "variants": [
+       {
+        "name": "1.5 TSI 136 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 136,
+        "awd": false,
+        "trunkL": 1850,
+        "trunkFoldedL": 3672,
+        "yearFrom": 2021,
+        "yearTo": null,
+        "notes": "100 kW. Power from manufacturer data I know but could not check against a source in this session."
+       },
+       {
+        "name": "2.0 TSI 204 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 204,
+        "awd": false,
+        "trunkL": 1850,
+        "trunkFoldedL": 3672,
+        "yearFrom": 2021,
+        "yearTo": null,
+        "notes": "150 kW. Power from manufacturer data I know but could not check against a source in this session."
+       },
+       {
+        "name": "2.0 TDI 150 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 1850,
+        "trunkFoldedL": 3672,
+        "yearFrom": 2022,
+        "yearTo": null,
+        "notes": "110 kW. Power and start year from manufacturer data I know but could not check against a source in this session."
+       },
+       {
+        "name": "1.4 eHybrid 218 PS DSG",
+        "powertrain": "phev",
+        "powerPs": 218,
+        "awd": false,
+        "trunkL": 1850,
+        "trunkFoldedL": 3672,
+        "yearFrom": 2021,
+        "yearTo": null,
+        "notes": "160 kW system power. AMS eHybrid test gives the same 469-3,672 l as the combustion versions (battery under the floor), so there is no trunk penalty."
+       },
+       {
+        "name": "eHybrid 4MOTION 245 PS DSG",
+        "powertrain": "phev",
+        "powerPs": 245,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2025,
+        "yearTo": null,
+        "notes": "180 kW system power. Power, start year and trunk not verified in this session."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.auto-motor-und-sport.de/test/vw-multivan-e-hybrid/technische-daten/",
+        "what": "AMS: 4,973 x 1,941 x 1,907 mm, wheelbase 3,124, trunk 469-3,672 l (1.4 eHybrid)"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Volkswagen_Multivan_(T7)",
+        "what": "Short 4,973 / long 5,173 mm; 469 l / 1,850 l (3rd row folded) / 3,672 l"
+       },
+       {
+        "url": "https://www.motor1.com/news/513276/2022-vw-t7-multivan-debut/",
+        "what": "T7 debut, eHybrid"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Multivan langer Überhang",
+    "generations": [
+     {
+      "name": "T7 (langer Überhang)",
+      "yearFrom": 2021,
+      "yearTo": null,
+      "bodyType": "van",
+      "lengthMm": 5173,
+      "widthMm": 1941,
+      "heightMm": 1907,
+      "wheelbaseMm": 3124,
+      "trunkL": null,
+      "trunkFoldedL": 4053,
+      "loadSpace": null,
+      "confidence": "low",
+      "notes": "Wikipedia: length 5,173 mm, same 3,124 mm wheelbase, up to 4,053 l with 2nd and 3rd rows removed. Width and height are taken from the short version (same body) and not verified separately. The volume behind the 3rd row (7 seats) and with the 3rd row removed was not found.",
+      "variants": [
+       {
+        "name": "1.5 TSI 136 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 136,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": 4053,
+        "yearFrom": 2021,
+        "yearTo": null,
+        "notes": "Engine range as the short version; not verified."
+       },
+       {
+        "name": "2.0 TSI 204 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 204,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": 4053,
+        "yearFrom": 2021,
+        "yearTo": null,
+        "notes": "Not verified."
+       },
+       {
+        "name": "2.0 TDI 150 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": 4053,
+        "yearFrom": 2022,
+        "yearTo": null,
+        "notes": "Not verified."
+       },
+       {
+        "name": "1.4 eHybrid 218 PS DSG",
+        "powertrain": "phev",
+        "powerPs": 218,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2021,
+        "yearTo": null,
+        "notes": "Trunk for the long-overhang eHybrid not verified."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://en.wikipedia.org/wiki/Volkswagen_Multivan_(T7)",
+        "what": "Long overhang 5,173 mm, 4,053 l maximum"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/test/vw-multivan-e-hybrid/technische-daten/",
+        "what": "Width/height/wheelbase of the T7 (short version)"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Caddy",
+    "generations": [
+     {
+      "name": "Caddy 5 (SK)",
+      "yearFrom": 2020,
+      "yearTo": null,
+      "bodyType": "van",
+      "lengthMm": 4500,
+      "widthMm": 1855,
+      "heightMm": null,
+      "wheelbaseMm": 2755,
+      "trunkL": 1213,
+      "trunkFoldedL": 2556,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Passenger version (Pkw), short wheelbase. Trunk 1,213 l behind the 2nd row and 2,556 l maximum (autohaus, carwow), measured up to the roof, not up to a parcel shelf. 7-seater: 191 l behind the 3rd row (autohaus). Length 4,500 mm (vehiclesizes). Width 1,855 mm per vehiclesizes, which only listed it for the Maxi; same body width assumed. Wheelbase 2,755 mm is manufacturer data I know but could not check against a source in this session. Height not found. Market launch late 2020, not verified. The Caddy 4 (MY2020) is not covered.",
+      "variants": [
+       {
+        "name": "1.5 TSI 114 PS",
+        "powertrain": "petrol",
+        "powerPs": 114,
+        "awd": false,
+        "trunkL": 1213,
+        "trunkFoldedL": 2556,
+        "yearFrom": 2020,
+        "yearTo": null,
+        "notes": "84 kW. Power from manufacturer data I know but could not check against a source in this session."
+       },
+       {
+        "name": "2.0 TDI 102 PS",
+        "powertrain": "diesel",
+        "powerPs": 102,
+        "awd": false,
+        "trunkL": 1213,
+        "trunkFoldedL": 2556,
+        "yearFrom": 2020,
+        "yearTo": null,
+        "notes": "75 kW. Not verified in this session."
+       },
+       {
+        "name": "2.0 TDI 122 PS (DSG)",
+        "powertrain": "diesel",
+        "powerPs": 122,
+        "awd": false,
+        "trunkL": 1213,
+        "trunkFoldedL": 2556,
+        "yearFrom": 2020,
+        "yearTo": null,
+        "notes": "90 kW. Not verified in this session."
+       },
+       {
+        "name": "2.0 TDI 122 PS 4MOTION",
+        "powertrain": "diesel",
+        "powerPs": 122,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2021,
+        "yearTo": null,
+        "notes": "Trunk with 4MOTION not verified."
+       },
+       {
+        "name": "1.5 TGI 130 PS",
+        "powertrain": "cng",
+        "powerPs": 130,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2021,
+        "yearTo": null,
+        "notes": "96 kW. CNG tanks under the floor; trunk and offering period not verified."
+       },
+       {
+        "name": "1.5 eHybrid 150 PS DSG",
+        "powertrain": "phev",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "110 kW system power. Trunk of the PHEV not found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autohaus.de/nachrichten/autohersteller/vw-caddy-maxi-bis-zu-3-700-liter-stauraum-2863138",
+        "what": "Caddy 1,213 / 2,556 l, 191 l behind the 3rd row (compared with the Maxi)"
+       },
+       {
+        "url": "https://www.carwow.de/volkswagen/caddy/technische-daten",
+        "what": "1,213 l with seats up; 2,556-3,105 l folded"
+       },
+       {
+        "url": "https://www.vehiclesizes.com/compare/4416-4418/volkswagen-caddy-maxi-v-minivan-2021-vs-volkswagen-caddy-v-minivan-2021/",
+        "what": "Caddy V length 4,500 mm; width 1,855 mm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Caddy Maxi",
+    "generations": [
+     {
+      "name": "Caddy 5 Maxi (SK)",
+      "yearFrom": 2021,
+      "yearTo": null,
+      "bodyType": "van",
+      "lengthMm": 4853,
+      "widthMm": 1855,
+      "heightMm": 1836,
+      "wheelbaseMm": 2970,
+      "trunkL": 1720,
+      "trunkFoldedL": 3105,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Passenger version (Pkw), long wheelbase. Per autohaus: 1,720 l behind the 2nd row, 3,105 l maximum with the 2nd row folded, measured up to the roof; 446 l behind the 3rd row as a 7-seater; up to 3,700 l with seats removed (headline figure). Dimensions from vehiclesizes (4,853 x 1,855 x 1,836 mm) and carexpert (wheelbase 2,970 mm). kofferraum.org gives an outlier of 600 l, not used. Start year 2021 not verified.",
+      "variants": [
+       {
+        "name": "1.5 TSI 114 PS",
+        "powertrain": "petrol",
+        "powerPs": 114,
+        "awd": false,
+        "trunkL": 1720,
+        "trunkFoldedL": 3105,
+        "yearFrom": 2021,
+        "yearTo": null,
+        "notes": "84 kW. Not verified in this session."
+       },
+       {
+        "name": "2.0 TDI 102 PS",
+        "powertrain": "diesel",
+        "powerPs": 102,
+        "awd": false,
+        "trunkL": 1720,
+        "trunkFoldedL": 3105,
+        "yearFrom": 2021,
+        "yearTo": null,
+        "notes": "75 kW. Not verified in this session."
+       },
+       {
+        "name": "2.0 TDI 122 PS (DSG)",
+        "powertrain": "diesel",
+        "powerPs": 122,
+        "awd": false,
+        "trunkL": 1720,
+        "trunkFoldedL": 3105,
+        "yearFrom": 2021,
+        "yearTo": null,
+        "notes": "90 kW. Not verified in this session."
+       },
+       {
+        "name": "2.0 TDI 122 PS 4MOTION",
+        "powertrain": "diesel",
+        "powerPs": 122,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2021,
+        "yearTo": null,
+        "notes": "Trunk not verified."
+       },
+       {
+        "name": "1.5 TGI 130 PS",
+        "powertrain": "cng",
+        "powerPs": 130,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2021,
+        "yearTo": null,
+        "notes": "Trunk not verified."
+       },
+       {
+        "name": "1.5 eHybrid 150 PS DSG",
+        "powertrain": "phev",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "Trunk of the PHEV not found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autohaus.de/nachrichten/autohersteller/vw-caddy-maxi-bis-zu-3-700-liter-stauraum-2863138",
+        "what": "Maxi: 1,720 / 3,105 l, 446 l behind the 3rd row, up to 3,700 l"
+       },
+       {
+        "url": "https://www.carwow.de/volkswagen/caddy/technische-daten",
+        "what": "Folded range up to 3,105 l"
+       },
+       {
+        "url": "https://www.vehiclesizes.com/compare/4416-4418/volkswagen-caddy-maxi-v-minivan-2021-vs-volkswagen-caddy-v-minivan-2021/",
+        "what": "Maxi 4,853 mm long, 1,855 mm wide, 1,836 mm high"
+       },
+       {
+        "url": "https://www.carexpert.com.au/volkswagen/caddy/2021-life-maxi-2l-mini-mpv-fwd-diesel-automatic-jsaks85s20210408",
+        "what": "Maxi wheelbase 2,970 mm"
+       },
+       {
+        "url": "https://kofferraum.org/volumen/vw/caddy-maxi/",
+        "what": "Outlier 600 l (not used)"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "ID.4 / ID.5 load-floor measurements (Ladelänge, Ladebreite, Ladekante)",
+   "ID.5 Pure (from 03/2026) power",
+   "ID.5 GTX separate height",
+   "ID.4 GTX 2021 (299 PS) height",
+   "ID. Buzz short wheelbase: dimensions and 2,205 l from the VW press kit not checked against a source this session (official datasheet found, not opened)",
+   "ID. Buzz long wheelbase height and width (verified)",
+   "ID. Buzz loadSpace dimensions",
+   "ID. Buzz Pure: power and battery not verified",
+   "Multivan T7 long overhang: volume behind the 3rd row and with the 3rd row removed",
+   "Multivan T7: exact official volume behind the 2nd row (Wikipedia gives 1,850 l)",
+   "Multivan eHybrid 4MOTION trunk",
+   "Multivan T6.1 (MY2020-2021) not researched",
+   "Caddy (short wheelbase) height",
+   "Caddy 4 (MY2020) not researched",
+   "Caddy / Caddy Maxi eHybrid, TGI and 4MOTION trunk volumes",
+   "Caddy: VDA volume up to the parcel shelf (only roof-high values found)",
+   "Caddy 2.0 TDI 75 PS in the Pkw lineup not verified",
+   "Caravelle (T6.1 / new T7 Caravelle 2025) and California: possibly missing van models, not researched",
+   "Most engine power figures for ID.5, ID. Buzz, Multivan and Caddy not verified against a source this session"
+  ],
+  "notes": "IMPORTANT: The shared WebSearch budget for this turn (200 calls across all agents) ran out after about 15 searches by this agent. Figures with a URL in sources came from search results (official VW Austria pages, the ADAC Autokatalog, auto motor und sport, InsideEVs, autohaus, carwow and others). Some figures are VW manufacturer data I know but could not check against a source this session; each variant/generation 'notes' field marks them. They matter most for the ID. Buzz short wheelbase dimensions and 2,205 l, the Caddy short wheelbase of 2,755 mm, and most power ratings outside the ID.4. Please spot-check these before release.\n\nModelling choices:\n- ID. Buzz short/long wheelbase, Multivan short/long overhang and Caddy/Caddy Maxi are separate models, because length and trunk differ.\n- For the 7-seat vans (ID. Buzz long wheelbase, Multivan, Caddy), trunkL is the volume behind the 2nd row; the 3rd-row value is in notes.\n- Caddy volumes are roof-high values, not up to the parcel shelf.\n\nID.4 successor ID. Tiguan premiered on 9 Oct 2026 with market launch in 2027, outside this range and not included. Preliminary data: 4,618 x 1,855 x 1,619 mm, wheelbase 2,765 mm, 534 l + 32 l frunk, 1,577 l maximum.\n\nPossibly missing van models in the same segment (not researched): Caravelle (T6.1 until 2024 / new Caravelle from 2025), Multivan T6.1 (MY2020-2021), Caddy 4 (MY2020)."
+ },
+ "verification": null
+}

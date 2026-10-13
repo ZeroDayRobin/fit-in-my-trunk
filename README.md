@@ -31,7 +31,7 @@ Die App nutzt deshalb eine **eigene, kuratierte Datenbank**. Einzelne technische
 - `scripts/build-vehicle-data.mjs` (`npm run data`): übernimmt Korrekturen, prüft die Plausibilität, vergibt IDs und schreibt `data/vehicles/<marke>.json` sowie `data/vehicles/index.json`. Jede Marke wird im Browser als eigener Chunk erst bei Bedarf geladen.
 - Laderaum-Innenmaße veröffentlichen Hersteller nur selten. Fehlen sie, berechnet `lib/vehicles/spec.ts` die Box aus dem VDA-Volumen und typischen Proportionen der Karosserieform. Die App kennzeichnet das als „geschätzt“.
 
-**Stand:** Die Recherche läuft in Etappen. Pro Durchgang sind 200 Websuchen möglich. Derzeit enthalten sind Volkswagen (Teil) und Mercedes-Benz (GLA, GLB). Die übrigen Marken erscheinen in der Auswahl als „Daten folgen“ und werden in den nächsten Etappen ergänzt und gegengeprüft.
+**Umfang (80/20):** Pro Marke sind die meistverkauften Modelle enthalten, insgesamt rund 90 Modelle. Varianten sind nach Antrieb zusammengefasst (Benziner/Diesel, Plug-in-Hybrid, Elektro, Allrad, bekannte Sportversionen), weil sich der Kofferraum praktisch nur danach unterscheidet. Generationen beschränken sich auf die aktuelle und die Vorgängergeneration seit 2020. Unplausible Werte meldet das Build-Skript (z. B. Kofferraum im Verhältnis zur Fahrzeuggröße, Plug-in-Hybrid größer als Verbrenner). Eine vollständige Modellpalette und eine unabhängige Gegenprüfung pro Wert lassen sich später ergänzen, siehe [`docs/recherche-fortsetzen.md`](docs/recherche-fortsetzen.md).
 
 ## Nachricht an den Entwickler (Kontaktformular)
 

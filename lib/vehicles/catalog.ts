@@ -9,7 +9,7 @@ import type { BrandData, CatalogIndex } from "./types";
 export const CATALOG = indexJson as unknown as CatalogIndex;
 
 /** Standardfahrzeug beim Öffnen der Seite (meistzugelassene Marke, beliebtes Modell) */
-export const DEFAULT_VEHICLE = { brandId: "volkswagen", modelName: "Tiguan" };
+export const DEFAULT_VEHICLE = { brandId: "volkswagen", modelName: "Golf" };
 
 const cache = new Map<string, Promise<BrandData>>();
 

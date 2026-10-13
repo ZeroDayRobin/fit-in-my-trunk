@@ -7,11 +7,53 @@
    "kbaRank": 1,
    "models": [
     {
+     "id": "caddy",
+     "name": "Caddy",
+     "bodyType": "van",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "caddy-maxi",
+     "name": "Caddy Maxi",
+     "bodyType": "van",
+     "yearFrom": 2021,
+     "yearTo": null
+    },
+    {
      "id": "golf-sportsvan",
      "name": "Golf Sportsvan",
      "bodyType": "van",
      "yearFrom": 2018,
      "yearTo": 2020
+    },
+    {
+     "id": "id-buzz",
+     "name": "ID. Buzz",
+     "bodyType": "van",
+     "yearFrom": 2022,
+     "yearTo": null
+    },
+    {
+     "id": "id-buzz-langer-radstand",
+     "name": "ID. Buzz langer Radstand",
+     "bodyType": "van",
+     "yearFrom": 2024,
+     "yearTo": null
+    },
+    {
+     "id": "id-4",
+     "name": "ID.4",
+     "bodyType": "suv",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "id-5",
+     "name": "ID.5",
+     "bodyType": "suv-coupe",
+     "yearFrom": 2022,
+     "yearTo": null
     },
     {
      "id": "id-7",
@@ -25,6 +67,20 @@
      "name": "ID.7 Tourer",
      "bodyType": "wagon",
      "yearFrom": 2024,
+     "yearTo": null
+    },
+    {
+     "id": "multivan",
+     "name": "Multivan",
+     "bodyType": "van",
+     "yearFrom": 2021,
+     "yearTo": null
+    },
+    {
+     "id": "multivan-langer-uberhang",
+     "name": "Multivan langer Überhang",
+     "bodyType": "van",
+     "yearFrom": 2021,
      "yearTo": null
     },
     {

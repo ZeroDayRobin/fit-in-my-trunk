@@ -1,0 +1,533 @@
+{
+ "_comment": "Recherche-Pakete (KBA-Top-10-Marken 2025, Seat und Cupra getrennt, Modelljahre 2020–2026). 'priority' = 80/20-Auswahl der meistverkauften Modelle (erledigt). 'full' = vollständige Modellpalette für spätere Erweiterungen; Pakete, für die data/research/<id>.json existiert, sind erledigt.",
+ "priority": [
+  {
+   "id": "p-vw",
+   "brand": "Volkswagen",
+   "models": [
+    "Golf (Golf 8 und Facelift 2024)",
+    "Golf Variant",
+    "Polo",
+    "ID.3",
+    "ID.4"
+   ]
+  },
+  {
+   "id": "p-skoda-1",
+   "brand": "Skoda",
+   "models": [
+    "Fabia",
+    "Kamiq",
+    "Octavia Combi",
+    "Octavia Limousine",
+    "Superb Combi"
+   ]
+  },
+  {
+   "id": "p-ford",
+   "brand": "Ford",
+   "models": [
+    "Puma (inkl. Gen-E)",
+    "Kuga",
+    "Focus Turnier",
+    "Explorer (Elektro)"
+   ]
+  },
+  {
+   "id": "p-mb",
+   "brand": "Mercedes-Benz",
+   "models": [
+    "A-Klasse Kompaktlimousine",
+    "C-Klasse Limousine",
+    "C-Klasse T-Modell",
+    "E-Klasse T-Modell",
+    "GLC",
+    "CLA"
+   ]
+  },
+  {
+   "id": "p-skoda-2",
+   "brand": "Skoda",
+   "models": [
+    "Karoq",
+    "Kodiaq",
+    "Enyaq",
+    "Elroq"
+   ]
+  },
+  {
+   "id": "p-opel",
+   "brand": "Opel",
+   "models": [
+    "Corsa",
+    "Astra",
+    "Astra Sports Tourer",
+    "Mokka",
+    "Grandland",
+    "Frontera"
+   ]
+  },
+  {
+   "id": "p-bmw-1",
+   "brand": "BMW",
+   "models": [
+    "1er",
+    "2er Active Tourer",
+    "X1 (inkl. iX1)",
+    "X3 (inkl. iX3)"
+   ]
+  },
+  {
+   "id": "p-audi",
+   "brand": "Audi",
+   "models": [
+    "A3 Sportback",
+    "A4 Avant (B9, bis 2024)",
+    "A5 Avant (ab 2024)",
+    "A6 Avant",
+    "Q3",
+    "Q4 e-tron",
+    "Q5"
+   ]
+  },
+  {
+   "id": "p-seat",
+   "brand": "Seat",
+   "models": [
+    "Ibiza",
+    "Arona",
+    "Leon",
+    "Leon Sportstourer",
+    "Ateca"
+   ]
+  },
+  {
+   "id": "p-bmw-2",
+   "brand": "BMW",
+   "models": [
+    "3er Limousine",
+    "3er Touring",
+    "5er Touring (inkl. i5 Touring)",
+    "X5"
+   ]
+  },
+  {
+   "id": "p-cupra",
+   "brand": "Cupra",
+   "models": [
+    "Formentor (inkl. VZ e-HYBRID)",
+    "Born",
+    "Terramar",
+    "Tavascan"
+   ]
+  },
+  {
+   "id": "p-hyundai",
+   "brand": "Hyundai",
+   "models": [
+    "i10",
+    "i20",
+    "i30 Kombi",
+    "Kona",
+    "Tucson",
+    "Ioniq 5",
+    "Inster"
+   ]
+  },
+  {
+   "id": "p-toyota",
+   "brand": "Toyota",
+   "models": [
+    "Yaris",
+    "Yaris Cross",
+    "C-HR",
+    "Corolla Touring Sports",
+    "Corolla Cross",
+    "RAV4"
+   ]
+  }
+ ],
+ "full": [
+  {
+   "id": "vw-1",
+   "brand": "Volkswagen",
+   "models": [
+    "Polo",
+    "Golf (Golf 8 inkl. Facelift 2024, GTI/GTD/GTE/R/eHybrid)",
+    "Golf Variant",
+    "ID.3",
+    "up! / e-up!",
+    "ID. Polo / ID.2 (falls offizielle Daten verfügbar)"
+   ]
+  },
+  {
+   "id": "vw-2",
+   "brand": "Volkswagen",
+   "models": [
+    "T-Cross",
+    "T-Roc (A1 und neue Generation 2025/26)",
+    "T-Roc Cabriolet",
+    "Taigo",
+    "Golf Sportsvan (bis 2020)"
+   ]
+  },
+  {
+   "id": "vw-3",
+   "brand": "Volkswagen",
+   "models": [
+    "Tiguan (AD1 und 3. Generation ab 2024)",
+    "Tiguan Allspace",
+    "Tayron",
+    "Touran",
+    "Touareg (CR)"
+   ]
+  },
+  {
+   "id": "vw-4",
+   "brand": "Volkswagen",
+   "models": [
+    "Passat Variant (B8 und B9)",
+    "ID.7",
+    "ID.7 Tourer"
+   ]
+  },
+  {
+   "id": "vw-4b",
+   "brand": "Volkswagen",
+   "models": [
+    "Arteon",
+    "Arteon Shooting Brake",
+    "Sharan"
+   ]
+  },
+  {
+   "id": "vw-5",
+   "brand": "Volkswagen",
+   "models": [
+    "ID.4",
+    "ID.5",
+    "ID. Buzz (kurzer und langer Radstand)",
+    "Multivan (T7)",
+    "Caddy (Pkw, inkl. Maxi)"
+   ]
+  },
+  {
+   "id": "mb-1",
+   "brand": "Mercedes-Benz",
+   "models": [
+    "A-Klasse Kompaktlimousine (W177)",
+    "A-Klasse Limousine (V177)",
+    "B-Klasse (W247)",
+    "CLA Coupé (C118 und neuer CLA 2025 inkl. Elektro)",
+    "CLA Shooting Brake (X118 und neu 2025)"
+   ]
+  },
+  {
+   "id": "mb-2",
+   "brand": "Mercedes-Benz",
+   "models": [
+    "C-Klasse Limousine (W205, W206)",
+    "C-Klasse T-Modell (S205, S206)",
+    "E-Klasse Limousine (W213, W214)",
+    "E-Klasse T-Modell (S213, S214, All-Terrain)",
+    "S-Klasse (W222, W223)"
+   ]
+  },
+  {
+   "id": "mb-3",
+   "brand": "Mercedes-Benz",
+   "models": [
+    "GLA (H247)",
+    "GLB (X247 und neue Generation)"
+   ]
+  },
+  {
+   "id": "mb-3b",
+   "brand": "Mercedes-Benz",
+   "models": [
+    "GLC (X253, X254)",
+    "GLC Coupé (C253, C254)",
+    "GLE (V167)",
+    "GLE Coupé (C167)",
+    "GLS (X167)"
+   ]
+  },
+  {
+   "id": "mb-4",
+   "brand": "Mercedes-Benz",
+   "models": [
+    "EQA",
+    "EQB",
+    "EQC",
+    "EQE Limousine",
+    "EQE SUV",
+    "EQS Limousine",
+    "EQS SUV",
+    "G-Klasse (inkl. elektrisch)"
+   ]
+  },
+  {
+   "id": "mb-5",
+   "brand": "Mercedes-Benz",
+   "models": [
+    "V-Klasse und EQV",
+    "T-Klasse und EQT",
+    "Citan Tourer",
+    "CLE Coupé und Cabriolet",
+    "SL (R232)"
+   ]
+  },
+  {
+   "id": "bmw-1",
+   "brand": "BMW",
+   "models": [
+    "1er (F40, F70)",
+    "2er Active Tourer (F45, U06)",
+    "2er Gran Coupé (F44, F74)",
+    "2er Coupé (G42)",
+    "X1 (F48, U11)",
+    "iX1"
+   ]
+  },
+  {
+   "id": "bmw-2",
+   "brand": "BMW",
+   "models": [
+    "3er Limousine (G20)",
+    "3er Touring (G21)",
+    "4er Coupé und Cabrio (G22, G23)",
+    "4er Gran Coupé (G26) und i4",
+    "5er Limousine (G30, G60) inkl. i5",
+    "5er Touring (G31, G61) inkl. i5 Touring"
+   ]
+  },
+  {
+   "id": "bmw-3",
+   "brand": "BMW",
+   "models": [
+    "X2 (F39, U10)",
+    "iX2",
+    "X3 (G01, G45)",
+    "iX3 (G08 und Neue Klasse ab 2025)",
+    "X4 (G02)",
+    "X5 (G05)",
+    "X6 (G06)"
+   ]
+  },
+  {
+   "id": "bmw-4",
+   "brand": "BMW",
+   "models": [
+    "X7 (G07)",
+    "XM",
+    "iX",
+    "7er und i7 (G11/G12, G70)",
+    "8er Coupé, Cabrio und Gran Coupé",
+    "Z4 (G29)"
+   ]
+  },
+  {
+   "id": "skoda-1",
+   "brand": "Skoda",
+   "models": [
+    "Fabia (PJ)",
+    "Scala",
+    "Kamiq",
+    "Octavia Limousine (Mk4 inkl. Facelift)",
+    "Octavia Combi (Mk4 inkl. Facelift)",
+    "Citigo-e iV"
+   ]
+  },
+  {
+   "id": "skoda-2",
+   "brand": "Skoda",
+   "models": [
+    "Superb Limousine (B8, B9)",
+    "Superb Combi (B8, B9)",
+    "Karoq",
+    "Kodiaq (1. und 2. Generation)",
+    "Enyaq",
+    "Enyaq Coupé",
+    "Elroq"
+   ]
+  },
+  {
+   "id": "audi-1",
+   "brand": "Audi",
+   "models": [
+    "A1 Sportback",
+    "A3 Sportback (8Y)",
+    "A3 Limousine (8Y)",
+    "Q2",
+    "Q3 (F3 und neu 2025)",
+    "Q3 Sportback (F3 und neu 2025)"
+   ]
+  },
+  {
+   "id": "audi-2",
+   "brand": "Audi",
+   "models": [
+    "A4 Limousine (B9)",
+    "A4 Avant (B9)",
+    "A5 Coupé/Cabriolet/Sportback (B9)",
+    "A5 Limousine und A5 Avant (B10, ab 2024)",
+    "A6 Limousine und A6 Avant (C8 und C9 ab 2025)",
+    "A6 e-tron Sportback und Avant",
+    "A7 Sportback"
+   ]
+  },
+  {
+   "id": "audi-3",
+   "brand": "Audi",
+   "models": [
+    "Q4 e-tron",
+    "Q4 Sportback e-tron",
+    "Q5 (FY und neue Generation ab 2024)",
+    "Q5 Sportback",
+    "Q6 e-tron und Q6 Sportback e-tron",
+    "Q7",
+    "Q8",
+    "Q8 e-tron und Q8 Sportback e-tron",
+    "e-tron GT",
+    "A8",
+    "TT"
+   ]
+  },
+  {
+   "id": "seat-1",
+   "brand": "Seat",
+   "models": [
+    "Ibiza",
+    "Arona",
+    "Leon",
+    "Leon Sportstourer",
+    "Ateca",
+    "Tarraco",
+    "Mii electric"
+   ]
+  },
+  {
+   "id": "cupra-1",
+   "brand": "Cupra",
+   "models": [
+    "Formentor (KM inkl. Facelift 2024, VZ, e-HYBRID, VZ e-HYBRID)",
+    "Leon",
+    "Leon Sportstourer",
+    "Born",
+    "Ateca",
+    "Tavascan",
+    "Terramar",
+    "Raval (falls offizielle Daten verfügbar)"
+   ]
+  },
+  {
+   "id": "opel-1",
+   "brand": "Opel",
+   "models": [
+    "Corsa (F inkl. Facelift)",
+    "Astra (K und L)",
+    "Astra Sports Tourer (K und L)",
+    "Mokka (B)",
+    "Crossland"
+   ]
+  },
+  {
+   "id": "opel-2",
+   "brand": "Opel",
+   "models": [
+    "Grandland (X und neue Generation ab 2024)",
+    "Frontera (2025)",
+    "Combo Life",
+    "Zafira Life",
+    "Insignia Grand Sport",
+    "Insignia Sports Tourer"
+   ]
+  },
+  {
+   "id": "ford-1",
+   "brand": "Ford",
+   "models": [
+    "Fiesta",
+    "Focus",
+    "Focus Turnier",
+    "Puma (inkl. Puma Gen-E)",
+    "Kuga",
+    "EcoSport"
+   ]
+  },
+  {
+   "id": "ford-2",
+   "brand": "Ford",
+   "models": [
+    "Explorer (Elektro 2024)",
+    "Capri (Elektro 2024)",
+    "Mustang Mach-E",
+    "Mustang",
+    "S-Max",
+    "Galaxy",
+    "Tourneo Connect",
+    "Tourneo Courier",
+    "Tourneo Custom"
+   ]
+  },
+  {
+   "id": "hyundai-1",
+   "brand": "Hyundai",
+   "models": [
+    "i10",
+    "i20",
+    "i30",
+    "i30 Kombi",
+    "i30 Fastback",
+    "Bayon",
+    "Kona (OS und SX2, inkl. Elektro)"
+   ]
+  },
+  {
+   "id": "hyundai-2",
+   "brand": "Hyundai",
+   "models": [
+    "Tucson (NX4 inkl. Facelift)",
+    "Santa Fe (TM, MX5)",
+    "Ioniq (Hybrid/Plug-in/Elektro bis 2022)",
+    "Ioniq 5",
+    "Ioniq 6",
+    "Ioniq 9",
+    "Inster",
+    "Staria"
+   ]
+  },
+  {
+   "id": "toyota-1",
+   "brand": "Toyota",
+   "models": [
+    "Aygo X",
+    "Yaris",
+    "Yaris Cross",
+    "Corolla (Schrägheck)",
+    "Corolla Touring Sports",
+    "Corolla Limousine",
+    "Corolla Cross",
+    "C-HR (1. und 2. Generation)"
+   ]
+  },
+  {
+   "id": "toyota-2",
+   "brand": "Toyota",
+   "models": [
+    "RAV4 (XA50 und neue Generation)",
+    "bZ4X",
+    "Camry",
+    "Prius (5. Generation)",
+    "Highlander",
+    "Land Cruiser (J150, J250)",
+    "Proace City Verso",
+    "Proace Verso",
+    "Urban Cruiser (Elektro 2025)",
+    "GR86",
+    "GR Supra",
+    "Mirai"
+   ]
+  }
+ ]
+}

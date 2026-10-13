@@ -1,8 +1,8 @@
 {
  "stats": {
-  "models": 17,
-  "generations": 27,
-  "variants": 146
+  "models": 25,
+  "generations": 35,
+  "variants": 191
  },
  "warnings": [
   "BMW: keine Modelle",
