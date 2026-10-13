@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useFrame, type ThreeEvent } from "@react-three/fiber";
 import { Edges, RoundedBox, useCursor } from "@react-three/drei";
 import * as THREE from "three";
-import { LUGGAGE, type LuggageType } from "@/lib/luggage";
+import { LUGGAGE, luggageInfo, type LuggageType } from "@/lib/luggage";
 import { orientedSize, type Item, type ItemStatus } from "@/lib/packing";
 import { useSim } from "@/lib/store";
 import { dragSession } from "@/lib/dragSession";
@@ -24,8 +24,8 @@ interface Props {
 }
 
 export function LuggageItem({ item, status, selected, dragging }: Props) {
-  const spec = LUGGAGE[item.type];
-  const size = orientedSize(item.type, item.quaternion);
+  const spec = luggageInfo(item.type, item.custom);
+  const size = orientedSize(item, item.quaternion);
   const group = useRef<THREE.Group>(null);
   const glow = useRef<THREE.MeshBasicMaterial>(null);
   const [hovered, setHovered] = useState(false);
@@ -106,7 +106,7 @@ export function LuggageItem({ item, status, selected, dragging }: Props) {
 
   return (
     <group ref={group}>
-      <LuggageModel type={item.type} mats={mats} />
+      {item.type === "custom" ? <CustomModel size={spec.size} mats={mats} /> : <LuggageModel type={item.type} mats={mats} />}
       {/* Hitbox + Status-Leuchten */}
       <mesh
         scale={[w + 0.012, h + 0.012, d + 0.012]}
@@ -131,6 +131,28 @@ export function LuggageItem({ item, status, selected, dragging }: Props) {
 }
 
 type Mats = { shell: THREE.Material; accent: THREE.Material; trim: THREE.Material };
+
+/** Eigenes Gepäckstück: neutrale Box/Tasche mit Griff, beliebige Maße */
+function CustomModel({ size, mats }: { size: [number, number, number]; mats: Mats }) {
+  const [w, h, d] = size;
+  const minDim = Math.min(w, h, d);
+  const radius = Math.min(0.04, minDim * 0.18);
+  const handle = Math.min(0.12, w * 0.4);
+  return (
+    <group>
+      <RoundedBox args={[w, h, d]} radius={radius} smoothness={4} material={mats.shell} castShadow receiveShadow />
+      {/* umlaufender Streifen */}
+      <mesh material={mats.accent}>
+        <boxGeometry args={[w + 0.004, Math.min(0.025, h * 0.08), d + 0.004]} />
+      </mesh>
+      {minDim > 0.08 && (
+        <mesh material={mats.trim} position={[0, h / 2 - 0.01, 0]}>
+          <boxGeometry args={[handle, 0.02, Math.min(0.03, d * 0.3)]} />
+        </mesh>
+      )}
+    </group>
+  );
+}
 
 /** Stilisierte Gepäckmodelle im aufrechten Zustand, zentriert im Ursprung. */
 function LuggageModel({ type, mats }: { type: LuggageType; mats: Mats }) {

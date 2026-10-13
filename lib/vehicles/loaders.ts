@@ -11,6 +11,7 @@ export const BRAND_LOADERS: Record<string, () => Promise<BrandData>> = {
   "seat": () => import("@/data/vehicles/seat.json").then((m) => m.default as unknown as BrandData),
   "cupra": () => import("@/data/vehicles/cupra.json").then((m) => m.default as unknown as BrandData),
   "opel": () => import("@/data/vehicles/opel.json").then((m) => m.default as unknown as BrandData),
+  "ford": () => import("@/data/vehicles/ford.json").then((m) => m.default as unknown as BrandData),
   "hyundai": () => import("@/data/vehicles/hyundai.json").then((m) => m.default as unknown as BrandData),
   "toyota": () => import("@/data/vehicles/toyota.json").then((m) => m.default as unknown as BrandData),
 };

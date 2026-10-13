@@ -51,3 +51,26 @@ export function luggageDimsLabel(type: LuggageType): string {
   const [w, h, d] = LUGGAGE[type].size.map((v) => Math.round(v * 100));
   return `${h} × ${w} × ${d} cm`;
 }
+
+// ---------------------------------------------------------------------------
+// Eigene Gepäckstücke mit frei wählbaren Maßen
+
+export interface CustomLuggage {
+  name: string;
+  /** [Breite, Höhe, Tiefe] in Metern */
+  size: [number, number, number];
+  color: string;
+}
+
+/** Farben für eigene Gepäckstücke (abwechselnd vergeben) */
+export const CUSTOM_COLORS = ["#14b8a6", "#8b5cf6", "#22a06b", "#ec4899", "#f97316", "#64748b"];
+
+/** Erlaubter Bereich für eigene Maße (cm) */
+export const CUSTOM_LIMITS = { min: 5, max: 220 };
+
+/** Name, Maße und Farbe eines Gepäckstücks – Standardtyp oder eigenes */
+export function luggageInfo(type: LuggageType | "custom", custom?: CustomLuggage) {
+  if (type === "custom" && custom) return { name: custom.name, size: custom.size, color: custom.color };
+  const spec = LUGGAGE[type === "custom" ? "medium" : type];
+  return { name: spec.name, size: spec.size, color: spec.color };
+}

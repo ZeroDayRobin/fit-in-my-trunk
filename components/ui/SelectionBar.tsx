@@ -1,6 +1,6 @@
 "use client";
 
-import { LUGGAGE } from "@/lib/luggage";
+import { luggageInfo } from "@/lib/luggage";
 import { orientedSize, type ItemStatus } from "@/lib/packing";
 import { useSim, useStatuses } from "@/lib/store";
 import { IconRotate, IconTip, IconTipSide, IconTrash } from "./icons";
@@ -21,8 +21,8 @@ export function SelectionBar() {
   const statuses = useStatuses();
 
   if (!selected) return null;
-  const spec = LUGGAGE[selected.type];
-  const [w, h, d] = orientedSize(selected.type, selected.quaternion).map((v) => Math.round(v * 100));
+  const spec = luggageInfo(selected.type, selected.custom);
+  const [w, h, d] = orientedSize(selected, selected.quaternion).map((v) => Math.round(v * 100));
   const status = STATUS_LABEL[statuses[selected.id] ?? "idle"];
 
   return (

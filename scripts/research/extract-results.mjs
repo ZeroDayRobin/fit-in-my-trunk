@@ -32,6 +32,7 @@ function findJournals(dirs) {
 const dirs = process.argv.slice(2);
 const journals = findJournals(dirs.length ? dirs : [path.join(os.homedir(), ".claude/projects")]);
 const chunks = {};
+const patchResults = [];
 for (const j of journals) {
   const lines = fs
     .readFileSync(j, "utf8")
@@ -44,7 +45,12 @@ for (const j of journals) {
   for (const l of lines) {
     if (l.type !== "result" || !labels[l.key]) continue;
     const [kind, id] = labels[l.key].split(":");
+    if (kind === "gaps" || kind === "loadspace") {
+      patchResults.push({ id, kind, result: l.result });
+      continue;
+    }
     if (kind !== "collect" && kind !== "verify") continue;
+    if (!BRAND_BY_ID[id]) continue; // verworfene/umbenannte Pakete
     let r = l.result;
     if (typeof r === "string") {
       try {
@@ -73,5 +79,21 @@ for (const c of Object.values(chunks)) {
   console.log(
     `${c.id}: ${data.models.length} Modelle, ${gens} Generationen, Prüfung: ${verification ? `${verification.corrections.length} Korrekturen` : "keine"}`,
   );
+}
+// Ergebnisse des Lückenfüllers (gaps.workflow.js) → data/research/patches/<id>.json
+const PATCH_DIR = path.join(OUT, "patches");
+fs.mkdirSync(PATCH_DIR, { recursive: true });
+for (const p of patchResults) {
+  let r = p.result;
+  if (typeof r === "string") {
+    try {
+      r = JSON.parse(r);
+    } catch {
+      continue;
+    }
+  }
+  if (!r || !Array.isArray(r.patches)) continue;
+  fs.writeFileSync(path.join(PATCH_DIR, `${p.id}.json`), JSON.stringify({ id: p.id, kind: p.kind, ...r }, null, 1) + "\n");
+  console.log(`${p.kind}:${p.id}: ${r.patches.length} Werte, ${r.notFound.length} nicht gefunden`);
 }
 console.log(`${written} Pakete nach data/research/ geschrieben (aus ${journals.length} Workflow-Läufen).`);

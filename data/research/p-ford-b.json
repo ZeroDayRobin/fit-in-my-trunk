@@ -1,0 +1,536 @@
+{
+ "id": "p-ford-b",
+ "brand": "Ford",
+ "data": {
+  "models": [
+   {
+    "brand": "Ford",
+    "model": "Puma",
+    "generations": [
+     {
+      "name": "2. Generation (inkl. Facelift 2024 und Puma Gen-E)",
+      "yearFrom": 2020,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4186,
+      "widthMm": 1805,
+      "heightMm": 1550,
+      "wheelbaseMm": 2588,
+      "trunkL": 456,
+      "trunkFoldedL": 1216,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.0 EcoBoost 125 PS (Benziner, ohne Hybrid)",
+        "powertrain": "petrol",
+        "powerPs": 125,
+        "awd": false,
+        "trunkL": 456,
+        "trunkFoldedL": 1216,
+        "yearFrom": 2020,
+        "yearTo": null,
+        "notes": "Einstiegsmotor ohne 48-V-System (AUTO BILD, speedheads). Ford nennt 456 l für den Puma allgemein; ein abweichender Wert für die Version ohne Hybrid wurde nicht gefunden. Bauende dieser Version nicht ermittelt."
+       },
+       {
+        "name": "1.0 EcoBoost Hybrid (Mild-Hybrid) 125/155 PS",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 456,
+        "trunkFoldedL": 1216,
+        "yearFrom": 2020,
+        "yearTo": null,
+        "notes": "48-V-Mildhybrid mit 125 PS oder 155 PS (114 kW). ADAC (Herstellerangabe): 456 l normal, 1216 l dachhoch, sowohl vor dem Facelift (ST-Line X 03/20) als auch nach dem Facelift (ST-Line 04/24-09/25). Inklusive 80-l-MegaBox unter dem Ladeboden. Ein ST-Line ist laut ADAC 4207 mm lang (Basis 4186 mm)."
+       },
+       {
+        "name": "ST 1.5 EcoBoost 200 PS",
+        "powertrain": "petrol",
+        "powerPs": 200,
+        "awd": false,
+        "lengthMm": 4226,
+        "heightMm": null,
+        "widthMm": 1805,
+        "trunkL": 456,
+        "trunkFoldedL": 1216,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "Länge 4226 mm (motor1, carwow, auto-data). Die Höhe ist widersprüchlich (carwow 1533 mm, auto-data 1520 mm, motor1 nennt für den ST des Facelifts 1550 mm), daher null. Kofferraum 456/1216 l laut carwow und automobile.at, ein ADAC-Wert für den ST wurde nicht gefunden. Laut auto motor und sport wurde er 2020-2023 gebaut. Ob es nach dem Facelift einen ST (z. B. 1.0 EcoBoost Hybrid 170 PS Powershift) in Deutschland gibt, ist nicht belegt."
+       },
+       {
+        "name": "Gen-E (Elektro)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "lengthMm": 4214,
+        "heightMm": 1555,
+        "widthMm": 1805,
+        "trunkL": 523,
+        "trunkFoldedL": 1283,
+        "yearFrom": 2025,
+        "yearTo": null,
+        "notes": "124 kW Elektromotor (insideevs), der PS-Wert wurde nicht gegengeprüft. ADAC (Herstellerangabe, 01/25-02/26): 4214 x 1805 x 1555 mm, Radstand 2588 mm, Kofferraum 523 l / 1283 l dachhoch. Darin enthalten ist die 145-l-GigaBox unter dem Ladeboden (ohne sie sind es laut Test ca. 360 l). Zusätzlich gibt es einen Frunk mit 43 l. carwow nennt 1286 l für den umgeklappten Zustand."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/puma/ii/303429/",
+        "what": "ADAC Puma 1.0 EcoBoost Hybrid ST-Line X (03/20-07/20): 4207 x 1805 x 1534 mm, Kofferraum 456 l / 1216 l dachhoch"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/puma/ii-facelift/332622/",
+        "what": "ADAC Puma Facelift 1.0 EcoBoost Hybrid ST-Line (04/24-09/25): Breite 1805 mm (1930 mm mit Spiegeln), Höhe 1550 mm, 456/1216 l"
+       },
+       {
+        "url": "https://www.motor1.com/news/738041/ford-puma-dimensions-boot-space/",
+        "what": "Puma Facelift: Länge 4186 mm (ST 4226 mm), Radstand 2588 mm, Höhe 1537 mm, 456/1216 l, MegaBox 80 l"
+       },
+       {
+        "url": "https://www.motorsport-total.com/auto/news/ford-puma-2024-alle-details-zum-neuen-facelift-24021001",
+        "what": "Facelift 2024: Abmessungen und Kofferraum unverändert gegenüber dem Vorgänger, Höhe 1550 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/puma/ii-facelift/337837/",
+        "what": "ADAC Puma Gen-E (01/25-02/26): 4214 x 1805 x 1555 mm, Radstand 2588 mm, Kofferraum 523/1283 l, Frunk 43 l"
+       },
+       {
+        "url": "https://insideevs.de/news/742502/ford-puma-gen-e-elektroversion/",
+        "what": "Puma Gen-E 124-kW-Antrieb, GigaBox 145 l"
+       },
+       {
+        "url": "https://www.carwow.de/ford/puma-st/technische-daten",
+        "what": "Puma ST: 4226 x 1805 x 1533 mm, Kofferraum 456 l"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/marken-modelle/ford/puma/2-generation/technische-daten/",
+        "what": "Puma ST 1.5 EcoBoost 147 kW / 200 PS, gebaut 2020-2023"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/ford-puma-2020-fahrbericht-motor-preis-16274035.html",
+        "what": "1.0 EcoBoost ohne 48-V-System mit 125 PS; Mildhybrid 125/155 PS"
+       },
+       {
+        "url": "https://www.speedheads.de/auto-news/ford-puma-2020-check-0029150.html",
+        "what": "Basis 1.0 EcoBoost 92 kW/125 PS, Kofferraum 456 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/ford-puma/",
+        "what": "ADAC-Test: im eigentlichen Kofferraum ohne Doppelboden nur ca. 280 l (ADAC-Messung)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Das Facelift 2024 hat laut motorsport-total Maße und Kofferraum nicht verändert, deshalb gibt es nur einen Generationseintrag. Die Höhenangaben schwanken: ADAC 2020 1534 mm (ST-Line X), motor1 1537 mm, ADAC/motorsport-total Facelift 1550 mm. AUTO BILD nannte 2020 für den umgeklappten Zustand 1161 l statt 1216 l, hier wird der ADAC-Wert 1216 l verwendet. Die VDA-Werte enthalten die MegaBox bzw. GigaBox unter dem Ladeboden, die echte Ladefläche über dem Boden ist deutlich kleiner (ADAC misst ca. 280 l). Die GigaBox-Maße aus einem Test (79 x 63 x 30 cm) betreffen nur das Unterflurfach und sind deshalb nicht als loadSpace eingetragen."
+     }
+    ]
+   },
+   {
+    "brand": "Ford",
+    "model": "Kuga",
+    "generations": [
+     {
+      "name": "3. Generation (Vor-Facelift)",
+      "yearFrom": 2020,
+      "yearTo": 2024,
+      "bodyType": "suv",
+      "lengthMm": 4614,
+      "widthMm": null,
+      "heightMm": 1658,
+      "wheelbaseMm": null,
+      "trunkL": null,
+      "trunkFoldedL": 1534,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.5 EcoBoost (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": 1534,
+        "notes": "Ford-Datenblatt: 1534 l bei umgeklapptem Rücksitz bis Dachunterkante (Nicht-PHEV). Den VDA-Wert bei aufrechter Rückbank für die Zeit vor dem Facelift nicht gefunden."
+       },
+       {
+        "name": "EcoBlue (Diesel, inkl. EcoBlue Hybrid Mild-Hybrid)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": 1534,
+        "notes": "Den Diesel gab es nur vor dem Facelift (seit dem Facelift entfallen). 1534 l maximal laut Ford-Datenblatt für Nicht-PHEV. Ob Allrad oder Mildhybrid einen kleineren Kofferraum haben, wurde nicht ermittelt."
+       },
+       {
+        "name": "2.5 FHEV (Vollhybrid)",
+        "powertrain": "hev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": 1534,
+        "notes": "Mit Frontantrieb oder Allrad. ADAC führt den 2.5 Hybrid Graphite Tech Edition (04/23-08/24), dessen Kofferraumwert in der Suche aber nicht sichtbar war. Nach dem Facelift nennt der ADAC 412 l / 1534 l."
+       },
+       {
+        "name": "2.5 PHEV (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 405,
+        "trunkFoldedL": 1481,
+        "notes": "ADAC (Herstellerangabe, Vignale 09/20-08/24): 405 l normal, 1481 l dachhoch. Die Antriebsbatterie unter dem Ladeboden macht den Kofferraum kleiner als beim Nicht-PHEV (1534 l). Ein Fahrbericht nennt 411-1481 l, motorprofis.at nennt 385-486 l je nach Sitzstellung und 1680 mm Höhe."
+       },
+       {
+        "name": "ST-Line (2.5 PHEV)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": false,
+        "lengthMm": 4629,
+        "trunkL": 405,
+        "trunkFoldedL": 1481,
+        "notes": "ADAC ST-Line PHEV (04/20-09/20): Länge 4629 mm, sportlichere Front und Heck."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii/315685/",
+        "what": "ADAC Kuga 2.5 Plug-in-Hybrid Vignale (09/20-08/24): 405 l / 1481 l dachhoch, Höhe 1658 mm, Länge 4614 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii/304295/",
+        "what": "ADAC Kuga 2.5 Plug-in-Hybrid ST-Line (04/20-09/20): Länge 4629 mm"
+       },
+       {
+        "url": "https://cache.pressmailing.net/content/aa462c61-8a7f-4684-b820-90c1bbd27449/Kuga_Technische_Daten2.pdf",
+        "what": "Ford Technische Daten Kuga: Gepäckraum 1534 l bzw. 1481 l (PHEV) bei umgeklapptem Rücksitz bis Dachunterkante"
+       },
+       {
+        "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Kuga/Technische_Daten_des_neuen_Ford_Kuga.pdf",
+        "what": "Ford Technische Daten Kuga (2020): Gepäckraummaße je Antrieb; Ladekantenhöhe 717-726 mm, Ladelänge am Boden bis 2. Sitzreihe 865-1017 mm (Spaltenzuordnung im Suchauszug unklar)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii/328223/",
+        "what": "ADAC Kuga 2.5 Hybrid Graphite Tech Edition (04/23-08/24): Existenz der FHEV-Version vor dem Facelift"
+       },
+       {
+        "url": "https://www.motorprofis.at/ford/erster-test-ford-kuga-plug-in-hybrid-phev",
+        "what": "Abweichende PHEV-Angaben: 385-486 l, Höhe 1680 mm"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Die Breite ohne Spiegel und der Radstand vor dem Facelift wurden in den Quellen nicht eindeutig gefunden (Facelift: 1882 mm / 2711 mm). Ein VDA-Wert bei aufrechter Rückbank für Nicht-PHEV vor dem Facelift fehlt ebenfalls. Die Rückbank ist verschiebbar, deshalb schwanken die Angaben (412-553 l). Im Ford-PDF stehen Ladeboden-Maße (Ladelänge bis 2. Sitzreihe 865-1017 mm, Ladekantenhöhe 717-726 mm). Weil die Zuordnung zu Antrieb oder Sitzposition im Suchauszug nicht eindeutig war, ist loadSpace null. PS-Werte wurden nicht gegengeprüft und sind deshalb null."
+     },
+     {
+      "name": "3. Generation Facelift",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4604,
+      "widthMm": 1882,
+      "heightMm": 1675,
+      "wheelbaseMm": 2711,
+      "trunkL": 412,
+      "trunkFoldedL": 1534,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.5 FHEV (Vollhybrid)",
+        "powertrain": "hev",
+        "powerPs": 180,
+        "awd": false,
+        "trunkL": 412,
+        "trunkFoldedL": 1534,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "ADAC Titanium FHEV (06/24-08/25): 4604 x 1882 x 1675 mm (2177 mm mit Spiegeln), 412 l / 1534 l. Es gibt auch Allrad (ADAC 331856), dafür wurde kein abweichender Kofferraumwert gefunden."
+       },
+       {
+        "name": "2.5 PHEV (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 243,
+        "awd": false,
+        "trunkL": 412,
+        "trunkFoldedL": 1534,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "ADAC (Herstellerangabe) nennt für den Facelift-PHEV 412 l / 1534 l, also dasselbe wie für den FHEV. Vor dem Facelift standen dort 405/1481 l. Ob das eine echte Änderung ist oder ein Datenfehler, ist ungeklärt. ADAC-Messung (Active X PHEV): nur 365 l normal, 1355 l dachhoch, wegen der Batterie unter dem Ladeboden. 178 kW / 243 PS, 69 km E-Reichweite."
+       },
+       {
+        "name": "Active (FHEV/PHEV)",
+        "powertrain": "phev",
+        "powerPs": 243,
+        "awd": false,
+        "lengthMm": 4645,
+        "heightMm": 1681,
+        "trunkL": 412,
+        "trunkFoldedL": 1534,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "Ausstattung im Offroad-Look. ADAC Active 2.5 PHEV: 4645 mm lang, 1681 mm hoch, 412/1534 l. Active 2.5 FHEV (180 PS) laut ADAC ebenfalls 412/1534 l."
+       },
+       {
+        "name": "ST-Line (FHEV/PHEV)",
+        "powertrain": "phev",
+        "powerPs": 243,
+        "awd": false,
+        "lengthMm": 4615,
+        "heightMm": 1673,
+        "trunkL": 412,
+        "trunkFoldedL": 1534,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "ADAC ST-Line X 2.5 PHEV (ab 08/25): 4615 mm lang, 1673 mm hoch, 412/1534 l. motor1 nennt für ST-Line ebenfalls 4615 mm."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii-facelift/331855/",
+        "what": "ADAC Kuga 2.5 FHEV Titanium (06/24-08/25): 4604 x 1882 x 1675 mm, 412 l / 1534 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii-facelift/331856/",
+        "what": "ADAC Kuga 2.5 FHEV Titanium Allrad (06/24-08/25)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii-facelift/331868/",
+        "what": "ADAC Kuga Active 2.5 PHEV: 4645 mm, 1681 mm, 412/1534 l, 178 kW (243 PS)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii-facelift/331864/",
+        "what": "ADAC Kuga Active 2.5 FHEV: 132 kW (180 PS), 412/1534 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii-facelift/344254/",
+        "what": "ADAC Kuga 2.5 PHEV ST-Line X (ab 08/25): 4615 mm, 1673 mm, 412/1534 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/ford-kuga-test/",
+        "what": "ADAC-Messung: 365 l normal, 735 l, 1355 l dachhoch (Batterie unter dem Ladeboden)"
+       },
+       {
+        "url": "https://www.motor1.com/news/704944/ford-kuga-2024-specs-price/",
+        "what": "Facelift 2024: Längen 4604 (Titanium) / 4615 (ST-Line) / 4645 mm (Active), Radstand 2711 mm, PHEV 243 PS"
+       },
+       {
+        "url": "https://autonotizen.de/neuigkeiten/ford-kuga-facelift-2024",
+        "what": "Facelift 2024: Diesel entfällt"
+       },
+       {
+        "url": "https://www.automoli.com/de/vehicles/ford/kuga/kuga-iii-facelift-2024-9846/",
+        "what": "Kuga III Facelift technische Daten (Radstand 2711 mm, Höhen 1651-1683 mm)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Mit dem Facelift wurden die Längen leicht anders (Titanium 4604 statt 4614 mm), deshalb gibt es einen eigenen Eintrag. Diesel gibt es nicht mehr. Ein 1.5 EcoBoost (Benziner, laut Suche ca. 150 PS) wird in einigen Quellen genannt, im ADAC-Katalog für das Facelift waren aber nur FHEV und PHEV sichtbar, deshalb ist er nicht aufgenommen. Die Herstellerwerte gelten für die hinterste Position der verschiebbaren Rückbank (bis zu 553 l, wenn sie vorgeschoben ist)."
+     }
+    ]
+   },
+   {
+    "brand": "Ford",
+    "model": "Focus Turnier",
+    "generations": [
+     {
+      "name": "4. Generation Facelift",
+      "yearFrom": 2022,
+      "yearTo": 2025,
+      "bodyType": "wagon",
+      "lengthMm": null,
+      "widthMm": 1825,
+      "heightMm": 1497,
+      "wheelbaseMm": 2700,
+      "trunkL": 635,
+      "trunkFoldedL": 1653,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.0 EcoBoost Hybrid (Mild-Hybrid)",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 635,
+        "trunkFoldedL": 1653,
+        "yearFrom": 2022,
+        "yearTo": 2025,
+        "notes": "ADAC (Herstellerangabe, 1.0 EcoBoost Hybrid Titanium): 635 l normal, 1653 l dachhoch. ADAC-Messung: 415 l bis zum Rollo, 1590 l maximal. Die PS-Stufen wurden nicht gegengeprüft."
+       },
+       {
+        "name": "1.5 EcoBlue 115 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 115,
+        "awd": false,
+        "trunkL": 635,
+        "trunkFoldedL": 1653,
+        "yearFrom": 2022,
+        "yearTo": null,
+        "notes": "115 PS laut AUTO BILD (Turnier ab 37.300 Euro). Für den Diesel wurde kein eigener Kofferraumwert gefunden, eingesetzt ist der modellweite Herstellerwert 635/1653 l (ADAC: gleicher Wert für alle verglichenen Varianten)."
+       },
+       {
+        "name": "Active",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": false,
+        "heightMm": 1536,
+        "lengthMm": null,
+        "trunkL": 635,
+        "trunkFoldedL": 1653,
+        "yearFrom": 2022,
+        "yearTo": 2025,
+        "notes": "Ausstattung im Crossover-Look. Höhe 1536 mm laut Ford-Datenblatt (Mai 2022). Länge laut carwow ca. 4,69 m, ein exakter mm-Wert wurde nicht gefunden."
+       },
+       {
+        "name": "ST-Line",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": false,
+        "heightMm": 1487,
+        "trunkL": 635,
+        "trunkFoldedL": 1653,
+        "yearFrom": 2022,
+        "yearTo": 2025,
+        "notes": "Sportfahrwerk, Höhe 1487 mm laut Ford-Datenblatt (Mai 2022)."
+       },
+       {
+        "name": "ST 2.3 EcoBoost",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "lengthMm": 4675,
+        "heightMm": 1462,
+        "widthMm": 1825,
+        "trunkL": 635,
+        "trunkFoldedL": 1653,
+        "yearFrom": 2022,
+        "yearTo": null,
+        "notes": "ADAC (ST X Turnier): 4675 x 1825 x 1462 mm, 635/1653 l. carwow nennt 1488 mm Höhe, das widerspricht dem ADAC-Wert. Die PS-Leistung wurde in dieser Recherche nicht gegengeprüft."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/2022/05/Roadshow/Pressetext-Focus-Technische-Daten-Mai2022.pdf",
+        "what": "Ford Technische Daten Focus Facelift (Mai 2022): Turnier-Radstand 2700 mm, Höhe 1497 (Titanium) / 1536 (Active) / 1487 mm (ST-Line)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/ford-focus-turnier/",
+        "what": "ADAC-Test Focus Turnier: Herstellerangabe 635 l / 1653 l dachhoch (1.0 EcoBoost Hybrid Titanium und ST X), ST X 4675 x 1825 x 1462 mm, Länge rund 4,67 m, ADAC-Messung 415 l / 1590 l"
+       },
+       {
+        "url": "https://fuhrpark.de/ford-focus-turnier-praktisch-schick-verpackt",
+        "what": "Focus Turnier Facelift: Kofferraum 635-1653 l"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/ford-focus-2022-preis-motor-st-turnier-18756921.html",
+        "what": "Facelift 2022: Turnier 27 l mehr Kofferraum, ca. 5 mm länger, 1.5 EcoBlue 115 PS"
+       },
+       {
+        "url": "https://www.carwow.de/ford/focus-turnier/technische-daten",
+        "what": "Active ca. 4,69 m lang; Spanne 363-635 l / 1262-1653 l"
+       },
+       {
+        "url": "https://kofferraum.org/masse/ford/focus-turnier/",
+        "what": "Abweichende Angabe 575 l / 1620 l (vermutlich Vor-Facelift bzw. andere Messung)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Länge der Basis (Titanium) nicht exakt gefunden (ADAC: rund 4,67 m; ST X 4675 mm), daher null. Breite 1825 mm stammt aus der ADAC-Angabe zum ST X und gilt für die Baureihe. Den Turnier hat Ford Ende 2025 eingestellt. Die Werte 635/1653 l (ADAC/fuhrpark) widersprechen 575/1620 l (kofferraum.org). Zusammen mit dem AUTO-BILD-Hinweis „+27 l durch das Facelift“ sprechen 635 l für das Facelift. Die Generation vor dem Facelift (Modelljahre 2020-2022) hat einen anderen Kofferraum und wurde nicht erfasst, siehe notFound."
+     }
+    ]
+   },
+   {
+    "brand": "Ford",
+    "model": "Explorer",
+    "generations": [
+     {
+      "name": "1. Generation (Elektro, MEB)",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4468,
+      "widthMm": 1872,
+      "heightMm": 1630,
+      "wheelbaseMm": 2767,
+      "trunkL": 470,
+      "trunkFoldedL": 1460,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Standard Range RWD (Elektro, 58 kWh) 190 PS",
+        "powertrain": "bev",
+        "powerPs": 190,
+        "awd": false,
+        "trunkL": 470,
+        "trunkFoldedL": 1460,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "190 PS / 58 kWh laut carwow. Kein variantenspezifischer Kofferraumwert gefunden. Eingesetzt ist der Ford-Wert 470 l (variabler Ladeboden ganz unten, Rückbank aufrecht) und 1460 l maximal. carwow nennt 465-472 l / 1455-1460 l, kofferraum-check für RWD 445/1417 l. Laut Suche gab es anfangs auch eine 52-kWh-Version."
+       },
+       {
+        "name": "Extended Range RWD (Elektro, 77 kWh) 286 PS",
+        "powertrain": "bev",
+        "powerPs": 286,
+        "awd": false,
+        "trunkL": 470,
+        "trunkFoldedL": 1460,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "ADAC (08/24-03/25): 210 kW (286 PS), 545 Nm, Höhe 1630 mm, Radstand 2767 mm. Kofferraum wie Standard Range (Ford 470 l), ein variantenspezifischer Wert wurde nicht gefunden."
+       },
+       {
+        "name": "Extended Range AWD (Elektro, 79 kWh)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": true,
+        "heightMm": 1639,
+        "trunkL": 472,
+        "trunkFoldedL": 1460,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "ADAC (Herstellerangabe, Premium AWD 79 kWh): 4468 x 1872 x 1639 mm, 472 l normal, 1460 l dachhoch. Kein Frunk. ADAC-Messung: 410 l bis zur Hutablage, 1364 l dachhoch. Die PS-Leistung wurde nicht gegengeprüft."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/ford-explorer/",
+        "what": "ADAC-Test Explorer Premium AWD: 4468 x 1872 x 1639 mm, 2063 mm mit Spiegeln, 472 l / 1460 l (Herstellerangabe), ADAC-Messung 410/1364 l, kein Frunk"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/explorer-ev/1generation/327513/",
+        "what": "ADAC Explorer EV Extended Range 77 kWh (08/24-03/25): Höhe 1630 mm, Radstand 2767 mm, 210 kW (286 PS)"
+       },
+       {
+        "url": "https://www.autoexpress.co.uk/articles/364202/why-new-all-electric-ford-explorer-right-ev-you",
+        "what": "Ford-Marketing: 470 l Kofferraum (Ladeboden in unterster Position, Rücksitze aufrecht), MegaConsole 17 l"
+       },
+       {
+        "url": "https://www.carwow.de/ford/explorer/technische-daten",
+        "what": "465-472 l / 1455-1460 l; Standard Range 58 kWh RWD 190 PS"
+       },
+       {
+        "url": "https://www.parkers.co.uk/ford/explorer/review/practicality/",
+        "what": "470 l Kofferraum, Länge 4468 mm, 2063 mm mit Spiegeln"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Ford_Explorer_EV",
+        "what": "Abweichend: 450 l / 1400 l"
+       },
+       {
+        "url": "https://kofferraum-check.de/eautos/kofferraum-test-ford-explorer-ev-2024-bis/",
+        "what": "RWD: 445 l / 1417 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Die Kofferraumwerte schwanken je nach Quelle zwischen 450 und 472 l, weil der Ladeboden in der Höhe verstellbar ist. Für die AWD-Version gibt es keinen Frunk (ADAC). Ob die RWD-Versionen einen Frunk haben, wurde nicht ermittelt. Ein ausdrücklicher VDA-Hinweis fehlte in den Quellen."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Focus Turnier 4. Generation vor dem Facelift (Modelljahre 2020-2022): Abmessungen und VDA-Kofferraum nicht gefunden (AUTO BILD: das Facelift brachte +27 l, demnach vorher ca. 608 l, nicht bestätigt)",
+   "Focus Turnier Facelift: exakte Länge der Basisversion (Titanium) und Länge des Active in mm",
+   "Focus Turnier: Kofferraum je Antrieb für den Diesel nicht separat bestätigt; PS-Werte von 1.0 EcoBoost Hybrid und ST",
+   "Kuga 3. Generation vor dem Facelift: Breite ohne Spiegel, Radstand und VDA-Kofferraum bei aufrechter Rückbank für Benziner, Diesel und FHEV",
+   "Kuga Facelift: Existenz und Daten des 1.5 EcoBoost (Benziner) in Deutschland; eigener Kofferraumwert für FHEV Allrad",
+   "Kuga: Zuordnung der Ford-Ladeboden-Maße (Ladelänge 865-1017 mm, Ladekantenhöhe 717-726 mm) zu Antrieb oder Sitzposition",
+   "Puma ST: Höhe in mm (widersprüchlich), Kofferraum laut ADAC, Existenz und Daten eines ST nach dem Facelift (1.0 EcoBoost Hybrid 170 PS Powershift)",
+   "Puma Gen-E: PS-Wert (nur 124 kW belegt), Modellpflege ab 03/26",
+   "Explorer: Kofferraum je Variante (RWD vs. AWD), PS der AWD-Version, Frunk bei RWD",
+   "Laderaum-Innenmaße (Ladelänge, Breite zwischen den Radkästen, Ladehöhe) für Puma, Kuga Facelift, Focus Turnier und Explorer"
+  ],
+  "notes": "Zur Frage des Nutzers: Die Meldung „Der Hersteller nennt keine Laderaum-Innenmaße. Die Box wird aus dem VDA-Volumen und typischen Proportionen berechnet.“ steht in components/ui/VehiclePicker.tsx, die Berechnung in lib/vehicles/spec.ts. Sie bedeutet, dass für dieses Auto keine veröffentlichten Innenmaße des Kofferraums vorliegen (Ladelänge bis zur Rückbank, Breite zwischen den Radkästen, Ladehöhe). Offiziell bekannt ist nur das Kofferraumvolumen in Litern nach VDA-Norm. Die App baut deshalb einen rechteckigen Quader, der genau dieses Volumen hat. Länge, Breite und Höhe des Quaders werden aus typischen Verhältnissen der Karosserieform geschätzt (STYLE-Tabelle in spec.ts, z. B. trunkH = typische Laderaumhöhe relativ zur Fahrzeughöhe, maxDepth = maximale Tiefe, Ladeboden-Höhe) und an die Außenmaße des Autos angepasst. Das Volumen stimmt also, die genaue Form (Radkästen, schräge Heckklappe, Unterflurfächer) kann abweichen. Die App markiert diese Box als „geschätzt“. Auch bei Ford gibt es fast keine veröffentlichten Ladeboden-Maße: Nur das Kuga-Datenblatt von 2020 enthält welche, mit unklarer Zuordnung. Deshalb ist loadSpace überall null, und die App wird die Box für alle vier Modelle schätzen. Besonders wichtig für die Box: Bei Puma (MegaBox 80 l, Gen-E GigaBox 145 l) und Explorer enthält der VDA-Wert tiefe Unterflurfächer, die echte Ladefläche über dem Boden ist deutlich kleiner (ADAC misst beim Puma ca. 280 l, beim Kuga PHEV 365 l). Das Suchbudget (14 Suchen) ist vollständig verbraucht. Weitere Ford-Modelle wie Focus 5-Türer, Capri, Mustang Mach-E und S-Max/Galaxy wurden nicht ergänzt, weil sie laut scripts/research/chunks.json in den Chunks ford-1/ford-2 abgedeckt werden. PS-Werte, die nicht in einer Quelle belegt waren, sind null."
+ },
+ "verification": null
+}

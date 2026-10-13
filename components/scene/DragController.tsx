@@ -38,7 +38,7 @@ export function DragController() {
       const hit = pickSurface(raycaster.ray, others, env);
       if (!hit) return;
 
-      const size = orientedSize(dragged.type, dragged.quaternion);
+      const size = orientedSize(dragged, dragged.quaternion);
       let [x, z] = clampToStage(hit.x + dragSession.offset[0], hit.z + dragSession.offset[1], env);
       [x, z] = snapXZ(x, z, size, others, env);
       s.dragTo(x, z);

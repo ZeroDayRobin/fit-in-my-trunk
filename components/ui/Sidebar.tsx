@@ -6,6 +6,7 @@ import { LUGGAGE, LUGGAGE_TYPES, luggageDimsLabel, luggageLiters, type LuggageTy
 import { useCar, useSim } from "@/lib/store";
 import { IconChevron, IconPlus, IconReset, IconSeat, IconSparkle, LuggageGlyph } from "./icons";
 import { VehiclePicker } from "./VehiclePicker";
+import { CustomLuggageButton } from "./CustomLuggage";
 import { cx, panel, sectionLabel } from "./styles";
 
 /** Linke Seitenleiste (Desktop) bzw. Bottom-Sheet (Mobil). */
@@ -32,10 +33,11 @@ export function Sidebar() {
             <IconChevron className={cx("h-4 w-4 transition-transform", !open && "rotate-180")} />
           </span>
         </button>
-        <div className="grid grid-cols-3 gap-2 px-4 pb-4 pt-2">
+        <div className="grid grid-cols-4 gap-2 px-4 pb-4 pt-2">
           {LUGGAGE_TYPES.map((t) => (
             <LuggageButton key={t} type={t} compact />
           ))}
+          <CustomLuggageButton compact />
         </div>
       </div>
 
@@ -49,6 +51,7 @@ export function Sidebar() {
               {LUGGAGE_TYPES.map((t) => (
                 <LuggageButton key={t} type={t} />
               ))}
+              <CustomLuggageButton />
             </div>
           </section>
           <CargoSection />

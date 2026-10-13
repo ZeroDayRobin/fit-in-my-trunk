@@ -649,7 +649,36 @@
    "id": "ford",
    "name": "Ford",
    "kbaRank": 8,
-   "models": []
+   "models": [
+    {
+     "id": "explorer",
+     "name": "Explorer",
+     "bodyType": "suv",
+     "yearFrom": 2024,
+     "yearTo": null
+    },
+    {
+     "id": "focus-turnier",
+     "name": "Focus Turnier",
+     "bodyType": "wagon",
+     "yearFrom": 2022,
+     "yearTo": 2025
+    },
+    {
+     "id": "kuga",
+     "name": "Kuga",
+     "bodyType": "suv",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "puma",
+     "name": "Puma",
+     "bodyType": "suv",
+     "yearFrom": 2020,
+     "yearTo": null
+    }
+   ]
   },
   {
    "id": "hyundai",

@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { create } from "zustand";
 import { canFoldSeats, type BodyType, type CarModel } from "./cars";
 import type { CarInfo, VehicleSelection } from "./vehicles/spec";
-import type { LuggageType } from "./luggage";
+import { CUSTOM_COLORS, type CustomLuggage, type LuggageType } from "./luggage";
 import {
   autoPack,
   boxFor,
@@ -45,6 +45,10 @@ interface SimState {
   setPaint: (paintId: string) => void;
   toggleSeats: () => void;
   addItem: (type: LuggageType) => void;
+  /** Eigene Gepäckstücke: zuletzt verwendete Vorlagen (für schnelles Wiederhinzufügen) */
+  customTemplates: CustomLuggage[];
+  addCustomItem: (custom: Omit<CustomLuggage, "color"> & { color?: string }) => void;
+  removeCustomTemplate: (index: number) => void;
   removeSelected: () => void;
   clearItems: () => void;
   select: (id: string | null) => void;
@@ -120,12 +124,30 @@ export const useSim = create<SimState>((set, get) => ({
 
   addItem: (type) => {
     const s = get();
-    const env = envOf(s);
-    const size = orientedSize(type, IDENTITY);
-    const position = findStagingSpot(size, s.items.map(itemBox), env);
+    const size = orientedSize({ type }, IDENTITY);
+    const position = findStagingSpot(size, s.items.map(itemBox), envOf(s));
     const item: Item = { id: nextId(), type, position, quaternion: IDENTITY };
     set({ items: [...s.items, item], selectedId: item.id });
   },
+
+  customTemplates: [],
+
+  addCustomItem: (input) => {
+    const s = get();
+    const same = s.customTemplates.find((t) => t.name === input.name && t.size.every((v, i) => Math.abs(v - input.size[i]) < 1e-6));
+    const custom: CustomLuggage = {
+      name: input.name,
+      size: input.size,
+      color: input.color ?? same?.color ?? CUSTOM_COLORS[s.customTemplates.length % CUSTOM_COLORS.length],
+    };
+    const size = orientedSize({ type: "custom", custom }, IDENTITY);
+    const position = findStagingSpot(size, s.items.map(itemBox), envOf(s));
+    const item: Item = { id: nextId(), type: "custom", custom, position, quaternion: IDENTITY };
+    const customTemplates = same ? s.customTemplates : [custom, ...s.customTemplates].slice(0, 8);
+    set({ items: [...s.items, item], selectedId: item.id, customTemplates });
+  },
+
+  removeCustomTemplate: (index) => set((s) => ({ customTemplates: s.customTemplates.filter((_, i) => i !== index) })),
 
   removeSelected: () => {
     const s = get();
@@ -150,7 +172,7 @@ export const useSim = create<SimState>((set, get) => ({
     const inTrunk = footprintOverlap(itemBox(target), env.trunk);
     const quaternion = rotateQuat(target.quaternion, mode, direction);
     let position = target.position;
-    if (inTrunk) position = clampIntoTrunk(position, orientedSize(target.type, quaternion), env);
+    if (inTrunk) position = clampIntoTrunk(position, orientedSize(target, quaternion), env);
     const items = s.items.map((i) => (i.id === target.id ? { ...i, quaternion, position } : i));
     set({ items: settle(items, env) });
   },
@@ -180,7 +202,7 @@ export const useSim = create<SimState>((set, get) => ({
       s.items.filter((i) => i.id !== dragged.id),
       env,
     );
-    const size = orientedSize(dragged.type, dragged.quaternion);
+    const size = orientedSize(dragged, dragged.quaternion);
     const y = supportHeight(boxFor([x, 0, z], size), others.map(itemBox), env);
     const moved: Item = { ...dragged, position: [x, y, z] };
     const byId = new Map(others.map((o) => [o.id, o]));

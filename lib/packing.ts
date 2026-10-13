@@ -3,14 +3,16 @@
 
 import { Euler, Quaternion, Ray, Vector3, Box3 } from "three";
 import type { CarModel } from "./cars";
-import { LUGGAGE, luggageLiters, type LuggageType } from "./luggage";
+import { luggageInfo, type CustomLuggage, type LuggageType } from "./luggage";
 
 export type Vec3 = [number, number, number];
 export type Quat = [number, number, number, number];
 
 export interface Item {
   id: string;
-  type: LuggageType;
+  type: LuggageType | "custom";
+  /** Nur bei type "custom": Name, Maße und Farbe */
+  custom?: CustomLuggage;
   /** x/z = Mittelpunkt, y = Unterkante */
   position: Vec3;
   quaternion: Quat;
@@ -34,8 +36,14 @@ const round = (v: number) => Math.round(v * 1e4) / 1e4;
 // ---------------------------------------------------------------------------
 // Grundlagen
 
-export function orientedSize(type: LuggageType, q: Quat): Vec3 {
-  const [w, h, d] = LUGGAGE[type].size;
+/** Maße im aufrechten Zustand */
+export function baseSize(item: Pick<Item, "type" | "custom">): Vec3 {
+  return luggageInfo(item.type, item.custom).size;
+}
+
+/** Achsenparallele Maße nach Drehung */
+export function orientedSize(item: Pick<Item, "type" | "custom">, q: Quat): Vec3 {
+  const [w, h, d] = baseSize(item);
   const v = new Vector3(w, h, d).applyQuaternion(new Quaternion(...q));
   return [round(Math.abs(v.x)), round(Math.abs(v.y)), round(Math.abs(v.z))];
 }
@@ -49,11 +57,12 @@ export function boxFor(position: Vec3, size: Vec3): Box {
 }
 
 export function itemBox(item: Item): Box {
-  return boxFor(item.position, orientedSize(item.type, item.quaternion));
+  return boxFor(item.position, orientedSize(item, item.quaternion));
 }
 
 export function itemLiters(item: Item): number {
-  return luggageLiters(item.type);
+  const [w, h, d] = baseSize(item);
+  return w * h * d * 1000;
 }
 
 function overlaps1D(aMin: number, aMax: number, bMin: number, bMax: number) {
@@ -126,7 +135,7 @@ export function settle(items: Item[], env: PackEnv): Item[] {
   const placed: Box[] = [];
   const result = new Map<string, Item>();
   for (const item of order) {
-    const size = orientedSize(item.type, item.quaternion);
+    const size = orientedSize(item, item.quaternion);
     const fp = boxFor([item.position[0], 0, item.position[2]], size);
     const y = supportHeight(fp, placed, env);
     const next: Item = { ...item, position: [item.position[0], y, item.position[2]] };
@@ -301,7 +310,7 @@ export function autoPack(items: Item[], env: PackEnv): PackResult {
     let best: { score: number[]; position: Vec3; q: Quat; size: Vec3 } | null = null;
 
     for (const q of ORIENTATIONS) {
-      const size = orientedSize(item.type, q);
+      const size = orientedSize(item, q);
       const [hx, , hz] = [size[0] / 2, size[1] / 2, size[2] / 2];
       if (size[0] > t.max[0] - t.min[0] + EPS || size[1] > t.max[1] - t.min[1] + EPS || size[2] > t.max[2] - t.min[2] + EPS) continue;
 
@@ -343,7 +352,7 @@ export function autoPack(items: Item[], env: PackEnv): PackResult {
   // Was nicht passt, wird aufrecht hinter dem Auto abgestellt
   const staged: Box[] = [...placed];
   for (const item of unplaced) {
-    const size = orientedSize(item.type, IDENTITY);
+    const size = orientedSize(item, IDENTITY);
     const position = findStagingSpot(size, staged, env);
     staged.push(boxFor(position, size));
     result.set(item.id, { ...item, position, quaternion: IDENTITY });

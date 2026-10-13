@@ -1,11 +1,11 @@
 {
  "stats": {
-  "models": 97,
-  "generations": 139,
-  "variants": 555
+  "models": 101,
+  "generations": 145,
+  "variants": 581
  },
  "warnings": [
-  "Ford: keine Modelle"
+  "Ford Puma / placeholder: kein Startjahr → verworfen"
  ],
  "unapplied": []
 }

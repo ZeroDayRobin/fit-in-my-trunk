@@ -9,6 +9,7 @@ Interaktiver 3D-Pack-Simulator: Fahrzeug wählen, Gepäck spawnen, per Drag & Dr
 - **Echte Fahrzeuge:** Auswahl nach Marke › Modell › Modelljahr › Variante (z. B. *Volkswagen › Tiguan › 2026 › 2.0 TSI 4MOTION*), dazu eine Schnellsuche. Die Daten sind offizielle Herstellerangaben: Außenmaße und VDA-Kofferraumvolumen je Variante, mit Quellenangabe.
 - **Datengetriebene 3D-Autos:** Länge, Breite, Höhe und Radstand stammen aus der Datenbank. Die Karosserieform passt sich an: Schrägheck, Kombi, SUV, SUV-Coupé, Limousine/Coupé/Cabrio mit Kofferraumdeckel, Van.
 - **3 Gepäckgrößen** mit Normmaßen: Rucksack (45 × 32 × 22 cm), Trolley (55 × 40 × 23 cm), Reisekoffer (75 × 50 × 30 cm)
+- **Eigene Gepäckstücke:** freie Maße von 5 bis 220 cm, mit Namen und Beispielen (Getränkekiste, Umzugskarton, Golfbag, Kinderwagen). Zuletzt verwendete eigene Teile lassen sich mit einem Klick erneut hinzufügen.
 - **Drag & Drop per Raycasting** mit Auto-Stapeln und magnetischem Einrasten
 - **Feedback:** Grün = komplett im Kofferraum. Rot (pulsierend) = ragt heraus oder kollidiert.
 - **Zähler oben rechts:** gepackte Gepäckstücke und genutztes Volumen
