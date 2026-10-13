@@ -1,0 +1,577 @@
+{
+ "_comment": "Variante B: Vorgängergenerationen mit Modelljahren 2005–2019 für die vorhandenen Modelle. Erzeugt von scripts/research/make-history-chunks.mjs. Erledigt sind die Pakete, für die data/research/<id>.json existiert.",
+ "skipped": [
+  "Volkswagen ID. Buzz",
+  "Volkswagen ID. Buzz langer Radstand",
+  "Volkswagen ID.3",
+  "Volkswagen ID.4",
+  "Volkswagen ID.5",
+  "Volkswagen ID.7",
+  "Volkswagen ID.7 Tourer",
+  "Volkswagen T-Cross",
+  "Volkswagen T-Roc",
+  "Volkswagen T-Roc Cabriolet",
+  "Volkswagen Taigo",
+  "Volkswagen Tayron",
+  "Volkswagen Tiguan Allspace",
+  "Mercedes-Benz A-Klasse Limousine",
+  "Mercedes-Benz GLB",
+  "Mercedes-Benz GLC",
+  "BMW 2er Active Tourer",
+  "BMW iX3",
+  "Škoda Elroq",
+  "Škoda Enyaq",
+  "Škoda Enyaq Coupé",
+  "Škoda Kamiq",
+  "Škoda Karoq",
+  "Škoda Kodiaq",
+  "Škoda Scala",
+  "Audi A5 Avant",
+  "Audi Q3 Sportback",
+  "Audi Q4 e-tron",
+  "Audi Q4 Sportback e-tron",
+  "Seat Arona",
+  "Seat Ateca",
+  "Cupra Born",
+  "Cupra Formentor",
+  "Cupra Tavascan",
+  "Cupra Terramar",
+  "Opel Crossland",
+  "Opel Frontera",
+  "Opel Grandland",
+  "Ford Explorer",
+  "Ford Puma",
+  "Hyundai Inster",
+  "Hyundai Ioniq 5",
+  "Hyundai Kona",
+  "Toyota Corolla Cross",
+  "Toyota Yaris Cross"
+ ],
+ "chunks": [
+  {
+   "id": "h-volkswagen-1",
+   "brand": "Volkswagen",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Caddy",
+    "Caddy Maxi",
+    "Golf"
+   ],
+   "existing": {
+    "Caddy": [
+     "Caddy 5 (SK) (2020–heute)"
+    ],
+    "Caddy Maxi": [
+     "Caddy 5 Maxi (SK) (2021–heute)"
+    ],
+    "Golf": [
+     "Mk8 Facelift (8.5) (2024–heute)",
+     "Mk8 (2020–2024)"
+    ]
+   }
+  },
+  {
+   "id": "h-volkswagen-2",
+   "brand": "Volkswagen",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Golf Sportsvan",
+    "Golf Variant",
+    "Multivan"
+   ],
+   "existing": {
+    "Golf Sportsvan": [
+     "Golf VII Sportsvan Facelift (2018-2020) (2018–2020)"
+    ],
+    "Golf Variant": [
+     "Mk8 (inkl. Facelift 2024) (2020–heute)"
+    ],
+    "Multivan": [
+     "T7 (kurzer Überhang) (2021–heute)"
+    ]
+   }
+  },
+  {
+   "id": "h-volkswagen-3",
+   "brand": "Volkswagen",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Multivan langer Überhang",
+    "Passat Alltrack",
+    "Passat Limousine"
+   ],
+   "existing": {
+    "Multivan langer Überhang": [
+     "T7 (langer Überhang) (2021–heute)"
+    ],
+    "Passat Alltrack": [
+     "B8 (Facelift) (2019–2023)"
+    ],
+    "Passat Limousine": [
+     "B8 (Facelift) (2019–2021)"
+    ]
+   }
+  },
+  {
+   "id": "h-volkswagen-4",
+   "brand": "Volkswagen",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Passat Variant",
+    "Polo",
+    "Tiguan"
+   ],
+   "existing": {
+    "Passat Variant": [
+     "B9 (2024–heute)",
+     "B8 (Facelift) (2019–2023)"
+    ],
+    "Polo": [
+     "VI (AW, inkl. Facelift 2021) (2017–heute)"
+    ],
+    "Tiguan": [
+     "3. Generation (ab 2024) (2024–heute)",
+     "AD1 Facelift (Tiguan II) (2020–2024)",
+     "AD1 (Tiguan II, Vorfacelift) (2016–2020)"
+    ]
+   }
+  },
+  {
+   "id": "h-volkswagen-5",
+   "brand": "Volkswagen",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Touareg",
+    "Touran"
+   ],
+   "existing": {
+    "Touareg": [
+     "CR (3. Generation, inkl. Facelift 2023) (2018–heute)"
+    ],
+    "Touran": [
+     "5T (2. Generation) (2015–heute)"
+    ]
+   }
+  },
+  {
+   "id": "h-mercedes-benz-1",
+   "brand": "Mercedes-Benz",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "A-Klasse Kompaktlimousine",
+    "C-Klasse Limousine",
+    "C-Klasse T-Modell"
+   ],
+   "existing": {
+    "A-Klasse Kompaktlimousine": [
+     "W177 (Mopf 2023) (2023–heute)",
+     "W177 (2018-2022) (2018–2022)"
+    ],
+    "C-Klasse Limousine": [
+     "W206 (2021–heute)"
+    ],
+    "C-Klasse T-Modell": [
+     "S206 (2021–heute)"
+    ]
+   }
+  },
+  {
+   "id": "h-mercedes-benz-2",
+   "brand": "Mercedes-Benz",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "CLA",
+    "CLA Shooting Brake",
+    "E-Klasse T-Modell"
+   ],
+   "existing": {
+    "CLA": [
+     "C174 / C178 (3. Generation) (2025–heute)",
+     "C118 (2. Generation, incl. Mopf 2023) (2019–2025)"
+    ],
+    "CLA Shooting Brake": [
+     "X174 (elektrisch) (2026–heute)"
+    ],
+    "E-Klasse T-Modell": [
+     "S214 (2023–heute)",
+     "S213 (incl. Mopf 2020) (2016–2023)"
+    ]
+   }
+  },
+  {
+   "id": "h-mercedes-benz-3",
+   "brand": "Mercedes-Benz",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "GLA"
+   ],
+   "existing": {
+    "GLA": [
+     "3. Generation (2026, elektrisch) (2026–heute)",
+     "H247 (Facelift) (2023–2026)",
+     "H247 (Vor-Facelift) (2020–2023)"
+    ]
+   }
+  },
+  {
+   "id": "h-bmw-1",
+   "brand": "BMW",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "1er",
+    "3er Limousine",
+    "3er Touring"
+   ],
+   "existing": {
+    "1er": [
+     "F70 (2024–heute)",
+     "F40 (2019–2024)"
+    ],
+    "3er Limousine": [
+     "G20 (inkl. LCI 2022) (2019–heute)"
+    ],
+    "3er Touring": [
+     "G21 (inkl. LCI 2022) (2019–heute)"
+    ]
+   }
+  },
+  {
+   "id": "h-bmw-2",
+   "brand": "BMW",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "5er Touring (inkl. i5 Touring)",
+    "X1",
+    "X3"
+   ],
+   "existing": {
+    "5er Touring (inkl. i5 Touring)": [
+     "G61 / i5 Touring (2024–heute)",
+     "G31 (inkl. LCI 2020) (2017–2024)"
+    ],
+    "X1": [
+     "U11 (2022–heute)",
+     "F48 (2015–2022)"
+    ],
+    "X3": [
+     "G45 (2024–heute)",
+     "G01 (2017–2024)"
+    ]
+   }
+  },
+  {
+   "id": "h-bmw-3",
+   "brand": "BMW",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "X5"
+   ],
+   "existing": {
+    "X5": [
+     "G05 LCI (Facelift) (2023–heute)",
+     "G05 (Vor-Facelift) (2018–2023)"
+    ]
+   }
+  },
+  {
+   "id": "h-skoda-1",
+   "brand": "Škoda",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Fabia",
+    "Fabia Combi",
+    "Octavia Combi"
+   ],
+   "existing": {
+    "Fabia": [
+     "PJ (4. Generation) (2021–heute)",
+     "NJ Facelift (3. Generation) (2018–2021)"
+    ],
+    "Fabia Combi": [
+     "NJ Facelift (3. Generation) (2018–2021)"
+    ],
+    "Octavia Combi": [
+     "NX (4. Generation, inkl. Facelift 2024) (2020–heute)"
+    ]
+   }
+  },
+  {
+   "id": "h-skoda-2",
+   "brand": "Škoda",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Octavia Limousine",
+    "Superb Combi",
+    "Superb Limousine"
+   ],
+   "existing": {
+    "Octavia Limousine": [
+     "NX (4. Generation, inkl. Facelift 2024) (2020–heute)"
+    ],
+    "Superb Combi": [
+     "3Y / B9 (4. Generation) (2024–heute)",
+     "3V / B8 Facelift (3. Generation) (2019–2023)"
+    ],
+    "Superb Limousine": [
+     "3Y / B9 (4. Generation) (2024–heute)",
+     "3V / B8 Facelift (3. Generation) (2019–2023)"
+    ]
+   }
+  },
+  {
+   "id": "h-audi-1",
+   "brand": "Audi",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "A3 Sportback",
+    "A4 Avant",
+    "A6 Avant"
+   ],
+   "existing": {
+    "A3 Sportback": [
+     "8Y (inkl. Facelift 2024) (2020–heute)"
+    ],
+    "A4 Avant": [
+     "B9 (Facelift 2019) (2016–2024)"
+    ],
+    "A6 Avant": [
+     "C9 (2025–heute)",
+     "C8 (2018–2025)"
+    ]
+   }
+  },
+  {
+   "id": "h-audi-2",
+   "brand": "Audi",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Q3",
+    "Q5"
+   ],
+   "existing": {
+    "Q3": [
+     "3. Generation (2025–heute)",
+     "F3 (2018–2025)"
+    ],
+    "Q5": [
+     "GU (3. Generation) (2024–heute)",
+     "FY (Facelift 2020) (2017–2024)"
+    ]
+   }
+  },
+  {
+   "id": "h-seat-1",
+   "brand": "Seat",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Ibiza",
+    "Leon",
+    "Leon Sportstourer"
+   ],
+   "existing": {
+    "Ibiza": [
+     "KJ (Ibiza V, inkl. Facelift 2021 und Facelift 2026) (2017–heute)"
+    ],
+    "Leon": [
+     "KL (Leon IV, inkl. Update 2024) (2020–heute)"
+    ],
+    "Leon Sportstourer": [
+     "KL (Leon IV, inkl. Update 2024) (2020–heute)"
+    ]
+   }
+  },
+  {
+   "id": "h-opel-1",
+   "brand": "Opel",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Astra",
+    "Astra Sports Tourer",
+    "Corsa"
+   ],
+   "existing": {
+    "Astra": [
+     "Astra L (inkl. Facelift 2026) (2022–heute)"
+    ],
+    "Astra Sports Tourer": [
+     "Astra L Sports Tourer (inkl. Facelift 2026) (2022–heute)"
+    ],
+    "Corsa": [
+     "Corsa F (inkl. Facelift 2023/24) (2019–heute)"
+    ]
+   }
+  },
+  {
+   "id": "h-opel-2",
+   "brand": "Opel",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Mokka"
+   ],
+   "existing": {
+    "Mokka": [
+     "Mokka B (inkl. Facelift 2025) (2021–heute)"
+    ]
+   }
+  },
+  {
+   "id": "h-ford-1",
+   "brand": "Ford",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Focus Turnier",
+    "Kuga"
+   ],
+   "existing": {
+    "Focus Turnier": [
+     "4. Generation Facelift (2022–2025)"
+    ],
+    "Kuga": [
+     "3. Generation Facelift (2024–heute)",
+     "3. Generation (Vor-Facelift) (2020–2024)"
+    ]
+   }
+  },
+  {
+   "id": "h-hyundai-1",
+   "brand": "Hyundai",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "i10",
+    "i20",
+    "i30 Kombi"
+   ],
+   "existing": {
+    "i10": [
+     "AC3 (3. Generation, inkl. Facelift 2023) (2020–heute)"
+    ],
+    "i20": [
+     "BC3 Facelift (2023–heute)",
+     "BC3 (2020-2023) (2020–2023)"
+    ],
+    "i30 Kombi": [
+     "PD (inkl. Facelift 2020 und Modellpflege 2024) (2017–heute)"
+    ]
+   }
+  },
+  {
+   "id": "h-hyundai-2",
+   "brand": "Hyundai",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Tucson"
+   ],
+   "existing": {
+    "Tucson": [
+     "NX4 (inkl. Facelift 2024) (2020–heute)"
+    ]
+   }
+  },
+  {
+   "id": "h-toyota-1",
+   "brand": "Toyota",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "C-HR",
+    "Corolla Touring Sports",
+    "RAV4"
+   ],
+   "existing": {
+    "C-HR": [
+     "X20 (2. Generation) (2024–heute)",
+     "X10 Facelift (1. Generation) (2020–2023)"
+    ],
+    "Corolla Touring Sports": [
+     "E21 Facelift (2023–heute)",
+     "E21 (vor Facelift) (2019–2022)"
+    ],
+    "RAV4": [
+     "6. Generation (2026–heute)",
+     "XA50 (5. Generation) (2019–2025)"
+    ]
+   }
+  },
+  {
+   "id": "h-toyota-2",
+   "brand": "Toyota",
+   "history": {
+    "yearFrom": 2005,
+    "yearTo": 2019
+   },
+   "models": [
+    "Yaris"
+   ],
+   "existing": {
+    "Yaris": [
+     "XP21 (4. Generation, inkl. Facelift 2024) (2020–heute)"
+    ]
+   }
+  }
+ ]
+}

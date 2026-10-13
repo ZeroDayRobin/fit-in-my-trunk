@@ -8,7 +8,7 @@ import type { BrandData, GenerationData, ModelData, Source, VariantData } from "
 /** Jüngstes Modelljahr in der Auswahl */
 export const CURRENT_YEAR = 2026;
 /** Ältestes Modelljahr in der Auswahl */
-export const OLDEST_YEAR = 2020;
+export const OLDEST_YEAR = 2005;
 
 interface StyleParams {
   belt: number; // Fensterlinie relativ zur Höhe

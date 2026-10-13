@@ -11,8 +11,10 @@ import path from "node:path";
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "../..");
 const OUT = path.join(ROOT, "data/research");
-const CHUNK_FILE = JSON.parse(fs.readFileSync(path.join(ROOT, "scripts/research/chunks.json"), "utf8"));
-const CHUNKS = [...CHUNK_FILE.priority, ...CHUNK_FILE.full];
+const readJson = (f) => JSON.parse(fs.readFileSync(path.join(ROOT, "scripts/research", f), "utf8"));
+const CHUNK_FILE = readJson("chunks.json");
+const HISTORY_FILE = readJson("chunks-history-2005.json");
+const CHUNKS = [...CHUNK_FILE.priority, ...CHUNK_FILE.full, ...HISTORY_FILE.chunks];
 const BRAND_BY_ID = Object.fromEntries(CHUNKS.map((c) => [c.id, c.brand]));
 
 function findJournals(dirs) {

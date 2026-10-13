@@ -15,7 +15,7 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..")
 const RESEARCH = path.join(ROOT, "data/research");
 const OUT = path.join(ROOT, "data/vehicles");
 const LOADERS = path.join(ROOT, "lib/vehicles/loaders.ts");
-const OLDEST_YEAR = 2020;
+const OLDEST_YEAR = 2005;
 
 // KBA-Neuzulassungen 2025 (Pressemitteilung Nr. 01/2026). Seat und Cupra zählt das KBA gemeinsam.
 const BRANDS = [
@@ -104,7 +104,14 @@ function setPath(obj, field, value) {
 // ---------------------------------------------------------------------------
 // 1. Rohdaten laden und Korrekturen anwenden
 
-const files = fs.existsSync(RESEARCH) ? fs.readdirSync(RESEARCH).filter((f) => f.endsWith(".json") && !f.startsWith("_")) : [];
+// Historien-Pakete (h-*, Vorgängergenerationen ab 2005) zuletzt, damit sie bestehende Generationen nie ersetzen
+const isHistory = (id) => String(id).startsWith("h-");
+const files = fs.existsSync(RESEARCH)
+  ? fs
+      .readdirSync(RESEARCH)
+      .filter((f) => f.endsWith(".json") && !f.startsWith("_"))
+      .sort((a, b) => Number(isHistory(a)) - Number(isHistory(b)) || a.localeCompare(b))
+  : [];
 if (!files.length) {
   console.error(`Keine Rohdaten in ${path.relative(ROOT, RESEARCH)} gefunden.`);
   process.exit(1);
@@ -188,11 +195,9 @@ if (fs.existsSync(PATCH_DIR)) {
     for (const p of patches) {
       const candidates = rawModels.filter((r) => norm(r.model.model) === norm(p.model));
       const hits = candidates.length ? candidates : rawModels.filter((r) => norm(r.model.model).includes(norm(p.model)));
-      let gen;
-      for (const r of hits) {
-        gen = looseFind(r.model.generations ?? [], "name", p.generation);
-        if (gen) break;
-      }
+      // Erst exakter Generationsname über alle Treffer, dann unscharf
+      const allGens = hits.flatMap((r) => r.model.generations ?? []);
+      const gen = allGens.find((g) => norm(g.name) === norm(p.generation)) ?? looseFind(allGens, "name", p.generation);
       if (!gen) {
         patchStats.unmatched++;
         unapplied.push({ chunk: pf.id, reason: "Patch: Modell/Generation nicht gefunden", ...p });
@@ -424,10 +429,30 @@ for (const { brandId, model, chunk } of rawModels) {
   const ctx = `${brand.name} ${name}`;
   const generations = (model.generations ?? []).map((g) => cleanGeneration(g, ctx)).filter(Boolean);
   if (!generations.length) {
-    warnings.push(`${ctx} (${chunk}): keine Generation ab ${OLDEST_YEAR} → verworfen`);
+    // Historien-Pakete melden Modelle ohne Vorgänger mit leerer Liste – das ist kein Fehler
+    if (!isHistory(chunk)) warnings.push(`${ctx} (${chunk}): keine Generation ab ${OLDEST_YEAR} → verworfen`);
     continue;
   }
   const existing = brand.models.find((m) => norm(m.name) === norm(name));
+  if (existing && isHistory(chunk)) {
+    // Vorgängergenerationen nur ergänzen: gleiche Generation (Name oder Startjahr) → bestehende behalten
+    for (const g of generations) {
+      if (existing.generations.some((e) => norm(e.name) === norm(g.name) || e.yearFrom === g.yearFrom)) {
+        warnings.push(`${ctx} / ${g.name} (${chunk}): Generation schon vorhanden → übersprungen`);
+        continue;
+      }
+      const overlap = existing.generations.find(
+        (e) => Math.min(e.yearTo ?? 9999, g.yearTo ?? 9999) - Math.max(e.yearFrom, g.yearFrom) >= 1,
+      );
+      if (overlap) {
+        warnings.push(
+          `${ctx} / ${g.name} ${g.yearFrom}–${g.yearTo ?? ""} (${chunk}): überschneidet sich mit ${overlap.name} ${overlap.yearFrom}–${overlap.yearTo ?? ""}`,
+        );
+      }
+      existing.generations.push(g);
+    }
+    continue;
+  }
   if (existing) {
     // Doppelt recherchiert: Generationen zusammenführen (gleicher Name → die mit mehr Varianten behalten)
     for (const g of generations) {

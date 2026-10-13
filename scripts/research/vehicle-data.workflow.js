@@ -2,7 +2,8 @@
 // Je Paket (Marke + Modellliste): ein Agent sammelt offizielle Daten per Websuche,
 // ein zweiter, unabhängiger Agent prüft jeden Wert gegen (Pipeline, kein Warten zwischen Paketen).
 //
-// Aufruf: Workflow({ scriptPath: "scripts/research/vehicle-data.workflow.js", args: <Inhalt einer batch-N.json> })
+// Aufruf: Workflow({ scriptPath: "scripts/research/vehicle-data.workflow.js", args: { verify, searchesPerAgent, chunks } })
+// Pakete mit Feld "history" (aus chunks-history-2005.json) sammeln nur fehlende Vorgängergenerationen.
 // Anleitung: docs/recherche-fortsetzen.md
 
 export const meta = {
@@ -113,7 +114,35 @@ const RULES = `RULES:
 - loadSpace: only fill if published load-floor measurements exist (Ladelänge bis Rücksitz, Ladebreite / zwischen Radkästen, Ladehöhe / Höhe Gepäckraumöffnung, Ladekantenhöhe, Ladelänge bei umgeklappter Rückbank). Otherwise null.
 - Passenger cars only (no pure commercial panel vans / pickups).`
 
+// Historien-Modus (Variante B): nur fehlende Vorgängergenerationen eines Zeitraums
+function historyRules(c) {
+  const { yearFrom, yearTo } = c.history
+  return RULES.replace(/^- Generations:.*$/m, `- Generations: ONLY generations sold in Germany whose model years lie at least partly between ${yearFrom} and ${yearTo} and that are NOT in the EXISTING list above (e.g. Golf V 2003–2008 counts, it was still sold in ${yearFrom}). Never return an EXISTING generation again. Split a facelift into its own entry when dimensions or trunk volume changed; otherwise note it. yearFrom/yearTo = German model years; yearTo is never null here.`)
+    .replace(/^- Variants:.*$/m, `- Variants: one entry per powertrain group as offered in German price lists of that time (e.g. "1.4 TSI (Benziner)", "2.0 TDI (Diesel)", "GTE (Plug-in-Hybrid)", "4MOTION", "e-Golf (Elektro)") plus well-known sporty trims (GTI, R, RS, AMG, M). Only split further when trunk volume or dimensions differ. At most ~6 variants per generation.`)
+    .replace(/^- Use official manufacturer data.*$/m, `- Source priority per value: 1) official manufacturer data of that time (press kits in the manufacturer newsroom / press archive, archived technical data sheets and price lists); 2) ADAC Autokatalog or ADAC Autotest only as a fallback for single values the manufacturer source does not give - say "ADAC" in that source's "what"; 3) auto motor und sport, AUTO BILD or autozeitung only if neither has the value. Record the URL of every source with what it supports. Do not copy whole data sets from one database.`)
+}
+
+function historyPrompt(c) {
+  const budget = (args && args.searchesPerAgent) || 20
+  const { yearFrom, yearTo } = c.history
+  const existing = c.models.map((m) => `- ${m}: ${(c.existing[m] || []).join('; ') || '(none)'}`).join('\n')
+  return `SEARCH BUDGET: at most ${budget} WebSearch calls in total for this task (a shared limit applies to all agents). Prefer mode "extended" queries that ask for dimensions AND trunk volumes of a whole generation at once. Stop searching when the budget is used and return what you have (unknown values = null).
+
+You are extending a factual vehicle database for a German web app that simulates packing luggage into car trunks. Brand: ${c.brand}.
+Task: add the PREDECESSOR generations (German model years ${yearFrom}–${yearTo}) of these models. EXISTING generations already in the database (do not return them):
+${existing}
+
+Model names: return each model with its name EXACTLY as written above (e.g. "Golf Variant"), so it can be merged. If the predecessor was sold under a slightly different name of the same model line (e.g. "Mokka X", "Golf Variant" vs. "Golf Kombi", "Astra Caravan" for "Astra Sports Tourer", "Fabia Combi"), still use the name above and put the historic name into the generation name. A different nameplate is NOT a predecessor (e.g. Golf Plus, Auris, ix35, GLK, Yeti) - skip it. If a model has no predecessor in ${yearFrom}–${yearTo}, return it with an empty generations array and say so in notes.
+
+${TOOLS_NOTE}
+
+${historyRules(c)}
+
+Return the structured result. Every generation needs sources. Put anything you could not find into notFound (e.g. "Golf Variant Mk6 trunkFoldedL").`
+}
+
 function collectPrompt(c) {
+  if (c.history) return historyPrompt(c)
   const budget = (args && args.searchesPerAgent) || 12
   return `SEARCH BUDGET: at most ${budget} WebSearch calls in total for this task (a shared limit applies to all agents). Prefer mode "extended" queries that ask for dimensions AND trunk volumes of several powertrains at once. Stop searching when the budget is used and return what you have (unknown values = null).
 
@@ -135,7 +164,8 @@ DATA:
 ${JSON.stringify(data)}
 
 For EVERY generation, independently re-check via your own searches (do not trust the given sources): lengthMm, widthMm (without mirrors), heightMm, wheelbaseMm, trunkL, trunkFoldedL, and each distinct per-variant trunkL/trunkFoldedL (especially plug-in hybrid, 4x4, BEV variants). Also check yearFrom/yearTo and whether any generation or important German-market variant (e.g. e-HYBRID, VZ, GTI, RS, 4MOTION, xDrive, AMG, N, e-tron) is missing.
-Report a correction only when you have a source that clearly contradicts the value (give the URL and a short quote or paraphrase). If sources disagree, prefer the manufacturer's official figure. If a value is null but you found it, report it as a correction with oldValue null.
+${c.history ? `Scope: only predecessor generations with German model years ${c.history.yearFrom}–${c.history.yearTo}; these generations are already in the database and out of scope: ${c.models.map((m) => `${m}: ${(c.existing[m] || []).join('; ')}`).join(' | ')}. Prefer the manufacturer figure of that time; ADAC only where the manufacturer gives no value.
+` : ''}Report a correction only when you have a source that clearly contradicts the value (give the URL and a short quote or paraphrase). If sources disagree, prefer the manufacturer's official figure. If a value is null but you found it, report it as a correction with oldValue null.
 
 ${TOOLS_NOTE}
 
