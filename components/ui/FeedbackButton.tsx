@@ -22,7 +22,7 @@ export function FeedbackButton() {
         onClick={() => setOpen(true)}
         className={cx(
           panel,
-          "pointer-events-auto fixed bottom-[172px] right-4 z-10 flex items-center gap-2 rounded-full px-3.5 py-2.5 text-[13px] font-semibold text-neutral-800 transition hover:scale-[1.03] lg:bottom-6 lg:right-6 dark:text-neutral-100",
+          "pointer-events-auto fixed bottom-[calc(224px+env(safe-area-inset-bottom))] right-4 z-10 flex min-h-11 items-center gap-2 rounded-full px-3.5 py-2.5 text-[13px] font-semibold text-neutral-800 transition hover:scale-[1.03] lg:bottom-6 lg:right-6 dark:text-neutral-100",
         )}
         aria-haspopup="dialog"
       >

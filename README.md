@@ -50,11 +50,26 @@ Ohne Konfiguration zeigt das Formular „Der Nachrichtenversand ist noch nicht e
 
 ## Lokal starten
 
+Voraussetzung: Node.js 24 (auch für die TypeScript-Regressionstests).
+
 ```bash
 npm install
 npm run dev
 # → http://localhost:3000
 ```
+
+## Qualitätsprüfungen
+
+```bash
+npm test           # Regressionstests für das Kontaktformular, ohne echten Nachrichtenversand
+npm run lint
+npm run typecheck  # Next.js-Routentypen erzeugen und TypeScript prüfen
+npm run build
+```
+
+GitHub Actions führt diese Prüfungen bei Pushes und Pull Requests aus. Auf dem Handy ist
+„Automatisch packen“ direkt im unteren Schnellzugriff erreichbar; Fahrzeug-Ladefehler
+lassen sich über „Erneut versuchen“ beheben.
 
 ## Deployment auf Vercel
 

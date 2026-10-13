@@ -39,6 +39,7 @@ export function Sidebar() {
           ))}
           <CustomLuggageButton compact />
         </div>
+        <MobilePackButton />
       </div>
 
       <div className={cx("min-h-0 flex-1 overflow-y-auto overscroll-contain", open ? "max-h-[46dvh]" : "hidden", "lg:block lg:max-h-none")}>
@@ -84,6 +85,19 @@ export function Sidebar() {
         </div>
       </div>
     </aside>
+  );
+}
+
+function MobilePackButton() {
+  const packAll = useSim((s) => s.packAll);
+  const hasItems = useSim((s) => s.items.length > 0);
+  return (
+    <div className="px-4 pb-[max(12px,env(safe-area-inset-bottom))]">
+      <button onClick={packAll} disabled={!hasItems}
+        className="flex min-h-11 w-full items-center justify-center gap-2 rounded-xl bg-neutral-900 px-4 text-sm font-semibold text-white disabled:opacity-40 dark:bg-white dark:text-neutral-900">
+        <IconSparkle className="h-4 w-4" /> Automatisch packen
+      </button>
+    </div>
   );
 }
 

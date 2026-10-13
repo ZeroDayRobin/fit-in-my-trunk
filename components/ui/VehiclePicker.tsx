@@ -25,6 +25,7 @@ const fmt = (n: number) => n.toLocaleString("de-DE");
 
 /** Hook: Daten einer Marke laden (mit Cache in catalog.ts) */
 function useBrand(brandId: string | null) {
+  const [attempt, setAttempt] = useState(0);
   const [state, setState] = useState<{ id: string; data: BrandData | null; error: boolean } | null>(null);
   useEffect(() => {
     if (!brandId || !hasBrandData(brandId)) return;
@@ -35,13 +36,22 @@ function useBrand(brandId: string | null) {
     return () => {
       alive = false;
     };
-  }, [brandId]);
-  return state && state.id === brandId ? state : null;
+  }, [brandId, attempt]);
+  const retry = () => { setState(null); setAttempt((n) => n + 1); };
+  return { state: state && state.id === brandId ? state : null, retry };
 }
 
+let selectionRequest = 0;
 async function apply(sel: VehicleSelection | Promise<Awaited<ReturnType<typeof resolveVehicle>>>) {
-  const r = sel instanceof Promise ? await sel : await resolveVehicle(sel);
-  if (r) useSim.getState().setVehicle(r.car, r.info, r.selection);
+  const request = ++selectionRequest;
+  try {
+    const r = sel instanceof Promise ? await sel : await resolveVehicle(sel);
+    if (request !== selectionRequest) return;
+    if (!r) throw new Error("Fahrzeug nicht verfügbar");
+    useSim.getState().setVehicle(r.car, r.info, r.selection);
+  } catch {
+    if (request === selectionRequest) useSim.getState().notify("Fahrzeug konnte nicht geladen werden. Bitte wähle es erneut aus.");
+  }
 }
 
 /** Fahrzeugauswahl: Suche oder Marke › Modell › Modelljahr › Variante */
@@ -49,7 +59,7 @@ export function VehiclePicker() {
   const selection = useSim((s) => s.selection);
   const [draftBrand, setDraftBrand] = useState<string | null>(null);
   const brandId = draftBrand ?? selection?.brandId ?? null;
-  const brand = useBrand(brandId);
+  const { state: brand, retry } = useBrand(brandId);
   const isDraft = draftBrand !== null && draftBrand !== selection?.brandId;
 
   const model = !isDraft && brand?.data ? brand.data.models.find((m) => m.id === selection?.modelId) : undefined;
@@ -61,8 +71,9 @@ export function VehiclePicker() {
   const onBrand = (id: string) => setDraftBrand(id === selection?.brandId ? null : id);
   const onModel = (modelId: string) => {
     if (!brandId) return;
-    setDraftBrand(null);
-    apply(defaultVehicleFor(brandId, modelId));
+    void apply(defaultVehicleFor(brandId, modelId)).then(() => {
+      if (useSim.getState().selection?.brandId === brandId) setDraftBrand(null);
+    });
   };
   const onYear = (key: string) => {
     if (!selection || !model) return;
@@ -81,6 +92,12 @@ export function VehiclePicker() {
     <section>
       <h2 className={sectionLabel}>Fahrzeug</h2>
       <VehicleSearch />
+      {brand?.error && (
+        <div role="alert" className="mt-3 rounded-xl bg-amber-500/10 p-3 text-xs">
+          <p>Die Fahrzeugdaten konnten nicht geladen werden.</p>
+          <button onClick={retry} className="mt-1 min-h-11 font-semibold text-sky-700 underline dark:text-sky-400">Erneut versuchen</button>
+        </div>
+      )}
 
       <div className="mt-2.5 grid grid-cols-2 gap-2">
         <Field label="Marke">

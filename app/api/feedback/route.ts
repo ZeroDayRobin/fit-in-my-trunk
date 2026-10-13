@@ -27,6 +27,10 @@ export async function POST(request: Request) {
     return Response.json({ ok: false, error: "invalid_json" }, { status: 400 });
   }
 
+  if (!body || typeof body !== "object" || Array.isArray(body)) {
+    return Response.json({ ok: false, error: "invalid_payload" }, { status: 400 });
+  }
+
   // Bots füllen das versteckte Feld aus → stillschweigend „erfolgreich“
   if (str(body.website, 200)) return Response.json({ ok: true });
 

@@ -9,6 +9,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test tests/*.test.mjs",
+    "typecheck": "next typegen && tsc --noEmit",
     "data": "node scripts/build-vehicle-data.mjs"
   },
   "dependencies": {

@@ -45,6 +45,7 @@ export function StatsPanel() {
       <div
         className="mt-3 h-1.5 overflow-hidden rounded-full bg-black/[0.06] dark:bg-white/10"
         role="progressbar"
+        aria-label="Genutztes Kofferraumvolumen"
         aria-valuenow={pct}
         aria-valuemin={0}
         aria-valuemax={100}
