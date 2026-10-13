@@ -29,8 +29,10 @@ npm run dev
 ## Deployment auf Vercel
 
 1. Repository zu GitHub pushen.
-2. Auf [vercel.com/new](https://vercel.com/new) das Repo importieren. Vercel erkennt Next.js automatisch, es sind keine Einstellungen oder Umgebungsvariablen nötig.
+2. Auf [vercel.com/new](https://vercel.com/new) das Repo importieren. Umgebungsvariablen sind nicht nötig.
 3. **Deploy** klicken. Die Seite wird statisch vorgerendert, die 3D-Szene lädt nur im Browser.
+
+Die `vercel.json` im Repo legt das Framework fest auf Next.js (`"framework": "nextjs"`). Dadurch funktioniert der Build auch, wenn das Vercel-Projekt auf den Framework-Preset „Other“ eingestellt ist. Ohne diese Datei bricht der Build dann mit `No Output Directory named "public" found` ab.
 
 ## Abhängigkeiten (`package.json`)
 
