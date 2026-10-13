@@ -1,0 +1,17 @@
+{
+ "id": "gap-h-skoda",
+ "kind": "gaps",
+ "patches": [
+  {
+   "model": "Superb Combi",
+   "generation": "3T Combi Facelift (2. Generation)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2761,
+   "sourceUrl": "https://www.automoli.com/de/vehicles/skoda/superb/superb-ii-combi-facelift-2013-4192/",
+   "sourceType": "sonstige",
+   "evidence": "Automoli, 'Skoda Superb II Combi (facelift 2013)': Radstand 2761 mm (Länge 4833 mm, Breite 1817 mm). Auto-data.net and autoevolution also list 2761 mm for the 2013 facelift. This is consistent with Škoda's 2015 press release for the successor: 'wheelbase has been extended by 80 mm to 2,841 mm'. Note: ADAC lists 2758 mm (Herstellerangabe), but only for the pre-facelift 01/10-05/13 Combi."
+  }
+ ],
+ "notFound": []
+}

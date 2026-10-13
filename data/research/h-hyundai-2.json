@@ -1,0 +1,302 @@
+{
+ "id": "h-hyundai-2",
+ "brand": "Hyundai",
+ "data": {
+  "models": [
+   {
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "generations": [
+     {
+      "name": "JM",
+      "yearFrom": 2004,
+      "yearTo": 2010,
+      "bodyType": "suv",
+      "lengthMm": 4325,
+      "widthMm": 1795,
+      "heightMm": 1720,
+      "wheelbaseMm": 2630,
+      "trunkL": 325,
+      "trunkFoldedL": 1375,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 GLS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 141,
+        "awd": true,
+        "trunkL": 325,
+        "trunkFoldedL": 1375,
+        "heightMm": 1720,
+        "yearFrom": 2004,
+        "yearTo": 2010,
+        "notes": "ADAC: 2.0 GLS 4WD 104 kW/141 PS, 09/04-03/10."
+       },
+       {
+        "name": "2.7 V6 (Benziner, Allrad)",
+        "powertrain": "petrol",
+        "powerPs": 175,
+        "awd": true,
+        "trunkL": 325,
+        "trunkFoldedL": 1375,
+        "yearFrom": 2004,
+        "yearTo": 2010,
+        "notes": "129 kW/175 PS, only AWD (ADAC Gebrauchtwageninfo). Trunk volume given by sources for the whole range; height of the V6 not confirmed from ADAC variant page (other sources give 1680-1730 mm)."
+       },
+       {
+        "name": "2.0 CRDi 113 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 113,
+        "awd": true,
+        "trunkL": 325,
+        "trunkFoldedL": 1375,
+        "heightMm": 1730,
+        "yearFrom": 2004,
+        "yearTo": 2006,
+        "notes": "ADAC: 2.0 CRDi GLS 4WD 09/04-03/06, height 1730 mm. Also offered 2WD per ADAC Gebrauchtwageninfo."
+       },
+       {
+        "name": "2.0 CRDi 150 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 325,
+        "trunkFoldedL": 1375,
+        "heightMm": 1720,
+        "yearFrom": 2008,
+        "yearTo": 2010,
+        "notes": "ADAC: 2.0 CRDi GLS 2WD 10/08-03/10, 110 kW/150 PS, height 1720 mm. An intermediate 2.0 CRDi (approx. 140 PS, 2006-2008) existed but was not verified."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/tucson/1generation/998795/",
+        "what": "ADAC: 2.0 GLS 4WD (09/04-03/10) length 4325, width 1795 (2065 with mirrors), height 1720, wheelbase 2630, trunk 325/1375 l, 141 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/tucson/1-generation/998796/",
+        "what": "ADAC: 2.0 CRDi GLS 4WD (09/04-03/06) 4325x1795x1730, wheelbase 2630, trunk 325/1375 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/tucson/1generation/350768/",
+        "what": "ADAC: 2.0 CRDi GLS 2WD (10/08-03/10) 150 PS, height 1720, trunk 325 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/gebrauchtwagenkauf/gebrauchtwageninfos/hyundai-tucson-444/",
+        "what": "ADAC Gebrauchtwageninfo: build period 2004-2010, 2.7 V6 129 kW/175 PS AWD, 2.0 CRDi 83 kW/113 PS FWD/AWD"
+       },
+       {
+        "url": "https://gebrauchtwagenberater.de/hyundai-tucson-i-2004-2010-technische-daten/",
+        "what": "Cross-check: wheelbase 2.63 m, trunk 325-1375 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "No archived Hyundai press kit found; all values from ADAC Autokatalog (fallback). Height varies 1720-1730 mm between variants (likely roof rails / 4WD). Facelift in 2008 without documented dimension/trunk change."
+     },
+     {
+      "name": "TL",
+      "yearFrom": 2015,
+      "yearTo": 2018,
+      "bodyType": "suv",
+      "lengthMm": 4475,
+      "widthMm": 1850,
+      "heightMm": 1645,
+      "wheelbaseMm": 2670,
+      "trunkL": 513,
+      "trunkFoldedL": 1503,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 GDI 132 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 132,
+        "awd": false,
+        "trunkL": 513,
+        "trunkFoldedL": 1503,
+        "notes": "ADAC 1.6 GDI blue Trend/Advantage/Passion."
+       },
+       {
+        "name": "1.6 T-GDI 177 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 177,
+        "awd": false,
+        "trunkL": 513,
+        "trunkFoldedL": 1503,
+        "notes": "Also available with 4WD/DCT. Trunk assumed same as range figure 513-1503 l given by auto motor und sport / mobile.de for the generation."
+       },
+       {
+        "name": "1.7 CRDi 116 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 116,
+        "awd": false,
+        "trunkL": 513,
+        "trunkFoldedL": 1503,
+        "notes": "Later also 141 PS with DCT (ADAC 1.7 CRDi blue Trend DCT 04/16-07/18)."
+       },
+       {
+        "name": "2.0 CRDi 4WD (Diesel, 136/185 PS)",
+        "powertrain": "diesel",
+        "powerPs": 185,
+        "awd": true,
+        "trunkL": 513,
+        "trunkFoldedL": 1503,
+        "notes": "Top diesel 136 kW/185 PS 4WD (auto motor und sport); 136 PS version also offered."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/tucson/2generation/249788/",
+        "what": "ADAC: 1.6 GDI blue Trend (07/15-07/18) length 4475, width 1850 (2070 with mirrors), height 1645, wheelbase 2670, 132 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/tucson/2generation/283207/",
+        "what": "ADAC: 1.6 GDI blue Advantage (08/17-01/18) trunk 513 l / 1503 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/tucson/2generation/287725/",
+        "what": "ADAC: 1.6 GDI blue Passion (01/18-07/18) trunk 513/1503 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/tucson/2generation/254871/",
+        "what": "ADAC: 1.7 CRDi blue Trend DCT (04/16-07/18) variant existence"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/suv/gebrauchtwagen/gebrauchtwagencheck-hyundai-tucson-tl-3-generation-alles-was-sie-zum-kauf-wissen-muessen-v1/technische-daten/",
+        "what": "auto motor und sport: 2.0 CRDi 185 PS, 1.6 T-GDI 177 PS, trunk 513-1503 l, wheelbase 2.67 m"
+       },
+       {
+        "url": "https://www.mobile.de/auto/hyundai/tucson/2015/suv/modell/daten-fakten/",
+        "what": "Cross-check: engines 116-185 PS, 1.6 GDI 132 PS, trunk 513/1503 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Official 2015 Hyundai press kit not found; ADAC used as fallback. Some sources give 4480 mm length (with towbar/trim differences)."
+     },
+     {
+      "name": "TL (Facelift)",
+      "yearFrom": 2018,
+      "yearTo": 2020,
+      "bodyType": "suv",
+      "lengthMm": 4480,
+      "widthMm": 1850,
+      "heightMm": 1645,
+      "wheelbaseMm": 2670,
+      "trunkL": 513,
+      "trunkFoldedL": 1503,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 GDI 132 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 132,
+        "awd": false,
+        "trunkL": 513,
+        "trunkFoldedL": 1503
+       },
+       {
+        "name": "1.6 T-GDI 177 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 177,
+        "awd": false,
+        "trunkL": 513,
+        "trunkFoldedL": 1503,
+        "notes": "Also 4WD/DCT."
+       },
+       {
+        "name": "1.6 CRDi 116/136 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 136,
+        "awd": false,
+        "trunkL": 513,
+        "trunkFoldedL": 1503,
+        "notes": "Hyundai press data diesel Sep 2018: 513-1503 l VDA for the diesel range."
+       },
+       {
+        "name": "2.0 CRDi 4WD Automatik (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 185,
+        "awd": true,
+        "trunkL": 513,
+        "trunkFoldedL": 1503,
+        "notes": "ADAC 2.0 CRDi Style 4WD Automatik 07/18-04/19."
+       },
+       {
+        "name": "2.0 CRDi 48V-Mildhybrid 4WD 185 PS",
+        "powertrain": "mhev",
+        "powerPs": 185,
+        "awd": true,
+        "trunkL": 459,
+        "trunkFoldedL": 1449,
+        "notes": "48V Li-ion battery reduces trunk by 54 l (heise, motor-talk, autoscout24.fr). Per heise the German configurator/brochure/press release still listed 513-1503 l; reduced values found in AT/CH/NL brochures."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.hyundai.news/newsroom/dam/de/Pressemappen/Tucson/2018/hyundai_tucson_sep2018_technische_daten_diesel.pdf",
+        "what": "Hyundai press data diesel (Sep 2018): length 4480, width 1850 (2070 with mirrors), height 1645 (1650 with roof rails), wheelbase 2670, trunk 513-1503 l VDA"
+       },
+       {
+        "url": "https://www.hyundai.news/newsroom/dam/de/Pressemappen/Tucson/2018/hyundai_tucson_nov2018_technische_daten_benziner.pdf",
+        "what": "Hyundai press data petrol (Nov 2018): trunk 513-1503 l VDA"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/tucson/2generation-facelift/292437/",
+        "what": "ADAC: 1.6 T-GDI Style (07/18-04/19) 4480 length, 1645 height, 513/1503 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/tucson/2generation-facelift/292452/",
+        "what": "ADAC: 2.0 CRDi Style 4WD Automatik (07/18-04/19) 513/1503 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/tucson/2generation-facelift/292431/",
+        "what": "ADAC: 1.6 GDI Trend (07/18-04/19) 513/1503 l"
+       },
+       {
+        "url": "https://www.heise.de/autos/artikel/Hyundai-Tucson-2-0-CRDi-HTRAC-48-V-im-Fahrbericht-4272964.html",
+        "what": "48V mild hybrid trunk reduced by 54 l to 459-1449 l"
+       },
+       {
+        "url": "https://www.motormobiles.de/hyundai-tucson-2-0-crdi-awd-48-volt-mildhybrid-im-test/",
+        "what": "Cross-check 48V trunk 459-1449 l"
+       },
+       {
+        "url": "https://www.autoscout24.fr/voiture/caracteristiques-techniques/hyundai/tucson/tucson-2-0-crdi-185-htrac-hybrid-48v-bva8-suv-4x4-pick-up-diesel-7001/",
+        "what": "2.0 CRDi 48V 136 kW/185 PS, 8AT, AWD, trunk 459-1449 l"
+       },
+       {
+        "url": "https://cdn.uc.assets.prezly.com/b669bbce-4bab-42b0-af7c-2bf26225fcf4/-/inline/no/2018-06-08_Media Info_New Hyundai Tucson 2.0 CRDi mit 48 Volt Technologie_DE.pdf",
+        "what": "Hyundai media info 2018: 2.0 CRDi with 48V technology (0.44 kWh Li-ion battery)"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Facelift split because length changed (4475 -> 4480 mm). 48V trunk value comes from press/test sources, not the German Hyundai data sheet (which still listed 513-1503 l)."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Tucson JM official Hyundai press data (only ADAC available)",
+   "Tucson JM 2.0 CRDi ~140 PS (2006-2008) variant data",
+   "Tucson JM 2.7 V6 heightMm",
+   "Tucson TL (2015) official Hyundai press kit",
+   "Tucson JM/TL loadSpace measurements"
+  ],
+  "notes": "ix35 (2010-2015) is a different nameplate and was skipped as instructed. Predecessors of Tucson NX4 within 2005-2019: JM (2004-2010) and TL (2015-2020, facelift 07/2018)."
+ },
+ "verification": {
+  "corrections": [],
+  "missing": [
+   {
+    "model": "Tucson",
+    "detail": "TL Facelift: 1.6 CRDi 48V-Mildhybrid (100 kW/136 PS, German launch summer 2019, ADAC 04/19-12/20, e.g. https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/tucson/2generation-facelift/298938/) is missing. It probably has the same reduced 48V trunk. A UK listing gives 459/1449 l, but no official German figure was found."
+   },
+   {
+    "model": "Tucson",
+    "detail": "JM: 2.0 CRDi VGT 103 kW/140 PS (2WD and 4WD, approx. 2005/06-2008) existed. Confirmed by cars-data.com (https://cars-data.com/en/hyundai/tucson/jm/2-0-crdi-vgt-styleversion-4wd-37896--37896/specs) and autoscout24.fr (2.0 CRDi 2WD 140). Body and trunk are the same as the other JM variants (325/1375 l)."
+   }
+  ],
+  "checkedValues": 50,
+  "confirmedValues": 44,
+  "notes": "Confirmed: JM 4325/1795/2630 mm and 325/1375 l (gebrauchtwagenberater, autobild). JM height is 1720-1730 depending on variant. TL width 1850, wheelbase 2670 and trunk 513/1503 are confirmed by autoplenum, autobild and autoscout24. Not confirmed: TL pre-facelift length 4475 and height 1645 were not found verbatim. Third-party sources give 4470-4480 and 1640-1650, so neither value is contradicted. TL Facelift 2.0 CRDi 48V trunk is conflicting. ADAC 48V entries (298956/298957/298961, 04/19-12/20) show 513/1503 l. TopGear and autoscout24.fr show 459 l (and 459-1449). completecar.ie shows 459/1503. The 459 l base value is plausible (battery under the floor), but there is no clear manufacturer source, so no correction is made. Also, ADAC lists 48V models from 04/19, so a variant yearFrom of 2019 could be added. No missing generations: ix35 (2010-2015) is correctly excluded as a separate nameplate. [Übernahme: 1 Korrektur(en) verworfen – Höhe nur aus fastcarcheck.uk]"
+ }
+}

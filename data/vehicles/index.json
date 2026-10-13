@@ -10,35 +10,35 @@
      "id": "caddy",
      "name": "Caddy",
      "bodyType": "van",
-     "yearFrom": 2020,
+     "yearFrom": 2004,
      "yearTo": null
     },
     {
      "id": "caddy-maxi",
      "name": "Caddy Maxi",
      "bodyType": "van",
-     "yearFrom": 2021,
+     "yearFrom": 2007,
      "yearTo": null
     },
     {
      "id": "golf",
      "name": "Golf",
      "bodyType": "hatchback",
-     "yearFrom": 2020,
+     "yearFrom": 2003,
      "yearTo": null
     },
     {
      "id": "golf-sportsvan",
      "name": "Golf Sportsvan",
      "bodyType": "van",
-     "yearFrom": 2018,
+     "yearFrom": 2014,
      "yearTo": 2020
     },
     {
      "id": "golf-variant",
      "name": "Golf Variant",
      "bodyType": "wagon",
-     "yearFrom": 2020,
+     "yearFrom": 1999,
      "yearTo": null
     },
     {
@@ -94,42 +94,42 @@
      "id": "multivan",
      "name": "Multivan",
      "bodyType": "van",
-     "yearFrom": 2021,
+     "yearFrom": 2003,
      "yearTo": null
     },
     {
      "id": "multivan-langer-uberhang",
      "name": "Multivan langer Überhang",
      "bodyType": "van",
-     "yearFrom": 2021,
+     "yearFrom": 2015,
      "yearTo": null
     },
     {
      "id": "passat-alltrack",
      "name": "Passat Alltrack",
      "bodyType": "wagon",
-     "yearFrom": 2019,
+     "yearFrom": 2012,
      "yearTo": 2023
     },
     {
      "id": "passat-limousine",
      "name": "Passat Limousine",
      "bodyType": "sedan",
-     "yearFrom": 2019,
+     "yearFrom": 2005,
      "yearTo": 2021
     },
     {
      "id": "passat-variant",
      "name": "Passat Variant",
      "bodyType": "wagon",
-     "yearFrom": 2019,
+     "yearFrom": 2005,
      "yearTo": null
     },
     {
      "id": "polo",
      "name": "Polo",
      "bodyType": "hatchback",
-     "yearFrom": 2017,
+     "yearFrom": 2005,
      "yearTo": null
     },
     {
@@ -171,7 +171,7 @@
      "id": "tiguan",
      "name": "Tiguan",
      "bodyType": "suv",
-     "yearFrom": 2016,
+     "yearFrom": 2007,
      "yearTo": null
     },
     {
@@ -185,14 +185,14 @@
      "id": "touareg",
      "name": "Touareg",
      "bodyType": "suv",
-     "yearFrom": 2018,
+     "yearFrom": 2002,
      "yearTo": null
     },
     {
      "id": "touran",
      "name": "Touran",
      "bodyType": "van",
-     "yearFrom": 2015,
+     "yearFrom": 2003,
      "yearTo": null
     }
    ]
@@ -206,7 +206,7 @@
      "id": "a-klasse-kompaktlimousine",
      "name": "A-Klasse Kompaktlimousine",
      "bodyType": "hatchback",
-     "yearFrom": 2018,
+     "yearFrom": 2004,
      "yearTo": null
     },
     {
@@ -220,42 +220,42 @@
      "id": "c-klasse-limousine",
      "name": "C-Klasse Limousine",
      "bodyType": "sedan",
-     "yearFrom": 2021,
+     "yearFrom": 2000,
      "yearTo": null
     },
     {
      "id": "c-klasse-t-modell",
      "name": "C-Klasse T-Modell",
      "bodyType": "wagon",
-     "yearFrom": 2021,
+     "yearFrom": 2001,
      "yearTo": null
     },
     {
      "id": "cla",
      "name": "CLA",
      "bodyType": "sedan",
-     "yearFrom": 2019,
+     "yearFrom": 2013,
      "yearTo": null
     },
     {
      "id": "cla-shooting-brake",
      "name": "CLA Shooting Brake",
      "bodyType": "wagon",
-     "yearFrom": 2026,
+     "yearFrom": 2015,
      "yearTo": null
     },
     {
      "id": "e-klasse-t-modell",
      "name": "E-Klasse T-Modell",
      "bodyType": "wagon",
-     "yearFrom": 2016,
+     "yearFrom": 2003,
      "yearTo": null
     },
     {
      "id": "gla",
      "name": "GLA",
      "bodyType": "suv",
-     "yearFrom": 2020,
+     "yearFrom": 2014,
      "yearTo": null
     },
     {
@@ -283,7 +283,7 @@
      "id": "1er",
      "name": "1er",
      "bodyType": "hatchback",
-     "yearFrom": 2019,
+     "yearFrom": 2004,
      "yearTo": null
     },
     {
@@ -297,21 +297,21 @@
      "id": "3er-limousine",
      "name": "3er Limousine",
      "bodyType": "sedan",
-     "yearFrom": 2019,
+     "yearFrom": 2001,
      "yearTo": null
     },
     {
      "id": "3er-touring",
      "name": "3er Touring",
      "bodyType": "wagon",
-     "yearFrom": 2019,
+     "yearFrom": 2001,
      "yearTo": null
     },
     {
      "id": "5er-touring-inkl-i5-touring",
      "name": "5er Touring (inkl. i5 Touring)",
      "bodyType": "wagon",
-     "yearFrom": 2017,
+     "yearFrom": 2004,
      "yearTo": null
     },
     {
@@ -325,21 +325,21 @@
      "id": "x1",
      "name": "X1",
      "bodyType": "suv",
-     "yearFrom": 2015,
+     "yearFrom": 2009,
      "yearTo": null
     },
     {
      "id": "x3",
      "name": "X3",
      "bodyType": "suv",
-     "yearFrom": 2017,
+     "yearFrom": 2004,
      "yearTo": null
     },
     {
      "id": "x5",
      "name": "X5",
      "bodyType": "suv",
-     "yearFrom": 2018,
+     "yearFrom": 2004,
      "yearTo": null
     }
    ]
@@ -374,14 +374,14 @@
      "id": "fabia",
      "name": "Fabia",
      "bodyType": "hatchback",
-     "yearFrom": 2018,
+     "yearFrom": 2000,
      "yearTo": null
     },
     {
      "id": "fabia-combi",
      "name": "Fabia Combi",
      "bodyType": "wagon",
-     "yearFrom": 2018,
+     "yearFrom": 2001,
      "yearTo": 2021
     },
     {
@@ -409,14 +409,14 @@
      "id": "octavia-combi",
      "name": "Octavia Combi",
      "bodyType": "wagon",
-     "yearFrom": 2020,
+     "yearFrom": 2005,
      "yearTo": null
     },
     {
      "id": "octavia-limousine",
      "name": "Octavia Limousine",
      "bodyType": "sedan",
-     "yearFrom": 2020,
+     "yearFrom": 2004,
      "yearTo": null
     },
     {
@@ -430,14 +430,14 @@
      "id": "superb-combi",
      "name": "Superb Combi",
      "bodyType": "wagon",
-     "yearFrom": 2019,
+     "yearFrom": 2010,
      "yearTo": null
     },
     {
      "id": "superb-limousine",
      "name": "Superb Limousine",
      "bodyType": "sedan",
-     "yearFrom": 2019,
+     "yearFrom": 2002,
      "yearTo": null
     }
    ]
@@ -451,14 +451,14 @@
      "id": "a3-sportback",
      "name": "A3 Sportback",
      "bodyType": "hatchback",
-     "yearFrom": 2020,
+     "yearFrom": 2004,
      "yearTo": null
     },
     {
      "id": "a4-avant",
      "name": "A4 Avant",
      "bodyType": "wagon",
-     "yearFrom": 2016,
+     "yearFrom": 2005,
      "yearTo": 2024
     },
     {
@@ -472,14 +472,14 @@
      "id": "a6-avant",
      "name": "A6 Avant",
      "bodyType": "wagon",
-     "yearFrom": 2018,
+     "yearFrom": 2005,
      "yearTo": null
     },
     {
      "id": "q3",
      "name": "Q3",
      "bodyType": "suv",
-     "yearFrom": 2018,
+     "yearFrom": 2011,
      "yearTo": null
     },
     {
@@ -507,7 +507,7 @@
      "id": "q5",
      "name": "Q5",
      "bodyType": "suv",
-     "yearFrom": 2017,
+     "yearFrom": 2008,
      "yearTo": null
     }
    ]
@@ -535,21 +535,21 @@
      "id": "ibiza",
      "name": "Ibiza",
      "bodyType": "hatchback",
-     "yearFrom": 2017,
+     "yearFrom": 2002,
      "yearTo": null
     },
     {
      "id": "leon",
      "name": "Leon",
      "bodyType": "hatchback",
-     "yearFrom": 2020,
+     "yearFrom": 1999,
      "yearTo": null
     },
     {
      "id": "leon-sportstourer",
      "name": "Leon Sportstourer",
      "bodyType": "wagon",
-     "yearFrom": 2020,
+     "yearFrom": 2014,
      "yearTo": null
     }
    ]
@@ -598,21 +598,21 @@
      "id": "astra",
      "name": "Astra",
      "bodyType": "hatchback",
-     "yearFrom": 2022,
+     "yearFrom": 2004,
      "yearTo": null
     },
     {
      "id": "astra-sports-tourer",
      "name": "Astra Sports Tourer",
      "bodyType": "wagon",
-     "yearFrom": 2022,
+     "yearFrom": 2004,
      "yearTo": null
     },
     {
      "id": "corsa",
      "name": "Corsa",
      "bodyType": "hatchback",
-     "yearFrom": 2019,
+     "yearFrom": 2003,
      "yearTo": null
     },
     {
@@ -640,7 +640,7 @@
      "id": "mokka",
      "name": "Mokka",
      "bodyType": "suv",
-     "yearFrom": 2021,
+     "yearFrom": 2012,
      "yearTo": null
     }
    ]
@@ -661,14 +661,14 @@
      "id": "focus-turnier",
      "name": "Focus Turnier",
      "bodyType": "wagon",
-     "yearFrom": 2022,
+     "yearFrom": 2005,
      "yearTo": 2025
     },
     {
      "id": "kuga",
      "name": "Kuga",
      "bodyType": "suv",
-     "yearFrom": 2020,
+     "yearFrom": 2008,
      "yearTo": null
     },
     {
@@ -689,21 +689,21 @@
      "id": "i10",
      "name": "i10",
      "bodyType": "hatchback",
-     "yearFrom": 2020,
+     "yearFrom": 2008,
      "yearTo": null
     },
     {
      "id": "i20",
      "name": "i20",
      "bodyType": "hatchback",
-     "yearFrom": 2020,
+     "yearFrom": 2008,
      "yearTo": null
     },
     {
      "id": "i30-kombi",
      "name": "i30 Kombi",
      "bodyType": "wagon",
-     "yearFrom": 2017,
+     "yearFrom": 2008,
      "yearTo": null
     },
     {
@@ -731,7 +731,7 @@
      "id": "tucson",
      "name": "Tucson",
      "bodyType": "suv",
-     "yearFrom": 2020,
+     "yearFrom": 2004,
      "yearTo": null
     }
    ]
@@ -745,7 +745,7 @@
      "id": "c-hr",
      "name": "C-HR",
      "bodyType": "suv-coupe",
-     "yearFrom": 2020,
+     "yearFrom": 2016,
      "yearTo": null
     },
     {
@@ -759,21 +759,21 @@
      "id": "corolla-touring-sports",
      "name": "Corolla Touring Sports",
      "bodyType": "wagon",
-     "yearFrom": 2019,
+     "yearFrom": 2004,
      "yearTo": null
     },
     {
      "id": "rav4",
      "name": "RAV4",
      "bodyType": "suv",
-     "yearFrom": 2019,
+     "yearFrom": 2003,
      "yearTo": null
     },
     {
      "id": "yaris",
      "name": "Yaris",
      "bodyType": "hatchback",
-     "yearFrom": 2020,
+     "yearFrom": 2006,
      "yearTo": null
     },
     {

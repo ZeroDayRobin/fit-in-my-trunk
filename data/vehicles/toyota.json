@@ -214,6 +214,92 @@
       "corrected": 0
      },
      "notes": "Exterior dimensions of the facelifted first-generation C-HR were not found within the search budget (ADAC page 2.0 Hybrid Team Deutschland 12/19-12/23 exists). Trunk values from AUTO BILD/carwow and AutoScout24, low confidence."
+    },
+    {
+     "id": "2016-x10-1-generation-vor-facelift",
+     "name": "X10 (1. Generation, vor Facelift)",
+     "yearFrom": 2016,
+     "yearTo": 2019,
+     "bodyType": "suv",
+     "lengthMm": 4360,
+     "widthMm": 1795,
+     "heightMm": 1555,
+     "wheelbaseMm": 2640,
+     "trunkL": 377,
+     "trunkFoldedL": 1160,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-t-benziner-frontantrieb",
+       "name": "1.2 T (Benziner) Frontantrieb",
+       "powertrain": "petrol",
+       "powerPs": 116,
+       "awd": false,
+       "trunkL": 377,
+       "trunkFoldedL": 1160,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1565,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "116 PS laut mobile.de/Autoscout-Datenseiten; Kofferraum/Hoehe aus ADAC-Eintrag des 1.2 T Allrad uebernommen (gleiche Karosserie, Hoehe 1565 mm auch laut Autoscout)."
+      },
+      {
+       "id": "1-2-t-allrad-multidrive-s-benziner",
+       "name": "1.2 T Allrad Multidrive S (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 116,
+       "awd": true,
+       "trunkL": 377,
+       "trunkFoldedL": 1160,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1565,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Autokatalog 1.2 T Style Allrad Multidrive S 10/16-01/18: 4360 x 1795 x 1565 mm, 377 / 920 / 1160 l."
+      },
+      {
+       "id": "1-8-hybrid-vollhybrid",
+       "name": "1.8 Hybrid (Vollhybrid)",
+       "powertrain": "hev",
+       "powerPs": 122,
+       "awd": false,
+       "trunkL": 377,
+       "trunkFoldedL": 1160,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1555,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Autokatalog (Herstellerangaben) 1.8 Hybrid Lounge 10/16-05/18: 377 l / 920 l fensterhoch / 1160 l dachhoch, Hoehe 1555 mm, 90 kW (122 PS)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/c-hr/x10/261866/",
+       "what": "ADAC (Herstellerangaben): 1.8 Hybrid Lounge 10/16-05/18 - Laenge 4360, Breite 1795 (2050 inkl. Spiegel), Hoehe 1555, Kofferraum 377/1160 l, 122 PS"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/c-hr/x10/261862/",
+       "what": "ADAC (Herstellerangaben): 1.2 T Style Allrad Multidrive S 10/16-01/18 - 4360/1795/1565 mm, 377/920/1160 l"
+      },
+      {
+       "url": "https://www.mobile.de/auto/toyota/c-hr/2016/suv/modell/daten-fakten/",
+       "what": "Radstand 2640 mm, 1.2 Turbo 116 PS"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/toyota/c-hr/c-hr-18686/",
+       "what": "Radstand 2640 mm, Hoehe 1565 mm (Gegenprobe)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 50,
+      "confirmed": 41,
+      "corrected": 0
+     },
+     "notes": "Markteinfuehrung D Dezember 2016 (ADAC 10/16), Facelift 12/2019 bereits in DB. Laengenangaben schwanken: einige Datenportale nennen 4385 mm, ADAC (Herstellerdaten) 4360 mm - 4360 verwendet. 2.0 Hybrid kam erst mit dem Facelift. Keine Toyota-Pressemappe gefunden; Werte basieren auf ADAC-Herstellerangaben."
     }
    ]
   },
@@ -493,6 +579,118 @@
       "corrected": 0
      },
      "notes": "Dimensions/trunk from ADAC entry 2.0 Hybrid Lounge (04/19-10/19). Carwow quotes height 1460 mm (possibly with roof rails/TREK, unverified)."
+    },
+    {
+     "id": "2004-e12-facelift-corolla-combi",
+     "name": "E12 Facelift (Corolla Combi)",
+     "yearFrom": 2004,
+     "yearTo": 2007,
+     "bodyType": "wagon",
+     "lengthMm": 4410,
+     "widthMm": 1710,
+     "heightMm": 1520,
+     "wheelbaseMm": 2600,
+     "trunkL": 402,
+     "trunkFoldedL": 1480,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-vvt-i-benziner",
+       "name": "1.4 VVT-i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 97,
+       "awd": false,
+       "trunkL": 402,
+       "trunkFoldedL": 1480,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Motorenprogramm laut autoplenum Kombi-Seite."
+      },
+      {
+       "id": "1-6-vvt-i-benziner",
+       "name": "1.6 VVT-i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 110,
+       "awd": false,
+       "trunkL": 402,
+       "trunkFoldedL": 1480,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Corolla Combi 1.6 Sol 07/04-02/07: 402 / 1480 l."
+      },
+      {
+       "id": "1-4-d-4d-diesel",
+       "name": "1.4 D-4D (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 90,
+       "awd": false,
+       "trunkL": 402,
+       "trunkFoldedL": 1480,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Kofferraum wie 1.6 angenommen gleiche Karosserie (ADAC nur 1.6 Sol eingesehen)."
+      },
+      {
+       "id": "2-0-d-4d-90-ps-diesel",
+       "name": "2.0 D-4D 90 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 90,
+       "awd": false,
+       "trunkL": 402,
+       "trunkFoldedL": 1480,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Laut autoplenum im Kombi angeboten."
+      },
+      {
+       "id": "2-0-d-4d-116-ps-diesel",
+       "name": "2.0 D-4D 116 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 116,
+       "awd": false,
+       "trunkL": 402,
+       "trunkFoldedL": 1480,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Laut autoplenum im Kombi angeboten."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/corolla/e12-facelift/999497/",
+       "what": "ADAC (Herstellerangaben): Corolla Combi 1.6 Sol 07/04-02/07 - Laenge 4410, Breite 1710 (1935 inkl. Spiegel), Hoehe 1520, Radstand 2600, Kofferraum 402 l / 1480 l dachhoch"
+      },
+      {
+       "url": "https://www.autoplenum.de/auto/toyota/corolla/kombi-2001",
+       "what": "Motorenprogramm Kombi: 1.4 VVT-i 97 PS, 1.6 VVT-i 110 PS, 1.4 D-4D 90 PS, 2.0 D-4D 90/116 PS"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/toyota/corolla/corolla-1-6-vvt-i-combi-2001-2007-kombi-benzin/",
+       "what": "Gegenprobe 4410/1710/1520 mm, 402-1480 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 50,
+      "confirmed": 41,
+      "corrected": 0
+     },
+     "notes": "Historischer Name 'Corolla Combi'/'Corolla Kombi' (E12, Facelift 07/2004 bis 02/2007). Vor-Facelift-Combi (2002-07/2004, Laenge 4385 mm, ~402-405 l) liegt mit seinen Modelljahren vor 2005 und wurde nicht aufgenommen. Zwischen 2007 und 2019 gab es keinen Corolla-Kombi in Deutschland; Auris Touring Sports ist ein anderes Typschild und wurde bewusst uebersprungen. Motoren-Leistungen nur aus autoplenum (keine Toyota-Preisliste gefunden)."
     }
    ]
   },
@@ -660,6 +858,386 @@
       "corrected": 0
      },
      "notes": "Motor1 lists height 1690 mm for 2024 model. Some sources give 1706 l folded."
+    },
+    {
+     "id": "2016-xa40-facelift-4-generation",
+     "name": "XA40 Facelift (4. Generation)",
+     "yearFrom": 2016,
+     "yearTo": 2018,
+     "bodyType": "suv",
+     "lengthMm": 4605,
+     "widthMm": 1845,
+     "heightMm": 1675,
+     "wheelbaseMm": 2660,
+     "trunkL": 547,
+     "trunkFoldedL": 1746,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-vvt-i-2-0-d-4d-benziner-diesel-konventionell",
+       "name": "2.0 VVT-i / 2.0 D-4D (Benziner/Diesel, konventionell)",
+       "powertrain": "petrol",
+       "powerPs": 152,
+       "awd": false,
+       "trunkL": 547,
+       "trunkFoldedL": 1746,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "motor1: konventionelle Modelle 547-1746 l. Gilt auch fuer den Diesel (Leistung nicht belegt)."
+      },
+      {
+       "id": "2-5-hybrid-vollhybrid-frontantrieb",
+       "name": "2.5 Hybrid (Vollhybrid) Frontantrieb",
+       "powertrain": "hev",
+       "powerPs": 197,
+       "awd": false,
+       "trunkL": 501,
+       "trunkFoldedL": 1633,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.5 Hybrid Executive 01/16-08/18: 501 l / 1054 l fensterhoch / 1633 l dachhoch. Batterie verhindert ebenen Ladeboden (motor1)."
+      },
+      {
+       "id": "2-5-hybrid-4x4-awd-vollhybrid",
+       "name": "2.5 Hybrid 4x4 (AWD, Vollhybrid)",
+       "powertrain": "hev",
+       "powerPs": 197,
+       "awd": true,
+       "trunkL": 501,
+       "trunkFoldedL": 1633,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.5 Hybrid Executive 4x4 und Edition S 4x4: 4605/1845/1675 mm, 501/1633 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/rav4/xa4-facelift/251694/",
+       "what": "ADAC (Herstellerangaben): 2.5 Hybrid Executive 4x4 01/16-08/18 - 4605/1845/1675 mm, Radstand 2660, 501/1054/1633 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/rav4/xa4-facelift/257039/",
+       "what": "ADAC: 2.5 Hybrid Edition S 4x4 - gleiche Masse und Kofferraum"
+      },
+      {
+       "url": "https://de.motor1.com/reviews/153203/toyota-rav4-25-hybrid-im-test-fur-vernunftmenschen/",
+       "what": "Hybrid 501-1633 l vs. konventionelle Modelle 547-1746 l; Facelift +3 cm Laenge, Radstand gleich"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/toyota-rav4-hybrid-2016/technische-daten/",
+       "what": "Radstand 2660 mm (Gegenprobe)"
+      },
+      {
+       "url": "https://www.meinauto.de/testberichte/toyota-rav4-test-2016-wegbereiter-setzt-neue-akzente",
+       "what": "Korrektur powerPs: Facelift 2016: 2,5-l-Benziner plus E-Motor, Systemleistung 145 kW bzw. 197 PS (mobile.de XA4 Daten-Fakten nennt ebenfalls 197 PS)."
+      },
+      {
+       "url": "https://www.meinauto.de/testberichte/toyota-rav4-test-2016-wegbereiter-setzt-neue-akzente",
+       "what": "Korrektur powerPs: Systemleistung 145 kW / 197 PS; Allradversion mit zusaetzlichem E-Motor an der Hinterachse."
+      },
+      {
+       "url": "https://www.mobile.de/auto/toyota/rav4/2013/suv/modell/daten-fakten/",
+       "what": "Korrektur powerPs: mobile.de (Modellpflege 2016): 2.0 Valvematic 152 PS (6-Gang oder Multidrive S); 2.0 D-4D 143 PS nur Frontantrieb/6-Gang (ADAC 2.0 D-4D 01/16-01/18, https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/rav4/xa4-facelift/251695: 105 kW (143 PS), Vorderrad). Varia"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 50,
+      "confirmed": 41,
+      "corrected": 3
+     },
+     "notes": "Facelift 01/2016, separat wegen Laengenzuwachs 4570 -> 4605 mm. Generations-Kofferraum = konventionelle Antriebe. Leistungsangaben nicht ueber gefundene Quellen belegt (null)."
+    },
+    {
+     "id": "2013-xa40-4-generation-vor-facelift",
+     "name": "XA40 (4. Generation, vor Facelift)",
+     "yearFrom": 2013,
+     "yearTo": 2015,
+     "bodyType": "suv",
+     "lengthMm": 4570,
+     "widthMm": 1845,
+     "heightMm": 1660,
+     "wheelbaseMm": 2660,
+     "trunkL": 547,
+     "trunkFoldedL": 1746,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-valvematic-benziner",
+       "name": "2.0 Valvematic (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 151,
+       "awd": false,
+       "trunkL": 547,
+       "trunkFoldedL": 1746,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "6-Gang oder Multidrive S; Antrieb (Front/Allrad) je Getriebe nicht belegt."
+      },
+      {
+       "id": "2-0-d-4d-diesel-frontantrieb",
+       "name": "2.0 D-4D (Diesel) Frontantrieb",
+       "powertrain": "diesel",
+       "powerPs": 124,
+       "awd": false,
+       "trunkL": 547,
+       "trunkFoldedL": 1746,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Laut Toyota-Newsroom/automativ ausschliesslich Frontantrieb."
+      },
+      {
+       "id": "2-2-d-4d-4x4-diesel",
+       "name": "2.2 D-4D 4x4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 150,
+       "awd": true,
+       "trunkL": 547,
+       "trunkFoldedL": 1746,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Nur Allrad, 6-Gang manuell oder 6-Stufen-Automatik."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://newsroom.toyota.eu/2019-2013-the-new-toyota-rav4-powertrains/",
+       "what": "Toyota Europe Newsroom: Motorenprogramm 2013 (2.0 D-4D 124 PS FWD, 2.2 D-4D 150 PS AWD, 2.0 Valvematic 151 PS)"
+      },
+      {
+       "url": "http://www.auto-motor-und-sport.de/news/toyota-rav4-2013-weltpremiere-toyota-enthuellt-die-vierte-rav-generation-6181106.html",
+       "what": "Laenge 4570 mm, Radstand 2660 mm"
+      },
+      {
+       "url": "https://www.automativ.de/toyota-rav4-2013-id-18786.html",
+       "what": "Kofferraum 547 l / 1746 l, Motoren"
+      },
+      {
+       "url": "https://www.mobile.de/auto/toyota/rav4/2013/suv/modell/daten-fakten/",
+       "what": "Kofferraum 547 l (Gegenprobe)"
+      },
+      {
+       "url": "https://www.meinauto.de/testberichte/test-toyota-rav4-2013-neuauflage-eines-pioniers",
+       "what": "2.2 D-4D Comfort 4x4: 4570 x 1845 x 1660 mm (Breite/Hoehe)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 50,
+      "confirmed": 41,
+      "corrected": 0
+     },
+     "notes": "Markteinfuehrung D 13.04.2013. Breite/Hoehe nur aus Test-/Magazinquelle, nicht aus Herstellerdatenblatt. Hybrid erst ab Facelift 2016."
+    },
+    {
+     "id": "2006-xa30-3-generation",
+     "name": "XA30 (3. Generation)",
+     "yearFrom": 2006,
+     "yearTo": 2009,
+     "bodyType": "suv",
+     "lengthMm": 4395,
+     "widthMm": 1815,
+     "heightMm": 1685,
+     "wheelbaseMm": 2560,
+     "trunkL": 450,
+     "trunkFoldedL": 1752,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-vvt-i-benziner",
+       "name": "2.0 VVT-i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 152,
+       "awd": true,
+       "trunkL": 450,
+       "trunkFoldedL": 1752,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Leistung nicht belegt."
+      },
+      {
+       "id": "2-2-d-4d-4x4-diesel-136-ps-ab-facelift-150-ps",
+       "name": "2.2 D-4D 4x4 (Diesel, 136 PS / ab Facelift 150 PS)",
+       "powertrain": "diesel",
+       "powerPs": 136,
+       "awd": true,
+       "trunkL": 450,
+       "trunkFoldedL": 1752,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "136 PS vor Facelift, 150 PS nach Facelift 2010 laut auto-data.net."
+      },
+      {
+       "id": "2-2-d-cat-4x4-diesel",
+       "name": "2.2 D-CAT 4x4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 177,
+       "awd": true,
+       "trunkL": 450,
+       "trunkFoldedL": 1752,
+       "lengthMm": 4315,
+       "widthMm": 1855,
+       "heightMm": 1685,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.2 D-CAT Executive 4x4 03/06-04/09: Laenge 4315, Breite 1855 (2060 inkl. Spiegel), Hoehe 1685, Radstand 2560, 450 / 911 fensterhoch / 1752 l dachhoch. Abweichende Laenge vermutlich Ausfuehrung ohne Hecktuer-Reserverad - nicht verifiziert."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/rav4/xa3/205704/",
+       "what": "ADAC (Herstellerangaben): 2.2 D-CAT Executive 4x4 - 4315/1855/1685 mm, Radstand 2560, 450/911/1752 l"
+      },
+      {
+       "url": "https://newsroom.kues.de/2006/02/06/erste-erfahrungen-toyota-rav4-modelljahr-2006/",
+       "what": "Laenge 4395, Breite 1815, Hoehe 1685 mm, Radstand 2560, Kofferraum 450-1752 l"
+      },
+      {
+       "url": "https://www.mobile.de/auto/toyota/rav4/2006/suv/modell/daten-fakten/",
+       "what": "Laenge 4395 mm, 450/1752 l (Gegenprobe)"
+      },
+      {
+       "url": "https://www.auto-data.net/en/toyota-rav4-iii-xa30-facelift-2010-2.2-d-4d-150hp-4wd-automatic-37203",
+       "what": "2.2 D-4D 150 PS nach Facelift 2010"
+      },
+      {
+       "url": "https://www.auto-data.net/en/toyota-rav4-iii-xa30-2.2-d-ad-136hp-4wd-37187",
+       "what": "2.2 D-4D 136 PS vor Facelift"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/rav4/xa3/205224",
+       "what": "Korrektur awd: ADAC fuehrt den Benziner 03/06-04/09 nur als 'RAV4 2.0 4x4' bzw. '2.0 Sol 4x4 Automatik' (205700); 4x2-Benziner erst im Facelift 2010."
+      },
+      {
+       "url": "https://www.autozine.nl/toyota/rav4-2006-2013/nieuws/toyota-introduceert-nieuwe-rav4",
+       "what": "Korrektur powerPs: Toyota-Einfuehrung 01/2006: 2.0 VVT-i einziger Benziner, 112 kW (152 pk) bei 6000/min, 194 Nm (cars-data/encycarpedia ebenfalls 152 PS)."
+      },
+      {
+       "url": "https://www.autozine.nl/toyota/rav4-2006-2013/nieuws/toyota-introduceert-nieuwe-rav4",
+       "what": "Korrektur powerPs: Einfuehrung 2006: 2.2 D-4D D-CAT Clean Power mit 177 pk."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/rav4/xa3-facelift/218165",
+       "what": "Korrektur yearTo: ADAC trennt XA3 (03/06-04/09, 450/911/1752 l) von XA3 Facelift (ab 04/09) und Facelift 2 (05/10-02/13); ab dem Facelift nennt ADAC 586 l normal / 1752 l dachhoch (2.2 D-4D 4x4 04/09-05/10, 150 PS; 2.0 Life 4x2 10/10-02/13 https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-mod"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 50,
+      "confirmed": 41,
+      "corrected": 3
+     },
+     "notes": "Marktstart D 03/2006, Facelifts 2008/2010 nicht separat erfasst (keine verlaesslichen Daten zu Masse-/Volumenaenderungen gefunden; auto-data nennt fuer das Facelift 4365 bzw. 4445 mm, widerspruechlich). Konflikt Laenge: 4395 mm (kues, mobile.de, angurten) vs. 4315 mm (ADAC D-CAT). Auto-data nennt 586 l (andere Messmethode). Keine Toyota-Pressemappe gefunden. Langversion (RAV4 Long, nicht in D) ignoriert."
+    },
+    {
+     "id": "2003-xa20-facelift-2-generation-5-tuerer",
+     "name": "XA20 Facelift (2. Generation, 5-Tuerer)",
+     "yearFrom": 2003,
+     "yearTo": 2006,
+     "bodyType": "suv",
+     "lengthMm": 4220,
+     "widthMm": 1735,
+     "heightMm": 1690,
+     "wheelbaseMm": 2490,
+     "trunkL": 410,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-8-vvt-i-benziner-frontantrieb",
+       "name": "1.8 VVT-i (Benziner) Frontantrieb",
+       "powertrain": "petrol",
+       "powerPs": 125,
+       "awd": false,
+       "trunkL": 410,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "125 PS laut auto-data (3-Tuerer-Eintrag); Frontantrieb laut gebrauchtwagenberater."
+      },
+      {
+       "id": "2-0-vvt-i-4x4-benziner",
+       "name": "2.0 VVT-i 4x4 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": true,
+       "trunkL": 410,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "auto-data 5-door 2.0i 16V 150 Hp 4WD: 4220/1735/1690 mm, Radstand 2490."
+      },
+      {
+       "id": "2-0-d-4d-4x4-diesel",
+       "name": "2.0 D-4D 4x4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 116,
+       "awd": true,
+       "trunkL": 410,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "116 PS laut auto-data (gebrauchtwagenberater: 115 PS)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.auto-data.net/en/toyota-rav4-ii-xa20-facelift-2003-5-door-2.0i-16v-150hp-4wd-37165",
+       "what": "5-Tuerer 2.0i 150 PS 4WD: Laenge 4220, Breite 1735, Hoehe 1690, Radstand 2490"
+      },
+      {
+       "url": "https://gebrauchtwagenberater.de/toyota-rav4-2-xa20-technische-daten/",
+       "what": "5-Tuerer ca. 4200/1740/1690 mm, Radstand 2490, Kofferraum 410-970 l; Motoren 1.8 VVT-i FWD, 2.0 VVT-i 4x4, 2.0 D-4D 4x4"
+      },
+      {
+       "url": "https://www.auto-data.net/en/toyota-rav4-ii-xa20-facelift-2003-3-door-2.0-16v-d-4d-116hp-4wd-37160",
+       "what": "2.0 D-4D 116 PS"
+      },
+      {
+       "url": "https://www.auto-data.net/en/toyota-rav4-ii-xa20-facelift-2003-3-door-1.8-vvti-125hp-28752",
+       "what": "1.8 VVT-i 125 PS"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 50,
+      "confirmed": 41,
+      "corrected": 0
+     },
+     "notes": "Nur Drittquellen (keine Toyota-/ADAC-Daten gefunden). Laengenangaben schwanken 4200-4255 mm je nach Ausfuehrung (Reserverad). Kofferraum: gebrauchtwagenberater 410-970 l, auto-data 678-1909 l (vermutlich andere Messmethode); 410 l uebernommen, Maximalwert mangels eindeutiger VDA-Angabe null (970 l ist vermutlich fensterhoch). Daneben gab es einen 3-Tuerer (Laenge 3825 mm, Radstand 2280 mm) - nicht erfasst. Nachfolger XA30 ab 03/2006."
     }
    ]
   },
@@ -735,6 +1313,525 @@
       "corrected": 0
      },
      "notes": "Width without mirrors (AutoScout24 lists 3943 x 1720 x 1505, deviating; ADAC/heise values used). Folded value: 768 l up to window line, 935 l to roof (ADAC/Toyota data sheet); 935 used for consistency with other models. 2024 facelift (Hybrid 130 PS) not separately verified - assumed same body, trunk not re-checked. Petrol variants (1.0 / 1.5 VVT-i) and GR Yaris not verified within the search budget (pkw.de mentions approx. 207 l for GR Yaris, unconfirmed)."
+    },
+    {
+     "id": "2017-xp13-3-generation-facelift-2017",
+     "name": "XP13 (3. Generation, Facelift 2017)",
+     "yearFrom": 2017,
+     "yearTo": 2020,
+     "bodyType": "hatchback",
+     "lengthMm": 3945,
+     "widthMm": 1695,
+     "heightMm": 1510,
+     "wheelbaseMm": 2510,
+     "trunkL": 286,
+     "trunkFoldedL": 768,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-vvt-i-benziner",
+       "name": "1.0 VVT-i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 286,
+       "trunkFoldedL": 768,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-5-dual-vvt-ie-benziner",
+       "name": "1.5 Dual VVT-iE (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 286,
+       "trunkFoldedL": 768,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.5 Comfort 5-Türer (04/17-08/18)."
+      },
+      {
+       "id": "grmn-1-8-dual-vvt-ie-kompressor",
+       "name": "GRMN 1.8 Dual VVT-iE Kompressor",
+       "powertrain": "petrol",
+       "powerPs": 212,
+       "awd": false,
+       "trunkL": 286,
+       "trunkFoldedL": null,
+       "lengthMm": 3945,
+       "widthMm": 1695,
+       "heightMm": 1510,
+       "yearFrom": 2018,
+       "yearTo": 2018,
+       "notes": "Limited edition, 3-door; Toyota NL Frankfurt press kit spec sheet: 3945 x 1695 x 1510 mm, wheelbase 2510, 286 dm3 VDA. Folded volume not found."
+      },
+      {
+       "id": "1-5-hybrid-vollhybrid",
+       "name": "1.5 Hybrid (Vollhybrid)",
+       "powertrain": "hev",
+       "powerPs": 100,
+       "awd": false,
+       "trunkL": 286,
+       "trunkFoldedL": 768,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift-2/273041",
+       "what": "ADAC Yaris 1.5 Hybrid Comfort Designpaket (04/17-01/18): length 3945, width 1695, height 1510, wheelbase 2510"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift-2/290259/",
+       "what": "ADAC Yaris 1.5 Hybrid Comfort (05/18-06/19): 3945/1695/1510/2510, trunk 286 l normal, 768 l window-high folded"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift-2/300838",
+       "what": "ADAC Yaris 1.5 Hybrid (06/19-02/20): trunk 286/768 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift-2/273033/",
+       "what": "ADAC Yaris 1.5 Comfort petrol (04/17-08/18)"
+      },
+      {
+       "url": "https://cdn.uc.assets.prezly.com/2052fa8e-0765-4eaf-8d6e-a6e1dbeefcb3/-/inline/no/toyota-frankfurt-press-kit-yaris-grmn-spec-sheet-finalnl.pdf",
+       "what": "Toyota (NL) Frankfurt press kit Yaris GRMN spec sheet: 3945 x 1695 x 1510 mm, wheelbase 2510 mm, luggage 286 dm3 VDA"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift-2/284064/",
+       "what": "ADAC Yaris GRMN (01/18-08/18): length 3945, width 1695, 212 PS"
+      },
+      {
+       "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/1485445765170110MTechSpec.pdf",
+       "what": "Toyota UK technical specifications (2017 Yaris): width 1,695, height 1,510, VDA luggage 286 l rear seat up (lists length 3,950 mm, UK spec)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 26,
+      "confirmed": 23,
+      "corrected": 0
+     },
+     "notes": "Facelift 04/2017: 1.33 replaced by 1.5 Dual VVT-iE, diesel dropped. Length 3945 mm per ADAC/Toyota NL; Toyota UK sheet lists 3950 mm (market-specific bumpers). 768 l is window-high with rear seat folded. Production for Germany ended early 2020 (successor XP21)."
+    },
+    {
+     "id": "2014-xp13-3-generation-facelift-2014",
+     "name": "XP13 (3. Generation, Facelift 2014)",
+     "yearFrom": 2014,
+     "yearTo": 2017,
+     "bodyType": "hatchback",
+     "lengthMm": 3950,
+     "widthMm": 1695,
+     "heightMm": 1510,
+     "wheelbaseMm": 2510,
+     "trunkL": 286,
+     "trunkFoldedL": 768,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-vvt-i-benziner",
+       "name": "1.0 VVT-i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 286,
+       "trunkFoldedL": 768,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-33-dual-vvt-i-benziner",
+       "name": "1.33 Dual VVT-i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 286,
+       "trunkFoldedL": 768,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.33 Club 5-Türer (09/14-07/15): 3950 mm, 286/768 l."
+      },
+      {
+       "id": "1-4-d-4d-diesel",
+       "name": "1.4 D-4D (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 286,
+       "trunkFoldedL": 768,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Offered until 04/2017 per de.wikipedia; no separate ADAC page found, trunk assumed per body (same body, no battery). Power not verified within search budget."
+      },
+      {
+       "id": "1-5-hybrid-vollhybrid",
+       "name": "1.5 Hybrid (Vollhybrid)",
+       "powertrain": "hev",
+       "powerPs": 100,
+       "awd": false,
+       "trunkL": 286,
+       "trunkFoldedL": 768,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift/242945",
+       "what": "ADAC Autokatalog Yaris 1.5 Hybrid 5-Türer (09/14-03/17): length 3950, width 1695, height 1510, wheelbase 2510, trunk 286 l normal, 768 l window-high folded"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift/242943/",
+       "what": "ADAC Autokatalog Yaris 1.33 Club 5-Türer (09/14-07/15): length 3950, trunk 286/768 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift/252206",
+       "what": "ADAC Yaris 1.5 Hybrid Style (01/16-03/17): trunk 286/768 l"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Toyota_Yaris_(XP13)",
+       "what": "Engine availability periods"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 26,
+      "confirmed": 23,
+      "corrected": 0
+     },
+     "notes": "Values from ADAC (Herstellerangabe) since no Toyota press kit for the 2014 facelift was found within the search budget. 768 l is window-high with rear seat folded; no roof-high value found."
+    },
+    {
+     "id": "2011-xp13-3-generation",
+     "name": "XP13 (3. Generation)",
+     "yearFrom": 2011,
+     "yearTo": 2014,
+     "bodyType": "hatchback",
+     "lengthMm": 3885,
+     "widthMm": 1695,
+     "heightMm": 1510,
+     "wheelbaseMm": 2510,
+     "trunkL": 286,
+     "trunkFoldedL": 768,
+     "loadSpace": {
+      "lengthMm": 710,
+      "widthMm": 1365,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": null,
+      "lengthFoldedMm": 1500,
+      "source": "Hersteller"
+     },
+     "variants": [
+      {
+       "id": "1-0-vvt-i-benziner",
+       "name": "1.0 VVT-i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 286,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-33-dual-vvt-i-benziner",
+       "name": "1.33 Dual VVT-i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 286,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-4-d-4d-diesel",
+       "name": "1.4 D-4D (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 286,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "1.4 D-4D offered 10/2011-2017 per de.wikipedia Power not verified within search budget."
+      },
+      {
+       "id": "hybrid-1-5-vvt-i-vollhybrid",
+       "name": "Hybrid 1.5 VVT-i (Vollhybrid)",
+       "powertrain": "hev",
+       "powerPs": 100,
+       "awd": false,
+       "trunkL": 286,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2012,
+       "yearTo": null,
+       "notes": "Hybrid battery and fuel tank under the rear seat, boot 286 l same as conventional versions. 100 PS system output per auto-data.net (third party)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Yaris-Gen3-Launch-Pack-2011.pdf",
+       "what": "Toyota UK Gen3 launch press pack 2011: length 3,885 mm, width 1,695 mm, height 1,510 mm, wheelbase +50 mm vs. predecessor (2,460 -> 2,510 mm), boot 286 l to window line, load space dimensions"
+      },
+      {
+       "url": "https://newsroom.toyota.eu/2019-yaris-dpl-2011-increased-interior-roominess-greater-comfort-and-improved-sensory-quality/",
+       "what": "Toyota Europe 2011 Yaris press kit: wheelbase +50 mm, luggage compartment length +145 mm"
+      },
+      {
+       "url": "https://www.mobile.de/auto/toyota/yaris/2011/schraegheck/modell/daten-fakten/",
+       "what": "Wheelbase 2,510 mm, trunk 286 l (cross-check)"
+      },
+      {
+       "url": "https://www.dev.honestjohn.co.uk/news/motorshows/geneva-motor-show-2012/geneva-motor-show-2012-toyota-debuts-yaris-hsd/",
+       "what": "Yaris Hybrid 2012: battery and tank under rear seat, 286 l boot same as standard Yaris"
+      },
+      {
+       "url": "https://www.auto-data.net/en/toyota-yaris-iii-facelift-2014-1.5-100hp-hybrid-e-cvt-24123",
+       "what": "Yaris Hybrid system output 100 PS (third party)"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Toyota_Yaris_(XP13)",
+       "what": "Engine availability periods (1.33, 1.4 D-4D 10/2011-04/2017)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift-2/273033/",
+       "what": "ADAC: trunkFoldedL = 768 – ADAC Autokatalog Toyota Yaris 1.5 Comfort (5-Türer): Kofferraumvolumen normal 286 l, fensterhoch mit umgeklappter Rücksitzbank 768 l (also autokosten.net 286-768 l, AUTO BILD up to 768 l)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 26,
+      "confirmed": 23,
+      "corrected": 0
+     },
+     "notes": "3- and 5-door share dimensions. Folded volume not found for the pre-facelift car (ADAC gives 768 l window-high for the 2014 facelift; not transferred). Facelift 09/2014 changed length (3950 mm) - separate entry."
+    },
+    {
+     "id": "2009-xp9-2-generation-facelift",
+     "name": "XP9 (2. Generation, Facelift)",
+     "yearFrom": 2009,
+     "yearTo": 2011,
+     "bodyType": "hatchback",
+     "lengthMm": 3785,
+     "widthMm": 1695,
+     "heightMm": 1530,
+     "wheelbaseMm": 2460,
+     "trunkL": 275,
+     "trunkFoldedL": 737,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-vvt-i-benziner",
+       "name": "1.0 VVT-i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 275,
+       "trunkFoldedL": 737,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Power not verified within search budget."
+      },
+      {
+       "id": "1-33-dual-vvt-i-benziner",
+       "name": "1.33 Dual VVT-i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 275,
+       "trunkFoldedL": 737,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.33 Sol 5-Türer (01/09-01/10) basis for dimensions and trunk."
+      },
+      {
+       "id": "1-4-d-4d-diesel",
+       "name": "1.4 D-4D (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 90,
+       "awd": false,
+       "trunkL": 275,
+       "trunkFoldedL": 737,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Gebrauchtwageninfo: 90 PS, DPF from 03/2009."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp9-facelift/217489/",
+       "what": "ADAC Autokatalog Yaris 1.33 Sol 5-Türer (01/09-01/10): length 3785, width 1695, height 1530, wheelbase 2460, trunk 275 l normal, 737 l window-high folded"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0150-toyota-yaris-2006-2011-bericht.pdf",
+       "what": "ADAC Gebrauchtwageninfo: 1.4 D-4D 90 PS"
+      },
+      {
+       "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Yaris-Gen3-Launch-Pack-2011.pdf",
+       "what": "Toyota UK Gen3 launch pack: new car 3,885 mm 'just 100 mm longer than the previous model' (confirms 3,785 mm of facelifted XP9)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 26,
+      "confirmed": 23,
+      "corrected": 0
+     },
+     "notes": "Values from ADAC (manufacturer data column) as no Toyota press kit for the 2009 facelift was found. The 1.8 TS was dropped in 01/2009."
+    },
+    {
+     "id": "2006-xp9-2-generation",
+     "name": "XP9 (2. Generation)",
+     "yearFrom": 2006,
+     "yearTo": 2008,
+     "bodyType": "hatchback",
+     "lengthMm": 3750,
+     "widthMm": 1695,
+     "heightMm": 1530,
+     "wheelbaseMm": 2460,
+     "trunkL": 272,
+     "trunkFoldedL": 737,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-vvt-i-benziner",
+       "name": "1.0 VVT-i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 272,
+       "trunkFoldedL": 737,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Power not verified within search budget."
+      },
+      {
+       "id": "1-3-vvt-i-benziner",
+       "name": "1.3 VVT-i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 272,
+       "trunkFoldedL": 737,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Power not verified within search budget."
+      },
+      {
+       "id": "ts-1-8-dual-vvt-i-benziner",
+       "name": "TS 1.8 Dual VVT-i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 133,
+       "awd": false,
+       "trunkL": 275,
+       "trunkFoldedL": 737,
+       "lengthMm": 3750,
+       "widthMm": null,
+       "heightMm": 1530,
+       "yearFrom": 2007,
+       "yearTo": 2009,
+       "notes": "ADAC Autokatalog (Herstellerangabe) for TS 5-Türer 01/07-01/09: 275 l normal, 737 l window-high folded, 1183 l roof-high folded; 98 kW/133 PS."
+      },
+      {
+       "id": "1-4-d-4d-diesel",
+       "name": "1.4 D-4D (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 90,
+       "awd": false,
+       "trunkL": 272,
+       "trunkFoldedL": 737,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "90 PS / 66 kW per ADAC Gebrauchtwageninfo."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Gen2-Yaris-archive-press-pack.pdf",
+       "what": "Toyota UK archive press pack (2nd gen): length 3,750 mm, width 1,695 mm, height 1,530 mm, wheelbase 2,460 mm, VDA luggage capacity rear seat up 272-363 l, 1.4 D-4D 90 diesel"
+      },
+      {
+       "url": "https://newsroom.toyota.eu/2005-yaris-dpl/",
+       "what": "Toyota Europe 2005 Yaris press kit: 272-363 l seats up (sliding rear seat), 737 l with rear seats folded loaded to top edge of front seats"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp9/207747",
+       "what": "ADAC Autokatalog Yaris TS 5-Türer (01/07-01/09): length 3750, height 1530, trunk 275/737/1183 l, 133 PS"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0150-toyota-yaris-2006-2011-bericht.pdf",
+       "what": "ADAC Gebrauchtwageninfo Yaris 2006-2011: 3750x1695x1530 mm, 1.8 TS 133 PS, 1.4 D-4D 90 PS"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 26,
+      "confirmed": 23,
+      "corrected": 0
+     },
+     "notes": "3- and 5-door share dimensions. Rear seat slides: 272 l (seat rearmost) to 363 l (seat forward) per Toyota; ADAC lists 275 l normal. Folded value 737 l is the manufacturer figure loaded to the top edge of the front seats (window-high); ADAC roof-high 1183 l. German market launch early 2006 (model year 2006). Facelift 01/2009 increased length to 3785 mm (separate entry)."
     }
    ]
   },

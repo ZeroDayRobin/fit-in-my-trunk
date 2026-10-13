@@ -1,0 +1,493 @@
+{
+ "id": "h-mercedes-benz-2",
+ "brand": "Mercedes-Benz",
+ "data": {
+  "models": [
+   {
+    "brand": "Mercedes-Benz",
+    "model": "CLA",
+    "generations": [
+     {
+      "name": "C117 (1. Generation, CLA Coupé, incl. Mopf 2016)",
+      "yearFrom": 2013,
+      "yearTo": 2019,
+      "bodyType": "sedan",
+      "lengthMm": 4630,
+      "widthMm": 1777,
+      "heightMm": 1432,
+      "wheelbaseMm": 2699,
+      "trunkL": 470,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "CLA 180 / CLA 200 / CLA 250 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 470,
+        "trunkFoldedL": null,
+        "notes": "Model-level VDA figure; no variant-specific deviation found."
+       },
+       {
+        "name": "CLA 200 CDI / CLA 220 CDI (ab 2015: 200 d / 220 d) (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 470,
+        "trunkFoldedL": null,
+        "notes": "Model-level VDA figure; no variant-specific deviation found."
+       },
+       {
+        "name": "4MATIC (CLA 250 4MATIC / 220 d 4MATIC)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No 4MATIC-specific trunk value found."
+       },
+       {
+        "name": "Mercedes-AMG CLA 45 4MATIC",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No AMG-specific trunk value found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/CLA-180-2013---2016.xhtml?oid=190140631",
+        "what": "Mercedes-Benz archive: CLA 180 (117.342) length 4630, width 1777, height 1432, wheelbase 2699 mm"
+       },
+       {
+        "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/CLA-220-CDI-2013---2016-from-072015-CLA-220-d.xhtml?oid=190140629",
+        "what": "Mercedes-Benz archive: CLA 220 CDI same length/width/wheelbase"
+       },
+       {
+        "url": "https://media.daimler.com/marsMediaSite/en/instance/ko/The-new-Mercedes-Benz-CLA-Coup-Automotive-intelligence-can-be-this-beautiful.xhtml?oid=42168272",
+        "what": "Daimler press (C118 launch) comparison table: predecessor boot capacity VDA 470 l, predecessor length 4640 mm (facelift)"
+       },
+       {
+        "url": "https://www.mobile.de/auto/mercedes/cla/2013/coupe/modell/daten-fakten/",
+        "what": "Cross-check length 4630, height 1432, trunk 470 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "4-door coupé. Pre-facelift length 4630 mm (archive); Daimler's C118 comparison table gives 4640 mm for the predecessor (facelift 2016) - 10 mm difference not split into separate entry. No VDA value for folded seats found. Power figures not verified via source, left null."
+     }
+    ]
+   },
+   {
+    "brand": "Mercedes-Benz",
+    "model": "CLA Shooting Brake",
+    "generations": [
+     {
+      "name": "X117 (1. Generation, incl. Mopf 2016)",
+      "yearFrom": 2015,
+      "yearTo": 2019,
+      "bodyType": "wagon",
+      "lengthMm": 4630,
+      "widthMm": 1777,
+      "heightMm": 1435,
+      "wheelbaseMm": 2699,
+      "trunkL": 495,
+      "trunkFoldedL": 1354,
+      "loadSpace": {
+       "lengthMm": null,
+       "widthMm": 1328,
+       "widthBetweenArchesMm": null,
+       "heightMm": null,
+       "openingHeightMm": null,
+       "sillHeightMm": null,
+       "lengthFoldedMm": null,
+       "source": "Daimler press: load floor up to 1328 mm wide (https://media.daimler.com/marsMediaSite/en/instance/ko/Mercedes-Benz-CLA-Shooting-Brake-Beauty-in-its-most-practical-guise.xhtml?oid=9274451)"
+      },
+      "variants": [
+       {
+        "name": "CLA 180 / CLA 200 / CLA 250 Shooting Brake (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 495,
+        "trunkFoldedL": 1354,
+        "notes": "Model-level VDA figure from launch press release."
+       },
+       {
+        "name": "CLA 200 CDI / CLA 220 CDI (ab 2015: 200 d / 220 d) Shooting Brake (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 495,
+        "trunkFoldedL": 1354,
+        "notes": "Model-level VDA figure from launch press release."
+       },
+       {
+        "name": "4MATIC",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No 4MATIC-specific trunk value found."
+       },
+       {
+        "name": "Mercedes-AMG CLA 45 4MATIC Shooting Brake",
+        "powertrain": "petrol",
+        "powerPs": 381,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2016,
+        "notes": "381 PS from facelift press; 360 PS before 2016. No AMG-specific trunk value found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://media.daimler.com/marsMediaSite/en/instance/ko/Mercedes-Benz-CLA-Shooting-Brake-Beauty-in-its-most-practical-guise.xhtml?oid=9274451",
+        "what": "Daimler launch press: L/W/H 4630/1777/1435 mm, boot 495-1354 l VDA, 595 l in Cargo seat position, load floor width 1328 mm"
+       },
+       {
+        "url": "https://media.daimler.com/marsMediaSite/en/instance/ko/The-new-Mercedes-Benz-CLA-Shooting-Brake-Space-for-something-new.xhtml?oid=9919961",
+        "what": "Daimler press (2016 update): L/W/H 4640/1777/1435 mm, wheelbase 2699 mm, boot 495-1354 l VDA, AMG CLA 45 381 PS"
+       },
+       {
+        "url": "https://media.daimler.com/marsMediaSite/en/instance/ko/The-new-Mercedes-Benz-CLA-Shooting-Brake-Sports-car-with-load-space.xhtml?oid=42706615",
+        "what": "Daimler X118 press comparison: predecessor length 4640 mm, boot 495 l"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Facelift 2016: length 4640 mm (vs. 4630 mm at launch), trunk unchanged - not split. Cargo position of rear backrests gives 595 l with 5 seats."
+     },
+     {
+      "name": "X118 (2. Generation, incl. Mopf 2023)",
+      "yearFrom": 2019,
+      "yearTo": 2025,
+      "bodyType": "wagon",
+      "lengthMm": 4688,
+      "widthMm": 1830,
+      "heightMm": 1442,
+      "wheelbaseMm": 2729,
+      "trunkL": 505,
+      "trunkFoldedL": 1370,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "CLA 180 / 200 / 220 / 250 Shooting Brake (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 505,
+        "trunkFoldedL": 1370,
+        "notes": "505/1370 l per ADAC entry CLA Shooting Brake 200 (09/19-06/20); 505 l also in Daimler press."
+       },
+       {
+        "name": "CLA 180 d / 200 d / 220 d Shooting Brake (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No diesel-specific value verified."
+       },
+       {
+        "name": "4MATIC",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No 4MATIC-specific value found; carwow gives range 440-505 / 1295-1370 l across variants."
+       },
+       {
+        "name": "CLA 250 e Shooting Brake (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 218,
+        "awd": false,
+        "trunkL": 445,
+        "trunkFoldedL": 1310,
+        "yearFrom": 2020,
+        "notes": "ADAC value for 250 e Advanced (07/23-01/24, Mopf). A test of the 2020 car reports 440/1305 l. Battery under the boot floor."
+       },
+       {
+        "name": "Mercedes-AMG CLA 35 / CLA 45 4MATIC Shooting Brake",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No AMG-specific trunk value found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://media.daimler.com/marsMediaSite/en/instance/ko/The-new-Mercedes-Benz-CLA-Shooting-Brake-Sports-car-with-load-space.xhtml?oid=42706615",
+        "what": "Daimler press: length 4688 mm, width 1830 mm, boot 505 l VDA (vs 495 predecessor)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cla/118/301192/",
+        "what": "ADAC: height 1442 mm, wheelbase 2729 mm, trunk 505 l / 1370 l folded (CLA 200 Shooting Brake 09/19-06/20)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cla/118-facelift/328332/",
+        "what": "ADAC: CLA 250 e Shooting Brake trunk 445 l / 1310 l"
+       },
+       {
+        "url": "https://media.daimler.com/marsMediaSite/en/instance/ko/Three-new-plug-in-hybrid-models-complete-the-Mercedes-Benz-compact-car-family-CLA-Coup-CLA-Shooting-Brake-and-GLA-now-with-EQ-Power.xhtml?oid=45784950",
+        "what": "Daimler press: PHEV with only minimal reduction in boot capacity"
+       },
+       {
+        "url": "https://vision-mobility.de/elektroauto/kompaktklasse/mercedes-benz-cla-250-e-shooting-brake-plugin-hybrid-reichweite-45-km-218-ps-nicht-bestellbar-284231.html",
+        "what": "CLA 250 e 218 PS system output"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Market launch Germany September 2019. Not in existing list (only X174 exists), therefore included. Daimler press mentions load opening 871 mm (dimension type unclear, not used)."
+     }
+    ]
+   },
+   {
+    "brand": "Mercedes-Benz",
+    "model": "E-Klasse T-Modell",
+    "generations": [
+     {
+      "name": "S212 (incl. Mopf 2013)",
+      "yearFrom": 2009,
+      "yearTo": 2016,
+      "bodyType": "wagon",
+      "lengthMm": 4895,
+      "widthMm": 1854,
+      "heightMm": 1512,
+      "wheelbaseMm": 2874,
+      "trunkL": 695,
+      "trunkFoldedL": 1950,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "E 200 / E 250 / E 350 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 695,
+        "trunkFoldedL": 1950,
+        "notes": "ADAC value E 200 T-Modell (04/13-07/16)."
+       },
+       {
+        "name": "E 200 CDI / E 220 CDI / E 250 CDI / E 350 CDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 695,
+        "trunkFoldedL": 1950,
+        "notes": "Manufacturer figure 695 l; a forum claim says later BlueTEC/AdBlue diesels had ~600 l - not verified."
+       },
+       {
+        "name": "E 300 BlueTEC HYBRID T-Modell (Hybrid)",
+        "powertrain": "hev",
+        "powerPs": 231,
+        "awd": false,
+        "trunkL": 650,
+        "trunkFoldedL": 1905,
+        "yearFrom": 2012,
+        "notes": "Values from data sheet/test (autokosten.net, motorline.cc), slightly smaller than conventional models (695-1950 l)."
+       },
+       {
+        "name": "4MATIC",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No 4MATIC-specific trunk value found."
+       },
+       {
+        "name": "Mercedes-AMG E 63 T-Modell",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No AMG-specific trunk value found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://media.daimler.com/marsMediaSite/de/instance/ko/Das-neue-Mercedes-Benz-E-Klasse-T-Modell-Intelligenter-TRaumwagen.xhtml?oid=9271646",
+        "what": "Daimler launch press: L/W/H 4895/1854/1512 mm, up to 1950 l"
+       },
+       {
+        "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/212-series-E-Class-Estates-2009---2013.xhtml?oid=6010878",
+        "what": "Mercedes archive: load capacity up to 1950 l, facelift spring 2013"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/e-klasse/207-212-facelift/234935/",
+        "what": "ADAC: E 200 T-Modell (04/13-07/16) wheelbase 2874 mm, width 1854 mm, trunk 695 l / 1950 l"
+       },
+       {
+        "url": "https://www.autokosten.net/mercedes/e-klasse-t-modell/e-300-bluetec-hybrid-t-modell/e-klasse-212-t-modell-04-13-07-16_49/technische-daten",
+        "what": "E 300 BlueTEC HYBRID T-Modell trunk 650 l / 1905 l"
+       },
+       {
+        "url": "https://www.motorline.cc/autowelt/tests/2014/Mercedes/Mercedes-E-300-BlueTEC-Hybrid-%E2%80%93-im-Test-Zauberwort-Effizienz-189556.html",
+        "what": "Test: hybrid 650-1905 l vs. 695-1950 l conventional"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 2013 dimensions not separately verified (ADAC lists height 1474 mm for the facelift E 200, conflicting with 1512/1515 mm elsewhere); kept as one entry. ADAC Autotest measured 515 l (own method), manufacturer VDA 695 l used."
+     },
+     {
+      "name": "S211 (incl. Mopf 2006)",
+      "yearFrom": 2003,
+      "yearTo": 2009,
+      "bodyType": "wagon",
+      "lengthMm": 4850,
+      "widthMm": 1822,
+      "heightMm": 1496,
+      "wheelbaseMm": 2854,
+      "trunkL": 690,
+      "trunkFoldedL": 1950,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "E 200 Kompressor / E 280 / E 350 / E 500 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 690,
+        "trunkFoldedL": 1950,
+        "notes": "Model-level VDA figure (archive)."
+       },
+       {
+        "name": "E 200 CDI / E 220 CDI / E 280 CDI / E 320 CDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 690,
+        "trunkFoldedL": 1950,
+        "notes": "Also confirmed for E 320 CDI T-Modell by autokosten.net."
+       },
+       {
+        "name": "4MATIC",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No 4MATIC-specific trunk value found."
+       },
+       {
+        "name": "Mercedes-Benz E 55 AMG / E 63 AMG T-Modell",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No AMG-specific trunk value found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/211-series-E-Class-Estates-2003---2006.xhtml?oid=453306",
+        "what": "Mercedes archive: length 4850, width 1822, height 1496, wheelbase 2854 mm; 690-1950 l VDA"
+       },
+       {
+        "url": "https://www.autokosten.net/mercedes/e-klasse-t-modell/e-320-cdi-t-modell/e-klasse-211-t-modell-01-03-04-06_32/technische-daten",
+        "what": "E 320 CDI T-Modell 4850/1822/1496, 690/1950 l (cross-check)"
+       },
+       {
+        "url": "https://www.mobile.de/auto/mercedes/e-klasse/2002/kombi/modell/daten-fakten/",
+        "what": "Cross-check 690/1950 l, wheelbase 2854"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Facelift 2006: auto-data.net lists 4856 mm length / 1484 mm height (low-priority source, not verified); no trunk change found, so not split. Optional electrically extending load floor."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "CLA C117 trunkFoldedL",
+   "CLA C117 facelift 2016 width/height (only length 4640 found)",
+   "CLA C117 4MATIC / AMG trunk",
+   "CLA Shooting Brake X117 4MATIC / AMG trunk",
+   "CLA Shooting Brake X118 diesel, 4MATIC, AMG trunk",
+   "CLA Shooting Brake X118 loadSpace",
+   "E-Klasse T-Modell S212 facelift 2013 length/height (official)",
+   "E-Klasse T-Modell S212 4MATIC / E 63 AMG trunk",
+   "E-Klasse T-Modell S211 facelift 2006 official dimensions",
+   "E-Klasse T-Modell S211 4MATIC / AMG trunk",
+   "loadSpace for CLA C117, E-Klasse S211/S212",
+   "powerPs for most variants (not verified)"
+  ],
+  "notes": "Search budget (20) exhausted. CLA Shooting Brake X118 (2019-2025) added because the existing list only contains X174. All E-Klasse T-Modell predecessors before S213 within 2005-2019: S212 and S211."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "CLA",
+    "generation": "C117 (1. Generation, CLA Coupé, incl. Mopf 2016)",
+    "variant": "4MATIC (CLA 250 4MATIC / 220 d 4MATIC)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 470,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cla/117/249303",
+    "evidence": "ADAC CLA Coupé 250 Sport 4MATIC 7G-DCT (07/15-04/16): Kofferraumvolumen normal 470 l; same 470 l for 220 d AMG Line 4MATIC (01/15-04/16, adac.de .../cla/117/244824/) and facelift CLA 250 4MATIC (04/16-05/18, .../117-facelift/254930/)."
+   },
+   {
+    "model": "CLA Shooting Brake",
+    "generation": "X117 (1. Generation, incl. Mopf 2016)",
+    "variant": "Mercedes-AMG CLA 45 4MATIC Shooting Brake",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 495,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cla/117/244857",
+    "evidence": "ADAC CLA Shooting Brake 45 AMG 4MATIC SPEEDSHIFT DCT (01/15-07/15): Kofferraumvolumen normal 495 l; encycarpedia also gives 495-1354 l for CLA 45 AMG Shooting Brake."
+   },
+   {
+    "model": "CLA Shooting Brake",
+    "generation": "X117 (1. Generation, incl. Mopf 2016)",
+    "variant": "Mercedes-AMG CLA 45 4MATIC Shooting Brake",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1354,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cla/117/244857",
+    "evidence": "ADAC: Kofferraumvolumen dachhoch mit umgeklappter Rücksitzbank 1354 l."
+   },
+   {
+    "model": "CLA Shooting Brake",
+    "generation": "X118 (2. Generation, incl. Mopf 2023)",
+    "variant": "4MATIC",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 505,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cla/118/307488",
+    "evidence": "ADAC CLA Shooting Brake 250 4MATIC 7G-DCT (10/19-05/23): Kofferraumvolumen normal 505 l (also 250 EDITION 1 4MATIC .../118/307494). Note: diesel 220 d AMG Line 4MATIC (10/19-10/22, .../118/307501) lists 495 l / 1360 l."
+   },
+   {
+    "model": "CLA Shooting Brake",
+    "generation": "X118 (2. Generation, incl. Mopf 2023)",
+    "variant": "4MATIC",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1370,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cla/118/307488",
+    "evidence": "ADAC CLA Shooting Brake 250 4MATIC: Kofferraumvolumen dachhoch mit umgeklappter Rücksitzbank 1370 l."
+   }
+  ],
+  "missing": [
+   {
+    "model": "CLA Shooting Brake",
+    "detail": "X118: diesel 4MATIC (CLA 220 d 4MATIC) has a distinct ADAC trunk value 495 l / 1360 l (https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cla/118/307501) - consider a separate diesel 4MATIC variant."
+   },
+   {
+    "model": "E-Klasse T-Modell",
+    "detail": "S212/S211: E 63 AMG T-Modell 4MATIC (S212 from 2013 facelift; awd) not represented - AMG variant listed as awd=false only. Not verified further."
+   }
+  ],
+  "checkedValues": 40,
+  "confirmedValues": 33,
+  "notes": "Confirmed: C117 4630/1777/1432/2699, 470 l (ADAC; facelift 4640 mm). X117 4630/1777/1435/2699, 495/1354 l. X118 4688/1830/2729, 505 l, 1442 mm height (mbpassion launch report; some sources 1433), 1370 folded. S212 4895/1854/2874, 695/1950 l; E 300 BlueTEC HYBRID 650/1905 l (autoplenum, autoscout24). S211 4850/1496/2854, 690/1950 l (auto-data, aerzteblatt). Unresolved: S212 height - angurten.de lists 1515 mm vs 1512 mm claimed from Daimler press; not changed since manufacturer figure could not be seen. X118 CLA 250 e 2020 value and C117 CLA 45 AMG trunk not found (other C117 4MATIC variants 470 l). X118 width 1830 confirmed by test report; S211 width 1822 not independently re-confirmed. 12 WebSearch calls used."
+ }
+}

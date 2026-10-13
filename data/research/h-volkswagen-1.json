@@ -1,0 +1,852 @@
+{
+ "id": "h-volkswagen-1",
+ "brand": "Volkswagen",
+ "data": {
+  "models": [
+   {
+    "brand": "Volkswagen",
+    "model": "Caddy",
+    "generations": [
+     {
+      "name": "Caddy 3 (2K) – Caddy Life",
+      "yearFrom": 2004,
+      "yearTo": 2010,
+      "bodyType": "van",
+      "lengthMm": 4405,
+      "widthMm": 1794,
+      "heightMm": null,
+      "wheelbaseMm": 2682,
+      "trunkL": 750,
+      "trunkFoldedL": 2850,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Caddy Life 1.6 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 750,
+        "trunkFoldedL": 2850,
+        "notes": "ADAC 07/04-08/10"
+       },
+       {
+        "name": "Caddy Life 1.9 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 750,
+        "trunkFoldedL": 2850,
+        "notes": "ADAC 12/05-08/10"
+       },
+       {
+        "name": "Caddy Life EcoFuel (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Offered (AUTO BILD Fahrbericht Caddy Life EcoFuel), trunk values not found; CNG tanks are underfloor."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii/998905/",
+        "what": "ADAC: Caddy Life 1.6 length 4405, wheelbase 2682, trunk 750 l normal / 2850 l dachhoch"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii/205167/",
+        "what": "ADAC: Caddy Life 1.9 TDI length 4405, wheelbase 2682, trunk 750/2850 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii/211700/",
+        "what": "ADAC: width 1794 mm (Caddy III body, Maxi Life page; same body width)"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/fahrbericht-caddy-life-eco-fuel-53792.html",
+        "what": "AUTO BILD: existence of Caddy Life EcoFuel"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Passenger version was sold as 'Caddy Life' until 2010. No manufacturer press data found within budget; ADAC fallback. ADAC '750 l normal' is probably measured to the roof/window line rather than strict VDA to the parcel shelf - a motor-talk thread quotes a 2004 VW brochure with 560 l (unverified). Height: autokosten.net lists 1833 mm, not used (not a permitted source tier)."
+     },
+     {
+      "name": "Caddy 3 Facelift (2K)",
+      "yearFrom": 2010,
+      "yearTo": 2015,
+      "bodyType": "van",
+      "lengthMm": 4406,
+      "widthMm": 1794,
+      "heightMm": 1853,
+      "wheelbaseMm": 2681,
+      "trunkL": 750,
+      "trunkFoldedL": 2850,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 750,
+        "trunkFoldedL": 2850,
+        "notes": "ADAC Edition 30 (06/12-04/15) and Roncalli Edition"
+       },
+       {
+        "name": "2.0 EcoFuel (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 750,
+        "trunkFoldedL": null,
+        "notes": "ADAC 09/10-04/15 gives 750 l normal; folded value not captured"
+       },
+       {
+        "name": "1.2 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "ADAC page 224643 exists (Startline 09/10-04/15), values not captured"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/308531/",
+        "what": "ADAC: Caddy 1.6 TDI Edition 30 length 4406, wheelbase 2681, trunk 750/2850 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/308484/",
+        "what": "ADAC: Caddy 1.6 TDI Roncalli Edition, identical dimensions/trunk"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/224704/",
+        "what": "ADAC: Caddy 2.0 EcoFuel Trendline length 4406, width 1794, height 1853, wheelbase 2681, trunk 750 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "From the 2010 facelift the passenger version was sold as 'Caddy' (Startline/Trendline/Comfortline) instead of 'Caddy Life'. Split from pre-facelift because ADAC lists slightly different length/wheelbase (4406/2681). ADAC fallback only; height 1853 taken from the EcoFuel page."
+     },
+     {
+      "name": "Caddy 4 (SA)",
+      "yearFrom": 2015,
+      "yearTo": 2020,
+      "bodyType": "van",
+      "lengthMm": 4408,
+      "widthMm": 1793,
+      "heightMm": 1792,
+      "wheelbaseMm": 2682,
+      "trunkL": 750,
+      "trunkFoldedL": 3030,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 TDI BlueMotion (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 102,
+        "awd": false,
+        "trunkL": 750,
+        "trunkFoldedL": 3030,
+        "notes": "ADAC 11/15-08/18"
+       },
+       {
+        "name": "1.4 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "ADAC pages 246693 / 295089 exist, values not captured"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iv/251319/",
+        "what": "ADAC: Caddy 2.0 TDI BlueMotion Trendline length 4408, width 1793 (2065 with mirrors), height 1792, wheelbase 2682, trunk 750 l normal / 3030 l dachhoch"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "No manufacturer press kit found within search budget; ADAC fallback. Height 1792 is from the BlueMotion version page and may be lower than other trims. ADAC '750 l normal' likely measured to roof (not strict VDA to parcel shelf). TGI (CNG) and 4MOTION variants existed but no trunk data found."
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Caddy Maxi",
+    "generations": [
+     {
+      "name": "Caddy 3 Maxi Life (2K)",
+      "yearFrom": 2007,
+      "yearTo": 2010,
+      "bodyType": "van",
+      "lengthMm": 4875,
+      "widthMm": 1794,
+      "heightMm": 1834,
+      "wheelbaseMm": 3002,
+      "trunkL": null,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Caddy Maxi Life 1.9 TDI DSG (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "ADAC 12/07-08/10 lists 530 l 'normal', which is almost certainly the 7-seat value (3rd row in place)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii/211700/",
+        "what": "ADAC: Caddy Maxi Life 1.9 TDI DSG length 4875, width 1794, height 1834, wheelbase 3002, trunk 530 l normal"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Sold as 'Caddy Maxi Life'. 7-seat trunk value per ADAC: 530 l. 5-seat value and folded value not found."
+     },
+     {
+      "name": "Caddy 3 Maxi Facelift (2K)",
+      "yearFrom": 2010,
+      "yearTo": 2015,
+      "bodyType": "van",
+      "lengthMm": null,
+      "widthMm": null,
+      "heightMm": null,
+      "wheelbaseMm": null,
+      "trunkL": null,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/224704/",
+        "what": "ADAC: Caddy III facelift generation period 09/10-04/15 (short version page; Maxi facelift data not found)"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Generation existed (Caddy Maxi after 2010 facelift) but no data found within search budget. Likely very close to the pre-facelift Maxi Life, but not verified - all values null."
+     },
+     {
+      "name": "Caddy 4 Maxi (SA)",
+      "yearFrom": 2015,
+      "yearTo": 2020,
+      "bodyType": "van",
+      "lengthMm": 4878,
+      "widthMm": 1793,
+      "heightMm": 1868,
+      "wheelbaseMm": 3006,
+      "trunkL": null,
+      "trunkFoldedL": 3880,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 TDI 150 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": 3880,
+        "notes": "ADAC Trendline 06/15-08/18: 530 l normal (7-seat value), 3880 l dachhoch"
+       },
+       {
+        "name": "2.0 TDI 150 PS 4MOTION DSG (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": 3880,
+        "heightMm": 1863,
+        "notes": "ADAC Comfortline 11/15-08/18: same trunk values as FWD, height 1863"
+       },
+       {
+        "name": "1.4 TSI DSG (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "ADAC page 246751 exists, values not captured"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iv/246747/",
+        "what": "ADAC: Caddy Maxi 2.0 TDI BMT Trendline length 4878, width 1793, height 1868, wheelbase 3006, trunk 530 l normal / 3880 l dachhoch"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iv/251331/",
+        "what": "ADAC: Caddy Maxi 2.0 TDI 4MOTION DSG height 1863, same trunk values"
+       }
+      ],
+      "confidence": "low",
+      "notes": "ADAC fallback only. ADAC 'normal' 530 l is the 7-seat value (3rd row in place); 5-seat VDA value not found. 3880 l is roof-high with seats folded/removed."
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "generations": [
+     {
+      "name": "Golf V (1K)",
+      "yearFrom": 2003,
+      "yearTo": 2008,
+      "bodyType": "hatchback",
+      "lengthMm": 4204,
+      "widthMm": 1759,
+      "heightMm": 1485,
+      "wheelbaseMm": 2578,
+      "trunkL": 350,
+      "trunkFoldedL": 1305,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 350,
+        "trunkFoldedL": 1305,
+        "notes": "ADAC 1.4 TSI Comfortline DSG 5-Türer (01/08-08/08)"
+       },
+       {
+        "name": "1.9 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 105,
+        "awd": false,
+        "trunkL": 350,
+        "trunkFoldedL": 1305,
+        "notes": "auto motor und sport test 21/2003"
+       },
+       {
+        "name": "GTI",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Trunk not verified"
+       },
+       {
+        "name": "R32 4MOTION",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "4MOTION has a smaller trunk than FWD, value not found"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-golf-5-profile-19481",
+        "what": "VW newsroom: length 4204-4246, width 1759, height 1465-1651 (range over variants), wheelbase 2578"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/test/vw-golf-5-tdi-2003/technische-daten/",
+        "what": "auto motor und sport: 1.9 TDI 4204 x 1759 x 1485 mm, trunk 350-1305 l VDA"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/v/212705/",
+        "what": "ADAC: Golf V 1.4 TSI 5-Türer trunk 350 l normal / 1305 l dachhoch"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Height 1485 is the standard hatchback per auto motor und sport; newsroom only gives a range. Generation-level dimensions refer to the 5-door hatch."
+     },
+     {
+      "name": "Golf VI (5K)",
+      "yearFrom": 2008,
+      "yearTo": 2012,
+      "bodyType": "hatchback",
+      "lengthMm": 4199,
+      "widthMm": 1779,
+      "heightMm": 1480,
+      "wheelbaseMm": 2578,
+      "trunkL": 350,
+      "trunkFoldedL": 1305,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 160,
+        "awd": false,
+        "trunkL": 350,
+        "trunkFoldedL": 1305,
+        "notes": "ADAC 1.4 TSI Comfortline 5-Türer (10/08-09/12)"
+       },
+       {
+        "name": "TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Not separately verified"
+       },
+       {
+        "name": "GTI",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "VW newsroom has a 'Vehicle data Golf VI GTI profile' page; values not captured"
+       },
+       {
+        "name": "R 4MOTION",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "4MOTION trunk smaller than FWD; value not found"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-golf-6-profile-19485",
+        "what": "VW newsroom: length 4199, width 1779, height 1461-1480, wheelbase 2578"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vi/215447/",
+        "what": "ADAC: Golf VI 1.4 TSI 5-Türer trunk 350 l normal / 1305 l dachhoch"
+       },
+       {
+        "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-golf-6-gti-profile-19515",
+        "what": "VW newsroom Golf VI GTI profile (not evaluated)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Height: newsroom gives a range 1461-1480 mm; upper value used as generation height (conservative for packing)."
+     },
+     {
+      "name": "Golf VII (5G)",
+      "yearFrom": 2012,
+      "yearTo": 2017,
+      "bodyType": "hatchback",
+      "lengthMm": 4255,
+      "widthMm": 1799,
+      "heightMm": 1452,
+      "wheelbaseMm": 2637,
+      "trunkL": 380,
+      "trunkFoldedL": 1270,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": 1270,
+        "notes": "ADAC 1.4 TSI BMT Highline 5-Türer (11/12-05/14)"
+       },
+       {
+        "name": "1.6 TDI / 2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": 1270,
+        "notes": "ADAC 1.6 TDI Comfortline and 2.0 TDI Highline 5-Türer (11/12-05/14)"
+       },
+       {
+        "name": "GTD",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "lengthMm": 4268,
+        "heightMm": 1442,
+        "notes": "VW newsroom GTD release: length 4268, height 1442, wheelbase 2631; trunk not verified"
+       },
+       {
+        "name": "GTE (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "PHEV trunk smaller than ICE; value not found"
+       },
+       {
+        "name": "e-Golf (Elektro)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Pre-facelift e-Golf (2014-2017) trunk not found; facelift e-Golf 341/1231 l"
+       },
+       {
+        "name": "R 4MOTION",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "4MOTION trunk smaller than FWD; value not found"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.volkswagen-newsroom.com/en/the-new-golf-das-auto-international-driving-presentation-2797/the-new-golf-overview-quick-facts-2854",
+        "what": "VW press kit 2012: length 4255, width 1799 (2027 with mirrors), wheelbase 2637, trunk 380-1270 l"
+       },
+       {
+        "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-golf-7-profile-20039",
+        "what": "VW newsroom Golf VII profile: height 1452 (standard Golf, stated for MY2017)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii/233874/",
+        "what": "ADAC: 1.4 TSI 5-Türer trunk 380/1270 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii/233589/",
+        "what": "ADAC: 2.0 TDI 5-Türer trunk 380/1270 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii/233573/",
+        "what": "ADAC: 1.6 TDI 5-Türer trunk 380/1270 l"
+       },
+       {
+        "url": "https://www.volkswagen-newsroom.com/en/the-new-golf-gtd-international-press-presentation-2807/golf-gtd-exterior-dimensions-and-design-2819",
+        "what": "VW newsroom: Golf GTD length 4268, height 1442, wheelbase 2631"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Height 1452 from the newsroom profile (quoted for the 2017 standard model) is also given by angurten.de for the pre-facelift; assumed unchanged."
+     },
+     {
+      "name": "Golf VII Facelift (7.5)",
+      "yearFrom": 2017,
+      "yearTo": 2020,
+      "bodyType": "hatchback",
+      "lengthMm": 4258,
+      "widthMm": 1799,
+      "heightMm": 1452,
+      "wheelbaseMm": 2637,
+      "trunkL": 380,
+      "trunkFoldedL": 1270,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.5 TSI / 1.4 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": 1270,
+        "notes": "ADAC 1.5 TSI ACT Highline 5-Türer and 1.4 TSI Comfortline (03/17-...)"
+       },
+       {
+        "name": "GTE (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "lengthMm": 4276,
+        "heightMm": 1453,
+        "notes": "VW newsroom profile: 4276 long, 1453 high; trunk not found"
+       },
+       {
+        "name": "e-Golf (Elektro)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 341,
+        "trunkFoldedL": 1231,
+        "notes": "ADAC e-Golf (04/17-05/20); no frunk"
+       },
+       {
+        "name": "R 4MOTION",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "lengthMm": 4268,
+        "heightMm": 1435,
+        "notes": "VW newsroom profile: 4268 long, 1435 high; trunk not found"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-golf-7-profile-20039",
+        "what": "VW newsroom: standard Golf from 2017 4258/1799/1452, wheelbase 2637; Golf R 4268/1435; Golf GTE 4276/1453"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii-facelift/272949/",
+        "what": "ADAC: 1.5 TSI 5-Türer (03/17-08/18) trunk 380/1270 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii-facelift/266223/",
+        "what": "ADAC: 1.4 TSI 5-Türer (03/17-05/18) trunk 380/1270 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii-facelift/266575/",
+        "what": "ADAC: e-Golf trunk 341 l / 1231 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Split from pre-facelift because length changed (4255 -> 4258). Diesel (TDI) hatch facelift trunk not separately verified (Variant TDI pages exist)."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Caddy 3 (Caddy Life) heightMm (only autokosten.net: 1833)",
+   "Caddy Life / Caddy strict VDA trunk to parcel shelf (ADAC 750 l is likely roof-high; 560 l reportedly in 2004 brochure, unverified)",
+   "Caddy 3 Facelift 2.0 EcoFuel trunkFoldedL",
+   "Caddy 3 Facelift 1.2 TSI trunk values",
+   "Caddy 4 1.4 TSI, TGI, 4MOTION trunk values",
+   "Caddy Maxi 3 (Maxi Life) trunkL 5-seat and trunkFoldedL",
+   "Caddy Maxi 3 Facelift (2010-2015) all dimensions and trunk values",
+   "Caddy Maxi 4 trunkL 5-seat (ADAC 530 l = 7-seat value)",
+   "Caddy Maxi 4 1.4 TSI trunk values",
+   "Golf V GTI trunk, Golf V R32 4MOTION trunk",
+   "Golf VI TDI, GTI, R 4MOTION trunk values",
+   "Golf VII GTD, GTE, e-Golf (pre-facelift), R trunk values",
+   "Golf VII Facelift GTE and R trunk values, TDI hatch trunk",
+   "All loadSpace measurements"
+  ],
+  "notes": "Search budget (20) used; one search returned too_many_requests. Caddy data is ADAC-only fallback (no manufacturer press data found). Caddy Maxi 7-seat trunk value (ADAC 'normal'): 530 l for both Maxi Life (2K) and Caddy 4 Maxi. Golf generations use calendar production years (V 10/2003-2008, VI 10/2008-2012, VII 11/2012-2017, VII facelift 2017-2020), matching existing DB style."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "Golf",
+    "generation": "Golf VII (5G)",
+    "variant": "GTE (Plug-in-Hybrid)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 272,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/test/vw-golf-gte/technische-daten/",
+    "evidence": "auto motor und sport Golf GTE test data: Kofferraumvolumen 272 bis 1162 l."
+   },
+   {
+    "model": "Golf",
+    "generation": "Golf VII (5G)",
+    "variant": "GTE (Plug-in-Hybrid)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1162,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/test/vw-golf-gte/technische-daten/",
+    "evidence": "auto motor und sport Golf GTE test data: 272-1162 l (carwow quotes 1126 l folded; ams value preferred)."
+   },
+   {
+    "model": "Golf",
+    "generation": "Golf VII (5G)",
+    "variant": "R 4MOTION",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 343,
+    "sourceUrl": "https://www.carsales.com.au/research/volkswagen/golf/2014/r",
+    "evidence": "2014 Golf R 4MOTION: Boot/Load Space Min 343 L, Max 1233 L; same 343/1233 on auto.ru (2013-2017 Golf R VII) and caroom.fr (300 PS)."
+   },
+   {
+    "model": "Golf",
+    "generation": "Golf VII (5G)",
+    "variant": "R 4MOTION",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1233,
+    "sourceUrl": "https://www.carsales.com.au/research/volkswagen/golf/2014/r",
+    "evidence": "2014 Golf R 4MOTION: Boot/Load Space Max 1233 L."
+   },
+   {
+    "model": "Golf",
+    "generation": "Golf VII (5G)",
+    "variant": "e-Golf (Elektro)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 341,
+    "sourceUrl": "https://drivingelectric.com/volkswagen/golf/e-golf/245/volkswagen-e-golf-practicality-boot-space",
+    "evidence": "e-Golf (2014-2019): 341 l seats up, 1231 l folded; carbuyer: battery under raised floor reduces 380 -> 341 l. Same as facelift values."
+   },
+   {
+    "model": "Golf",
+    "generation": "Golf VII (5G)",
+    "variant": "e-Golf (Elektro)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1231,
+    "sourceUrl": "https://drivingelectric.com/volkswagen/golf/e-golf/245/volkswagen-e-golf-practicality-boot-space",
+    "evidence": "e-Golf 2014-2019: 1231 l with rear seats folded."
+   },
+   {
+    "model": "Golf",
+    "generation": "Golf VII (5G)",
+    "variant": "GTD",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 380,
+    "sourceUrl": "https://www.autobild.de/artikel/vw-golf-vii-gtd-fahrbericht-4234915.html",
+    "evidence": "AUTO BILD Golf VII GTD Fahrbericht: 380 Liter Kofferraum; autoplenum (schraegheck-2012 GTD 184 PS) also 380 l; ams GTD facelift test 380-1270 l."
+   },
+   {
+    "model": "Golf",
+    "generation": "Golf VII (5G)",
+    "variant": "GTD",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1270,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/test/vw-golf-7-gtd-facelift/technische-daten/",
+    "evidence": "ams GTD (Facelift) test: Kofferraumvolumen 380 bis 1270 l; autozine.nl golf-vii 2.0 GTD also 380/1270. Body unchanged vs. pre-facelift hatch."
+   },
+   {
+    "model": "Golf",
+    "generation": "Golf V (1K)",
+    "variant": "R32 4MOTION",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 275,
+    "sourceUrl": "https://www.autobild.de/marken-modelle/vw/golf-r/golf-r32-5/",
+    "evidence": "AUTO BILD Golf R32 (Golf V, 250 PS): Kofferraum 275-1230 l; autoscout24.at R32 4MOTION and autoplenum (schraegheck-2003 R32 250 PS) also 275 l."
+   },
+   {
+    "model": "Golf",
+    "generation": "Golf V (1K)",
+    "variant": "R32 4MOTION",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1230,
+    "sourceUrl": "https://www.autobild.de/marken-modelle/vw/golf-r/golf-r32-5/",
+    "evidence": "AUTO BILD / autoplenum: 275-1230 l."
+   },
+   {
+    "model": "Golf",
+    "generation": "Golf V (1K)",
+    "variant": "GTI",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 350,
+    "sourceUrl": "https://www.autoscout24.at/auto/technische-daten/volkswagen/golf/golf-2-0-gti-limousine-benzin-bleifrei-14480/",
+    "evidence": "autoscout24.at Golf 2.0 GTI 147 kW (200 PS), 4204 mm long, 2578 mm wheelbase (Golf V GTI): Kofferraum 350 l. Folded value not confirmed (low-tier source)."
+   },
+   {
+    "model": "Golf",
+    "generation": "Golf VI (5K)",
+    "variant": "GTI",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 350,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/test/vw-golf-6-gti-test/technische-daten/",
+    "evidence": "ams Golf 6 GTI test data: 4213 x 1786 x 1469 mm, Kofferraumvolumen 350 bis 1305 l."
+   },
+   {
+    "model": "Golf",
+    "generation": "Golf VI (5K)",
+    "variant": "GTI",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1305,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/test/vw-golf-6-gti-test/technische-daten/",
+    "evidence": "ams Golf 6 GTI: 350 bis 1305 l."
+   },
+   {
+    "model": "Golf",
+    "generation": "Golf VII Facelift (7.5)",
+    "variant": "GTE (Plug-in-Hybrid)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 272,
+    "sourceUrl": "https://www.autobild.de/artikel/vw-golf-gte-facelift-im-test-28236937.html",
+    "evidence": "AUTO BILD GTE facelift test: hybrid battery costs 108 l of trunk vs. 380 l Golf -> 272 l; same 272 l as pre-facelift GTE (ams). Folded value presumably 1162 l as pre-facelift but not directly confirmed for facelift. Medium confidence."
+   },
+   {
+    "model": "Caddy",
+    "generation": "Caddy 3 (2K) – Caddy Life",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": null,
+    "newValue": 1833,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii/998904/",
+    "evidence": "ADAC Caddy Life 1.4 (07/04-06/06): Länge 4405 mm, Höhe 1833 mm (that page lists Breite 1802 mm; other ADAC Caddy III pages 1794 mm). Matches the autokosten.net 1833 already noted."
+   },
+   {
+    "model": "Caddy Maxi",
+    "generation": "Caddy 3 Maxi Facelift (2K)",
+    "variant": null,
+    "field": "lengthMm",
+    "oldValue": null,
+    "newValue": 4876,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/224792",
+    "evidence": "ADAC Caddy Kombi Maxi 2.0 TDI (09/10-04/15): Länge 4876 mm, Breite 1794 mm (2065 mit Spiegeln), Höhe 1861 mm, Radstand 3006 mm, 5 (max. 7) Sitze, Kofferraum normal 530 l."
+   },
+   {
+    "model": "Caddy Maxi",
+    "generation": "Caddy 3 Maxi Facelift (2K)",
+    "variant": null,
+    "field": "widthMm",
+    "oldValue": null,
+    "newValue": 1794,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/224792",
+    "evidence": "ADAC Caddy Kombi Maxi 2.0 TDI (09/10-04/15): Breite 1794 mm."
+   },
+   {
+    "model": "Caddy Maxi",
+    "generation": "Caddy 3 Maxi Facelift (2K)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": null,
+    "newValue": 1861,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/224792",
+    "evidence": "ADAC: Höhe 1861 mm (auto-data.net gives 1836 mm for the 140 PS facelift; ADAC preferred)."
+   },
+   {
+    "model": "Caddy Maxi",
+    "generation": "Caddy 3 Maxi Facelift (2K)",
+    "variant": null,
+    "field": "wheelbaseMm",
+    "oldValue": null,
+    "newValue": 3006,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/224792",
+    "evidence": "ADAC: Radstand 3006 mm."
+   }
+  ],
+  "missing": [
+   {
+    "model": "Golf",
+    "detail": "Golf VII / VII Facelift 1.4 TGI BlueMotion (CNG, 110 PS): trunk 291 l / 1181 l (ADAC 239804 Erdgasbetrieb 01/14-12/16; ADAC 266245 facelift 03/17-05/18; 1.5 TGI 2019 also 291 l). Wheelbase listed 2620 mm."
+   },
+   {
+    "model": "Golf",
+    "detail": "Golf VII GTI and Golf VII Facelift GTI variants not listed (ADAC 235658 GTI 5-Türer 03/13-12/16, 266255 facelift); ams GTI facelift test gives 380-1270 l."
+   },
+   {
+    "model": "Golf",
+    "detail": "Golf VI GTD (2009-2012) and Golf V GT/GTI-adjacent variants not listed; Golf VII Facelift GTD (ams: 4268 x 1790 x 1482 mm, 380-1270 l) not listed."
+   },
+   {
+    "model": "Golf",
+    "detail": "Golf VII Facelift R 4MOTION trunk still null; pre-facelift R is 343/1233 l and caroom.fr gives 343/1233 for the 300 PS 2013-2018 Golf R, likely applies to facelift too (not directly confirmed)."
+   },
+   {
+    "model": "Caddy",
+    "detail": "Caddy Life early ADAC entry 2.0 SDI (07/04-09/05, page 998906) lists 560 l normal / 2239 l dachhoch (1200 l fensterhoch) - conflicts with the 750/2850 l used for the generation and matches the 560 l brochure value mentioned in notes; 2.0 SDI variant and 1.4 petrol variant (ADAC 998904/206789, 750/2850 l) missing."
+   },
+   {
+    "model": "Caddy",
+    "detail": "Caddy 4 (SA) 1.4 TGI (CNG) variant: 750 l per autorai.nl; 2.0 TDI 4MOTION variant exists (no trunk found)."
+   },
+   {
+    "model": "Caddy Maxi",
+    "detail": "Caddy 3 Maxi Facelift variants missing: Kombi Maxi 1.6 TDI, 1.6 TDI BMT, 2.0 TDI, 2.0 TDI 4MOTION (7-Sitzer pages 224785/224787/224791/224793), all ADAC 530 l normal."
+   },
+   {
+    "model": "Caddy Maxi",
+    "detail": "Caddy 4 Maxi 1.4 TGI (CNG) Kombi exists (gas24.de); behind 3rd row VW quotes 446 l per autodoc (unverified for SA generation)."
+   }
+  ],
+  "checkedValues": 46,
+  "confirmedValues": 22,
+  "notes": "19 of 20 searches used. Confirmed: Golf VI 4199/1779/1461-1480/2578 (newsroom), Golf VI 350/1305, Golf VII 380/1270 (ams GTD), Golf VII TGI length 4255, Golf V GTI/hatch trunk 350, Caddy III facelift 4406/1853/750/2850 (ADAC 224774), Caddy Life 4405 and 750/2850 (ADAC 1.4 06/06-08/10), Caddy Maxi Life height 1834, Caddy 4 750 l and length 4408 (autoplenum), Caddy Maxi 530 l. Not confirmed/uncertain: Caddy 4 height 1792 (autoplenum 1.0 TSI lists 1858 mm, a Russian spec page 1822 mm; no clear source for one value, so not corrected); Caddy 4 folded 3030 l (carwow range 2556-3105); Golf VI R trunk sources conflict (350/1305 autoscout vs 275/1230 autoplenum) so left null; Golf V and VII dimensions not independently re-verified beyond the above. Caddy Life width: ADAC 998904 shows 1802 mm vs 1794 elsewhere - unresolved. [Übernahme: 1 Korrektur(en) verworfen – 1350 l widerspricht anderen Quellen (530 l), unsicher]"
+ }
+}

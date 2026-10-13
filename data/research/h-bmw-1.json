@@ -1,0 +1,940 @@
+{
+ "id": "h-bmw-1",
+ "brand": "BMW",
+ "data": {
+  "models": [
+   {
+    "brand": "BMW",
+    "model": "1er",
+    "generations": [
+     {
+      "name": "E87 (Fünftürer)",
+      "yearFrom": 2004,
+      "yearTo": 2007,
+      "bodyType": "hatchback",
+      "lengthMm": 4227,
+      "widthMm": 1751,
+      "heightMm": 1430,
+      "wheelbaseMm": 2660,
+      "trunkL": 330,
+      "trunkFoldedL": 1150,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "116i / 118i / 120i / 130i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 330,
+        "trunkFoldedL": 1150,
+        "notes": "Trunk volume quoted for the five-door body irrespective of engine."
+       },
+       {
+        "name": "118d / 120d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 330,
+        "trunkFoldedL": 1150
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.auto.de/magazin/pressemappe-bmw-1er/",
+        "what": "Reproduced BMW press kit: five-door trunk 330-1150 l"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/94-1er-Reihe",
+        "what": "Length 4227, width 1751 (without mirrors), height 1430, wheelbase 2660 (pre-LCI); trunk 330/1150 l"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/BMW_E87",
+        "what": "Wheelbase 2660 for all body variants; pre-LCI and LCI dimensions table"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Pre-facelift five-door E87 (launched 09/2004, so in sale 2005). The 3-door E81 (2007-2011) is the same model line but not covered separately here. No manufacturer data sheet for dimensions was reachable via search; dimensions from angurten.de/Wikipedia."
+     },
+     {
+      "name": "E87 LCI (Fünftürer, Facelift)",
+      "yearFrom": 2007,
+      "yearTo": 2011,
+      "bodyType": "hatchback",
+      "lengthMm": 4239,
+      "widthMm": 1748,
+      "heightMm": 1421,
+      "wheelbaseMm": 2660,
+      "trunkL": 330,
+      "trunkFoldedL": 1150,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "116i / 118i / 120i / 130i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 330,
+        "trunkFoldedL": 1150
+       },
+       {
+        "name": "116d / 118d / 120d / 123d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 330,
+        "trunkFoldedL": 1150
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.angurten.de/is/abmessungen/94-1er-Reihe",
+        "what": "LCI dimensions 4239/1748/1421 mm; trunk 330/1150 l"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/BMW_E87",
+        "what": "LCI dimensions table, wheelbase 2660"
+       },
+       {
+        "url": "https://www.treffseiten.de/bmw/info/daten_118i_120i_130i_118d_120d_5tuerer_07_01.pdf",
+        "what": "BMW technical data sheet five-door 2007 (found in search, content not fully verified)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 03/2007: length +12 mm, height -9 mm, trunk unchanged."
+     },
+     {
+      "name": "F20 (Fünftürer, inkl. LCI 2015 und 2017)",
+      "yearFrom": 2011,
+      "yearTo": 2019,
+      "bodyType": "hatchback",
+      "lengthMm": 4324,
+      "widthMm": 1765,
+      "heightMm": 1421,
+      "wheelbaseMm": 2690,
+      "trunkL": 360,
+      "trunkFoldedL": 1200,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "116i / 118i / 120i / 125i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 360,
+        "trunkFoldedL": 1200
+       },
+       {
+        "name": "114d / 116d / 118d / 120d / 125d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 360,
+        "trunkFoldedL": 1200
+       },
+       {
+        "name": "xDrive (Allrad)",
+        "powertrain": "petrol",
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No separate trunk figure found for xDrive versions."
+       },
+       {
+        "name": "M135i 320 PS",
+        "powertrain": "petrol",
+        "powerPs": 320,
+        "awd": false,
+        "trunkL": 360,
+        "trunkFoldedL": 1200,
+        "lengthMm": 4340,
+        "widthMm": 1765,
+        "heightMm": 1411,
+        "yearFrom": 2012,
+        "yearTo": 2015,
+        "notes": "BMW Medieninformation 5/2012 (valid from 7/2012): 4340/1765/1411 mm, wheelbase 2690. Also offered as M135i xDrive."
+       },
+       {
+        "name": "M135i 326 PS / M140i (LCI)",
+        "powertrain": "petrol",
+        "powerPs": 326,
+        "awd": false,
+        "trunkL": 360,
+        "trunkFoldedL": 1200,
+        "yearFrom": 2015,
+        "yearTo": 2019,
+        "notes": "M135i LCI 326 PS (7-forum press text). Dimensions of LCI M135i/M140i not found; M140i power not sourced."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0117953DE/172331",
+        "what": "BMW Medieninformation 6/2011: trunk 360-1200 l, height 1421 mm, +85 mm length, +30 mm wheelbase vs. predecessor"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1302-1er+5-T%C3%BCrer",
+        "what": "Length 4324, width 1765 (without mirrors), height 1421, wheelbase 2690"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1599-bmw-1er-5-tuerer-2015",
+        "what": "F20 LCI 2015: length 4324, height 1421"
+       },
+       {
+        "url": "https://www.auto-data.net/en/bmw-1-series-hatchback-5dr-f20-lci-facelift-2015-116i-109hp-22863",
+        "what": "F20 LCI length 4329 (conflicting), height 1440"
+       },
+       {
+        "url": "https://www.treffseiten.de/bmw/info/daten/daten_1er_5t_m135i_12_07.pdf",
+        "what": "BMW Medieninformation 5/2012 M135i: 4340/1765/1411 mm, 320 PS, trunk 360-1200 l"
+       },
+       {
+        "url": "https://www.7-forum.com/news/Kompakte-Fahrfreude-effizient-innovativ-6343.html",
+        "what": "Facelift 2015 press text: M135i 240 kW/326 PS"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "LCI 2015 length quoted as 4324 (angurten) or 4329 mm (auto-data/mobile.de); height 1421-1440 depending on source/version. Not split because the difference is unconfirmed by manufacturer data. Trunk 360/1200 throughout. 3-door F21 not covered."
+     }
+    ]
+   },
+   {
+    "brand": "BMW",
+    "model": "3er Limousine",
+    "generations": [
+     {
+      "name": "E46 (Facelift)",
+      "yearFrom": 2001,
+      "yearTo": 2005,
+      "bodyType": "sedan",
+      "lengthMm": 4471,
+      "widthMm": null,
+      "heightMm": 1415,
+      "wheelbaseMm": 2725,
+      "trunkL": 440,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "316i / 318i / 320i / 325i / 330i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 440,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "318d / 320d / 330d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 440,
+        "trunkFoldedL": null
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e46-facelift/992052/",
+        "what": "ADAC: 320i (08/01-03/05) trunk 440 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/bmw/3er/1998/limousine/modell/daten-fakten/",
+        "what": "Length 4471, height 1415, wheelbase 2725, trunk 440 l"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Sold in Germany until 03/2005 (replaced by E90). Width of the sedan not found (Touring: 1739 mm, ADAC). No folded volume published for the sedan."
+     },
+     {
+      "name": "E90",
+      "yearFrom": 2005,
+      "yearTo": 2008,
+      "bodyType": "sedan",
+      "lengthMm": 4520,
+      "widthMm": 1817,
+      "heightMm": 1421,
+      "wheelbaseMm": 2760,
+      "trunkL": 460,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "318i / 320i / 325i / 330i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 460,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "318d / 320d / 330d / 335d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 460,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "xi / xd (Allrad)",
+        "powertrain": "petrol",
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No separate trunk figure found for xDrive versions."
+       },
+       {
+        "name": "M3 Limousine 420 PS",
+        "powertrain": "petrol",
+        "powerPs": 420,
+        "awd": false,
+        "trunkL": 450,
+        "trunkFoldedL": null,
+        "lengthMm": 4580,
+        "widthMm": 1817,
+        "heightMm": 1447,
+        "yearFrom": 2007,
+        "yearTo": 2011,
+        "notes": "7-forum reproduction of BMW data: VDA 450 l, 4580/1817/1447 mm."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e90-e91-e92-e93/200419",
+        "what": "ADAC: 320i (03/05-10/07) length 4520, width 1817 (without mirrors), height 1421, wheelbase 2760"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/95-3er+Limousine",
+        "what": "Trunk 460 l"
+       },
+       {
+        "url": "https://www.autokosten.net/bmw/3er-reihe-limousine/320i/3er-reihe-e90-limousine-09-08-11-11_2/technische-daten",
+        "what": "Trunk normal 460 l"
+       },
+       {
+        "url": "https://www.7-forum.com/news/2007/bmw_m3_limousine/technische_daten.php",
+        "what": "M3 Limousine E90: 4580/1817/1447 mm, VDA trunk 450 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Trunk 460 l is from secondary databases (no BMW/ADAC trunk figure found). Sedan without published folded volume (through-loading option only)."
+     },
+     {
+      "name": "E90 LCI (Facelift)",
+      "yearFrom": 2008,
+      "yearTo": 2012,
+      "bodyType": "sedan",
+      "lengthMm": 4531,
+      "widthMm": 1817,
+      "heightMm": 1421,
+      "wheelbaseMm": 2760,
+      "trunkL": 460,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "316i / 318i / 320i / 325i / 330i / 335i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 460,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "316d / 318d / 320d / 325d / 330d / 335d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 460,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "xDrive (Allrad)",
+        "powertrain": "petrol",
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No separate trunk figure found."
+       },
+       {
+        "name": "M3 Limousine 420 PS",
+        "powertrain": "petrol",
+        "powerPs": 420,
+        "awd": false,
+        "trunkL": 450,
+        "trunkFoldedL": null,
+        "lengthMm": 4580,
+        "widthMm": 1817,
+        "heightMm": 1447,
+        "notes": "Same M3 values as before facelift (autokosten 09/2008-02/2010 data)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.7-forum.com/news/2008/3er/technische_daten.php",
+        "what": "BMW data 318i Limousine E90 Facelift from 2008: length 4531"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0011870DE/16320",
+        "what": "BMW media information (2009): length 4531, height 1421, wheelbase 2760"
+       },
+       {
+        "url": "https://www.autokosten.net/bmw/3er-reihe-limousine/320i/3er-reihe-e90-limousine-09-08-11-11_2/technische-daten",
+        "what": "320i 09/2008: trunk 460 l"
+       },
+       {
+        "url": "https://www.autokosten.net/bmw/m3-limousine/m3/m3-e90-limousine-09-08-11-11/technische-daten",
+        "what": "M3 E90 trunk 450 l, 4580/1817"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 09/2008: length +11 mm, other values unchanged."
+     },
+     {
+      "name": "F30",
+      "yearFrom": 2012,
+      "yearTo": 2015,
+      "bodyType": "sedan",
+      "lengthMm": 4624,
+      "widthMm": 1811,
+      "heightMm": 1429,
+      "wheelbaseMm": 2810,
+      "trunkL": 480,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "316i / 320i / 328i / 335i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 480,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "316d / 318d / 320d / 325d / 330d / 335d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 480,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "ActiveHybrid 3",
+        "powertrain": "hev",
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Trunk reduced by battery; value not found."
+       },
+       {
+        "name": "M3 Limousine (F80)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 480,
+        "trunkFoldedL": null,
+        "lengthMm": 4671,
+        "widthMm": 1877,
+        "heightMm": 1424,
+        "yearFrom": 2014,
+        "yearTo": 2018,
+        "notes": "Wheelbase 2812. Height 1431 for M3 Competition (from 03/2016)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0123424DE/180637",
+        "what": "BMW Medieninformation 11/2011 new 3 Series Sedan (launch info)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/f30-f31-f34-f80/229848/",
+        "what": "ADAC 328i (02/12-11/12) data page"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1318-3er+Limousine",
+        "what": "Length 4624, width 1811, height 1429, wheelbase 2810"
+       },
+       {
+        "url": "https://www.autokosten.net/bmw/3er-reihe-limousine/328i/3er-reihe-f30-limousine-02-12-06-15_218/technische-daten",
+        "what": "Trunk normal 480 l"
+       },
+       {
+        "url": "https://www.autokosten.net/bmw/m3-limousine/m3/m3-f80-limousine-06-14-06-15/technische-daten",
+        "what": "M3 F80: 4671/1877/1424 mm, wheelbase 2812, trunk 480 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Pre-LCI F30 (02/2012-06/2015)."
+     },
+     {
+      "name": "F30 LCI (Facelift)",
+      "yearFrom": 2015,
+      "yearTo": 2019,
+      "bodyType": "sedan",
+      "lengthMm": 4633,
+      "widthMm": 1811,
+      "heightMm": 1429,
+      "wheelbaseMm": 2810,
+      "trunkL": 480,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "318i / 320i / 330i / 340i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 480,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "316d / 318d / 320d / 330d / 335d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 480,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "330e iPerformance (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 252,
+        "awd": false,
+        "trunkL": 370,
+        "trunkFoldedL": null,
+        "notes": "BMW Medieninformation 09/2015: 4633/1811/1429, trunk 370 l (battery under trunk floor)."
+       },
+       {
+        "name": "M3 Limousine (F80)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 480,
+        "trunkFoldedL": null,
+        "lengthMm": 4671,
+        "widthMm": 1877,
+        "heightMm": 1424,
+        "yearTo": 2018,
+        "notes": "See F30 entry; M3 Competition height 1431."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0255930DE/352076",
+        "what": "BMW Medieninformation 09/2015 330e Limousine: 4633/1811/1429 mm, wheelbase 2810, trunk 370 l"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/BMW_F30",
+        "what": "330e trunk reduced from 480 to 370 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/f30-f31-f34-f80-facelift/247004/",
+        "what": "ADAC 320i Sport Line (07/15-06/18) data page"
+       },
+       {
+        "url": "https://www.autokosten.net/bmw/3er-reihe-limousine/330e-iperformance/3er-reihe-f30-limousine/technische-daten",
+        "what": "Non-PHEV trunk 480 l"
+       },
+       {
+        "url": "https://www.auto-wiki.org/bmw/3er-reihe/f30/330e-iperformance-m-sport-steptronic-185-kw-63860/",
+        "what": "330e 185 kW/252 PS"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 07/2015: length +9 mm. Base-model LCI dimensions taken from BMW 330e press data (same body)."
+     }
+    ]
+   },
+   {
+    "brand": "BMW",
+    "model": "3er Touring",
+    "generations": [
+     {
+      "name": "E46 Touring (Facelift)",
+      "yearFrom": 2001,
+      "yearTo": 2005,
+      "bodyType": "wagon",
+      "lengthMm": 4478,
+      "widthMm": 1739,
+      "heightMm": 1409,
+      "wheelbaseMm": 2725,
+      "trunkL": 435,
+      "trunkFoldedL": 1345,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "316i / 318i / 320i / 325i / 330i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 435,
+        "trunkFoldedL": 1345
+       },
+       {
+        "name": "318d / 320d / 330d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 435,
+        "trunkFoldedL": 1345
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e46-facelift/992060/",
+        "what": "ADAC 320i Touring (09/01-07/05): length 4478, width 1739, height 1409"
+       },
+       {
+        "url": "https://www.mobile.de/auto/bmw/3er/1998/kombi/modell/daten-fakten/",
+        "what": "Length 4478, height 1409, wheelbase 2725, trunk 435/1345 l"
+       },
+       {
+        "url": "https://gebrauchtwagenberater.de/bmw-3er-e46-technische-daten-abmessungen/",
+        "what": "Touring trunk 435 l, 1345 l folded"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Sold until 07/2005 (replaced by E91 09/2005). Possible xi AWD versions not checked."
+     },
+     {
+      "name": "E91",
+      "yearFrom": 2005,
+      "yearTo": 2008,
+      "bodyType": "wagon",
+      "lengthMm": 4520,
+      "widthMm": 1817,
+      "heightMm": 1418,
+      "wheelbaseMm": 2760,
+      "trunkL": 460,
+      "trunkFoldedL": 1385,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "318i / 320i / 325i / 330i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 460,
+        "trunkFoldedL": 1385
+       },
+       {
+        "name": "318d / 320d / 330d / 335d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 460,
+        "trunkFoldedL": 1385
+       },
+       {
+        "name": "xi / xd (Allrad)",
+        "powertrain": "petrol",
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No separate figure found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.7-forum.com/news/2005/3er_touring/technische_daten.php?id1=26",
+        "what": "BMW data 325i Touring E91 from 09/2005: length 4520"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/96-3er+Touring",
+        "what": "Dimensions, trunk 460/1385 l"
+       },
+       {
+        "url": "https://gebrauchtwagenberater.de/bmw-3er-e90-technische-daten/",
+        "what": "Touring 4524x1817x1418 (2005-2012 range); trunk 460-1385 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Pre-LCI height quoted 1418-1421 mm depending on source; 1418 chosen (matches BMW LCI data sheet). Width without mirrors 1817 (1989 with mirrors)."
+     },
+     {
+      "name": "E91 LCI (Facelift)",
+      "yearFrom": 2008,
+      "yearTo": 2012,
+      "bodyType": "wagon",
+      "lengthMm": 4527,
+      "widthMm": 1817,
+      "heightMm": 1418,
+      "wheelbaseMm": 2760,
+      "trunkL": 460,
+      "trunkFoldedL": 1385,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "316i / 318i / 320i / 325i / 330i / 335i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 460,
+        "trunkFoldedL": 1385
+       },
+       {
+        "name": "316d / 318d / 320d / 325d / 330d / 335d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 460,
+        "trunkFoldedL": 1385
+       },
+       {
+        "name": "320d xDrive / 330xd / 335xi (Allrad)",
+        "powertrain": "diesel",
+        "awd": true,
+        "trunkL": 460,
+        "trunkFoldedL": 1385,
+        "notes": "320xd Touring 460-1385 l per third-party catalogue (encycarpedia)."
+       },
+       {
+        "name": "320d EfficientDynamics Edition",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 460,
+        "trunkFoldedL": 1385,
+        "heightMm": 1403,
+        "notes": "BMW data sheet valid from 3/2011: 4527/1817/1403 mm."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0011865DE/16303",
+        "what": "BMW data sheet 320d Touring valid from 09/2008: 4527/1817/1418 mm"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0094013DE/147639",
+        "what": "BMW data sheet 320d Touring EfficientDynamics Edition (3/2011): 4527/1817/1403 mm, trunk 460-1385 l"
+       },
+       {
+        "url": "https://www.encycarpedia.com/de/bmw/08-320xd-touring-kombi",
+        "what": "320xd Touring trunk 460-1385 l"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Facelift 09/2008: length +7 mm."
+     },
+     {
+      "name": "F31",
+      "yearFrom": 2012,
+      "yearTo": 2015,
+      "bodyType": "wagon",
+      "lengthMm": 4624,
+      "widthMm": 1811,
+      "heightMm": 1429,
+      "wheelbaseMm": 2810,
+      "trunkL": 495,
+      "trunkFoldedL": 1500,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "316i / 320i / 328i / 335i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 495,
+        "trunkFoldedL": 1500
+       },
+       {
+        "name": "316d / 318d / 320d / 325d / 330d / 335d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 495,
+        "trunkFoldedL": 1500
+       },
+       {
+        "name": "xDrive (Allrad)",
+        "powertrain": "diesel",
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "No separate figure found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0126604DE/256273",
+        "what": "BMW Medieninformation 05/2012 new 3 Series Touring"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1359-3er+Touring",
+        "what": "Length 4624, width 1811, height 1429, wheelbase 2810"
+       },
+       {
+        "url": "https://www.ultimatespecs.com/car-specs/BMW/59678/BMW-F31-3-Series-Touring-320d.html",
+        "what": "Trunk 495 l / 1500 l folded; length 4624, height 1429"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Height 1429 vs 1434 (auto-data) depending on source. No PHEV Touring in this generation."
+     },
+     {
+      "name": "F31 LCI (Facelift)",
+      "yearFrom": 2015,
+      "yearTo": 2019,
+      "bodyType": "wagon",
+      "lengthMm": 4633,
+      "widthMm": 1811,
+      "heightMm": 1429,
+      "wheelbaseMm": 2810,
+      "trunkL": 495,
+      "trunkFoldedL": 1500,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "318i / 320i / 330i / 340i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "trunkL": 495,
+        "trunkFoldedL": 1500
+       },
+       {
+        "name": "316d / 318d / 320d / 330d / 335d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "trunkL": 495,
+        "trunkFoldedL": 1500
+       },
+       {
+        "name": "335d xDrive / 340i xDrive (Allrad)",
+        "powertrain": "diesel",
+        "awd": true,
+        "trunkL": 495,
+        "trunkFoldedL": 1500,
+        "notes": "auto-data lists 495/1500 for 335d xDrive."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.auto-data.net/en/bmw-3-series-touring-f31-lci-facelift-2015-generation-4511",
+        "what": "F31 LCI length 4633, width 1811, height 1429/1434, trunk 495-1500 l"
+       },
+       {
+        "url": "https://www.auto-data.net/en/bmw-3-series-touring-f31-lci-facelift-2015-335d-313hp-xdrive-steptronic-22882",
+        "what": "335d xDrive trunk 495/1500"
+       },
+       {
+        "url": "https://www.ultimatespecs.com/car-specs/BMW/72362/BMW-F31-3-Series-Touring-LCI-320d-Auto.html",
+        "what": "LCI 320d data"
+       }
+      ],
+      "confidence": "low",
+      "notes": "No BMW press data found for the LCI Touring; values from third-party databases only."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "1er F20 LCI length (4324 vs 4329) unconfirmed by manufacturer",
+   "1er F20 M135i LCI / M140i dimensions and M140i power",
+   "1er F20/E87 xDrive trunk volumes",
+   "3er Limousine E46 Facelift widthMm",
+   "3er Limousine E90 xDrive trunkL",
+   "3er Limousine F30 ActiveHybrid 3 trunkL",
+   "3er Limousine all generations trunkFoldedL (not published for sedan)",
+   "3er Touring E91 pre-LCI / F31 xDrive trunk volumes",
+   "3er Touring F31 LCI manufacturer source",
+   "loadSpace measurements for all generations"
+  ],
+  "notes": "Search budget (20) exhausted, one search hit a rate limit. 3-door 1er (E81/F21) not included as separate body; coupé/cabrio excluded. powerPs only filled where a source gave it. E46 facelift included because it was sold in Germany until 03/2005 (sedan) and 07/2005 (Touring)."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "3er Limousine",
+    "generation": "F30",
+    "variant": "ActiveHybrid 3",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 390,
+    "sourceUrl": "https://press.bmwgroup.com/deutschland/article/attachment/T0127960DE/191793",
+    "evidence": "BMW Medieninformation 7/2012 ActiveHybrid 3: Kofferraumvolumen 390 l; dimensions 4624/1811/1429 mm (also motoreu/autoplenum 390 l)."
+   },
+   {
+    "model": "3er Limousine",
+    "generation": "E46 (Facelift)",
+    "variant": null,
+    "field": "widthMm",
+    "oldValue": null,
+    "newValue": 1739,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e46-facelift/112845/",
+    "evidence": "ADAC 320i Edition Lifestyle Automatic Limousine (03/03-03/05): Länge 4471 mm, Breite 1739 mm (ohne Außenspiegel). Third-party databases round to 1740."
+   },
+   {
+    "model": "3er Limousine",
+    "generation": "E90",
+    "variant": "xi / xd (Allrad)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 460,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e90-e91-e92-e93/203804",
+    "evidence": "ADAC BMW 330xi (09/05-10/07): Kofferraumvolumen normal 460 l (same for 10/07-08/08 entry)."
+   },
+   {
+    "model": "3er Limousine",
+    "generation": "E90 LCI (Facelift)",
+    "variant": "xDrive (Allrad)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 460,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e90-e91-e92-e93-facelift/214858/",
+    "evidence": "ADAC BMW 320d xDrive (09/08-02/10): Kofferraumvolumen normal 460 l; 03/10-11/11 xDrive entries also 460 l."
+   },
+   {
+    "model": "3er Touring",
+    "generation": "E91",
+    "variant": "xi / xd (Allrad)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 460,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e90-e91-e92-e93/203842",
+    "evidence": "ADAC BMW 325xi Touring (09/05-10/07): Kofferraumvolumen normal 460 l, dachhoch mit umgeklappter Rücksitzbank 1385 l."
+   },
+   {
+    "model": "3er Touring",
+    "generation": "E91",
+    "variant": "xi / xd (Allrad)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1385,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e90-e91-e92-e93/203842",
+    "evidence": "ADAC BMW 325xi Touring (09/05-10/07): dachhoch mit umgeklappter Rücksitzbank 1385 l."
+   },
+   {
+    "model": "3er Touring",
+    "generation": "F31",
+    "variant": "xDrive (Allrad)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 495,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/f30-f31-f34-f80/236811",
+    "evidence": "ADAC BMW 318d Touring xDrive (07/13-06/15): Kofferraumvolumen normal 495 l, dachhoch 1500 l."
+   },
+   {
+    "model": "3er Touring",
+    "generation": "F31",
+    "variant": "xDrive (Allrad)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1500,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/f30-f31-f34-f80/236811",
+    "evidence": "ADAC BMW 318d Touring xDrive (07/13-06/15): dachhoch mit umgeklappter Rücksitzbank 1500 l."
+   },
+   {
+    "model": "1er",
+    "generation": "F20 (Fünftürer, inkl. LCI 2015 und 2017)",
+    "variant": "xDrive (Allrad)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 360,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/1er-reihe/f20-f21/232306/",
+    "evidence": "ADAC BMW 120d xDrive 5-Türer (11/12-02/15): Kofferraumvolumen normal 360 l, dachhoch 1200 l; LCI 120d xDrive Steptronic (03/15-05/16) same."
+   },
+   {
+    "model": "1er",
+    "generation": "F20 (Fünftürer, inkl. LCI 2015 und 2017)",
+    "variant": "xDrive (Allrad)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1200,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/1er-reihe/f20-f21/232306/",
+    "evidence": "ADAC BMW 120d xDrive 5-Türer (11/12-02/15): dachhoch mit umgeklappter Rücksitzbank 1200 l."
+   }
+  ],
+  "missing": [
+   {
+    "model": "3er Limousine",
+    "detail": "F30 (and F30 LCI) xDrive variants missing (e.g. 320d/335i xDrive). BMW Medieninformation 7/2012 (press.bmwgroup.com T0127960DE) lists 335i xDrive with 4624/1811/1434 mm (height 1434 vs 1429), wheelbase 2810, trunk 480 l."
+   },
+   {
+    "model": "1er",
+    "detail": "M140i (07/2016-2019) should be its own variant: 250 kW / 340 PS (ADAC https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/1er-reihe/f20-f21-facelift/256721), trunk 360-1200 l per BMW press (T0259974EN). Also M135i xDrive / M140i xDrive (AWD) not listed as separate AWD variants."
+   },
+   {
+    "model": "1er",
+    "detail": "F20 LCI length: a BMW 2015 118i five-door press data sheet reportedly gives 4329/1765/1421 mm (search summary; likely press.bmwgroup.com T0218973DE/311616, not opened), supporting 4329 rather than 4324 for LCI 2015+. Consider splitting LCI."
+   },
+   {
+    "model": "1er",
+    "detail": "3-door E81 (2007-2011) and F21 (2012-2019) bodies not covered (same trunk 330-1150 / 360-1200 l). E87 had no xDrive version, so the notFound item 'E87 xDrive trunk' is moot."
+   }
+  ],
+  "checkedValues": 60,
+  "confirmedValues": 49,
+  "notes": "Confirmed: E87 330/1150, 4227/1751/1430/2660 (angurten, gebrauchtwagenberater); E87 LCI 4239/1748/1421/2660 (BMW 2009 data sheet); F20 4324/1765/1421/2690, 360/1200 (angurten, mobile.de); M135i/M140i 360/1200; E46 sedan 4471, 440 l (ADAC); E90 4520/1817/1421/2760 & 460 l (ADAC); E90 M3 4580/1817/1447, 450 l (BMW data sheet 3/2010); F30 4624/1811/1429/2810, 480 l (BMW Medieninformation 7/2012 330d); E46 Touring 435/1345 (catalogues; height 1409 vs 1410 in one catalogue, not corrected); E91 4520/1817/1418, 460/1385 (ADAC); E91 LCI 4527/1817/1418 and ED 1403 (BMW data sheets); F31 4624/1811/1429, 495/1500 (BMW data sheet 316d 2/2015); F31 LCI 4633, 495/1500 (auto-data only). F30 LCI values and E46 sedan height/wheelbase were not independently re-checked. Search budget 20 used."
+ }
+}

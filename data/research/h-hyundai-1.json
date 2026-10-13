@@ -1,0 +1,474 @@
+{
+ "id": "h-hyundai-1",
+ "brand": "Hyundai",
+ "data": {
+  "models": [
+   {
+    "brand": "Hyundai",
+    "model": "i10",
+    "generations": [
+     {
+      "name": "PA (1. Generation)",
+      "yearFrom": 2008,
+      "yearTo": 2010,
+      "bodyType": "hatchback",
+      "lengthMm": 3565,
+      "widthMm": 1595,
+      "heightMm": 1540,
+      "wheelbaseMm": 2380,
+      "trunkL": 225,
+      "trunkFoldedL": 910,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.1 (Benziner) 67 PS",
+        "powertrain": "petrol",
+        "powerPs": 67,
+        "awd": false,
+        "trunkL": 225,
+        "trunkFoldedL": 910,
+        "notes": "67 PS per autoplenum model listing; ADAC entry 1.1 Classic E 03/08-09/08."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i10/1generation/212483/",
+        "what": "ADAC Autokatalog (Herstellerangaben) i10 1.1 Classic E 03/08-09/08: Länge 3565, Breite 1595 (1870 mit Spiegeln), Höhe 1540, Kofferraum 225/910 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/hyundai/i10/2008/schraegheck/modell/daten-fakten/",
+        "what": "Cross-check: Länge 3565, Höhe 1540, Radstand 2380, Kofferraum 225/910 l"
+       },
+       {
+        "url": "https://www.autoplenum.de/auto/hyundai/i10/schraegheck-2008/1-1-67-ps",
+        "what": "1.1 with 67 PS (2008-2010)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "No manufacturer press kit found; values from ADAC Autokatalog (manufacturer data). Some third-party sources give 925 l or 889 l folded; ADAC gives 910 l. Wheelbase only from mobile.de/Wikipedia. Facelift (2011) is a separate entry because length changed."
+     },
+     {
+      "name": "PA Facelift",
+      "yearFrom": 2011,
+      "yearTo": 2013,
+      "bodyType": "hatchback",
+      "lengthMm": 3585,
+      "widthMm": 1595,
+      "heightMm": 1540,
+      "wheelbaseMm": 2380,
+      "trunkL": 225,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.1 (Benziner) 69 PS",
+        "powertrain": "petrol",
+        "powerPs": 69,
+        "awd": false,
+        "trunkL": 225,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "1.2 (Benziner) 86 PS",
+        "powertrain": "petrol",
+        "powerPs": 86,
+        "awd": false,
+        "trunkL": 225,
+        "trunkFoldedL": null
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://auto.meinestadt.de/technische-daten/hyundai/hyundai-i10",
+        "what": "Facelift 03/2011-09/2013: Länge 3585, Breite 1595, Höhe 1540, Radstand 2380, Kofferraum 225 l, 1.1 69 PS and 1.2 86 PS"
+       },
+       {
+        "url": "https://www.auto-data.net/en/hyundai-i10-i-facelift-2011-1.1-69hp-automatic-31435",
+        "what": "Cross-check length 3585 mm for facelift 2011"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/hyundai/hyundai-i10/",
+        "what": "Facelift early 2011, petrol engines raised to 69 and 86 PS"
+       }
+      ],
+      "confidence": "low",
+      "notes": "No manufacturer or ADAC data found for the facelift; values from secondary databases only. Folded volume not confirmed (pre-facelift ADAC value 910 l is likely unchanged but not verified)."
+     },
+     {
+      "name": "IA (2. Generation, inkl. Facelift 2017)",
+      "yearFrom": 2014,
+      "yearTo": 2019,
+      "bodyType": "hatchback",
+      "lengthMm": 3665,
+      "widthMm": 1660,
+      "heightMm": 1500,
+      "wheelbaseMm": 2385,
+      "trunkL": 252,
+      "trunkFoldedL": 1046,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.0 (Benziner) 67 PS",
+        "powertrain": "petrol",
+        "powerPs": 67,
+        "awd": false,
+        "trunkL": 252,
+        "trunkFoldedL": 1046,
+        "notes": "67 PS (49 kW) per ADAC 1.0 Pure/Select 08/18-04/19."
+       },
+       {
+        "name": "1.2 (Benziner) 87 PS",
+        "powertrain": "petrol",
+        "powerPs": 87,
+        "awd": false,
+        "trunkL": 252,
+        "trunkFoldedL": 1046,
+        "notes": "87 PS (64 kW) per ADAC 1.2 Trend/Style 01/17-08/18."
+       },
+       {
+        "name": "1.0 LPG (Autogas)",
+        "powertrain": "lpg",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 218,
+        "trunkFoldedL": null,
+        "notes": "LPG tank reduces trunk to 218 l per R+V test report (low-priority source); folded value and power not found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.hyundai.news/newsroom/dam/de/Pressemappen/i10/hyundai_i10_sep2018_technische_daten.pdf",
+        "what": "Hyundai press kit technical data Sept 2018: Länge 3665, Radstand 2385, Gepäckraum 252-1046 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i10/2generation-facelift/268213/",
+        "what": "ADAC: Breite 1660 (1970 mit Spiegeln), Höhe 1500, Kofferraum 252/1046 l, 1.2 87 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i10/2generation-facelift/292733/",
+        "what": "ADAC: 1.0 with 49 kW (67 PS)"
+       },
+       {
+        "url": "https://www.mobile.de/auto/hyundai/i10/2013/schraegheck/modell/daten-fakten/",
+        "what": "Cross-check pre-facelift: Länge 3665, Radstand 2385, 252/1046 l"
+       },
+       {
+        "url": "https://www.ruv.de/kfz-versicherung/magazin/fahrberichte/hyundai-i10-test-fahrbericht-meinung-kritik",
+        "what": "LPG version trunk 218 l"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Launched end of 2013 (first German model year 2014). Facelift 2017 kept dimensions and trunk volume (ADAC facelift data match pre-facelift data), so not split."
+     }
+    ]
+   },
+   {
+    "brand": "Hyundai",
+    "model": "i20",
+    "generations": [
+     {
+      "name": "PB (1. Generation)",
+      "yearFrom": 2008,
+      "yearTo": 2012,
+      "bodyType": "hatchback",
+      "lengthMm": 3940,
+      "widthMm": 1710,
+      "heightMm": 1490,
+      "wheelbaseMm": 2525,
+      "trunkL": 295,
+      "trunkFoldedL": 1060,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 295,
+        "trunkFoldedL": 1060
+       },
+       {
+        "name": "1.4 CRDi (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 295,
+        "trunkFoldedL": 1060
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1132-i20",
+        "what": "Länge 3940, Breite 1710 ohne Spiegel, Höhe 1490, Radstand 2525, Kofferraum 295 l"
+       },
+       {
+        "url": "https://www.autozine.de/hyundai/i20-2008-2014/12-comfort",
+        "what": "Dimensions 394 x 171 x 149 cm, folded volume 1060 l (gives 370 l seats up, conflicting)"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Hyundai_i20",
+        "what": "Wheelbase 2525 mm, launch Paris Motor Show Oct 2008"
+       }
+      ],
+      "confidence": "low",
+      "notes": "No manufacturer or ADAC data found for the pre-facelift car. trunkL 295 l matches ADAC facelift value; autozine gives 370 l (likely different measurement). Folded 1060 l from autozine and matches ADAC facelift value. 3-door and 5-door body share dimensions. Variant power outputs not verified."
+     },
+     {
+      "name": "PB Facelift",
+      "yearFrom": 2012,
+      "yearTo": 2014,
+      "bodyType": "hatchback",
+      "lengthMm": 3995,
+      "widthMm": 1710,
+      "heightMm": 1490,
+      "wheelbaseMm": 2525,
+      "trunkL": 295,
+      "trunkFoldedL": 1060,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 (Benziner) 86 PS",
+        "powertrain": "petrol",
+        "powerPs": 86,
+        "awd": false,
+        "trunkL": 295,
+        "trunkFoldedL": 1060,
+        "notes": "ADAC 1.2 Trend (5-Türer) 06/12-11/14, 63 kW."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i20/1generation-facelift/233367/",
+        "what": "ADAC (Herstellerangaben) 1.2 Trend 5-Türer 06/12-11/14: Länge 3995, Breite 1710 (1985 mit Spiegeln), Höhe 1490, Radstand 2525, Kofferraum 295/1060 l, 86 PS"
+       },
+       {
+        "url": "https://www.autokosten.net/hyundai/i20/i20-1-2/i20-06-12-11-14/technische-daten",
+        "what": "Cross-check: Länge 3995, Kofferraum 295 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift grew to 3995 mm length, so split from the pre-facelift entry. Other engines (1.4, 1.1/1.4 CRDi) not verified."
+     },
+     {
+      "name": "GB (2. Generation, inkl. Facelift 2018)",
+      "yearFrom": 2015,
+      "yearTo": 2020,
+      "bodyType": "hatchback",
+      "lengthMm": 4035,
+      "widthMm": 1734,
+      "heightMm": 1474,
+      "wheelbaseMm": 2570,
+      "trunkL": 326,
+      "trunkFoldedL": 1042,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 (Benziner) 75 PS",
+        "powertrain": "petrol",
+        "powerPs": 75,
+        "awd": false,
+        "trunkL": 326,
+        "trunkFoldedL": 1042
+       },
+       {
+        "name": "1.2 (Benziner) 84 PS",
+        "powertrain": "petrol",
+        "powerPs": 84,
+        "awd": false,
+        "trunkL": 326,
+        "trunkFoldedL": 1042
+       },
+       {
+        "name": "1.0 T-GDI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 326,
+        "trunkFoldedL": 1042,
+        "notes": "Power not verified in found sources."
+       },
+       {
+        "name": "1.4 (Benziner) 100 PS Automatik",
+        "powertrain": "petrol",
+        "powerPs": 100,
+        "awd": false,
+        "trunkL": 326,
+        "trunkFoldedL": 1042,
+        "notes": "ADAC 1.4 Trend Automatik 12/14-06/18, 74 kW."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.hyundai.news/newsroom/dam/de/Pressemappen/i20/2018/hyundai-i20-juni2018-3-technische-daten.pdf",
+        "what": "Hyundai press kit June 2018 (facelift): Länge 4035, Breite 1734 ohne/1985 mit Spiegel, Höhe 1474, Radstand 2570; Gepäckraum 326 l up to 1024 l (per search summary)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i20/2generation/276609/",
+        "what": "ADAC 1.2 YES! 03/17-01/18: Länge 4035, Breite 1734, Höhe 1474, Kofferraum 326/1042 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i20/2generation-facelift/291783/",
+        "what": "ADAC 1.2 Pure 07/18-04/19 (facelift): same dimensions and 326/1042 l, 75 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i20/2generation/243925/",
+        "what": "ADAC 1.2 Trend 12/14-06/18: 62 kW (84 PS)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i20/2generation/243930/",
+        "what": "ADAC 1.4 Trend Automatik 12/14-06/18: 74 kW (100 PS)"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/test/hyundai-i20-1-2/technische-daten/",
+        "what": "Cross-check test 01/2015: 4035 x 1734 x 1474, 326-1042 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Launched end of 2014 (German model year 2015). Facelift 2018 kept dimensions and trunk volume, so not split. Folded volume conflict: 2018 press kit apparently states 1024 l, ADAC/ams give 1042 l (likely transposed digits); 1042 used. mobile.de lists 4065 mm length (not confirmed by manufacturer). The 3-door i20 Coupé (GB, 4045 mm, 336 l) is a separate body style not covered here; the diesel versions (1.1/1.4 CRDi, pre-facelift only) were not verified."
+     }
+    ]
+   },
+   {
+    "brand": "Hyundai",
+    "model": "i30 Kombi",
+    "generations": [
+     {
+      "name": "FD (i30cw, 1. Generation)",
+      "yearFrom": 2008,
+      "yearTo": 2012,
+      "bodyType": "wagon",
+      "lengthMm": 4475,
+      "widthMm": 1775,
+      "heightMm": 1565,
+      "wheelbaseMm": 2700,
+      "trunkL": 415,
+      "trunkFoldedL": 1395,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 415,
+        "trunkFoldedL": 1395
+       },
+       {
+        "name": "1.6 CRDi (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 415,
+        "trunkFoldedL": 1395
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/1generation/213696/",
+        "what": "ADAC (Herstellerangaben) i30 cw 1.6 CRDi Comfort 03/08-07/09: Länge 4475, Breite 1775, Höhe 1565, Radstand 2700, Kofferraum 415/1395 l"
+       },
+       {
+        "url": "https://www.autokosten.net/hyundai/i30-cw/i30cw-1-4/i30-cw-03-08-07-10_20/technische-daten",
+        "what": "Cross-check 1.4: Länge 4475, Radstand 2700"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Sold as 'i30cw'. Some databases list 4500 mm length (probably later model year/trim); ADAC value 4475 used. No manufacturer press kit found. Power outputs not verified."
+     },
+     {
+      "name": "GD (2. Generation, inkl. Facelift 2015)",
+      "yearFrom": 2012,
+      "yearTo": 2017,
+      "bodyType": "wagon",
+      "lengthMm": 4485,
+      "widthMm": 1780,
+      "heightMm": 1495,
+      "wheelbaseMm": 2650,
+      "trunkL": 528,
+      "trunkFoldedL": 1642,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 GDI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 528,
+        "trunkFoldedL": 1642
+       },
+       {
+        "name": "1.6 CRDi (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 528,
+        "trunkFoldedL": 1642,
+        "heightMm": 1500,
+        "notes": "ADAC 1.6 CRDi Style lists height 1500 mm (vs. 1495 mm for blue Trend)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/2generation/233510/",
+        "what": "ADAC (Herstellerangaben) i30 Kombi 1.6 CRDi blue Trend 08/12-05/15: Länge 4485, Breite 1780, Höhe 1495, Kofferraum 528/1642 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/2generation/233511/",
+        "what": "ADAC 1.6 CRDi Style: Länge 4485, Radstand 2650, Höhe 1500, 528 l"
+       },
+       {
+        "url": "https://www.hyundaiboard.de/cms/attachment/23781-4-technische-daten-b-i30-kombi-d5700f9-pdf/",
+        "what": "Hyundai technical data sheet i30 Kombi Benziner (via forum): 4485 mm, 2650 mm, 528-1642 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/hyundai/i30/2012/kombi/modell/daten-fakten/",
+        "what": "Cross-check 4485/2650/1500, 528/1642 l; facelift 2015"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Facelift 2015 kept dimensions (per angurten.de/mobile.de), so not split. Power outputs not verified."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "i10 PA Facelift trunkFoldedL",
+   "i10 PA Facelift manufacturer/ADAC dimension source (only secondary databases)",
+   "i10 IA 1.0 LPG trunkFoldedL and powerPs",
+   "i20 PB (2008-2012) manufacturer/ADAC data (only secondary databases)",
+   "i20 PB variant power outputs",
+   "i20 GB 1.0 T-GDI powerPs; diesel variants",
+   "i30 Kombi FD (i30cw) variant power outputs",
+   "i30 Kombi GD variant power outputs",
+   "loadSpace measurements for all generations"
+  ],
+  "notes": "Search budget (20) used. Getz (predecessor nameplate of i20) and Atos (of i10) skipped as different nameplates. i20 Coupé (GB 3-door) and i20 Active not included (different body styles/model names). Model years: i10 IA and i20 GB launched end of 2013/2014 respectively, so first German model years 2014/2015."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "i10",
+    "generation": "PA Facelift",
+    "variant": null,
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 910,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i10/1generation-facelift/276597/",
+    "evidence": "ADAC Autokatalog i10 1.1 Edition 20 (09/11-03/12, facelift): 'Kofferraumvolumen normal 225 l | Kofferraumvolumen dachhoch mit umgeklappter Rücksitzbank 910 l'; ADAC facelift Classic 01/11-10/13 (227049) also lists 225/910 l. Applies to both facelift variants (1.1 69 PS and 1.2 86 PS), set variant trunkFoldedL to 910 as well."
+   }
+  ],
+  "missing": [
+   {
+    "model": "i10",
+    "detail": "PA (2008-2010): 1.2 Benziner (Style 09/08-12/10, ADAC 215737) and 1.1/1.2 LPG factory variants (10/09-12/10, ADAC 220765/220773) not listed as variants. LPG trunk values not verified."
+   },
+   {
+    "model": "i20",
+    "detail": "PB (2008-2012): factory 1.2 LPG variant (ADAC 220785, 10/09-08/10) not listed; ADAC lists same dimensions (3940/1710/1490/2525) and 295/1060 l for 1.2 Classic 3- and 5-door."
+   }
+  ],
+  "checkedValues": 56,
+  "confirmedValues": 52,
+  "notes": "13 WebSearch calls used. Confirmed via ADAC: i10 PA 3565/1595/1540/2380, 225/910; i10 PA Facelift 3585/1595 (ADAC 227051), 1540/2380, 225 l; i20 PB 3940/1710/1490/2525, 295/1060 (ADAC 217313, 224920), so i20 PB confidence can be raised; i20 PB Facelift values consistent; i20 GB 4035/1734/1474/2570, 326/1042 (ams test, angurten); i30cw FD 4475/1775/1565/2700, 415/1395 (ADAC incl. facelift 07/10-08/12 pages, same width/height/wheelbase/trunk); i30 Kombi GD 4485/2650/528/1642 (ADAC 233499-233504). i10 IA: width 1660, 252/1046 l and +5 mm wheelbase (2385) confirmed; length 3665 consistent with '+80 mm' vs facelift 3585; height 1500 not independently confirmed (one secondary source says 1490, press reports '50 mm lower' than 1540 = 1490 vs '40 mm lower' = 1500) - no clear contradiction, left unchanged. i30 Kombi GD width 1780/height 1495 not independently re-confirmed. Year ranges consistent with ADAC build windows (i10 facelift from 01/11, i30 Kombi GD from 08/12, i30cw facelift 07/10). No GTI/N/AWD/hybrid variants exist for these generations in Germany."
+ }
+}

@@ -1,0 +1,494 @@
+{
+ "id": "h-volkswagen-5",
+ "brand": "Volkswagen",
+ "data": {
+  "models": [
+   {
+    "brand": "Volkswagen",
+    "model": "Touareg",
+    "generations": [
+     {
+      "name": "7L (1. Generation, inkl. Facelift 2006)",
+      "yearFrom": 2002,
+      "yearTo": 2010,
+      "bodyType": "suv",
+      "lengthMm": 4754,
+      "widthMm": 1928,
+      "heightMm": 1726,
+      "wheelbaseMm": 2855,
+      "trunkL": 555,
+      "trunkFoldedL": 1570,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "V6 TDI 4MOTION Tiptronic (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 555,
+        "trunkFoldedL": 1570,
+        "heightMm": 1726,
+        "notes": "ADAC: V6 TDI DPF (11/04-11/06) 4754 x 1928 x 1726 mm, 555/1570 l. Facelift 3.0 V6 TDI (11/06-05/10) ADAC page not found; assumed unchanged body, trunk not separately confirmed."
+       },
+       {
+        "name": "V10 TDI 4MOTION Tiptronic (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 313,
+        "awd": true,
+        "trunkL": 555,
+        "trunkFoldedL": 1570,
+        "heightMm": 1703,
+        "notes": "ADAC V10 TDI DPF (11/04-11/06): 230 kW/313 PS, 4754 x 1928 x 1703 mm, wheelbase 2855 mm, 555/1570 l."
+       },
+       {
+        "name": "V8 4MOTION Tiptronic (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 555,
+        "trunkFoldedL": 1570,
+        "yearFrom": 2003,
+        "yearTo": 2006,
+        "notes": "ADAC V8 (06/03-11/06): 555/1570 l."
+       },
+       {
+        "name": "V6 FSI 4MOTION Tiptronic (Benziner, Facelift)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 555,
+        "trunkFoldedL": 1570,
+        "yearFrom": 2007,
+        "yearTo": 2008,
+        "notes": "ADAC V6 FSI (11/06-11/08), facelift: 555/1570 l - confirms trunk unchanged by 2006 facelift."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/i/200921/",
+        "what": "ADAC: V6 TDI DPF length 4754, width 1928 (without mirrors), height 1726, trunk 555/1570 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/i/200922/",
+        "what": "ADAC: V10 TDI 313 PS, 4754/1928/1703 mm, wheelbase 2855, trunk 555/1570 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/i/996054/",
+        "what": "ADAC: V8 trunk 555/1570 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/i-facelift/207930/",
+        "what": "ADAC: V6 FSI facelift (11/06-11/08) trunk 555/1570 l"
+       },
+       {
+        "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/suv/touareg-1.html",
+        "what": "VW official predecessor page Touareg 1 (Typ 7L): length 4754, wheelbase 2855, height 1703/1726 mm depending on variant; luggage ranges 500-1525 l and 555-1570 l both listed"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 11/2006 (MY2007) did not change length or trunk per ADAC data. VW's own predecessor page lists two luggage ranges (500-1525 l and 555-1570 l) without (in search snippet) stating which variant has the smaller value; ADAC consistently gives 555/1570 for V6 TDI, V8, V10 TDI and V6 FSI facelift, so 555/1570 used. Height 1703 vs 1726 mm depends on variant (V10 TDI 1703 mm; likely air suspension) - generation height uses 1726 mm (V6 TDI). W12 and R50 variants not researched (search budget). An early ADAC Autotest (2003) measured 510/915 l on its own method - not used."
+     },
+     {
+      "name": "7P (2. Generation)",
+      "yearFrom": 2010,
+      "yearTo": 2014,
+      "bodyType": "suv",
+      "lengthMm": 4795,
+      "widthMm": 1940,
+      "heightMm": 1709,
+      "wheelbaseMm": 2893,
+      "trunkL": 580,
+      "trunkFoldedL": 1642,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "V6 TDI 4MOTION Tiptronic (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 580,
+        "trunkFoldedL": 1642,
+        "notes": "Standard trunk per VW official predecessor page (up to 580/1642 l)."
+       },
+       {
+        "name": "V6 TSI Hybrid 4MOTION Tiptronic (Hybrid)",
+        "powertrain": "hev",
+        "powerPs": 333,
+        "awd": true,
+        "trunkL": 493,
+        "trunkFoldedL": 1555,
+        "notes": "Full hybrid; battery under the load floor reduces trunk to 493/1555 l (ADAC, V6 TSI Hybrid 12/10-08/14; also listed on VW predecessor page). 333 PS system output per data portals (meinestadt), not confirmed by manufacturer source."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/suv/touareg-2.html",
+        "what": "VW official predecessor page Touareg 2 (2010-2018): luggage up to 580/1642 l and 493/1555 l (hybrid)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/ii/226992/",
+        "what": "ADAC: V6 TSI Hybrid (12/10-08/14) trunk 493 l normal, 1555 l folded"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/ii/272909",
+        "what": "ADAC: V6 TSI Hybrid Edition X trunk 493 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/vw/touareg/2010/suv/modell/daten-fakten/",
+        "what": "Length 4795, height 1709, wheelbase 2893 mm for 2010-2014 (data portal, fallback)"
+       },
+       {
+        "url": "https://www.automoli.com/de/vehicles/volkswagen/touareg/touareg-ii-7p-3791/",
+        "what": "Width 1940 mm without mirrors (data portal, cross-check)"
+       },
+       {
+        "url": "https://auto.meinestadt.de/technische-daten/vw/vw-touareg",
+        "what": "Hybrid 333 PS, hybrid trunk 493 l vs. diesel 580 l (cross-check)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Dimensions for the pre-facelift 7P come from data portals (mobile.de, automoli) since no manufacturer/ADAC page with dimensions for 2010-2014 was found within budget; consistent across portals. Trunk values from VW official page and ADAC."
+     },
+     {
+      "name": "7P (2. Generation, Facelift 2014)",
+      "yearFrom": 2014,
+      "yearTo": 2018,
+      "bodyType": "suv",
+      "lengthMm": 4801,
+      "widthMm": 1940,
+      "heightMm": 1709,
+      "wheelbaseMm": 2893,
+      "trunkL": 580,
+      "trunkFoldedL": 1642,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "V6 TDI SCR BMT 4MOTION Tiptronic (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 204,
+        "awd": true,
+        "trunkL": 580,
+        "trunkFoldedL": 1642,
+        "notes": "ADAC 08/14-02/18: 4801 x 1940 x 1709 mm, 580/1642 l."
+       },
+       {
+        "name": "V6 TDI SCR 262 PS 4MOTION Tiptronic (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 262,
+        "awd": true,
+        "trunkL": 580,
+        "trunkFoldedL": 1642,
+        "notes": "Higher-output V6 TDI (auto-data.net); trunk assumed as base diesel per VW page range (up to 580/1642 l)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/ii-facelift/242775/",
+        "what": "ADAC: V6 TDI SCR BMT (08/14-02/18) length 4801, width 1940, height 1709, trunk 580/1642 l (ADAC lists wheelbase 2904 mm)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/ii-facelift/242776/",
+        "what": "ADAC: V6 TDI SCR BMT facelift variant"
+       },
+       {
+        "url": "https://www.auto-data.net/en/volkswagen-touareg-ii-7p-facelift-2014-3.0-v6-tdi-204hp-scr-4motion-automatic-20396",
+        "what": "Facelift 4801/1940/1709 mm, wheelbase 2893 mm (cross-check)"
+       },
+       {
+        "url": "https://www.auto-data.net/en/volkswagen-touareg-ii-7p-facelift-2014-3.0-v6-tdi-262hp-scr-4motion-automatic-20468",
+        "what": "262 PS V6 TDI facelift variant"
+       },
+       {
+        "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/suv/touareg-2.html",
+        "what": "VW official: trunk up to 580/1642 l, facelift 2014 mentioned"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Split from pre-facelift because length grew 4795 -> 4801 mm. ADAC lists wheelbase 2904 mm for the facelift, which conflicts with 2893 mm from mobile.de/auto-data (and 2904 is the Touareg III value); 2893 used, flag for review. Hybrid continued briefly into facelift (2014-2015) but its facelift trunk was not confirmed (likely 493/1555 as before) - not added as variant."
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Touran",
+    "generations": [
+     {
+      "name": "1T (1. Generation)",
+      "yearFrom": 2003,
+      "yearTo": 2006,
+      "bodyType": "van",
+      "lengthMm": 4391,
+      "widthMm": 1794,
+      "heightMm": 1635,
+      "wheelbaseMm": 2677,
+      "trunkL": 695,
+      "trunkFoldedL": 1989,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.9 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 695,
+        "trunkFoldedL": 1989,
+        "notes": "ADAC 1.9 TDI Trendline DSG (10/03-09/06)."
+       },
+       {
+        "name": "2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 695,
+        "trunkFoldedL": 1989,
+        "notes": "ADAC 2.0 TDI Highline (06/04-09/06) listed; trunk assumed identical body."
+       },
+       {
+        "name": "2.0 EcoFuel (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": 109,
+        "awd": false,
+        "trunkL": 695,
+        "trunkFoldedL": 1989,
+        "yearFrom": 2006,
+        "yearTo": 2006,
+        "notes": "ADAC EcoFuel Goal/Trendline/Conceptline/Highline (05/06-09/06): 695/1989 l, gas tanks under floor without interior restriction."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i/997251/",
+        "what": "ADAC: 1.9 TDI (10/03-09/06) length 4391, width 1794, height 1635, wheelbase 2677, trunk 695/1989 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i/999267/",
+        "what": "ADAC: 2.0 TDI Highline (06/04-09/06) entry"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i/206564/",
+        "what": "ADAC: 2.0 EcoFuel Trendline (07/06-09/06) trunk 695/1989 l"
+       },
+       {
+        "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mpv/touran-1.html",
+        "what": "VW official predecessor page Touran Typ 1T (2003-2015): 5-seater luggage up to 1989 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Optional 3rd row (7-seater) existed; 7-seat VDA values not found in manufacturer/ADAC sources (forum cites 600/1913 l from touran.de - not used). Petrol 1.6 FSI / 2.0 FSI variants not separately researched; same body, trunk expected identical."
+     },
+     {
+      "name": "1T (Facelift 2006, Typ GP)",
+      "yearFrom": 2007,
+      "yearTo": 2010,
+      "bodyType": "van",
+      "lengthMm": 4407,
+      "widthMm": 1794,
+      "heightMm": 1635,
+      "wheelbaseMm": 2678,
+      "trunkL": 695,
+      "trunkFoldedL": 1989,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.9 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 695,
+        "trunkFoldedL": 1989,
+        "notes": "ADAC 1.9 TDI DPF Trendline (11/06-04/10)."
+       },
+       {
+        "name": "1.4 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 140,
+        "awd": false,
+        "trunkL": 695,
+        "trunkFoldedL": 1989,
+        "notes": "1.4 TSI 140 PS per auto-data.net; trunk same body."
+       },
+       {
+        "name": "2.0 EcoFuel (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": 109,
+        "awd": false,
+        "trunkL": 695,
+        "trunkFoldedL": 1989,
+        "yearTo": 2009,
+        "notes": "ADAC 2.0 EcoFuel Highline (11/06-05/09): 4407/1794/1635 mm, 695/1989 l."
+       },
+       {
+        "name": "CrossTouran 1.4 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 695,
+        "trunkFoldedL": 1989,
+        "lengthMm": 4407,
+        "widthMm": 1799,
+        "heightMm": 1670,
+        "yearFrom": 2007,
+        "notes": "ADAC CrossTouran 1.4 TSI DSG (05/09-04/10): 4407 x 1799 x 1670 mm, 695/1989 l. Off-road styled trim, not AWD."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift/208175/",
+        "what": "ADAC: 1.9 TDI DPF facelift length 4407, wheelbase 2678, height and trunk unchanged (1635 mm, 695/1989 l)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift/208169/",
+        "what": "ADAC: 2.0 EcoFuel Highline 4407/1794/1635/2678 mm, trunk 695/1989 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift/218883",
+        "what": "ADAC: CrossTouran 1.4 TSI DSG 4407 x 1799 x 1670 mm, 695/1989 l"
+       },
+       {
+        "url": "https://www.auto-data.net/en/volkswagen-touran-i-facelift-2006-1.4-tsi-140hp-8535",
+        "what": "1.4 TSI 140 PS facelift 2006 variant"
+       },
+       {
+        "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mpv/touran-1.html",
+        "what": "VW official: Typ GP length 4407 mm, height 1635 mm (closed tailgate, no antenna), 5-seater luggage up to 1989 l"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Split from 2003 car because length grew 4391 -> 4407 mm. 7-seat VDA values not found."
+     },
+     {
+      "name": "1T (Facelift 2010, Typ GP2)",
+      "yearFrom": 2010,
+      "yearTo": 2015,
+      "bodyType": "van",
+      "lengthMm": 4397,
+      "widthMm": 1794,
+      "heightMm": 1674,
+      "wheelbaseMm": 2678,
+      "trunkL": 695,
+      "trunkFoldedL": 1989,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 TDI BMT (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 695,
+        "trunkFoldedL": 1989,
+        "notes": "ADAC 1.6 TDI BMT Comfortline (08/10-04/15): 4397/1674 mm, 695/1989 l."
+       },
+       {
+        "name": "2.0 TDI BMT (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 695,
+        "trunkFoldedL": 1989,
+        "notes": "ADAC 2.0 TDI BMT Highline (10/10-04/15): 4397/1794 mm, wheelbase 2678."
+       },
+       {
+        "name": "1.4 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 695,
+        "trunkFoldedL": 1989,
+        "notes": "Same body as diesel; trunk value not separately confirmed for TSI."
+       },
+       {
+        "name": "1.4 TGI EcoFuel (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 592,
+        "trunkFoldedL": 1886,
+        "notes": "ADAC 1.4 TGI BlueMotion DSG (08/10-04/15): trunk reduced to 592/1886 l (CNG tanks)."
+       },
+       {
+        "name": "CrossTouran 1.4 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 695,
+        "trunkFoldedL": 1989,
+        "lengthMm": 4406,
+        "widthMm": 1799,
+        "heightMm": 1685,
+        "notes": "ADAC CrossTouran 1.4 TSI (08/10-04/15): 4406 x 1799 x 1685 mm, 695/1989 l."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mpv/touran-1.html",
+        "what": "VW official: Typ GP2 length 4397 mm, height 1674 mm (closed tailgate, no antenna), luggage up to 1989 l (5-seater), minimum 695 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift-2/225762/",
+        "what": "ADAC: 2.0 TDI BMT Highline length 4397, width 1794 (without mirrors), wheelbase 2678"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift-2/223120/",
+        "what": "ADAC: 1.6 TDI BMT 4397/1674 mm, trunk 695/1989 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift-2/223977/",
+        "what": "ADAC: 1.4 TGI (CNG) trunk 592/1886 l, 4397/1674 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift-2/224590",
+        "what": "ADAC: CrossTouran 1.4 TSI 4406 x 1799 x 1685 mm, 695/1989 l"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Split because length (4397) and height (1674, roof rails standard from Comfortline) changed. 7-seat VDA values not found."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Touran 1T (all generations) 7-seater VDA trunk values (3rd row folded / in use)",
+   "Touareg 7L W12 and R50 variants trunk/dimensions (not researched, search budget)",
+   "Touareg 7P Facelift Hybrid (2014-2015) trunk",
+   "Touareg 7P pre-facelift dimensions from manufacturer/ADAC source (data portals used)",
+   "loadSpace measurements for all generations",
+   "powerPs for most Touran and Touareg diesel/petrol variants (not confirmed in sources)"
+  ],
+  "notes": "17 of 20 WebSearch calls used. Predecessors: Touareg 7L (2002-2010) and 7P (2010-2018, split at 2014 facelift for +6 mm length); Touran 1T (2003-2015) split into three entries (original, 2006 facelift GP, 2010 facelift GP2) because length/height changed. Touareg 7P facelift wheelbase conflict: ADAC 2904 vs. 2893 mm elsewhere."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "Touareg",
+    "generation": "7P (2. Generation)",
+    "variant": "V6 TSI Hybrid 4MOTION Tiptronic (Hybrid)",
+    "field": "powerPs",
+    "oldValue": 333,
+    "newValue": 380,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/ii/222433",
+    "evidence": "ADAC (V6 TSI Hybrid 04/10-08/14): Systemleistung 279 kW (380 PS); the 3.0 V6 TSI combustion engine alone is 245 kW (333 PS) plus 34 kW (47 PS) e-motor. Autozeitung headline 'VW Touareg Hybrid: V6-Stromer mit 380 PS'. 333 PS is the petrol engine only, not system output."
+   }
+  ],
+  "missing": [
+   {
+    "model": "Touareg",
+    "detail": "7P Facelift 2014: V6 TSI Hybrid 4MOTION Tiptronic (08/14-06/15) exists in ADAC catalogue (https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/ii-facelift/242774/): length 4801 mm, wheelbase 2893 mm, trunk 493/1555 l, 380 PS system output, powertrain hev, awd true."
+   },
+   {
+    "model": "Touareg",
+    "detail": "7P (2010-2014): V6 FSI / V6 FSI BMT 4MOTION petrol (ADAC 05/10-06/13, https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/ii/223788) and V8 TDI not listed as variants (trunk expected 580/1642 l, not separately verified)."
+   },
+   {
+    "model": "Touareg",
+    "detail": "7L: R5 TDI (2.5 l, 174 PS), V6 3.2/3.6 FSI petrol (ADAC V6 FSI 11/08-02/10, https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/i-facelift/216779), W12 and R50 variants not listed. Trunk values not separately verified."
+   },
+   {
+    "model": "Touran",
+    "detail": "1T Facelift 2006 (GP): 1.4 TSI EcoFuel (CNG, 150 PS, 05/09-04/10) missing; ADAC lists 695/1989 l (https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift/218865). It replaced the 2.0 EcoFuel (yearTo 2009)."
+   }
+  ],
+  "checkedValues": 70,
+  "confirmedValues": 68,
+  "notes": "11 WebSearch calls used. Confirmed: Touareg 7L 4754/1928/1726(1703 V10)/2855, 555/1570 (VW Ireland/VW.de also list a 500-1525 l range without variant attribution - not enough to correct). Touareg 7P 4795/1940/1709/2893, 580/1642, hybrid 493/1555 (ADAC). 7P facelift 4801/1940/1709, 580/1642; ADAC V6 TDI SCR BMT page indeed shows wheelbase 2904 mm, but ADAC facelift Hybrid (242774) and Executive Edition (258516) list 2893 mm, so 2893 retained (unresolved, counted as not confirmed). Touran 1T 4391/1794/1635/2677, 695/1989 (ADAC 1.9 TDI and 1.6); GP 4407/1635/2678 and GP2 4397/1674 confirmed by VW official touran-1 page; GP2 CNG 592/1886 confirmed (ADAC 223974; ADAC names it '1.4 TSI EcoFuel' in some entries and '1.4 TGI BlueMotion' in others, 150 PS) - could set powerPs 150 for that variant. 2.0 EcoFuel 109 PS confirmed. Note: the 2006-facelift (GP) 1.4 TSI EcoFuel 05/09-04/10 had 695/1989 l, whereas the GP2 version has 592/1886 l."
+ }
+}

@@ -153,6 +153,237 @@
       "corrected": 0
      },
      "notes": "Passenger version (Pkw), short wheelbase. Trunk 1,213 l behind the 2nd row and 2,556 l maximum (autohaus, carwow), measured up to the roof, not up to a parcel shelf. 7-seater: 191 l behind the 3rd row (autohaus). Length 4,500 mm (vehiclesizes). Width 1,855 mm per vehiclesizes, which only listed it for the Maxi; same body width assumed. Wheelbase 2,755 mm is manufacturer data I know but could not check against a source in this session. Height not found. Market launch late 2020, not verified. The Caddy 4 (MY2020) is not covered."
+    },
+    {
+     "id": "2015-caddy-4-sa",
+     "name": "Caddy 4 (SA)",
+     "yearFrom": 2015,
+     "yearTo": 2020,
+     "bodyType": "van",
+     "lengthMm": 4408,
+     "widthMm": 1793,
+     "heightMm": 1792,
+     "wheelbaseMm": 2682,
+     "trunkL": 750,
+     "trunkFoldedL": 3030,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-tsi-benziner",
+       "name": "1.4 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC pages 246693 / 295089 exist, values not captured"
+      },
+      {
+       "id": "2-0-tdi-bluemotion-diesel",
+       "name": "2.0 TDI BlueMotion (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 102,
+       "awd": false,
+       "trunkL": 750,
+       "trunkFoldedL": 3030,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 11/15-08/18"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iv/251319/",
+       "what": "ADAC: Caddy 2.0 TDI BlueMotion Trendline length 4408, width 1793 (2065 with mirrors), height 1792, wheelbase 2682, trunk 750 l normal / 3030 l dachhoch"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 46,
+      "confirmed": 22,
+      "corrected": 0
+     },
+     "notes": "No manufacturer press kit found within search budget; ADAC fallback. Height 1792 is from the BlueMotion version page and may be lower than other trims. ADAC '750 l normal' likely measured to roof (not strict VDA to parcel shelf). TGI (CNG) and 4MOTION variants existed but no trunk data found."
+    },
+    {
+     "id": "2010-caddy-3-facelift-2k",
+     "name": "Caddy 3 Facelift (2K)",
+     "yearFrom": 2010,
+     "yearTo": 2015,
+     "bodyType": "van",
+     "lengthMm": 4406,
+     "widthMm": 1794,
+     "heightMm": 1853,
+     "wheelbaseMm": 2681,
+     "trunkL": 750,
+     "trunkFoldedL": 2850,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-tsi-benziner",
+       "name": "1.2 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC page 224643 exists (Startline 09/10-04/15), values not captured"
+      },
+      {
+       "id": "1-6-tdi-diesel",
+       "name": "1.6 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 750,
+       "trunkFoldedL": 2850,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Edition 30 (06/12-04/15) and Roncalli Edition"
+      },
+      {
+       "id": "2-0-ecofuel-erdgas",
+       "name": "2.0 EcoFuel (Erdgas)",
+       "powertrain": "cng",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 750,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 09/10-04/15 gives 750 l normal; folded value not captured"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/308531/",
+       "what": "ADAC: Caddy 1.6 TDI Edition 30 length 4406, wheelbase 2681, trunk 750/2850 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/308484/",
+       "what": "ADAC: Caddy 1.6 TDI Roncalli Edition, identical dimensions/trunk"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/224704/",
+       "what": "ADAC: Caddy 2.0 EcoFuel Trendline length 4406, width 1794, height 1853, wheelbase 2681, trunk 750 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 46,
+      "confirmed": 22,
+      "corrected": 0
+     },
+     "notes": "From the 2010 facelift the passenger version was sold as 'Caddy' (Startline/Trendline/Comfortline) instead of 'Caddy Life'. Split from pre-facelift because ADAC lists slightly different length/wheelbase (4406/2681). ADAC fallback only; height 1853 taken from the EcoFuel page."
+    },
+    {
+     "id": "2004-caddy-3-2k-caddy-life",
+     "name": "Caddy 3 (2K) – Caddy Life",
+     "yearFrom": 2004,
+     "yearTo": 2010,
+     "bodyType": "van",
+     "lengthMm": 4405,
+     "widthMm": 1794,
+     "heightMm": 1833,
+     "wheelbaseMm": 2682,
+     "trunkL": 750,
+     "trunkFoldedL": 2850,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "caddy-life-1-6-benziner",
+       "name": "Caddy Life 1.6 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 750,
+       "trunkFoldedL": 2850,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 07/04-08/10"
+      },
+      {
+       "id": "caddy-life-1-9-tdi-diesel",
+       "name": "Caddy Life 1.9 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 750,
+       "trunkFoldedL": 2850,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 12/05-08/10"
+      },
+      {
+       "id": "caddy-life-ecofuel-erdgas",
+       "name": "Caddy Life EcoFuel (Erdgas)",
+       "powertrain": "cng",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Offered (AUTO BILD Fahrbericht Caddy Life EcoFuel), trunk values not found; CNG tanks are underfloor."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii/998905/",
+       "what": "ADAC: Caddy Life 1.6 length 4405, wheelbase 2682, trunk 750 l normal / 2850 l dachhoch"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii/205167/",
+       "what": "ADAC: Caddy Life 1.9 TDI length 4405, wheelbase 2682, trunk 750/2850 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii/211700/",
+       "what": "ADAC: width 1794 mm (Caddy III body, Maxi Life page; same body width)"
+      },
+      {
+       "url": "https://www.autobild.de/artikel/fahrbericht-caddy-life-eco-fuel-53792.html",
+       "what": "AUTO BILD: existence of Caddy Life EcoFuel"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii/998904/",
+       "what": "Korrektur heightMm: ADAC Caddy Life 1.4 (07/04-06/06): Länge 4405 mm, Höhe 1833 mm (that page lists Breite 1802 mm; other ADAC Caddy III pages 1794 mm). Matches the autokosten.net 1833 already noted."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 46,
+      "confirmed": 22,
+      "corrected": 1
+     },
+     "notes": "Passenger version was sold as 'Caddy Life' until 2010. No manufacturer press data found within budget; ADAC fallback. ADAC '750 l normal' is probably measured to the roof/window line rather than strict VDA to the parcel shelf - a motor-talk thread quotes a 2004 VW brochure with 560 l (unverified). Height: autokosten.net lists 1833 mm, not used (not a permitted source tier)."
     }
    ]
   },
@@ -311,6 +542,188 @@
       "corrected": 0
      },
      "notes": "Passenger version (Pkw), long wheelbase. Per autohaus: 1,720 l behind the 2nd row, 3,105 l maximum with the 2nd row folded, measured up to the roof; 446 l behind the 3rd row as a 7-seater; up to 3,700 l with seats removed (headline figure). Dimensions from vehiclesizes (4,853 x 1,855 x 1,836 mm) and carexpert (wheelbase 2,970 mm). kofferraum.org gives an outlier of 600 l, not used. Start year 2021 not verified."
+    },
+    {
+     "id": "2015-caddy-4-maxi-sa",
+     "name": "Caddy 4 Maxi (SA)",
+     "yearFrom": 2015,
+     "yearTo": 2020,
+     "bodyType": "van",
+     "lengthMm": 4878,
+     "widthMm": 1793,
+     "heightMm": 1868,
+     "wheelbaseMm": 3006,
+     "trunkL": null,
+     "trunkFoldedL": 3880,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-tsi-dsg-benziner",
+       "name": "1.4 TSI DSG (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC page 246751 exists, values not captured"
+      },
+      {
+       "id": "2-0-tdi-150-ps-diesel",
+       "name": "2.0 TDI 150 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": 3880,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Trendline 06/15-08/18: 530 l normal (7-seat value), 3880 l dachhoch"
+      },
+      {
+       "id": "2-0-tdi-150-ps-4motion-dsg-diesel",
+       "name": "2.0 TDI 150 PS 4MOTION DSG (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 150,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": 3880,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1863,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Comfortline 11/15-08/18: same trunk values as FWD, height 1863"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iv/246747/",
+       "what": "ADAC: Caddy Maxi 2.0 TDI BMT Trendline length 4878, width 1793, height 1868, wheelbase 3006, trunk 530 l normal / 3880 l dachhoch"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iv/251331/",
+       "what": "ADAC: Caddy Maxi 2.0 TDI 4MOTION DSG height 1863, same trunk values"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 46,
+      "confirmed": 22,
+      "corrected": 0
+     },
+     "notes": "ADAC fallback only. ADAC 'normal' 530 l is the 7-seat value (3rd row in place); 5-seat VDA value not found. 3880 l is roof-high with seats folded/removed."
+    },
+    {
+     "id": "2010-caddy-3-maxi-facelift-2k",
+     "name": "Caddy 3 Maxi Facelift (2K)",
+     "yearFrom": 2010,
+     "yearTo": 2015,
+     "bodyType": "van",
+     "lengthMm": 4876,
+     "widthMm": 1794,
+     "heightMm": 1861,
+     "wheelbaseMm": 3006,
+     "trunkL": null,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "alle-motorisierungen",
+       "name": "Alle Motorisierungen",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/224704/",
+       "what": "ADAC: Caddy III facelift generation period 09/10-04/15 (short version page; Maxi facelift data not found)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/224792",
+       "what": "Korrektur lengthMm: ADAC Caddy Kombi Maxi 2.0 TDI (09/10-04/15): Länge 4876 mm, Breite 1794 mm (2065 mit Spiegeln), Höhe 1861 mm, Radstand 3006 mm, 5 (max. 7) Sitze, Kofferraum normal 530 l."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/224792",
+       "what": "Korrektur widthMm: ADAC Caddy Kombi Maxi 2.0 TDI (09/10-04/15): Breite 1794 mm."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/224792",
+       "what": "Korrektur heightMm: ADAC: Höhe 1861 mm (auto-data.net gives 1836 mm for the 140 PS facelift; ADAC preferred)."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii-facelift/224792",
+       "what": "Korrektur wheelbaseMm: ADAC: Radstand 3006 mm."
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 46,
+      "confirmed": 22,
+      "corrected": 4
+     },
+     "notes": "Generation existed (Caddy Maxi after 2010 facelift) but no data found within search budget. Likely very close to the pre-facelift Maxi Life, but not verified - all values null."
+    },
+    {
+     "id": "2007-caddy-3-maxi-life-2k",
+     "name": "Caddy 3 Maxi Life (2K)",
+     "yearFrom": 2007,
+     "yearTo": 2010,
+     "bodyType": "van",
+     "lengthMm": 4875,
+     "widthMm": 1794,
+     "heightMm": 1834,
+     "wheelbaseMm": 3002,
+     "trunkL": null,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "caddy-maxi-life-1-9-tdi-dsg-diesel",
+       "name": "Caddy Maxi Life 1.9 TDI DSG (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 12/07-08/10 lists 530 l 'normal', which is almost certainly the 7-seat value (3rd row in place)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/caddy/iii/211700/",
+       "what": "ADAC: Caddy Maxi Life 1.9 TDI DSG length 4875, width 1794, height 1834, wheelbase 3002, trunk 530 l normal"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 46,
+      "confirmed": 22,
+      "corrected": 0
+     },
+     "notes": "Sold as 'Caddy Maxi Life'. 7-seat trunk value per ADAC: 530 l. 5-seat value and folded value not found."
     }
    ]
   },
@@ -616,6 +1029,496 @@
       "corrected": 0
      },
      "notes": "Length, height and wheelbase come from the ADAC page for the pre-facelift 1.4 eHybrid (08/20-06/22). The VW 2020 hybrid spec PDF confirms the 2619 mm wheelbase. On the facelift, ADAC gives identical body dimensions for eTSI and eHybrid, so these values are used for the whole pre-facelift generation. Other sources quote 1456 mm height, probably without the antenna. Width without mirrors is 1789 mm. The 381/1237 l trunk for petrol, diesel and mild-hybrid comes from the VW technische Daten page and ADAC."
+    },
+    {
+     "id": "2017-golf-vii-facelift-7-5",
+     "name": "Golf VII Facelift (7.5)",
+     "yearFrom": 2017,
+     "yearTo": 2020,
+     "bodyType": "hatchback",
+     "lengthMm": 4258,
+     "widthMm": 1799,
+     "heightMm": 1452,
+     "wheelbaseMm": 2637,
+     "trunkL": 380,
+     "trunkFoldedL": 1270,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-tsi-1-4-tsi-benziner",
+       "name": "1.5 TSI / 1.4 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1270,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.5 TSI ACT Highline 5-Türer and 1.4 TSI Comfortline (03/17-...)"
+      },
+      {
+       "id": "r-4motion",
+       "name": "R 4MOTION",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": 4268,
+       "widthMm": null,
+       "heightMm": 1435,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "VW newsroom profile: 4268 long, 1435 high; trunk not found"
+      },
+      {
+       "id": "gte-plug-in-hybrid",
+       "name": "GTE (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 272,
+       "trunkFoldedL": null,
+       "lengthMm": 4276,
+       "widthMm": null,
+       "heightMm": 1453,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "VW newsroom profile: 4276 long, 1453 high; trunk not found"
+      },
+      {
+       "id": "e-golf-elektro",
+       "name": "e-Golf (Elektro)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 341,
+       "trunkFoldedL": 1231,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC e-Golf (04/17-05/20); no frunk"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-golf-7-profile-20039",
+       "what": "VW newsroom: standard Golf from 2017 4258/1799/1452, wheelbase 2637; Golf R 4268/1435; Golf GTE 4276/1453"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii-facelift/272949/",
+       "what": "ADAC: 1.5 TSI 5-Türer (03/17-08/18) trunk 380/1270 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii-facelift/266223/",
+       "what": "ADAC: 1.4 TSI 5-Türer (03/17-05/18) trunk 380/1270 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii-facelift/266575/",
+       "what": "ADAC: e-Golf trunk 341 l / 1231 l"
+      },
+      {
+       "url": "https://www.autobild.de/artikel/vw-golf-gte-facelift-im-test-28236937.html",
+       "what": "Korrektur trunkL: AUTO BILD GTE facelift test: hybrid battery costs 108 l of trunk vs. 380 l Golf -> 272 l; same 272 l as pre-facelift GTE (ams). Folded value presumably 1162 l as pre-facelift but not directly confirmed for facelift. Medium confidence."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 46,
+      "confirmed": 22,
+      "corrected": 1
+     },
+     "notes": "Split from pre-facelift because length changed (4255 -> 4258). Diesel (TDI) hatch facelift trunk not separately verified (Variant TDI pages exist)."
+    },
+    {
+     "id": "2012-golf-vii-5g",
+     "name": "Golf VII (5G)",
+     "yearFrom": 2012,
+     "yearTo": 2017,
+     "bodyType": "hatchback",
+     "lengthMm": 4255,
+     "widthMm": 1799,
+     "heightMm": 1452,
+     "wheelbaseMm": 2637,
+     "trunkL": 380,
+     "trunkFoldedL": 1270,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-tsi-benziner",
+       "name": "1.4 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1270,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.4 TSI BMT Highline 5-Türer (11/12-05/14)"
+      },
+      {
+       "id": "r-4motion",
+       "name": "R 4MOTION",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 343,
+       "trunkFoldedL": 1233,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "4MOTION trunk smaller than FWD; value not found"
+      },
+      {
+       "id": "1-6-tdi-2-0-tdi-diesel",
+       "name": "1.6 TDI / 2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1270,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.6 TDI Comfortline and 2.0 TDI Highline 5-Türer (11/12-05/14)"
+      },
+      {
+       "id": "gtd",
+       "name": "GTD",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1270,
+       "lengthMm": 4268,
+       "widthMm": null,
+       "heightMm": 1442,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "VW newsroom GTD release: length 4268, height 1442, wheelbase 2631; trunk not verified"
+      },
+      {
+       "id": "gte-plug-in-hybrid",
+       "name": "GTE (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 272,
+       "trunkFoldedL": 1162,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "PHEV trunk smaller than ICE; value not found"
+      },
+      {
+       "id": "e-golf-elektro",
+       "name": "e-Golf (Elektro)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 341,
+       "trunkFoldedL": 1231,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Pre-facelift e-Golf (2014-2017) trunk not found; facelift e-Golf 341/1231 l"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/the-new-golf-das-auto-international-driving-presentation-2797/the-new-golf-overview-quick-facts-2854",
+       "what": "VW press kit 2012: length 4255, width 1799 (2027 with mirrors), wheelbase 2637, trunk 380-1270 l"
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-golf-7-profile-20039",
+       "what": "VW newsroom Golf VII profile: height 1452 (standard Golf, stated for MY2017)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii/233874/",
+       "what": "ADAC: 1.4 TSI 5-Türer trunk 380/1270 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii/233589/",
+       "what": "ADAC: 2.0 TDI 5-Türer trunk 380/1270 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii/233573/",
+       "what": "ADAC: 1.6 TDI 5-Türer trunk 380/1270 l"
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/the-new-golf-gtd-international-press-presentation-2807/golf-gtd-exterior-dimensions-and-design-2819",
+       "what": "VW newsroom: Golf GTD length 4268, height 1442, wheelbase 2631"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/vw-golf-gte/technische-daten/",
+       "what": "Korrektur trunkL: auto motor und sport Golf GTE test data: Kofferraumvolumen 272 bis 1162 l."
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/vw-golf-gte/technische-daten/",
+       "what": "Korrektur trunkFoldedL: auto motor und sport Golf GTE test data: 272-1162 l (carwow quotes 1126 l folded; ams value preferred)."
+      },
+      {
+       "url": "https://www.carsales.com.au/research/volkswagen/golf/2014/r",
+       "what": "Korrektur trunkL: 2014 Golf R 4MOTION: Boot/Load Space Min 343 L, Max 1233 L; same 343/1233 on auto.ru (2013-2017 Golf R VII) and caroom.fr (300 PS)."
+      },
+      {
+       "url": "https://www.carsales.com.au/research/volkswagen/golf/2014/r",
+       "what": "Korrektur trunkFoldedL: 2014 Golf R 4MOTION: Boot/Load Space Max 1233 L."
+      },
+      {
+       "url": "https://drivingelectric.com/volkswagen/golf/e-golf/245/volkswagen-e-golf-practicality-boot-space",
+       "what": "Korrektur trunkL: e-Golf (2014-2019): 341 l seats up, 1231 l folded; carbuyer: battery under raised floor reduces 380 -> 341 l. Same as facelift values."
+      },
+      {
+       "url": "https://drivingelectric.com/volkswagen/golf/e-golf/245/volkswagen-e-golf-practicality-boot-space",
+       "what": "Korrektur trunkFoldedL: e-Golf 2014-2019: 1231 l with rear seats folded."
+      },
+      {
+       "url": "https://www.autobild.de/artikel/vw-golf-vii-gtd-fahrbericht-4234915.html",
+       "what": "Korrektur trunkL: AUTO BILD Golf VII GTD Fahrbericht: 380 Liter Kofferraum; autoplenum (schraegheck-2012 GTD 184 PS) also 380 l; ams GTD facelift test 380-1270 l."
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/vw-golf-7-gtd-facelift/technische-daten/",
+       "what": "Korrektur trunkFoldedL: ams GTD (Facelift) test: Kofferraumvolumen 380 bis 1270 l; autozine.nl golf-vii 2.0 GTD also 380/1270. Body unchanged vs. pre-facelift hatch."
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 46,
+      "confirmed": 22,
+      "corrected": 8
+     },
+     "notes": "Height 1452 from the newsroom profile (quoted for the 2017 standard model) is also given by angurten.de for the pre-facelift; assumed unchanged."
+    },
+    {
+     "id": "2008-golf-vi-5k",
+     "name": "Golf VI (5K)",
+     "yearFrom": 2008,
+     "yearTo": 2012,
+     "bodyType": "hatchback",
+     "lengthMm": 4199,
+     "widthMm": 1779,
+     "heightMm": 1480,
+     "wheelbaseMm": 2578,
+     "trunkL": 350,
+     "trunkFoldedL": 1305,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "gti",
+       "name": "GTI",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 350,
+       "trunkFoldedL": 1305,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "VW newsroom has a 'Vehicle data Golf VI GTI profile' page; values not captured"
+      },
+      {
+       "id": "r-4motion",
+       "name": "R 4MOTION",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "4MOTION trunk smaller than FWD; value not found"
+      },
+      {
+       "id": "1-4-tsi-benziner",
+       "name": "1.4 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 160,
+       "awd": false,
+       "trunkL": 350,
+       "trunkFoldedL": 1305,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.4 TSI Comfortline 5-Türer (10/08-09/12)"
+      },
+      {
+       "id": "tdi-diesel",
+       "name": "TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Not separately verified"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-golf-6-profile-19485",
+       "what": "VW newsroom: length 4199, width 1779, height 1461-1480, wheelbase 2578"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vi/215447/",
+       "what": "ADAC: Golf VI 1.4 TSI 5-Türer trunk 350 l normal / 1305 l dachhoch"
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-golf-6-gti-profile-19515",
+       "what": "VW newsroom Golf VI GTI profile (not evaluated)"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/vw-golf-6-gti-test/technische-daten/",
+       "what": "Korrektur trunkL: ams Golf 6 GTI test data: 4213 x 1786 x 1469 mm, Kofferraumvolumen 350 bis 1305 l."
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/vw-golf-6-gti-test/technische-daten/",
+       "what": "Korrektur trunkFoldedL: ams Golf 6 GTI: 350 bis 1305 l."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 46,
+      "confirmed": 22,
+      "corrected": 2
+     },
+     "notes": "Height: newsroom gives a range 1461-1480 mm; upper value used as generation height (conservative for packing)."
+    },
+    {
+     "id": "2003-golf-v-1k",
+     "name": "Golf V (1K)",
+     "yearFrom": 2003,
+     "yearTo": 2008,
+     "bodyType": "hatchback",
+     "lengthMm": 4204,
+     "widthMm": 1759,
+     "heightMm": 1485,
+     "wheelbaseMm": 2578,
+     "trunkL": 350,
+     "trunkFoldedL": 1305,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-tsi-benziner",
+       "name": "1.4 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 350,
+       "trunkFoldedL": 1305,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.4 TSI Comfortline DSG 5-Türer (01/08-08/08)"
+      },
+      {
+       "id": "gti",
+       "name": "GTI",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 350,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Trunk not verified"
+      },
+      {
+       "id": "r32-4motion",
+       "name": "R32 4MOTION",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 275,
+       "trunkFoldedL": 1230,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "4MOTION has a smaller trunk than FWD, value not found"
+      },
+      {
+       "id": "1-9-tdi-diesel",
+       "name": "1.9 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 105,
+       "awd": false,
+       "trunkL": 350,
+       "trunkFoldedL": 1305,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "auto motor und sport test 21/2003"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-golf-5-profile-19481",
+       "what": "VW newsroom: length 4204-4246, width 1759, height 1465-1651 (range over variants), wheelbase 2578"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/vw-golf-5-tdi-2003/technische-daten/",
+       "what": "auto motor und sport: 1.9 TDI 4204 x 1759 x 1485 mm, trunk 350-1305 l VDA"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/v/212705/",
+       "what": "ADAC: Golf V 1.4 TSI 5-Türer trunk 350 l normal / 1305 l dachhoch"
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/vw/golf-r/golf-r32-5/",
+       "what": "Korrektur trunkL: AUTO BILD Golf R32 (Golf V, 250 PS): Kofferraum 275-1230 l; autoscout24.at R32 4MOTION and autoplenum (schraegheck-2003 R32 250 PS) also 275 l."
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/vw/golf-r/golf-r32-5/",
+       "what": "Korrektur trunkFoldedL: AUTO BILD / autoplenum: 275-1230 l."
+      },
+      {
+       "url": "https://www.autoscout24.at/auto/technische-daten/volkswagen/golf/golf-2-0-gti-limousine-benzin-bleifrei-14480/",
+       "what": "Korrektur trunkL: autoscout24.at Golf 2.0 GTI 147 kW (200 PS), 4204 mm long, 2578 mm wheelbase (Golf V GTI): Kofferraum 350 l. Folded value not confirmed (low-tier source)."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 46,
+      "confirmed": 22,
+      "corrected": 3
+     },
+     "notes": "Height 1485 is the standard hatchback per auto motor und sport; newsroom only gives a range. Generation-level dimensions refer to the 5-door hatch."
     }
    ]
   },
@@ -727,6 +1630,123 @@
       "corrected": 0
      },
      "notes": "Compact MPV, front-wheel drive. The rear bench slides: 590 l with it all the way forward (ADAC 'Serienstellung', carwow) and 500 l with it all the way back (AutoScout24 data sheet). 1520 l with the seats folded. ADAC lists most Sportsvan versions at 4338 mm long; one facelift entry lists 4351 mm, used here for the facelift. Width 1807 mm (2050 mm with mirrors), height 1578 mm and wheelbase 2670 mm are as ADAC lists them; they were not cross-checked against VW press data. ADAC series change around 10-11/2017. Production ended in 2020 with no direct successor."
+    },
+    {
+     "id": "2014-golf-vii-sportsvan-2014-2017",
+     "name": "Golf VII Sportsvan (2014-2017)",
+     "yearFrom": 2014,
+     "yearTo": 2017,
+     "bodyType": "van",
+     "lengthMm": 4338,
+     "widthMm": 1807,
+     "heightMm": 1578,
+     "wheelbaseMm": 2670,
+     "trunkL": 590,
+     "trunkFoldedL": 1520,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-tsi-benziner",
+       "name": "1.2 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 590,
+       "trunkFoldedL": 1520,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2016,
+       "yearTo": 2017,
+       "notes": "ADAC lists a 1.2 TSI BMT SOUND series 12/16-10/17. Power not verified in this session."
+      },
+      {
+       "id": "1-4-tsi-125-ps-benziner",
+       "name": "1.4 TSI 125 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 125,
+       "awd": false,
+       "trunkL": 590,
+       "trunkFoldedL": 1520,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2014,
+       "yearTo": 2017,
+       "notes": "Power from auto-data.net; trunk from ADAC 1.4 TSI BMT Comfortline (03/14-10/17)."
+      },
+      {
+       "id": "1-4-tsi-150-ps-benziner",
+       "name": "1.4 TSI 150 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 590,
+       "trunkFoldedL": 1520,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2014,
+       "yearTo": 2017,
+       "notes": "Power from auto-data.net; ADAC 1.4 TSI BMT Highline (03/14-10/17)."
+      },
+      {
+       "id": "1-6-tdi-diesel",
+       "name": "1.6 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 590,
+       "trunkFoldedL": 1520,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2014,
+       "yearTo": 2017,
+       "notes": "ADAC 1.6 TDI BMT Comfortline (03/14-10/16). Autoplenum lists a 1.6 TDI BMT 115 PS (2014-2017); 110 PS version not verified, so power left null."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii/239717/",
+       "what": "ADAC Golf Sportsvan 1.4 TSI BMT Comfortline (03/14-10/17): 4338 x 1807 x 1578 mm, wheelbase 2670 mm, trunk 590 l normal / 1520 l folded"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii/240404/",
+       "what": "ADAC Golf Sportsvan 1.4 TSI BMT Highline (03/14-10/17): same dimensions and trunk"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii/239719/",
+       "what": "ADAC Golf Sportsvan 1.6 TDI BMT Comfortline (03/14-10/16): diesel variant"
+      },
+      {
+       "url": "https://www.volkswagen.de/idhub/content/dam/onehub_pkw/importers/de/besitzer-und-nutzer/hilfe-und-dialogcenter/downloads/produktbroschueren/golf-sportsvan-(am)/golf-sportsvan_preisliste.pdf",
+       "what": "VW price list Golf Sportsvan (MY2020): trunk 590 / 1520 l (same body, confirms values)"
+      },
+      {
+       "url": "https://www.oneshift.com/articles/news/the-versatile-volkswagen-sportsvan-makes-its-debut",
+       "what": "Launch report: 498 l bench rearmost, 585 l bench forward, up to 1512 l (concept/launch figures)"
+      },
+      {
+       "url": "https://www.auto-data.net/en/volkswagen-golf-vii-sportsvan-1.4-tsi-150hp-dsg-19740",
+       "what": "1.4 TSI 150 PS variant"
+      },
+      {
+       "url": "https://www.auto-data.net/en/volkswagen-golf-vii-sportsvan-1.4-tsi-125hp-dsg-19739",
+       "what": "1.4 TSI 125 PS variant"
+      },
+      {
+       "url": "https://www.autoplenum.de/auto/vw/golf/van-2014/1-6-tdi-bmt-115-ps",
+       "what": "1.6 TDI BMT 115 PS, trunk range 500-1520 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 53,
+      "confirmed": 44,
+      "corrected": 0
+     },
+     "notes": "Pre-facelift Golf Sportsvan (Typ AM), German market launch spring 2014, ADAC series end 10/2017. Sliding rear bench: 590 l with the bench fully forward (ADAC 'normal', VW price list), about 500 l with it fully back (Autoplenum/AutoScout24). 1520 l folded. Values kept consistent with the existing facelift entry. Wheelbase: ADAC 2670 mm, English Wikipedia 2685 mm; ADAC used. Successor of the Golf Plus, which is a different nameplate and was not included. No VW press kit was found in the search results."
     }
    ]
   },
@@ -847,6 +1867,436 @@
       "corrected": 0
      },
      "notes": "ADAC says dimensions and space are unchanged by the 2024 facelift, so the facelift is not split out. VW Austria gives 4635 mm length without a tow bar, and VW Germany gives 4631/4638 mm. There is no eHybrid for the Golf Variant. The Alltrack (Mk8, 4MOTION) was not researched."
+    },
+    {
+     "id": "2017-golf-vii-variant-facelift-2017-2020",
+     "name": "Golf VII Variant Facelift (2017-2020)",
+     "yearFrom": 2017,
+     "yearTo": 2020,
+     "bodyType": "wagon",
+     "lengthMm": 4567,
+     "widthMm": 1799,
+     "heightMm": 1481,
+     "wheelbaseMm": 2620,
+     "trunkL": 605,
+     "trunkFoldedL": 1620,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-tsi-110-ps-benziner",
+       "name": "1.0 TSI 110 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 110,
+       "awd": false,
+       "trunkL": 605,
+       "trunkFoldedL": 1620,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2017,
+       "yearTo": 2020,
+       "notes": "auto-data.net."
+      },
+      {
+       "id": "1-5-tsi-act-150-ps-dsg-benziner",
+       "name": "1.5 TSI ACT 150 PS DSG (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 605,
+       "trunkFoldedL": 1620,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2017,
+       "yearTo": 2020,
+       "notes": "ADAC 1.5 TSI ACT BMT Highline DSG (03/17-08/18)."
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 605,
+       "trunkFoldedL": 1620,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2017,
+       "yearTo": 2020,
+       "notes": "ADAC 2.0 TDI BMT Highline (03/17-08/18)."
+      },
+      {
+       "id": "alltrack-2-0-tdi-4motion-dsg",
+       "name": "Alltrack 2.0 TDI 4MOTION DSG",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 605,
+       "trunkFoldedL": 1620,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2017,
+       "yearTo": 2020,
+       "notes": "ADAC Golf Alltrack 2.0 TDI BMT 4MOTION DSG (03/17-08/18); facelift Alltrack dimensions not read (pre-facelift 4578 x 1799 x 1515 mm)."
+      },
+      {
+       "id": "1-6-tdi-115-ps-diesel",
+       "name": "1.6 TDI 115 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 115,
+       "awd": false,
+       "trunkL": 605,
+       "trunkFoldedL": 1620,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2017,
+       "yearTo": 2020,
+       "notes": "ADAC 1.6 TDI BMT Comfortline DSG (03/17-08/18); power from auto-data.net."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii-facelift/272952/",
+       "what": "ADAC Golf Variant 1.5 TSI ACT BMT Highline DSG (03/17-08/18): 4567 x 1799 (2027 with mirrors) x 1481 mm, trunk 605/1620 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii-facelift/266272/",
+       "what": "ADAC Golf Variant 1.6 TDI BMT Comfortline DSG (03/17-08/18): height 1481 mm, trunk 605 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii-facelift/266280/",
+       "what": "ADAC Golf Variant 2.0 TDI BMT Highline (03/17-08/18)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii-facelift/266294/",
+       "what": "ADAC Golf Alltrack 2.0 TDI BMT 4MOTION DSG (03/17-08/18)"
+      },
+      {
+       "url": "https://www.auto-data.net/en/volkswagen-golf-vii-variant-facelift-2017-generation-5284",
+       "what": "Facelift length 4567 mm, width 1799 mm; wheelbase 2620 mm; 1.0 TSI 110 PS, 1.6 TDI 115 PS variants"
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/de/golf-7-variant-20132020-20041",
+       "what": "VW newsroom: trunk 605 / 1620 l (2013-2020 Golf 7 Variant)"
+      },
+      {
+       "url": "https://www.meinauto.de/testberichte/vw-golf-7-variant-im-test-2017-ein-gepflegter-test-mit-dem-gepflegten-golf-kombi",
+       "what": "2017 test: 605 to 1620 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 53,
+      "confirmed": 44,
+      "corrected": 0
+     },
+     "notes": "Split from the pre-facelift because length (4567 vs 4562 mm) and the listed height changed. Trunk unchanged. Wheelbase 2620 mm from a secondary database; not cross-checked with VW data. Golf R Variant, GTD Variant and TGI Variant facelift data were not found."
+    },
+    {
+     "id": "2013-golf-vii-variant-au-2013-2017",
+     "name": "Golf VII Variant (AU, 2013-2017)",
+     "yearFrom": 2013,
+     "yearTo": 2017,
+     "bodyType": "wagon",
+     "lengthMm": 4562,
+     "widthMm": 1799,
+     "heightMm": 1515,
+     "wheelbaseMm": 2627,
+     "trunkL": 605,
+     "trunkFoldedL": 1620,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 630,
+      "lengthFoldedMm": 1830,
+      "source": "Fachpresse"
+     },
+     "variants": [
+      {
+       "id": "1-6-tdi-diesel",
+       "name": "1.6 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 605,
+       "trunkFoldedL": 1620,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2013,
+       "yearTo": 2017,
+       "notes": "ADAC 1.6 TDI BlueMotion Comfortline (04/15-10/16): height 1515 mm, trunk 605/1620 l."
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 605,
+       "trunkFoldedL": 1620,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2013,
+       "yearTo": 2017,
+       "notes": "auto motor und sport test 2.0 TDI Highline."
+      },
+      {
+       "id": "alltrack-2-0-tdi-4motion-dsg",
+       "name": "Alltrack 2.0 TDI 4MOTION DSG",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 605,
+       "trunkFoldedL": 1620,
+       "lengthMm": 4578,
+       "widthMm": 1799,
+       "heightMm": 1515,
+       "yearFrom": 2014,
+       "yearTo": 2016,
+       "notes": "ADAC Golf Alltrack 2.0 TDI BMT 4MOTION DSG (11/14-12/16). Off-road trim sold as Golf Alltrack."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volkswagen-newsroom.com/de/golf-7-variant-20132020-20041",
+       "what": "VW newsroom (manufacturer): trunk 605 l seats up, up to 1620 l folded"
+      },
+      {
+       "url": "https://openers.jp/en/car/car_motor-show/16939",
+       "what": "Launch report: length 4562 mm"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1400-Golf+VII+Variant",
+       "what": "Length 4562 mm (lists height 1452 mm, deviating)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii/246861/",
+       "what": "ADAC Golf Variant 1.6 TDI BlueMotion Comfortline (04/15-10/16): height 1515 mm, trunk 605/1620 l"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/vw-golf-vii-variant-2-0-tdi-highline/technische-daten/",
+       "what": "auto motor und sport 2.0 TDI Highline test: wheelbase 2635 mm, width 1799 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vii/243740/",
+       "what": "ADAC Golf Alltrack 2.0 TDI BMT 4MOTION DSG (11/14-12/16): 4578 x 1799 x 1515 mm, trunk 605/1620 l"
+      },
+      {
+       "url": "https://de.motor1.com/reviews/155990/vw-golf-variant-im-test-ist-die-neuauflage-sogar-besser-als-der-passat/",
+       "what": "Load length 1.83 m, sill height 63 cm, wheelbase about 2.63 m"
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-golf-7-variant-profile-20042",
+       "what": "Korrektur wheelbaseMm: VW newsroom vehicle data profile Golf 7 Variant: Wheelbase (mm) 2,627; Length/width/height 4,562 / 1,799 / 1,481-1,515. Third-party values range 2630-2637 mm. Moderate confidence: seen via search snippet only; the profile covers the 2013-2020 Variant, so the facelift's 2620 mm"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 53,
+      "confirmed": 44,
+      "corrected": 1
+     },
+     "notes": "German launch autumn 2013. Height differs strongly by source (ADAC 1515 mm, others 1481/1452 mm); ADAC used. Wheelbase: auto motor und sport 2635 mm, autosmotor.de 2630 mm, motor1 about 2.63 m, autozine 2.64 m. Golf R Variant (2015) and TGI (CNG) Variant data were not found; the TGI Variant may have a smaller trunk because of the gas tanks, not verified. Petrol 1.2/1.4 TSI variants exist but were not verified."
+    },
+    {
+     "id": "2009-golf-vi-variant-1k-2009-2013",
+     "name": "Golf VI Variant (1K, 2009-2013)",
+     "yearFrom": 2009,
+     "yearTo": 2013,
+     "bodyType": "wagon",
+     "lengthMm": 4534,
+     "widthMm": 1781,
+     "heightMm": 1504,
+     "wheelbaseMm": 2578,
+     "trunkL": 505,
+     "trunkFoldedL": 1495,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-6-tdi-105-ps-diesel",
+       "name": "1.6 TDI 105 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 105,
+       "awd": false,
+       "trunkL": 505,
+       "trunkFoldedL": 1495,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2009,
+       "yearTo": 2013,
+       "notes": "ADAC 1.6 TDI Trendline DSG (09/09-04/13); power from auto-data.net."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/vi/219396/",
+       "what": "ADAC Golf Variant 1.6 TDI Trendline DSG (09/09-04/13): 4534 x 1781 (2003 with mirrors) x 1504 mm, wheelbase 2578 mm, trunk 505/1495 l"
+      },
+      {
+       "url": "https://www.autokosten.net/vw/golf-vi-variant/golf-variant-1-6-tdi/golf-vi-variant-09-09-04-13/technische-daten",
+       "what": "Same dimensions and trunk 505/1495 l"
+      },
+      {
+       "url": "https://www.auto-data.net/en/volkswagen-golf-vi-variant-1.6-tdi-105hp-16799",
+       "what": "1.6 TDI 105 PS variant"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 53,
+      "confirmed": 44,
+      "corrected": 0
+     },
+     "notes": "Golf VI front end on the Golf V Variant body (same trunk). ADAC series 09/2009-04/2013. Length 4534 mm (ADAC) vs. 4556 mm given for the Golf V Variant by third-party sites. Other engines (1.2/1.4 TSI, 2.0 TDI, 4MOTION) existed but were not verified in this session."
+    },
+    {
+     "id": "2007-golf-v-variant-1k",
+     "name": "Golf V Variant (1K)",
+     "yearFrom": 2007,
+     "yearTo": 2009,
+     "bodyType": "wagon",
+     "lengthMm": 4556,
+     "widthMm": 1781,
+     "heightMm": 1504,
+     "wheelbaseMm": 2578,
+     "trunkL": 505,
+     "trunkFoldedL": 1550,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 505,
+       "trunkFoldedL": 1495,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2008,
+       "yearTo": 2009,
+       "notes": "ADAC lists Golf Variant 2.0 TDI DPF Comfortline (05/08-05/09); its values were not read."
+      },
+      {
+       "id": "1-9-tdi-105-ps-diesel",
+       "name": "1.9 TDI 105 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 105,
+       "awd": false,
+       "trunkL": 505,
+       "trunkFoldedL": 1495,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2007,
+       "yearTo": 2009,
+       "notes": "auto-data.net; AutoScout24 lists 2007-2009."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.angurten.de/is/abmessungen/167-Golf+Variant",
+       "what": "Golf Variant (1K): 4556 mm length, 1504 mm height, 2578 mm wheelbase, trunk 505/1495 l"
+      },
+      {
+       "url": "https://www.automoli.com/us/vehicles/volkswagen/golf/golf-v-variant-1874/",
+       "what": "Golf V Variant: same length/height/wheelbase, trunk 505/1495 l, width 1781 mm"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/volkswagen/golf/golf-variant-1-9-tdi-2007-2009-kombi-diesel/",
+       "what": "1.9 TDI 2007-2009; width 1781 mm (2003 mm with mirrors); lists wheelbase 2574 mm and max trunk 1550 l (deviating)"
+      },
+      {
+       "url": "https://www.auto-data.net/en/volkswagen-golf-v-variant-1.9-tdi-105hp-8645",
+       "what": "1.9 TDI 105 PS variant"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/v/214564/",
+       "what": "ADAC Golf Variant 2.0 TDI DPF Comfortline (05/08-05/09): existence of 2.0 TDI variant and series dates"
+      },
+      {
+       "url": "https://volkswagen-newsroom.com/en/golf-5-variant-20072009-19525",
+       "what": "Korrektur trunkFoldedL: VW newsroom history page for the Golf 5 Variant (2007-2009, Typ 1KM): maximum boot capacity grows from 1,470 to 1,550 litres vs. predecessor. AUTO BILD launch report and de.wikipedia (505 bis 1550 Liter) agree; 1495 l only in third-party databases (auto-data, angurten) and is"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 53,
+      "confirmed": 44,
+      "corrected": 1
+     },
+     "notes": "Golf V based Variant, launched mid-2007 in Germany. No manufacturer or ADAC values were read; all values from third-party databases that agree with each other (AutoScout24 deviates: 2574 mm wheelbase, 1550 l max). Petrol engines (e.g. 1.4 TSI, 1.6) and 4MOTION existed but were not verified in this session."
+    },
+    {
+     "id": "1999-golf-iv-variant-1j",
+     "name": "Golf IV Variant (1J)",
+     "yearFrom": 1999,
+     "yearTo": 2006,
+     "bodyType": "wagon",
+     "lengthMm": 4397,
+     "widthMm": 1735,
+     "heightMm": 1485,
+     "wheelbaseMm": 2515,
+     "trunkL": 460,
+     "trunkFoldedL": 1470,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-9-tdi-diesel",
+       "name": "1.9 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": 1470,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2001,
+       "yearTo": 2005,
+       "notes": "ADAC Golf Variant 1.9 TDI series 03/01-10/05."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/iv/994207/",
+       "what": "ADAC Golf Variant 1.9 TDI (03/01-10/05): trunk 460 l normal / 1470 l folded"
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/de/fahrzeugdaten-golf-4-variant-steckbrief-19523",
+       "what": "Korrektur lengthMm: VW newsroom vehicle data profile (Golf IV 1.4 Variant, 1999-2006): Länge / Breite / Höhe (mm) 4.397 / 1.735 / 1.485. auto-data.net also gives 4397 mm."
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/de/fahrzeugdaten-golf-4-variant-steckbrief-19523",
+       "what": "Korrektur widthMm: VW newsroom profile: width 1.735 mm (auto-data.net gives 1737 mm; manufacturer value preferred)."
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/de/fahrzeugdaten-golf-4-variant-steckbrief-19523",
+       "what": "Korrektur heightMm: VW newsroom profile: height 1.485 mm (same on auto-data.net)."
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-golf-4-variant-profile-19523",
+       "what": "Korrektur wheelbaseMm: VW newsroom profile: Wheelbase (mm) 2,515 (auto-data.net gives 2518 mm; manufacturer value preferred)."
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 53,
+      "confirmed": 44,
+      "corrected": 4
+     },
+     "notes": "The Golf IV Variant was still sold in 2005 (ADAC series up to 10/2005) because the Golf V hatch had no wagon until 2007. Dimensions were not found within the search budget. yearFrom 1999 and yearTo 2006 are from general knowledge and were not verified by a source here; yearTo is at least 2005 per ADAC."
     }
    ]
   },
@@ -2104,6 +3554,340 @@
       "corrected": 0
      },
      "notes": "AMS (1.4 eHybrid test): 4,973 x 1,941 x 1,907 mm, wheelbase 3,124 mm, trunk 469-3,672 l. 7-seat value: 469 l behind the 3rd row. trunkL 1,850 l = 3rd row folded/removed (5-seat use), from Wikipedia; the exact official value was not verified. trunkFoldedL 3,672 l = 2nd and 3rd row removed (seats can be taken out individually). The long-overhang version is a separate model. Market launch late 2021 (MY2022), not verified. The T6.1 Multivan (MY2020-2021) is not covered."
+    },
+    {
+     "id": "2019-t6-1-multivan-2019-2021",
+     "name": "T6.1 Multivan (2019-2021)",
+     "yearFrom": 2019,
+     "yearTo": 2021,
+     "bodyType": "van",
+     "lengthMm": 4904,
+     "widthMm": 1904,
+     "heightMm": 1970,
+     "wheelbaseMm": 3000,
+     "trunkL": 1115,
+     "trunkFoldedL": 4300,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": 4300,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2019,
+       "yearTo": 2021,
+       "notes": "ADAC 2.0 TDI BMT Trendline (10/19-11/20)."
+      },
+      {
+       "id": "2-0-tdi-4motion-dsg",
+       "name": "2.0 TDI 4MOTION DSG",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": 4300,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2019,
+       "yearTo": 2021,
+       "notes": "ADAC overview mentions a Cruise / 4Motion DSG test."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t61-facelift/306378/",
+       "what": "ADAC T6.1 Multivan 2.0 TDI BMT Trendline (10/19-11/20): 4904 x 1904 (2297 with mirrors) x 1970 mm, wheelbase 3000 mm, 4300 l max"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/kosten-realverbrauch-vw-multivan-tdi/technische-daten/",
+       "what": "auto motor und sport T6.1 2.0 TDI Cruise: height 1970 mm, trunk 657-4300 l"
+      },
+      {
+       "url": "https://www.vomberg-gmbh.de/wp-content/uploads/VW-T6.1-Multivan-Preisliste-Oktober-2019.pdf",
+       "what": "VW price list Multivan 6.1 MY2020 (October 2019): German market launch timing"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/vw-t6-bulli/",
+       "what": "ADAC T6.1 test overview: ADAC-measured 1115 / 1270 / 3685 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/vw-t6-bulli/",
+       "what": "ADAC: trunkL = 1115 – ADAC test page T6.1 Multivan 2.0 TDI Cruise, measured trunk volume (ADAC measurement) 1115 l normal (3rd row folded, to window line); manufacturer gives no normal value, only 4300 l folded."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 53,
+      "confirmed": 44,
+      "corrected": 0
+     },
+     "notes": "Launched 10/2019 (price list valid for MY2020), sold until the T7 in 2021. Included because it went on sale in calendar 2019; drop if MY2020+ is out of scope. Autozeitung gives height 1990 mm (other trims). 7-seat VDA value 657 l; 4300 l max with seats removed; no 5-seat VDA value found. Engine powers (90/110/150/199 PS) not verified in this session."
+    },
+    {
+     "id": "2015-t6-multivan-2015-2019",
+     "name": "T6 Multivan (2015-2019)",
+     "yearFrom": 2015,
+     "yearTo": 2019,
+     "bodyType": "van",
+     "lengthMm": 4904,
+     "widthMm": 1904,
+     "heightMm": 1970,
+     "wheelbaseMm": 3000,
+     "trunkL": 1115,
+     "trunkFoldedL": 4300,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": 4300,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2015,
+       "yearTo": 2019,
+       "notes": "ADAC 2.0 TDI BMT Trendline (07/15-08/18)."
+      },
+      {
+       "id": "2-0-tdi-4motion",
+       "name": "2.0 TDI 4MOTION",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": 4300,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2015,
+       "yearTo": 2019,
+       "notes": "auto motor und sport T6 TDI 4Motion Multivan test."
+      },
+      {
+       "id": "2-0-bitdi-204-ps-dsg-diesel",
+       "name": "2.0 BiTDI 204 PS DSG (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": 4300,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2015,
+       "yearTo": 2019,
+       "notes": "ADAC Autotest Generation Six DSG, 150 kW / 204 PS."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t6/248073/",
+       "what": "ADAC T6 Multivan 2.0 TDI BMT Trendline (07/15-08/18): 4904 x 1904 x 1970 mm, wheelbase 3000 mm"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/fahrbericht/vw-t6-tdi-4motion-multivan/technische-daten/",
+       "what": "auto motor und sport: trunk VDA 657-4300 l; 4MOTION variant"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT5754_VW_T6_Multivan_2_0_TDI_BMT_Generation_Six_DSG/VW_T6_Multivan_2_0_TDI_BMT_Generation_Six_DSG.pdf",
+       "what": "ADAC Autotest Generation Six DSG 204 PS: 655 l to cover (7 seats), 1115 l with 3rd row folded and pushed forward (to window line), 4745 l without rows 2 and 3 (to roof)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t6/295335/",
+       "what": "ADAC T6 Multivan 2.0 TDI BMT Generation Six DSG (10/18-07/19): series end 2019"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT5754_VW_T6_Multivan_2_0_TDI_BMT_Generation_Six_DSG/VW_T6_Multivan_2_0_TDI_BMT_Generation_Six_DSG.pdf",
+       "what": "ADAC: trunkL = 1115 – ADAC Autotest T6 Multivan Generation Six DSG (ADAC measured): with 3rd-row backrests folded and 2nd row slid forward, 1,115 l up to the window line (manufacturer gives only folded value 4,300 l)."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 53,
+      "confirmed": 44,
+      "corrected": 0
+     },
+     "notes": "7-seat value: 657 l VDA behind the 3rd-row bench (manufacturer data per auto motor und sport); 4300 l max with seats removed. No VDA 5-seat (3rd row folded) value was found, so trunkL is null. ADAC measured 1115 l with the 3rd row folded and pushed forward (to window line, ADAC method). Long-wheelbase version not included."
+    },
+    {
+     "id": "2009-t5-multivan-facelift-2009-2015",
+     "name": "T5 Multivan Facelift (2009-2015)",
+     "yearFrom": 2009,
+     "yearTo": 2015,
+     "bodyType": "van",
+     "lengthMm": 4892,
+     "widthMm": 1904,
+     "heightMm": 1970,
+     "wheelbaseMm": 3000,
+     "trunkL": null,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tdi-102-ps-diesel",
+       "name": "2.0 TDI 102 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 102,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2009,
+       "yearTo": 2015,
+       "notes": "ADAC Autotest Startline 102 PS."
+      },
+      {
+       "id": "2-0-tdi-140-ps-diesel",
+       "name": "2.0 TDI 140 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2009,
+       "yearTo": 2015,
+       "notes": "ADAC Autotest Comfortline 140 PS."
+      },
+      {
+       "id": "2-0-bitdi-180-ps-4motion-dsg",
+       "name": "2.0 BiTDI 180 PS 4MOTION DSG",
+       "powertrain": "diesel",
+       "powerPs": 180,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2009,
+       "yearTo": 2015,
+       "notes": "auto-data.net: 2.0 TDI 180 PS BMT DSG 4MOTION, 4892 x 1970 mm."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/5generation-facelift/220456/",
+       "what": "ADAC T5 Multivan 2.0 TDI Startline (09/09-05/15): 4892 x 1904 x 1970 mm, wheelbase 3000 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/5generation-facelift/220463/",
+       "what": "ADAC T5 Multivan 2.0 TDI Comfortline (09/09-05/15): same dimensions"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT4326_VW_T5_Multivan_20_TDI_Comfortline_DPF/VW_T5_Multivan_20_TDI_Comfortline_DPF.pdf",
+       "what": "ADAC Autotest 2.0 TDI Comfortline 140 PS: about 1650 l normal / 2870 l folded (ADAC measurement)"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT4538_VW_T5_Multivan_2_0_TDI_Startline_DPF/VW_T5_Multivan_2_0_TDI_Startline_DPF.pdf",
+       "what": "ADAC Autotest 2.0 TDI Startline 102 PS: 1650 / 2870 l, 650 l with seven occupants"
+      },
+      {
+       "url": "https://www.auto-data.net/en/volkswagen-multivan-t5-facelift-2009-2.0-tdi-180hp-bmt-dsg-4motion-20666",
+       "what": "180 PS BMT DSG 4MOTION variant, 4892 x 1970 mm"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 53,
+      "confirmed": 44,
+      "corrected": 0
+     },
+     "notes": "Dimensions from ADAC (manufacturer data). No manufacturer VDA trunk values were found. ADAC's own Autotest measurements (not VDA): about 1650 l in normal configuration and 2870 l folded, 650 l with seven occupants; these were left out of trunkL/trunkFoldedL because they are not VDA values and the seat configuration is unclear."
+    },
+    {
+     "id": "2003-t5-multivan-kurzer-radstand-2003-2009",
+     "name": "T5 Multivan (kurzer Radstand, 2003-2009)",
+     "yearFrom": 2003,
+     "yearTo": 2009,
+     "bodyType": "van",
+     "lengthMm": 4890,
+     "widthMm": 1904,
+     "heightMm": 1970,
+     "wheelbaseMm": 3000,
+     "trunkL": null,
+     "trunkFoldedL": 4525,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-5-tdi-diesel",
+       "name": "2.5 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": 4525,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1944,
+       "yearFrom": 2003,
+       "yearTo": 2006,
+       "notes": "ADAC 2.5 TDI Comfortline (02/03-01/06): height 1944 mm. From 01/06 (DPF) ADAC lists 1970 mm. A 174 PS version exists (auto-data.net); 131 PS version not verified."
+      },
+      {
+       "id": "1-9-tdi-105-ps-diesel",
+       "name": "1.9 TDI 105 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 105,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": 4525,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2003,
+       "yearTo": 2009,
+       "notes": "Power from alle-lkw.de data page."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t5/995532/",
+       "what": "ADAC T5 Multivan 2.5 TDI Comfortline (02/03-01/06): length 4890 mm, height 1944 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t5/205498/",
+       "what": "ADAC T5 Multivan 2.5 TDI DPF Comfortline (01/06-09/09): 4890 x 1904 (2283 with mirrors) x 1970 mm, wheelbase 3000 mm"
+      },
+      {
+       "url": "https://www.autobild.de/artikel/vw-t5-multivan-kaufberatung-2892761.html",
+       "what": "AUTO BILD buying guide: Multivan load volume 576-4525 l"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT0979_VW_Multivan_25_TDI_Comfortline/VW_Multivan_25_TDI_Comfortline.pdf",
+       "what": "ADAC Autotest 2.5 TDI (2003): 650 l with seven occupants, 2895 l with rear bench folded (to window line, ADAC measurement)"
+      },
+      {
+       "url": "https://www.auto-data.net/en/volkswagen-multivan-t5-2.5-tdi-174hp-8525",
+       "what": "2.5 TDI 174 PS variant, 4890 mm length"
+      },
+      {
+       "url": "https://www.alle-lkw.de/blog/volkswagen-multivan-t5-1-9-tdi-105hp-technische-daten-t32797",
+       "what": "1.9 TDI 105 PS variant"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 53,
+      "confirmed": 44,
+      "corrected": 0
+     },
+     "notes": "Standard Multivan is a 7-seater (2 single seats in row 2 + sliding/removable 3-seat bench). No published 5-seat VDA value was found, so trunkL is null. 7-seat values: 576 l (AUTO BILD, behind the bench), ADAC Autotest 650 l with seven occupants. trunkFoldedL 4525 l (AUTO BILD) is most likely with seats removed, not just folded; ADAC measured 2895 l with the bench folded (to window line). Generation height 1970 mm from 01/2006; 1944 mm before. Long-wheelbase version (5290 mm, 3400 mm wheelbase) not included. Petrol (2.0, 3.2 V6) and 4MOTION versions were not verified."
     }
    ]
   },
@@ -2207,6 +3991,96 @@
       "corrected": 0
      },
      "notes": "Wikipedia: length 5,173 mm, same 3,124 mm wheelbase, up to 4,053 l with 2nd and 3rd rows removed. Width and height are taken from the short version (same body) and not verified separately. The volume behind the 3rd row (7 seats) and with the 3rd row removed was not found."
+    },
+    {
+     "id": "2015-t6-multivan-lang-langer-radstand",
+     "name": "T6 Multivan lang (langer Radstand)",
+     "yearFrom": 2015,
+     "yearTo": 2019,
+     "bodyType": "van",
+     "lengthMm": 5304,
+     "widthMm": 1904,
+     "heightMm": 1990,
+     "wheelbaseMm": 3400,
+     "trunkL": null,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tsi-bmt-benziner",
+       "name": "2.0 TSI BMT (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Autokatalog T6 Multivan lang 2.0 TSI BMT Comfortline (12/15-08/18) listed; dimensions same across variants per ADAC."
+      },
+      {
+       "id": "2-0-tdi-bmt-diesel",
+       "name": "2.0 TDI BMT (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Autokatalog T6 Multivan lang 2.0 TDI BMT Comfortline (07/15-08/18, 12/16-08/18): 5304 x 1904 x 1990 mm, Radstand 3400 mm."
+      },
+      {
+       "id": "2-0-tdi-bmt-4motion-diesel-allrad",
+       "name": "2.0 TDI BMT 4MOTION (Diesel, Allrad)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Autokatalog T6 Multivan lang 2.0 TDI BMT Join 4MOTION (01/18-08/18): same 5304 mm length, 1990 mm height, 3400 mm wheelbase."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t6/266545/",
+       "what": "ADAC: T6 Multivan lang length 5304, height 1990, wheelbase 3400, width 1904 (2297 with mirrors)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t6/248081/",
+       "what": "ADAC: T6 Multivan lang 2.0 TDI BMT Comfortline (07/15-08/18), model period"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t6/261677/",
+       "what": "ADAC: T6 Multivan lang 2.0 TSI variant exists"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t6/286899/",
+       "what": "ADAC: T6 Multivan lang 4MOTION variant, same dimensions"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Volkswagen_Transporter_(T6)",
+       "what": "Cross-check LWB 3400 mm wheelbase / 5304 mm length"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 35,
+      "confirmed": 31,
+      "corrected": 0
+     },
+     "notes": "Predecessor of the T7 'langer Überhang' is the T6 Multivan with long wheelbase (Multivan lang): the T7 extends rear overhang, T6 extended wheelbase. No VDA luggage volume published for the Multivan (seat rails, variable seating), so trunk values null. Dimensions are from ADAC (manufacturer data); no VW press kit found. The T6.1 Multivan lang (MY 2020-2021) and the T5 Multivan lang were not included (see notFound)."
     }
    ]
   },
@@ -2307,6 +4181,174 @@
       "corrected": 0
      },
      "notes": "Offroad-Variant mit höherer Bodenfreiheit, nur 4MOTION. Maße/Kofferraum laut ADAC-Eintrag 09/20-11/23 (Breite mit Spiegeln 2083 mm). Radstand für das Facelift nicht gefunden (ADAC nennt für Vor-Facelift-Alltrack 2789 mm; nicht übernommen). Vor-Facelift-ADAC-Werte abweichend: 4777 x 1832 x 1506 mm, gleiches Kofferraumvolumen 639/1769 l. Zum Modellsegment hinzugefügt, da in der Liste fehlend."
+    },
+    {
+     "id": "2015-b8-vor-facelift",
+     "name": "B8 (vor Facelift)",
+     "yearFrom": 2015,
+     "yearTo": 2019,
+     "bodyType": "wagon",
+     "lengthMm": 4777,
+     "widthMm": 1832,
+     "heightMm": 1506,
+     "wheelbaseMm": 2789,
+     "trunkL": 639,
+     "trunkFoldedL": 1769,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tsi-220-ps-4motion-dsg-benziner",
+       "name": "2.0 TSI 220 PS 4MOTION DSG (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 220,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "162 kW/220 PS listed by mobile.de (height 1530 mm there). Trunk not separately verified."
+      },
+      {
+       "id": "2-0-tdi-scr-bmt-4motion-dsg-diesel",
+       "name": "2.0 TDI SCR BMT 4MOTION DSG (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 639,
+       "trunkFoldedL": 1769,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Autokatalog (06/15-08/18): 4777 x 1832 x 1506 mm, wheelbase 2789, 639/1769 l."
+      },
+      {
+       "id": "2-0-tdi-240-ps-4motion-dsg-diesel",
+       "name": "2.0 TDI 240 PS 4MOTION DSG (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 240,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "176 kW variant mentioned in ADAC listing; trunk not separately verified."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8/248308/",
+       "what": "ADAC: length 4777, width 1832 (2083 with mirrors), height 1506, wheelbase 2789, trunk 639 l, folded 1769 l"
+      },
+      {
+       "url": "https://www.mobile.de/auto/vw/passat-alltrack/2015/kombi/modell/daten-fakten/",
+       "what": "Cross-check length 4777, 639/1769 l; height 1530; 220 PS TSI"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 35,
+      "confirmed": 31,
+      "corrected": 0
+     },
+     "notes": "Height conflicts: ADAC 1506 mm vs mobile.de/AutoScout24 1530 mm; ADAC value used. AutoScout24 lists width 1820 for some versions."
+    },
+    {
+     "id": "2012-b7-passat-alltrack",
+     "name": "B7 (Passat Alltrack)",
+     "yearFrom": 2012,
+     "yearTo": 2014,
+     "bodyType": "wagon",
+     "lengthMm": 4771,
+     "widthMm": 1820,
+     "heightMm": 1550,
+     "wheelbaseMm": 2712,
+     "trunkL": 588,
+     "trunkFoldedL": 1716,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "tsi-benziner-2-motoren",
+       "name": "TSI (Benziner, 2 Motoren)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Launch range had two petrol and two diesel engines, 140-210 PS; 210 PS TSI with 4MOTION standard (angurten.de news). Trunk per engine not verified."
+      },
+      {
+       "id": "2-0-tdi-bmt-4motion-dsg-diesel",
+       "name": "2.0 TDI BMT 4MOTION DSG (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2013,
+       "yearTo": null,
+       "notes": "ADAC lists 02/13-09/14; trunk value not shown in result, likely identical to generation value (not verified)."
+      },
+      {
+       "id": "2-0-tdi-bmt-4motion-140-ps-diesel",
+       "name": "2.0 TDI BMT 4MOTION 140 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 140,
+       "awd": true,
+       "trunkL": 588,
+       "trunkFoldedL": 1716,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Autokatalog (03/12-09/14): 4771 mm, height 1550 mm, 588/1716 l. Power 103 kW/140 PS per AutoKlicker."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b7/230794",
+       "what": "ADAC: length 4771, height 1550, trunk 588 l, folded 1716 l (2.0 TDI BMT 4MOTION 03/12-09/14)"
+      },
+      {
+       "url": "https://www.conceptcarz.com/z21193/volkswagen-passat-alltrack.aspx",
+       "what": "VW press release (Feb 2012, English): length 4771 mm, width 1820 mm"
+      },
+      {
+       "url": "https://autoklicker.de/autokatalog/volkswagen-passat-20-tdi-4motion-bluemotion-technology-technische-daten10252.html",
+       "what": "Wheelbase 2712 mm, width 1820, 103 kW/140 PS, 588-1716 l"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/vw-passat-alltrack-2-0-tdi/technische-daten/",
+       "what": "Cross-check 588-1716 l; wheelbase given as 2710 mm"
+      },
+      {
+       "url": "https://www.angurten.de/is/news/2126-vw-passat-9-variant/2493",
+       "what": "Engine line-up 140-210 PS, 4MOTION standard on 170 PS TDI and 210 PS TSI"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 35,
+      "confirmed": 31,
+      "corrected": 0
+     },
+     "notes": "Wheelbase 2712 (AutoKlicker) vs 2710 (ams). ADAC Autotest measured only 465 l to cover (own method), not used."
     }
    ]
   },
@@ -2404,6 +4446,253 @@
       "corrected": 0
      },
      "notes": "Stufenheck-Passat, in Deutschland bis ca. 08/2021 im ADAC-Katalog (Produktion bis 12/2021 laut Wikipedia), Modelljahre 2020-2021. Zum Segment hinzugefügt, da in der Liste fehlend. Kofferraum 586/1152 l laut ADAC-Facelift-Einträgen. Außenmaße konnten nicht verifiziert werden (Suchbudget erschöpft) und sind daher null. GTE-Limousine (Plug-in) nicht aufgenommen, Kofferraum nicht gefunden."
+    },
+    {
+     "id": "2014-b8-vor-facelift",
+     "name": "B8 (vor Facelift)",
+     "yearFrom": 2014,
+     "yearTo": 2019,
+     "bodyType": "sedan",
+     "lengthMm": 4767,
+     "widthMm": 1832,
+     "heightMm": 1456,
+     "wheelbaseMm": 2791,
+     "trunkL": 586,
+     "trunkFoldedL": 1152,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "tsi-benziner",
+       "name": "TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 586,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "586 l per mobile.de generation data, not per-engine verified."
+      },
+      {
+       "id": "2-0-tdi-scr-bmt-150-ps-diesel",
+       "name": "2.0 TDI SCR BMT 150 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 586,
+       "trunkFoldedL": 1152,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC (10/17-08/18): 4767 x 1832 x 1476 mm, wheelbase 2786; 586 l, 1152 l window-high with rear bench folded."
+      },
+      {
+       "id": "gte-plug-in-hybrid",
+       "name": "GTE (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 218,
+       "awd": false,
+       "trunkL": 402,
+       "trunkFoldedL": 968,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2015,
+       "yearTo": null,
+       "notes": "1.4 TSI Plug-In-Hybrid DSG, 218 PS; 402-968 l per AutoScout24 / autoradio-info (no ADAC or VW source found for the sedan); battery under trunk floor."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8/284173/",
+       "what": "ADAC: length 4767, width 1832, height 1476, wheelbase 2786, trunk 586 l / 1152 l (fensterhoch)"
+      },
+      {
+       "url": "https://www.mobile.de/auto/vw/passat/2014/limousine/modell/daten-fakten/",
+       "what": "Cross-check 586 l (lists 4775 mm length, 1483 height)"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/volkswagen/passat/passat-1-4-tsi-plug-in-hybrid-dsg-2015-2021-limousine-benzin-elektro-plugin/",
+       "what": "GTE Limousine trunk 402-968 l"
+      },
+      {
+       "url": "https://www.autoradio-info.de/vw-passat-masse-kofferraumvolumen/",
+       "what": "GTE Limousine 402 l, Limousine 586 l"
+      },
+      {
+       "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mittelklasse/passat-b8.html",
+       "what": "Korrektur heightMm: Official VW predecessor-model page for Passat B8: Limousine height 1456 mm (closed trunk, without antenna/roof rails); Variant 1477 mm. Also carwow.co.uk and fastcarcheck.uk give 1456 mm for the saloon. ADAC/ams 1476 mm is a non-manufacturer-preferred value."
+      },
+      {
+       "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mittelklasse/passat-b8.html",
+       "what": "Korrektur wheelbaseMm: Official VW Passat B8 page states wheelbase 2791 mm; carwow.co.uk 2015 Passat dimensions guide and fastcarcheck.uk also give 2,791 mm. ADAC/mobile.de list 2786 mm."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 35,
+      "confirmed": 31,
+      "corrected": 2
+     },
+     "notes": "trunkFoldedL 1152 l is measured window-high (fensterhoch). mobile.de lists 4775 mm length / 1483 mm height; ADAC values used. GTE values from lower-priority sources."
+    },
+    {
+     "id": "2010-b7",
+     "name": "B7",
+     "yearFrom": 2010,
+     "yearTo": 2014,
+     "bodyType": "sedan",
+     "lengthMm": 4769,
+     "widthMm": 1820,
+     "heightMm": 1470,
+     "wheelbaseMm": 2712,
+     "trunkL": 565,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "tsi-benziner",
+       "name": "TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 565,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "565 l per mobile.de generation data; not per-engine verified."
+      },
+      {
+       "id": "2-0-bluetdi-140-ps-dsg-diesel",
+       "name": "2.0 BlueTDI 140 PS DSG (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": 565,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC (02/11-09/14): 4769 x 1820 x 1470 mm, wheelbase 2712, 565 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b7/227448/",
+       "what": "ADAC: length 4769, width 1820 (2062 with mirrors), height 1470, wheelbase 2712, trunk 565 l"
+      },
+      {
+       "url": "https://www.mobile.de/auto/vw/passat/2010/limousine/modell/daten-fakten/",
+       "what": "Cross-check 4769 mm, 2712 mm, 565 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 35,
+      "confirmed": 31,
+      "corrected": 0
+     },
+     "notes": "Height 1462 mm in some databases vs ADAC 1470. Folded volume not found. EcoFuel/4MOTION trunk values not verified."
+    },
+    {
+     "id": "2005-b6",
+     "name": "B6",
+     "yearFrom": 2005,
+     "yearTo": 2010,
+     "bodyType": "sedan",
+     "lengthMm": 4765,
+     "widthMm": 1820,
+     "heightMm": 1472,
+     "wheelbaseMm": 2709,
+     "trunkL": 565,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-fsi-benziner",
+       "name": "2.0 FSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 565,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 FSI Sportline (03/05-10/07): 4765 mm, 565 l, rear bench foldable as standard."
+      },
+      {
+       "id": "2-0-tdi-dpf-diesel",
+       "name": "2.0 TDI DPF (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 565,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDI DPF Highline DSG (10/05-05/08): 4765 mm, 565 l."
+      },
+      {
+       "id": "1-4-tsi-ecofuel-erdgas",
+       "name": "1.4 TSI EcoFuel (Erdgas)",
+       "powertrain": "cng",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 485,
+       "trunkFoldedL": 1011,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2009,
+       "yearTo": 2010,
+       "notes": "ADAC (01/09-10/10): 485 l normal, 1011 l window-high with rear bench folded; CNG tanks reduce trunk."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b6/201861/",
+       "what": "ADAC: length 4765, trunk 565 l (2.0 FSI)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b6/203036/",
+       "what": "ADAC: length 4765, trunk 565 l (2.0 TDI)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b6/217515/",
+       "what": "ADAC: EcoFuel trunk 485 l / 1011 l"
+      },
+      {
+       "url": "https://www.mobile.de/auto/vw/passat/2005/limousine/modell/daten-fakten/",
+       "what": "Height 1472, wheelbase 2709, 565 l"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/VW_Passat_B6",
+       "what": "Width 1820 mm without mirrors, wheelbase 2709"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 35,
+      "confirmed": 31,
+      "corrected": 0
+     },
+     "notes": "English Wikipedia gives 4780 mm length for 2005-2008 and 4765 for 2009-2010; ADAC shows 4765 already for 2005 cars. Folded volume for 565 l versions not found. 4MOTION and V6 trunk not verified."
     }
    ]
   },
@@ -2794,6 +5083,325 @@
       "corrected": 0
      },
      "notes": "Facelift-Marktstart 08/2019 (Modelljahr 2020), Bauende Variant 11/2023 laut ADAC. Maße/Kofferraum laut ADAC (Herstellerangaben), Breite mit Spiegeln 2083 mm. Die Facelift-Maße/Kofferraum entsprechen den Werten des Vor-Facelift-B8 (ADAC: 650/1780 l, Höhe 1516 mm), daher eine Generation. GTE (Plug-in-Hybrid) hat nur 483/1613 l. Motorenprogramm unvollständig verifiziert (siehe notFound)."
+    },
+    {
+     "id": "2014-b8-vorfacelift",
+     "name": "B8 (Vorfacelift)",
+     "yearFrom": 2014,
+     "yearTo": 2019,
+     "bodyType": "wagon",
+     "lengthMm": 4767,
+     "widthMm": 1832,
+     "heightMm": 1477,
+     "wheelbaseMm": 2791,
+     "trunkL": 650,
+     "trunkFoldedL": 1780,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-tsi-benziner",
+       "name": "1.4 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 650,
+       "trunkFoldedL": 1780,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC catalogue entries 1.4 TSI BMT (ACT) 10/14-08/18 list 650/1780 l."
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 650,
+       "trunkFoldedL": 1780,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDI SCR BMT entry lists 650 l normal."
+      },
+      {
+       "id": "2-0-bitdi-4motion-diesel",
+       "name": "2.0 BiTDI 4MOTION (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 240,
+       "awd": true,
+       "trunkL": 650,
+       "trunkFoldedL": 1780,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No 4MOTION-specific trunk volume found."
+      },
+      {
+       "id": "gte-plug-in-hybrid",
+       "name": "GTE (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 218,
+       "awd": false,
+       "trunkL": 483,
+       "trunkFoldedL": 1613,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2015,
+       "yearTo": 2019,
+       "notes": "ADAC: Passat Variant GTE DSG (06/15-05/18) 483/1613 l (battery under trunk floor)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/press-releases/the-volkswagen-business-class-world-premiere-of-the-all-new-passat-variant-17561",
+       "what": "VW: predecessor (B8) maximum luggage capacity 1,780 l; B9 690 l = +40 l implies 650 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8/248182/",
+       "what": "ADAC: GTE Variant 483/1613 l; dimensions 4767 x 1832 x 1477 mm, wheelbase 2791 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8/284188/",
+       "what": "ADAC: 2.0 TDI Variant length 4767, width 1832, 650 l; height 1516 mm (with roof rails), wheelbase 2786 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8/243411/",
+       "what": "ADAC: 1.4 TSI Variant entry (10/14-07/18)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8/241921/",
+       "what": "Korrektur trunkL: ADAC Passat Variant 2.0 TDI SCR BMT Highline 4MOTION DSG (10/14-07/18): 'Kofferraumvolumen normal 650 l'. Same in other B8 Variant 4MOTION entries (245086, 241920, 245088, 248391) and auto-data.net 2.0 TSI 280 PS 4MOTION (650-1780 l). B8 4MOTION has no trunk penalty, unlike B6/B7."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8/241921/",
+       "what": "Korrektur trunkFoldedL: ADAC B8 Variant 4MOTION entries: 'Kofferraumvolumen dachhoch mit umgeklappter Rücksitzbank 1780 l'."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 49,
+      "confirmed": 42,
+      "corrected": 2
+     },
+     "notes": "Height 1477 mm without roof rails; ADAC lists 1516 mm for versions with roof rails and a wheelbase of 2786 mm for later entries (2791 mm in early data). Passat Alltrack is a separate nameplate and not included. Official VW B8 press kit not found within search budget."
+    },
+    {
+     "id": "2010-b7",
+     "name": "B7",
+     "yearFrom": 2010,
+     "yearTo": 2014,
+     "bodyType": "wagon",
+     "lengthMm": 4771,
+     "widthMm": 1820,
+     "heightMm": 1516,
+     "wheelbaseMm": 2712,
+     "trunkL": 603,
+     "trunkFoldedL": 1731,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-tsi-1-8-tsi-benziner",
+       "name": "1.4 TSI / 1.8 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 122,
+       "awd": false,
+       "trunkL": 603,
+       "trunkFoldedL": 1731,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "4motion",
+       "name": "4MOTION",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 588,
+       "trunkFoldedL": 1716,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "VW newsroom: 4MOTION versions 588-1716 l (offered with TDI and TSI engines)."
+      },
+      {
+       "id": "2-0-tdi-bluemotion-technology-diesel",
+       "name": "2.0 TDI BlueMotion Technology (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": 603,
+       "trunkFoldedL": 1731,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDI BMT Comfortline (11/10-09/14): 603/1731 l."
+      },
+      {
+       "id": "1-4-tsi-ecofuel-erdgas",
+       "name": "1.4 TSI EcoFuel (Erdgas)",
+       "powertrain": "cng",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 523,
+       "trunkFoldedL": 1651,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "VW newsroom: TSI EcoFuel 523-1651 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/passat-b7-20102014-20036",
+       "what": "VW: Variant up to 1,731 l; 4MOTION 588-1716 l; TSI EcoFuel 523-1651 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b7/225745/",
+       "what": "ADAC: length 4771 mm, wheelbase 2712 mm, trunk 603/1731 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1286-Passat+VII+Variant+(2010-2014)",
+       "what": "Width 1820 mm without mirrors (secondary database); 603/1731 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b7/235349",
+       "what": "Korrektur heightMm: ADAC Passat Variant B7 entries list 'Höhe 1516 mm' (also vehiclesizes.com 1508-1516 mm, angurten.de 1508 mm). Caveat: likely includes roof rails (cf. B8 1477 vs 1516 mm with rails); no VW figure without rails found."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 49,
+      "confirmed": 42,
+      "corrected": 1
+     },
+     "notes": "Height not confirmed from manufacturer/ADAC within search budget (third-party value 1516 mm with roof rails, not used). Alltrack (2012) is a separate nameplate."
+    },
+    {
+     "id": "2005-b6",
+     "name": "B6",
+     "yearFrom": 2005,
+     "yearTo": 2010,
+     "bodyType": "wagon",
+     "lengthMm": 4774,
+     "widthMm": 1820,
+     "heightMm": 1517,
+     "wheelbaseMm": 2709,
+     "trunkL": 603,
+     "trunkFoldedL": 1731,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-tsi-1-8-tsi-2-0-fsi-benziner",
+       "name": "1.4 TSI / 1.8 TSI / 2.0 FSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 603,
+       "trunkFoldedL": 1731,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "4motion",
+       "name": "4MOTION",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 588,
+       "trunkFoldedL": 1716,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No 4MOTION-specific trunk volume found (B7 4MOTION was smaller, so not assumed equal)."
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": 603,
+       "trunkFoldedL": 1731,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDI DPF Highline DSG (08/05-02/08): 603 l, 4774 x 1820 x 1517 mm."
+      },
+      {
+       "id": "1-4-tsi-ecofuel-erdgas",
+       "name": "1.4 TSI EcoFuel (Erdgas)",
+       "powertrain": "cng",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 523,
+       "trunkFoldedL": 1651,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2009,
+       "yearTo": 2010,
+       "notes": "Only a secondary data site (autokosten.net) gives 523/1651 l for the Variant EcoFuel; not confirmed by VW/ADAC."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/passat-b6-20052010-19549",
+       "what": "VW: Passat Variant 603 to 1,731 l loading space"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b6/203294/",
+       "what": "ADAC: length 4774, width 1820, height 1517, wheelbase 2709 mm, trunk 603 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b6/206572",
+       "what": "Korrektur trunkL: ADAC Passat Variant 2.0 TDI Trendline 4MOTION (05/06-02/08): 'Kofferraumvolumen normal 588 l'; same in 204670, 213432, 216607, 216613 (2.0 TDI DPF 4MOTION through 10/10) and R36 Variant 4MOTION (219170)."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b6/206572",
+       "what": "Korrektur trunkFoldedL: ADAC B6 Variant 2.0 TDI 4MOTION: 'Kofferraumvolumen dachhoch mit umgeklappter Rücksitzbank 1716 l'."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b6/217535",
+       "what": "Korrektur trunkL: ADAC Passat Variant 1.4 TSI EcoFuel Trendline (Erdgasbetrieb) (01/09-10/10): normal 523 l; same for Comfortline/Highline entries (217513, 217536). kfz-auskunft road test: gas tanks reduce trunk by ~80 l to ~525 l."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b6/217535",
+       "what": "Korrektur trunkFoldedL: ADAC B6 Variant 1.4 TSI EcoFuel entries: max. with rear seat folded 1651 l."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 49,
+      "confirmed": 42,
+      "corrected": 4
+     },
+     "notes": "R36 Variant (2008, 300 PS 4MOTION) existed; no trunk data found."
     }
    ]
   },
@@ -2894,6 +5502,166 @@
       "corrected": 0
      },
      "notes": "Dimensions are from ADAC for the facelifted Polo 1.0 TSI Life (02/24 onwards). Before the facelift (2017-2021), ADAC gives length and wheelbase 1-2 mm shorter and 1446 mm height; the trunk is the same at 351/1125 l. Since the differences are tiny, the facelift is not split out."
+    },
+    {
+     "id": "2009-v-6r-inkl-facelift-6c-2014",
+     "name": "V (6R, inkl. Facelift 6C 2014)",
+     "yearFrom": 2009,
+     "yearTo": 2017,
+     "bodyType": "hatchback",
+     "lengthMm": 3970,
+     "widthMm": 1682,
+     "heightMm": 1462,
+     "wheelbaseMm": 2470,
+     "trunkL": 280,
+     "trunkFoldedL": 952,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-1-2-tsi-1-0-tsi-benziner",
+       "name": "1.2 / 1.2 TSI / 1.0 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 280,
+       "trunkFoldedL": 952,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "bluegt",
+       "name": "BlueGT",
+       "powertrain": "petrol",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": 280,
+       "trunkFoldedL": 952,
+       "lengthMm": 3972,
+       "widthMm": null,
+       "heightMm": 1453,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Dimensions per VW Polo V profile."
+      },
+      {
+       "id": "gti",
+       "name": "GTI",
+       "powertrain": "petrol",
+       "powerPs": 192,
+       "awd": false,
+       "trunkL": 280,
+       "trunkFoldedL": 952,
+       "lengthMm": 3976,
+       "widthMm": null,
+       "heightMm": 1452,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Dimensions per VW Polo V profile (facelift GTI 192 PS; pre-facelift GTI had 180 PS). Trunk assumed per generation figure from VW launch data."
+      },
+      {
+       "id": "1-2-1-4-1-6-tdi-diesel",
+       "name": "1.2 / 1.4 / 1.6 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 280,
+       "trunkFoldedL": 952,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-polo-5-profile-20046",
+       "what": "VW: wheelbase 2470 mm; length 3970 (6R) / 3972 (6C) mm, width 1682 mm, height 1462 mm (standard from 2014), BlueGT and GTI dimensions"
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/the-new-polo-international-driving-presentation-3102",
+       "what": "VW 2009 launch: length 3970 mm, width 1682 mm, luggage 280-952 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 49,
+      "confirmed": 42,
+      "corrected": 0
+     },
+     "notes": "Facelift 2014 (6C) only +2 mm length (3972 mm), trunk unchanged, so kept in one entry. Height 1462 mm is the VW figure for the standard car from 2014; the VW profile lists a different height (1484 mm) for the 2009 version, possibly a specific trim - not verified. Polo Sedan/Variant not sold in Germany in this generation; CrossPolo not split out."
+    },
+    {
+     "id": "2005-iv-9n3-facelift",
+     "name": "IV (9N3, Facelift)",
+     "yearFrom": 2005,
+     "yearTo": 2009,
+     "bodyType": "hatchback",
+     "lengthMm": 3916,
+     "widthMm": 1650,
+     "heightMm": 1467,
+     "wheelbaseMm": 2466,
+     "trunkL": 270,
+     "trunkFoldedL": 1030,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-1-4-benziner",
+       "name": "1.2 / 1.4 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 270,
+       "trunkFoldedL": 1030,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.4 Trendline 5-Türer (05/06-03/09): 270/1030 l."
+      },
+      {
+       "id": "1-4-1-9-tdi-diesel",
+       "name": "1.4 / 1.9 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 270,
+       "trunkFoldedL": 1030,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-polo-4-profile-19152",
+       "what": "VW: 9N3 length 3916, width 1650, height 1467 mm"
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/polo-iv-20012009-19150",
+       "what": "VW: 270 l boot (1030 l folded); 9N3 facelift sales from March 2005"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/polo/iv-facelift/206495/",
+       "what": "ADAC: wheelbase 2466 mm, 270/1030 l for 9N3"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 49,
+      "confirmed": 42,
+      "corrected": 0
+     },
+     "notes": "Pre-facelift Polo IV (9N, 2001-2005) was still sold in early 2005 but was not researched (budget). Polo GTI 9N3 and CrossPolo not split out (no specific data found). 9N2 (4179 mm) is the Polo Classic/sedan, not sold in Germany."
     }
    ]
   },
@@ -4501,6 +7269,173 @@
       "corrected": 0
      },
      "notes": "Pre-facelift Tiguan II, sold with model year 2020 until about 06/2020. All data are ADAC catalog values. Height is 1632 mm (FWD 1.5 TSI) or 1643 mm (4MOTION TDI entries). The 615 l figure is VW's headline value, which (as far as I know, not verified in this run) is measured with the sliding rear bench in its forward position. With the bench fully back the figure is lower. There was no PHEV before the facelift. Power figures for the pre-facelift engines were not verified one by one."
+    },
+    {
+     "id": "2011-5n-facelift-tiguan-i",
+     "name": "5N Facelift (Tiguan I)",
+     "yearFrom": 2011,
+     "yearTo": 2016,
+     "bodyType": "suv",
+     "lengthMm": 4426,
+     "widthMm": 1809,
+     "heightMm": 1703,
+     "wheelbaseMm": 2604,
+     "trunkL": 470,
+     "trunkFoldedL": 1510,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-tsi-benziner",
+       "name": "1.4 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 122,
+       "awd": false,
+       "trunkL": 470,
+       "trunkFoldedL": 1510,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Generation figure; no powertrain-specific difference reported."
+      },
+      {
+       "id": "2-0-tsi-4motion-benziner",
+       "name": "2.0 TSI 4MOTION (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 180,
+       "awd": true,
+       "trunkL": 470,
+       "trunkFoldedL": 1510,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": 470,
+       "trunkFoldedL": 1510,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Generation figure; no powertrain-specific difference reported."
+      },
+      {
+       "id": "2-0-tdi-4motion-diesel",
+       "name": "2.0 TDI 4MOTION (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 140,
+       "awd": true,
+       "trunkL": 470,
+       "trunkFoldedL": 1510,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDI BMT Sport & Style 4MOTION (06/11-05/15)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/i-facelift/227927/",
+       "what": "ADAC: length 4426, width 1809, height 1703, wheelbase 2604 mm, trunk 470/1510 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 49,
+      "confirmed": 42,
+      "corrected": 0
+     },
+     "notes": "Off-road front (Track & Field / Sport & Style off-road front) versions are slightly longer (third-party 4433 mm, unconfirmed). Height 1703 mm likely includes roof rails. No VW press data found within budget; ADAC only."
+    },
+    {
+     "id": "2007-5n-tiguan-i-vorfacelift",
+     "name": "5N (Tiguan I, Vorfacelift)",
+     "yearFrom": 2007,
+     "yearTo": 2011,
+     "bodyType": "suv",
+     "lengthMm": 4427,
+     "widthMm": 1809,
+     "heightMm": 1686,
+     "wheelbaseMm": 2604,
+     "trunkL": 470,
+     "trunkFoldedL": 1510,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-tsi-benziner",
+       "name": "1.4 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 470,
+       "trunkFoldedL": 1510,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Generation figure."
+      },
+      {
+       "id": "2-0-tsi-4motion-benziner",
+       "name": "2.0 TSI 4MOTION (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 170,
+       "awd": true,
+       "trunkL": 470,
+       "trunkFoldedL": 1510,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-4motion-diesel",
+       "name": "2.0 TDI 4MOTION (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 140,
+       "awd": true,
+       "trunkL": 470,
+       "trunkFoldedL": 1510,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDI DPF Sport & Style 4MOTION (02/08-10/08)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/i/213370/",
+       "what": "ADAC: length 4427, width 1809, height 1686, wheelbase 2604 mm, trunk 470 l normal / 1510 l folded"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/vw-tiguan-2-0-tdi-im-supertest/technische-daten/",
+       "what": "auto motor und sport: 470-1510 l (VDA), wheelbase 2604 mm"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 49,
+      "confirmed": 42,
+      "corrected": 0
+     },
+     "notes": "Track & Field off-road front version longer (ams test lists 4457 mm, unverified). Facelift 2011 split since length/height figures differ slightly. Tiguan Allspace is a separate nameplate."
     }
    ]
   },
@@ -4706,6 +7641,269 @@
       "corrected": 0
      },
      "notes": "The non-hybrid trunk volume could not be confirmed. kofferraum.org claims 655 l as the manufacturer figure, but that is implausible next to the eHybrid's 665 l, so trunkL was left null. Wheelbase was not found. Height 1712 mm comes from the Touareg R test (AMS); kofferraum.org also gives about 171 cm. Height may vary with air suspension. Whether the 2023 facelift (MY2024) changed dimensions or trunk volume was not verified, so it is kept in one entry. The full German engine line-up (V6 TDI 231/286 PS, V6 TSI, V8 TDI until about 2020, R eHybrid) was not verified because the search budget ran out."
+    },
+    {
+     "id": "2014-7p-2-generation-facelift-2014",
+     "name": "7P (2. Generation, Facelift 2014)",
+     "yearFrom": 2014,
+     "yearTo": 2018,
+     "bodyType": "suv",
+     "lengthMm": 4801,
+     "widthMm": 1940,
+     "heightMm": 1709,
+     "wheelbaseMm": 2893,
+     "trunkL": 580,
+     "trunkFoldedL": 1642,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "v6-tdi-scr-bmt-4motion-tiptronic-diesel",
+       "name": "V6 TDI SCR BMT 4MOTION Tiptronic (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 204,
+       "awd": true,
+       "trunkL": 580,
+       "trunkFoldedL": 1642,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 08/14-02/18: 4801 x 1940 x 1709 mm, 580/1642 l."
+      },
+      {
+       "id": "v6-tdi-scr-262-ps-4motion-tiptronic-diesel",
+       "name": "V6 TDI SCR 262 PS 4MOTION Tiptronic (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 262,
+       "awd": true,
+       "trunkL": 580,
+       "trunkFoldedL": 1642,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Higher-output V6 TDI (auto-data.net); trunk assumed as base diesel per VW page range (up to 580/1642 l)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/ii-facelift/242775/",
+       "what": "ADAC: V6 TDI SCR BMT (08/14-02/18) length 4801, width 1940, height 1709, trunk 580/1642 l (ADAC lists wheelbase 2904 mm)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/ii-facelift/242776/",
+       "what": "ADAC: V6 TDI SCR BMT facelift variant"
+      },
+      {
+       "url": "https://www.auto-data.net/en/volkswagen-touareg-ii-7p-facelift-2014-3.0-v6-tdi-204hp-scr-4motion-automatic-20396",
+       "what": "Facelift 4801/1940/1709 mm, wheelbase 2893 mm (cross-check)"
+      },
+      {
+       "url": "https://www.auto-data.net/en/volkswagen-touareg-ii-7p-facelift-2014-3.0-v6-tdi-262hp-scr-4motion-automatic-20468",
+       "what": "262 PS V6 TDI facelift variant"
+      },
+      {
+       "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/suv/touareg-2.html",
+       "what": "VW official: trunk up to 580/1642 l, facelift 2014 mentioned"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 70,
+      "confirmed": 68,
+      "corrected": 0
+     },
+     "notes": "Split from pre-facelift because length grew 4795 -> 4801 mm. ADAC lists wheelbase 2904 mm for the facelift, which conflicts with 2893 mm from mobile.de/auto-data (and 2904 is the Touareg III value); 2893 used, flag for review. Hybrid continued briefly into facelift (2014-2015) but its facelift trunk was not confirmed (likely 493/1555 as before) - not added as variant."
+    },
+    {
+     "id": "2010-7p-2-generation",
+     "name": "7P (2. Generation)",
+     "yearFrom": 2010,
+     "yearTo": 2014,
+     "bodyType": "suv",
+     "lengthMm": 4795,
+     "widthMm": 1940,
+     "heightMm": 1709,
+     "wheelbaseMm": 2893,
+     "trunkL": 580,
+     "trunkFoldedL": 1642,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "v6-tdi-4motion-tiptronic-diesel",
+       "name": "V6 TDI 4MOTION Tiptronic (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 580,
+       "trunkFoldedL": 1642,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Standard trunk per VW official predecessor page (up to 580/1642 l)."
+      },
+      {
+       "id": "v6-tsi-hybrid-4motion-tiptronic-hybrid",
+       "name": "V6 TSI Hybrid 4MOTION Tiptronic (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 380,
+       "awd": true,
+       "trunkL": 493,
+       "trunkFoldedL": 1555,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Full hybrid; battery under the load floor reduces trunk to 493/1555 l (ADAC, V6 TSI Hybrid 12/10-08/14; also listed on VW predecessor page). 333 PS system output per data portals (meinestadt), not confirmed by manufacturer source."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/suv/touareg-2.html",
+       "what": "VW official predecessor page Touareg 2 (2010-2018): luggage up to 580/1642 l and 493/1555 l (hybrid)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/ii/226992/",
+       "what": "ADAC: V6 TSI Hybrid (12/10-08/14) trunk 493 l normal, 1555 l folded"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/ii/272909",
+       "what": "ADAC: V6 TSI Hybrid Edition X trunk 493 l"
+      },
+      {
+       "url": "https://www.mobile.de/auto/vw/touareg/2010/suv/modell/daten-fakten/",
+       "what": "Length 4795, height 1709, wheelbase 2893 mm for 2010-2014 (data portal, fallback)"
+      },
+      {
+       "url": "https://www.automoli.com/de/vehicles/volkswagen/touareg/touareg-ii-7p-3791/",
+       "what": "Width 1940 mm without mirrors (data portal, cross-check)"
+      },
+      {
+       "url": "https://auto.meinestadt.de/technische-daten/vw/vw-touareg",
+       "what": "Hybrid 333 PS, hybrid trunk 493 l vs. diesel 580 l (cross-check)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/ii/222433",
+       "what": "Korrektur powerPs: ADAC (V6 TSI Hybrid 04/10-08/14): Systemleistung 279 kW (380 PS); the 3.0 V6 TSI combustion engine alone is 245 kW (333 PS) plus 34 kW (47 PS) e-motor. Autozeitung headline 'VW Touareg Hybrid: V6-Stromer mit 380 PS'. 333 PS is the petrol engine only, not system output."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 70,
+      "confirmed": 68,
+      "corrected": 1
+     },
+     "notes": "Dimensions for the pre-facelift 7P come from data portals (mobile.de, automoli) since no manufacturer/ADAC page with dimensions for 2010-2014 was found within budget; consistent across portals. Trunk values from VW official page and ADAC."
+    },
+    {
+     "id": "2002-7l-1-generation-inkl-facelift-2006",
+     "name": "7L (1. Generation, inkl. Facelift 2006)",
+     "yearFrom": 2002,
+     "yearTo": 2010,
+     "bodyType": "suv",
+     "lengthMm": 4754,
+     "widthMm": 1928,
+     "heightMm": 1726,
+     "wheelbaseMm": 2855,
+     "trunkL": 555,
+     "trunkFoldedL": 1570,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "v6-fsi-4motion-tiptronic-benziner-facelift",
+       "name": "V6 FSI 4MOTION Tiptronic (Benziner, Facelift)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 555,
+       "trunkFoldedL": 1570,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2007,
+       "yearTo": 2008,
+       "notes": "ADAC V6 FSI (11/06-11/08), facelift: 555/1570 l - confirms trunk unchanged by 2006 facelift."
+      },
+      {
+       "id": "v8-4motion-tiptronic-benziner",
+       "name": "V8 4MOTION Tiptronic (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 555,
+       "trunkFoldedL": 1570,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2003,
+       "yearTo": 2006,
+       "notes": "ADAC V8 (06/03-11/06): 555/1570 l."
+      },
+      {
+       "id": "v6-tdi-4motion-tiptronic-diesel",
+       "name": "V6 TDI 4MOTION Tiptronic (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 555,
+       "trunkFoldedL": 1570,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1726,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC: V6 TDI DPF (11/04-11/06) 4754 x 1928 x 1726 mm, 555/1570 l. Facelift 3.0 V6 TDI (11/06-05/10) ADAC page not found; assumed unchanged body, trunk not separately confirmed."
+      },
+      {
+       "id": "v10-tdi-4motion-tiptronic-diesel",
+       "name": "V10 TDI 4MOTION Tiptronic (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 313,
+       "awd": true,
+       "trunkL": 555,
+       "trunkFoldedL": 1570,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1703,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC V10 TDI DPF (11/04-11/06): 230 kW/313 PS, 4754 x 1928 x 1703 mm, wheelbase 2855 mm, 555/1570 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/i/200921/",
+       "what": "ADAC: V6 TDI DPF length 4754, width 1928 (without mirrors), height 1726, trunk 555/1570 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/i/200922/",
+       "what": "ADAC: V10 TDI 313 PS, 4754/1928/1703 mm, wheelbase 2855, trunk 555/1570 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/i/996054/",
+       "what": "ADAC: V8 trunk 555/1570 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/i-facelift/207930/",
+       "what": "ADAC: V6 FSI facelift (11/06-11/08) trunk 555/1570 l"
+      },
+      {
+       "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/suv/touareg-1.html",
+       "what": "VW official predecessor page Touareg 1 (Typ 7L): length 4754, wheelbase 2855, height 1703/1726 mm depending on variant; luggage ranges 500-1525 l and 555-1570 l both listed"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 70,
+      "confirmed": 68,
+      "corrected": 0
+     },
+     "notes": "Facelift 11/2006 (MY2007) did not change length or trunk per ADAC data. VW's own predecessor page lists two luggage ranges (500-1525 l and 555-1570 l) without (in search snippet) stating which variant has the smaller value; ADAC consistently gives 555/1570 for V6 TDI, V8, V10 TDI and V6 FSI facelift, so 555/1570 used. Height 1703 vs 1726 mm depends on variant (V10 TDI 1703 mm; likely air suspension) - generation height uses 1726 mm (V6 TDI). W12 and R50 variants not researched (search budget). An early ADAC Autotest (2003) measured 510/915 l on its own method - not used."
     }
    ]
   },
@@ -4798,6 +7996,317 @@
       "corrected": 0
      },
      "notes": "Trunk volumes conflict and no official VW or ADAC value was retrieved. carwow gives 834-1980 l, while autozeitung gives a maximum of 1857 l. The two are probably different measurement heights (roof-high vs. up to the front seat backrest), but this is not verified. 834 / 1980 are used here as the only sourced pair. The available 7-seat layout's volumes (third row folded = 5-seat value) were not found. The 2020/2023 updates did not change exterior dimensions as far as the sources show. The engine list is the 2020-2025 German line-up as I know it and was not verified, because the search budget ran out. yearTo is null on the assumption that the Touran is still on sale, which was not verified."
+    },
+    {
+     "id": "2010-1t-facelift-2010-typ-gp2",
+     "name": "1T (Facelift 2010, Typ GP2)",
+     "yearFrom": 2010,
+     "yearTo": 2015,
+     "bodyType": "van",
+     "lengthMm": 4397,
+     "widthMm": 1794,
+     "heightMm": 1674,
+     "wheelbaseMm": 2678,
+     "trunkL": 695,
+     "trunkFoldedL": 1989,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-tsi-benziner",
+       "name": "1.4 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 695,
+       "trunkFoldedL": 1989,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Same body as diesel; trunk value not separately confirmed for TSI."
+      },
+      {
+       "id": "crosstouran-1-4-tsi-benziner",
+       "name": "CrossTouran 1.4 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 695,
+       "trunkFoldedL": 1989,
+       "lengthMm": 4406,
+       "widthMm": 1799,
+       "heightMm": 1685,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC CrossTouran 1.4 TSI (08/10-04/15): 4406 x 1799 x 1685 mm, 695/1989 l."
+      },
+      {
+       "id": "1-6-tdi-bmt-diesel",
+       "name": "1.6 TDI BMT (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 695,
+       "trunkFoldedL": 1989,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.6 TDI BMT Comfortline (08/10-04/15): 4397/1674 mm, 695/1989 l."
+      },
+      {
+       "id": "2-0-tdi-bmt-diesel",
+       "name": "2.0 TDI BMT (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 695,
+       "trunkFoldedL": 1989,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDI BMT Highline (10/10-04/15): 4397/1794 mm, wheelbase 2678."
+      },
+      {
+       "id": "1-4-tgi-ecofuel-erdgas",
+       "name": "1.4 TGI EcoFuel (Erdgas)",
+       "powertrain": "cng",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 592,
+       "trunkFoldedL": 1886,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.4 TGI BlueMotion DSG (08/10-04/15): trunk reduced to 592/1886 l (CNG tanks)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mpv/touran-1.html",
+       "what": "VW official: Typ GP2 length 4397 mm, height 1674 mm (closed tailgate, no antenna), luggage up to 1989 l (5-seater), minimum 695 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift-2/225762/",
+       "what": "ADAC: 2.0 TDI BMT Highline length 4397, width 1794 (without mirrors), wheelbase 2678"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift-2/223120/",
+       "what": "ADAC: 1.6 TDI BMT 4397/1674 mm, trunk 695/1989 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift-2/223977/",
+       "what": "ADAC: 1.4 TGI (CNG) trunk 592/1886 l, 4397/1674 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift-2/224590",
+       "what": "ADAC: CrossTouran 1.4 TSI 4406 x 1799 x 1685 mm, 695/1989 l"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 70,
+      "confirmed": 68,
+      "corrected": 0
+     },
+     "notes": "Split because length (4397) and height (1674, roof rails standard from Comfortline) changed. 7-seat VDA values not found."
+    },
+    {
+     "id": "2007-1t-facelift-2006-typ-gp",
+     "name": "1T (Facelift 2006, Typ GP)",
+     "yearFrom": 2007,
+     "yearTo": 2010,
+     "bodyType": "van",
+     "lengthMm": 4407,
+     "widthMm": 1794,
+     "heightMm": 1635,
+     "wheelbaseMm": 2678,
+     "trunkL": 695,
+     "trunkFoldedL": 1989,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "crosstouran-1-4-tsi-benziner",
+       "name": "CrossTouran 1.4 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 695,
+       "trunkFoldedL": 1989,
+       "lengthMm": 4407,
+       "widthMm": 1799,
+       "heightMm": 1670,
+       "yearFrom": 2007,
+       "yearTo": null,
+       "notes": "ADAC CrossTouran 1.4 TSI DSG (05/09-04/10): 4407 x 1799 x 1670 mm, 695/1989 l. Off-road styled trim, not AWD."
+      },
+      {
+       "id": "1-4-tsi-benziner",
+       "name": "1.4 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": 695,
+       "trunkFoldedL": 1989,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "1.4 TSI 140 PS per auto-data.net; trunk same body."
+      },
+      {
+       "id": "1-9-tdi-diesel",
+       "name": "1.9 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 695,
+       "trunkFoldedL": 1989,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.9 TDI DPF Trendline (11/06-04/10)."
+      },
+      {
+       "id": "2-0-ecofuel-erdgas",
+       "name": "2.0 EcoFuel (Erdgas)",
+       "powertrain": "cng",
+       "powerPs": 109,
+       "awd": false,
+       "trunkL": 695,
+       "trunkFoldedL": 1989,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2009,
+       "notes": "ADAC 2.0 EcoFuel Highline (11/06-05/09): 4407/1794/1635 mm, 695/1989 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift/208175/",
+       "what": "ADAC: 1.9 TDI DPF facelift length 4407, wheelbase 2678, height and trunk unchanged (1635 mm, 695/1989 l)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift/208169/",
+       "what": "ADAC: 2.0 EcoFuel Highline 4407/1794/1635/2678 mm, trunk 695/1989 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i-facelift/218883",
+       "what": "ADAC: CrossTouran 1.4 TSI DSG 4407 x 1799 x 1670 mm, 695/1989 l"
+      },
+      {
+       "url": "https://www.auto-data.net/en/volkswagen-touran-i-facelift-2006-1.4-tsi-140hp-8535",
+       "what": "1.4 TSI 140 PS facelift 2006 variant"
+      },
+      {
+       "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mpv/touran-1.html",
+       "what": "VW official: Typ GP length 4407 mm, height 1635 mm (closed tailgate, no antenna), 5-seater luggage up to 1989 l"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 70,
+      "confirmed": 68,
+      "corrected": 0
+     },
+     "notes": "Split from 2003 car because length grew 4391 -> 4407 mm. 7-seat VDA values not found."
+    },
+    {
+     "id": "2003-1t-1-generation",
+     "name": "1T (1. Generation)",
+     "yearFrom": 2003,
+     "yearTo": 2006,
+     "bodyType": "van",
+     "lengthMm": 4391,
+     "widthMm": 1794,
+     "heightMm": 1635,
+     "wheelbaseMm": 2677,
+     "trunkL": 695,
+     "trunkFoldedL": 1989,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-9-tdi-diesel",
+       "name": "1.9 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 695,
+       "trunkFoldedL": 1989,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.9 TDI Trendline DSG (10/03-09/06)."
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 695,
+       "trunkFoldedL": 1989,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDI Highline (06/04-09/06) listed; trunk assumed identical body."
+      },
+      {
+       "id": "2-0-ecofuel-erdgas",
+       "name": "2.0 EcoFuel (Erdgas)",
+       "powertrain": "cng",
+       "powerPs": 109,
+       "awd": false,
+       "trunkL": 695,
+       "trunkFoldedL": 1989,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2006,
+       "yearTo": 2006,
+       "notes": "ADAC EcoFuel Goal/Trendline/Conceptline/Highline (05/06-09/06): 695/1989 l, gas tanks under floor without interior restriction."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i/997251/",
+       "what": "ADAC: 1.9 TDI (10/03-09/06) length 4391, width 1794, height 1635, wheelbase 2677, trunk 695/1989 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i/999267/",
+       "what": "ADAC: 2.0 TDI Highline (06/04-09/06) entry"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touran/i/206564/",
+       "what": "ADAC: 2.0 EcoFuel Trendline (07/06-09/06) trunk 695/1989 l"
+      },
+      {
+       "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mpv/touran-1.html",
+       "what": "VW official predecessor page Touran Typ 1T (2003-2015): 5-seater luggage up to 1989 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 70,
+      "confirmed": 68,
+      "corrected": 0
+     },
+     "notes": "Optional 3rd row (7-seater) existed; 7-seat VDA values not found in manufacturer/ADAC sources (forum cites 600/1913 l from touran.de - not used). Petrol 1.6 FSI / 2.0 FSI variants not separately researched; same body, trunk expected identical."
     }
    ]
   }

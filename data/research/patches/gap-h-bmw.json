@@ -1,0 +1,12 @@
+{
+ "id": "gap-h-bmw",
+ "kind": "gaps",
+ "patches": [],
+ "notFound": [
+  "3er Limousine | F30 LCI (Facelift) | trunkFoldedL - BMW publishes no folded-seat volume for the sedan; ADAC Autokatalog lists only 480 l normal. Only the German Wikipedia and a motor-talk forum post give 655 l, and neither is a manufacturer, ADAC or major-magazine source",
+  "3er Limousine | F30 | trunkFoldedL - same as F30 LCI: the only figure found is 655 l, from Wikipedia and a forum, with no manufacturer, ADAC or ams/AUTO BILD confirmation",
+  "3er Limousine | E90 LCI (Facelift) | trunkFoldedL - only 460 l normal found (ADAC Autokatalog); no folded value for the sedan (folding rear seats were an option)",
+  "3er Limousine | E90 | trunkFoldedL - only 460 l normal found; no folded value for the sedan",
+  "3er Limousine | E46 (Facelift) | trunkFoldedL - only 440 l normal found; folded figures found apply only to the Touring (1345 l)"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "id": "gap-h-seat",
+ "kind": "gaps",
+ "patches": [
+  {
+   "model": "Leon",
+   "generation": "1M (Leon I)",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 656,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/1m/110280/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog, SEAT Leon 1.9 TDI Top Sport (05/02-01/05): Kofferraumvolumen normal 340 l, bei umgeklappter Rücksitzbank 656 l (Herstellerangabe im Katalog, keine ADAC-Messung)"
+  }
+ ],
+ "notFound": []
+}

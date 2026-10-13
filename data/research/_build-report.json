@@ -1,14 +1,16 @@
 {
  "stats": {
   "models": 101,
-  "generations": 144,
-  "variants": 576
+  "generations": 303,
+  "variants": 1080
  },
  "patchStats": {
-  "applied": 200,
+  "applied": 205,
   "skippedExisting": 8,
   "unmatched": 0
  },
- "warnings": [],
+ "warnings": [
+  "Hyundai Tucson / JM: Kofferraum 325 l wirkt im Verhältnis zur Fahrzeuggröße unplausibel (24 ‰)"
+ ],
  "unapplied": []
 }

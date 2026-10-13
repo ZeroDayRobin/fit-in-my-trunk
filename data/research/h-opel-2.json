@@ -1,0 +1,283 @@
+{
+ "id": "h-opel-2",
+ "brand": "Opel",
+ "data": {
+  "models": [
+   {
+    "brand": "Opel",
+    "model": "Mokka",
+    "generations": [
+     {
+      "name": "Mokka A (J13)",
+      "yearFrom": 2012,
+      "yearTo": 2016,
+      "bodyType": "suv",
+      "lengthMm": 4278,
+      "widthMm": 1777,
+      "heightMm": 1658,
+      "wheelbaseMm": 2555,
+      "trunkL": 362,
+      "trunkFoldedL": 1372,
+      "loadSpace": {
+       "lengthMm": null,
+       "widthMm": null,
+       "widthBetweenArchesMm": null,
+       "heightMm": null,
+       "openingHeightMm": null,
+       "sillHeightMm": 695,
+       "lengthFoldedMm": null,
+       "source": "https://www.auto-motor-und-sport.de/fahrbericht/opel-mokka-16-edition-basis-suv-mit-vorderradantrieb/technische-daten/ (auto motor und sport, Ladekantenhöhe 695 mm, Mokka 1.6 Edition)"
+      },
+      "variants": [
+       {
+        "name": "1.6 ECOTEC 115 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 115,
+        "awd": false,
+        "trunkL": 362,
+        "trunkFoldedL": 1372,
+        "yearFrom": 2012,
+        "yearTo": 2016,
+        "notes": "Einstiegsmotor, nur Frontantrieb."
+       },
+       {
+        "name": "1.4 Turbo 140 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 140,
+        "awd": false,
+        "trunkL": 362,
+        "trunkFoldedL": 1372,
+        "yearFrom": 2013,
+        "yearTo": 2016,
+        "notes": "Frontantrieb-Version ab 2013 (ADAC 07/13); auch als Automatik."
+       },
+       {
+        "name": "1.4 Turbo 4x4 140 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 140,
+        "awd": true,
+        "trunkL": 362,
+        "trunkFoldedL": 1372,
+        "yearFrom": 2012,
+        "yearTo": 2016,
+        "notes": "ADAC Autokatalog nennt fuer 4x4 identische Kofferraumwerte (362/785 fensterhoch/1372 l)."
+       },
+       {
+        "name": "1.4 LPG ecoFlex 140 PS (Autogas)",
+        "powertrain": "lpg",
+        "powerPs": 140,
+        "awd": false,
+        "trunkL": 362,
+        "trunkFoldedL": 1372,
+        "yearFrom": 2013,
+        "yearTo": 2016,
+        "notes": "ADAC (Edition Autogasbetrieb 11/13-06/16): 362/785/1372 l, kein Volumenverlust angegeben."
+       },
+       {
+        "name": "1.7 CDTI 130 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 130,
+        "awd": false,
+        "trunkL": 362,
+        "trunkFoldedL": 1372,
+        "yearFrom": 2012,
+        "yearTo": 2015,
+        "notes": "Auch als 4x4 (ADAC 10/12-06/15, gleiche Kofferraumwerte); ab 12/2014 durch 1.6 CDTI ersetzt."
+       },
+       {
+        "name": "1.6 CDTI 136 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 136,
+        "awd": false,
+        "trunkL": 362,
+        "trunkFoldedL": 1372,
+        "yearFrom": 2015,
+        "yearTo": 2016,
+        "notes": "Auch als 4x4 (ADAC 12/14-06/16, gleiche Kofferraumwerte)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://media.gm.com/content/Pages/presskits/ie/en/2012/10_24_opel_mokka_launch/_jcr_content/iconrow/wordfile/file.res/1.Opel%20Mokka-Summary.doc",
+        "what": "Opel-Pressemappe Markteinfuehrung 2012: Kofferraum 362 l (Rücksitze aufrecht, bis Abdeckung), 785 l bis Vordersitzlehne, bis 1372 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/mokka/a/232861",
+        "what": "ADAC Autokatalog 1.7 CDTI 4x4 (10/12-06/15): Länge 4278, Breite 1777 (ohne Spiegel), Höhe 1658 mm, Kofferraum 362/785/1372 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/mokka/a/238036",
+        "what": "ADAC Autokatalog 1.4 Turbo Edition Frontantrieb (07/13-12/14): Kofferraum 362 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/mokka/a/239414",
+        "what": "ADAC Autokatalog 1.4 LPG ecoFlex (11/13-06/16): 140 PS, Kofferraum 362/785/1372 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/mokka/a/244155",
+        "what": "ADAC Autokatalog 1.6 CDTI 4x4 (12/14-06/16): Abmessungen/Kofferraum, 136 PS"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/test/opel-mokka-im-innenraum-check-komfortzwang-und-tastenflut-garantiert/technische-daten/",
+        "what": "auto motor und sport: Außenmaße 4278 x 1777 x 1658 mm, Radstand 2555 mm (Bestätigung)"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/preise-opel-mokka-ami-2012--3475838.html",
+        "what": "AUTO BILD: Motorenangebot zum Marktstart (1.6 115 PS, 1.4 Turbo 140 PS 4x4, 1.7 CDTI 130 PS)"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Haeufig zitierte 356 l stammen vom Mokka X bzw. Drittquellen; Opel-Pressemappe 2012 und ADAC nennen fuer den Mokka A 362 l. Rücksitze fensterhoch umgeklappt 785 l, dachhoch 1372 l. Radstand aus auto motor und sport (ADAC-Seite der Variante bestaetigt per Suchzusammenfassung nicht explizit). Keine offizielle Ladelaenge/Ladebreite gefunden."
+     },
+     {
+      "name": "Mokka X (Mokka A Facelift)",
+      "yearFrom": 2016,
+      "yearTo": 2019,
+      "bodyType": "suv",
+      "lengthMm": 4275,
+      "widthMm": 1781,
+      "heightMm": 1658,
+      "wheelbaseMm": 2555,
+      "trunkL": 356,
+      "trunkFoldedL": 1372,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 ECOTEC 115 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 115,
+        "awd": false,
+        "trunkL": 356,
+        "trunkFoldedL": 1372,
+        "yearFrom": 2016,
+        "yearTo": 2019
+       },
+       {
+        "name": "1.4 Turbo 140 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 140,
+        "awd": false,
+        "trunkL": 356,
+        "trunkFoldedL": 1372,
+        "yearFrom": 2016,
+        "yearTo": 2019,
+        "notes": "Schaltgetriebe oder Automatik; auch als 4x4 mit Schaltgetriebe."
+       },
+       {
+        "name": "1.4 DI Turbo 4x4 152 PS Automatik (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 152,
+        "awd": true,
+        "trunkL": 356,
+        "trunkFoldedL": 1372,
+        "yearFrom": 2016,
+        "yearTo": 2018,
+        "notes": "Laut angurten.de nicht mehr in Preisliste vom 4.6.2018. Kofferraum fuer 4x4-Versionen laut ADAC identisch (356 l)."
+       },
+       {
+        "name": "1.4 LPG ecoFlex 140 PS (Autogas)",
+        "powertrain": "lpg",
+        "powerPs": 140,
+        "awd": false,
+        "trunkL": 356,
+        "trunkFoldedL": null,
+        "yearFrom": 2016,
+        "yearTo": 2019,
+        "notes": "ADAC nennt 356 l normal; Maximalvolumen fuer LPG nicht explizit bestaetigt."
+       },
+       {
+        "name": "1.6 CDTI 110 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 110,
+        "awd": false,
+        "trunkL": 356,
+        "trunkFoldedL": 1372,
+        "yearFrom": 2016,
+        "yearTo": 2019
+       },
+       {
+        "name": "1.6 CDTI 136 PS (Diesel, auch 4x4)",
+        "powertrain": "diesel",
+        "powerPs": 136,
+        "awd": false,
+        "trunkL": 356,
+        "trunkFoldedL": 1372,
+        "yearFrom": 2016,
+        "yearTo": 2019,
+        "notes": "4x4-Version (ADAC 10/16-07/17 und 03/18-06/19): gleiche Maße und 356/785/1372 l."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/mokka/a-facelift/256919/",
+        "what": "ADAC Autokatalog Mokka X 1.6 CDTI 4x4 (10/16-07/17): Länge 4275, Breite 1781 (ohne Spiegel), Höhe 1658, Radstand 2555 mm, Kofferraum 356/785/1372 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/mokka/a-facelift/256888/",
+        "what": "ADAC Autokatalog Mokka X 1.4 Turbo Edition (10/16-07/17): Länge 4275 mm, Kofferraum 356/785/1372 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/mokka/a-facelift/256904",
+        "what": "ADAC Autokatalog Mokka X 1.4 LPG (10/16-07/17): Kofferraum 356 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/mokka/a-facelift/288228",
+        "what": "ADAC Autokatalog Mokka X 1.6 Diesel 4x4 (03/18-06/19): gleiche Maße und Kofferraum, Bauzeit bis 06/19"
+       },
+       {
+        "url": "https://www.angurten.de/is/motoren/1643-opel-mokka-x",
+        "what": "Motorenangebot/Listenpreise Deutschland (115, 140, 152 PS 4x4, 1.6 CDTI 110/136 PS, LPG)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Historischer Name 'Mokka X'. Gegenueber Mokka A neue Front (Länge 4275 statt 4278 mm, Breite 1781 statt 1777 mm) und Kofferraum laut ADAC 356 l statt 362 l. Keine Opel-Pressemappe mit technischen Daten gefunden; Werte aus ADAC Autokatalog (Herstellerangaben). Fensterhoch umgeklappt 785 l."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Mokka A loadSpace length/width/opening height (only sill height from auto motor und sport)",
+   "Mokka X loadSpace (all values)",
+   "Mokka X official Opel press-kit technical data (ADAC used)",
+   "Mokka X 1.4 LPG trunkFoldedL (not explicitly confirmed)"
+  ],
+  "notes": "Predecessor of Mokka B: Mokka A (2012-2016) and its facelift sold as Mokka X (2016-2019), split because length/width and trunk volume changed. No Mokka before 2012."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "Mokka",
+    "generation": "Mokka X (Mokka A Facelift)",
+    "variant": "1.4 LPG ecoFlex 140 PS (Autogas)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1372,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/mokka/a-facelift/256904",
+    "evidence": "ADAC Autokatalog Mokka X 1.4 LPG ecoFlex Innovation (Autogasbetrieb) 10/16-07/17: Kofferraumvolumen normal 356 l, fensterhoch 785 l, dachhoch mit umgeklappter Rücksitzbank 1372 l. Same for Active (256902) and 1.4 ECOTEC LPG 06/18-12/18 (291722)."
+   },
+   {
+    "model": "Mokka",
+    "generation": "Mokka A (J13)",
+    "variant": null,
+    "field": "loadSpace.widthBetweenArchesMm",
+    "oldValue": null,
+    "newValue": 1000,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/fahrbericht/opel-mokka-16-edition-basis-suv-mit-vorderradantrieb/technische-daten/",
+    "evidence": "auto motor und sport Testdaten Mokka 1.6 Edition (04/2013): Breite zwischen Radkästen 1000 mm (Messwert ams, same page as the 695 mm Ladekantenhöhe already used). Not a manufacturer figure."
+   }
+  ],
+  "missing": [
+   {
+    "model": "Mokka",
+    "detail": "Mokka A (J13): 1.6 CDTI ecoFlex Start&Stop 110 PS (81 kW) Diesel, Frontantrieb, 6-Gang manuell, ADAC Modellzeitraum 06/15-06/16 (e.g. https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/mokka/a/248717). Trunk presumably 362/785/1372 l like other Mokka A variants (not separately verified)."
+   },
+   {
+    "model": "Mokka",
+    "detail": "Mokka X: 1.4 (ECOTEC) Turbo Start/Stop 120 PS (88 kW) Benziner, Frontantrieb, Schaltgetriebe, listed by angurten.de German engine list (https://www.angurten.de/is/motoren/1643-opel-mokka-x, ab 20.495 EUR) and fastcarcheck/topgear.nl; no ADAC catalogue entry found to confirm German availability dates. Trunk presumably 356/1372 l (not verified)."
+   }
+  ],
+  "checkedValues": 42,
+  "confirmedValues": 40,
+  "notes": "Mokka A dimensions 4278x1777x1658, wheelbase 2555 confirmed by ams and encycarpedia; trunk 362/785/1372 confirmed by ADAC (manufacturer data) and Italian/Spanish spec sites; ams test data quotes 356-1372 l and ADAC Gebrauchtwagen-Ratgeber quotes 356 l, but ADAC catalogue/press kit 362 l retained. Mokka X 4275x1781x1658, 2555 mm, 356/785/1372 l confirmed by ADAC (280713 etc.); AutoScout24.at shows 1802 mm width for some trims (likely different measurement), not treated as correction. 1.4 DI Turbo 152 PS 4x4 Automatik ADAC entry runs to 06/18, confirming yearTo 2018. Mokka X production ends 06/19 per ADAC. Sill height 695 mm confirmed by ams."
+ }
+}

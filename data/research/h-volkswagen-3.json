@@ -1,0 +1,445 @@
+{
+ "id": "h-volkswagen-3",
+ "brand": "Volkswagen",
+ "data": {
+  "models": [
+   {
+    "brand": "Volkswagen",
+    "model": "Multivan langer Überhang",
+    "generations": [
+     {
+      "name": "T6 Multivan lang (langer Radstand)",
+      "yearFrom": 2015,
+      "yearTo": 2019,
+      "bodyType": "van",
+      "lengthMm": 5304,
+      "widthMm": 1904,
+      "heightMm": 1990,
+      "wheelbaseMm": 3400,
+      "trunkL": null,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 TDI BMT (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "ADAC Autokatalog T6 Multivan lang 2.0 TDI BMT Comfortline (07/15-08/18, 12/16-08/18): 5304 x 1904 x 1990 mm, Radstand 3400 mm."
+       },
+       {
+        "name": "2.0 TSI BMT (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "ADAC Autokatalog T6 Multivan lang 2.0 TSI BMT Comfortline (12/15-08/18) listed; dimensions same across variants per ADAC."
+       },
+       {
+        "name": "2.0 TDI BMT 4MOTION (Diesel, Allrad)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "ADAC Autokatalog T6 Multivan lang 2.0 TDI BMT Join 4MOTION (01/18-08/18): same 5304 mm length, 1990 mm height, 3400 mm wheelbase."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t6/266545/",
+        "what": "ADAC: T6 Multivan lang length 5304, height 1990, wheelbase 3400, width 1904 (2297 with mirrors)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t6/248081/",
+        "what": "ADAC: T6 Multivan lang 2.0 TDI BMT Comfortline (07/15-08/18), model period"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t6/261677/",
+        "what": "ADAC: T6 Multivan lang 2.0 TSI variant exists"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t6/286899/",
+        "what": "ADAC: T6 Multivan lang 4MOTION variant, same dimensions"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Volkswagen_Transporter_(T6)",
+        "what": "Cross-check LWB 3400 mm wheelbase / 5304 mm length"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Predecessor of the T7 'langer Überhang' is the T6 Multivan with long wheelbase (Multivan lang): the T7 extends rear overhang, T6 extended wheelbase. No VDA luggage volume published for the Multivan (seat rails, variable seating), so trunk values null. Dimensions are from ADAC (manufacturer data); no VW press kit found. The T6.1 Multivan lang (MY 2020-2021) and the T5 Multivan lang were not included (see notFound)."
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Passat Alltrack",
+    "generations": [
+     {
+      "name": "B7 (Passat Alltrack)",
+      "yearFrom": 2012,
+      "yearTo": 2014,
+      "bodyType": "wagon",
+      "lengthMm": 4771,
+      "widthMm": 1820,
+      "heightMm": 1550,
+      "wheelbaseMm": 2712,
+      "trunkL": 588,
+      "trunkFoldedL": 1716,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 TDI BMT 4MOTION 140 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 140,
+        "awd": true,
+        "trunkL": 588,
+        "trunkFoldedL": 1716,
+        "notes": "ADAC Autokatalog (03/12-09/14): 4771 mm, height 1550 mm, 588/1716 l. Power 103 kW/140 PS per AutoKlicker."
+       },
+       {
+        "name": "2.0 TDI BMT 4MOTION DSG (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2013,
+        "notes": "ADAC lists 02/13-09/14; trunk value not shown in result, likely identical to generation value (not verified)."
+       },
+       {
+        "name": "TSI (Benziner, 2 Motoren)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Launch range had two petrol and two diesel engines, 140-210 PS; 210 PS TSI with 4MOTION standard (angurten.de news). Trunk per engine not verified."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b7/230794",
+        "what": "ADAC: length 4771, height 1550, trunk 588 l, folded 1716 l (2.0 TDI BMT 4MOTION 03/12-09/14)"
+       },
+       {
+        "url": "https://www.conceptcarz.com/z21193/volkswagen-passat-alltrack.aspx",
+        "what": "VW press release (Feb 2012, English): length 4771 mm, width 1820 mm"
+       },
+       {
+        "url": "https://autoklicker.de/autokatalog/volkswagen-passat-20-tdi-4motion-bluemotion-technology-technische-daten10252.html",
+        "what": "Wheelbase 2712 mm, width 1820, 103 kW/140 PS, 588-1716 l"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/test/vw-passat-alltrack-2-0-tdi/technische-daten/",
+        "what": "Cross-check 588-1716 l; wheelbase given as 2710 mm"
+       },
+       {
+        "url": "https://www.angurten.de/is/news/2126-vw-passat-9-variant/2493",
+        "what": "Engine line-up 140-210 PS, 4MOTION standard on 170 PS TDI and 210 PS TSI"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Wheelbase 2712 (AutoKlicker) vs 2710 (ams). ADAC Autotest measured only 465 l to cover (own method), not used."
+     },
+     {
+      "name": "B8 (vor Facelift)",
+      "yearFrom": 2015,
+      "yearTo": 2019,
+      "bodyType": "wagon",
+      "lengthMm": 4777,
+      "widthMm": 1832,
+      "heightMm": 1506,
+      "wheelbaseMm": 2789,
+      "trunkL": 639,
+      "trunkFoldedL": 1769,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 TDI SCR BMT 4MOTION DSG (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 639,
+        "trunkFoldedL": 1769,
+        "notes": "ADAC Autokatalog (06/15-08/18): 4777 x 1832 x 1506 mm, wheelbase 2789, 639/1769 l."
+       },
+       {
+        "name": "2.0 TDI 240 PS 4MOTION DSG (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 240,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "176 kW variant mentioned in ADAC listing; trunk not separately verified."
+       },
+       {
+        "name": "2.0 TSI 220 PS 4MOTION DSG (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 220,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "heightMm": null,
+        "notes": "162 kW/220 PS listed by mobile.de (height 1530 mm there). Trunk not separately verified."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8/248308/",
+        "what": "ADAC: length 4777, width 1832 (2083 with mirrors), height 1506, wheelbase 2789, trunk 639 l, folded 1769 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/vw/passat-alltrack/2015/kombi/modell/daten-fakten/",
+        "what": "Cross-check length 4777, 639/1769 l; height 1530; 220 PS TSI"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Height conflicts: ADAC 1506 mm vs mobile.de/AutoScout24 1530 mm; ADAC value used. AutoScout24 lists width 1820 for some versions."
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Passat Limousine",
+    "generations": [
+     {
+      "name": "B6",
+      "yearFrom": 2005,
+      "yearTo": 2010,
+      "bodyType": "sedan",
+      "lengthMm": 4765,
+      "widthMm": 1820,
+      "heightMm": 1472,
+      "wheelbaseMm": 2709,
+      "trunkL": 565,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 FSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 565,
+        "trunkFoldedL": null,
+        "notes": "ADAC 2.0 FSI Sportline (03/05-10/07): 4765 mm, 565 l, rear bench foldable as standard."
+       },
+       {
+        "name": "2.0 TDI DPF (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 565,
+        "trunkFoldedL": null,
+        "notes": "ADAC 2.0 TDI DPF Highline DSG (10/05-05/08): 4765 mm, 565 l."
+       },
+       {
+        "name": "1.4 TSI EcoFuel (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 485,
+        "trunkFoldedL": 1011,
+        "yearFrom": 2009,
+        "yearTo": 2010,
+        "notes": "ADAC (01/09-10/10): 485 l normal, 1011 l window-high with rear bench folded; CNG tanks reduce trunk."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b6/201861/",
+        "what": "ADAC: length 4765, trunk 565 l (2.0 FSI)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b6/203036/",
+        "what": "ADAC: length 4765, trunk 565 l (2.0 TDI)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b6/217515/",
+        "what": "ADAC: EcoFuel trunk 485 l / 1011 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/vw/passat/2005/limousine/modell/daten-fakten/",
+        "what": "Height 1472, wheelbase 2709, 565 l"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/VW_Passat_B6",
+        "what": "Width 1820 mm without mirrors, wheelbase 2709"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "English Wikipedia gives 4780 mm length for 2005-2008 and 4765 for 2009-2010; ADAC shows 4765 already for 2005 cars. Folded volume for 565 l versions not found. 4MOTION and V6 trunk not verified."
+     },
+     {
+      "name": "B7",
+      "yearFrom": 2010,
+      "yearTo": 2014,
+      "bodyType": "sedan",
+      "lengthMm": 4769,
+      "widthMm": 1820,
+      "heightMm": 1470,
+      "wheelbaseMm": 2712,
+      "trunkL": 565,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 BlueTDI 140 PS DSG (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 140,
+        "awd": false,
+        "trunkL": 565,
+        "trunkFoldedL": null,
+        "notes": "ADAC (02/11-09/14): 4769 x 1820 x 1470 mm, wheelbase 2712, 565 l."
+       },
+       {
+        "name": "TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 565,
+        "trunkFoldedL": null,
+        "notes": "565 l per mobile.de generation data; not per-engine verified."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b7/227448/",
+        "what": "ADAC: length 4769, width 1820 (2062 with mirrors), height 1470, wheelbase 2712, trunk 565 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/vw/passat/2010/limousine/modell/daten-fakten/",
+        "what": "Cross-check 4769 mm, 2712 mm, 565 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Height 1462 mm in some databases vs ADAC 1470. Folded volume not found. EcoFuel/4MOTION trunk values not verified."
+     },
+     {
+      "name": "B8 (vor Facelift)",
+      "yearFrom": 2014,
+      "yearTo": 2019,
+      "bodyType": "sedan",
+      "lengthMm": 4767,
+      "widthMm": 1832,
+      "heightMm": 1476,
+      "wheelbaseMm": 2786,
+      "trunkL": 586,
+      "trunkFoldedL": 1152,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 TDI SCR BMT 150 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 586,
+        "trunkFoldedL": 1152,
+        "notes": "ADAC (10/17-08/18): 4767 x 1832 x 1476 mm, wheelbase 2786; 586 l, 1152 l window-high with rear bench folded."
+       },
+       {
+        "name": "GTE (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 218,
+        "awd": false,
+        "trunkL": 402,
+        "trunkFoldedL": 968,
+        "yearFrom": 2015,
+        "notes": "1.4 TSI Plug-In-Hybrid DSG, 218 PS; 402-968 l per AutoScout24 / autoradio-info (no ADAC or VW source found for the sedan); battery under trunk floor."
+       },
+       {
+        "name": "TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 586,
+        "trunkFoldedL": null,
+        "notes": "586 l per mobile.de generation data, not per-engine verified."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8/284173/",
+        "what": "ADAC: length 4767, width 1832, height 1476, wheelbase 2786, trunk 586 l / 1152 l (fensterhoch)"
+       },
+       {
+        "url": "https://www.mobile.de/auto/vw/passat/2014/limousine/modell/daten-fakten/",
+        "what": "Cross-check 586 l (lists 4775 mm length, 1483 height)"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/volkswagen/passat/passat-1-4-tsi-plug-in-hybrid-dsg-2015-2021-limousine-benzin-elektro-plugin/",
+        "what": "GTE Limousine trunk 402-968 l"
+       },
+       {
+        "url": "https://www.autoradio-info.de/vw-passat-masse-kofferraumvolumen/",
+        "what": "GTE Limousine 402 l, Limousine 586 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "trunkFoldedL 1152 l is measured window-high (fensterhoch). mobile.de lists 4775 mm length / 1483 mm height; ADAC values used. GTE values from lower-priority sources."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Multivan langer Überhang T6 lang trunkL / trunkFoldedL (no VDA volume published)",
+   "Multivan langer Überhang T6.1 lang (MY 2020-2021) - not included, no dedicated source found",
+   "Multivan langer Überhang T5 Multivan lang - years and height not sourced (only 5292 mm length from non-official source)",
+   "Multivan T6 lang powerPs per variant",
+   "Passat Limousine B6 trunkFoldedL",
+   "Passat Limousine B6 powerPs per variant",
+   "Passat Limousine B7 trunkFoldedL",
+   "Passat Limousine B6/B7/B8 4MOTION trunk values",
+   "Passat Alltrack B7 petrol variants trunk",
+   "Passat Alltrack B8 TSI 220 PS / TDI 240 PS trunk",
+   "loadSpace for all generations"
+  ],
+  "notes": "WebSearch budget (20) used; one call failed with rate limit. No VW press kit numbers were directly retrievable; ADAC Autokatalog (manufacturer data) used as main source. Model years: B7 Limousine from 11/2010, B8 Limousine from late 2014 until 2019 facelift."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "Passat Limousine",
+    "generation": "B8 (vor Facelift)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": 1476,
+    "newValue": 1456,
+    "sourceUrl": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mittelklasse/passat-b8.html",
+    "evidence": "Official VW predecessor-model page for Passat B8: Limousine height 1456 mm (closed trunk, without antenna/roof rails); Variant 1477 mm. Also carwow.co.uk and fastcarcheck.uk give 1456 mm for the saloon. ADAC/ams 1476 mm is a non-manufacturer-preferred value."
+   },
+   {
+    "model": "Passat Limousine",
+    "generation": "B8 (vor Facelift)",
+    "variant": null,
+    "field": "wheelbaseMm",
+    "oldValue": 2786,
+    "newValue": 2791,
+    "sourceUrl": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mittelklasse/passat-b8.html",
+    "evidence": "Official VW Passat B8 page states wheelbase 2791 mm; carwow.co.uk 2015 Passat dimensions guide and fastcarcheck.uk also give 2,791 mm. ADAC/mobile.de list 2786 mm."
+   }
+  ],
+  "missing": [
+   {
+    "model": "Multivan langer Überhang",
+    "detail": "T6.1 Multivan lang (German market 10/2019-10/2021): ADAC (manufacturer data) gives 5304 mm length, 1990 mm height, 3400 mm wheelbase, same as T6 lang; e.g. https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t61-facelift/306354 . Start 10/2019 falls within the 2005-2019 scope."
+   },
+   {
+    "model": "Multivan langer Überhang",
+    "detail": "T5 Multivan lang (facelift, 09/2009-05/2015): ADAC lists length 5292 mm, wheelbase 3400 mm (2.0 TDI/TSI Comfortline), e.g. https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t5-facelift/220469/ ; height not verified."
+   },
+   {
+    "model": "Passat Limousine",
+    "detail": "B7 1.4 TSI EcoFuel (CNG, 150 PS) Limousine: ADAC lists 541 l for R-Line (10/12-09/14, https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b7/234065) but 565 l for Business Edition (11/13-07/14); conflicting, not added as correction."
+   }
+  ],
+  "checkedValues": 35,
+  "confirmedValues": 31,
+  "notes": "16 WebSearch calls used. Confirmed: T6 Multivan lang 5304/1904/1990/3400 and years; Alltrack B7 4771/1820/1550, 588/1716 l (wheelbase 2712 vs ams 2710 unresolved, no manufacturer figure found); Alltrack B8 4777/1832/1506/2789, 639/1769 l; B6 4765/1820/1472, 565 l (wheelbase 2709 vs angurten 2710, minor); B7 4769/1820/1470 (VW newsroom-derived range 1462-1470)/2712, 565 l; B8 length 4767, width 1832, folded 1152 l (VW 'bis zu 1152 l'), 586 l (fastcarcheck), GTE 402 l (auto-motor-und-sport). GTE folded 968 l not confirmed nor refuted. Note: the 2015 GTE ams data sheet itself lists 1476/2786, so the corrected VW values may apply to non-GTE sedans; VW official page is used as manufacturer figure."
+ }
+}

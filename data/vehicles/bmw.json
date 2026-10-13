@@ -244,6 +244,272 @@
       "corrected": 0
      },
      "notes": "widthMm not confirmed in the search results; 1799 mm is often quoted but was not checked. Wheelbase comes from the F70 article (unchanged from F40)."
+    },
+    {
+     "id": "2011-f20-funfturer-inkl-lci-2015-und-2017",
+     "name": "F20 (Fünftürer, inkl. LCI 2015 und 2017)",
+     "yearFrom": 2011,
+     "yearTo": 2019,
+     "bodyType": "hatchback",
+     "lengthMm": 4324,
+     "widthMm": 1765,
+     "heightMm": 1421,
+     "wheelbaseMm": 2690,
+     "trunkL": 360,
+     "trunkFoldedL": 1200,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "116i-118i-120i-125i-benziner",
+       "name": "116i / 118i / 120i / 125i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 360,
+       "trunkFoldedL": 1200,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "xdrive-allrad",
+       "name": "xDrive (Allrad)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 360,
+       "trunkFoldedL": 1200,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No separate trunk figure found for xDrive versions."
+      },
+      {
+       "id": "m135i-320-ps",
+       "name": "M135i 320 PS",
+       "powertrain": "petrol",
+       "powerPs": 320,
+       "awd": false,
+       "trunkL": 360,
+       "trunkFoldedL": 1200,
+       "lengthMm": 4340,
+       "widthMm": 1765,
+       "heightMm": 1411,
+       "yearFrom": 2012,
+       "yearTo": 2015,
+       "notes": "BMW Medieninformation 5/2012 (valid from 7/2012): 4340/1765/1411 mm, wheelbase 2690. Also offered as M135i xDrive."
+      },
+      {
+       "id": "m135i-326-ps-m140i-lci",
+       "name": "M135i 326 PS / M140i (LCI)",
+       "powertrain": "petrol",
+       "powerPs": 326,
+       "awd": false,
+       "trunkL": 360,
+       "trunkFoldedL": 1200,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2015,
+       "yearTo": 2019,
+       "notes": "M135i LCI 326 PS (7-forum press text). Dimensions of LCI M135i/M140i not found; M140i power not sourced."
+      },
+      {
+       "id": "114d-116d-118d-120d-125d-diesel",
+       "name": "114d / 116d / 118d / 120d / 125d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 360,
+       "trunkFoldedL": 1200,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0117953DE/172331",
+       "what": "BMW Medieninformation 6/2011: trunk 360-1200 l, height 1421 mm, +85 mm length, +30 mm wheelbase vs. predecessor"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1302-1er+5-T%C3%BCrer",
+       "what": "Length 4324, width 1765 (without mirrors), height 1421, wheelbase 2690"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1599-bmw-1er-5-tuerer-2015",
+       "what": "F20 LCI 2015: length 4324, height 1421"
+      },
+      {
+       "url": "https://www.auto-data.net/en/bmw-1-series-hatchback-5dr-f20-lci-facelift-2015-116i-109hp-22863",
+       "what": "F20 LCI length 4329 (conflicting), height 1440"
+      },
+      {
+       "url": "https://www.treffseiten.de/bmw/info/daten/daten_1er_5t_m135i_12_07.pdf",
+       "what": "BMW Medieninformation 5/2012 M135i: 4340/1765/1411 mm, 320 PS, trunk 360-1200 l"
+      },
+      {
+       "url": "https://www.7-forum.com/news/Kompakte-Fahrfreude-effizient-innovativ-6343.html",
+       "what": "Facelift 2015 press text: M135i 240 kW/326 PS"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/1er-reihe/f20-f21/232306/",
+       "what": "Korrektur trunkL: ADAC BMW 120d xDrive 5-Türer (11/12-02/15): Kofferraumvolumen normal 360 l, dachhoch 1200 l; LCI 120d xDrive Steptronic (03/15-05/16) same."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/1er-reihe/f20-f21/232306/",
+       "what": "Korrektur trunkFoldedL: ADAC BMW 120d xDrive 5-Türer (11/12-02/15): dachhoch mit umgeklappter Rücksitzbank 1200 l."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 49,
+      "corrected": 2
+     },
+     "notes": "LCI 2015 length quoted as 4324 (angurten) or 4329 mm (auto-data/mobile.de); height 1421-1440 depending on source/version. Not split because the difference is unconfirmed by manufacturer data. Trunk 360/1200 throughout. 3-door F21 not covered."
+    },
+    {
+     "id": "2007-e87-lci-funfturer-facelift",
+     "name": "E87 LCI (Fünftürer, Facelift)",
+     "yearFrom": 2007,
+     "yearTo": 2011,
+     "bodyType": "hatchback",
+     "lengthMm": 4239,
+     "widthMm": 1748,
+     "heightMm": 1421,
+     "wheelbaseMm": 2660,
+     "trunkL": 330,
+     "trunkFoldedL": 1150,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "116i-118i-120i-130i-benziner",
+       "name": "116i / 118i / 120i / 130i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 330,
+       "trunkFoldedL": 1150,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "116d-118d-120d-123d-diesel",
+       "name": "116d / 118d / 120d / 123d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 330,
+       "trunkFoldedL": 1150,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.angurten.de/is/abmessungen/94-1er-Reihe",
+       "what": "LCI dimensions 4239/1748/1421 mm; trunk 330/1150 l"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/BMW_E87",
+       "what": "LCI dimensions table, wheelbase 2660"
+      },
+      {
+       "url": "https://www.treffseiten.de/bmw/info/daten_118i_120i_130i_118d_120d_5tuerer_07_01.pdf",
+       "what": "BMW technical data sheet five-door 2007 (found in search, content not fully verified)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 49,
+      "corrected": 0
+     },
+     "notes": "Facelift 03/2007: length +12 mm, height -9 mm, trunk unchanged."
+    },
+    {
+     "id": "2004-e87-funfturer",
+     "name": "E87 (Fünftürer)",
+     "yearFrom": 2004,
+     "yearTo": 2007,
+     "bodyType": "hatchback",
+     "lengthMm": 4227,
+     "widthMm": 1751,
+     "heightMm": 1430,
+     "wheelbaseMm": 2660,
+     "trunkL": 330,
+     "trunkFoldedL": 1150,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "116i-118i-120i-130i-benziner",
+       "name": "116i / 118i / 120i / 130i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 330,
+       "trunkFoldedL": 1150,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Trunk volume quoted for the five-door body irrespective of engine."
+      },
+      {
+       "id": "118d-120d-diesel",
+       "name": "118d / 120d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 330,
+       "trunkFoldedL": 1150,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.auto.de/magazin/pressemappe-bmw-1er/",
+       "what": "Reproduced BMW press kit: five-door trunk 330-1150 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/94-1er-Reihe",
+       "what": "Length 4227, width 1751 (without mirrors), height 1430, wheelbase 2660 (pre-LCI); trunk 330/1150 l"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/BMW_E87",
+       "what": "Wheelbase 2660 for all body variants; pre-LCI and LCI dimensions table"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 49,
+      "corrected": 0
+     },
+     "notes": "Pre-facelift five-door E87 (launched 09/2004, so in sale 2005). The 3-door E81 (2007-2011) is the same model line but not covered separately here. No manufacturer data sheet for dimensions was reachable via search; dimensions from angurten.de/Wikipedia."
     }
    ]
   },
@@ -598,6 +864,497 @@
       "corrected": 0
      },
      "notes": "The dimensions are from BMW press data sheets for the pre-facelift car (320i 07/2019, 320d 02/2020). The 2022 facelift (LCI) adds about 4 mm of length (about 4713 mm), and the trunk volume did not change, so it is not split into its own entry. The LCI height of the Limousine was not checked. A sedan has no published VDA maximum with the seats folded (40:20:40 split rear seat). The M3 Limousine (G80) is not covered."
+    },
+    {
+     "id": "2015-f30-lci-facelift",
+     "name": "F30 LCI (Facelift)",
+     "yearFrom": 2015,
+     "yearTo": 2019,
+     "bodyType": "sedan",
+     "lengthMm": 4633,
+     "widthMm": 1811,
+     "heightMm": 1429,
+     "wheelbaseMm": 2810,
+     "trunkL": 480,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "318i-320i-330i-340i-benziner",
+       "name": "318i / 320i / 330i / 340i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 480,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "m3-limousine-f80",
+       "name": "M3 Limousine (F80)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 480,
+       "trunkFoldedL": null,
+       "lengthMm": 4671,
+       "widthMm": 1877,
+       "heightMm": 1424,
+       "yearFrom": null,
+       "yearTo": 2018,
+       "notes": "See F30 entry; M3 Competition height 1431."
+      },
+      {
+       "id": "316d-318d-320d-330d-335d-diesel",
+       "name": "316d / 318d / 320d / 330d / 335d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 480,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "330e-iperformance-plug-in-hybrid",
+       "name": "330e iPerformance (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 252,
+       "awd": false,
+       "trunkL": 370,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "BMW Medieninformation 09/2015: 4633/1811/1429, trunk 370 l (battery under trunk floor)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0255930DE/352076",
+       "what": "BMW Medieninformation 09/2015 330e Limousine: 4633/1811/1429 mm, wheelbase 2810, trunk 370 l"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/BMW_F30",
+       "what": "330e trunk reduced from 480 to 370 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/f30-f31-f34-f80-facelift/247004/",
+       "what": "ADAC 320i Sport Line (07/15-06/18) data page"
+      },
+      {
+       "url": "https://www.autokosten.net/bmw/3er-reihe-limousine/330e-iperformance/3er-reihe-f30-limousine/technische-daten",
+       "what": "Non-PHEV trunk 480 l"
+      },
+      {
+       "url": "https://www.auto-wiki.org/bmw/3er-reihe/f30/330e-iperformance-m-sport-steptronic-185-kw-63860/",
+       "what": "330e 185 kW/252 PS"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 49,
+      "corrected": 0
+     },
+     "notes": "Facelift 07/2015: length +9 mm. Base-model LCI dimensions taken from BMW 330e press data (same body)."
+    },
+    {
+     "id": "2012-f30",
+     "name": "F30",
+     "yearFrom": 2012,
+     "yearTo": 2015,
+     "bodyType": "sedan",
+     "lengthMm": 4624,
+     "widthMm": 1811,
+     "heightMm": 1429,
+     "wheelbaseMm": 2810,
+     "trunkL": 480,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "316i-320i-328i-335i-benziner",
+       "name": "316i / 320i / 328i / 335i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 480,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "m3-limousine-f80",
+       "name": "M3 Limousine (F80)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 480,
+       "trunkFoldedL": null,
+       "lengthMm": 4671,
+       "widthMm": 1877,
+       "heightMm": 1424,
+       "yearFrom": 2014,
+       "yearTo": 2018,
+       "notes": "Wheelbase 2812. Height 1431 for M3 Competition (from 03/2016)."
+      },
+      {
+       "id": "316d-318d-320d-325d-330d-335d-diesel",
+       "name": "316d / 318d / 320d / 325d / 330d / 335d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 480,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "activehybrid-3",
+       "name": "ActiveHybrid 3",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 390,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Trunk reduced by battery; value not found."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0123424DE/180637",
+       "what": "BMW Medieninformation 11/2011 new 3 Series Sedan (launch info)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/f30-f31-f34-f80/229848/",
+       "what": "ADAC 328i (02/12-11/12) data page"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1318-3er+Limousine",
+       "what": "Length 4624, width 1811, height 1429, wheelbase 2810"
+      },
+      {
+       "url": "https://www.autokosten.net/bmw/3er-reihe-limousine/328i/3er-reihe-f30-limousine-02-12-06-15_218/technische-daten",
+       "what": "Trunk normal 480 l"
+      },
+      {
+       "url": "https://www.autokosten.net/bmw/m3-limousine/m3/m3-f80-limousine-06-14-06-15/technische-daten",
+       "what": "M3 F80: 4671/1877/1424 mm, wheelbase 2812, trunk 480 l"
+      },
+      {
+       "url": "https://press.bmwgroup.com/deutschland/article/attachment/T0127960DE/191793",
+       "what": "Korrektur trunkL: BMW Medieninformation 7/2012 ActiveHybrid 3: Kofferraumvolumen 390 l; dimensions 4624/1811/1429 mm (also motoreu/autoplenum 390 l)."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 49,
+      "corrected": 1
+     },
+     "notes": "Pre-LCI F30 (02/2012-06/2015)."
+    },
+    {
+     "id": "2008-e90-lci-facelift",
+     "name": "E90 LCI (Facelift)",
+     "yearFrom": 2008,
+     "yearTo": 2012,
+     "bodyType": "sedan",
+     "lengthMm": 4531,
+     "widthMm": 1817,
+     "heightMm": 1421,
+     "wheelbaseMm": 2760,
+     "trunkL": 460,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "316i-318i-320i-325i-330i-335i-benziner",
+       "name": "316i / 318i / 320i / 325i / 330i / 335i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "xdrive-allrad",
+       "name": "xDrive (Allrad)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 460,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No separate trunk figure found."
+      },
+      {
+       "id": "m3-limousine-420-ps",
+       "name": "M3 Limousine 420 PS",
+       "powertrain": "petrol",
+       "powerPs": 420,
+       "awd": false,
+       "trunkL": 450,
+       "trunkFoldedL": null,
+       "lengthMm": 4580,
+       "widthMm": 1817,
+       "heightMm": 1447,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Same M3 values as before facelift (autokosten 09/2008-02/2010 data)."
+      },
+      {
+       "id": "316d-318d-320d-325d-330d-335d-diesel",
+       "name": "316d / 318d / 320d / 325d / 330d / 335d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.7-forum.com/news/2008/3er/technische_daten.php",
+       "what": "BMW data 318i Limousine E90 Facelift from 2008: length 4531"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0011870DE/16320",
+       "what": "BMW media information (2009): length 4531, height 1421, wheelbase 2760"
+      },
+      {
+       "url": "https://www.autokosten.net/bmw/3er-reihe-limousine/320i/3er-reihe-e90-limousine-09-08-11-11_2/technische-daten",
+       "what": "320i 09/2008: trunk 460 l"
+      },
+      {
+       "url": "https://www.autokosten.net/bmw/m3-limousine/m3/m3-e90-limousine-09-08-11-11/technische-daten",
+       "what": "M3 E90 trunk 450 l, 4580/1817"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e90-e91-e92-e93-facelift/214858/",
+       "what": "Korrektur trunkL: ADAC BMW 320d xDrive (09/08-02/10): Kofferraumvolumen normal 460 l; 03/10-11/11 xDrive entries also 460 l."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 49,
+      "corrected": 1
+     },
+     "notes": "Facelift 09/2008: length +11 mm, other values unchanged."
+    },
+    {
+     "id": "2005-e90",
+     "name": "E90",
+     "yearFrom": 2005,
+     "yearTo": 2008,
+     "bodyType": "sedan",
+     "lengthMm": 4520,
+     "widthMm": 1817,
+     "heightMm": 1421,
+     "wheelbaseMm": 2760,
+     "trunkL": 460,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "318i-320i-325i-330i-benziner",
+       "name": "318i / 320i / 325i / 330i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "xi-xd-allrad",
+       "name": "xi / xd (Allrad)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 460,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No separate trunk figure found for xDrive versions."
+      },
+      {
+       "id": "m3-limousine-420-ps",
+       "name": "M3 Limousine 420 PS",
+       "powertrain": "petrol",
+       "powerPs": 420,
+       "awd": false,
+       "trunkL": 450,
+       "trunkFoldedL": null,
+       "lengthMm": 4580,
+       "widthMm": 1817,
+       "heightMm": 1447,
+       "yearFrom": 2007,
+       "yearTo": 2011,
+       "notes": "7-forum reproduction of BMW data: VDA 450 l, 4580/1817/1447 mm."
+      },
+      {
+       "id": "318d-320d-330d-335d-diesel",
+       "name": "318d / 320d / 330d / 335d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e90-e91-e92-e93/200419",
+       "what": "ADAC: 320i (03/05-10/07) length 4520, width 1817 (without mirrors), height 1421, wheelbase 2760"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/95-3er+Limousine",
+       "what": "Trunk 460 l"
+      },
+      {
+       "url": "https://www.autokosten.net/bmw/3er-reihe-limousine/320i/3er-reihe-e90-limousine-09-08-11-11_2/technische-daten",
+       "what": "Trunk normal 460 l"
+      },
+      {
+       "url": "https://www.7-forum.com/news/2007/bmw_m3_limousine/technische_daten.php",
+       "what": "M3 Limousine E90: 4580/1817/1447 mm, VDA trunk 450 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e90-e91-e92-e93/203804",
+       "what": "Korrektur trunkL: ADAC BMW 330xi (09/05-10/07): Kofferraumvolumen normal 460 l (same for 10/07-08/08 entry)."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 49,
+      "corrected": 1
+     },
+     "notes": "Trunk 460 l is from secondary databases (no BMW/ADAC trunk figure found). Sedan without published folded volume (through-loading option only)."
+    },
+    {
+     "id": "2001-e46-facelift",
+     "name": "E46 (Facelift)",
+     "yearFrom": 2001,
+     "yearTo": 2005,
+     "bodyType": "sedan",
+     "lengthMm": 4471,
+     "widthMm": 1739,
+     "heightMm": 1415,
+     "wheelbaseMm": 2725,
+     "trunkL": 440,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "316i-318i-320i-325i-330i-benziner",
+       "name": "316i / 318i / 320i / 325i / 330i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 440,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "318d-320d-330d-diesel",
+       "name": "318d / 320d / 330d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 440,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e46-facelift/992052/",
+       "what": "ADAC: 320i (08/01-03/05) trunk 440 l"
+      },
+      {
+       "url": "https://www.mobile.de/auto/bmw/3er/1998/limousine/modell/daten-fakten/",
+       "what": "Length 4471, height 1415, wheelbase 2725, trunk 440 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e46-facelift/112845/",
+       "what": "Korrektur widthMm: ADAC 320i Edition Lifestyle Automatic Limousine (03/03-03/05): Länge 4471 mm, Breite 1739 mm (ohne Außenspiegel). Third-party databases round to 1740."
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 60,
+      "confirmed": 49,
+      "corrected": 1
+     },
+     "notes": "Sold in Germany until 03/2005 (replaced by E90). Width of the sedan not found (Touring: 1739 mm, ADAC). No folded volume published for the sedan."
     }
    ]
   },
@@ -741,6 +1498,432 @@
       "corrected": 0
      },
      "notes": "The dimensions are bmw.de LCI values (published there for the 330e Touring). The pre-facelift car was about 4709 mm long, and the trunk did not change at the facelift. The M3 Touring (G81) is not covered."
+    },
+    {
+     "id": "2015-f31-lci-facelift",
+     "name": "F31 LCI (Facelift)",
+     "yearFrom": 2015,
+     "yearTo": 2019,
+     "bodyType": "wagon",
+     "lengthMm": 4633,
+     "widthMm": 1811,
+     "heightMm": 1429,
+     "wheelbaseMm": 2810,
+     "trunkL": 495,
+     "trunkFoldedL": 1500,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "318i-320i-330i-340i-benziner",
+       "name": "318i / 320i / 330i / 340i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 495,
+       "trunkFoldedL": 1500,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "316d-318d-320d-330d-335d-diesel",
+       "name": "316d / 318d / 320d / 330d / 335d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 495,
+       "trunkFoldedL": 1500,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "335d-xdrive-340i-xdrive-allrad",
+       "name": "335d xDrive / 340i xDrive (Allrad)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 495,
+       "trunkFoldedL": 1500,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "auto-data lists 495/1500 for 335d xDrive."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.auto-data.net/en/bmw-3-series-touring-f31-lci-facelift-2015-generation-4511",
+       "what": "F31 LCI length 4633, width 1811, height 1429/1434, trunk 495-1500 l"
+      },
+      {
+       "url": "https://www.auto-data.net/en/bmw-3-series-touring-f31-lci-facelift-2015-335d-313hp-xdrive-steptronic-22882",
+       "what": "335d xDrive trunk 495/1500"
+      },
+      {
+       "url": "https://www.ultimatespecs.com/car-specs/BMW/72362/BMW-F31-3-Series-Touring-LCI-320d-Auto.html",
+       "what": "LCI 320d data"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 60,
+      "confirmed": 49,
+      "corrected": 0
+     },
+     "notes": "No BMW press data found for the LCI Touring; values from third-party databases only."
+    },
+    {
+     "id": "2012-f31",
+     "name": "F31",
+     "yearFrom": 2012,
+     "yearTo": 2015,
+     "bodyType": "wagon",
+     "lengthMm": 4624,
+     "widthMm": 1811,
+     "heightMm": 1429,
+     "wheelbaseMm": 2810,
+     "trunkL": 495,
+     "trunkFoldedL": 1500,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "316i-320i-328i-335i-benziner",
+       "name": "316i / 320i / 328i / 335i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 495,
+       "trunkFoldedL": 1500,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "316d-318d-320d-325d-330d-335d-diesel",
+       "name": "316d / 318d / 320d / 325d / 330d / 335d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 495,
+       "trunkFoldedL": 1500,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "xdrive-allrad",
+       "name": "xDrive (Allrad)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 495,
+       "trunkFoldedL": 1500,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No separate figure found."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0126604DE/256273",
+       "what": "BMW Medieninformation 05/2012 new 3 Series Touring"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1359-3er+Touring",
+       "what": "Length 4624, width 1811, height 1429, wheelbase 2810"
+      },
+      {
+       "url": "https://www.ultimatespecs.com/car-specs/BMW/59678/BMW-F31-3-Series-Touring-320d.html",
+       "what": "Trunk 495 l / 1500 l folded; length 4624, height 1429"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/f30-f31-f34-f80/236811",
+       "what": "Korrektur trunkL: ADAC BMW 318d Touring xDrive (07/13-06/15): Kofferraumvolumen normal 495 l, dachhoch 1500 l."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/f30-f31-f34-f80/236811",
+       "what": "Korrektur trunkFoldedL: ADAC BMW 318d Touring xDrive (07/13-06/15): dachhoch mit umgeklappter Rücksitzbank 1500 l."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 49,
+      "corrected": 2
+     },
+     "notes": "Height 1429 vs 1434 (auto-data) depending on source. No PHEV Touring in this generation."
+    },
+    {
+     "id": "2008-e91-lci-facelift",
+     "name": "E91 LCI (Facelift)",
+     "yearFrom": 2008,
+     "yearTo": 2012,
+     "bodyType": "wagon",
+     "lengthMm": 4527,
+     "widthMm": 1817,
+     "heightMm": 1418,
+     "wheelbaseMm": 2760,
+     "trunkL": 460,
+     "trunkFoldedL": 1385,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "316i-318i-320i-325i-330i-335i-benziner",
+       "name": "316i / 318i / 320i / 325i / 330i / 335i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": 1385,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "316d-318d-320d-325d-330d-335d-diesel",
+       "name": "316d / 318d / 320d / 325d / 330d / 335d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": 1385,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "320d-efficientdynamics-edition",
+       "name": "320d EfficientDynamics Edition",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": 1385,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1403,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "BMW data sheet valid from 3/2011: 4527/1817/1403 mm."
+      },
+      {
+       "id": "320d-xdrive-330xd-335xi-allrad",
+       "name": "320d xDrive / 330xd / 335xi (Allrad)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 460,
+       "trunkFoldedL": 1385,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "320xd Touring 460-1385 l per third-party catalogue (encycarpedia)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0011865DE/16303",
+       "what": "BMW data sheet 320d Touring valid from 09/2008: 4527/1817/1418 mm"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0094013DE/147639",
+       "what": "BMW data sheet 320d Touring EfficientDynamics Edition (3/2011): 4527/1817/1403 mm, trunk 460-1385 l"
+      },
+      {
+       "url": "https://www.encycarpedia.com/de/bmw/08-320xd-touring-kombi",
+       "what": "320xd Touring trunk 460-1385 l"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 60,
+      "confirmed": 49,
+      "corrected": 0
+     },
+     "notes": "Facelift 09/2008: length +7 mm."
+    },
+    {
+     "id": "2005-e91",
+     "name": "E91",
+     "yearFrom": 2005,
+     "yearTo": 2008,
+     "bodyType": "wagon",
+     "lengthMm": 4520,
+     "widthMm": 1817,
+     "heightMm": 1418,
+     "wheelbaseMm": 2760,
+     "trunkL": 460,
+     "trunkFoldedL": 1385,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "318i-320i-325i-330i-benziner",
+       "name": "318i / 320i / 325i / 330i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": 1385,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "xi-xd-allrad",
+       "name": "xi / xd (Allrad)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 460,
+       "trunkFoldedL": 1385,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No separate figure found."
+      },
+      {
+       "id": "318d-320d-330d-335d-diesel",
+       "name": "318d / 320d / 330d / 335d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": 1385,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.7-forum.com/news/2005/3er_touring/technische_daten.php?id1=26",
+       "what": "BMW data 325i Touring E91 from 09/2005: length 4520"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/96-3er+Touring",
+       "what": "Dimensions, trunk 460/1385 l"
+      },
+      {
+       "url": "https://gebrauchtwagenberater.de/bmw-3er-e90-technische-daten/",
+       "what": "Touring 4524x1817x1418 (2005-2012 range); trunk 460-1385 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e90-e91-e92-e93/203842",
+       "what": "Korrektur trunkL: ADAC BMW 325xi Touring (09/05-10/07): Kofferraumvolumen normal 460 l, dachhoch mit umgeklappter Rücksitzbank 1385 l."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e90-e91-e92-e93/203842",
+       "what": "Korrektur trunkFoldedL: ADAC BMW 325xi Touring (09/05-10/07): dachhoch mit umgeklappter Rücksitzbank 1385 l."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 49,
+      "corrected": 2
+     },
+     "notes": "Pre-LCI height quoted 1418-1421 mm depending on source; 1418 chosen (matches BMW LCI data sheet). Width without mirrors 1817 (1989 with mirrors)."
+    },
+    {
+     "id": "2001-e46-touring-facelift",
+     "name": "E46 Touring (Facelift)",
+     "yearFrom": 2001,
+     "yearTo": 2005,
+     "bodyType": "wagon",
+     "lengthMm": 4478,
+     "widthMm": 1739,
+     "heightMm": 1409,
+     "wheelbaseMm": 2725,
+     "trunkL": 435,
+     "trunkFoldedL": 1345,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "316i-318i-320i-325i-330i-benziner",
+       "name": "316i / 318i / 320i / 325i / 330i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 435,
+       "trunkFoldedL": 1345,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "318d-320d-330d-diesel",
+       "name": "318d / 320d / 330d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 435,
+       "trunkFoldedL": 1345,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/e46-facelift/992060/",
+       "what": "ADAC 320i Touring (09/01-07/05): length 4478, width 1739, height 1409"
+      },
+      {
+       "url": "https://www.mobile.de/auto/bmw/3er/1998/kombi/modell/daten-fakten/",
+       "what": "Length 4478, height 1409, wheelbase 2725, trunk 435/1345 l"
+      },
+      {
+       "url": "https://gebrauchtwagenberater.de/bmw-3er-e46-technische-daten-abmessungen/",
+       "what": "Touring trunk 435 l, 1345 l folded"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 49,
+      "corrected": 0
+     },
+     "notes": "Sold until 07/2005 (replaced by E91 09/2005). Possible xi AWD versions not checked."
     }
    ]
   },
@@ -1046,6 +2229,189 @@
       "corrected": 0
      },
      "notes": "The facelift was in 2020, and the trunk did not change. The 4943 mm length comes from magazines (autozeitung/motor-talk), not a manufacturer sheet. The 2975 mm wheelbase is from memory of BMW data and was not checked in this search. No M5 Touring was offered in this generation."
+    },
+    {
+     "id": "2010-f11-inkl-lci-2013",
+     "name": "F11 (inkl. LCI 2013)",
+     "yearFrom": 2010,
+     "yearTo": 2017,
+     "bodyType": "wagon",
+     "lengthMm": 4907,
+     "widthMm": 1860,
+     "heightMm": 1462,
+     "wheelbaseMm": 2968,
+     "trunkL": 560,
+     "trunkFoldedL": 1670,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "520i-528i-535i-550i-touring-benziner",
+       "name": "520i / 528i / 535i / 550i Touring (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 560,
+       "trunkFoldedL": 1670,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "520d-touring-diesel",
+       "name": "520d Touring (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 184,
+       "awd": false,
+       "trunkL": 560,
+       "trunkFoldedL": 1670,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2010,
+       "yearTo": 2013,
+       "notes": "ADAC: 135 kW (184 PS), 560/1670 l. Weitere Diesel: 518d, 525d, 530d, 535d."
+      },
+      {
+       "id": "520d-xdrive-touring-steptronic-diesel-allrad",
+       "name": "520d xDrive Touring Steptronic (Diesel, Allrad)",
+       "powertrain": "diesel",
+       "powerPs": 190,
+       "awd": true,
+       "trunkL": 560,
+       "trunkFoldedL": 1670,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2014,
+       "yearTo": 2017,
+       "notes": "ADAC (LCI): 4907/1860/1462 mm, 560/1670 l - identisch mit Hinterradantrieb."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0078287DE/133017",
+       "what": "BMW-Pressemappe Der neue BMW 5er Touring (2010): Gepäckraum 560-1670 l"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0079398DE/technische-daten-des-neuen-bmw-5er-touring-gueltig-ab-04-2010",
+       "what": "BMW technische Daten 5er Touring gültig ab 04/2010 (Bezug)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/5er-reihe/f07-f10-f10m-f11/222707/",
+       "what": "ADAC 520d Touring 09/10-06/13: Länge 4907, Breite 1860, Höhe 1462, Radstand 2968 mm, 560/1670 l, 184 PS"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/5er-reihe/f07-f10-f10m-f11-facelift/241297/",
+       "what": "ADAC 520d Touring xDrive LCI 07/14-03/17: 4907/1860/1462 mm, 560/1670 l, 190 PS, Allrad"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 56,
+      "confirmed": 55,
+      "corrected": 0
+     },
+     "notes": "Facelift 2013 (LCI) ohne Änderung von Maßen und Kofferraum laut ADAC, daher kein separater Eintrag. Kein Plug-in-Hybrid im Touring F11 (ActiveHybrid 5 nur Limousine). Kein M5 Touring in dieser Generation."
+    },
+    {
+     "id": "2004-e61",
+     "name": "E61",
+     "yearFrom": 2004,
+     "yearTo": 2010,
+     "bodyType": "wagon",
+     "lengthMm": 4843,
+     "widthMm": 1846,
+     "heightMm": 1491,
+     "wheelbaseMm": 2886,
+     "trunkL": 500,
+     "trunkFoldedL": 1650,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "520i-525i-530i-540i-550i-touring-benziner",
+       "name": "520i / 525i / 530i / 540i / 550i Touring (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 500,
+       "trunkFoldedL": 1650,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "BMW-Pressedatenblatt nennt 500-1650 l und identische Maße für alle Touring-Varianten."
+      },
+      {
+       "id": "m5-touring-v10-507-ps",
+       "name": "M5 Touring (V10, 507 PS)",
+       "powertrain": "petrol",
+       "powerPs": 507,
+       "awd": false,
+       "trunkL": 500,
+       "trunkFoldedL": 1650,
+       "lengthMm": 4855,
+       "widthMm": 1846,
+       "heightMm": 1512,
+       "yearFrom": 2007,
+       "yearTo": 2010,
+       "notes": "BMW-Pressedaten: 4855/1846/1512 mm, Radstand dort mit 2880 mm angegeben; Kofferraum 500-1650 l. Eine andere Quelle nennt 1615 l maximal."
+      },
+      {
+       "id": "520d-525d-530d-535d-touring-diesel",
+       "name": "520d / 525d / 530d / 535d Touring (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 500,
+       "trunkFoldedL": 1650,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "525xi-530xi-525xd-530xd-touring-xdrive-allrad",
+       "name": "525xi / 530xi / 525xd / 530xd Touring (xDrive, Allrad)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 500,
+       "trunkFoldedL": 1650,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Allrad-Varianten mit Benzin- und Dieselmotor; Kofferraum laut BMW-Datenblatt für alle Varianten gleich. Höhe der Allradversionen nicht separat verifiziert."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0011878DE/16344",
+       "what": "BMW-Pressedatenblatt 5er Touring E61: Länge/Breite/Höhe 4843/1846/1491 mm, Radstand 2886 mm, Kofferraum 500-1650 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/100-5er+Touring",
+       "what": "Bestätigung Breite 1846 mm ohne Außenspiegel"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0077799DE/115401",
+       "what": "BMW-Pressedaten M5 Touring: 4855/1846/1512 mm, Kofferraum 500-1650 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 56,
+      "confirmed": 55,
+      "corrected": 0
+     },
+     "notes": "Facelift (LCI) 2007: Maße/Kofferraum des Touring nicht separat verifiziert (ADAC-Treffer nur für Limousine 4841 mm); daher kein eigener Facelift-Eintrag. Leistungsangaben der Varianten nicht recherchiert (null)."
     }
    ]
   },
@@ -1460,6 +2826,166 @@
       "corrected": 0
      },
      "notes": "Length 4439 mm is before the facelift. The 2019 facelift is slightly longer (about 4447 mm, not confirmed). Width, height and wheelbase were not found in this limited search."
+    },
+    {
+     "id": "2012-e84-facelift-lci",
+     "name": "E84 (Facelift / LCI)",
+     "yearFrom": 2012,
+     "yearTo": 2015,
+     "bodyType": "suv",
+     "lengthMm": 4477,
+     "widthMm": 1798,
+     "heightMm": 1545,
+     "wheelbaseMm": 2760,
+     "trunkL": 420,
+     "trunkFoldedL": 1350,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "xdrive-modelle-allrad",
+       "name": "xDrive-Modelle (Allrad)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 420,
+       "trunkFoldedL": 1350,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Kofferraum für LCI-xDrive nicht separat verifiziert; vor Facelift identisch mit sDrive."
+      },
+      {
+       "id": "sdrive18d-xline-diesel",
+       "name": "sDrive18d xLine (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 143,
+       "awd": false,
+       "trunkL": 420,
+       "trunkFoldedL": 1350,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC: 4477/1798/1545 mm, 420/1350 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x1/e84-facelift/232251/",
+       "what": "ADAC X1 sDrive18d xLine 07/12-06/15: Länge 4477, Breite 1798, Höhe 1545, Radstand 2760 mm, 420/1350 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 56,
+      "confirmed": 55,
+      "corrected": 0
+     },
+     "notes": "Länge +23 mm gegenüber Vor-Facelift, daher eigener Eintrag. Nur ADAC-Quelle für das Facelift gefunden. Kein Hybrid/PHEV im E84."
+    },
+    {
+     "id": "2009-e84",
+     "name": "E84",
+     "yearFrom": 2009,
+     "yearTo": 2012,
+     "bodyType": "suv",
+     "lengthMm": 4454,
+     "widthMm": 1798,
+     "heightMm": 1545,
+     "wheelbaseMm": 2760,
+     "trunkL": 420,
+     "trunkFoldedL": 1350,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "sdrive18i-xdrive28i-benziner",
+       "name": "sDrive18i / xDrive28i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 420,
+       "trunkFoldedL": 1350,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Maße 4454/1798/1545 mm, Radstand 2760 mm laut BMW-Datenblatt sDrive18i (3/2010). xDrive28i mit Allrad."
+      },
+      {
+       "id": "sdrive18d-sdrive20d-diesel-hinterradantrieb",
+       "name": "sDrive18d / sDrive20d (Diesel, Hinterradantrieb)",
+       "powertrain": "diesel",
+       "powerPs": 143,
+       "awd": false,
+       "trunkL": 420,
+       "trunkFoldedL": 1350,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "143 PS gilt für sDrive18d."
+      },
+      {
+       "id": "xdrive20d-diesel-allrad",
+       "name": "xDrive20d (Diesel, Allrad)",
+       "powertrain": "diesel",
+       "powerPs": 177,
+       "awd": true,
+       "trunkL": 420,
+       "trunkFoldedL": 1350,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC: 4454/1798/1545 mm, 420/1350 l."
+      },
+      {
+       "id": "xdrive23d-diesel-allrad",
+       "name": "xDrive23d (Diesel, Allrad)",
+       "powertrain": "diesel",
+       "powerPs": 204,
+       "awd": true,
+       "trunkL": 420,
+       "trunkFoldedL": 1350,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.press.bmwgroup.com/italy/article/attachment/T0076919IT/112424",
+       "what": "BMW Medieninformation 1/2010 (gültig ab 3/2010) X1 sDrive18i: 4454/1798/1545 mm, Radstand 2760 mm"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/italy/article/attachment/T0076919IT/112425",
+       "what": "BMW technische Daten X1 sDrive18d/sDrive20d: Gepäckraum 420-1350 l"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0023075DE/90151",
+       "what": "BMW Pressemappe 9/2009 Der BMW X1: 420 l, max. 1350 l, xDrive23d 204 PS, sDrive18d 143 PS"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x1/e84/219530/",
+       "what": "ADAC xDrive20d 10/09-05/12: 4454/1798/1545 mm, Radstand 2760, 420/1350 l, 177 PS"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 56,
+      "confirmed": 55,
+      "corrected": 0
+     },
+     "notes": "Rücksitzlehne in Cargo-Stellung: 480 l laut BMW-Pressemappe."
     }
    ]
   },
@@ -1690,6 +3216,319 @@
       "corrected": 0
      },
      "notes": "The 2021 facelift (LCI) is listed by one source at 4716 mm length and 1897 mm width (versus 4708/1891). The difference is too small to split. The X3 M (F97) is not included."
+    },
+    {
+     "id": "2014-f25-facelift-lci",
+     "name": "F25 (Facelift / LCI)",
+     "yearFrom": 2014,
+     "yearTo": 2017,
+     "bodyType": "suv",
+     "lengthMm": 4657,
+     "widthMm": 1881,
+     "heightMm": 1661,
+     "wheelbaseMm": 2810,
+     "trunkL": 550,
+     "trunkFoldedL": 1600,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "xdrive20i-xdrive28i-xdrive35i-benziner",
+       "name": "xDrive20i / xDrive28i / xDrive35i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 550,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "sdrive18d-diesel-hinterradantrieb",
+       "name": "sDrive18d (Diesel, Hinterradantrieb)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 550,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "xdrive20d-xdrive30d-xdrive35d-diesel",
+       "name": "xDrive20d / xDrive30d / xDrive35d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 190,
+       "awd": true,
+       "trunkL": 550,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC xDrive20d 04/14-08/17: 4657 mm, 1661 mm, 550/1600 l. 190 PS gilt für xDrive20d."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x3/f25-facelift/240209/",
+       "what": "ADAC X3 xDrive20d Steptronic 04/14-08/17: Länge 4657, Höhe 1661 mm, 550/1600 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x3/f25-facelift/240208/",
+       "what": "ADAC X3 xDrive20d (Schaltgetriebe) 04/14-08/17: gleiche Maße und Kofferraum"
+      },
+      {
+       "url": "https://www.auto-data.net/en/bmw-x3-f25-lci-facelift-2014-20d-190hp-xdrive-19903",
+       "what": "Leistung xDrive20d LCI 190 PS (Drittquelle)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 56,
+      "confirmed": 55,
+      "corrected": 0
+     },
+     "notes": "Länge +9 mm gegenüber Vor-Facelift. Breite und Radstand für LCI nicht separat verifiziert, von Vor-Facelift übernommen (Karosserie unverändert laut ADAC-Längen-/Höhenvergleich); keine BMW-Pressedaten zum LCI gefunden."
+    },
+    {
+     "id": "2010-f25",
+     "name": "F25",
+     "yearFrom": 2010,
+     "yearTo": 2014,
+     "bodyType": "suv",
+     "lengthMm": 4648,
+     "widthMm": 1881,
+     "heightMm": 1661,
+     "wheelbaseMm": 2810,
+     "trunkL": 550,
+     "trunkFoldedL": 1600,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "xdrive20i-xdrive28i-xdrive35i-benziner",
+       "name": "xDrive20i / xDrive28i / xDrive35i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 550,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "BMW-Datenblatt xDrive28i/35i: 4648 mm, 2810 mm, 550-1600 l."
+      },
+      {
+       "id": "sdrive18d-diesel-hinterradantrieb",
+       "name": "sDrive18d (Diesel, Hinterradantrieb)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 550,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Kofferraum für sDrive nicht separat verifiziert, laut Pressemappe 550-1600 l für die Baureihe."
+      },
+      {
+       "id": "xdrive20d-xdrive30d-xdrive35d-diesel",
+       "name": "xDrive20d / xDrive30d / xDrive35d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 550,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC xDrive20d 11/10-03/14: 4648 mm, 1661 mm Höhe, 550/1600 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0082076DE/der-neue-bmw-x3?language=de",
+       "what": "BMW Pressemappe Der neue BMW X3 (2010): Länge 4648 mm, Radstand 2810 mm, Gepäckraum 550-1600 l"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0087073DE/133712",
+       "what": "BMW Medieninformation 10/2010 Der neue BMW X3 (Bestätigung)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x3/f25/224357/",
+       "what": "ADAC xDrive20d 11/10-03/14: Länge 4648, Höhe 1661 mm, 550/1600 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1230-X3",
+       "what": "Breite 1881 mm ohne Spiegel (Drittquelle, Bestätigung)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 56,
+      "confirmed": 55,
+      "corrected": 0
+     },
+     "notes": "Breite 1881 mm nur aus Drittquellen (angurten.de/mobile.de) bestätigt, nicht direkt aus BMW- oder ADAC-Daten gesehen."
+    },
+    {
+     "id": "2006-e83-facelift-lci",
+     "name": "E83 (Facelift / LCI)",
+     "yearFrom": 2006,
+     "yearTo": 2010,
+     "bodyType": "suv",
+     "lengthMm": 4569,
+     "widthMm": 1853,
+     "heightMm": 1674,
+     "wheelbaseMm": 2795,
+     "trunkL": 480,
+     "trunkFoldedL": 1560,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "xdrive25i-xdrive30i-benziner",
+       "name": "xDrive25i / xDrive30i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 480,
+       "trunkFoldedL": 1560,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "3-0d-3-0sd-xdrive30d-xdrive35d-diesel",
+       "name": "3.0d / 3.0sd / xDrive30d / xDrive35d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 480,
+       "trunkFoldedL": 1560,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0d-xdrive18d-xdrive20d-diesel",
+       "name": "2.0d / xDrive18d / xDrive20d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 177,
+       "awd": true,
+       "trunkL": 480,
+       "trunkFoldedL": 1560,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "177 PS laut ADAC für 2.0d DPF (10/07-09/08)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.press.bmwgroup.com/global/article/attachment/T0011976EN/16553",
+       "what": "BMW Medieninformation 9/2006 Der neue BMW X3: Länge 4569 mm, Radstand 2795 mm, 480 l, max. 1560 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x3/e83-facelift/211059/",
+       "what": "ADAC X3 2.0d DPF Automatic 10/07-09/08: 4569/1853/1674 mm, 480/1560 l, 177 PS"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 56,
+      "confirmed": 55,
+      "corrected": 0
+     },
+     "notes": "Länge +4 mm gegenüber Vor-Facelift (neue Stoßfänger), daher eigener Eintrag."
+    },
+    {
+     "id": "2004-e83",
+     "name": "E83",
+     "yearFrom": 2004,
+     "yearTo": 2006,
+     "bodyType": "suv",
+     "lengthMm": 4565,
+     "widthMm": 1853,
+     "heightMm": 1674,
+     "wheelbaseMm": 2795,
+     "trunkL": 480,
+     "trunkFoldedL": 1560,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0i-2-5i-3-0i-benziner-allrad",
+       "name": "2.0i / 2.5i / 3.0i (Benziner, Allrad)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 480,
+       "trunkFoldedL": 1560,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Alle E83 mit Allrad (xDrive)."
+      },
+      {
+       "id": "2-0d-3-0d-diesel-allrad",
+       "name": "2.0d / 3.0d (Diesel, Allrad)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 480,
+       "trunkFoldedL": 1560,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 3.0d und 2.0d (2004-2005): 4565 mm, 480/1560 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0194963DE/283812",
+       "what": "BMW Medieninformation 10/2014 (Historie): erster X3 Länge 4565 mm, Radstand 2795 mm, Gepäckraum 480-1560 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x3/e83/996035/",
+       "what": "ADAC X3 3.0d Automatic 01/04-07/05: 4565 mm Länge, Breite 1853 mm ohne Spiegel, Höhe 1674 mm, 480/1560 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x3/e83/999529/",
+       "what": "ADAC X3 2.0d 09/04-07/05: 4565 mm, 480/1560 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 56,
+      "confirmed": 55,
+      "corrected": 0
+     },
+     "notes": "Marktstart Anfang 2004 (Präsentation 2003). Leistungsangaben der Varianten nicht recherchiert."
     }
    ]
   },
@@ -1898,6 +3737,493 @@
       "corrected": 0
      },
      "notes": "Some sources give 645/1860 l. BMW's standard figure is 650-1870 l. A 7-seat option exists; no trunk figure for it was found."
+    },
+    {
+     "id": "2013-f15",
+     "name": "F15",
+     "yearFrom": 2013,
+     "yearTo": 2018,
+     "bodyType": "suv",
+     "lengthMm": 4886,
+     "widthMm": 1938,
+     "heightMm": 1762,
+     "wheelbaseMm": 2933,
+     "trunkL": 650,
+     "trunkFoldedL": 1870,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "xdrive50i-benziner",
+       "name": "xDrive50i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 450,
+       "awd": true,
+       "trunkL": 650,
+       "trunkFoldedL": 1870,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "BMW Medieninformation 6/2013: same dimensions and trunk."
+      },
+      {
+       "id": "x5-m-f85-benziner",
+       "name": "X5 M (F85, Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 575,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": 4880,
+       "widthMm": 1985,
+       "heightMm": null,
+       "yearFrom": 2015,
+       "yearTo": 2018,
+       "notes": "No manufacturer data found. Third-party databases conflict (auto-data: 4880/1985/1754; mobile.de 4857 / 620 l; angurten/carsized 650/1870 l), so values left null."
+      },
+      {
+       "id": "xdrive30d-xdrive40d-diesel",
+       "name": "xDrive30d / xDrive40d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 650,
+       "trunkFoldedL": 1870,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "BMW Medieninformation 6/2013 and 5/2014 (xDrive30d): 4886/1938/1762, 650-1870 l. Power not captured."
+      },
+      {
+       "id": "m50d-diesel",
+       "name": "M50d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 381,
+       "awd": true,
+       "trunkL": 650,
+       "trunkFoldedL": 1870,
+       "lengthMm": null,
+       "widthMm": 1985,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "BMW Medieninformation 5/2014: 4886/1985/1762, wheelbase 2933, 650-1870 l, 280 kW/381 PS."
+      },
+      {
+       "id": "xdrive40e-plug-in-hybrid",
+       "name": "xDrive40e (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 313,
+       "awd": true,
+       "trunkL": 500,
+       "trunkFoldedL": 1720,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2015,
+       "yearTo": 2018,
+       "notes": "Battery under load floor: 500-1720 l per BMW press release; 230 kW/313 PS system output per AutoKlicker (third-party)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0143600DE/248116",
+       "what": "BMW Medieninformation 6/2013 (valid from 8/2013) X5 xDrive30d: 4886/1938/1762, wheelbase 2933, trunk 650-1870 l"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0143600DE/248117",
+       "what": "BMW Medieninformation 6/2013 X5 xDrive50i: same dimensions and trunk"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0179906DE/265620",
+       "what": "BMW Medieninformation 5/2014 X5 M50d: 4886/1985/1762, 650-1870 l, 381 PS"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0179907DE/265625",
+       "what": "BMW Medieninformation 5/2014 X5 xDrive30d: 4886/1938/1762"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0207284DE/der-bmw-x5-xdrive40e?language=de",
+       "what": "BMW press release X5 xDrive40e: trunk 500-1720 l"
+      },
+      {
+       "url": "https://www.autoklicker.de/autokatalog/bmw-x5-xdrive40e-technische-daten13988.html",
+       "what": "xDrive40e 230 kW/313 PS (third-party)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x5/f15-f85/241204/",
+       "what": "ADAC: xDrive30d 07/14-07/17 confirms 4886/1938/1762/2933, 650/1870 l"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0144924DE/der-neue-bmw-x5-m50d-bmw-individual-und-bmw-original-zubehoer:-dynamisch-exklusiv-vielseitig?language=de",
+       "what": "German market launch 16 November 2013"
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/bmw/x5/f15/",
+       "what": "Korrektur powerPs: Autobild F15: 4.4-l V8 biturbo xDrive50i with 450 PS and 650 Nm; mobile.de agrees."
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/marken-modelle/bmw/x5-m/f85/technische-daten/",
+       "what": "Korrektur lengthMm: auto motor und sport / vehiclesizes.com: X5 M F85 4880 x 1985 x 1754 mm, trunk 650-1870 l (autoevolution press-style 4879/1984). No BMW press sheet found."
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/marken-modelle/bmw/x5-m/f85/technische-daten/",
+       "what": "Korrektur widthMm: Width 1985 mm per ams / vehiclesizes.com (https://www.vehiclesizes.com/cars/bmw/x5-m/x5-m-f85-suv-2015/combined-view)."
+      },
+      {
+       "url": "https://www.bmw-m.com/en/topics/magazine-article-pool/bmw-x5-m-f85.html",
+       "what": "Korrektur powerPs: BMW M: 4.4-litre V8 M TwinPower Turbo, 423 kW (575 hp), 750 Nm."
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 64,
+      "confirmed": 51,
+      "corrected": 4
+     },
+     "notes": "Launched in Germany 11/2013, replaced by G05 in late 2018. Optional 3rd row (7 seats) available; 7-seat trunk volume not found. sDrive/xDrive25d/xDrive35i/xDrive25d variants not individually researched (same body)."
+    },
+    {
+     "id": "2010-e70-lci-facelift",
+     "name": "E70 LCI (Facelift)",
+     "yearFrom": 2010,
+     "yearTo": 2013,
+     "bodyType": "suv",
+     "lengthMm": 4857,
+     "widthMm": 1933,
+     "heightMm": 1776,
+     "wheelbaseMm": 2933,
+     "trunkL": 620,
+     "trunkFoldedL": 1750,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "xdrive35i-benziner",
+       "name": "xDrive35i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 306,
+       "awd": true,
+       "trunkL": 620,
+       "trunkFoldedL": 1750,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Dimensions 4857/1933/1776, wheelbase 2933 per BMW Medieninformation 2/2010 and 9/2011. Power not captured."
+      },
+      {
+       "id": "xdrive50i-benziner",
+       "name": "xDrive50i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 407,
+       "awd": true,
+       "trunkL": 620,
+       "trunkFoldedL": 1750,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "x5-m-benziner",
+       "name": "X5 M (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 555,
+       "awd": true,
+       "trunkL": 620,
+       "trunkFoldedL": 1750,
+       "lengthMm": 4851,
+       "widthMm": 1994,
+       "heightMm": 1764,
+       "yearFrom": 2009,
+       "yearTo": 2013,
+       "notes": "BMW Medieninformation 10/2011: 4851/1994/1764 mm (height without roof antenna 1726), wheelbase 2933, 620-1750 l. X5 M launched 2009 (before LCI) and was built until 2013. Power not captured."
+      },
+      {
+       "id": "xdrive30d-xdrive40d-diesel",
+       "name": "xDrive30d / xDrive40d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 620,
+       "trunkFoldedL": 1750,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "2010 BMW press release for xDrive50i/xDrive40d: 620-1750 l."
+      },
+      {
+       "id": "m50d-diesel",
+       "name": "M50d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 381,
+       "awd": true,
+       "trunkL": 620,
+       "trunkFoldedL": 1750,
+       "lengthMm": null,
+       "widthMm": 2010,
+       "heightMm": 1766,
+       "yearFrom": 2012,
+       "yearTo": 2013,
+       "notes": "BMW Medieninformation 2/2012 (valid from 4/2012): 4857/2010/1766 mm, 280 kW/381 PS, 620-1750 l. Width 2010 as given in data sheet (may include mirrors - unclear)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.press.bmwgroup.com/switzerland/article/attachment/T0077377DE/113947",
+       "what": "BMW Medieninformation 2/2010 'Der neue BMW X5': xDrive35i/xDrive50i 4857/1933/1776 mm, wheelbase 2933, trunk 620-1750 l, 200 l with 3rd row"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0125367DE/193343",
+       "what": "BMW Medieninformation 9/2011 X5 xDrive35i: identical dimensions"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0125367DE/193346",
+       "what": "BMW Medieninformation 10/2011 X5 M: 4851/1994/1764, wheelbase 2933, 620-1750 l"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0125347DE/193313",
+       "what": "BMW Medieninformation 2/2012 X5 M50d: 4857/2010/1766, 381 PS, 620-1750 l"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0078199DE/technische-daten-des-neuen-bmw-x5-gueltig-ab-04/2010?language=de",
+       "what": "Technical data of new X5 valid from 04/2010 (index page)"
+      },
+      {
+       "url": "https://www.bimmertoday.de/2010/04/18/bilder-vom-media-launch-des-bmw-x5-e70-lci-in-miami",
+       "what": "Korrektur powerPs: Bimmertoday/Paultan on X5 LCI launch 2010: xDrive35i 306 PS (400 Nm)."
+      },
+      {
+       "url": "https://www.bimmertoday.de/2010/04/18/bilder-vom-media-launch-des-bmw-x5-e70-lci-in-miami",
+       "what": "Korrektur powerPs: Bimmertoday: xDrive50i 'trägt den 407 PS starken V8-Biturbo' (Wikipedia rounds to 408 PS; 300 kW = 407.9 PS, BMW DE typically states 407)."
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/bmw/x5-m/1/",
+       "what": "Korrektur powerPs: X5 M (E70) 4.4 V8 biturbo S63: 408 kW / 555 PS, 680 Nm (autobild, zeperfs, ultimatespecs agree)."
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 64,
+      "confirmed": 51,
+      "corrected": 3
+     },
+     "notes": "Facelift from 04/2010; height grew from 1766 to 1776 mm and length 4854 -> 4857, trunk unchanged. Optional 3rd row: 200 l with 3rd row up."
+    },
+    {
+     "id": "2007-e70-vor-facelift",
+     "name": "E70 (Vor-Facelift)",
+     "yearFrom": 2007,
+     "yearTo": 2010,
+     "bodyType": "suv",
+     "lengthMm": 4854,
+     "widthMm": 1933,
+     "heightMm": 1766,
+     "wheelbaseMm": 2933,
+     "trunkL": 620,
+     "trunkFoldedL": 1750,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "3-0si-benziner",
+       "name": "3.0si (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 272,
+       "awd": true,
+       "trunkL": 620,
+       "trunkFoldedL": 1750,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "200 kW/272 PS per BMW Media Information 8/2006."
+      },
+      {
+       "id": "4-8i-benziner",
+       "name": "4.8i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 355,
+       "awd": true,
+       "trunkL": 620,
+       "trunkFoldedL": 1750,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "261 kW/355 PS per BMW Media Information 8/2006."
+      },
+      {
+       "id": "3-0d-diesel",
+       "name": "3.0d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 231,
+       "awd": true,
+       "trunkL": 620,
+       "trunkFoldedL": 1750,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "170 kW/231 PS per BMW Media Information 8/2006."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.7-forum.com/news/2006/x5/innenraum.php",
+       "what": "2006 launch article (BMW press content): VDA trunk 620 l (5 seats), 1750 l folded; 90 l underfloor compartment without 3rd row; 200 l with 3rd row in use"
+      },
+      {
+       "url": "http://www.7-forum.com/news/2006/x5/technische_daten.php?id1=93",
+       "what": "Technical data X5 3.0d E70 2007-2010: width 1933 mm without mirrors, height 1766 mm"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/BMW_X5_(E70)",
+       "what": "length 4854, width 1933, height 1766 (2007-2008), wheelbase 2933"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/asia/article/attachment/T0045539EN/69167",
+       "what": "BMW Media Information 8/2006: wheelbase 2933 mm, engine outputs 3.0si 272 PS, 4.8i 355 PS, 3.0d 231 PS"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 64,
+      "confirmed": 51,
+      "corrected": 0
+     },
+     "notes": "Optional 3rd row (7 seats): 200 l remain with 3rd row up. Further engines (e.g. 3.0sd, xDrive35d from 2008/09) not separately researched; same body/trunk. X5 M (E70, from 2009) listed in facelift generation entry."
+    },
+    {
+     "id": "2004-e53-facelift",
+     "name": "E53 (Facelift)",
+     "yearFrom": 2004,
+     "yearTo": 2006,
+     "bodyType": "suv",
+     "lengthMm": 4667,
+     "widthMm": 1872,
+     "heightMm": 1715,
+     "wheelbaseMm": 2820,
+     "trunkL": 465,
+     "trunkFoldedL": 1550,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "3-0i-benziner",
+       "name": "3.0i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 231,
+       "awd": true,
+       "trunkL": 465,
+       "trunkFoldedL": 1550,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Power per ultimatespecs (third-party); trunk shared across E53 facelift."
+      },
+      {
+       "id": "4-4i-benziner",
+       "name": "4.4i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 320,
+       "awd": true,
+       "trunkL": 465,
+       "trunkFoldedL": 1550,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1707,
+       "yearFrom": 2004,
+       "yearTo": 2006,
+       "notes": "ADAC lists height 1707 mm for 4.4i Automatic (10/03-11/06). Power output not found in consulted sources."
+      },
+      {
+       "id": "4-8is-benziner",
+       "name": "4.8is (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 360,
+       "awd": true,
+       "trunkL": 465,
+       "trunkFoldedL": 1550,
+       "lengthMm": null,
+       "widthMm": 1925,
+       "heightMm": 1688,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Width 1925 mm per BMW data sheet 04/2004 (treffseiten.de, as quoted in search summary). Power 360 per autodata24 (stated as Hp; not manufacturer-verified)."
+      },
+      {
+       "id": "3-0d-diesel",
+       "name": "3.0d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 218,
+       "awd": true,
+       "trunkL": 465,
+       "trunkFoldedL": 1550,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2006,
+       "notes": "ADAC: 3.0d Automatic 10/03-10/05, height 1715 mm. 218 PS per auto-data.net."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x5/e53-facelift/996398/",
+       "what": "ADAC Autokatalog X5 3.0d Automatic (10/03-10/05): length 4667, width 1872, height 1715, wheelbase 2820, trunk 465 / 1550 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x5/e53-facelift/996395/",
+       "what": "ADAC Autokatalog X5 4.4i Automatic (10/03-11/06): same length/width, height 1707; build period to 11/2006"
+      },
+      {
+       "url": "https://www.treffseiten.de/bmw/info/daten_X5_30i_44i_30d_04_04.pdf",
+       "what": "BMW technical data sheet 04/2004 (mirror): length 4667 for 3.0i/4.4i/3.0d/4.8is, 4.8is width 1925, trunk 465/1550 VDA (as reported in search summary, not opened)"
+      },
+      {
+       "url": "https://www.ultimatespecs.com/car-specs/BMW/5159/BMW-E53-X5-30i.html",
+       "what": "3.0i 231 PS (third-party)"
+      },
+      {
+       "url": "https://www.auto-data.net/en/bmw-x5-e53-lci-facelift-2003-3.0d-218hp-9787",
+       "what": "3.0d 218 PS (third-party)"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/BMW_E53",
+       "what": "Facelift date September 2003"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0006517DE/23879",
+       "what": "Korrektur powerPs: BMW technical data sheet (valid from 04/2004) and motor1 test 'BMW X5 4.4i im Modelljahr 2004': 4.4i V8 N62B44, 235 kW / 320 PS. Also https://de.motor1.com/reviews/170535/bmw-x5-44i-im-modelljahr-2004-edelmann-mit-baren-kraften/"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x5/e53-facelift/996396/",
+       "what": "Korrektur heightMm: ADAC X5 4.8is Automatic (04/04-11/06): Länge 4667, Breite 1925, Höhe 1688 mm; BMW press data sheet valid from 04/2004 (press.bmwgroup.com T0006517DE/23879) also lists 4.8is 4667/1925/1688. Variant currently inherits generation height 1715."
+      },
+      {
+       "url": "https://www.auto-data.net/de/bmw-x5-e53-lci-facelift-2003-3.0d-218hp-steptronic-21241",
+       "what": "Korrektur yearTo: auto-data.net and fastcarcheck list the 218 PS 3.0d (incl. Steptronic) for 2003-2006; used listings show 218 PS 3.0d with first registration 11-12/2006. The ADAC 10/05 cut-off is only one catalog entry split (ADAC itself gives E53 series end 11/06). Not manufacturer-confirmed; medi"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 64,
+      "confirmed": 51,
+      "corrected": 3
+     },
+     "notes": "E53 launched 1999/2000; only the facelift (from 10/2003) was still on sale in 2005-2006, so only the facelift is returned. Values mostly from ADAC (no BMW press kit found directly; the BMW data-sheet mirror on treffseiten.de matches). Successor E70 from late 2006."
     }
    ]
   }

@@ -1,0 +1,405 @@
+{
+ "id": "h-toyota-2",
+ "brand": "Toyota",
+ "data": {
+  "models": [
+   {
+    "brand": "Toyota",
+    "model": "Yaris",
+    "generations": [
+     {
+      "name": "XP9 (2. Generation)",
+      "yearFrom": 2006,
+      "yearTo": 2008,
+      "bodyType": "hatchback",
+      "lengthMm": 3750,
+      "widthMm": 1695,
+      "heightMm": 1530,
+      "wheelbaseMm": 2460,
+      "trunkL": 272,
+      "trunkFoldedL": 737,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.0 VVT-i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 272,
+        "trunkFoldedL": 737,
+        "notes": "Power not verified within search budget."
+       },
+       {
+        "name": "1.3 VVT-i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 272,
+        "trunkFoldedL": 737,
+        "notes": "Power not verified within search budget."
+       },
+       {
+        "name": "1.4 D-4D (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 90,
+        "awd": false,
+        "trunkL": 272,
+        "trunkFoldedL": 737,
+        "notes": "90 PS / 66 kW per ADAC Gebrauchtwageninfo."
+       },
+       {
+        "name": "TS 1.8 Dual VVT-i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 133,
+        "awd": false,
+        "trunkL": 275,
+        "trunkFoldedL": 737,
+        "lengthMm": 3750,
+        "heightMm": 1530,
+        "yearFrom": 2007,
+        "yearTo": 2009,
+        "notes": "ADAC Autokatalog (Herstellerangabe) for TS 5-Türer 01/07-01/09: 275 l normal, 737 l window-high folded, 1183 l roof-high folded; 98 kW/133 PS."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Gen2-Yaris-archive-press-pack.pdf",
+        "what": "Toyota UK archive press pack (2nd gen): length 3,750 mm, width 1,695 mm, height 1,530 mm, wheelbase 2,460 mm, VDA luggage capacity rear seat up 272-363 l, 1.4 D-4D 90 diesel"
+       },
+       {
+        "url": "https://newsroom.toyota.eu/2005-yaris-dpl/",
+        "what": "Toyota Europe 2005 Yaris press kit: 272-363 l seats up (sliding rear seat), 737 l with rear seats folded loaded to top edge of front seats"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp9/207747",
+        "what": "ADAC Autokatalog Yaris TS 5-Türer (01/07-01/09): length 3750, height 1530, trunk 275/737/1183 l, 133 PS"
+       },
+       {
+        "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0150-toyota-yaris-2006-2011-bericht.pdf",
+        "what": "ADAC Gebrauchtwageninfo Yaris 2006-2011: 3750x1695x1530 mm, 1.8 TS 133 PS, 1.4 D-4D 90 PS"
+       }
+      ],
+      "confidence": "high",
+      "notes": "3- and 5-door share dimensions. Rear seat slides: 272 l (seat rearmost) to 363 l (seat forward) per Toyota; ADAC lists 275 l normal. Folded value 737 l is the manufacturer figure loaded to the top edge of the front seats (window-high); ADAC roof-high 1183 l. German market launch early 2006 (model year 2006). Facelift 01/2009 increased length to 3785 mm (separate entry)."
+     },
+     {
+      "name": "XP9 (2. Generation, Facelift)",
+      "yearFrom": 2009,
+      "yearTo": 2011,
+      "bodyType": "hatchback",
+      "lengthMm": 3785,
+      "widthMm": 1695,
+      "heightMm": 1530,
+      "wheelbaseMm": 2460,
+      "trunkL": 275,
+      "trunkFoldedL": 737,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.0 VVT-i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 275,
+        "trunkFoldedL": 737,
+        "notes": "Power not verified within search budget."
+       },
+       {
+        "name": "1.33 Dual VVT-i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 275,
+        "trunkFoldedL": 737,
+        "notes": "ADAC 1.33 Sol 5-Türer (01/09-01/10) basis for dimensions and trunk."
+       },
+       {
+        "name": "1.4 D-4D (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 90,
+        "awd": false,
+        "trunkL": 275,
+        "trunkFoldedL": 737,
+        "notes": "ADAC Gebrauchtwageninfo: 90 PS, DPF from 03/2009."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp9-facelift/217489/",
+        "what": "ADAC Autokatalog Yaris 1.33 Sol 5-Türer (01/09-01/10): length 3785, width 1695, height 1530, wheelbase 2460, trunk 275 l normal, 737 l window-high folded"
+       },
+       {
+        "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0150-toyota-yaris-2006-2011-bericht.pdf",
+        "what": "ADAC Gebrauchtwageninfo: 1.4 D-4D 90 PS"
+       },
+       {
+        "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Yaris-Gen3-Launch-Pack-2011.pdf",
+        "what": "Toyota UK Gen3 launch pack: new car 3,885 mm 'just 100 mm longer than the previous model' (confirms 3,785 mm of facelifted XP9)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Values from ADAC (manufacturer data column) as no Toyota press kit for the 2009 facelift was found. The 1.8 TS was dropped in 01/2009."
+     },
+     {
+      "name": "XP13 (3. Generation)",
+      "yearFrom": 2011,
+      "yearTo": 2014,
+      "bodyType": "hatchback",
+      "lengthMm": 3885,
+      "widthMm": 1695,
+      "heightMm": 1510,
+      "wheelbaseMm": 2510,
+      "trunkL": 286,
+      "trunkFoldedL": null,
+      "loadSpace": {
+       "lengthMm": 710,
+       "widthMm": 1365,
+       "widthBetweenArchesMm": null,
+       "heightMm": null,
+       "openingHeightMm": null,
+       "sillHeightMm": null,
+       "lengthFoldedMm": 1500,
+       "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Yaris-Gen3-Launch-Pack-2011.pdf (loadspace length 710 mm, max loadspace width 1,365 mm, load length seats folded 1,500 mm)"
+      },
+      "variants": [
+       {
+        "name": "1.0 VVT-i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 286,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "1.33 Dual VVT-i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 286,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "1.4 D-4D (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 286,
+        "trunkFoldedL": null,
+        "notes": "1.4 D-4D offered 10/2011-2017 per de.wikipedia Power not verified within search budget."
+       },
+       {
+        "name": "Hybrid 1.5 VVT-i (Vollhybrid)",
+        "powertrain": "hev",
+        "powerPs": 100,
+        "awd": false,
+        "trunkL": 286,
+        "trunkFoldedL": null,
+        "yearFrom": 2012,
+        "notes": "Hybrid battery and fuel tank under the rear seat, boot 286 l same as conventional versions. 100 PS system output per auto-data.net (third party)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Yaris-Gen3-Launch-Pack-2011.pdf",
+        "what": "Toyota UK Gen3 launch press pack 2011: length 3,885 mm, width 1,695 mm, height 1,510 mm, wheelbase +50 mm vs. predecessor (2,460 -> 2,510 mm), boot 286 l to window line, load space dimensions"
+       },
+       {
+        "url": "https://newsroom.toyota.eu/2019-yaris-dpl-2011-increased-interior-roominess-greater-comfort-and-improved-sensory-quality/",
+        "what": "Toyota Europe 2011 Yaris press kit: wheelbase +50 mm, luggage compartment length +145 mm"
+       },
+       {
+        "url": "https://www.mobile.de/auto/toyota/yaris/2011/schraegheck/modell/daten-fakten/",
+        "what": "Wheelbase 2,510 mm, trunk 286 l (cross-check)"
+       },
+       {
+        "url": "https://www.dev.honestjohn.co.uk/news/motorshows/geneva-motor-show-2012/geneva-motor-show-2012-toyota-debuts-yaris-hsd/",
+        "what": "Yaris Hybrid 2012: battery and tank under rear seat, 286 l boot same as standard Yaris"
+       },
+       {
+        "url": "https://www.auto-data.net/en/toyota-yaris-iii-facelift-2014-1.5-100hp-hybrid-e-cvt-24123",
+        "what": "Yaris Hybrid system output 100 PS (third party)"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/Toyota_Yaris_(XP13)",
+        "what": "Engine availability periods (1.33, 1.4 D-4D 10/2011-04/2017)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "3- and 5-door share dimensions. Folded volume not found for the pre-facelift car (ADAC gives 768 l window-high for the 2014 facelift; not transferred). Facelift 09/2014 changed length (3950 mm) - separate entry."
+     },
+     {
+      "name": "XP13 (3. Generation, Facelift 2014)",
+      "yearFrom": 2014,
+      "yearTo": 2017,
+      "bodyType": "hatchback",
+      "lengthMm": 3950,
+      "widthMm": 1695,
+      "heightMm": 1510,
+      "wheelbaseMm": 2510,
+      "trunkL": 286,
+      "trunkFoldedL": 768,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.0 VVT-i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 286,
+        "trunkFoldedL": 768
+       },
+       {
+        "name": "1.33 Dual VVT-i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 286,
+        "trunkFoldedL": 768,
+        "notes": "ADAC 1.33 Club 5-Türer (09/14-07/15): 3950 mm, 286/768 l."
+       },
+       {
+        "name": "1.4 D-4D (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 286,
+        "trunkFoldedL": 768,
+        "notes": "Offered until 04/2017 per de.wikipedia; no separate ADAC page found, trunk assumed per body (same body, no battery). Power not verified within search budget."
+       },
+       {
+        "name": "1.5 Hybrid (Vollhybrid)",
+        "powertrain": "hev",
+        "powerPs": 100,
+        "awd": false,
+        "trunkL": 286,
+        "trunkFoldedL": 768
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift/242945",
+        "what": "ADAC Autokatalog Yaris 1.5 Hybrid 5-Türer (09/14-03/17): length 3950, width 1695, height 1510, wheelbase 2510, trunk 286 l normal, 768 l window-high folded"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift/242943/",
+        "what": "ADAC Autokatalog Yaris 1.33 Club 5-Türer (09/14-07/15): length 3950, trunk 286/768 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift/252206",
+        "what": "ADAC Yaris 1.5 Hybrid Style (01/16-03/17): trunk 286/768 l"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/Toyota_Yaris_(XP13)",
+        "what": "Engine availability periods"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Values from ADAC (Herstellerangabe) since no Toyota press kit for the 2014 facelift was found within the search budget. 768 l is window-high with rear seat folded; no roof-high value found."
+     },
+     {
+      "name": "XP13 (3. Generation, Facelift 2017)",
+      "yearFrom": 2017,
+      "yearTo": 2020,
+      "bodyType": "hatchback",
+      "lengthMm": 3945,
+      "widthMm": 1695,
+      "heightMm": 1510,
+      "wheelbaseMm": 2510,
+      "trunkL": 286,
+      "trunkFoldedL": 768,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.0 VVT-i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 286,
+        "trunkFoldedL": 768
+       },
+       {
+        "name": "1.5 Dual VVT-iE (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 286,
+        "trunkFoldedL": 768,
+        "notes": "ADAC 1.5 Comfort 5-Türer (04/17-08/18)."
+       },
+       {
+        "name": "1.5 Hybrid (Vollhybrid)",
+        "powertrain": "hev",
+        "powerPs": 100,
+        "awd": false,
+        "trunkL": 286,
+        "trunkFoldedL": 768
+       },
+       {
+        "name": "GRMN 1.8 Dual VVT-iE Kompressor",
+        "powertrain": "petrol",
+        "powerPs": 212,
+        "awd": false,
+        "trunkL": 286,
+        "trunkFoldedL": null,
+        "lengthMm": 3945,
+        "widthMm": 1695,
+        "heightMm": 1510,
+        "yearFrom": 2018,
+        "yearTo": 2018,
+        "notes": "Limited edition, 3-door; Toyota NL Frankfurt press kit spec sheet: 3945 x 1695 x 1510 mm, wheelbase 2510, 286 dm3 VDA. Folded volume not found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift-2/273041",
+        "what": "ADAC Yaris 1.5 Hybrid Comfort Designpaket (04/17-01/18): length 3945, width 1695, height 1510, wheelbase 2510"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift-2/290259/",
+        "what": "ADAC Yaris 1.5 Hybrid Comfort (05/18-06/19): 3945/1695/1510/2510, trunk 286 l normal, 768 l window-high folded"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift-2/300838",
+        "what": "ADAC Yaris 1.5 Hybrid (06/19-02/20): trunk 286/768 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift-2/273033/",
+        "what": "ADAC Yaris 1.5 Comfort petrol (04/17-08/18)"
+       },
+       {
+        "url": "https://cdn.uc.assets.prezly.com/2052fa8e-0765-4eaf-8d6e-a6e1dbeefcb3/-/inline/no/toyota-frankfurt-press-kit-yaris-grmn-spec-sheet-finalnl.pdf",
+        "what": "Toyota (NL) Frankfurt press kit Yaris GRMN spec sheet: 3945 x 1695 x 1510 mm, wheelbase 2510 mm, luggage 286 dm3 VDA"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift-2/284064/",
+        "what": "ADAC Yaris GRMN (01/18-08/18): length 3945, width 1695, 212 PS"
+       },
+       {
+        "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/1485445765170110MTechSpec.pdf",
+        "what": "Toyota UK technical specifications (2017 Yaris): width 1,695, height 1,510, VDA luggage 286 l rear seat up (lists length 3,950 mm, UK spec)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 04/2017: 1.33 replaced by 1.5 Dual VVT-iE, diesel dropped. Length 3945 mm per ADAC/Toyota NL; Toyota UK sheet lists 3950 mm (market-specific bumpers). 768 l is window-high with rear seat folded. Production for Germany ended early 2020 (successor XP21)."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Yaris XP13 (2011-2014) trunkFoldedL",
+   "Yaris XP9 / XP13 powerPs for 1.0 VVT-i, 1.3/1.33 VVT-i and 1.5 Dual VVT-iE petrol variants",
+   "Yaris XP13 Facelift 2017 GRMN trunkFoldedL",
+   "Yaris XP9 Facelift loadSpace dimensions",
+   "Yaris XP13 Facelift 2014/2017 loadSpace dimensions",
+   "Yaris XP13 1.4 D-4D powerPs"
+  ],
+  "notes": "Predecessors of Yaris XP21: XP9 (2006-2011, split at 2009 facelift due to length change 3750->3785 mm) and XP13 (2011-2020, split into original/2014 facelift/2017 facelift due to length changes 3885/3950/3945 mm). Yaris Verso and Yaris Cross are different nameplates and were skipped. Official Toyota press kits used where found (UK/EU press packs); otherwise ADAC Autokatalog manufacturer data. Search budget (20) exhausted."
+ },
+ "verification": {
+  "corrections": [],
+  "missing": [],
+  "checkedValues": 26,
+  "confirmedValues": 23,
+  "notes": "8 WebSearch calls used. XP9 (2006-2008): 3750/1695/1530/2460 and 272 l confirmed (carsales, vehiclesizes 272-275 l); 737 l folded not independently found (vehiclesizes gives roof-high 1086-1183 l), but no contradicting manufacturer figure. XP9 facelift: 3785/1695/1530/2460 confirmed (cars-data.com, fastcarcheck.uk); trunk sources disagree (fastcarcheck 272 l, cars-data 313 l), no manufacturer source contradicting ADAC 275 l. XP13 2011: 3885/1695/1510/2510 and 286 l confirmed (carsales AU). Folded value for pre-facelift remains unverified from manufacturer; UK reviews (carbuyer.co.uk, cinch.co.uk) give 768 l seats folded for the 2011-2020 generation as a whole, while carbuyer hybrid review and drivingelectric.com give 786 l - not strong enough to fill the null. XP13 2014 facelift: 3950/1695/1510 and 286 l confirmed (autobild.de Fahrbericht Yaris Hybrid 2014); 768 l not independently tied to 2014 (autobild generation range 206-768 l). XP13 2017 facelift: 3945/1695/1510 and 286 l confirmed (autotijd.be, carsales); 768 l max confirmed (vehiclesizes.com, Yaris III facelift 2017). Year ranges consistent with sources. No important missing German-market variants identified (no AWD/PHEV/BEV in these generations; GRMN and Hybrid already present)."
+ }
+}

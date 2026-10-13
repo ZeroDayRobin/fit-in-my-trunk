@@ -1,0 +1,609 @@
+{
+ "id": "h-skoda-2",
+ "brand": "Škoda",
+ "data": {
+  "models": [
+   {
+    "brand": "Škoda",
+    "model": "Octavia Limousine",
+    "generations": [
+     {
+      "name": "1Z (2. Generation, inkl. Facelift 2009)",
+      "yearFrom": 2004,
+      "yearTo": 2013,
+      "bodyType": "hatchback",
+      "lengthMm": 4572,
+      "widthMm": 1769,
+      "heightMm": 1462,
+      "wheelbaseMm": 2578,
+      "trunkL": 560,
+      "trunkFoldedL": 1350,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 FSI / 1.4 TSI / 1.8 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 560,
+        "trunkFoldedL": 1350,
+        "notes": "ADAC catalogue entry 1.6 FSI Ambiente (06/04-01/09): 560 l normal, 1350 l with rear seat folded."
+       },
+       {
+        "name": "1.9 TDI / 2.0 TDI / 1.6 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 560,
+        "trunkFoldedL": 1350,
+        "notes": "1.6 TDI (105 PS) replaced the 1.9 TDI in 06/2009 (ADAC Gebrauchtwageninfo). Trunk assumed same body; 560 l confirmed by autokosten.net for 2.0 TDI."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/2generation/998286/",
+        "what": "ADAC Autokatalog (manufacturer data) 1.6 FSI Limousine 06/04-01/09: wheelbase 2578 mm, trunk 560/1350 l"
+       },
+       {
+        "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0124-skoda-octavia-2004-2013-benziner-bericht.pdf",
+        "what": "ADAC Gebrauchtwageninfo Octavia 2004-2013: Limousine 4572 x 1769 x 1462 mm, 560 l; 1.6 TDI from 06/2009"
+       },
+       {
+        "url": "https://www.autokosten.net/skoda/octavia-limousine/octavia-2-0-tdi/octavia-ii-limousine-06-04-05-09_17/technische-daten",
+        "what": "cross-check: 4572/1769/1462 mm, wheelbase 2578, 560 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Octavia Limousine is a 5-door liftback (Schrägheck), hence bodyType hatchback. No manufacturer press kit found. Facelift 2009: no confirmed change of trunk volume; angurten.de lists 4569 mm length / 2575 mm wheelbase for some variant, not verified with ADAC/manufacturer, so facelift kept in one entry. Octavia RS (II) and 4x4 Limousine dimensions/trunk not researched (budget)."
+     },
+     {
+      "name": "5E (3. Generation)",
+      "yearFrom": 2013,
+      "yearTo": 2017,
+      "bodyType": "hatchback",
+      "lengthMm": 4659,
+      "widthMm": 1814,
+      "heightMm": null,
+      "wheelbaseMm": 2686,
+      "trunkL": 590,
+      "trunkFoldedL": 1580,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 TSI / 1.4 TSI / 1.8 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 590,
+        "trunkFoldedL": 1580
+       },
+       {
+        "name": "1.6 TDI / 2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 590,
+        "trunkFoldedL": 1580
+       },
+       {
+        "name": "1.4 TSI G-TEC 110 PS (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": 110,
+        "awd": false,
+        "trunkL": 460,
+        "trunkFoldedL": null,
+        "notes": "Škoda: G-TEC Limousine 460 l (Combi 480 l) because of CNG tanks under the floor. Folded volume not found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.skoda-media.de/model/txt/15238/*",
+        "what": "Škoda press text Octavia Limousine MJ2015: 590 l trunk, wheelbase 2686 mm, almost 4.66 m long, over 1.81 m wide without mirrors"
+       },
+       {
+        "url": "https://www.skoda-media.de/model_text/genpdf/15581",
+        "what": "Škoda press text Octavia G-TEC MJ2017: Limousine trunk 460 l"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Octavia_III",
+        "what": "length 4659 mm (base), 590/1580 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/skoda/octavia/2013/limousine/modell/daten-fakten/",
+        "what": "cross-check wheelbase 2686 mm"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Exact height of the pre-facelift Limousine not confirmed from manufacturer/ADAC (Wikipedia gives only ranges), so null. RS (pre-facelift) and 4x4 trunk not found; RS facelift values see next entry."
+     },
+     {
+      "name": "5E Facelift (3. Generation)",
+      "yearFrom": 2017,
+      "yearTo": 2020,
+      "bodyType": "hatchback",
+      "lengthMm": 4670,
+      "widthMm": 1814,
+      "heightMm": null,
+      "wheelbaseMm": 2686,
+      "trunkL": 590,
+      "trunkFoldedL": 1580,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.0 TSI / 1.5 TSI ACT (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 590,
+        "trunkFoldedL": 1580
+       },
+       {
+        "name": "1.6 TDI / 2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 590,
+        "trunkFoldedL": 1580
+       },
+       {
+        "name": "RS 245 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 245,
+        "awd": false,
+        "trunkL": 590,
+        "trunkFoldedL": 1580,
+        "lengthMm": 4689,
+        "widthMm": 1814,
+        "heightMm": 1448,
+        "notes": "ADAC: RS 245 Limousine 07/17-08/18, 4689 x 1814 x 1448 mm, wheelbase 2680 mm, 590/1580 l."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/3generation-facelift/280133/",
+        "what": "ADAC Autokatalog RS 245 Limousine: 4689/1814/1448 mm, wheelbase 2680, 590 l / 1580 l"
+       },
+       {
+        "url": "https://www.motorsport-total.com/auto/news/skoda-octavia-2017-technische-daten-des-aufpolierten-bestsellers-17011201",
+        "what": "facelift length 4.67 m"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/skoda-octavia-facelift-2017-vorstellung-und-fahrbericht-6036949.html",
+        "what": "AUTO BILD: Limousine 590 l, max 1580 l"
+       },
+       {
+        "url": "https://www.skoda-media.de/model-preliminary/download/173?nutzung_ok=1",
+        "what": "Škoda technical data Octavia III FL Limousine MJ2018 (found, contents not fully readable via search)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift is about 11 mm longer than pre-facelift (4.67 m, only rounded value from press coverage), so split into its own entry. Height not confirmed from manufacturer/ADAC (auto-data.net gives 1461 mm, not used). Wheelbase taken as unchanged 2686 mm (ADAC Combi FL 2686 mm). G-TEC FL (1.5 TSI G-TEC from 2019) trunk not found."
+     }
+    ]
+   },
+   {
+    "brand": "Škoda",
+    "model": "Superb Combi",
+    "generations": [
+     {
+      "name": "3T Combi (2. Generation)",
+      "yearFrom": 2010,
+      "yearTo": 2013,
+      "bodyType": "wagon",
+      "lengthMm": 4838,
+      "widthMm": 1817,
+      "heightMm": 1510,
+      "wheelbaseMm": 2758,
+      "trunkL": 603,
+      "trunkFoldedL": 1835,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 TSI / 1.8 TSI / 3.6 V6 4x4 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 603,
+        "trunkFoldedL": 1835,
+        "notes": "Trunk per powertrain not separately verified."
+       },
+       {
+        "name": "1.6 TDI / 2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 603,
+        "trunkFoldedL": 1835,
+        "notes": "ADAC 2.0 TDI Elegance DSG 01/10-05/13: 603 l normal, 1835 l dachhoch."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/superb/2generation/220951/",
+        "what": "ADAC Autokatalog (manufacturer data) Superb Combi 2.0 TDI Elegance DSG 01/10-05/13: 4838 x 1817 x 1510 mm, wheelbase 2758 mm, 603 l / 1835 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Combi launched late 2009 (MY2010). Many databases quote 633/1865 l for the 3T Combi; ADAC gives 603/1835 l for the pre-facelift. Škoda's 2015 B8 text says the new Combi's 660 l are 27 l more than the old one (=633 l), consistent with 633 l for the facelift. 4x4 trunk not separately verified."
+     },
+     {
+      "name": "3T Combi Facelift (2. Generation)",
+      "yearFrom": 2013,
+      "yearTo": 2015,
+      "bodyType": "wagon",
+      "lengthMm": 4838,
+      "widthMm": 1817,
+      "heightMm": 1510,
+      "wheelbaseMm": null,
+      "trunkL": 633,
+      "trunkFoldedL": 1865,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 TSI / 1.8 TSI / 2.0 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 633,
+        "trunkFoldedL": 1865
+       },
+       {
+        "name": "1.6 TDI / 2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 633,
+        "trunkFoldedL": 1865
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.skoda-media.de/model/txt/15521/*",
+        "what": "Škoda press text new Superb Combi: 660 l = 27 l more than old Superb Combi (implies 633 l), 1950 l folded"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/skoda/superb/superb-combi-2-0-tdi-2009-2015-kombi-diesel/",
+        "what": "4838 x 1817 x 1510 mm, 633-1865 l (database, not preferred source)"
+       },
+       {
+        "url": "https://www.autozine.de/skoda/superb-combi-2009-2015/20-tdi-170-ps-comfort-dsg",
+        "what": "cross-check 633-1865 l"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Split from pre-facelift because trunk figures differ (ADAC 603/1835 pre-FL vs 633/1865). Which model years carry 633/1865 is not fully clear from sources; might also apply to the whole 3T Combi. Wheelbase not confirmed for facelift (ADAC pre-FL 2758 mm). Dimensions only from databases."
+     },
+     {
+      "name": "3V / B8 (3. Generation, vor Facelift)",
+      "yearFrom": 2015,
+      "yearTo": 2019,
+      "bodyType": "wagon",
+      "lengthMm": 4856,
+      "widthMm": 1864,
+      "heightMm": 1477,
+      "wheelbaseMm": 2841,
+      "trunkL": 660,
+      "trunkFoldedL": 1950,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 TSI / 2.0 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 660,
+        "trunkFoldedL": 1950
+       },
+       {
+        "name": "1.6 TDI / 2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 660,
+        "trunkFoldedL": 1950,
+        "notes": "ADAC 2.0 TDI SCR Style 09/15-11/17."
+       },
+       {
+        "name": "2.0 TDI 4x4 / 2.0 TSI 4x4",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 660,
+        "trunkFoldedL": 1950,
+        "notes": "ADAC 2.0 TDI SCR Style 4x4 DSG: same dimensions and trunk as FWD."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/superb/3generation/248380/",
+        "what": "ADAC Autokatalog Superb Combi 2.0 TDI SCR Style 09/15-11/17: 4856 x 1864 x 1477 mm, wheelbase 2841, 660 l / 1950 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/superb/3generation/248382/",
+        "what": "ADAC 4x4 DSG variant: same dimensions and trunk"
+       },
+       {
+        "url": "https://www.skoda-media.de/model/txt/15521/*",
+        "what": "Škoda press text: Combi 660 l, 1950 l folded"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Pre-facelift B8 (EXISTING list has only the 2019 facelift). No PHEV in this phase (iV came with facelift). SportLine/Scout heights not researched."
+     }
+    ]
+   },
+   {
+    "brand": "Škoda",
+    "model": "Superb Limousine",
+    "generations": [
+     {
+      "name": "3U (1. Generation, inkl. Facelift 2006)",
+      "yearFrom": 2002,
+      "yearTo": 2008,
+      "bodyType": "sedan",
+      "lengthMm": 4803,
+      "widthMm": 1765,
+      "heightMm": 1469,
+      "wheelbaseMm": 2803,
+      "trunkL": 462,
+      "trunkFoldedL": 945,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.8 T / 2.0 / 2.8 V6 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 462,
+        "trunkFoldedL": 945
+       },
+       {
+        "name": "1.9 TDI / 2.0 TDI / 2.5 TDI V6 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 462,
+        "trunkFoldedL": 945,
+        "notes": "ADAC 1.9 TDI Elegance/Classic: 462 l."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/superb/1generation/109382/",
+        "what": "ADAC Autokatalog (manufacturer data) Superb 1.9 TDI Elegance 03/02-12/05: 4803 x 1765 x 1469 mm, wheelbase 2803 mm, 462 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/superb/1generation/995340/",
+        "what": "ADAC 1.9 TDI Classic: identical dimensions, 462 l"
+       },
+       {
+        "url": "https://www.autobild.de/marken-modelle/skoda/superb/typ-3u4/",
+        "what": "AUTO BILD: Superb I (3U4) 02/2002-02/2008, trunk 462-945 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Still sold in 2005-2008, so in scope. Folded volume 945 l only from AUTO BILD (low priority source). Facelift 2006 dimensions not verified (ADAC 2.8 V6 facelift page exists: .../1generation-facelift/208920/), kept in one entry."
+     },
+     {
+      "name": "3T (2. Generation, TwinDoor, inkl. Facelift 2013)",
+      "yearFrom": 2008,
+      "yearTo": 2015,
+      "bodyType": "hatchback",
+      "lengthMm": 4838,
+      "widthMm": 1817,
+      "heightMm": 1462,
+      "wheelbaseMm": 2761,
+      "trunkL": 565,
+      "trunkFoldedL": 1670,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 TSI / 1.8 TSI / 3.6 V6 4x4 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 565,
+        "trunkFoldedL": 1670
+       },
+       {
+        "name": "1.6 TDI / 1.9 TDI / 2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 565,
+        "trunkFoldedL": 1670
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.skoda-media.de/model/txt/15010/*",
+        "what": "Škoda press text Superb Limousine (MY2013): 4838 x 1817 x 1462 mm, trunk 565 l up to 1700 l, TwinDoor"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Superb_II",
+        "what": "wheelbase 2761 mm, 565-1670 l"
+       },
+       {
+        "url": "https://www.autokosten.net/skoda/superb-limousine/superb-2-0-tdi/superb-ii-limousine-07-08-05-13_15/technische-daten",
+        "what": "cross-check 4838 x 1817 x 1462 mm"
+       },
+       {
+        "url": "https://www.mobile.de/auto/skoda/superb/2008/limousine/modell/daten-fakten/",
+        "what": "lists wheelbase 2758 mm, 565 l, 1670 l (conflict on wheelbase)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "TwinDoor liftback-sedan (boot lid or full tailgate), modelled as hatchback. Wheelbase conflict: 2761 mm (Wikipedia) vs 2758 mm (mobile.de, autoscout24; ADAC gives 2758 for the Combi). Folded volume: Škoda press text says up to 1700 l, databases 1670 l. Facelift 2013 not split (no confirmed dimension/trunk change)."
+     },
+     {
+      "name": "3V / B8 (3. Generation, vor Facelift)",
+      "yearFrom": 2015,
+      "yearTo": 2019,
+      "bodyType": "hatchback",
+      "lengthMm": 4861,
+      "widthMm": 1864,
+      "heightMm": 1468,
+      "wheelbaseMm": 2841,
+      "trunkL": 625,
+      "trunkFoldedL": 1760,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 TSI / 2.0 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 625,
+        "trunkFoldedL": 1760,
+        "notes": "ADAC 2.0 TSI Style DSG 06/15-06/18."
+       },
+       {
+        "name": "1.6 TDI / 2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 625,
+        "trunkFoldedL": 1760,
+        "notes": "ADAC 2.0 TDI Active DSG: same dimensions, 625 l."
+       },
+       {
+        "name": "4x4 (2.0 TSI / 2.0 TDI)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "4x4 trunk volume not verified."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/superb/3generation/245629/",
+        "what": "ADAC Autokatalog Superb 2.0 TSI Style DSG 06/15-06/18: 4861 x 1864 x 1468 mm, wheelbase 2841, 625 l / 1760 l"
+       },
+       {
+        "url": "https://www.adac.de/infotestrat/autodatenbank/autokatalog/detail.aspx?mid=245637&show=fahrzeugdaten",
+        "what": "ADAC 2.0 TDI Active DSG: same dimensions, 625 l"
+       },
+       {
+        "url": "https://www.skoda-storyboard.com/en/press-kits/new-skoda-superb-press-kit/",
+        "what": "Škoda press kit 2015: 625 l boot, 30 l more than predecessor"
+       },
+       {
+        "url": "http://www.autogefuehl.de/2015/02/18/neuer-skoda-superb-weltpremiere-prag/",
+        "what": "625-1760 l"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Pre-facelift B8 (EXISTING list contains only the 2019 facelift). Liftback with tailgate, modelled as hatchback. Note Škoda press kit says 625 l is 30 l more than predecessor (=595 l), conflicting with 565 l for 3T; unresolved."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Octavia Limousine 5E (pre-facelift) heightMm",
+   "Octavia Limousine 5E Facelift heightMm (manufacturer/ADAC)",
+   "Octavia Limousine 5E G-TEC trunkFoldedL",
+   "Octavia Limousine 5E RS (pre-facelift) dimensions",
+   "Octavia Limousine 1Z RS / 4x4 dimensions and trunk",
+   "Octavia Limousine 1Z Facelift 2009 confirmed dimensions",
+   "Superb Combi 3T Facelift wheelbaseMm",
+   "Superb Limousine 3V 4x4 trunkL/trunkFoldedL",
+   "Superb Limousine 3U Facelift 2006 dimensions",
+   "Superb Limousine 3U trunkFoldedL from manufacturer/ADAC (only AUTO BILD)",
+   "loadSpace measurements for all generations"
+  ],
+  "notes": "Search budget (20) exhausted. Official skoda-media.de data sheets were found but could not be opened (WebFetch blocked); ADAC Autokatalog manufacturer data used as main source. powerPs left null for grouped variants. Octavia and Superb Limousine are liftbacks (bodyType hatchback); change to sedan if the database convention differs."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "Octavia Limousine",
+    "generation": "5E (3. Generation)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": null,
+    "newValue": 1461,
+    "sourceUrl": "https://www.mobile.de/auto/skoda/octavia/2013/limousine/modell/daten-fakten/",
+    "evidence": "mobile.de Octavia Limousine (5E): Hoehe 1.461 mm, Radstand 2.686 mm; AutoScout24 1.2 TSI 2013-2019 and autoplenum 2.0 TDI 150 PS (2013-2016) also list 1461 mm. Not a manufacturer sheet, but consistent across databases."
+   },
+   {
+    "model": "Octavia Limousine",
+    "generation": "5E Facelift (3. Generation)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": null,
+    "newValue": 1461,
+    "sourceUrl": "https://www.autoplenum.de/auto/skoda/octavia/limousine-2017/1-0-tsi-115-ps",
+    "evidence": "autoplenum Octavia Limousine 1.0 TSI 115 PS (2017-2019): Laenge 4.670 mm, Breite 1.814 mm, Hoehe 1.461 mm, Radstand 2.686 mm; same for 1.5 TSI ACT and 2.0 TDI 4x4 entries (also confirms length 4670 and wheelbase 2686)."
+   },
+   {
+    "model": "Octavia Limousine",
+    "generation": "5E (3. Generation)",
+    "variant": "1.4 TSI G-TEC 110 PS (Erdgas)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1450,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/3generation/241318/",
+    "evidence": "ADAC Autokatalog Octavia 1.4 TSI G-TEC Active (05/14-12/16): Kofferraumvolumen normal 460 l, dachhoch mit umgeklappter Ruecksitzbank 1450 l (same for Ambition 241319 and Elegance 241322)."
+   },
+   {
+    "model": "Superb Combi",
+    "generation": "3T Combi (2. Generation)",
+    "variant": null,
+    "field": "trunkL",
+    "oldValue": 603,
+    "newValue": 633,
+    "sourceUrl": "https://www2020.theautochannel.com/news/2009/09/14/477517.html",
+    "evidence": "Skoda press release at the 2009 Frankfurt IAA launch (reprinted by The Auto Channel and OneShift): 'the luggage compartment holds 633 litres, expanding to ... 1,865 litres when the rear seats are folded down.' Autohaus.de launch report also 633/1865 l. Manufacturer launch figure overrides ADAC's 603/1835. Applies to all variants of this generation."
+   },
+   {
+    "model": "Superb Combi",
+    "generation": "3T Combi (2. Generation)",
+    "variant": null,
+    "field": "trunkFoldedL",
+    "oldValue": 1835,
+    "newValue": 1865,
+    "sourceUrl": "https://www2020.theautochannel.com/news/2009/09/14/477517.html",
+    "evidence": "Same 2009 Skoda launch press text: 633 l, 1,865 l with rear seats folded. Also https://www.oneshift.com/articles/news/skoda-auto-at-the-frankfurt-international-motor-show/ . Variant-level trunkL/trunkFoldedL (603/1835) should become 633/1865 too."
+   },
+   {
+    "model": "Superb Limousine",
+    "generation": "3V / B8 (3. Generation, vor Facelift)",
+    "variant": "4x4 (2.0 TSI / 2.0 TDI)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 625,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/superb/3generation/249699/",
+    "evidence": "ADAC Autokatalog Superb 2.0 TDI SCR L&K 4x4 (07/15-11/17): Kofferraumvolumen normal 625 l, dachhoch mit umgeklappter Ruecksitzbank 1760 l."
+   },
+   {
+    "model": "Superb Limousine",
+    "generation": "3V / B8 (3. Generation, vor Facelift)",
+    "variant": "4x4 (2.0 TSI / 2.0 TDI)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1760,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/superb/3generation/249699/",
+    "evidence": "ADAC 2.0 TDI SCR L&K 4x4 07/15-11/17: 625 l / 1760 l, identical to FWD."
+   }
+  ],
+  "missing": [
+   {
+    "model": "Octavia Limousine",
+    "detail": "5E pre-facelift Octavia RS / RS TDI (220/230 PS petrol, 184 PS diesel, 2013-2017) Limousine not listed as a variant; databases (angurten.de 1481) give 4685 mm length, 1449 mm height, 590/1580 l. Not confirmed from manufacturer."
+   },
+   {
+    "model": "Octavia Limousine",
+    "detail": "1Z Octavia RS Limousine (2.0 TFSI 200 PS from 09/2005, later 2.0 TDI 170 PS) missing as a variant; trunk 560 l per AUTO BILD (range 560-1620 l across RS II bodies); dimensions not verified."
+   },
+   {
+    "model": "Octavia Limousine",
+    "detail": "4x4 Limousine variants (5E 2.0 TDI 4x4, 1Z 4x4) not listed; 5E FL 2.0 TDI 4x4 DSG Limousine exists (autoplenum lists it with 4670/1814/1461 mm)."
+   }
+  ],
+  "checkedValues": 62,
+  "confirmedValues": 53,
+  "notes": "19 searches used. Confirmed: Octavia 1Z 4572/1769/1462/2578, 560/1350 l; Octavia 5E 4659/1814/2686, 590/1580 l, G-TEC 460 l; 5E FL 4670/1814/2686, RS 245 4689/1448/2680; Superb Combi 3T 4838/1817/1510 (note: Skoda press says body 1481 mm, 1510 mm incl. standard roof rails), 633/1865 l (FL); Superb Combi 3V 660/1950 l, 1864 width, 2841 wb; Superb I 4803/1765/1469/2803, 462 l (facelift 2006 length 4803/462 l per auto-data.net, so merged entry OK); Superb II Limousine 4838/1817/1462, 565/1670 l; Superb III Limousine 4861/1864/1468/2841, 625/1760 l (Skoda boot page). Unresolved: Superb II wheelbase 2761 (Wikipedia, auto.cz, gebrauchtwagenberater) vs 2758 (ADAC, mobile.de, autoscout24) - no manufacturer sheet found; 3T Combi given 2758, facelift null. Since the 633/1865 figures are Skoda's launch values (2009), the split of 3T Combi into pre-FL/FL based on trunk volume is likely unnecessary. Superb I folded volume 945 l not verified (no source found either way). Superb Combi 3V length 4856 not independently confirmed (carsized gave 4861 for estate, ambiguous)."
+ }
+}

@@ -1,0 +1,515 @@
+{
+ "id": "h-bmw-2",
+ "brand": "BMW",
+ "data": {
+  "models": [
+   {
+    "brand": "BMW",
+    "model": "5er Touring (inkl. i5 Touring)",
+    "generations": [
+     {
+      "name": "E61",
+      "yearFrom": 2004,
+      "yearTo": 2010,
+      "bodyType": "wagon",
+      "lengthMm": 4843,
+      "widthMm": 1846,
+      "heightMm": 1491,
+      "wheelbaseMm": 2886,
+      "trunkL": 500,
+      "trunkFoldedL": 1650,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "520i / 525i / 530i / 540i / 550i Touring (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 500,
+        "trunkFoldedL": 1650,
+        "notes": "BMW-Pressedatenblatt nennt 500-1650 l und identische Maße für alle Touring-Varianten."
+       },
+       {
+        "name": "520d / 525d / 530d / 535d Touring (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 500,
+        "trunkFoldedL": 1650
+       },
+       {
+        "name": "525xi / 530xi / 525xd / 530xd Touring (xDrive, Allrad)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 500,
+        "trunkFoldedL": 1650,
+        "notes": "Allrad-Varianten mit Benzin- und Dieselmotor; Kofferraum laut BMW-Datenblatt für alle Varianten gleich. Höhe der Allradversionen nicht separat verifiziert."
+       },
+       {
+        "name": "M5 Touring (V10, 507 PS)",
+        "powertrain": "petrol",
+        "powerPs": 507,
+        "awd": false,
+        "trunkL": 500,
+        "trunkFoldedL": 1650,
+        "lengthMm": 4855,
+        "widthMm": 1846,
+        "heightMm": 1512,
+        "yearFrom": 2007,
+        "yearTo": 2010,
+        "notes": "BMW-Pressedaten: 4855/1846/1512 mm, Radstand dort mit 2880 mm angegeben; Kofferraum 500-1650 l. Eine andere Quelle nennt 1615 l maximal."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0011878DE/16344",
+        "what": "BMW-Pressedatenblatt 5er Touring E61: Länge/Breite/Höhe 4843/1846/1491 mm, Radstand 2886 mm, Kofferraum 500-1650 l"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/100-5er+Touring",
+        "what": "Bestätigung Breite 1846 mm ohne Außenspiegel"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0077799DE/115401",
+        "what": "BMW-Pressedaten M5 Touring: 4855/1846/1512 mm, Kofferraum 500-1650 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift (LCI) 2007: Maße/Kofferraum des Touring nicht separat verifiziert (ADAC-Treffer nur für Limousine 4841 mm); daher kein eigener Facelift-Eintrag. Leistungsangaben der Varianten nicht recherchiert (null)."
+     },
+     {
+      "name": "F11 (inkl. LCI 2013)",
+      "yearFrom": 2010,
+      "yearTo": 2017,
+      "bodyType": "wagon",
+      "lengthMm": 4907,
+      "widthMm": 1860,
+      "heightMm": 1462,
+      "wheelbaseMm": 2968,
+      "trunkL": 560,
+      "trunkFoldedL": 1670,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "520i / 528i / 535i / 550i Touring (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 560,
+        "trunkFoldedL": 1670
+       },
+       {
+        "name": "520d Touring (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 184,
+        "awd": false,
+        "trunkL": 560,
+        "trunkFoldedL": 1670,
+        "yearFrom": 2010,
+        "yearTo": 2013,
+        "notes": "ADAC: 135 kW (184 PS), 560/1670 l. Weitere Diesel: 518d, 525d, 530d, 535d."
+       },
+       {
+        "name": "520d xDrive Touring Steptronic (Diesel, Allrad)",
+        "powertrain": "diesel",
+        "powerPs": 190,
+        "awd": true,
+        "trunkL": 560,
+        "trunkFoldedL": 1670,
+        "yearFrom": 2014,
+        "yearTo": 2017,
+        "notes": "ADAC (LCI): 4907/1860/1462 mm, 560/1670 l - identisch mit Hinterradantrieb."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0078287DE/133017",
+        "what": "BMW-Pressemappe Der neue BMW 5er Touring (2010): Gepäckraum 560-1670 l"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0079398DE/technische-daten-des-neuen-bmw-5er-touring-gueltig-ab-04-2010",
+        "what": "BMW technische Daten 5er Touring gültig ab 04/2010 (Bezug)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/5er-reihe/f07-f10-f10m-f11/222707/",
+        "what": "ADAC 520d Touring 09/10-06/13: Länge 4907, Breite 1860, Höhe 1462, Radstand 2968 mm, 560/1670 l, 184 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/5er-reihe/f07-f10-f10m-f11-facelift/241297/",
+        "what": "ADAC 520d Touring xDrive LCI 07/14-03/17: 4907/1860/1462 mm, 560/1670 l, 190 PS, Allrad"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Facelift 2013 (LCI) ohne Änderung von Maßen und Kofferraum laut ADAC, daher kein separater Eintrag. Kein Plug-in-Hybrid im Touring F11 (ActiveHybrid 5 nur Limousine). Kein M5 Touring in dieser Generation."
+     }
+    ]
+   },
+   {
+    "brand": "BMW",
+    "model": "X1",
+    "generations": [
+     {
+      "name": "E84",
+      "yearFrom": 2009,
+      "yearTo": 2012,
+      "bodyType": "suv",
+      "lengthMm": 4454,
+      "widthMm": 1798,
+      "heightMm": 1545,
+      "wheelbaseMm": 2760,
+      "trunkL": 420,
+      "trunkFoldedL": 1350,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "sDrive18i / xDrive28i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 420,
+        "trunkFoldedL": 1350,
+        "notes": "Maße 4454/1798/1545 mm, Radstand 2760 mm laut BMW-Datenblatt sDrive18i (3/2010). xDrive28i mit Allrad."
+       },
+       {
+        "name": "sDrive18d / sDrive20d (Diesel, Hinterradantrieb)",
+        "powertrain": "diesel",
+        "powerPs": 143,
+        "awd": false,
+        "trunkL": 420,
+        "trunkFoldedL": 1350,
+        "notes": "143 PS gilt für sDrive18d."
+       },
+       {
+        "name": "xDrive20d (Diesel, Allrad)",
+        "powertrain": "diesel",
+        "powerPs": 177,
+        "awd": true,
+        "trunkL": 420,
+        "trunkFoldedL": 1350,
+        "notes": "ADAC: 4454/1798/1545 mm, 420/1350 l."
+       },
+       {
+        "name": "xDrive23d (Diesel, Allrad)",
+        "powertrain": "diesel",
+        "powerPs": 204,
+        "awd": true,
+        "trunkL": 420,
+        "trunkFoldedL": 1350
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/italy/article/attachment/T0076919IT/112424",
+        "what": "BMW Medieninformation 1/2010 (gültig ab 3/2010) X1 sDrive18i: 4454/1798/1545 mm, Radstand 2760 mm"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/italy/article/attachment/T0076919IT/112425",
+        "what": "BMW technische Daten X1 sDrive18d/sDrive20d: Gepäckraum 420-1350 l"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0023075DE/90151",
+        "what": "BMW Pressemappe 9/2009 Der BMW X1: 420 l, max. 1350 l, xDrive23d 204 PS, sDrive18d 143 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x1/e84/219530/",
+        "what": "ADAC xDrive20d 10/09-05/12: 4454/1798/1545 mm, Radstand 2760, 420/1350 l, 177 PS"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Rücksitzlehne in Cargo-Stellung: 480 l laut BMW-Pressemappe."
+     },
+     {
+      "name": "E84 (Facelift / LCI)",
+      "yearFrom": 2012,
+      "yearTo": 2015,
+      "bodyType": "suv",
+      "lengthMm": 4477,
+      "widthMm": 1798,
+      "heightMm": 1545,
+      "wheelbaseMm": 2760,
+      "trunkL": 420,
+      "trunkFoldedL": 1350,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "sDrive18d xLine (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 143,
+        "awd": false,
+        "trunkL": 420,
+        "trunkFoldedL": 1350,
+        "notes": "ADAC: 4477/1798/1545 mm, 420/1350 l."
+       },
+       {
+        "name": "xDrive-Modelle (Allrad)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 420,
+        "trunkFoldedL": 1350,
+        "notes": "Kofferraum für LCI-xDrive nicht separat verifiziert; vor Facelift identisch mit sDrive."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x1/e84-facelift/232251/",
+        "what": "ADAC X1 sDrive18d xLine 07/12-06/15: Länge 4477, Breite 1798, Höhe 1545, Radstand 2760 mm, 420/1350 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Länge +23 mm gegenüber Vor-Facelift, daher eigener Eintrag. Nur ADAC-Quelle für das Facelift gefunden. Kein Hybrid/PHEV im E84."
+     }
+    ]
+   },
+   {
+    "brand": "BMW",
+    "model": "X3",
+    "generations": [
+     {
+      "name": "E83",
+      "yearFrom": 2004,
+      "yearTo": 2006,
+      "bodyType": "suv",
+      "lengthMm": 4565,
+      "widthMm": 1853,
+      "heightMm": 1674,
+      "wheelbaseMm": 2795,
+      "trunkL": 480,
+      "trunkFoldedL": 1560,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0i / 2.5i / 3.0i (Benziner, Allrad)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 480,
+        "trunkFoldedL": 1560,
+        "notes": "Alle E83 mit Allrad (xDrive)."
+       },
+       {
+        "name": "2.0d / 3.0d (Diesel, Allrad)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 480,
+        "trunkFoldedL": 1560,
+        "notes": "ADAC 3.0d und 2.0d (2004-2005): 4565 mm, 480/1560 l."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0194963DE/283812",
+        "what": "BMW Medieninformation 10/2014 (Historie): erster X3 Länge 4565 mm, Radstand 2795 mm, Gepäckraum 480-1560 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x3/e83/996035/",
+        "what": "ADAC X3 3.0d Automatic 01/04-07/05: 4565 mm Länge, Breite 1853 mm ohne Spiegel, Höhe 1674 mm, 480/1560 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x3/e83/999529/",
+        "what": "ADAC X3 2.0d 09/04-07/05: 4565 mm, 480/1560 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Marktstart Anfang 2004 (Präsentation 2003). Leistungsangaben der Varianten nicht recherchiert."
+     },
+     {
+      "name": "E83 (Facelift / LCI)",
+      "yearFrom": 2006,
+      "yearTo": 2010,
+      "bodyType": "suv",
+      "lengthMm": 4569,
+      "widthMm": 1853,
+      "heightMm": 1674,
+      "wheelbaseMm": 2795,
+      "trunkL": 480,
+      "trunkFoldedL": 1560,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "xDrive25i / xDrive30i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 480,
+        "trunkFoldedL": 1560
+       },
+       {
+        "name": "2.0d / xDrive18d / xDrive20d (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 177,
+        "awd": true,
+        "trunkL": 480,
+        "trunkFoldedL": 1560,
+        "notes": "177 PS laut ADAC für 2.0d DPF (10/07-09/08)."
+       },
+       {
+        "name": "3.0d / 3.0sd / xDrive30d / xDrive35d (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 480,
+        "trunkFoldedL": 1560
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/global/article/attachment/T0011976EN/16553",
+        "what": "BMW Medieninformation 9/2006 Der neue BMW X3: Länge 4569 mm, Radstand 2795 mm, 480 l, max. 1560 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x3/e83-facelift/211059/",
+        "what": "ADAC X3 2.0d DPF Automatic 10/07-09/08: 4569/1853/1674 mm, 480/1560 l, 177 PS"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Länge +4 mm gegenüber Vor-Facelift (neue Stoßfänger), daher eigener Eintrag."
+     },
+     {
+      "name": "F25",
+      "yearFrom": 2010,
+      "yearTo": 2014,
+      "bodyType": "suv",
+      "lengthMm": 4648,
+      "widthMm": 1881,
+      "heightMm": 1661,
+      "wheelbaseMm": 2810,
+      "trunkL": 550,
+      "trunkFoldedL": 1600,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "xDrive20i / xDrive28i / xDrive35i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 550,
+        "trunkFoldedL": 1600,
+        "notes": "BMW-Datenblatt xDrive28i/35i: 4648 mm, 2810 mm, 550-1600 l."
+       },
+       {
+        "name": "sDrive18d (Diesel, Hinterradantrieb)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 550,
+        "trunkFoldedL": 1600,
+        "notes": "Kofferraum für sDrive nicht separat verifiziert, laut Pressemappe 550-1600 l für die Baureihe."
+       },
+       {
+        "name": "xDrive20d / xDrive30d / xDrive35d (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 550,
+        "trunkFoldedL": 1600,
+        "notes": "ADAC xDrive20d 11/10-03/14: 4648 mm, 1661 mm Höhe, 550/1600 l."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0082076DE/der-neue-bmw-x3?language=de",
+        "what": "BMW Pressemappe Der neue BMW X3 (2010): Länge 4648 mm, Radstand 2810 mm, Gepäckraum 550-1600 l"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0087073DE/133712",
+        "what": "BMW Medieninformation 10/2010 Der neue BMW X3 (Bestätigung)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x3/f25/224357/",
+        "what": "ADAC xDrive20d 11/10-03/14: Länge 4648, Höhe 1661 mm, 550/1600 l"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1230-X3",
+        "what": "Breite 1881 mm ohne Spiegel (Drittquelle, Bestätigung)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Breite 1881 mm nur aus Drittquellen (angurten.de/mobile.de) bestätigt, nicht direkt aus BMW- oder ADAC-Daten gesehen."
+     },
+     {
+      "name": "F25 (Facelift / LCI)",
+      "yearFrom": 2014,
+      "yearTo": 2017,
+      "bodyType": "suv",
+      "lengthMm": 4657,
+      "widthMm": 1881,
+      "heightMm": 1661,
+      "wheelbaseMm": 2810,
+      "trunkL": 550,
+      "trunkFoldedL": 1600,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "xDrive20i / xDrive28i / xDrive35i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 550,
+        "trunkFoldedL": 1600
+       },
+       {
+        "name": "sDrive18d (Diesel, Hinterradantrieb)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 550,
+        "trunkFoldedL": 1600
+       },
+       {
+        "name": "xDrive20d / xDrive30d / xDrive35d (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 190,
+        "awd": true,
+        "trunkL": 550,
+        "trunkFoldedL": 1600,
+        "notes": "ADAC xDrive20d 04/14-08/17: 4657 mm, 1661 mm, 550/1600 l. 190 PS gilt für xDrive20d."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x3/f25-facelift/240209/",
+        "what": "ADAC X3 xDrive20d Steptronic 04/14-08/17: Länge 4657, Höhe 1661 mm, 550/1600 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x3/f25-facelift/240208/",
+        "what": "ADAC X3 xDrive20d (Schaltgetriebe) 04/14-08/17: gleiche Maße und Kofferraum"
+       },
+       {
+        "url": "https://www.auto-data.net/en/bmw-x3-f25-lci-facelift-2014-20d-190hp-xdrive-19903",
+        "what": "Leistung xDrive20d LCI 190 PS (Drittquelle)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Länge +9 mm gegenüber Vor-Facelift. Breite und Radstand für LCI nicht separat verifiziert, von Vor-Facelift übernommen (Karosserie unverändert laut ADAC-Längen-/Höhenvergleich); keine BMW-Pressedaten zum LCI gefunden."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "5er Touring E61 LCI (2007-2010) Maße separat (Touring)",
+   "5er Touring E61/F11 Leistungsangaben der meisten Varianten",
+   "5er Touring F11 BMW-Pressedaten für Breite/Höhe/Radstand (nur ADAC)",
+   "X1 E84 LCI BMW-Pressedaten",
+   "X3 F25 LCI widthMm und wheelbaseMm (nicht direkt belegt)",
+   "X3 F25 widthMm aus Herstellerquelle",
+   "X3 E83 Leistungsangaben der meisten Varianten",
+   "loadSpace aller Generationen"
+  ],
+  "notes": "Suchbudget (20) ausgeschöpft, mehrere Suchen liefen in Rate-Limits. Keine Plug-in-/Hybrid-Varianten in diesen Generationen (F11 Touring, E84, E83, F25). Trunk-Werte sind VDA laut Hersteller/ADAC; Werte gelten laut Quellen für alle Antriebe."
+ },
+ "verification": {
+  "corrections": [],
+  "missing": [
+   {
+    "model": "5er Touring (inkl. i5 Touring)",
+    "detail": "F11: M550d xDrive Touring (381 PS, Diesel, Allrad, 2012-2017) fehlt als Variante. BMW-Medieninformation (gültig ab 07/2013, https://www.press.bmwgroup.com/deutschland/article/attachment/T0143391DE/224261): Kofferraumvolumen 560-1670 l, Länge 4910 mm (abweichend von 4907 mm der Standardmodelle)."
+   }
+  ],
+  "checkedValues": 56,
+  "confirmedValues": 55,
+  "notes": "X3 F25 LCI widthMm 1881 und wheelbaseMm 2810 BESTÄTIGT: Autocar India (https://www.autocarindia.com/car-news/bmw-x3-374206) zum Genf-2014-Facelift: abgesehen von +1 mm Länge (4657 mm) seien die Grundmaße unverändert, Radstand 2810 mm (Breite dort 2089 mm = mit Spiegeln); ultimatespecs F25 LCI xDrive35i (https://www.ultimatespecs.com/de/car-specs/BMW/68248/BMW-F25-X3-LCI-xDrive35i.html) nennt 465,7/188,1 cm Länge/Breite und Radstand 281,0 cm; vehiclesizes.com F25 LCI: 1881 mm Karosseriebreite. Kein BMW-Pressedatenblatt zum LCI gefunden, aber Werte sind übereinstimmend belegt -> keine Korrektur auf null nötig. X3 F25 Vor-Facelift Breite 1881 mm ist auch in BMW-Pressedaten 2010 belegt (https://www.press.bmwgroup.com/deutschland/article/attachment/T0087117DE/133219: 'Länge/Breite/Höhe (leer) 4648 / 1881 / 1661', Radstand 2810). E61: BMW 4843/1846/1491, Radstand 2886, 500-1650 l bestätigt. F11: 4907/1860/1462/2968, 560-1670 l bestätigt (angurten.de, BMW M550d-Datenblatt für Kofferraum). E84: 4454/1798/1545/2760, 420-1350 l bestätigt (auto-motor-und-sport, ultimatespecs); E84 LCI 4477/1798/1545/2760 bestätigt (carsales, ultimatespecs; paultan nennt 4464 mm für sDrive20i - Ausreißer, kein Herstellerbeleg). E83 LCI 4569/1853/1674/2795 bestätigt durch BMW-Pressedaten (T0011873DE/28948); E83 Vor-Facelift Länge 4565 mm in eigenen Suchen nicht direkt gesehen, aber auch nicht widerlegt (nicht als bestätigt gezählt). Trunk-Werte E83 480/1560 von angurten bestätigt. Pro-Variante-Kofferraumwerte nicht einzeln gezählt; keine abweichenden Werte für xDrive/Allrad gefunden. Baujahre plausibel, nicht separat gezählt. 8 Suchen genutzt."
+ }
+}

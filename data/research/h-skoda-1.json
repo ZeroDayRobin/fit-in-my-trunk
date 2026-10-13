@@ -1,0 +1,972 @@
+{
+ "id": "h-skoda-1",
+ "brand": "Škoda",
+ "data": {
+  "models": [
+   {
+    "brand": "Škoda",
+    "model": "Fabia",
+    "generations": [
+     {
+      "name": "6Y (1. Generation, Schrägheck)",
+      "yearFrom": 2000,
+      "yearTo": 2007,
+      "bodyType": "hatchback",
+      "lengthMm": 3960,
+      "widthMm": 1646,
+      "heightMm": 1436,
+      "wheelbaseMm": 2462,
+      "trunkL": 260,
+      "trunkFoldedL": 1016,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 / 1.4 / 1.4 16V (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 260,
+        "trunkFoldedL": 1016,
+        "notes": "260/1016 l belegt für 1.4 MPI 60 PS (auto-data.net) und 1.4 16V 75 PS (autoplenum.de)."
+       },
+       {
+        "name": "1.4 TDI / 1.9 SDI / 1.9 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Kein Kofferraumwert speziell für Diesel gefunden; vermutlich identisch, aber nicht belegt."
+       },
+       {
+        "name": "RS 1.9 TDI 130 PS",
+        "powertrain": "diesel",
+        "powerPs": 130,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2004,
+        "yearTo": 2007,
+        "notes": "ADAC-Autokatalog-Eintrag (07/04-12/06) existiert, Maße/Kofferraum im Suchergebnis nicht enthalten."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.auto-data.net/de/skoda-fabia-i-6y-1.4-mpi-60hp-14150",
+        "what": "Länge 3960 mm, Breite 1646 mm, Kofferraum 260-1016 l (1.4 MPI 60 PS, Datenbank, keine Herstellerquelle)"
+       },
+       {
+        "url": "https://www.autoplenum.de/auto/skoda/fabia/schraegheck-1999/1-4-16v-75-ps",
+        "what": "Radstand 2462 mm, Höhe 1436 mm, Kofferraum 260-1016 l, Länge dort 3970 mm (1.4 16V 75 PS)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/fabia/1generation-facelift/995589/",
+        "what": "ADAC: Existenz Fabia RS 1.9 TDI (07/04-12/06)"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Keine Herstellerquelle gefunden; Werte aus Datenbanken. Länge 3960 vs. 3970 mm je nach Quelle. Generation war in DE von Anfang 2000 bis 2007 erhältlich (Facelift 2004 ohne bekannte Maßänderung). Liegt mit 2005-2007 im Zielzeitraum."
+     },
+     {
+      "name": "5J (2. Generation)",
+      "yearFrom": 2007,
+      "yearTo": 2010,
+      "bodyType": "hatchback",
+      "lengthMm": 3992,
+      "widthMm": 1642,
+      "heightMm": 1498,
+      "wheelbaseMm": 2462,
+      "trunkL": 300,
+      "trunkFoldedL": 1163,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 HTP / 1.4 16V / 1.6 16V (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 300,
+        "trunkFoldedL": 1163,
+        "notes": "300 l laut ADAC-Gebrauchtwageninfo Benziner; 1163 l laut Wikipedia/mobile.de."
+       },
+       {
+        "name": "1.4 TDI / 1.9 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 300,
+        "trunkFoldedL": null,
+        "notes": "ADAC-Gebrauchtwageninfo Diesel nennt dieselben Karosseriemaße; Maximalvolumen nicht separat belegt."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0172-skoda-fabia-2007-2014-benziner-bericht.pdf",
+        "what": "ADAC Gebrauchtwageninfo: Schrägheck 3992 x 1642 x 1498 mm, Kofferraum 300 l"
+       },
+       {
+        "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0006-skoda-fabia-2007-2014-diesel-bericht.pdf",
+        "what": "ADAC Gebrauchtwageninfo Diesel (gleiche Baureihe)"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Fabia_II",
+        "what": "Radstand 2462 mm, Kofferraum max. 1163 l (umgeklappt, dachhoch)"
+       },
+       {
+        "url": "https://www.mobile.de/auto/skoda/fabia/2007/fuenftuerer/modell/daten-fakten/",
+        "what": "Bestätigung 3992/1642/1498 mm und 300/1163 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Radstand uneinheitlich: Vor-Facelift-Quellen 2462 mm, ADAC Facelift-Eintrag 2451 mm. Keine Herstellerpressemappe gefunden."
+     },
+     {
+      "name": "5J Facelift (2. Generation)",
+      "yearFrom": 2010,
+      "yearTo": 2014,
+      "bodyType": "hatchback",
+      "lengthMm": 4000,
+      "widthMm": 1642,
+      "heightMm": 1498,
+      "wheelbaseMm": 2451,
+      "trunkL": 315,
+      "trunkFoldedL": 1180,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 HTP / 1.2 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 315,
+        "trunkFoldedL": 1180,
+        "notes": "Werte aus ADAC 1.2 HTP Ambiente (06/10-10/11)."
+       },
+       {
+        "name": "1.2 TDI / 1.6 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Nicht separat belegt."
+       },
+       {
+        "name": "RS 1.4 TSI 180 PS",
+        "powertrain": "petrol",
+        "powerPs": 180,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "RS-spezifische Maße nicht gefunden."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/fabia/2generation-facelift/223185/",
+        "what": "ADAC: Länge 4000, Breite 1642, Höhe 1498, Radstand 2451 mm, Kofferraum 315/1180 l (1.2 HTP Ambiente 06/10-10/11)"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/skoda/fabia/",
+        "what": "Gegencheck: Kofferraum 300-1180 l für 2007-2014"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Als eigene Generation geführt, weil Länge und Kofferraumvolumen gegenüber Vor-Facelift abweichen (300->315 l, laut ADAC; Wikipedia Fabia III nennt Vorgänger ebenfalls mit 315 l)."
+     },
+     {
+      "name": "NJ (3. Generation, vor Facelift)",
+      "yearFrom": 2015,
+      "yearTo": 2018,
+      "bodyType": "hatchback",
+      "lengthMm": 3992,
+      "widthMm": 1732,
+      "heightMm": 1467,
+      "wheelbaseMm": 2470,
+      "trunkL": 330,
+      "trunkFoldedL": 1150,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.0 MPI / 1.2 TSI / 1.0 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 330,
+        "trunkFoldedL": 1150
+       },
+       {
+        "name": "1.4 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 330,
+        "trunkFoldedL": 1150,
+        "notes": "Keine abweichenden Werte gefunden; generationsweite Angabe."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Fabia_III",
+        "what": "Länge 3992 mm, Breite 1732 mm ohne Spiegel, Höhe 1467 mm, Kofferraum 330 l (305 l mit Reserverad)"
+       },
+       {
+        "url": "https://www.mobile.de/auto/skoda/fabia/2014/schraegheck/modell/daten-fakten/",
+        "what": "Radstand 2470 mm, Kofferraum 330/1150 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/fabia/3generation/243311/",
+        "what": "ADAC-Eintrag 1.2 TSI Ambition (11/14-06/17), Bauzeitraum"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Marktstart 11/2014 (Modelljahr 2015). Länge je nach Quelle 3992-3997 mm. Mit Reserverad nur 305 l. Facelift 2018 ist bereits in der Datenbank."
+     }
+    ]
+   },
+   {
+    "brand": "Škoda",
+    "model": "Fabia Combi",
+    "generations": [
+     {
+      "name": "6Y Combi (1. Generation)",
+      "yearFrom": 2001,
+      "yearTo": 2007,
+      "bodyType": "wagon",
+      "lengthMm": 4222,
+      "widthMm": 1646,
+      "heightMm": 1452,
+      "wheelbaseMm": 2462,
+      "trunkL": 426,
+      "trunkFoldedL": 1225,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 16V (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 426,
+        "trunkFoldedL": 1225
+       },
+       {
+        "name": "1.4 TDI / 1.9 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "ADAC-Eintrag Combi 1.9 TDI Elegance (07/04-12/07) existiert, Werte nicht im Suchergebnis."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autokosten.net/skoda/fabia-combi/fabia-combi-1-4-16v/fabia-i-combi-11-00-12-07_11/technische-daten",
+        "what": "Länge 4222, Breite 1646, Höhe 1452, Radstand 2462 mm, Kofferraum 426/1225 l (Combi 1.4 16V)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/fabia/1generation-facelift/993365/",
+        "what": "ADAC: Bauzeit Combi bis 12/2007"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Keine Herstellerquelle gefunden; Werte aus einer Datenbank (autokosten.net). Combi ab Ende 2000 / Modelljahr 2001."
+     },
+     {
+      "name": "5J Combi (2. Generation)",
+      "yearFrom": 2008,
+      "yearTo": 2010,
+      "bodyType": "wagon",
+      "lengthMm": 4239,
+      "widthMm": 1642,
+      "heightMm": 1498,
+      "wheelbaseMm": 2462,
+      "trunkL": 480,
+      "trunkFoldedL": 1460,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 / 1.4 16V / 1.6 16V (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 480,
+        "trunkFoldedL": 1460
+       },
+       {
+        "name": "1.4 TDI / 1.9 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 480,
+        "trunkFoldedL": 1460,
+        "heightMm": 1484,
+        "notes": "ADAC 1.4 TDI GreenLine: Höhe 1484 mm (abgesenktes GreenLine-Modell), 480/1460 l."
+       },
+       {
+        "name": "Scout",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2009,
+        "notes": "Scout-Optik (Kunststoffbeplankung), Maße nicht gefunden."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/fabia/2generation/213451/",
+        "what": "ADAC: Länge 4239 mm, Höhe 1484 mm, Radstand 2462 mm, Kofferraum 480/1460 l (Combi 1.4 TDI GreenLine 03/08-04/10)"
+       },
+       {
+        "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0172-skoda-fabia-2007-2014-benziner-bericht.pdf",
+        "what": "ADAC Gebrauchtwageninfo: Combi 4239 x 1642 x 1498 mm, 480 l"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/test-skoda-fabia-combi-463705.html",
+        "what": "AUTO BILD Test: 4239/1642/1498 mm, 480/1460 l (Bestätigung)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Höhe 1498 mm Standard, GreenLine 1484 mm. Mit Anhängevorrichtung längere Werte laut Forum."
+     },
+     {
+      "name": "5J Combi Facelift (2. Generation)",
+      "yearFrom": 2011,
+      "yearTo": 2014,
+      "bodyType": "wagon",
+      "lengthMm": 4247,
+      "widthMm": 1642,
+      "heightMm": 1498,
+      "wheelbaseMm": 2451,
+      "trunkL": 505,
+      "trunkFoldedL": 1485,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 HTP / 1.2 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 505,
+        "trunkFoldedL": 1485,
+        "notes": "Werte aus ADAC Combi 1.2 TSI Elegance (10/11-06/14)."
+       },
+       {
+        "name": "1.2 TDI / 1.6 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Nicht separat belegt."
+       },
+       {
+        "name": "RS 1.4 TSI 180 PS",
+        "powertrain": "petrol",
+        "powerPs": 180,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "RS wurde laut Wikipedia auch als Combi angeboten; Maße nicht gefunden."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/fabia/2generation-facelift/230079/",
+        "what": "ADAC: Länge 4247, Höhe 1498, Radstand 2451 mm, Kofferraum 505/1485 l (Combi 1.2 TSI Elegance 10/11-06/14)"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Fabia_II",
+        "what": "Facelift 2010, RS auch als Combi"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift ab Mitte 2010; ADAC-Werte gelten für 10/11-06/14. Kofferraum 505 l laut ADAC (vs. 480 l vor Facelift) - Abweichung evtl. durch geänderte Messung; nicht durch Herstellerquelle verifiziert. Breite aus Vor-Facelift-Quellen übernommen (1642 mm laut Forum mit Herstellerangabe 'ohne Spiegel')."
+     },
+     {
+      "name": "NJ Combi (3. Generation, vor Facelift)",
+      "yearFrom": 2015,
+      "yearTo": 2018,
+      "bodyType": "wagon",
+      "lengthMm": 4257,
+      "widthMm": 1732,
+      "heightMm": 1467,
+      "wheelbaseMm": 2470,
+      "trunkL": 530,
+      "trunkFoldedL": 1395,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.0 MPI / 1.2 TSI / 1.0 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 530,
+        "trunkFoldedL": 1395
+       },
+       {
+        "name": "1.4 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 530,
+        "trunkFoldedL": 1395,
+        "notes": "Keine abweichenden Werte gefunden; generationsweite Angabe."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/fabia/3generation/243814/",
+        "what": "ADAC: Länge 4257 mm (Combi 1.2 TSI Style 01/15-06/17)"
+       },
+       {
+        "url": "https://www.autokosten.net/skoda/fabia-combi/fabia-combi-1-2-tsi/fabia-iii-combi_3/technische-daten",
+        "what": "Länge 4257, Breite 1732, Höhe 1467, Radstand 2470 mm, Kofferraum 530/1395 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/skoda/fabia/2014/kombi/modell/daten-fakten/",
+        "what": "Bestätigung 530/1395 l, Radstand 2470 mm (Länge dort 4262 mm)"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Fabia_III",
+        "what": "Herstellerlänge 4257 mm, Markteinführung Combi 01/2015"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Länge 4257 mm (ADAC/Wikipedia) vs. 4262 mm (mobile.de). Facelift 2018 ist bereits in der Datenbank."
+     }
+    ]
+   },
+   {
+    "brand": "Škoda",
+    "model": "Octavia Combi",
+    "generations": [
+     {
+      "name": "1Z Combi (2. Generation)",
+      "yearFrom": 2005,
+      "yearTo": 2008,
+      "bodyType": "wagon",
+      "lengthMm": 4572,
+      "widthMm": 1769,
+      "heightMm": 1462,
+      "wheelbaseMm": 2578,
+      "trunkL": 580,
+      "trunkFoldedL": 1620,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 / 1.4 TSI / 1.8 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 580,
+        "trunkFoldedL": 1620,
+        "notes": "580/1620 l für Combi 1.6 laut AutoScout24."
+       },
+       {
+        "name": "1.9 TDI / 2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 580,
+        "trunkFoldedL": 1620,
+        "notes": "ADAC 2.0 TDI DPF Elegance DSG."
+       },
+       {
+        "name": "4x4 / Scout",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Kofferraum und Maße für 4x4 bzw. Scout (ab 2007) nicht gefunden."
+       },
+       {
+        "name": "RS (2.0 TFSI / 2.0 TDI)",
+        "powertrain": "petrol",
+        "powerPs": 200,
+        "awd": false,
+        "trunkL": 580,
+        "trunkFoldedL": 1620,
+        "notes": "Kofferraum laut ADAC RS (Facelift) unverändert; RS-Vor-Facelift nicht separat geprüft."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/2generation/206158/",
+        "what": "ADAC: Länge 4572, Höhe 1462, Radstand 2578 mm, Kofferraum 580/1620 l (Combi 2.0 TDI DPF Elegance DSG 04/06-01/09)"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1161-Octavia+Combi/2.htm",
+        "what": "Breite ohne Außenspiegel 1769 mm (Octavia Combi 2005-2013)"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/skoda/octavia/octavia-combi-1-6-2004-2013-kombi-benzin/",
+        "what": "Combi 1.6: 580-1620 l"
+       },
+       {
+        "url": "https://www.skoda-media.de/model_text/genpdf/15027",
+        "what": "Škoda-Pressetext Octavia Combi III: Vorgänger-Radstand 2578 mm, Nachfolger 90 mm länger"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Combi-Marktstart Ende 2004 (Modelljahr 2005). Keine Original-Pressemappe 2004 gefunden. Scout (4x4, höhergelegt) ab 2007 angeboten - Daten fehlen."
+     },
+     {
+      "name": "1Z Combi Facelift (2. Generation)",
+      "yearFrom": 2009,
+      "yearTo": 2013,
+      "bodyType": "wagon",
+      "lengthMm": 4569,
+      "widthMm": 1769,
+      "heightMm": null,
+      "wheelbaseMm": 2578,
+      "trunkL": 580,
+      "trunkFoldedL": 1620,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 TSI / 1.4 TSI / 1.8 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Nicht separat belegt."
+       },
+       {
+        "name": "1.6 TDI / 2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Nicht separat belegt."
+       },
+       {
+        "name": "RS TDI 170 PS",
+        "powertrain": "diesel",
+        "powerPs": 170,
+        "awd": false,
+        "trunkL": 580,
+        "trunkFoldedL": 1620,
+        "lengthMm": 4579,
+        "heightMm": 1451,
+        "notes": "ADAC Combi RS TDI DSG (05/09-03/13)."
+       },
+       {
+        "name": "4x4 / Scout",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Nicht gefunden."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/2generation-facelift/218862/",
+        "what": "ADAC: RS TDI Combi Länge 4579, Höhe 1451, Radstand 2578 mm, Kofferraum 580/1620 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/skoda/octavia/2004/kombi/modell/daten-fakten/",
+        "what": "Länge 4569 mm (Octavia Combi 1Z)"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1161-Octavia+Combi/2.htm",
+        "what": "Länge 4569 mm, Breite 1769 mm ohne Spiegel"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Facelift 2009 mit geringfügig geänderter Länge (4569 mm). Höhe für Basisversion nicht belegt. Kofferraum 580/1620 l nur für RS belegt, generationsweit übernommen da ADAC RS identisch zum Vor-Facelift."
+     },
+     {
+      "name": "5E Combi (3. Generation)",
+      "yearFrom": 2013,
+      "yearTo": 2016,
+      "bodyType": "wagon",
+      "lengthMm": 4659,
+      "widthMm": 1814,
+      "heightMm": 1465,
+      "wheelbaseMm": 2686,
+      "trunkL": 610,
+      "trunkFoldedL": 1740,
+      "loadSpace": {
+       "lengthMm": null,
+       "widthMm": null,
+       "widthBetweenArchesMm": null,
+       "heightMm": null,
+       "openingHeightMm": null,
+       "sillHeightMm": 631,
+       "lengthFoldedMm": null,
+       "source": "https://www.skoda-media.de/model_text/genpdf/15027"
+      },
+      "variants": [
+       {
+        "name": "1.2 TSI / 1.4 TSI / 1.8 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 610,
+        "trunkFoldedL": 1740
+       },
+       {
+        "name": "1.6 TDI / 2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 610,
+        "trunkFoldedL": 1740,
+        "notes": "ADAC 2.0 TDI Green tec Elegance: 610/1740 l."
+       },
+       {
+        "name": "1.4 TSI G-TEC (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": 110,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "ADAC nennt 'geringeres Kofferraumvolumen' (Gastanks unter dem Ladeboden), Literwert nicht gefunden."
+       },
+       {
+        "name": "RS 220 / RS TDI",
+        "powertrain": "petrol",
+        "powerPs": 220,
+        "awd": false,
+        "trunkL": 610,
+        "trunkFoldedL": 1740,
+        "lengthMm": 4685,
+        "heightMm": 1452,
+        "notes": "ADAC Combi RS 220 (06/13-12/16); Radstand 2680 mm."
+       },
+       {
+        "name": "Scout 4x4",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 610,
+        "trunkFoldedL": 1740,
+        "lengthMm": 4685,
+        "heightMm": 1531,
+        "yearFrom": 2014,
+        "notes": "mobile.de: 4685 mm, Höhe 1531 mm, Radstand 2679 mm, 610/1740 l."
+       },
+       {
+        "name": "4x4 (Combi, ohne Scout)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Nicht gefunden."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.skoda-media.de/model_text/genpdf/15027",
+        "what": "Škoda-Pressetext MJ 2013: Länge 4659, Breite 1814 ohne Spiegel, Höhe 1465 (mit Dachreling), Radstand 2686 mm, Kofferraum 610 l, Ladekante 631 mm"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/skoda/octavia/octavia-iii-combi-17259/",
+        "what": "Kofferraum 610-1740 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/3generation/237742/",
+        "what": "ADAC: Combi RS 220 Länge 4685, Höhe 1452, Radstand 2680 mm, 610/1740 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/3-generation/235681/",
+        "what": "ADAC: 2.0 TDI Green tec 610/1740 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/skoda/octavia-scout/2013/kombi/modell/daten-fakten/",
+        "what": "Scout: 4685/1531 mm, Radstand 2679 mm, 610/1740 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/3generation/248457/",
+        "what": "ADAC: G-TEC Combi mit geringerem Kofferraumvolumen"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Basis aus Herstellerpressetext. Scout und RS mit abweichenden Maßen."
+     },
+     {
+      "name": "5E Combi Facelift (3. Generation)",
+      "yearFrom": 2017,
+      "yearTo": 2020,
+      "bodyType": "wagon",
+      "lengthMm": 4667,
+      "widthMm": 1814,
+      "heightMm": 1465,
+      "wheelbaseMm": 2686,
+      "trunkL": 610,
+      "trunkFoldedL": 1740,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.0 TSI / 1.4 TSI / 1.5 TSI ACT (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 610,
+        "trunkFoldedL": 1740,
+        "notes": "ADAC 1.4 TSI Style (01/17-08/17)."
+       },
+       {
+        "name": "1.6 TDI / 2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 610,
+        "trunkFoldedL": 1740,
+        "notes": "ADAC 2.0 TDI Drive DSG (02/17-12/17)."
+       },
+       {
+        "name": "1.5 TSI G-TEC (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": 130,
+        "awd": false,
+        "trunkL": 480,
+        "trunkFoldedL": 1610,
+        "yearFrom": 2019,
+        "notes": "ADAC 1.5 TSI G-TEC Style DSG (01/19-07/19); motor1 bestätigt 480-1610 l. Der vorherige 1.4 TSI G-TEC (bis 2017/18) nicht belegt."
+       },
+       {
+        "name": "Scout 2.0 TDI 4x4",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 610,
+        "trunkFoldedL": 1740,
+        "lengthMm": 4687,
+        "heightMm": 1531,
+        "notes": "ADAC Scout 2.0 TDI 4x4 DSG (01/17-08/18), Radstand 2680 mm."
+       },
+       {
+        "name": "RS / RS 245 / RS TDI",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "ADAC-Eintrag RS TDI DSG (01/17-08/18) existiert, Werte nicht im Suchergebnis."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/3generation-facelift/275830/",
+        "what": "ADAC: Länge 4667, Breite 1814, Höhe 1465, Radstand 2686 mm, 610/1740 l (2.0 TDI Drive DSG)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/3generation-facelift/266370/",
+        "what": "ADAC: 1.4 TSI Style Länge 4667 mm, 610/1740 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/3-generation-facelift/296994/",
+        "what": "ADAC: G-TEC 1.5 TSI 480/1610 l"
+       },
+       {
+        "url": "https://de.motor1.com/reviews/362747/skoda-octavia-g-tec-dauertest/",
+        "what": "Bestätigung G-TEC Combi 480-1610 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/3generation-facelift/267600/",
+        "what": "ADAC: Scout 2.0 TDI 4x4 Länge 4687, Höhe 1531, Radstand 2680 mm, 610/1740 l"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/skoda-octavia-facelift-2017-vorstellung-und-fahrbericht-6036949.html",
+        "what": "AUTO BILD: Combi-Kofferraum 610 l (Facelift 2017)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Als eigene Generation, da Länge geändert (4659 -> 4667 mm). Daten aus ADAC (keine Herstellerpressemappe gefunden). Verkauf bis Modellwechsel 2020."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Fabia 6Y manufacturer source (only databases); length conflict 3960 vs 3970 mm",
+   "Fabia 6Y diesel trunkL/trunkFoldedL",
+   "Fabia 6Y RS dimensions/trunk",
+   "Fabia 5J diesel trunkFoldedL",
+   "Fabia 5J Facelift diesel trunk",
+   "Fabia 5J Facelift RS dimensions/trunk",
+   "Fabia Combi 6Y diesel trunk",
+   "Fabia Combi 5J Scout dimensions/trunk",
+   "Fabia Combi 5J Facelift diesel trunk",
+   "Fabia Combi 5J Facelift RS dimensions/trunk",
+   "Octavia Combi 1Z 4x4/Scout dimensions/trunk",
+   "Octavia Combi 1Z Facelift heightMm (base)",
+   "Octavia Combi 1Z Facelift petrol/diesel/4x4/Scout trunk (only RS verified)",
+   "Octavia Combi 5E 1.4 TSI G-TEC trunkL/trunkFoldedL",
+   "Octavia Combi 5E 4x4 (non-Scout) trunk",
+   "Octavia Combi 5E Facelift RS dimensions/trunk",
+   "loadSpace for all generations except Octavia Combi 5E sill height"
+  ],
+  "notes": "Search budget (20) used. Most values from ADAC Autokatalog/Gebrauchtwageninfo and spec databases because manufacturer press kits for older generations were not found; only Octavia Combi III base data come from skoda-media.de. Fabia 5J wheelbase differs between ADAC entries (2462 pre-facelift, 2451 facelift). Fabia Combi 5J Facelift trunk 505/1485 l (ADAC) vs 480/1460 l pre-facelift - not verified by Škoda."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "Fabia",
+    "generation": "6Y (1. Generation, Schrägheck)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": 1436,
+    "newValue": 1451,
+    "sourceUrl": "https://cars-data.com/en/skoda/fabia/2000/1-4-16v-75hp-elegance-23842--23842/specs",
+    "evidence": "cars-data.com (Fabia 1.4 16V 2001-2004 and 2004 L&K): length 3960, width 1646, height 1451 mm, wheelbase 2462, boot 260 l; fastcarcheck.uk lists the same height; auto-data.net gives 1450 mm. Only autoplenum gives 1436 mm."
+   },
+   {
+    "model": "Fabia",
+    "generation": "6Y (1. Generation, Schrägheck)",
+    "variant": "RS 1.9 TDI 130 PS",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 260,
+    "sourceUrl": "https://www.encycarpedia.com/skoda/03-fabia-vrs-hatch",
+    "evidence": "encyCARpedia Fabia vRS (2003): cargo space 260-1,016 l (database, same as other 6Y hatch variants)."
+   },
+   {
+    "model": "Fabia",
+    "generation": "6Y (1. Generation, Schrägheck)",
+    "variant": "RS 1.9 TDI 130 PS",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1016,
+    "sourceUrl": "https://www.encycarpedia.com/skoda/03-fabia-vrs-hatch",
+    "evidence": "encyCARpedia Fabia vRS: 260-1,016 l."
+   },
+   {
+    "model": "Fabia Combi",
+    "generation": "5J Combi Facelift (2. Generation)",
+    "variant": "RS 1.4 TSI 180 PS",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 505,
+    "sourceUrl": "https://www.auto-data.net/en/skoda-fabia-ii-combi-facelift-2010-rs-1.4-tsi-180hp-dsg-20383",
+    "evidence": "auto-data.net Fabia II Combi (facelift 2010) RS 1.4 TSI 180 PS: trunk 505-1485 l (database). Consistent with de.wikipedia Fabia II: Combi 'seit 2010 auf 505/1485 l'."
+   },
+   {
+    "model": "Fabia Combi",
+    "generation": "5J Combi Facelift (2. Generation)",
+    "variant": "RS 1.4 TSI 180 PS",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1485,
+    "sourceUrl": "https://www.auto-data.net/en/skoda-fabia-ii-combi-facelift-2010-rs-1.4-tsi-180hp-dsg-20383",
+    "evidence": "auto-data.net: 505-1485 l for Combi RS."
+   },
+   {
+    "model": "Fabia",
+    "generation": "5J Facelift (2. Generation)",
+    "variant": "RS 1.4 TSI 180 PS",
+    "field": "lengthMm",
+    "oldValue": null,
+    "newValue": 4029,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/fahrbericht/skoda-fabia-rs-im-fahrbericht-druck-aus-dem-osten/technische-daten/",
+    "evidence": "auto motor und sport technische Daten Fabia RS: Außenmaße 4029 x 1642 x 1492 mm; auto-data.net also 4029 mm."
+   },
+   {
+    "model": "Fabia",
+    "generation": "5J Facelift (2. Generation)",
+    "variant": "RS 1.4 TSI 180 PS",
+    "field": "heightMm",
+    "oldValue": null,
+    "newValue": 1492,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/fahrbericht/skoda-fabia-rs-im-fahrbericht-druck-aus-dem-osten/technische-daten/",
+    "evidence": "auto motor und sport: 4029 x 1642 x 1492 mm."
+   },
+   {
+    "model": "Octavia Combi",
+    "generation": "1Z Combi (2. Generation)",
+    "variant": "4x4 / Scout",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 580,
+    "sourceUrl": "https://www.encycarpedia.com/skoda/07-octavia-scout-2-0-tdi-4x4-estate",
+    "evidence": "encyCARpedia Octavia Scout 2.0 TDI 4x4 (2007-2009): length 4,581 mm, cargo 580-1,620 l (database)."
+   },
+   {
+    "model": "Octavia Combi",
+    "generation": "1Z Combi (2. Generation)",
+    "variant": "4x4 / Scout",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1620,
+    "sourceUrl": "https://www.encycarpedia.com/skoda/07-octavia-scout-2-0-tdi-4x4-estate",
+    "evidence": "encyCARpedia Octavia Scout 2007-2009: 580-1,620 l."
+   },
+   {
+    "model": "Octavia Combi",
+    "generation": "1Z Combi Facelift (2. Generation)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": null,
+    "newValue": 1462,
+    "sourceUrl": "https://www.auto-data.net/en/skoda-octavia-ii-combi-facelift-2009-1.4-tsi-122hp-14196",
+    "evidence": "auto-data.net Octavia II Combi (facelift 2009) 1.4 TSI 122 PS: length 4569 mm, height 1462 mm (database)."
+   },
+   {
+    "model": "Octavia Combi",
+    "generation": "5E Combi (3. Generation)",
+    "variant": "4x4 (Combi, ohne Scout)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 610,
+    "sourceUrl": "https://www.encycarpedia.com/de/skoda/13-octavia-combi-2-0-tdi-green-4x4-150-kombi",
+    "evidence": "encyCARpedia Octavia Combi 2.0 TDI 4x4 / 1.6 TDI 4x4 / 1.8 TSI 4x4 (2013): 610-1.740 l, length 4,659 mm; automobilrevue.cz 4x4 test also 610/1740 l."
+   },
+   {
+    "model": "Octavia Combi",
+    "generation": "5E Combi (3. Generation)",
+    "variant": "4x4 (Combi, ohne Scout)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1740,
+    "sourceUrl": "https://www.encycarpedia.com/de/skoda/13-octavia-combi-2-0-tdi-green-4x4-150-kombi",
+    "evidence": "encyCARpedia: 610-1.740 l for Combi 4x4 variants."
+   },
+   {
+    "model": "Octavia Combi",
+    "generation": "5E Combi (3. Generation)",
+    "variant": "1.4 TSI G-TEC (Erdgas)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 480,
+    "sourceUrl": "https://www.firmenauto.de/skoda-octavia-combi-1-4-tsi-g-tec-dsg-im-test-sauber-gegen-super-9175706.html",
+    "evidence": "Test of Octavia Combi 1.4 TSI G-TEC: boot drops to 480 / 1,610 l (normally 610 / 1,740 l). encyCARpedia 1.4 TSI G-TEC Combi (2017-2019) also 480-1,610 l. Medium confidence: search summary cited several reviews with partly differing values."
+   },
+   {
+    "model": "Octavia Combi",
+    "generation": "5E Combi (3. Generation)",
+    "variant": "1.4 TSI G-TEC (Erdgas)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1610,
+    "sourceUrl": "https://www.firmenauto.de/skoda-octavia-combi-1-4-tsi-g-tec-dsg-im-test-sauber-gegen-super-9175706.html",
+    "evidence": "Test of Octavia Combi 1.4 TSI G-TEC: 480 / 1,610 l."
+   }
+  ],
+  "missing": [
+   {
+    "model": "Octavia Combi",
+    "detail": "5E Combi Facelift (2017-2020): 1.4 TSI G-TEC 110 PS (2017-2018/19) missing; encyCARpedia 'Octavia Combi 1.4 TSI G-TEC 110 (2017-2019)' gives 480-1,610 l (https://www.encycarpedia.com/skoda/17-octavia-combi-1-4-tsi-g-tec-lpg-110-estate). The existing 1.5 G-TEC row has yearFrom 2019 only."
+   },
+   {
+    "model": "Octavia Combi",
+    "detail": "5E Combi Facelift: RS 245 (2017+) Combi height 1,452 mm, width 1,814 mm per Škoda press kit (https://www.skoda-storyboard.com/en/press-kits/skoda-octavia-rs-245-sporty-spacious-practical-family-sportster-delivers-245-ps/attachment/occ_rs_245_00008/); RS variant row currently all null. Škoda 2017 Scout press kit confirms Scout length 4,687 mm."
+   },
+   {
+    "model": "Fabia",
+    "detail": "6Y RS 1.9 TDI: dimensions differ from base (auto.ru: length 4002 mm, height 1440 mm) - only one non-manufacturer source, not entered as correction."
+   }
+  ],
+  "checkedValues": 78,
+  "confirmedValues": 61,
+  "notes": "18 searches used. Confirmed: Fabia 6Y length 3960 (3970 in some DBs), width 1646, wheelbase 2462, 260/1016 l; Fabia Combi 6Y 4222/1646/1452/2462, 426/1225 l; Fabia 5J 3992/1642/1498, 300/1163 l; Fabia Combi 5J 4239, 480/1460 l and facelift 505/1485 l (de.wikipedia Fabia II explicitly: 'seit 2010 auf 505/1485 l'); Fabia NJ 3992/1732/1467/2470, 330/1150 l; Fabia Combi NJ 530/1395 l; Octavia Combi 1Z 4572/1769/1462/2578, 580/1620 l (Škoda storyboard: '580 litres (1,620 with the rear seats folded down)'); Octavia Combi 5E 4659/1814/1465/2686, 610/1740 l; 5E Facelift length 4667 (Škoda 2017 press kit: estate grew 8 mm to 4,667 mm), Scout 4687 mm. Open conflicts not corrected: de.wikipedia Fabia II infobox gives wheelbase 2462 mm (vs. 2451 used for facelift from ADAC) - no clear manufacturer figure found. Octavia Combi 1Z Facelift: auto-data.net gives 605/1655 l for 1.4 TSI facelift vs. 580/1620 l (ADAC RS) - possibly changed measurement method; not corrected without manufacturer source. Fabia Combi 5J Facelift yearFrom 2011 vs. hatch facelift 2010 - facelift was 2010 for both bodies; consider aligning. Fabia NJ Combi length 4257 not directly confirmed by manufacturer (mobile.de ~4.26 m)."
+ }
+}

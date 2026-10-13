@@ -4,7 +4,10 @@ Diese Anleitung richtet sich an eine neue Claude-Code-Session (oder einen Mensch
 
 ## Stand
 
-- **80/20-Ausbau erledigt:** Pro Marke sind die meistverkauften Modelle enthalten, also die Pakete in `priority` aus `scripts/research/chunks.json`. Varianten sind nach Antrieb zusammengefasst, Generationen decken die Modelljahre 2020–2026 ab. Ältere Generationen bis 2005 kommen mit Variante B dazu (siehe unten).
+- **80/20-Ausbau erledigt:** Pro Marke sind die meistverkauften Modelle enthalten, also die Pakete in `priority` aus `scripts/research/chunks.json`. Varianten sind nach Antrieb zusammengefasst, Generationen decken die Modelljahre 2020–2026 ab.
+- **Variante B erledigt (Oktober 2026):** Alle 23 Pakete aus `chunks-history-2005.json` sind recherchiert und unabhängig gegengeprüft (`data/research/h-*.json`). Dazu kamen 159 Vorgängergenerationen (von 144 auf 303 Generationen, Varianten von 576 auf 1080). Die Hauptquelle ist meist der ADAC-Autokatalog mit Herstellerangaben, weil sich alte Pressemappen per Websuche selten finden. Schwach belegte Korrekturen (nur eine Spec-Datenbank, widersprüchlich) wurden verworfen. Lückenfüller: `data/research/patches/gap-h-*.json`.
+  - Offene Lücken (null, nirgends belegt): umgeklappte Volumen der Limousinen BMW 3er E46–F30, C-Klasse W203–W205, CLA C117 und Passat B6/B7, außerdem RAV4 XA20. Kofferraum mit 5 Sitzen bei Caddy 3/4 Maxi, Multivan T5 und T6 lang. Radstand des Focus Turnier 3 Facelift.
+  - Fehlende Generationen: RAV4 XA30 Facelift (2009–2013; ADAC nennt 586/1752 l, aber Breite und Höhe sind unbelegt) und Polo IV 9N vor dem Facelift. Die Gegenprüfer haben außerdem einzelne fehlende Varianten gemeldet (z. B. Cupra-, RS- und AMG-Versionen), siehe `verification.missing` in `h-*.json`.
 - **Für später:** `full` in `chunks.json` listet die komplette Modellpalette 2020–2026. Erledigt sind die Pakete, für die `data/research/<id>.json` existiert.
 - **Gegenprüfung:** Die meisten Pakete sind bisher nur plausibilitätsgeprüft (Warnungen in `data/research/_build-report.json`). Der Workflow kann zusätzlich eine unabhängige Prüfung pro Paket fahren (`"verify": true`), das verdoppelt aber den Suchbedarf.
 

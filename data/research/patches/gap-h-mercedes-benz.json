@@ -1,0 +1,11 @@
+{
+ "id": "gap-h-mercedes-benz",
+ "kind": "gaps",
+ "patches": [],
+ "notFound": [
+  "C-Klasse Limousine | W205 | trunkFoldedL (Mercedes publishes no folded figure for the sedan; no ADAC Autotest measurement for a W205 sedan with seats folded found)",
+  "C-Klasse Limousine | W204 | trunkFoldedL (ADAC Autokatalog lists only the normal volume of 475 l, with the folding rear seat as a package option)",
+  "C-Klasse Limousine | W203 | trunkFoldedL (ADAC Autotest AT0896 gives 405 l normal only; no folded volume stated)",
+  "CLA | C117 (1. Generation, CLA Coupé, incl. Mopf 2016) | trunkFoldedL (only a 470-1006 l range on AutoScout24, a marketplace with no traceable source and not confirmed anywhere else; not used)"
+ ]
+}

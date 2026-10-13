@@ -1,0 +1,800 @@
+{
+ "id": "h-mercedes-benz-1",
+ "brand": "Mercedes-Benz",
+ "data": {
+  "models": [
+   {
+    "brand": "Mercedes-Benz",
+    "model": "A-Klasse Kompaktlimousine",
+    "generations": [
+     {
+      "name": "W176",
+      "yearFrom": 2012,
+      "yearTo": 2018,
+      "bodyType": "hatchback",
+      "lengthMm": 4292,
+      "widthMm": 1780,
+      "heightMm": 1433,
+      "wheelbaseMm": 2699,
+      "trunkL": 341,
+      "trunkFoldedL": 1157,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "A 160 / A 180 / A 200 / A 250 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 341,
+        "trunkFoldedL": 1157,
+        "notes": "Trunk value given generation-wide (341-1157 l) by secondary sources; Autozine lists 341/1157 l for A 250 DCT."
+       },
+       {
+        "name": "A 160 d / A 180 d / A 200 d / A 220 d (CDI, Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 341,
+        "trunkFoldedL": 1157,
+        "notes": "Generation-wide trunk value; no diesel-specific deviation found."
+       },
+       {
+        "name": "A 45 AMG 4MATIC",
+        "powertrain": "petrol",
+        "powerPs": 360,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "lengthMm": null,
+        "notes": "360 PS per germancarforum post. Dimensions/trunk of A 45 AMG not confirmed by any source (Wikipedia gives a generation length range of 4292-4367 mm, upper value likely AMG/facelift)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.mobile.de/auto/mercedes/a-klasse/2012/schraegheck/modell/daten-fakten/",
+        "what": "length 4292 mm, height 1433 mm, trunk 341 l / 1157 l"
+       },
+       {
+        "url": "https://www.carmagazine.co.uk/car-news/first-official-pictures/mercedes-benz/mercedes-a-class-at-2012-geneva-motor-show/",
+        "what": "launch dimensions 4292 x 1780 x 1433 mm (official 2012 figures reported)"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_A-Class_(W176)",
+        "what": "wheelbase 2699 mm, width 1780 mm, length range 4292-4367 mm, height 1417-1433 mm"
+       },
+       {
+        "url": "https://www.carsized.com/en/cars/mercedes-benz-a-2015-5-door-hatchback/",
+        "what": "trunk 341 l / 1157 l for 2015 facelift"
+       },
+       {
+        "url": "https://gebrauchtwagenberater.de/mercedes-a-klasse-w176-technische-daten/",
+        "what": "width 1780 mm, trunk 341-1157 l across generation"
+       },
+       {
+        "url": "https://www.autozine.nl/mercedes-benz/a-klasse-2012-2018/a250-dct",
+        "what": "341/1157 l for A 250"
+       },
+       {
+        "url": "https://www.germancarforum.com/threads/official-mercedes-benz-a-class-w176.43509/post-628177",
+        "what": "A 45 AMG 360 PS"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "No official Mercedes press kit found within search budget; values from consistent secondary sources. Facelift 2015 (trunk unchanged 341/1157 per carsized) not split: facelift length change (possibly ~4299 mm) not confirmed. A 200 Natural Gas Drive (CNG, 2015-) existed but trunk not researched."
+     },
+     {
+      "name": "W169",
+      "yearFrom": 2004,
+      "yearTo": 2012,
+      "bodyType": "hatchback",
+      "lengthMm": 3838,
+      "widthMm": 1764,
+      "heightMm": 1593,
+      "wheelbaseMm": 2568,
+      "trunkL": 435,
+      "trunkFoldedL": 1370,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "A 150 / A 170 / A 200 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 435,
+        "trunkFoldedL": 1370,
+        "notes": "A 150 has 95 PS (cararac). 435/1370 l per autokosten.net A 150 data sheet."
+       },
+       {
+        "name": "A 200 Turbo (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 435,
+        "trunkFoldedL": 1370,
+        "notes": "No variant-specific trunk deviation known; generation value."
+       },
+       {
+        "name": "A 160 CDI / A 180 CDI / A 200 CDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 435,
+        "trunkFoldedL": 1370,
+        "notes": "fastcarcheck lists 2.0 diesel 82 PS and 140 PS facelift versions with 435/1370 l."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autokosten.net/mercedes/a-klasse/a-150/a-klasse-169-09-04-04-08_15/technische-daten",
+        "what": "A 150 (09/04-04/08): length 3838, width 1764, height 1593, wheelbase 2568 mm, trunk 435 l / 1370 l (dachhoch, umgeklappt)"
+       },
+       {
+        "url": "https://gebrauchtwagenberater.de/mercedes-a-klasse-w169-technische-daten-abmessungen/",
+        "what": "trunk 435-1370 l; 3-door discontinued 07/2010, production end 04/2012"
+       },
+       {
+        "url": "https://www.automoli.com/us/vehicles/mercedes-benz/klasa-a/klasa-a-w169-2786/",
+        "what": "length 3838 mm, wheelbase 2568 mm, height 1595 mm (conflicting)"
+       },
+       {
+        "url": "https://www.carmagazine.co.uk/car-news/first-official-pictures/mercedes-benz/mercedes-a-class-at-2012-geneva-motor-show/",
+        "what": "predecessor width 1764 mm, height 1593 mm"
+       },
+       {
+        "url": "https://fastcarcheck.uk/specs/make/mercedes-benz/a-class/65720",
+        "what": "facelift 2008-2012: 1764 / 1593 mm, wheelbase 2568 mm, 435/1370 l, length given as 3883 mm (conflicting)"
+       },
+       {
+        "url": "https://cararac.com/spec/mercedes-benz/a-class/hatchback-2008/",
+        "what": "facelift A 150 95 PS, length 3838 mm"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Includes the 3-door (A-Klasse Coupé, until 2010) and 5-door; 3-door listed with same exterior dimensions by fastcarcheck. Facelift 2008 not split: sources conflict on length (3838 vs 3883 mm), trunk unchanged 435/1370 l. Height 1593 vs 1595 mm in sources. Model name A-Klasse (hatchback) - a different concept (compact van-like) but same nameplate/line."
+     }
+    ]
+   },
+   {
+    "brand": "Mercedes-Benz",
+    "model": "C-Klasse Limousine",
+    "generations": [
+     {
+      "name": "W205",
+      "yearFrom": 2014,
+      "yearTo": 2021,
+      "bodyType": "sedan",
+      "lengthMm": 4686,
+      "widthMm": 1810,
+      "heightMm": 1442,
+      "wheelbaseMm": 2840,
+      "trunkL": 480,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "C 160 / C 180 / C 200 / C 250 / C 300 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 480,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "C 180 d / C 200 d / C 220 d / C 250 d (BlueTEC, Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 480,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "4MATIC",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 480,
+        "trunkFoldedL": null,
+        "notes": "No 4MATIC-specific trunk deviation found."
+       },
+       {
+        "name": "C 350 e (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 335,
+        "trunkFoldedL": null,
+        "yearFrom": 2015,
+        "yearTo": 2018,
+        "notes": "335 l per Mercedes press release quoted by mbpassion."
+       },
+       {
+        "name": "C 300 e / C 300 de (Plug-in-Hybrid, Mopf)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2019,
+        "yearTo": 2021,
+        "notes": "Sedan trunk not found (T-Modell C 300 de: 315 l)."
+       },
+       {
+        "name": "Mercedes-AMG C 63 / C 63 S",
+        "powertrain": "petrol",
+        "powerPs": 476,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "lengthMm": null,
+        "notes": "C 63 476 PS, C 63 S 510 PS (ADAC). Sedan dimensions/trunk not found; T-Modell C 63 is 4771 mm long, 1839 mm wide."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.mobile.de/auto/mercedes/c-klasse/2014/limousine/modell/daten-fakten/",
+        "what": "length 4686 mm, wheelbase 2840 mm, trunk 480 l"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1496-mercedes-benz-c-klasse-limousine",
+        "what": "4686 x 1810 (without mirrors) x 1442 mm, wheelbase 2840, trunk 480 l"
+       },
+       {
+        "url": "https://mbpassion.de/2013/12/der-kofferraum-der-neuen-c-klasse-fondsitzlehnen-optional-402040-teilbar/",
+        "what": "trunk 480 l (launch info), 40/20/40 split rear seats optional"
+       },
+       {
+        "url": "https://mbpassion.de/2015/01/das-beste-aus-drei-welten-der-neue-c-350-plug-in-hybrid/",
+        "what": "C 350 e Limousine 335 l (Mercedes press text)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205/243336",
+        "what": "ADAC: C 63 S AMG 510 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205/273739",
+        "what": "ADAC: C 63 AMG 476 PS"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 2018 not split: length 4686 mm unchanged; some sources list 455 l for the facelift sedan (possibly re-measured, not confirmed), kept 480 l. Sedan folded VDA volume not published (no trunkFoldedL). Optional through-loading rear seats."
+     },
+     {
+      "name": "W204",
+      "yearFrom": 2007,
+      "yearTo": 2014,
+      "bodyType": "sedan",
+      "lengthMm": 4581,
+      "widthMm": 1770,
+      "heightMm": 1447,
+      "wheelbaseMm": 2760,
+      "trunkL": 475,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "C 180 Kompressor / C 200 Kompressor / C 230 / C 280 / C 350 (Benziner, ab 2009 CGI)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 475,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "C 200 CDI / C 220 CDI / C 250 CDI / C 320 CDI / C 350 CDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 475,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "4MATIC",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 475,
+        "trunkFoldedL": null,
+        "notes": "No deviation found."
+       },
+       {
+        "name": "C 63 AMG",
+        "powertrain": "petrol",
+        "powerPs": 457,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "lengthMm": null,
+        "widthMm": null,
+        "notes": "457 PS per angurten.de; dimensions/trunk not found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.mobile.de/auto/mercedes/c-klasse/2007/limousine/modell/daten-fakten/",
+        "what": "length 4581 mm, height 1447 mm, wheelbase 2760 mm, trunk 475 l"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/172-C-Klasse+Limousine",
+        "what": "width without mirrors 1770 mm, trunk 475 l"
+       },
+       {
+        "url": "https://fastcarcheck.uk/specs/make/mercedes-benz/c-class/54298",
+        "what": "facelift 2011 sedan: length 4591 mm, height 1447 mm, trunk 475 l"
+       },
+       {
+        "url": "https://www.angurten.de/is/motoren/172-C-Klasse+Limousine/707",
+        "what": "C 63 AMG 457 PS"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 2011 (Mopf) not split as a separate entry: only length changed (4591 mm vs 4581 mm per fastcarcheck), trunk unchanged 475 l; width/height of facelift not confirmed separately. auto motor und sport test lists 485 l for one test car (not adopted)."
+     },
+     {
+      "name": "W203",
+      "yearFrom": 2000,
+      "yearTo": 2007,
+      "bodyType": "sedan",
+      "lengthMm": 4526,
+      "widthMm": 1728,
+      "heightMm": 1426,
+      "wheelbaseMm": 2715,
+      "trunkL": 455,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "C 180 Kompressor / C 200 Kompressor / C 230 / C 280 / C 350 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 455,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "C 200 CDI / C 220 CDI / C 320 CDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 455,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "4MATIC",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "4MATIC trunk not researched."
+       },
+       {
+        "name": "C 55 AMG",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Not researched (search budget)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.angurten.de/is/abmessungen/65-C-Klasse+Limousine",
+        "what": "4526 x 1728 (without mirrors) x 1426 mm, wheelbase 2715 mm, trunk 455 l"
+       },
+       {
+        "url": "https://www.auto-data.net/de/mercedes-benz-c-class-w203-facelift-2004-c-180-kompressor-143hp-automatic-41157",
+        "what": "facelift 2004 sedan: length 4526 mm, width 1728 mm (unchanged)"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W203)",
+        "what": "wheelbase 2715 mm"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Sold 2000-2007, overlaps 2005-2007. Facelift 2004 not split: length/width unchanged per auto-data.net. No manufacturer source found within search budget."
+     }
+    ]
+   },
+   {
+    "brand": "Mercedes-Benz",
+    "model": "C-Klasse T-Modell",
+    "generations": [
+     {
+      "name": "S205",
+      "yearFrom": 2014,
+      "yearTo": 2021,
+      "bodyType": "wagon",
+      "lengthMm": 4702,
+      "widthMm": 1810,
+      "heightMm": 1457,
+      "wheelbaseMm": 2840,
+      "trunkL": 490,
+      "trunkFoldedL": 1510,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "C 160 / C 180 / C 200 / C 250 / C 300 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 490,
+        "trunkFoldedL": 1510
+       },
+       {
+        "name": "C 180 d / C 200 d / C 220 d / C 250 d (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 490,
+        "trunkFoldedL": 1510
+       },
+       {
+        "name": "4MATIC",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 490,
+        "trunkFoldedL": 1510,
+        "notes": "No deviation found."
+       },
+       {
+        "name": "C 350 e T-Modell (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 350,
+        "trunkFoldedL": 1370,
+        "yearFrom": 2015,
+        "yearTo": 2018,
+        "notes": "Mercedes press text via mbpassion; confirmed by autokosten.net and auto-motor.at test."
+       },
+       {
+        "name": "C 300 de T-Modell (Diesel-Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 315,
+        "trunkFoldedL": 1355,
+        "yearFrom": 2019,
+        "yearTo": 2021,
+        "notes": "mbpassion test with technical data: 315-1355 l, 145 l less than the regular T-Modell."
+       },
+       {
+        "name": "Mercedes-AMG C 63 / C 63 S T-Modell",
+        "powertrain": "petrol",
+        "powerPs": 476,
+        "awd": false,
+        "trunkL": 490,
+        "trunkFoldedL": 1510,
+        "lengthMm": 4771,
+        "widthMm": 1839,
+        "heightMm": 1441,
+        "notes": "ADAC: C 63 476 PS / C 63 S 510 PS; 4771 x 1839 x 1441 mm (facelift 4772 mm), 490/1510 l."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.mobile.de/auto/mercedes/c-klasse/2014/kombi/modell/daten-fakten/",
+        "what": "length 4702 mm, height 1457 mm, trunk 490/1510 l"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1562-mercedes-benz-c-klasse-t-modell",
+        "what": "width without mirrors 1810 mm"
+       },
+       {
+        "url": "https://www.mercedes-fans.de/magazin/auto-der-woche/der-packt-das-und-nimmt-s-sportlich-das-neue-mercedes-c-klasse-t-modell-s205-der-neue-mercedes-benz-c-klasse-kombi-ist-da.7020",
+        "what": "wheelbase 2840 mm, 490/1510 l at launch"
+       },
+       {
+        "url": "https://mbpassion.de/2015/01/das-beste-aus-drei-welten-der-neue-c-350-plug-in-hybrid/",
+        "what": "C 350 e T-Modell 350 l / 1370 l (Mercedes press text)"
+       },
+       {
+        "url": "https://www.autokosten.net/mercedes/c-klasse-t-modell/c-350-e-t-modell/c-klasse-205-t-modell_19/technische-daten",
+        "what": "C 350 e T-Modell 350 / 1370 l"
+       },
+       {
+        "url": "https://mbpassion.de/2019/10/mercedes-benz-c-300-de-t-modell-alltagstest-technische-daten/",
+        "what": "C 300 de T-Modell 315-1355 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205/243345/",
+        "what": "ADAC: C 63 AMG T-Modell 4771/1839/1441 mm, wheelbase 2840, 490/1510 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205-facelift/293681",
+        "what": "ADAC: C 63 S AMG T-Modell facelift 4772 mm, 490/1510 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 2018 not split: ADAC facelift data still 490/1510 l; however mbpassion's '145 l less' for C 300 de implies a facelift base value of 460 l (possible re-measurement, unconfirmed). Official mercedes-benz.de S205 page reportedly listed 4766 mm length (likely different equipment) - not adopted."
+     },
+     {
+      "name": "S204",
+      "yearFrom": 2007,
+      "yearTo": 2014,
+      "bodyType": "wagon",
+      "lengthMm": 4596,
+      "widthMm": 1770,
+      "heightMm": 1459,
+      "wheelbaseMm": 2760,
+      "trunkL": 485,
+      "trunkFoldedL": 1500,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "C 180 Kompressor / C 200 Kompressor / C 230 / C 280 / C 350 (Benziner, ab 2009 CGI)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 485,
+        "trunkFoldedL": 1500
+       },
+       {
+        "name": "C 200 CDI / C 220 CDI / C 250 CDI / C 320 CDI / C 350 CDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 485,
+        "trunkFoldedL": 1500
+       },
+       {
+        "name": "4MATIC",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 485,
+        "trunkFoldedL": 1500,
+        "notes": "auto-data lists C 250 CDI 4MATIC T-Modell; no deviation found."
+       },
+       {
+        "name": "C 63 AMG T-Modell",
+        "powertrain": "petrol",
+        "powerPs": 457,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "lengthMm": null,
+        "notes": "ADAC pages exist (02/08-04/10, 04/10-01/11) but dimensions/trunk not retrieved."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.mobile.de/auto/mercedes/c-klasse/2007/kombi/modell/daten-fakten/",
+        "what": "length 4596 mm, height 1459 mm, wheelbase 2760 mm"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/173-C-Klasse+T-Modell",
+        "what": "4596 mm length, 485 / 1500 l"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/Mercedes-Benz_Baureihe_204",
+        "what": "trunk 485-1500 l, sold 12/2007-03/2014"
+       },
+       {
+        "url": "https://fastcarcheck.uk/specs/make/mercedes-benz/c-class/54240",
+        "what": "facelift 2011 T-Modell: length 4606 mm, height 1459 mm, 485/1500 l"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/172-C-Klasse+Limousine",
+        "what": "width without mirrors 1770 mm (W204 sedan; same body width)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Width 1770 mm taken from the W204 sedan entry (same platform); not separately confirmed for T-Modell. Facelift 2011 not split: length 4606 mm vs 4596 mm, trunk unchanged 485/1500 l."
+     },
+     {
+      "name": "S203",
+      "yearFrom": 2001,
+      "yearTo": 2007,
+      "bodyType": "wagon",
+      "lengthMm": 4541,
+      "widthMm": 1728,
+      "heightMm": 1465,
+      "wheelbaseMm": 2715,
+      "trunkL": 470,
+      "trunkFoldedL": 1354,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "C 180 Kompressor / C 200 Kompressor / C 230 / C 280 / C 350 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 470,
+        "trunkFoldedL": 1354
+       },
+       {
+        "name": "C 200 CDI / C 220 CDI / C 320 CDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 470,
+        "trunkFoldedL": 1354
+       },
+       {
+        "name": "4MATIC",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Not researched."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.angurten.de/is/abmessungen/66-C-Klasse+T-Modell",
+        "what": "4541 x 1728 (without mirrors) x 1465 mm, wheelbase 2715 mm, 470 / 1354 l"
+       },
+       {
+        "url": "https://www.bewerta.de/mercedes-benz-w203",
+        "what": "T-Modell max 1354 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 2004 not separately researched for T-Modell dimensions."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "A-Klasse Kompaktlimousine W176 A 45 AMG dimensions and trunk",
+   "A-Klasse Kompaktlimousine W176 facelift 2015 length",
+   "A-Klasse Kompaktlimousine W169 facelift 2008 length (3838 vs 3883 conflicting)",
+   "C-Klasse Limousine W205 trunkFoldedL",
+   "C-Klasse Limousine W205 C 300 e / C 300 de trunk",
+   "C-Klasse Limousine W205 C 63 AMG dimensions and trunk",
+   "C-Klasse Limousine W205 facelift trunk (480 vs 455 l unclear)",
+   "C-Klasse Limousine W204 trunkFoldedL",
+   "C-Klasse Limousine W204 C 63 AMG dimensions and trunk",
+   "C-Klasse Limousine W203 trunkFoldedL",
+   "C-Klasse Limousine W203 4MATIC / C 55 AMG trunk",
+   "C-Klasse T-Modell S204 C 63 AMG dimensions and trunk",
+   "C-Klasse T-Modell S203 4MATIC trunk",
+   "all variants: powerPs mostly not sourced",
+   "loadSpace measurements for all generations"
+  ],
+  "notes": "20-search budget used. No official Mercedes press kits (media.mercedes-benz.com / Daimler archive) surfaced in search results; values come from consistent secondary databases (mobile.de, angurten.de, autokosten.net), Mercedes press text quoted on mbpassion.de, and ADAC Autokatalog for AMG/facelift. Facelifts (W176 2015, W169 2008, W205/S205 2018, W204/S204 2011, W203 2004) were not split because dimension changes are minor/unconfirmed; details in notes."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "A-Klasse Kompaktlimousine",
+    "generation": "W176",
+    "variant": "A 45 AMG 4MATIC",
+    "field": "lengthMm",
+    "oldValue": null,
+    "newValue": 4359,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/test/gebrauchtkauf-mercedes-a-45-amg/technische-daten/",
+    "evidence": "auto motor und sport technical data for W176 A 45 AMG 4MATIC (360 PS): Aussenmasse 4359 x 1780 x 1417 mm."
+   },
+   {
+    "model": "A-Klasse Kompaktlimousine",
+    "generation": "W176",
+    "variant": "A 45 AMG 4MATIC",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 341,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/test/gebrauchtkauf-mercedes-a-45-amg/technische-daten/",
+    "evidence": "Same AMS data sheet: Kofferraumvolumen 341 bis 1157 l."
+   },
+   {
+    "model": "A-Klasse Kompaktlimousine",
+    "generation": "W176",
+    "variant": "A 45 AMG 4MATIC",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1157,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/test/gebrauchtkauf-mercedes-a-45-amg/technische-daten/",
+    "evidence": "Same AMS data sheet: Kofferraumvolumen 341 bis 1157 l."
+   },
+   {
+    "model": "C-Klasse Limousine",
+    "generation": "W205",
+    "variant": "Mercedes-AMG C 63 / C 63 S",
+    "field": "lengthMm",
+    "oldValue": null,
+    "newValue": 4756,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205/243336",
+    "evidence": "ADAC C 63 S AMG Limousine (01/15-04/18): Laenge 4756 mm (facelift 4757 mm); C 63 AMG Edition 1 (273739) also 4756 mm."
+   },
+   {
+    "model": "C-Klasse Limousine",
+    "generation": "W205",
+    "variant": "Mercedes-AMG C 63 / C 63 S",
+    "field": "widthMm",
+    "oldValue": null,
+    "newValue": 1839,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205/243336",
+    "evidence": "ADAC: Breite 1839 mm (2020 mm mit Aussenspiegeln). Variant currently inherits generation width 1810 mm."
+   },
+   {
+    "model": "C-Klasse Limousine",
+    "generation": "W205",
+    "variant": "Mercedes-AMG C 63 / C 63 S",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 480,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205/243336",
+    "evidence": "ADAC C 63 S AMG Limousine and C 63 AMG Edition 1: Kofferraumvolumen normal 480 l (also facelift entries)."
+   },
+   {
+    "model": "C-Klasse Limousine",
+    "generation": "W204",
+    "variant": "C 63 AMG",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 475,
+    "sourceUrl": "https://www.largus.fr/fiche-technique/Mercedes-Benz/Classe+C/III+W204/2009/Berline+4+Portes/63+AMG-961432.html",
+    "evidence": "L'argus data sheet W204 C 63 AMG Berline (2009): coffre 475 l; Top Gear C63 4dr spec also lists 475 l. Dimensions conflicting (L'argus 4.58 m vs Top Gear 4726 mm) - left null."
+   },
+   {
+    "model": "C-Klasse T-Modell",
+    "generation": "S204",
+    "variant": "C 63 AMG T-Modell",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 485,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/204/211655",
+    "evidence": "ADAC C 63 AMG T-Modell (02/08-04/10): Kofferraumvolumen normal 485 l, dachhoch mit umgeklappter Ruecksitzbank 1500 l; same on 04/10-01/11 page (223177)."
+   },
+   {
+    "model": "C-Klasse T-Modell",
+    "generation": "S204",
+    "variant": "C 63 AMG T-Modell",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1500,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/204/211655",
+    "evidence": "ADAC: 1500 l dachhoch mit umgeklappter Ruecksitzbank."
+   },
+   {
+    "model": "C-Klasse T-Modell",
+    "generation": "S204",
+    "variant": "C 63 AMG T-Modell",
+    "field": "lengthMm",
+    "oldValue": null,
+    "newValue": 4711,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/204/211655",
+    "evidence": "ADAC: Laenge 4711 mm, Breite 1795 mm (2008 mm inkl. Spiegel), Hoehe 1448 mm, Radstand 2765 mm."
+   },
+   {
+    "model": "C-Klasse T-Modell",
+    "generation": "S204",
+    "variant": "C 63 AMG T-Modell",
+    "field": "widthMm",
+    "oldValue": null,
+    "newValue": 1795,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/204/211655",
+    "evidence": "ADAC: Breite 1795 mm without mirrors (variant otherwise inherits 1770 mm)."
+   }
+  ],
+  "missing": [
+   {
+    "model": "C-Klasse T-Modell",
+    "detail": "S205 facelift (2018-2021) has different trunk per ADAC: C 220 d T-Modell (10/19-02/21, incl. 4MATIC/Avantgarde) 460 l normal / 1480 l dachhoch vs. pre-facelift 490/1510 l (ADAC 205/246062). Consider splitting facelift or adding variant: https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205-facelift/307755"
+   },
+   {
+    "model": "A-Klasse Kompaktlimousine",
+    "detail": "W169 facelift (2008-2012) length 3883 mm per ADAC (A 180 CDI 5-Tuerer 11/10-06/12, https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/a-klasse/169-facelift/226261), width 1764, height 1593, wheelbase 2568, 435/1370 l. Generation length 3838 is the pre-facelift value; facelift split recommended."
+   },
+   {
+    "model": "A-Klasse Kompaktlimousine",
+    "detail": "W176 facelift (09/2015-2018) length 4299 mm per ADAC A 180 (https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/a-klasse/176-facelift/249051/), width 1780, height 1433, wheelbase 2699, 341/1157 l."
+   },
+   {
+    "model": "C-Klasse Limousine / T-Modell",
+    "detail": "Mercedes-AMG C 43 4MATIC (W205/S205, 2016-2021, earlier C 450 AMG 4MATIC) not listed as variant."
+   },
+   {
+    "model": "C-Klasse T-Modell",
+    "detail": "S203 C 32 AMG / C 55 AMG T-Modell and S205 C 400 4MATIC not listed (minor)."
+   }
+  ],
+  "checkedValues": 63,
+  "confirmedValues": 48,
+  "notes": "19 WebSearch calls used. S204 T-Modell widthMm 1770 mm CONFIRMED by angurten.de S204 page (https://www.angurten.de/is/abmessungen/173-C-Klasse+T-Modell: Laenge 4596 mm, Breite ohne Spiegel 1770 mm, 485/1500 l). Confirmed: W176 4292/1780/1433/2699, 341/1157 (ADAC facelift A 180 also 341/1157, 1780, 1433, 2699); W169 3838/1764/1593/2568, 435/1370 (ADAC facelift same except length 3883); W205 4686/1810/1442/2840, 480 l (W205 facelift 455 l not found anywhere, 480 stands); C 350 e sedan 335 l (mbpassion press data); W204 4581/1770/1447/2760, 475 l (angurten); W203 4526/1728/1426/2715, 455 l (auto-data); S205 4702/1810/1457/2840, 490/1510 (mbpassion premiere press, ADAC C 220 d pre-facelift); S205 C 63 T 4771/1839/490/1510 (ADAC); S203 4541/1728/1465, 470 l; S203 folded 1354 l supported by ADAC facelift C 230 T (480/1354) and Auto Bild (470-1354), auto-data says 1384 l - kept 1354. Not resolved: W205 C 300 e sedan trunk (315 l only from dealer/portal sources, possibly W206-confused - not corrected); S204 height/wheelbase not independently checked; W204 C 63 sedan length conflicting (4.58 m vs 4726 mm). All confirmations come from secondary databases/ADAC; no direct Mercedes press kit retrieved."
+ }
+}

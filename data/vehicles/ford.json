@@ -291,6 +291,402 @@
       "corrected": 0
      },
      "notes": "Länge der Basis (Titanium) nicht exakt gefunden (ADAC: rund 4,67 m; ST X 4675 mm), daher null. Breite 1825 mm stammt aus der ADAC-Angabe zum ST X und gilt für die Baureihe. Den Turnier hat Ford Ende 2025 eingestellt. Die Werte 635/1653 l (ADAC/fuhrpark) widersprechen 575/1620 l (kofferraum.org). Zusammen mit dem AUTO-BILD-Hinweis „+27 l durch das Facelift“ sprechen 635 l für das Facelift. Die Generation vor dem Facelift (Modelljahre 2020-2022) hat einen anderen Kofferraum und wurde nicht erfasst, siehe notFound."
+    },
+    {
+     "id": "2018-4-generation-vor-facelift",
+     "name": "4. Generation (Vor-Facelift)",
+     "yearFrom": 2018,
+     "yearTo": 2022,
+     "bodyType": "wagon",
+     "lengthMm": 4668,
+     "widthMm": 1825,
+     "heightMm": 1469,
+     "wheelbaseMm": 2700,
+     "trunkL": 608,
+     "trunkFoldedL": 1653,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-ecoboost-benziner",
+       "name": "1.0 EcoBoost (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 608,
+       "trunkFoldedL": 1653,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Turnier 1.0 EcoBoost Titanium (09/18-08/19)."
+      },
+      {
+       "id": "st-2-3-ecoboost-2-0-ecoblue-st-turnier",
+       "name": "ST 2.3 EcoBoost / 2.0 EcoBlue (ST Turnier)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 608,
+       "trunkFoldedL": 1653,
+       "lengthMm": 4668,
+       "widthMm": 1825,
+       "heightMm": null,
+       "yearFrom": 2019,
+       "yearTo": null,
+       "notes": "fordfan.de reproduction of Ford data (June 2019): 608 l 5-seat config with tyre repair kit; folded volume and height not given."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/iv/288799/",
+       "what": "ADAC Autokatalog Focus Turnier 1.0 EcoBoost Titanium (09/18-08/19): 4668x1825x1469 mm, wheelbase 2700, 608 l / 1653 l"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/fahrbericht/ford-focus-turnier-2018/",
+       "what": "auto motor und sport: 608 l min / 1653 l max, each with tyre repair kit"
+      },
+      {
+       "url": "https://www.fordfan.de/technische-daten/2019/08/23/technische-daten-ford-focus-st-stand-juni-2019",
+       "what": "Ford technical data (Juni 2019) for Focus ST Turnier: length 4668, width 1825 w/o mirrors, 608 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/iv/314568",
+       "what": "Korrektur trunkFoldedL: ADAC Focus Turnier ST 2.3 EcoBoost (08/20 - 03/21, 280 PS): Kofferraum normal 608 l, dachhoch mit umgeklappter Rücksitzbank 1653 l, Höhe 1466 mm."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 41,
+      "confirmed": 35,
+      "corrected": 1
+     },
+     "notes": "Manufacturer press kit not found directly. Heights in databases vary 1469-1497 mm by trim/roof rails; ADAC value used. With spare wheel some sources quote 575/1620 l (AUTO BILD). Focus Active Turnier (raised, approx. 4693 mm per carwow) not verified. 2020+ EcoBoost Hybrid (mHEV) trunk not verified."
+    },
+    {
+     "id": "2014-3-generation-facelift",
+     "name": "3. Generation Facelift",
+     "yearFrom": 2014,
+     "yearTo": 2018,
+     "bodyType": "wagon",
+     "lengthMm": 4560,
+     "widthMm": 1823,
+     "heightMm": 1492,
+     "wheelbaseMm": null,
+     "trunkL": 490,
+     "trunkFoldedL": 1516,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-6-ti-vct-1-5-ecoboost-benziner",
+       "name": "1.6 Ti-VCT / 1.5 EcoBoost (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 490,
+       "trunkFoldedL": 1516,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.5 EcoBoost Titanium (10/14-08/18) and 1.6 Ti-VCT Trend listed in same body series."
+      },
+      {
+       "id": "2-0-tdci-diesel",
+       "name": "2.0 TDCi (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 490,
+       "trunkFoldedL": 1516,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDCi PowerShift Business Edition listed in same series."
+      },
+      {
+       "id": "1-5-tdci-diesel",
+       "name": "1.5 TDCi (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 120,
+       "awd": false,
+       "trunkL": 490,
+       "trunkFoldedL": 1516,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.5 TDCi Titanium 88 kW (10/14-08/18); 95 PS version identical."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/iii-facelift/242693/",
+       "what": "ADAC Autokatalog Focus Turnier 1.5 TDCi Titanium (10/14-08/18): 4560x1823x1492 mm, trunk 490 l / 1516 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/iii-facelift/242682/",
+       "what": "ADAC 1.5 TDCi 95 PS: identical dimensions and trunk"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 41,
+      "confirmed": 35,
+      "corrected": 0
+     },
+     "notes": "Split because length/height listed differently (4560/1492 vs 4556/1505). Wheelbase not shown in found facelift data (pre-facelift ADAC 2650 mm; likely unchanged but not verified). Focus ST Turnier facelift data not found."
+    },
+    {
+     "id": "2011-3-generation-vor-facelift",
+     "name": "3. Generation (Vor-Facelift)",
+     "yearFrom": 2011,
+     "yearTo": 2014,
+     "bodyType": "wagon",
+     "lengthMm": 4556,
+     "widthMm": 1823,
+     "heightMm": 1505,
+     "wheelbaseMm": 2650,
+     "trunkL": 490,
+     "trunkFoldedL": 1516,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-6-ti-vct-1-6-ecoboost-benziner",
+       "name": "1.6 Ti-VCT / 1.6 EcoBoost (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 490,
+       "trunkFoldedL": 1516,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC lists same body data for petrol variants."
+      },
+      {
+       "id": "st-2-0-ecoboost-benziner",
+       "name": "ST 2.0 EcoBoost (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 250,
+       "awd": false,
+       "trunkL": 490,
+       "trunkFoldedL": 1516,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2012,
+       "yearTo": 2014,
+       "notes": "Focus ST Turnier existed; trunk volume and dimensions not found within search budget."
+      },
+      {
+       "id": "1-6-tdci-diesel",
+       "name": "1.6 TDCi (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 95,
+       "awd": false,
+       "trunkL": 490,
+       "trunkFoldedL": 1516,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Turnier 1.6 TDCi Start/Stopp Titanium (03/11-09/14), 70 kW."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/iii/226940",
+       "what": "ADAC Autokatalog Focus Turnier 1.6 TDCi Titanium (03/11-09/14): 4556x1823x1505 mm, wheelbase 2650 mm, trunk 490 l / 1516 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/iii/231571",
+       "what": "ADAC 1.6 TDCi 115 PS: same wheelbase and 490 l"
+      },
+      {
+       "url": "https://de.motor1.com/reviews/160131/ford-focus-turnier-im-test-echte-alternative/",
+       "what": "Test: 476 l / 1502 l (1516 l without spare wheel), 4556x1823x1505, wheelbase 2648"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/iii/232939",
+       "what": "Korrektur trunkL: ADAC Focus Turnier ST (07/12 - 09/14): Kofferraumvolumen normal 490 l, dachhoch mit umgeklappter Rücksitzbank 1516 l; Höhe 1505 mm, Radstand 2650 mm (same body as regular Turnier)."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/iii/232939",
+       "what": "Korrektur trunkFoldedL: ADAC Focus Turnier ST (07/12 - 09/14): dachhoch mit umgeklappter Rücksitzbank 1516 l."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/iii/232939",
+       "what": "Korrektur powerPs: ADAC Focus Turnier ST (07/12 - 09/14): 184 kW (250 PS), 1999 ccm."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 41,
+      "confirmed": 35,
+      "corrected": 3
+     },
+     "notes": "Volume discrepancy: ADAC lists 490/1516 l; motor1 test and others give 476/1502 l (with spare wheel), 1516 l without spare wheel. ADAC values used."
+    },
+    {
+     "id": "2008-2-generation-facelift",
+     "name": "2. Generation Facelift",
+     "yearFrom": 2008,
+     "yearTo": 2011,
+     "bodyType": "wagon",
+     "lengthMm": 4494,
+     "widthMm": 1839,
+     "heightMm": 1503,
+     "wheelbaseMm": 2640,
+     "trunkL": 503,
+     "trunkFoldedL": 1546,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-6-1-8-2-0-benziner",
+       "name": "1.6 / 1.8 / 2.0 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 503,
+       "trunkFoldedL": 1546,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC: identical values for 1.6 Ti-VCT, 1.8, 2.0 Style/Ghia/Titanium (02/08-)."
+      },
+      {
+       "id": "2-0-tdci-dpf-diesel",
+       "name": "2.0 TDCi DPF (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 503,
+       "trunkFoldedL": 1546,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Turnier 2.0 TDCi DPF Style (02/08-09/09)."
+      },
+      {
+       "id": "2-0-lpg-autogas",
+       "name": "2.0 LPG (Autogas)",
+       "powertrain": "lpg",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 503,
+       "trunkFoldedL": 1546,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC lists the LPG Style/Ghia with the same figures (tank placement apparently not reducing listed volume)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/ii-facelift/212229",
+       "what": "ADAC Autokatalog Focus Turnier 2.0 TDCi DPF Style (02/08-09/09): height 1503 mm, trunk 503 l / 1546 l dachhoch"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/ii-facelift/212898",
+       "what": "ADAC Focus Turnier 2.0 LPG Style: same height/trunk values"
+      },
+      {
+       "url": "https://www.autokosten.net/ford/focus-turnier/focus-turnier-1-8/focus-ii-turnier-02-08-03-11_19/technische-daten",
+       "what": "Length 4494 mm, width 1839 mm, height 1503 mm, trunk 503/1546 l (Turnier 1.8 Style 02/08-09/09)"
+      },
+      {
+       "url": "https://www.mobile.de/auto/ford/focus/2004/kombi/modell/daten-fakten/",
+       "what": "Wheelbase 2640 mm (Mk2 platform, unchanged at facelift)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 41,
+      "confirmed": 35,
+      "corrected": 0
+     },
+     "notes": "Split from pre-facelift because published height and trunk volume differ (503/1546 vs 475/1525 l). Length/width from autokosten.net, which mirrors ADAC values; ADAC snippet did not show length. Other sources still quote 482/1525 l for this generation."
+    },
+    {
+     "id": "2005-2-generation-vor-facelift",
+     "name": "2. Generation (Vor-Facelift)",
+     "yearFrom": 2005,
+     "yearTo": 2008,
+     "bodyType": "wagon",
+     "lengthMm": 4473,
+     "widthMm": 1840,
+     "heightMm": 1454,
+     "wheelbaseMm": 2640,
+     "trunkL": 475,
+     "trunkFoldedL": 1525,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-6-tdci-diesel",
+       "name": "1.6 TDCi (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 475,
+       "trunkFoldedL": 1525,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "autokosten.net (Turnier 1.6 TDCi Ambiente 11/04-01/08) lists identical dimensions and volumes."
+      },
+      {
+       "id": "2-0-tdci-dpf-diesel",
+       "name": "2.0 TDCi DPF (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 475,
+       "trunkFoldedL": 1525,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Autokatalog Turnier 2.0 TDCi DPF Sport (11/04-07/06)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/ii/200393/",
+       "what": "ADAC Autokatalog Focus Turnier 2.0 TDCi DPF Sport (11/04-07/06): length 4473, width 1840, height 1454, trunk 475 l / 1525 l dachhoch"
+      },
+      {
+       "url": "https://www.autokosten.net/ford/focus-turnier/focus-turnier-1-6-tdci/focus-ii-turnier-11-04-01-08_11/technische-daten",
+       "what": "Cross-check 1.6 TDCi Turnier: 4473x1840x1454 mm, 475/1525 l"
+      },
+      {
+       "url": "https://www.mobile.de/auto/ford/focus/2004/kombi/modell/daten-fakten/",
+       "what": "Wheelbase 2640 mm (Focus Turnier Mk2)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 41,
+      "confirmed": 35,
+      "corrected": 0
+     },
+     "notes": "Turnier sold from early 2005 (ADAC data from 11/04). No manufacturer press data found; values from ADAC. Other databases list 482 l / 1525 l and lengths 4468-4494 mm. Wheelbase from mobile.de (not in priority list). No Focus ST Turnier in this generation."
     }
    ]
   },
@@ -591,6 +987,264 @@
       "corrected": 0
      },
      "notes": "Die Breite ohne Spiegel und der Radstand vor dem Facelift wurden in den Quellen nicht eindeutig gefunden (Facelift: 1882 mm / 2711 mm). Ein VDA-Wert bei aufrechter Rückbank für Nicht-PHEV vor dem Facelift fehlt ebenfalls. Die Rückbank ist verschiebbar, deshalb schwanken die Angaben (412-553 l). Im Ford-PDF stehen Ladeboden-Maße (Ladelänge bis 2. Sitzreihe 865-1017 mm, Ladekantenhöhe 717-726 mm). Weil die Zuordnung zu Antrieb oder Sitzposition im Suchauszug nicht eindeutig war, ist loadSpace null. PS-Werte wurden nicht gegengeprüft und sind deshalb null."
+    },
+    {
+     "id": "2017-2-generation-facelift",
+     "name": "2. Generation Facelift",
+     "yearFrom": 2017,
+     "yearTo": 2019,
+     "bodyType": "suv",
+     "lengthMm": 4524,
+     "widthMm": 1856,
+     "heightMm": 1689,
+     "wheelbaseMm": 2690,
+     "trunkL": 456,
+     "trunkFoldedL": 1653,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-ecoboost-benziner",
+       "name": "1.5 EcoBoost (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 456,
+       "trunkFoldedL": 1653,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.5 EcoBoost Titanium 2x4 (01/17-06/18)."
+      },
+      {
+       "id": "2-0-ecoboost-4x4-automatik-benziner",
+       "name": "2.0 EcoBoost 4x4 Automatik (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Listed by ADAC (09/17-06/18); trunk not checked."
+      },
+      {
+       "id": "2-0-tdci-4x4-diesel",
+       "name": "2.0 TDCi 4x4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 456,
+       "trunkFoldedL": 1653,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDCi Vignale 4x4 (01/17-06/18, 08/18-03/19)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/ii-facelift/268197/",
+       "what": "ADAC Autokatalog Kuga 2.0 TDCi Vignale 4x4 (01/17-06/18): 4524x1856x1689 mm, wheelbase 2690"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/ii-facelift/268196",
+       "what": "ADAC Vignale 4x4 PowerShift: 456 l / 1653 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/ii-facelift/259642/",
+       "what": "ADAC 1.5 EcoBoost Titanium 2x4: height 1689, 456 l / 1653 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 41,
+      "confirmed": 35,
+      "corrected": 0
+     },
+     "notes": "Split due to different published width/height/trunk. Width 1856 mm per ADAC; other databases give 1838 mm. auto-data lists length 4531 mm and max 1603 l; AUTO ZEITUNG long-term test 406-1603 l. ADAC values used."
+    },
+    {
+     "id": "2013-2-generation-vor-facelift",
+     "name": "2. Generation (Vor-Facelift)",
+     "yearFrom": 2013,
+     "yearTo": 2016,
+     "bodyType": "suv",
+     "lengthMm": 4524,
+     "widthMm": 1838,
+     "heightMm": 1701,
+     "wheelbaseMm": 2690,
+     "trunkL": 481,
+     "trunkFoldedL": 1653,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-6-ecoboost-benziner",
+       "name": "1.6 EcoBoost (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Not separately verified."
+      },
+      {
+       "id": "2-0-tdci-diesel",
+       "name": "2.0 TDCi (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 456,
+       "trunkFoldedL": 1653,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "autozine.de 2.0 TDCi Trend: 456/1653 l."
+      },
+      {
+       "id": "2-0-tdci-4x4-diesel",
+       "name": "2.0 TDCi 4x4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 481,
+       "trunkFoldedL": 1653,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDCi Titanium 4x4 (03/13-09/14)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/ii/234773/",
+       "what": "ADAC Autokatalog Kuga 2.0 TDCi Titanium 4x4 (03/13-09/14): 4524x1838x1701 mm, 481 l / 1653 l"
+      },
+      {
+       "url": "https://www.autozeitung.de/ford-kuga-2013-2-0-tdci-bilder-und-technische-daten-suv-52917.html",
+       "what": "AUTO ZEITUNG 2013: 481-1653 l"
+      },
+      {
+       "url": "https://www.autozine.de/ford/kuga-2013-2019/20-tdci-trend",
+       "what": "456/1653 l for 2.0 TDCi Trend"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1367-Kuga+2013",
+       "what": "Wheelbase 2690 mm"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 41,
+      "confirmed": 35,
+      "corrected": 0
+     },
+     "notes": "Trunk figures conflict: 481 l (ADAC, launch data, likely with tyre repair kit) vs 456 l (other sources, likely with spare wheel). Not split by powertrain in reality; difference is equipment-related."
+    },
+    {
+     "id": "2008-1-generation",
+     "name": "1. Generation",
+     "yearFrom": 2008,
+     "yearTo": 2012,
+     "bodyType": "suv",
+     "lengthMm": 4443,
+     "widthMm": 1842,
+     "heightMm": 1677,
+     "wheelbaseMm": 2690,
+     "trunkL": 410,
+     "trunkFoldedL": 1405,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-5-turbo-4x4-benziner",
+       "name": "2.5 Turbo 4x4 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 410,
+       "trunkFoldedL": 1405,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Petrol 2.5 offered; trunk not separately verified."
+      },
+      {
+       "id": "2-0-tdci-diesel",
+       "name": "2.0 TDCi (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 410,
+       "trunkFoldedL": 1405,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "2x4 available from 2008."
+      },
+      {
+       "id": "2-0-tdci-4x4-diesel",
+       "name": "2.0 TDCi 4x4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 410,
+       "trunkFoldedL": 1405,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "AUTO ZEITUNG first drive 2.0 TDCi 4x4: 410-1405 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autozeitung.de/ford-kuga-2-0-tdci-4x4-143953.html",
+       "what": "AUTO ZEITUNG test 2008: trunk 410-1405 l"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/marken-modelle/ford/kuga/1-generation/technische-daten/",
+       "what": "auto motor und sport: dimensions 4443x1842x1677 mm (gives max 1653 l, conflicting)"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/177-Kuga",
+       "what": "Wheelbase 2690 mm, width without mirrors 1842 mm, 410/1405 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/i/230698/",
+       "what": "Korrektur trunkL: ADAC Kuga 2.5 Turbo Individual 4x4 (12/11 - 12/12) and other 2.5 Turbo entries (Trend/Titanium 12/08-12/12): Kofferraumvolumen normal 410 l, dachhoch 1405 l."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/i/230698/",
+       "what": "Korrektur trunkFoldedL: ADAC 2.5 Turbo 4x4 entries: dachhoch mit umgeklappter Rücksitzbank 1405 l."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 41,
+      "confirmed": 35,
+      "corrected": 2
+     },
+     "notes": "No ADAC or Ford press data found within budget. Height 1677 mm without roof rails, 1710 mm with roof rails. amS lists 410-1653 l max, most sources 1405 l. German model years 2008-2012 (amS lists to 2013)."
     }
    ]
   },

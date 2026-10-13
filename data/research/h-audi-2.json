@@ -1,0 +1,228 @@
+{
+ "id": "h-audi-2",
+ "brand": "Audi",
+ "data": {
+  "models": [
+   {
+    "brand": "Audi",
+    "model": "Q3",
+    "generations": [
+     {
+      "name": "8U (1. Generation)",
+      "yearFrom": 2011,
+      "yearTo": 2018,
+      "bodyType": "suv",
+      "lengthMm": 4385,
+      "widthMm": 1831,
+      "heightMm": 1590,
+      "wheelbaseMm": 2603,
+      "trunkL": 460,
+      "trunkFoldedL": 1365,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 TFSI / 2.0 TFSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 460,
+        "trunkFoldedL": 1365,
+        "notes": "2.0 TFSI also offered with quattro; no different trunk volume published for quattro."
+       },
+       {
+        "name": "2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 460,
+        "trunkFoldedL": 1365,
+        "notes": "Front-drive and quattro versions; ADAC lists 460/1365 l for 2.0 TDI (facelift)."
+       },
+       {
+        "name": "2.0 TFSI / 2.0 TDI quattro",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 460,
+        "trunkFoldedL": 1365,
+        "notes": "Audi UK tech data (Q3 2.0 TFSI quattro 170 PS, 04/2011): 460/1365 l."
+       },
+       {
+        "name": "RS Q3 2.5 TFSI quattro S tronic",
+        "powertrain": "petrol",
+        "powerPs": 310,
+        "awd": true,
+        "trunkL": 356,
+        "trunkFoldedL": 1261,
+        "lengthMm": 4410,
+        "widthMm": 1841,
+        "heightMm": 1580,
+        "yearFrom": 2013,
+        "yearTo": 2018,
+        "notes": "ADAC: 4410 mm (10/13-11/14), 4411 mm and 340 PS after facelift (02/15-10/16); RS Q3 performance 367 PS from 2016. Trunk 356/1261 l per ADAC for both. Width/height from auto motor und sport."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://press.audi.co.uk/assets/documents/original/20340-AudiUK00000079Q320TFSI170PSTechnical.pdf",
+        "what": "Official Audi UK technical data (04/2011): length 4385, width excl. mirrors 1831, height 1590 mm, luggage 460/1365 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/8u-facelift/243731/",
+        "what": "ADAC: facelift 2.0 TDI length 4388 mm, height 1590 mm, trunk 460/1365 l"
+       },
+       {
+        "url": "https://www.speedheads.de/auto-news/audi-q3-2015-zahlreiche-neuheiten-das-sind-die-details-und-preise-0008459.html",
+        "what": "Facelift 2015: 4388 x 1831 x 1590 mm, trunk 460/1365 l"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/marken-modelle/audi/q3/8u/technische-daten/",
+        "what": "Wheelbase 2603 mm (auto motor und sport, ADAC/manufacturer source not found for wheelbase)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/8u/235581",
+        "what": "ADAC: RS Q3 (10/13-11/14) length 4410 mm, trunk 356/1261 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/8u-facelift/243738",
+        "what": "ADAC: RS Q3 facelift (02/15-10/16) length 4411 mm, 340 PS, trunk 356/1261 l"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/test/audi-rs-q3-2-5-tfsi-quattro/technische-daten/",
+        "what": "RS Q3: 4410 x 1841 x 1580 mm, 310 PS, trunk 356-1261 l"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Facelift 2015 (8U facelift) changed length only from 4385 to 4388 mm; trunk unchanged (460/1365 l), so not split. Not a separate entry since dimensions practically identical. No hybrid/PHEV variant existed."
+     }
+    ]
+   },
+   {
+    "brand": "Audi",
+    "model": "Q5",
+    "generations": [
+     {
+      "name": "8R (1. Generation, inkl. Facelift 2012)",
+      "yearFrom": 2008,
+      "yearTo": 2017,
+      "bodyType": "suv",
+      "lengthMm": 4629,
+      "widthMm": 1880,
+      "heightMm": 1653,
+      "wheelbaseMm": 2807,
+      "trunkL": 540,
+      "trunkFoldedL": 1560,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 TFSI quattro / 3.2 FSI quattro (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 540,
+        "trunkFoldedL": 1560,
+        "notes": "Audi UK tech data 2.0 TFSI quattro (07/2008): 540/1560 l."
+       },
+       {
+        "name": "2.0 TDI (Diesel, Frontantrieb)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 540,
+        "trunkFoldedL": 1560,
+        "notes": "Front-drive 2.0 TDI offered from about 2011; no different trunk volume published."
+       },
+       {
+        "name": "2.0 TDI / 3.0 TDI quattro (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 540,
+        "trunkFoldedL": 1560,
+        "notes": "Audi UK tech data 2.0 TDI quattro (07/2008) and ADAC 2.0 TDI quattro: 540/1560 l."
+       },
+       {
+        "name": "2.0 TFSI hybrid quattro tiptronic (Hybrid)",
+        "powertrain": "hev",
+        "powerPs": 245,
+        "awd": true,
+        "trunkL": 460,
+        "trunkFoldedL": 1480,
+        "yearFrom": 2011,
+        "yearTo": 2015,
+        "notes": "Full hybrid (155 kW TFSI + 40 kW e-motor, system 180 kW/245 PS); battery under cargo floor reduces trunk to 460/1480 l (ADAC)."
+       },
+       {
+        "name": "SQ5 TDI quattro tiptronic",
+        "powertrain": "diesel",
+        "powerPs": 313,
+        "awd": true,
+        "trunkL": 540,
+        "trunkFoldedL": 1560,
+        "yearFrom": 2012,
+        "yearTo": 2017,
+        "notes": "Trunk 540/1560 l (auto motor und sport, ADAC). Dimensions conflicting: auto motor und sport 4644 x 1911 x 1624 mm (lowered), ADAC lists 4629 x 1880 x 1653 mm - per-variant dimensions left null. SQ5 TDI competition 326 PS from 2015."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://press.audi.co.uk/assets/documents/original/20865-AudiUK00000228Q520TFSIquattroTechnical.pdf",
+        "what": "Official Audi UK technical data Q5 2.0 TFSI quattro (07/2008): 4629/1880/1653 mm, luggage 540 l VDA, 1560 l folded to roof"
+       },
+       {
+        "url": "https://press.audi.co.uk/assets/documents/original/20864-AudiUK00000227Q520TDIquattroTechnical.pdf",
+        "what": "Official Audi UK technical data Q5 2.0 TDI quattro (07/2008): 4629/1880/1653 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q5/8r/214089/",
+        "what": "ADAC: wheelbase 2807 mm, width 1880 mm w/o mirrors, trunk 540/1560 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q5/8r-facelift/232201/",
+        "what": "ADAC: Q5 2.0 TFSI hybrid quattro (09/12-05/14) trunk 460/1480 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q5/8r-facelift/241201/",
+        "what": "ADAC: Q5 hybrid quattro (05/14-04/15) trunk 460 l"
+       },
+       {
+        "url": "https://seriouswheels.com/2011-audi-q5-hybrid-quattro.htm",
+        "what": "Reprint of Audi press release: hybrid 460-1480 l, 155 kW + 40 kW"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q5/8r-facelift/246846/",
+        "what": "ADAC: SQ5 TDI competition (04/15-01/17) 4629 x 1880 x 1653 mm, trunk 540/1560 l"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/fahrbericht/audi-sq5-tdi-im-fahrbericht-schwelgen-im-diesel-ueberfluss-1/technische-daten/",
+        "what": "auto motor und sport: SQ5 TDI 313 PS, 4644 x 1911 x 1624 mm, trunk 540-1560 l"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/audi-q5-facelift-ami-2012-3406751.html",
+        "what": "AUTO BILD: facelift 2012 dimensions unchanged except width, max trunk 1560 l unchanged"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift autumn 2012 (MY 2013): trunk unchanged at 540/1560 l. Sources conflict on facelift dimensions (AUTO BILD claims width now 1.90 m, ADAC still lists 1880 mm; angurten gives 4663 mm which likely refers to FY), so facelift not split and pre-facelift official dimensions used. German market launch late 2008."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Q3 8U official manufacturer wheelbase (used auto motor und sport)",
+   "Q3 8U loadSpace measurements",
+   "Q5 8R loadSpace measurements",
+   "Q5 8R Facelift 2012 exact official dimensions (width/height conflicting)",
+   "Q5 SQ5 TDI (8R) lengthMm/widthMm/heightMm (sources conflict)",
+   "Q3 8U / Q5 8R powerPs for base petrol/diesel variants (not verified)"
+  ],
+  "notes": "Predecessors: Q3 8U (2011-2018), Q5 8R (2008-2017). No earlier Q3/Q5 generation existed. No PHEV in these generations; Q5 8R had a full hybrid with reduced trunk."
+ },
+ "verification": {
+  "corrections": [],
+  "missing": [],
+  "checkedValues": 41,
+  "confirmedValues": 41,
+  "notes": "Q3 8U: angurten.de (https://www.angurten.de/is/abmessungen/1237-Q3) confirms 4385/1831/2603 mm, 460/1365 l; it lists height 1608 mm and autozine.nl gives 160 cm, but the official Audi UK sheet gives 1590 mm (likely without roof rails), so no correction under the manufacturer-first rule. The facelift's 4388 mm (auto-data, meinestadt) is consistent with the given note. RS Q3: ADAC confirms 4410 mm and 356/1261 l; 1841/1580 mm confirmed for the RS Q3 performance by autoplenum. Q5 8R: angurten.de (https://www.angurten.de/is/abmessungen/1218-Q5) confirms 4629/1880/1653/2807 mm and 540 l; ADAC/encycarpedia confirm 540/1560 l. Q5 hybrid 460/1480 l confirmed by motor1/autoplenum/ADAC (kfz-tech lists width 1898 mm for the hybrid, not an official figure). SQ5 TDI 540/1560 l confirmed; dimension conflict (ams 4644x1911x1624 vs ADAC/angurten 4629x1880x1653) persists, so leaving the per-variant dimensions null is reasonable. No missing German-market variants found (SQ5 3.0 TFSI was not sold in Germany; RS Q3 performance is covered in the notes)."
+ }
+}

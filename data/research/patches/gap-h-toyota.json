@@ -1,0 +1,19 @@
+{
+ "id": "gap-h-toyota",
+ "kind": "gaps",
+ "patches": [
+  {
+   "model": "Yaris",
+   "generation": "XP13 (3. Generation)",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 768,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp13-facelift-2/273033/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog Toyota Yaris 1.5 Comfort (5-Türer): Kofferraumvolumen normal 286 l, fensterhoch mit umgeklappter Rücksitzbank 768 l (also autokosten.net 286-768 l, AUTO BILD up to 768 l)"
+  }
+ ],
+ "notFound": [
+  "RAV4 | XA20 Facelift (2. Generation, 5-Tuerer) | trunkFoldedL - no manufacturer or ADAC value for the 2004-2005 facelift found; only pre-facelift ADAC data (Autotest 2.0 D-4D Special 4x4, 05/2003: 430/720 l; Autokatalog 2.0 Limited: 400 l / ~970 l) and an unspecified range of 410-970 l from gebrauchtwagenberater.de"
+ ]
+}

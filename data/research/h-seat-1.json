@@ -1,0 +1,652 @@
+{
+ "id": "h-seat-1",
+ "brand": "Seat",
+ "data": {
+  "models": [
+   {
+    "brand": "Seat",
+    "model": "Ibiza",
+    "generations": [
+     {
+      "name": "6L (Ibiza III, 5-Türer)",
+      "yearFrom": 2002,
+      "yearTo": 2008,
+      "bodyType": "hatchback",
+      "lengthMm": 3953,
+      "widthMm": 1698,
+      "heightMm": 1441,
+      "wheelbaseMm": 2460,
+      "trunkL": 267,
+      "trunkFoldedL": 960,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 12V (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 267,
+        "trunkFoldedL": 960,
+        "notes": "ADAC Autokatalog entry is for the 3-door 1.2 12V Reference (06/04-04/06); 267 l normal, 960 l roof-high with rear bench folded. Power not captured from the source."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/ibiza/6l/998978/",
+        "what": "ADAC Autokatalog (manufacturer data): wheelbase 2460 mm, trunk 267 l / 960 l (3-door entry)"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/Seat_Ibiza_III",
+        "what": "Length 3953 mm, width 1698 mm, height 1441 mm, build period 2002-2008"
+       },
+       {
+        "url": "https://www.carsized.com/en/cars/seat-ibiza-2002-5-door-hatchback/",
+        "what": "5-door dimensions cross-check"
+       },
+       {
+        "url": "https://www.cataloge.eu/seat/ibiza-2006-6l",
+        "what": "Wheelbase 2460 mm for the 5-door (2006-2008)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "No manufacturer press source found. The trunk figures come from an ADAC entry for the 3-door; the 5-door uses the same rear section. Facelift 2006: no separate dimension change found, so it is not split."
+     },
+     {
+      "name": "6J (Ibiza IV, 5-Türer)",
+      "yearFrom": 2008,
+      "yearTo": 2012,
+      "bodyType": "hatchback",
+      "lengthMm": 4052,
+      "widthMm": 1693,
+      "heightMm": 1445,
+      "wheelbaseMm": 2469,
+      "trunkL": 292,
+      "trunkFoldedL": 938,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 16V (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 292,
+        "trunkFoldedL": 938,
+        "lengthMm": 4052,
+        "yearFrom": 2008,
+        "yearTo": 2009,
+        "notes": "ADAC Autokatalog 1.4 16V Style (06/08-11/09): length 4052 mm, trunk 292 l, 623 l to window line / 938 l roof-high folded."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/ibiza/6j/214686/",
+        "what": "ADAC Autokatalog (manufacturer data): length 4052 mm, trunk 292 l / 938 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/seat/ibiza/2008/fuenftuerer/modell/daten-fakten/",
+        "what": "Width without mirrors 1693 mm, height 1445 mm, wheelbase 2469 mm, 292/938 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Pre-facelift 5-door. Width, height and wheelbase come from mobile.de and match the ADAC data for the later 6J/6P. The SC (3-door) and ST (Kombi) are separate body styles and are not included. One database lists 284 l for the 1.6 TDI, which is not confirmed."
+     },
+     {
+      "name": "6J Facelift / 6P (Ibiza IV, 5-Türer, Facelift 2012 und 2015)",
+      "yearFrom": 2012,
+      "yearTo": 2017,
+      "bodyType": "hatchback",
+      "lengthMm": 4061,
+      "widthMm": 1693,
+      "heightMm": 1445,
+      "wheelbaseMm": 2469,
+      "trunkL": 292,
+      "trunkFoldedL": 938,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 292,
+        "trunkFoldedL": 938,
+        "yearFrom": 2015,
+        "yearTo": 2017,
+        "notes": "ADAC Autokatalog 1.2 TSI Style (6P, 07/15-04/17): 4061/1693/1445 mm, wheelbase 2469 mm, 292 l / 938 l roof-high."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/ibiza/6p-facelift-2/247289/",
+        "what": "ADAC Autokatalog (manufacturer data): 4061/1693/1445 mm, wheelbase 2469 mm, trunk 292/938 l (6P 2015-2017)"
+       },
+       {
+        "url": "https://www.mobile.de/auto/seat/ibiza/2008/fuenftuerer/modell/daten-fakten/",
+        "what": "Length 4061 mm, height 1445 mm, wheelbase 2469 mm, 292 l for the 6J/6P 5-door"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Split from the pre-facelift because the length changed (4052 to 4061 mm). Values verified for the 6P (2015-2017); for the 2012-2015 facelift they come only from mobile.de. Cupra/FR trims were not checked."
+     }
+    ]
+   },
+   {
+    "brand": "Seat",
+    "model": "Leon",
+    "generations": [
+     {
+      "name": "1M (Leon I)",
+      "yearFrom": 1999,
+      "yearTo": 2005,
+      "bodyType": "hatchback",
+      "lengthMm": 4184,
+      "widthMm": 1742,
+      "heightMm": 1439,
+      "wheelbaseMm": 2511,
+      "trunkL": 340,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 16V (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 340,
+        "trunkFoldedL": null,
+        "yearFrom": 2003,
+        "yearTo": 2005,
+        "notes": "autokosten.net datasheet (06/2003-10/2005): 4184/1742/1439 mm, wheelbase 2511 mm, 340 l. It also lists 656 l folded, but the measuring method is unclear (likely to window line), so that value is not used."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autokosten.net/seat/leon-i/leon-1-6-16v/leon-i-12-99-05-07/technische-daten",
+        "what": "Length 4184 mm, width 1742 mm, height 1439 mm, wheelbase 2511 mm, trunk 340 l, sold until 10/2005"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/seat/seat-leon/seat-leon-1m/",
+        "what": "Cross-check: 4183/1742/1439 mm, wheelbase 2511 mm"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Included because the 1M was still sold in Germany in 2005 (until about 10/2005). No manufacturer or ADAC source was found within the search budget."
+     },
+     {
+      "name": "1P (Leon II, inkl. Facelift 2009)",
+      "yearFrom": 2005,
+      "yearTo": 2012,
+      "bodyType": "hatchback",
+      "lengthMm": 4315,
+      "widthMm": 1768,
+      "heightMm": 1458,
+      "wheelbaseMm": 2578,
+      "trunkL": 341,
+      "trunkFoldedL": 1166,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 (Benziner) 102 PS",
+        "powertrain": "petrol",
+        "powerPs": 102,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Entry engine per autosieger.de; trunk not given per variant (generation value applies)."
+       },
+       {
+        "name": "2.0 FSI Stylance 150 PS",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 341,
+        "trunkFoldedL": 1166,
+        "yearFrom": 2005,
+        "yearTo": 2007,
+        "notes": "ADAC Autokatalog 09/05-05/07: wheelbase 2578 mm, 1166 l roof-high folded."
+       },
+       {
+        "name": "FR 2.0 TFSI 200 PS",
+        "powertrain": "petrol",
+        "powerPs": 200,
+        "awd": false,
+        "trunkL": 341,
+        "trunkFoldedL": 1166,
+        "yearFrom": 2005,
+        "yearTo": 2009,
+        "notes": "autoplenum: 341-1166 l, wheelbase 2578 mm."
+       },
+       {
+        "name": "Cupra R 2.0 TFSI 265 PS",
+        "powertrain": "petrol",
+        "powerPs": 265,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": 1166,
+        "yearFrom": 2010,
+        "yearTo": 2012,
+        "notes": "auto-data.net: max 1166 l, wheelbase 2578 mm; seats-up value not captured."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0516-seat-leon-2005-2012-benziner-bericht.pdf",
+        "what": "ADAC used-car info: 4315/1768/1458 mm, trunk 341 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/1p/203552/",
+        "what": "ADAC Autokatalog 2.0 FSI Stylance: wheelbase 2578 mm, 1166 l roof-high folded"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/",
+        "what": "ADAC model overview: 1P 2005-2009, 1P facelift 2009-2012"
+       },
+       {
+        "url": "https://www.autosieger.de/seat-leon-Autokatalog518.html",
+        "what": "1.6 entry engine 75 kW/102 PS"
+       },
+       {
+        "url": "https://www.autoplenum.de/auto/seat/leon/schraegheck-2005/2-0-t-fsi-200-ps",
+        "what": "2.0 TFSI 200 PS: wheelbase 2578 mm, 341-1166 l"
+       },
+       {
+        "url": "https://www.auto-data.net/en/seat-leon-ii-1p-facelift-2009-cupra-r-2.0-tfsi-265hp-46477",
+        "what": "Cupra R 265 PS: wheelbase 2578 mm, max 1166 l"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1272-Leon",
+        "what": "Cross-check: 4315/1768/1455 mm, wheelbase 2578 mm, 341/1166 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "The 2009 facelift is not split because no changed dimensions or trunk volume were found (no facelift-specific dimension data retrieved). Height is 1458 mm per ADAC; angurten.de gives 1455 mm."
+     },
+     {
+      "name": "5F (Leon III, 5-Türer)",
+      "yearFrom": 2013,
+      "yearTo": 2016,
+      "bodyType": "hatchback",
+      "lengthMm": 4263,
+      "widthMm": 1816,
+      "heightMm": 1444,
+      "wheelbaseMm": 2636,
+      "trunkL": 380,
+      "trunkFoldedL": 1210,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 TSI FR (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": 1210,
+        "lengthMm": 4271,
+        "yearFrom": 2013,
+        "yearTo": 2014,
+        "notes": "ADAC Autokatalog 1.4 TSI Start&Stop FR (11/12-05/14): 4271/1816/1444 mm, 380/1210 l. Power not captured from the source."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/5f/233666/",
+        "what": "ADAC Autokatalog (manufacturer data): FR length 4271 mm, width 1816 mm, height 1444 mm, trunk 380 l / 1210 l (lists wheelbase 2599 mm, conflicting)"
+       },
+       {
+        "url": "https://www.seat.com/company/news/cars/leon-comfort-and-practically",
+        "what": "SEAT: the new Leon's wheelbase of 2686 mm is 50 mm more than the previous generation, i.e. 2636 mm; 5-door trunk remains 380 l"
+       },
+       {
+        "url": "https://www.carsized.com/en/cars/seat-leon-2012-5-door-hatchback/",
+        "what": "Base 5-door length 4263 mm, height 1444 mm"
+       },
+       {
+        "url": "https://www.mobile.de/auto/seat/leon/2012/fuenftuerer/modell/daten-fakten/",
+        "what": "Wheelbase 2636 mm"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Pre-facelift 5-door. The base length of 4263 mm comes from a third-party source; FR is 4271 mm (ADAC). The ADAC entry lists a 2599 mm wheelbase, which conflicts with SEAT's implied 2636 mm; 2636 is used. The SC (3-door) is a separate body style and is not included. The pre-facelift TGI (CNG) trunk was not found."
+     },
+     {
+      "name": "5F Facelift (Leon III, 5-Türer)",
+      "yearFrom": 2017,
+      "yearTo": 2020,
+      "bodyType": "hatchback",
+      "lengthMm": 4281,
+      "widthMm": 1816,
+      "heightMm": 1444,
+      "wheelbaseMm": 2636,
+      "trunkL": 380,
+      "trunkFoldedL": 1210,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.5 TSI ACT FR 150 PS",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": 1210,
+        "yearFrom": 2018,
+        "yearTo": 2019,
+        "notes": "ADAC Autokatalog (09/18-08/19): 4281 mm long, 1444 mm high, wheelbase listed 2634 mm, 380/1210 l."
+       },
+       {
+        "name": "TGI (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 275,
+        "trunkFoldedL": null,
+        "notes": "The official SEAT 2016 technical sheet for the New Leon 5D lists a 275 l trunk next to 380 l (CNG tanks under the floor); mobile.de's test of the 1.5 TGI confirms 275 l. Folded value not found."
+       },
+       {
+        "name": "Cupra 300 DSG",
+        "powertrain": "petrol",
+        "powerPs": 300,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": 1210,
+        "heightMm": 1435,
+        "yearFrom": 2017,
+        "yearTo": 2018,
+        "notes": "ADAC Autokatalog (04/17-05/18): 4281/1816/1435 mm, wheelbase 2631 mm, 380/1210 l."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/5f-facelift/293991/",
+        "what": "ADAC Autokatalog (manufacturer data): 1.5 TSI ACT FR 4281 mm, height 1444 mm, 380/1210 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/5f-facelift/267017/",
+        "what": "ADAC Autokatalog: Cupra 300 DSG 4281/1816/1435 mm, wheelbase 2631 mm, 380/1210 l"
+       },
+       {
+        "url": "https://www.seat.com/company/news/cars/leon-comfort-and-practically",
+        "what": "SEAT: previous-generation wheelbase 2636 mm (2686 - 50), trunk 380 l"
+       },
+       {
+        "url": "https://mundoseat.seat.com/mediacenter_netstor/seat-media-center/global_site/documents/Leon/en/Technical_Specifications-New_SEAT_Leon_5D_2016_EN.pdf",
+        "what": "SEAT official tech sheet New Leon 5D: boot 380 l and 275 l (TGI)"
+       },
+       {
+        "url": "https://www.mobile.de/magazin/artikel/seat-leon-tgi-im-alltagstest-10972",
+        "what": "Leon 1.5 TGI trunk 275 l (vs 380 l)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Split from the pre-facelift because the length changed (4263/4271 to 4281 mm). The wheelbase is 2636 mm per SEAT's comparison with the KL successor; ADAC lists 2634 mm (FR) and 2631 mm (Cupra)."
+     }
+    ]
+   },
+   {
+    "brand": "Seat",
+    "model": "Leon Sportstourer",
+    "generations": [
+     {
+      "name": "5F (Leon ST)",
+      "yearFrom": 2014,
+      "yearTo": 2016,
+      "bodyType": "wagon",
+      "lengthMm": 4535,
+      "widthMm": 1816,
+      "heightMm": null,
+      "wheelbaseMm": 2636,
+      "trunkL": 587,
+      "trunkFoldedL": 1470,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 TGI (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 482,
+        "trunkFoldedL": null,
+        "notes": "autokosten.net lists 482 l for the Leon ST 1.4 TGI (CNG tanks under the floor); folded values conflict (1365 l per auto.de test vs 1470 l per autokosten), so the folded value is left null."
+       },
+       {
+        "name": "X-PERIENCE 2.0 TDI 4Drive",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 587,
+        "trunkFoldedL": 1470,
+        "lengthMm": 4543,
+        "heightMm": 1481,
+        "yearFrom": 2015,
+        "yearTo": 2016,
+        "notes": "Offroad-styled Leon ST. ADAC (10/14-11/16): 587/1470 l. SEAT tech sheet: 4543/1816/1481 mm (height incl. roof rails)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.caricos.com/cars/s/seat/2014_seat_leon_st/",
+        "what": "SEAT 2014 press release (reproduced): length 4535 mm, trunk 587 l / 1470 l"
+       },
+       {
+        "url": "https://www.seat.com/company/news/cars/leon-comfort-and-practically",
+        "what": "SEAT: previous-generation wheelbase 2636 mm (2686 - 50) and Sportstourer trunk 587 l (620 - 33)"
+       },
+       {
+        "url": "https://www.parkers.co.uk/seat/leon/st/review/practicality/",
+        "what": "Width 1816 mm excl. mirrors, 587/1470 l, height range 1431-1459 mm"
+       },
+       {
+        "url": "https://www.autokosten.net/seat/leon-iii-st/leon-st-1-4-tgi-start-stop/leon-iii-st_25/technische-daten",
+        "what": "Leon ST 1.4 TGI trunk 482 l"
+       },
+       {
+        "url": "https://www.auto.de/magazin/test-seat-leon-st-tgi-nicht-ganz-konsequent/",
+        "what": "Leon ST TGI 482-1365 l vs 587-1470 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/5f/242815/",
+        "what": "ADAC Autokatalog X-PERIENCE 2.0 TDI 4Drive: 587/1470 l"
+       },
+       {
+        "url": "https://mundoseat.seat.com/mediacenter_netstor/seat-media-center/global_site/documents/X-Perience/en/CT_new_SEAT_Leon_X-Perience_Diesel_GB.pdf",
+        "what": "SEAT tech sheet X-PERIENCE: 4543/1816/1481 mm (with roof rails)"
+       },
+       {
+        "url": "https://www.fleetnews.co.uk/news/2014/8/26/seat-leon-x-perience-4x4-priced-from-24-385/53358",
+        "what": "X-PERIENCE 587 l / 1470 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Historic name: Leon ST. No predecessor estate before 2014 (Leon 1M/1P had no estate). Height of the standard ST before the facelift was not found (sources give a range of 1431-1459 mm). Petrol/diesel front-wheel-drive versions all have 587/1470 l."
+     },
+     {
+      "name": "5F Facelift (Leon ST)",
+      "yearFrom": 2017,
+      "yearTo": 2020,
+      "bodyType": "wagon",
+      "lengthMm": 4549,
+      "widthMm": 1816,
+      "heightMm": 1454,
+      "wheelbaseMm": 2636,
+      "trunkL": 587,
+      "trunkFoldedL": 1470,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 TDI FR (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 587,
+        "trunkFoldedL": 1470,
+        "yearFrom": 2017,
+        "yearTo": 2018,
+        "notes": "ADAC Autokatalog (11/16-08/18): 587 l / 1470 l roof-high."
+       },
+       {
+        "name": "1.5 TGI (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2019,
+        "yearTo": 2020,
+        "notes": "The trunk is about 100 l smaller due to CNG tanks: R+V test 487 l, other sources 482 l. Not verified with manufacturer/ADAC data, so it is left null."
+       },
+       {
+        "name": "Cupra 300 4Drive DSG",
+        "powertrain": "petrol",
+        "powerPs": 300,
+        "awd": true,
+        "trunkL": 587,
+        "trunkFoldedL": 1470,
+        "lengthMm": 4548,
+        "heightMm": 1431,
+        "yearFrom": 2017,
+        "yearTo": 2019,
+        "notes": "ADAC Autokatalog: 587/1470 l, length 4548 mm. SEAT tech sheet CUPRA Sportstourer: 4548/1816/1431 mm, wheelbase 2631 mm."
+       },
+       {
+        "name": "X-PERIENCE 2.0 TDI 4Drive DSG",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 587,
+        "trunkFoldedL": 1470,
+        "yearFrom": 2017,
+        "yearTo": 2018,
+        "notes": "ADAC Autokatalog (11/16-08/18): 587/1470 l. Dimensions not captured for the facelift X-PERIENCE."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.seat.com/company/news/cars/leon-comfort-and-practically",
+        "what": "SEAT: new Sportstourer 4642 mm (+93 mm), so the predecessor is 4549 mm; wheelbase 2636 mm; trunk 587 l (620 - 33)"
+       },
+       {
+        "url": "https://www.automobiledimension.com/model/seat/leon-st",
+        "what": "2017 Leon ST: 4549/1816/1454 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/5f-facelift/263326/",
+        "what": "ADAC Autokatalog ST 2.0 TDI FR: 587/1470 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/5f-facelift/267020/",
+        "what": "ADAC Autokatalog ST Cupra 300 4Drive: 587/1470 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/5f-facelift/267018/",
+        "what": "ADAC Autokatalog ST Cupra 300: length 4548 mm, 587/1470 l"
+       },
+       {
+        "url": "https://mundoseat.seat.com/mediacenter_netstor/seat-media-center/global_site/documents/CUPRA-Leon-R-Sportourer-ST/Tech-Data_SEAT-Leon-CUPRA-Sportstourer.pdf",
+        "what": "SEAT tech sheet Cupra Sportstourer: 4548/1816/1431 mm, wheelbase 2631 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/5f-facelift/263340/",
+        "what": "ADAC Autokatalog X-PERIENCE 2.0 TDI 4Drive DSG: 587/1470 l"
+       },
+       {
+        "url": "https://www.ruv.de/kfz-versicherung/magazin/fahrberichte/2019-seat-leon-st-tgi-fahrbericht-test-review",
+        "what": "Leon ST TGI 487 l (over 100 l less than 587 l)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Historic name: Leon ST. Split from the pre-facelift because the length changed (4535 to 4549 mm). Height 1454 mm comes from a third-party database only."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Ibiza 6L 5-door-specific trunk values (only 3-door ADAC entry found)",
+   "Ibiza 6L/6J variant power figures",
+   "Ibiza 6J Facelift 2012-2015 5-door manufacturer/ADAC dimensions (only mobile.de)",
+   "Ibiza 6J Cupra / FR dimensions",
+   "Leon 1M trunkFoldedL (only 656 l with unclear method)",
+   "Leon 1P facelift 2009 dimensions (not checked for change)",
+   "Leon 5F pre-facelift TGI trunkL",
+   "Leon 5F TGI trunkFoldedL",
+   "Leon Sportstourer 5F (pre-facelift) heightMm",
+   "Leon Sportstourer 5F Facelift 1.5 TGI trunkL/trunkFoldedL (482 vs 487 l conflicting)",
+   "Leon Sportstourer 5F 1.4 TGI trunkFoldedL (1365 vs 1470 l conflicting)",
+   "loadSpace measurements for all generations"
+  ],
+  "notes": "The search budget (20 WebSearch calls) was used up. The official SEAT technical sheet PDFs (mundoseat.seat.com) could not be read in full; the values come mainly from ADAC Autokatalog entries (manufacturer data), SEAT's own KL-vs-predecessor comparisons, and third-party databases where noted. Leon 1M (1999-2005) is included because it was still sold in 2005; drop it if only generations launched in 2005 or later are wanted. Ibiza SC/ST and Leon SC are separate body styles and are not returned."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "Leon",
+    "generation": "5F (Leon III, 5-Türer)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": 1444,
+    "newValue": 1459,
+    "sourceUrl": "https://www.parkers.co.uk/seat/leon/hatchback-2013/12-tsi-se-5d/specs/",
+    "evidence": "Parkers (1.2 TSI SE 5d), auto-data.net (Leon III 2012-2016) and automobile-catalog list 4263 mm long, 1816 mm wide, 1459 mm high, wheelbase 2636 mm for the standard 5-door. 1444 mm is the lowered FR figure (SEAT Leon 5D tech sheet: FR 4281/1816/1444)."
+   },
+   {
+    "model": "Leon",
+    "generation": "5F Facelift (Leon III, 5-Türer)",
+    "variant": null,
+    "field": "lengthMm",
+    "oldValue": 4281,
+    "newValue": 4282,
+    "sourceUrl": "https://www.slideshare.net/slideshow/scheda-tecnica-seat-leon/69367492",
+    "evidence": "SEAT technical sheet 'New SEAT Leon 5D' (2016/17 facelift): Reference/Style/Xcellence 4282/1816/1459 mm; FR 4281/1816/1444 mm. Auto Express also gives 4282 mm long, 1459 mm tall."
+   },
+   {
+    "model": "Leon",
+    "generation": "5F Facelift (Leon III, 5-Türer)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": 1444,
+    "newValue": 1459,
+    "sourceUrl": "https://www.slideshare.net/slideshow/scheda-tecnica-seat-leon/69367492",
+    "evidence": "SEAT 'New SEAT Leon 5D' sheet: 1459 mm height for Reference/Style/Xcellence; 1444 mm only for the FR (sport suspension). automobiledimension.com and Auto Express also give 1459 mm."
+   },
+   {
+    "model": "Leon Sportstourer",
+    "generation": "5F (Leon ST)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": null,
+    "newValue": 1451,
+    "sourceUrl": "https://www.angurten.de/is/abmessungen/1466-Leon+ST+2014",
+    "evidence": "angurten.de Leon ST 2014 (5F): length 4535 mm, width 1816 mm without mirrors, height 1451 mm, wheelbase 2636 mm. sizedly.com also gives 1451 mm for the 2013 ST. These are third-party figures; the manufacturer's value was not found."
+   },
+   {
+    "model": "Leon Sportstourer",
+    "generation": "5F (Leon ST)",
+    "variant": "1.4 TGI (Erdgas)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1365,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/5f/242961",
+    "evidence": "ADAC Autokatalog, Leon ST 1.4 TGI Start&Stop Style (09/14-11/16): trunk 482 l normal, 1365 l roof-high with seats folded. This matches the auto.de test (482-1365 l). The 1470 l value from autokosten is the non-CNG figure."
+   }
+  ],
+  "missing": [
+   {
+    "model": "Leon",
+    "detail": "Leon 5F Cupra (280/290 PS, 2014-2016 pre-facelift) not listed as a variant; the FR has 4271-4281 mm length / 1444 mm height."
+   },
+   {
+    "model": "Leon",
+    "detail": "Leon 1P Cupra (240 PS, 2007-2009) variant not listed."
+   },
+   {
+    "model": "Leon Sportstourer",
+    "detail": "Leon ST Cupra 280/290 (pre-facelift 2015-2016) not listed."
+   },
+   {
+    "model": "Ibiza",
+    "detail": "Ibiza 6L Cupra / FR and 6J Cupra / FR variants not listed (6J FR/Cupra lengths differ: about 4061-4072 mm per auto-swiat.pl)."
+   }
+  ],
+  "checkedValues": 59,
+  "confirmedValues": 54,
+  "notes": "Confirmed values: Ibiza 6L 3953/1698/1441/2460, 267/960 l (cars-data.com, ADAC 5-door entries also give 267 l). Ibiza 6J 4052/1693/1445/2469, 292/938 l (SEAT April 2008 announcement via autozine.nl, cars-data.com). Ibiza 6J FL 4061 mm (auto-data 1.2 12V 2012), 292 l. Leon 1M 4184/1742/1439, wheelbase 2511-2513, 340 l (auto-data.net). Leon 1P 4315/1768/2578, 341/1166 l. Leon 5F 4263/1816/2636, 380/1210 l. Leon ST 5F 4535 mm, 587/1470 l, wheelbase 2636 (angurten), 1.4 TGI 482 l (ADAC). Leon ST FL 4549/1454/2636 (ultimatespecs 1.0 EcoTSI), 587/1470. Leon ST FL 1.5 TGI: ADAC lists 587/1470 l for the 1.5 TGI entries (12/18-01/20), but this conflicts with the R+V test (487 l) and the expected CNG-tank loss, so it stays null with no correction. The pre-facelift Leon ST wheelbase is 2634 mm in one review, versus 2636 mm per angurten; it was not changed. The Leon 1M minimum trunk is 270 l per autoscout24 vs 340 l per auto-data; 340 l was kept."
+ }
+}

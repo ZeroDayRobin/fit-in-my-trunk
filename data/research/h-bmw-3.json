@@ -1,0 +1,485 @@
+{
+ "id": "h-bmw-3",
+ "brand": "BMW",
+ "data": {
+  "models": [
+   {
+    "brand": "BMW",
+    "model": "X5",
+    "generations": [
+     {
+      "name": "E53 (Facelift)",
+      "yearFrom": 2004,
+      "yearTo": 2006,
+      "bodyType": "suv",
+      "lengthMm": 4667,
+      "widthMm": 1872,
+      "heightMm": 1715,
+      "wheelbaseMm": 2820,
+      "trunkL": 465,
+      "trunkFoldedL": 1550,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "3.0i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 231,
+        "awd": true,
+        "trunkL": 465,
+        "trunkFoldedL": 1550,
+        "notes": "Power per ultimatespecs (third-party); trunk shared across E53 facelift."
+       },
+       {
+        "name": "4.4i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 465,
+        "trunkFoldedL": 1550,
+        "heightMm": 1707,
+        "yearFrom": 2004,
+        "yearTo": 2006,
+        "notes": "ADAC lists height 1707 mm for 4.4i Automatic (10/03-11/06). Power output not found in consulted sources."
+       },
+       {
+        "name": "4.8is (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 360,
+        "awd": true,
+        "trunkL": 465,
+        "trunkFoldedL": 1550,
+        "widthMm": 1925,
+        "notes": "Width 1925 mm per BMW data sheet 04/2004 (treffseiten.de, as quoted in search summary). Power 360 per autodata24 (stated as Hp; not manufacturer-verified)."
+       },
+       {
+        "name": "3.0d (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 218,
+        "awd": true,
+        "trunkL": 465,
+        "trunkFoldedL": 1550,
+        "yearTo": 2005,
+        "notes": "ADAC: 3.0d Automatic 10/03-10/05, height 1715 mm. 218 PS per auto-data.net."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x5/e53-facelift/996398/",
+        "what": "ADAC Autokatalog X5 3.0d Automatic (10/03-10/05): length 4667, width 1872, height 1715, wheelbase 2820, trunk 465 / 1550 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x5/e53-facelift/996395/",
+        "what": "ADAC Autokatalog X5 4.4i Automatic (10/03-11/06): same length/width, height 1707; build period to 11/2006"
+       },
+       {
+        "url": "https://www.treffseiten.de/bmw/info/daten_X5_30i_44i_30d_04_04.pdf",
+        "what": "BMW technical data sheet 04/2004 (mirror): length 4667 for 3.0i/4.4i/3.0d/4.8is, 4.8is width 1925, trunk 465/1550 VDA (as reported in search summary, not opened)"
+       },
+       {
+        "url": "https://www.ultimatespecs.com/car-specs/BMW/5159/BMW-E53-X5-30i.html",
+        "what": "3.0i 231 PS (third-party)"
+       },
+       {
+        "url": "https://www.auto-data.net/en/bmw-x5-e53-lci-facelift-2003-3.0d-218hp-9787",
+        "what": "3.0d 218 PS (third-party)"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/BMW_E53",
+        "what": "Facelift date September 2003"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "E53 launched 1999/2000; only the facelift (from 10/2003) was still on sale in 2005-2006, so only the facelift is returned. Values mostly from ADAC (no BMW press kit found directly; the BMW data-sheet mirror on treffseiten.de matches). Successor E70 from late 2006."
+     },
+     {
+      "name": "E70 (Vor-Facelift)",
+      "yearFrom": 2007,
+      "yearTo": 2010,
+      "bodyType": "suv",
+      "lengthMm": 4854,
+      "widthMm": 1933,
+      "heightMm": 1766,
+      "wheelbaseMm": 2933,
+      "trunkL": 620,
+      "trunkFoldedL": 1750,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "3.0si (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 272,
+        "awd": true,
+        "trunkL": 620,
+        "trunkFoldedL": 1750,
+        "notes": "200 kW/272 PS per BMW Media Information 8/2006."
+       },
+       {
+        "name": "4.8i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 355,
+        "awd": true,
+        "trunkL": 620,
+        "trunkFoldedL": 1750,
+        "notes": "261 kW/355 PS per BMW Media Information 8/2006."
+       },
+       {
+        "name": "3.0d (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 231,
+        "awd": true,
+        "trunkL": 620,
+        "trunkFoldedL": 1750,
+        "notes": "170 kW/231 PS per BMW Media Information 8/2006."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.7-forum.com/news/2006/x5/innenraum.php",
+        "what": "2006 launch article (BMW press content): VDA trunk 620 l (5 seats), 1750 l folded; 90 l underfloor compartment without 3rd row; 200 l with 3rd row in use"
+       },
+       {
+        "url": "http://www.7-forum.com/news/2006/x5/technische_daten.php?id1=93",
+        "what": "Technical data X5 3.0d E70 2007-2010: width 1933 mm without mirrors, height 1766 mm"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/BMW_X5_(E70)",
+        "what": "length 4854, width 1933, height 1766 (2007-2008), wheelbase 2933"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/asia/article/attachment/T0045539EN/69167",
+        "what": "BMW Media Information 8/2006: wheelbase 2933 mm, engine outputs 3.0si 272 PS, 4.8i 355 PS, 3.0d 231 PS"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Optional 3rd row (7 seats): 200 l remain with 3rd row up. Further engines (e.g. 3.0sd, xDrive35d from 2008/09) not separately researched; same body/trunk. X5 M (E70, from 2009) listed in facelift generation entry."
+     },
+     {
+      "name": "E70 LCI (Facelift)",
+      "yearFrom": 2010,
+      "yearTo": 2013,
+      "bodyType": "suv",
+      "lengthMm": 4857,
+      "widthMm": 1933,
+      "heightMm": 1776,
+      "wheelbaseMm": 2933,
+      "trunkL": 620,
+      "trunkFoldedL": 1750,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "xDrive35i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 620,
+        "trunkFoldedL": 1750,
+        "notes": "Dimensions 4857/1933/1776, wheelbase 2933 per BMW Medieninformation 2/2010 and 9/2011. Power not captured."
+       },
+       {
+        "name": "xDrive50i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 620,
+        "trunkFoldedL": 1750
+       },
+       {
+        "name": "xDrive30d / xDrive40d (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 620,
+        "trunkFoldedL": 1750,
+        "notes": "2010 BMW press release for xDrive50i/xDrive40d: 620-1750 l."
+       },
+       {
+        "name": "M50d (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 381,
+        "awd": true,
+        "trunkL": 620,
+        "trunkFoldedL": 1750,
+        "widthMm": 2010,
+        "heightMm": 1766,
+        "yearFrom": 2012,
+        "yearTo": 2013,
+        "notes": "BMW Medieninformation 2/2012 (valid from 4/2012): 4857/2010/1766 mm, 280 kW/381 PS, 620-1750 l. Width 2010 as given in data sheet (may include mirrors - unclear)."
+       },
+       {
+        "name": "X5 M (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 620,
+        "trunkFoldedL": 1750,
+        "lengthMm": 4851,
+        "widthMm": 1994,
+        "heightMm": 1764,
+        "yearFrom": 2009,
+        "yearTo": 2013,
+        "notes": "BMW Medieninformation 10/2011: 4851/1994/1764 mm (height without roof antenna 1726), wheelbase 2933, 620-1750 l. X5 M launched 2009 (before LCI) and was built until 2013. Power not captured."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/switzerland/article/attachment/T0077377DE/113947",
+        "what": "BMW Medieninformation 2/2010 'Der neue BMW X5': xDrive35i/xDrive50i 4857/1933/1776 mm, wheelbase 2933, trunk 620-1750 l, 200 l with 3rd row"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0125367DE/193343",
+        "what": "BMW Medieninformation 9/2011 X5 xDrive35i: identical dimensions"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0125367DE/193346",
+        "what": "BMW Medieninformation 10/2011 X5 M: 4851/1994/1764, wheelbase 2933, 620-1750 l"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0125347DE/193313",
+        "what": "BMW Medieninformation 2/2012 X5 M50d: 4857/2010/1766, 381 PS, 620-1750 l"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0078199DE/technische-daten-des-neuen-bmw-x5-gueltig-ab-04/2010?language=de",
+        "what": "Technical data of new X5 valid from 04/2010 (index page)"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Facelift from 04/2010; height grew from 1766 to 1776 mm and length 4854 -> 4857, trunk unchanged. Optional 3rd row: 200 l with 3rd row up."
+     },
+     {
+      "name": "F15",
+      "yearFrom": 2013,
+      "yearTo": 2018,
+      "bodyType": "suv",
+      "lengthMm": 4886,
+      "widthMm": 1938,
+      "heightMm": 1762,
+      "wheelbaseMm": 2933,
+      "trunkL": 650,
+      "trunkFoldedL": 1870,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "xDrive30d / xDrive40d (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 650,
+        "trunkFoldedL": 1870,
+        "notes": "BMW Medieninformation 6/2013 and 5/2014 (xDrive30d): 4886/1938/1762, 650-1870 l. Power not captured."
+       },
+       {
+        "name": "xDrive50i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 650,
+        "trunkFoldedL": 1870,
+        "notes": "BMW Medieninformation 6/2013: same dimensions and trunk."
+       },
+       {
+        "name": "xDrive40e (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 313,
+        "awd": true,
+        "trunkL": 500,
+        "trunkFoldedL": 1720,
+        "yearFrom": 2015,
+        "yearTo": 2018,
+        "notes": "Battery under load floor: 500-1720 l per BMW press release; 230 kW/313 PS system output per AutoKlicker (third-party)."
+       },
+       {
+        "name": "M50d (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 381,
+        "awd": true,
+        "trunkL": 650,
+        "trunkFoldedL": 1870,
+        "widthMm": 1985,
+        "notes": "BMW Medieninformation 5/2014: 4886/1985/1762, wheelbase 2933, 650-1870 l, 280 kW/381 PS."
+       },
+       {
+        "name": "X5 M (F85, Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2015,
+        "yearTo": 2018,
+        "notes": "No manufacturer data found. Third-party databases conflict (auto-data: 4880/1985/1754; mobile.de 4857 / 620 l; angurten/carsized 650/1870 l), so values left null."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0143600DE/248116",
+        "what": "BMW Medieninformation 6/2013 (valid from 8/2013) X5 xDrive30d: 4886/1938/1762, wheelbase 2933, trunk 650-1870 l"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0143600DE/248117",
+        "what": "BMW Medieninformation 6/2013 X5 xDrive50i: same dimensions and trunk"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0179906DE/265620",
+        "what": "BMW Medieninformation 5/2014 X5 M50d: 4886/1985/1762, 650-1870 l, 381 PS"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/austria/article/attachment/T0179907DE/265625",
+        "what": "BMW Medieninformation 5/2014 X5 xDrive30d: 4886/1938/1762"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0207284DE/der-bmw-x5-xdrive40e?language=de",
+        "what": "BMW press release X5 xDrive40e: trunk 500-1720 l"
+       },
+       {
+        "url": "https://www.autoklicker.de/autokatalog/bmw-x5-xdrive40e-technische-daten13988.html",
+        "what": "xDrive40e 230 kW/313 PS (third-party)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x5/f15-f85/241204/",
+        "what": "ADAC: xDrive30d 07/14-07/17 confirms 4886/1938/1762/2933, 650/1870 l"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0144924DE/der-neue-bmw-x5-m50d-bmw-individual-und-bmw-original-zubehoer:-dynamisch-exklusiv-vielseitig?language=de",
+        "what": "German market launch 16 November 2013"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Launched in Germany 11/2013, replaced by G05 in late 2018. Optional 3rd row (7 seats) available; 7-seat trunk volume not found. sDrive/xDrive25d/xDrive35i/xDrive25d variants not individually researched (same body)."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "X5 E53 (Facelift) 4.4i powerPs",
+   "X5 E70 (Vor-Facelift) official BMW dimension table (used 7-forum/Wikipedia)",
+   "X5 E70 LCI xDrive35i/xDrive50i/xDrive30d/xDrive40d powerPs",
+   "X5 E70 X5 M powerPs",
+   "X5 F15 xDrive30d/xDrive40d/xDrive50i powerPs",
+   "X5 F15 X5 M (F85) lengthMm/widthMm/heightMm/trunkL/trunkFoldedL/powerPs",
+   "X5 F15 7-seat trunk volume with 3rd row up",
+   "X5 all generations loadSpace measurements"
+  ],
+  "notes": "Search budget of 20 used. E53 pre-facelift (to 2003) not returned since not sold in 2005. X5 M variants included as variants of X5. Some power outputs only from third-party sites as noted."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "X5",
+    "generation": "E53 (Facelift)",
+    "variant": "4.4i (Benziner)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 320,
+    "sourceUrl": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0006517DE/23879",
+    "evidence": "BMW technical data sheet (valid from 04/2004) and motor1 test 'BMW X5 4.4i im Modelljahr 2004': 4.4i V8 N62B44, 235 kW / 320 PS. Also https://de.motor1.com/reviews/170535/bmw-x5-44i-im-modelljahr-2004-edelmann-mit-baren-kraften/"
+   },
+   {
+    "model": "X5",
+    "generation": "E53 (Facelift)",
+    "variant": "4.8is (Benziner)",
+    "field": "heightMm",
+    "oldValue": 1715,
+    "newValue": 1688,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x5/e53-facelift/996396/",
+    "evidence": "ADAC X5 4.8is Automatic (04/04-11/06): Länge 4667, Breite 1925, Höhe 1688 mm; BMW press data sheet valid from 04/2004 (press.bmwgroup.com T0006517DE/23879) also lists 4.8is 4667/1925/1688. Variant currently inherits generation height 1715."
+   },
+   {
+    "model": "X5",
+    "generation": "E53 (Facelift)",
+    "variant": "3.0d (Diesel)",
+    "field": "yearTo",
+    "oldValue": 2005,
+    "newValue": 2006,
+    "sourceUrl": "https://www.auto-data.net/de/bmw-x5-e53-lci-facelift-2003-3.0d-218hp-steptronic-21241",
+    "evidence": "auto-data.net and fastcarcheck list the 218 PS 3.0d (incl. Steptronic) for 2003-2006; used listings show 218 PS 3.0d with first registration 11-12/2006. The ADAC 10/05 cut-off is only one catalog entry split (ADAC itself gives E53 series end 11/06). Not manufacturer-confirmed; medium confidence."
+   },
+   {
+    "model": "X5",
+    "generation": "E70 LCI (Facelift)",
+    "variant": "xDrive35i (Benziner)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 306,
+    "sourceUrl": "https://www.bimmertoday.de/2010/04/18/bilder-vom-media-launch-des-bmw-x5-e70-lci-in-miami",
+    "evidence": "Bimmertoday/Paultan on X5 LCI launch 2010: xDrive35i 306 PS (400 Nm)."
+   },
+   {
+    "model": "X5",
+    "generation": "E70 LCI (Facelift)",
+    "variant": "xDrive50i (Benziner)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 407,
+    "sourceUrl": "https://www.bimmertoday.de/2010/04/18/bilder-vom-media-launch-des-bmw-x5-e70-lci-in-miami",
+    "evidence": "Bimmertoday: xDrive50i 'trägt den 407 PS starken V8-Biturbo' (Wikipedia rounds to 408 PS; 300 kW = 407.9 PS, BMW DE typically states 407)."
+   },
+   {
+    "model": "X5",
+    "generation": "E70 LCI (Facelift)",
+    "variant": "X5 M (Benziner)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 555,
+    "sourceUrl": "https://www.autobild.de/marken-modelle/bmw/x5-m/1/",
+    "evidence": "X5 M (E70) 4.4 V8 biturbo S63: 408 kW / 555 PS, 680 Nm (autobild, zeperfs, ultimatespecs agree)."
+   },
+   {
+    "model": "X5",
+    "generation": "F15",
+    "variant": "xDrive50i (Benziner)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 450,
+    "sourceUrl": "https://www.autobild.de/marken-modelle/bmw/x5/f15/",
+    "evidence": "Autobild F15: 4.4-l V8 biturbo xDrive50i with 450 PS and 650 Nm; mobile.de agrees."
+   },
+   {
+    "model": "X5",
+    "generation": "F15",
+    "variant": "X5 M (F85, Benziner)",
+    "field": "lengthMm",
+    "oldValue": null,
+    "newValue": 4880,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/marken-modelle/bmw/x5-m/f85/technische-daten/",
+    "evidence": "auto motor und sport / vehiclesizes.com: X5 M F85 4880 x 1985 x 1754 mm, trunk 650-1870 l (autoevolution press-style 4879/1984). No BMW press sheet found."
+   },
+   {
+    "model": "X5",
+    "generation": "F15",
+    "variant": "X5 M (F85, Benziner)",
+    "field": "widthMm",
+    "oldValue": null,
+    "newValue": 1985,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/marken-modelle/bmw/x5-m/f85/technische-daten/",
+    "evidence": "Width 1985 mm per ams / vehiclesizes.com (https://www.vehiclesizes.com/cars/bmw/x5-m/x5-m-f85-suv-2015/combined-view)."
+   },
+   {
+    "model": "X5",
+    "generation": "F15",
+    "variant": "X5 M (F85, Benziner)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 575,
+    "sourceUrl": "https://www.bmw-m.com/en/topics/magazine-article-pool/bmw-x5-m-f85.html",
+    "evidence": "BMW M: 4.4-litre V8 M TwinPower Turbo, 423 kW (575 hp), 750 Nm."
+   }
+  ],
+  "missing": [
+   {
+    "model": "X5",
+    "detail": "E70 (Vor-Facelift) xDrive35d (Diesel, 210 kW/286 PS, 09/08-04/10, ADAC https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x5/e70/215284) and earlier 3.0sd (286 PS); trunk 620/1750 l. Also xDrive30i/xDrive48i names after 2008 renaming."
+   },
+   {
+    "model": "X5",
+    "detail": "F15 sDrive25d / xDrive25d (218 PS, rear-drive sDrive variant) and xDrive35i (306 PS) not listed as variants; same body/trunk 650/1870 l."
+   },
+   {
+    "model": "X5",
+    "detail": "E70 LCI / F15 combined variant 'xDrive30d / xDrive40d' hides different powers: E70 LCI 30d 245 PS / 40d 306 PS; F15 30d 258 PS / 40d 313 PS (bimmertoday, autoevolution, mobile.de). Consider splitting variants."
+   }
+  ],
+  "checkedValues": 64,
+  "confirmedValues": 51,
+  "notes": "Confirmed: E53 4667/1872/1715/2820, 465/1550 (BMW 04/2004 data sheet per search summary, ADAC), 4.4i height 1707, 4.8is width 1925 and 360 PS, 3.0i 231, 3.0d 218; E70 4854/1933/1766/2933, 620/1750 (ADAC xDrive35d entry also 620/1750; ADAC lists height 1739 for 35d, likely without roof rails - not treated as contradiction); E70 X5 M 4851/1994/1764, 620/1750; F15 4886/1938/1762/2933, 650/1870; xDrive40e 500/1720 and 313 PS; F15 M50d 381 PS. Not independently checked: E70 pre-facelift engine powers, E70 LCI 1776/4857 beyond one third-party hit, M50d E70 width 2010. F85 values are from third-party sources (ams, vehiclesizes) as no BMW press sheet was found. 13 of 20 searches used. [Übernahme: 3 Korrektur(en) verworfen – nur vehiclesizes.com, keine Hersteller-/ADAC-Quelle]"
+ }
+}

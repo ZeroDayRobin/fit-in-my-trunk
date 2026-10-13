@@ -1,0 +1,39 @@
+{
+ "id": "gap-h-volkswagen",
+ "kind": "gaps",
+ "patches": [
+  {
+   "model": "Multivan",
+   "generation": "T6 Multivan (2015-2019)",
+   "variant": null,
+   "field": "trunkL",
+   "value": 1115,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT5754_VW_T6_Multivan_2_0_TDI_BMT_Generation_Six_DSG/VW_T6_Multivan_2_0_TDI_BMT_Generation_Six_DSG.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest T6 Multivan Generation Six DSG (ADAC measured): with 3rd-row backrests folded and 2nd row slid forward, 1,115 l up to the window line (manufacturer gives only folded value 4,300 l)."
+  },
+  {
+   "model": "Multivan",
+   "generation": "T6.1 Multivan (2019-2021)",
+   "variant": null,
+   "field": "trunkL",
+   "value": 1115,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/vw-t6-bulli/",
+   "sourceType": "adac",
+   "evidence": "ADAC test page T6.1 Multivan 2.0 TDI Cruise, measured trunk volume (ADAC measurement) 1115 l normal (3rd row folded, to window line); manufacturer gives no normal value, only 4300 l folded."
+  }
+ ],
+ "notFound": [
+  "Caddy Maxi | Caddy 3 Maxi Facelift (2K) | trunkL",
+  "Caddy Maxi | Caddy 3 Maxi Facelift (2K) | trunkFoldedL",
+  "Caddy Maxi | Caddy 3 Maxi Life (2K) | trunkL",
+  "Caddy Maxi | Caddy 3 Maxi Life (2K) | trunkFoldedL",
+  "Multivan | T5 Multivan Facelift (2009-2015) | trunkL",
+  "Multivan | T5 Multivan Facelift (2009-2015) | trunkFoldedL",
+  "Multivan | T5 Multivan (kurzer Radstand, 2003-2009) | trunkL",
+  "Multivan langer Überhang | T6 Multivan lang (langer Radstand) | trunkL",
+  "Multivan langer Überhang | T6 Multivan lang (langer Radstand) | trunkFoldedL",
+  "Passat Limousine | B7 | trunkFoldedL",
+  "Passat Limousine | B6 | trunkFoldedL"
+ ]
+}

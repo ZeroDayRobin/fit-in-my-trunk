@@ -1,0 +1,609 @@
+{
+ "id": "h-opel-1",
+ "brand": "Opel",
+ "data": {
+  "models": [
+   {
+    "brand": "Opel",
+    "model": "Astra",
+    "generations": [
+     {
+      "name": "Astra H (5-Türer)",
+      "yearFrom": 2004,
+      "yearTo": 2009,
+      "bodyType": "hatchback",
+      "lengthMm": 4249,
+      "widthMm": 1753,
+      "heightMm": 1460,
+      "wheelbaseMm": 2614,
+      "trunkL": 380,
+      "trunkFoldedL": 1300,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 Twinport (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": 1300,
+        "notes": "ADAC 1.6 Twinport Edition (11/04-02/07)"
+       },
+       {
+        "name": "1.8 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": 1300,
+        "notes": "ADAC 1.8 Sport (03/04-12/05)"
+       },
+       {
+        "name": "1.7 CDTI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": 1300,
+        "notes": "ADAC 1.7 CDTI Edition (11/04-12/05)"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/h/201243/",
+        "what": "ADAC: Länge, Breite (ohne Spiegel 1753), Höhe, Radstand, Kofferraum 380 l normal / 810 l fensterhoch / 1300 l dachhoch (1.6 Twinport)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/h/997792/",
+        "what": "ADAC: gleiche Maße und Kofferraumwerte (1.8 Sport)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/h/201250/",
+        "what": "ADAC: gleiche Maße und Kofferraumwerte (1.7 CDTI Edition)"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/27-Astra+H",
+        "what": "Plausibilisierung Länge 4249 mm / 380 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Keine Opel-Presseunterlagen der Zeit auffindbar; Werte aus ADAC-Autokatalog (Herstellerangaben). Andere Datenbanken nennen 1295 l statt 1300 l maximal. Facelift 2007 (5-Türer) nicht separat verifiziert, keine Hinweise auf Maßänderung. GTC (3-Türer) und OPC (nur GTC) nicht enthalten."
+     },
+     {
+      "name": "Astra J",
+      "yearFrom": 2009,
+      "yearTo": 2015,
+      "bodyType": "hatchback",
+      "lengthMm": 4419,
+      "widthMm": 1814,
+      "heightMm": 1510,
+      "wheelbaseMm": 2685,
+      "trunkL": 370,
+      "trunkFoldedL": 1235,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 Turbo (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 370,
+        "trunkFoldedL": 1235,
+        "notes": "ADAC 1.4 Turbo Sport (12/09-06/12)"
+       },
+       {
+        "name": "1.4 LPG ecoFlex (Autogas)",
+        "powertrain": "lpg",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 370,
+        "trunkFoldedL": 1235,
+        "yearFrom": 2011,
+        "notes": "ADAC 1.4 LPG ecoFlex Innovation (11/11-06/12): 370 l / 1235 l, kein Volumenverlust"
+       },
+       {
+        "name": "1.7 CDTI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 370,
+        "trunkFoldedL": 1235,
+        "notes": "Kein variantenspezifischer Volumenunterschied publiziert; Werte der Generation (gleiche Karosserie). Nicht per ADAC-Einzelseite geprüft."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/j/220344/",
+        "what": "ADAC: Länge 4419, Breite 1814 (2013 inkl. Spiegel), Höhe 1510, Radstand 2685, Kofferraum 370 l / 1235 l dachhoch (1.4 Turbo Sport)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/j/230421/",
+        "what": "ADAC: 1.4 LPG ecoFlex, gleiche Maße, 370 l / 1235 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/opel/astra/2009/fuenftuerer/modell/daten-fakten/",
+        "what": "Plausibilisierung 4419 mm, 370/1235 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 06/2012 (5-Türer) nicht separat verifiziert; Sports Tourer-Facelift laut ADAC unverändert, daher keine eigene Facelift-Generation. Astra J Limousine (Stufenheck, 2012-, 460 l laut mobile.de) und GTC/OPC (3-Türer) sind eigene Karosserien und nicht enthalten."
+     },
+     {
+      "name": "Astra K (inkl. Facelift 2019)",
+      "yearFrom": 2015,
+      "yearTo": 2021,
+      "bodyType": "hatchback",
+      "lengthMm": 4370,
+      "widthMm": 1809,
+      "heightMm": 1485,
+      "wheelbaseMm": 2662,
+      "trunkL": 370,
+      "trunkFoldedL": 1210,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 DI Turbo (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 370,
+        "trunkFoldedL": 1210,
+        "notes": "ADAC 1.4 DI Turbo Start&Stop Innovation (07/17-06/18)"
+       },
+       {
+        "name": "1.6 CDTI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 370,
+        "trunkFoldedL": 1210,
+        "notes": "ADAC 1.6 CDTI ecoFlex Start&Stop Innovation (10/15-07/17)"
+       },
+       {
+        "name": "1.4 ECOTEC CNG (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": 110,
+        "awd": false,
+        "trunkL": 370,
+        "trunkFoldedL": 1210,
+        "yearFrom": 2017,
+        "notes": "ADAC 1.4 ECOTEC CNG Innovation (08/17-06/18): 370 l / 1210 l; 110 PS laut ADAC Gebrauchtwageninfo"
+       },
+       {
+        "name": "1.2 DI Turbo (Benziner, Facelift)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 370,
+        "trunkFoldedL": 1210,
+        "yearFrom": 2019,
+        "notes": "ADAC 1.2 DI Turbo Elegance (09/19-11/20), gleiche Maße"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/k/248340/",
+        "what": "ADAC: Länge 4370, Breite 1809 (2042 inkl. Spiegel), Höhe 1485, Radstand 2662, 370 l / 1210 l (1.6 CDTI)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/k-facelift/303509/",
+        "what": "ADAC: Facelift 1.2 DI Turbo, gleiche Maße"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/k/283243/",
+        "what": "ADAC: 1.4 CNG, 370 l / 1210 l"
+       },
+       {
+        "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0361-opel-astra-2015-2021-benziner-bericht.pdf",
+        "what": "ADAC Gebrauchtwageninfo: 1.4 CNG 110 PS ab 08/2017, Kofferraum 370 l (Schrägheck) / 540 l (Sports Tourer)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/k/280399/",
+        "what": "ADAC: 1.4 DI Turbo"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Werte aus ADAC-Autokatalog (Herstellerangaben); Facelift 2019 ohne Maß-/Volumenänderung. OPC gab es beim Astra K nicht."
+     }
+    ]
+   },
+   {
+    "brand": "Opel",
+    "model": "Astra Sports Tourer",
+    "generations": [
+     {
+      "name": "Astra H Caravan",
+      "yearFrom": 2004,
+      "yearTo": 2010,
+      "bodyType": "wagon",
+      "lengthMm": 4515,
+      "widthMm": 1753,
+      "heightMm": 1500,
+      "wheelbaseMm": 2703,
+      "trunkL": 500,
+      "trunkFoldedL": 1590,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 500,
+        "trunkFoldedL": 1590,
+        "notes": "ADAC Caravan 1.6 Edition (10/07-12/09)"
+       },
+       {
+        "name": "1.7 CDTI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 500,
+        "trunkFoldedL": 1590,
+        "notes": "ADAC Caravan 1.7 CDTI DPF Cosmo (04/07-12/08)"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/h-facelift/211901/",
+        "what": "ADAC: Länge 4515, Breite 1753, Höhe 1500, Radstand 2703, Kofferraum 500 l / 1590 l (Caravan 1.6 Edition)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/h-facelift/209935/",
+        "what": "ADAC: Caravan 1.7 CDTI DPF Cosmo"
+       },
+       {
+        "url": "https://www.autokosten.net/opel/astra-h-caravan/astra-caravan-1-6/astra-h-caravan-02-07-11-10_16/technische-daten",
+        "what": "Plausibilisierung Länge 4515 mm, Breite 1753 mm, Höhe 1500 mm"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/28-Astra+H+Caravan",
+        "what": "Plausibilisierung 500 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Historischer Name \"Astra Caravan\". Maße aus ADAC-Einträgen des Facelifts (2007-); Vor-Facelift-Caravan (2004-2007) nicht separat per ADAC geprüft, Drittquellen nennen dieselbe Länge. Breitenangaben in Drittquellen schwanken (1753-1804 mm), 1753 mm laut ADAC."
+     },
+     {
+      "name": "Astra J Sports Tourer (inkl. Facelift 2012)",
+      "yearFrom": 2010,
+      "yearTo": 2015,
+      "bodyType": "wagon",
+      "lengthMm": 4698,
+      "widthMm": 1814,
+      "heightMm": 1535,
+      "wheelbaseMm": 2685,
+      "trunkL": 500,
+      "trunkFoldedL": 1550,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 Turbo (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 500,
+        "trunkFoldedL": 1550,
+        "notes": "ADAC 1.4 Turbo Innovation (10/10-06/12), Facelift 1.4 Turbo ecoFlex (06/12-01/15) gleich"
+       },
+       {
+        "name": "1.7 CDTI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 500,
+        "trunkFoldedL": 1550,
+        "widthMm": 1819,
+        "notes": "ADAC 1.7 CDTI Edition (10/10-12/10) nennt Breite 1819 mm"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/j/224515/",
+        "what": "ADAC: Länge 4698, Breite 1814, Höhe 1535, Radstand 2685, Kofferraum 500 l / 1000 l fensterhoch / 1550 l dachhoch"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/j-facelift/233279/",
+        "what": "ADAC: Facelift, gleiche Höhe, Radstand und Kofferraumwerte"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/j/224526/",
+        "what": "ADAC: 1.7 CDTI Edition, Breite 1819 mm"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/197-Astra+J+Sports+Tourer",
+        "what": "Plausibilisierung 500/1550 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 06/2012 ohne Änderung von Maßen/Volumen laut ADAC."
+     },
+     {
+      "name": "Astra K Sports Tourer (inkl. Facelift 2019)",
+      "yearFrom": 2016,
+      "yearTo": 2022,
+      "bodyType": "wagon",
+      "lengthMm": 4702,
+      "widthMm": 1809,
+      "heightMm": 1510,
+      "wheelbaseMm": 2662,
+      "trunkL": 540,
+      "trunkFoldedL": 1630,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 ECOTEC DI Turbo (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 540,
+        "trunkFoldedL": 1630,
+        "notes": "ADAC 1.4 ECOTEC DI Turbo ecoFlex Start&Stop Business (05/16-06/17)"
+       },
+       {
+        "name": "1.6 CDTI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 540,
+        "trunkFoldedL": 1630,
+        "notes": "ADAC 1.6 CDTI Innovation (03/16-06/17)"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/k/250926/",
+        "what": "ADAC: Länge 4702, Breite 1809 (2042 inkl. Spiegel), Höhe 1510, Radstand 2662, 540 l / 1630 l (1.6 CDTI Innovation)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/k/256432/",
+        "what": "ADAC: 1.4 ECOTEC DI Turbo, gleiche Maße, 540 l"
+       },
+       {
+        "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0361-opel-astra-2015-2021-benziner-bericht.pdf",
+        "what": "ADAC Gebrauchtwageninfo: Sports Tourer 540 l"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Facelift 2019 nicht separat auf Maßänderung geprüft (Schrägheck-Facelift unverändert). Sports Tourer 1.4 CNG: Kofferraum nicht gefunden (Erdgastanks könnten Volumen verringern), daher nicht als Variante aufgeführt."
+     }
+    ]
+   },
+   {
+    "brand": "Opel",
+    "model": "Corsa",
+    "generations": [
+     {
+      "name": "Corsa C (Facelift, 5-Türer)",
+      "yearFrom": 2003,
+      "yearTo": 2006,
+      "bodyType": "hatchback",
+      "lengthMm": 3839,
+      "widthMm": 1646,
+      "heightMm": 1440,
+      "wheelbaseMm": 2491,
+      "trunkL": 260,
+      "trunkFoldedL": 1060,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 Twinport (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 260,
+        "trunkFoldedL": 1060,
+        "notes": "ADAC 1.2 Twinport Cool (11/04-06/05)"
+       },
+       {
+        "name": "1.4 Twinport (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 260,
+        "trunkFoldedL": 1060,
+        "notes": "ADAC 1.4 Twinport Edition (10/05-07/06)"
+       },
+       {
+        "name": "1.3 CDTI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 260,
+        "trunkFoldedL": 1060,
+        "notes": "ADAC 1.3 CDTI Cosmo (07/03-06/05)"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/corsa/c-facelift/996128/",
+        "what": "ADAC: Länge 3839, Breite 1646 (1955 inkl. Spiegel), Höhe 1440, Radstand 2491, 260 l / 1060 l dachhoch (1.3 CDTI)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/corsa/c-facelift/201228/",
+        "what": "ADAC: 1.2 Twinport, gleiche Werte"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/corsa/c-facelift/204398/",
+        "what": "ADAC: 1.4 Twinport, gleiche Werte"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/corsa/c/110456/",
+        "what": "ADAC: Vor-Facelift 1.7 DTI (07/02-07/03) Länge 3817 mm"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Corsa C 2000-2006; nur Facelift (ab 2003) liegt im Zeitraum ab 2005. Vor-Facelift 3817 mm lang. 3-Türer nicht separat erfasst."
+     },
+     {
+      "name": "Corsa D (inkl. Facelift 2011, 5-Türer)",
+      "yearFrom": 2006,
+      "yearTo": 2014,
+      "bodyType": "hatchback",
+      "lengthMm": 3999,
+      "widthMm": 1737,
+      "heightMm": 1488,
+      "wheelbaseMm": 2511,
+      "trunkL": 285,
+      "trunkFoldedL": 1100,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.0 Twinport (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 285,
+        "trunkFoldedL": 1100,
+        "notes": "ADAC 1.0 Twinport ecoFlex Edition 5-Türer (07/08-11/09)"
+       },
+       {
+        "name": "1.2 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 285,
+        "trunkFoldedL": 1100,
+        "notes": "ADAC 1.2 Twinport ecoFlex (11/09-11/10) und 1.2 ecoFlex Start&Stop (11/11-08/14), gleiche Werte"
+       },
+       {
+        "name": "1.3 CDTI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 285,
+        "trunkFoldedL": 1100,
+        "notes": "Kein variantenspezifischer Volumenunterschied publiziert; Werte der Generation (gleiche Karosserie). Nicht per ADAC-Einzelseite geprüft."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/corsa/d/214886/",
+        "what": "ADAC: Länge 3999, Breite 1737 (1944 inkl. Spiegel), Höhe 1488, Radstand 2511, 285 l / 700 l fensterhoch / 1100 l dachhoch"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/corsa/d/221260/",
+        "what": "ADAC: 1.2 Twinport ecoFlex, gleiche Werte"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/corsa/d-facelift/230477/",
+        "what": "ADAC: Facelift 1.2 ecoFlex Start&Stop, gleiche Werte"
+       },
+       {
+        "url": "https://www.mobile.de/auto/opel/corsa/2006/schraegheck/modell/daten-fakten/",
+        "what": "Plausibilisierung; nennt 1050 l maximal (vermutl. 3-Türer)"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Facelift 2011 ohne Änderung laut ADAC. 3-Türer laut Drittquellen 285/1050 l (nicht ADAC-verifiziert). OPC (nur 3-Türer, 4040 mm laut Drittquelle) nicht enthalten."
+     },
+     {
+      "name": "Corsa E (5-Türer)",
+      "yearFrom": 2014,
+      "yearTo": 2019,
+      "bodyType": "hatchback",
+      "lengthMm": 4021,
+      "widthMm": 1746,
+      "heightMm": 1481,
+      "wheelbaseMm": 2510,
+      "trunkL": 285,
+      "trunkFoldedL": 1120,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 285,
+        "trunkFoldedL": 1120,
+        "notes": "ADAC 1.2 Selection 5-Türer (12/14-04/18)"
+       },
+       {
+        "name": "1.4 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 285,
+        "trunkFoldedL": 1120,
+        "notes": "ADAC 1.4 Edition 5-Türer (12/14-04/18)"
+       },
+       {
+        "name": "1.4 Turbo (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 285,
+        "trunkFoldedL": 1120,
+        "notes": "ADAC 1.4 Turbo ecoFlex Start&Stop Edition 5-Türer (12/14-06/17)"
+       },
+       {
+        "name": "1.3 CDTI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 285,
+        "trunkFoldedL": 1120,
+        "notes": "Kein variantenspezifischer Volumenunterschied publiziert; Werte der Generation (gleiche Karosserie). Nicht per ADAC-Einzelseite geprüft."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/corsa/e/242875/",
+        "what": "ADAC: Länge 4021, Breite 1746 (1944 inkl. Spiegel), Höhe 1481, Radstand 2510, 285 l / 710 l fensterhoch / 1120 l dachhoch"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/corsa/e/280338/",
+        "what": "ADAC: 3-Türer 1.4 ON: Breite 1736, Höhe 1479, 280 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/corsa/e/242887/",
+        "what": "ADAC: 1.4 Turbo 5-Türer"
+       },
+       {
+        "url": "https://www.mobile.de/auto/opel/corsa/2014/fuenftuerer/modell/daten-fakten/",
+        "what": "Plausibilisierung 4021 mm, 285 l"
+       }
+      ],
+      "confidence": "high",
+      "notes": "3-Türer: 280 l, Breite 1736 mm, Höhe 1479 mm (ADAC). Corsa OPC (3-Türer) nicht enthalten. Keine Elektro-/Hybridvarianten beim Corsa E."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Astra Sports Tourer K 1.4 CNG trunkL/trunkFoldedL",
+   "Astra J Facelift (5-Türer) Maße separat nicht verifiziert",
+   "Astra H Facelift (5-Türer) Maße separat nicht verifiziert",
+   "alle variant powerPs außer Astra K CNG (nicht quellenbelegt)",
+   "loadSpace aller Generationen",
+   "Corsa D 3-Türer trunkFoldedL (nur Drittquelle 1050 l)",
+   "Opel-Presseunterlagen (Herstellerquelle) für alle Generationen"
+  ],
+  "notes": "Opel-Pressearchive der Zeit (media.opel.com) lieferten in der Suche keine Datenblätter; alle Werte daher aus dem ADAC-Autokatalog (gibt Herstellerangaben wieder), plausibilisiert mit mobile.de/angurten.de. Suchbudget (20) ausgeschöpft. Diesel-Varianten teilweise ohne eigene ADAC-Seite übernommen (gleiche Karosserie). Corsa-Werte für 5-Türer."
+ },
+ "verification": {
+  "corrections": [],
+  "missing": [
+   {
+    "model": "Astra Sports Tourer",
+    "detail": "Astra K Sports Tourer 1.4 ECOTEC CNG (110 PS, 08/2017-04/2019): ADAC lists 540 l normal / 1630 l dachhoch, so no volume loss from the CNG tanks (https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/k/283245 and .../k/293139). This can be added as a cng variant with trunkL 540, trunkFoldedL 1630, and removed from notFound."
+   },
+   {
+    "model": "Astra Sports Tourer",
+    "detail": "Astra H Caravan before the facelift (10/2004-02/2007): ADAC lists 505 l normal / 1540 l dachhoch (e.g. Caravan 1.8 10/04-12/05, https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/astra/h/998878; Edition 11/04-12/05 .../h/201268), with the same wheelbase of 2703 mm and height of 1500 mm. The generation's 500/1590 l comes from the facelift (2007-2010) entries only. Consider adding a pre-facelift variant (yearTo 2007) with trunkL 505 and trunkFoldedL 1540, or noting the difference."
+   },
+   {
+    "model": "Corsa",
+    "detail": "Corsa D 1.4 LPG ecoFlex (Autogas, 07/2009-11/2010, 5-door): ADAC lists 285 l / 700 l fensterhoch / 1100 l dachhoch, the same as the generation (https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/corsa/d/219948/). This is an optional LPG variant."
+   },
+   {
+    "model": "Astra",
+    "detail": "Astra H 1.6 ecoFLEX LPG (2009, factory LPG) exists according to a third-party catalogue (mobile.md). No trunk figure was found. This is an optional variant."
+   }
+  ],
+  "checkedValues": 74,
+  "confirmedValues": 73,
+  "notes": "Third-party databases (auto-data.net, angurten.de, fastcarcheck, ultimatespecs, auto-motor-und-sport) and ADAC confirm all dimensions and trunk figures for Astra H/J/K, Astra J/K Sports Tourer and Corsa C-facelift/D/E (5-door). No Opel press data sheets were found. Unresolved: angurten.de gives 1804 mm width without mirrors for the Astra H 5-door and the Astra H Caravan, while ADAC, autoscout24, cars-data and a period press-style source give 1753 mm. No manufacturer source settles it, so 1753 is kept and counted as unconfirmed for the Caravan only. Astra J Sports Tourer folded volume is 1540 l in some databases (fastcarcheck) and 1550 l in ADAC/auto motor und sport; 1550 is kept. Corsa D 5-door width 1737 mm (3-door 1713 mm) per ADAC. ADAC's Astra J 1.4 LPG review text says the tank in the spare-wheel well raises the floor, yet the ADAC data entry keeps 370/1235 l, so that is left unchanged. Corsa E width 1746 mm (5-door) is confirmed by auto-data/ADAC; angurten.de's 1736 mm matches the 3-door. Generation year ranges are plausible. No important missing German-market generations; OPC/GSi versions are 3-door or GTC only and excluded by design."
+ }
+}

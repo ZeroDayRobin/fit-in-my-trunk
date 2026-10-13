@@ -1,0 +1,208 @@
+{
+ "id": "h-mercedes-benz-3",
+ "brand": "Mercedes-Benz",
+ "data": {
+  "models": [
+   {
+    "brand": "Mercedes-Benz",
+    "model": "GLA",
+    "generations": [
+     {
+      "name": "X156 (Vor-Facelift)",
+      "yearFrom": 2014,
+      "yearTo": 2017,
+      "bodyType": "suv",
+      "lengthMm": 4417,
+      "widthMm": 1804,
+      "heightMm": 1494,
+      "wheelbaseMm": 2699,
+      "trunkL": 421,
+      "trunkFoldedL": 1235,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "GLA 180 / GLA 200 / GLA 250 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 421,
+        "trunkFoldedL": 1235,
+        "yearFrom": 2014,
+        "yearTo": 2017,
+        "notes": "ADAC GLA 200 / GLA 200 Style (03/14-01/17): 4417 x 1804 x 1494 mm, 421/1235 l. Power per engine not verified from a source in this run."
+       },
+       {
+        "name": "GLA 200 CDI / 220 CDI, ab 07/15 GLA 200 d / 220 d (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 421,
+        "trunkFoldedL": 1235,
+        "yearFrom": 2014,
+        "yearTo": 2017,
+        "notes": "ADAC lists GLA 200 CDI Style (03/14-07/15) and GLA 200 d (07/15-01/17) with the same trunk volume."
+       },
+       {
+        "name": "4MATIC (z.B. GLA 220 d 4MATIC 7G-DCT, GLA 250 4MATIC)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 421,
+        "trunkFoldedL": 1235,
+        "yearFrom": 2014,
+        "yearTo": 2017,
+        "notes": "ADAC GLA 220 d 4MATIC 7G-DCT (07/15-01/17): length 4417 mm, same exterior dimensions and trunk volume as 2WD. 4MATIC also offered with petrol engines (e.g. GLA 250 4MATIC)."
+       },
+       {
+        "name": "GLA 45 AMG 4MATIC (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 381,
+        "awd": true,
+        "trunkL": 421,
+        "trunkFoldedL": 1235,
+        "lengthMm": 4445,
+        "widthMm": 1804,
+        "heightMm": 1416,
+        "yearFrom": 2015,
+        "yearTo": 2017,
+        "notes": "ADAC entry 07/15-01/17: 4445 x 1804 x 1416 mm, 381 PS, 421/1235 l. The ADAC height of 1416 mm conflicts with third-party databases (1479 mm); treat height with caution. Earlier GLA 45 AMG (2014-2015) had 360 PS (Wikipedia/third-party, not verified from manufacturer)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.asphalte.ch/news/2013/08/mercedes-gla-en/",
+        "what": "2013 GLA launch text (reproducing Mercedes-Benz press information): 4417 x 1804 x 1494 mm, luggage compartment 421 litres"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/156/239434/",
+        "what": "ADAC Autokatalog GLA 200 Style (03/14-01/17): length 4417 mm, height 1494 mm, trunk 421 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/156/239427/",
+        "what": "ADAC Autokatalog GLA 200 (03/14-01/17): trunk 421 l normal, 1235 l roof-high with rear seats folded"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/156/249351/",
+        "what": "ADAC Autokatalog GLA 220 d 4MATIC 7G-DCT (07/15-01/17): length 4417 mm, same dimensions/trunk as other variants (4MATIC trunk unchanged)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/156/249358",
+        "what": "ADAC Autokatalog GLA 45 AMG 4MATIC (07/15-01/17): 4445 mm length, 1804 mm width w/o mirrors, 1416 mm height, 2699 mm wheelbase, 381 PS, 421/1235 l"
+       },
+       {
+        "url": "https://mbpassion.de/2014/02/blick-auf-die-kofferraum-masse-des-neuen-gla-x156/",
+        "what": "Mercedes fan blog: 421 l (behind rear seats to top of backrest) to 1235 l (rear backrest folded, to roof); largest box 1290 x 920 x 540 mm (no load-floor measurements)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "German market launch 03/2014 (ADAC 03/14-01/17). Width without mirrors 1804 mm (2022 mm with mirrors per ADAC). No official Daimler press kit page could be retrieved with the search tool; values from ADAC (citing manufacturer data) and a launch article reproducing the press release. Optional off-road package / AMG Line may change height slightly - not verified."
+     },
+     {
+      "name": "X156 (Facelift)",
+      "yearFrom": 2017,
+      "yearTo": 2020,
+      "bodyType": "suv",
+      "lengthMm": 4424,
+      "widthMm": 1804,
+      "heightMm": 1494,
+      "wheelbaseMm": 2699,
+      "trunkL": 421,
+      "trunkFoldedL": 1235,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "GLA 180 / GLA 200 / GLA 250 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 421,
+        "trunkFoldedL": 1235,
+        "yearFrom": 2017,
+        "yearTo": 2020,
+        "notes": "ADAC lists GLA 200 / GLA 200 Style (01/17-05/18, 06/18-04/19) with 421/1235 l."
+       },
+       {
+        "name": "GLA 180 d / 200 d / 220 d (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 421,
+        "trunkFoldedL": 1235,
+        "yearFrom": 2017,
+        "yearTo": 2020,
+        "notes": "Trunk assumed per ADAC uniform listing across the X156 facelift range."
+       },
+       {
+        "name": "GLA 220 d 4MATIC 7G-DCT (Diesel, Allrad)",
+        "powertrain": "diesel",
+        "powerPs": 177,
+        "awd": true,
+        "trunkL": 421,
+        "trunkFoldedL": 1235,
+        "yearFrom": 2017,
+        "yearTo": 2019,
+        "notes": "ADAC (01/17-05/18): 4424 x 1804 x 1494 mm, wheelbase 2699 mm, 421/1235 l. 4MATIC also with GLA 250 petrol (ADAC GLA 250 AMG Line 4MATIC 01/17-05/18 and 05/19-02/20)."
+       },
+       {
+        "name": "Mercedes-AMG GLA 45 4MATIC (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 381,
+        "awd": true,
+        "trunkL": 421,
+        "trunkFoldedL": 1235,
+        "lengthMm": null,
+        "heightMm": null,
+        "yearFrom": 2017,
+        "yearTo": 2019,
+        "notes": "Facelift AMG dimensions not found from manufacturer/ADAC; third-party sources conflict (4445 mm / 1494 mm per paultan.org vs. 4455/1479 per auto-data.net). Trunk 421/1235 l assumed unchanged from pre-facelift ADAC entry; power 381 PS per pre-facelift ADAC and auto-data (unchanged at facelift)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/156-facelift/266731/",
+        "what": "ADAC Autokatalog GLA 220 d 4MATIC 7G-DCT (01/17-05/18): length 4424 mm, width 1804 mm (2022 with mirrors), height 1494 mm, wheelbase 2699 mm, 177 PS, trunk 421/1235 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/156-facelift/290774/",
+        "what": "ADAC Autokatalog GLA 200 (06/18-04/19): trunk volume 421/1235 l (variant listing)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/156-facelift/299488/",
+        "what": "ADAC Autokatalog GLA 250 AMG Line 4MATIC (05/19-02/20): confirms facelift sold until 02/2020"
+       },
+       {
+        "url": "https://www.autohaus.de/nachrichten/facelift-fuer-mercedes-gla-behutsam-bearbeitet-1869432.html",
+        "what": "Facelift description: revised front/rear aprons (incl. GLA 45), explaining the +7 mm length"
+       },
+       {
+        "url": "https://paultan.org/research/mercedes-benz/gla-class-amg/x156-amg-facelift/gla-45-4matic-2017/",
+        "what": "Third-party: GLA 45 facelift 4445 mm length, 1494 mm height (not used as value, conflicting)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Split from pre-facelift because length changed 4417 -> 4424 mm (new bumpers); trunk unchanged at 421/1235 l. German availability 01/2017 to 02/2020 (successor H247 from 2020 already in DB). No official Daimler press data retrieved; values from ADAC Autokatalog (manufacturer data)."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "GLA X156 loadSpace (load-floor measurements, sill height) - not published in found sources",
+   "GLA X156 (Facelift) Mercedes-AMG GLA 45 lengthMm/heightMm - only conflicting third-party values",
+   "GLA X156 powerPs per engine for most variants (only GLA 45 AMG 381 PS and GLA 220 d 4MATIC 177 PS sourced)",
+   "GLA X156 official Daimler press kit technical data page (not reachable via search)"
+  ],
+  "notes": "Predecessor of GLA H247 is the X156 (2014-2020 in Germany), split into pre-facelift (2014-2017) and facelift (2017-2020). No plug-in hybrid or BEV existed. Trunk 421/1235 l VDA for all variants incl. 4MATIC and AMG per ADAC. Pre-facelift GLA 45 AMG height 1416 mm per ADAC is questionable (other sources 1479 mm). 11 of 20 searches used."
+ },
+ "verification": {
+  "corrections": [],
+  "missing": [
+   {
+    "model": "GLA",
+    "detail": "X156 (Vor-Facelift): early GLA 45 AMG 4MATIC with 265 kW / 360 PS (incl. Edition 1), sold 2014 to 2015 before the 381 PS update, is not a separate variant (the 381 PS variant starts 2015). Sources: autoklicker.de (GLA 45 AMG, 265 kW/360 PS, AMG SPEEDSHIFT DCT, seit Juli 2014), automobile-catalog.com (2014 GLA 45 AMG 4MATIC Edition 1, 265 kW/360 PS). Trunk 421/1235 l is the same as the series."
+   }
+  ],
+  "checkedValues": 35,
+  "confirmedValues": 34,
+  "notes": "Third-party sources (encycarpedia, AutoScout24, autobild) confirm the base X156 at 4417 x 1804 x 1494 mm, wheelbase 2699 mm, trunk 421-1235 l. Facelift length 4424 mm matches AutoScout24 and fastcarcheck. Production years: TopGear.nl gives 2013-2020; angurten gives 2013-2019. The data's 2014-2020 window for Germany is plausible. The unconfirmed value is the pre-facelift GLA 45 AMG height of 1416 mm (ADAC). Carfolio gives 1479 mm, speed-magazin 1.48 m, carsguide/autoevolution 1494 mm. No source gives 1416 mm, so it is likely an ADAC error. 1479 mm is the most likely value, but no manufacturer source was found, so it is not reported as a correction. The pre-facelift GLA 45 length of 4445 mm matches Carfolio. Facelift GLA 45 length/height (null) are still conflicting: 4445/1494 (paultan), 4424/1480 (fastcarcheck, caroom), 4455/1479 (auto-data). Leaving them null is justified. No official Daimler press kit was retrieved. 7 searches used."
+ }
+}

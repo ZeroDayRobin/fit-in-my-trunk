@@ -91,6 +91,243 @@
       "corrected": 0
      },
      "notes": "Dimensions are for the 2024 facelift. The pre-facelift (2020-2024) is a few mm shorter (exact value not verified here). Trunk figures stayed the same, so no separate entry. S3/RS 3 not researched."
+    },
+    {
+     "id": "2013-8v-sportback-inkl-facelift-2016",
+     "name": "8V Sportback (inkl. Facelift 2016)",
+     "yearFrom": 2013,
+     "yearTo": 2020,
+     "bodyType": "hatchback",
+     "lengthMm": 4310,
+     "widthMm": 1785,
+     "heightMm": 1425,
+     "wheelbaseMm": 2636,
+     "trunkL": 380,
+     "trunkFoldedL": 1220,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "quattro-z-b-2-0-tfsi-40-tdi-quattro-s-tronic",
+       "name": "quattro (z.B. 2.0 TFSI / 40 TDI quattro S tronic)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 340,
+       "trunkFoldedL": 1180,
+       "lengthMm": 4313,
+       "widthMm": null,
+       "heightMm": 1426,
+       "yearFrom": 2016,
+       "yearTo": 2019,
+       "notes": "ADAC facelift quattro entries (2.0 TFSI 07/16-08/18, 40 TDI 02/19-06/19): 340/1180 l, 4313 x 1785 x 1426 mm."
+      },
+      {
+       "id": "rs-3-sportback",
+       "name": "RS 3 Sportback",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 280,
+       "trunkFoldedL": 1120,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Not found within the search budget."
+      },
+      {
+       "id": "tfsi-tdi-frontantrieb-benziner-diesel",
+       "name": "TFSI/TDI Frontantrieb (Benziner/Diesel)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1220,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Base volume for front-wheel-drive petrol and diesel models; diesels have the same volume."
+      },
+      {
+       "id": "e-tron-40-e-tron-plug-in-hybrid",
+       "name": "e-tron / 40 e-tron (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 280,
+       "trunkFoldedL": 1120,
+       "lengthMm": 4312,
+       "widthMm": null,
+       "heightMm": 1424,
+       "yearFrom": 2014,
+       "yearTo": 2018,
+       "notes": "The battery reduces the trunk. Audi Technology Portal gives 280/1120 l. Autozeitung once gives 1210 l max (conflict; 1120 used)."
+      },
+      {
+       "id": "g-tron-erdgas",
+       "name": "g-tron (Erdgas)",
+       "powertrain": "cng",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 280,
+       "trunkFoldedL": 1100,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "The CNG tanks sit under the floor, so the trunk is 280-1100 l (press material for the 30 g-tron 131 PS, 2019). The earlier 1.4 TFSI g-tron (110 PS) is not separately verified."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.auto-medienportal.net/artikel/detail/17646",
+       "what": "Audi launch press material 2012: trunk 380 l, 1220 l with backrests folded"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1382-A3+Sportback",
+       "what": "Length 4310, width without mirrors 1785, height 1425, wheelbase 2636 mm, 380 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a3/8v-facelift/257976/",
+       "what": "ADAC: 2.0 TFSI quattro facelift 340/1180 l, 4313 x 1785 x 1426 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a3/8v-facelift/297318/",
+       "what": "ADAC: 40 TDI quattro 340/1180 l"
+      },
+      {
+       "url": "https://www.audi-technology-portal.de/de/antrieb/hybridtechnologien/audi-a3-e-tron-de",
+       "what": "Audi (manufacturer): A3 Sportback e-tron trunk 280/1120 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a3/8v-facelift/258227/",
+       "what": "ADAC: 40 e-tron length 4312, width 1785, height 1424 mm"
+      },
+      {
+       "url": "https://auto-medienportal.net/artikel/load/pdf/54062",
+       "what": "Press material: A3 Sportback 30 g-tron trunk 280-1100 l"
+      },
+      {
+       "url": "https://www.autoevolution.com/cars/audi-rs3-sportback-2015.html",
+       "what": "Korrektur trunkL: Autoevolution: the 2015 RS 3 Sportback (367 hp) has a cargo volume of 280 L. motor1.com's 2015 test data agrees (280/1120 l). This is not an Audi press source, so confidence is medium."
+      },
+      {
+       "url": "https://de.motor1.com/reviews/153153/jetzt-auch-mit-fahrspass-test-audi-rs-3-2015-mit-technischen-daten-und-preisen/",
+       "what": "Korrektur trunkFoldedL: motor1 test of the RS 3 (2015) with technical data lists a variable cargo volume of up to 1,120 l. Some sites quote 335/1175 l, which appears to be the 2017+ 400 PS facelift or a different measurement, so confidence is medium."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 53,
+      "confirmed": 47,
+      "corrected": 2
+     },
+     "notes": "Facelift 2016 added about 3 mm of length (4313 mm) and did not change the trunk, so there is one entry. A later Audi release quotes 380-1200 l; the 2012 launch figure of 1220 l is used. Some 8V Sportback units were sold into model year 2020."
+    },
+    {
+     "id": "2004-8p-sportback-inkl-facelift-2008",
+     "name": "8P Sportback (inkl. Facelift 2008)",
+     "yearFrom": 2004,
+     "yearTo": 2012,
+     "bodyType": "hatchback",
+     "lengthMm": 4292,
+     "widthMm": 1765,
+     "heightMm": 1423,
+     "wheelbaseMm": 2578,
+     "trunkL": 370,
+     "trunkFoldedL": 1100,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-tfsi-benziner",
+       "name": "1.4 TFSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 370,
+       "trunkFoldedL": 1100,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2008,
+       "yearTo": 2012,
+       "notes": "ADAC 1.4 TFSI Ambition (07/08-02/09): 4292 x 1765 x 1423 mm, 370/1100 l."
+      },
+      {
+       "id": "quattro",
+       "name": "quattro",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No trunk volume found for quattro versions; on the 8V, quattro reduces the trunk (340 vs 380 l), so the 8P quattro is likely smaller too, but that is unverified."
+      },
+      {
+       "id": "2-0-tfsi-s-tronic-200-ps-benziner",
+       "name": "2.0 TFSI S tronic 200 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 200,
+       "awd": false,
+       "trunkL": 370,
+       "trunkFoldedL": 1120,
+       "lengthMm": 4286,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2004,
+       "yearTo": 2008,
+       "notes": "Pre-facelift ADAC entry (10/04-04/08): length 4286 mm, height 1423 mm, 370 l; folded value not shown in the snippet."
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2005,
+       "yearTo": 2008,
+       "notes": "ADAC entry 2.0 TDI DPF Attraction (04/05-04/08) exists, but its trunk values were not visible in search results."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a3/8p-facelift-2/214166/",
+       "what": "ADAC (manufacturer data): facelift 1.4 TFSI length 4292, width 1765, height 1423, wheelbase 2578 mm, trunk 370/1100 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a3/8p-facelift/999180/",
+       "what": "ADAC: pre-facelift 2.0 TFSI S tronic 200 PS, length 4286 mm, height 1423 mm, trunk 370 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/40-A3+Sportback",
+       "what": "Cross-check: pre-facelift length 4286 mm, wheelbase 2578 mm"
+      },
+      {
+       "url": "https://www.auto123.com/en/news/2005-audi-a3-sportback-preview/28720/?page=2",
+       "what": "Korrektur trunkFoldedL: Audi 2004 launch material (also reproduced at audiworld.com 'Audi A3 Sportback: Driving Pleasure in a New Guise') gives 370 l, rising to 1,120 l with the rear seatbacks folded, for the pre-facelift Sportback. Autozine also lists 370/1120 l for the 2.0 TFSI. The facelift (2008"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 53,
+      "confirmed": 47,
+      "corrected": 1
+     },
+     "notes": "Sportback launched in 2004 (model year 2005), facelift 2008. The facelift added about 6 mm of length (4286 -> 4292 mm); trunk unchanged at 370 l, so there is one entry. I found no official Audi press data; all values are from ADAC (manufacturer data). The S3 Sportback is not covered (the ADAC S3 entry found was the 3-door, 281 l)."
     }
    ]
   },
@@ -196,6 +433,194 @@
       "corrected": 0
      },
      "notes": "The exact L/W/H of 4762/1847/1435 mm were not found in mm in a source. They match kofferraum.org's rounded 476/185/144 cm but should be checked against the Audi data sheet. Wheelbase not verified. No PHEV was offered. A g-tron (CNG) with a smaller trunk existed until about 2020, but its value was not checked."
+    },
+    {
+     "id": "2008-b8-inkl-facelift-2012",
+     "name": "B8 (inkl. Facelift 2012)",
+     "yearFrom": 2008,
+     "yearTo": 2015,
+     "bodyType": "wagon",
+     "lengthMm": 4703,
+     "widthMm": 1826,
+     "heightMm": 1436,
+     "wheelbaseMm": 2808,
+     "trunkL": 490,
+     "trunkFoldedL": 1430,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tfsi-180-ps-benziner",
+       "name": "2.0 TFSI 180 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 180,
+       "awd": false,
+       "trunkL": 490,
+       "trunkFoldedL": 1430,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "auto-data.net gives the same body dimensions."
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 490,
+       "trunkFoldedL": 1430,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDI Ambition (05/09-08/10): 4703 x 1826 x 1436 mm, wheelbase 2808 mm, 490/1430 l (roof-high)."
+      },
+      {
+       "id": "quattro",
+       "name": "quattro",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 490,
+       "trunkFoldedL": 1430,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC quattro entries exist (e.g. 2.0 TDI Ambiente quattro 05/12-04/13), but their trunk values were not visible in search results."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/b8/218957/",
+       "what": "ADAC: length 4703, width 1826, height 1436, wheelbase 2808 mm, trunk 490/1430 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/b8/218488/",
+       "what": "ADAC: 2.0 TDI e 490/1430 l"
+      },
+      {
+       "url": "https://www.auto-data.net/en/audi-a4-avant-b8-8k-2.0-tfsi-180hp-4335",
+       "what": "2.0 TFSI 180 PS dimensions cross-check"
+      },
+      {
+       "url": "https://www.angurten.de/is/news/166-A4/2455",
+       "what": "Facelift 2012: trunk still 490/1430 l, dimensions changed by only a few mm"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1208-A4+Avant",
+       "what": "Cross-check: 4703/1826/1436 mm, 490 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/b8-facelift/232179",
+       "what": "Korrektur trunkL: ADAC A4 Avant 2.0 TDI Ambiente quattro (05/12-04/13) and the other quattro facelift entries (241194, 236656): Kofferraumvolumen normal 490 l. auto-data.net gives the same for the 2.0 TDI 190 PS quattro."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/b8-facelift/232179",
+       "what": "Korrektur trunkFoldedL: ADAC quattro facelift entries: roof-high with the rear bench folded, 1430 l, the same as front-wheel drive."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 53,
+      "confirmed": 47,
+      "corrected": 2
+     },
+     "notes": "Facelift 2012 (ADAC b8-facelift 02/12-04/15) changed length by only a few mm (one database lists 4699 mm), so there is one entry. mobile.de lists 4781 mm and 505 l, which look like B9 values and were ignored. A4 allroad quattro, S4 and RS 4 Avant are not covered."
+    },
+    {
+     "id": "2005-b7",
+     "name": "B7",
+     "yearFrom": 2005,
+     "yearTo": 2008,
+     "bodyType": "wagon",
+     "lengthMm": 4586,
+     "widthMm": 1772,
+     "heightMm": 1427,
+     "wheelbaseMm": 2642,
+     "trunkL": 442,
+     "trunkFoldedL": 1354,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tfsi-1-8-t-benziner",
+       "name": "2.0 TFSI / 1.8 T (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 442,
+       "trunkFoldedL": 1354,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Ultimatespecs lists 442/1354 l for the 2.0 Avant."
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 442,
+       "trunkFoldedL": 1354,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDI DPF (04/05-02/08 and 04/06-02/08): 442 l, height 1427, wheelbase 2642 mm."
+      },
+      {
+       "id": "2-0-tdi-quattro-diesel-allrad",
+       "name": "2.0 TDI quattro (Diesel, Allrad)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 442,
+       "trunkFoldedL": 1354,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC quattro entry (12/05-02/08) lists the same body and trunk figures as front-wheel drive."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/b7/999311",
+       "what": "ADAC: A4 Avant 2.0 TDI DPF height 1427, wheelbase 2642 mm, trunk 442 l (folded given as 1184 l)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/b7/205210",
+       "what": "ADAC: 2.0 TDI quattro, same figures"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/5-A4+Avant",
+       "what": "Length 4586 mm, width without mirrors 1772 mm"
+      },
+      {
+       "url": "https://www.mobile.de/auto/audi/a4/2000/kombi/modell/daten-fakten/",
+       "what": "Trunk 442 l / 1354 l folded"
+      },
+      {
+       "url": "https://www.ultimatespecs.com/car-specs/Audi/55797/Audi-A4-(B7)-Avant-20.html",
+       "what": "Trunk 442/1354 l cross-check"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 53,
+      "confirmed": 47,
+      "corrected": 0
+     },
+     "notes": "B7 Avant from 11/2004 (model year 2005) to 2008. Sources conflict on the folded volume: ADAC shows 1184 l (probably measured to the window line), while mobile.de and ultimatespecs give 1354 l (probably roof-high). 1354 l is used here; please verify. Height also differs between sources (1427 mm from ADAC and mobile.de vs 1453 mm from angurten, probably with roof rails). RS 4 Avant B7 not covered."
     }
    ]
   },
@@ -456,6 +881,222 @@
       "corrected": 0
      },
      "notes": "Width and height not verified (null). The 2023 facelift brought no relevant change in trunk volume."
+    },
+    {
+     "id": "2015-c7-facelift-2014",
+     "name": "C7 (Facelift 2014)",
+     "yearFrom": 2015,
+     "yearTo": 2018,
+     "bodyType": "wagon",
+     "lengthMm": 4943,
+     "widthMm": 1874,
+     "heightMm": 1461,
+     "wheelbaseMm": 2912,
+     "trunkL": 565,
+     "trunkFoldedL": 1680,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tdi-ultra-diesel",
+       "name": "2.0 TDI ultra (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 565,
+       "trunkFoldedL": 1680,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDI ultra S tronic (10/14-05/18)."
+      },
+      {
+       "id": "3-0-tdi-quattro-diesel-allrad",
+       "name": "3.0 TDI quattro (Diesel, Allrad)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 565,
+       "trunkFoldedL": 1680,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 3.0 TDI quattro S tronic (10/14-08/17): same dimensions and trunk."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a6/c7-facelift/242985/",
+       "what": "ADAC: length 4943, width 1874, height 1461, wheelbase 2912 mm, trunk 565/1680 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a6/c7-facelift/242987/",
+       "what": "ADAC: 3.0 TDI quattro, same figures"
+      },
+      {
+       "url": "https://www.automoli.com/us/vehicles/audi/a6/a6-avant-4g-c7-facelift-2014-4348/",
+       "what": "Cross-check (height 1461-1482 mm depending on variant)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 53,
+      "confirmed": 47,
+      "corrected": 0
+     },
+     "notes": "Facelift from 10/2014 (model year 2015) until the C8 in 2018."
+    },
+    {
+     "id": "2011-c7",
+     "name": "C7",
+     "yearFrom": 2011,
+     "yearTo": 2014,
+     "bodyType": "wagon",
+     "lengthMm": 4926,
+     "widthMm": 1874,
+     "heightMm": 1461,
+     "wheelbaseMm": 2912,
+     "trunkL": 565,
+     "trunkFoldedL": 1680,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 565,
+       "trunkFoldedL": 1680,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0 TDI (09/11-08/14)."
+      },
+      {
+       "id": "quattro",
+       "name": "quattro",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No pre-facelift quattro figure found; the facelift quattro (ADAC) has the same 565/1680 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a6/c7/228387/",
+       "what": "ADAC: length 4926, width 1874, height 1461, wheelbase 2912 mm, trunk 565/1680 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1236-A6+Avant",
+       "what": "Cross-check of dimensions"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 53,
+      "confirmed": 47,
+      "corrected": 0
+     },
+     "notes": "C7 Avant from 09/2011. The facelift is a separate entry because the length changed (+17 mm). There was no hybrid Avant (the A6 hybrid was a sedan only). allroad, S6 and RS 6 are not covered."
+    },
+    {
+     "id": "2005-c6-inkl-facelift-2008",
+     "name": "C6 (inkl. Facelift 2008)",
+     "yearFrom": 2005,
+     "yearTo": 2011,
+     "bodyType": "wagon",
+     "lengthMm": 4933,
+     "widthMm": 1855,
+     "heightMm": 1463,
+     "wheelbaseMm": 2843,
+     "trunkL": 565,
+     "trunkFoldedL": 1660,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tdi-e-diesel",
+       "name": "2.0 TDI e (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 565,
+       "trunkFoldedL": 1660,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2008,
+       "yearTo": 2011,
+       "notes": "ADAC facelift 10/08-05/11: width 1855, height 1463, wheelbase 2843 mm, 565/1660 l."
+      },
+      {
+       "id": "2-7-tdi-dpf-diesel",
+       "name": "2.7 TDI DPF (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 565,
+       "trunkFoldedL": 1660,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2005,
+       "yearTo": 2008,
+       "notes": "ADAC 05/05-08/08: 4933 x 1855 x 1463 mm, wheelbase 2843 mm, 565/1660 l."
+      },
+      {
+       "id": "3-0-tdi-quattro-diesel-allrad",
+       "name": "3.0 TDI quattro (Diesel, Allrad)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 565,
+       "trunkFoldedL": 1660,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2008,
+       "yearTo": 2011,
+       "notes": "ADAC: all facelift Avant variants, including quattro, have the same dimensions and trunk."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a6/c6/200995/",
+       "what": "ADAC: length 4933, width 1855, height 1463, wheelbase 2843 mm, trunk 565/1660 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a6/c6-facelift/215035",
+       "what": "ADAC: facelift 2.0 TDI e width 1855, height 1463, wheelbase 2843 mm, 565/1660 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a6/c6-facelift/215042",
+       "what": "ADAC: facelift 3.0 TDI quattro, same dimensions and trunk"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/6-A6+Avant",
+       "what": "Cross-check: 4933/1855/1463/2843 mm, 565/1660 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 53,
+      "confirmed": 47,
+      "corrected": 0
+     },
+     "notes": "C6 Avant from 05/2005 to 05/2011, facelift 10/2008. The facelift Avant length was not found; width, height, wheelbase and trunk are unchanged. allroad quattro, S6 and RS 6 Avant are not covered."
     }
    ]
   },
@@ -600,6 +1241,119 @@
       "corrected": 0
      },
      "notes": "530 l applies with the sliding rear bench in its standard position. TDI not checked separately; probably the same as TFSI (not verified)."
+    },
+    {
+     "id": "2011-8u-1-generation",
+     "name": "8U (1. Generation)",
+     "yearFrom": 2011,
+     "yearTo": 2018,
+     "bodyType": "suv",
+     "lengthMm": 4385,
+     "widthMm": 1831,
+     "heightMm": 1590,
+     "wheelbaseMm": 2603,
+     "trunkL": 460,
+     "trunkFoldedL": 1365,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-tfsi-2-0-tfsi-benziner",
+       "name": "1.4 TFSI / 2.0 TFSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": 1365,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "2.0 TFSI also offered with quattro; no different trunk volume published for quattro."
+      },
+      {
+       "id": "2-0-tfsi-2-0-tdi-quattro",
+       "name": "2.0 TFSI / 2.0 TDI quattro",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 460,
+       "trunkFoldedL": 1365,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Audi UK tech data (Q3 2.0 TFSI quattro 170 PS, 04/2011): 460/1365 l."
+      },
+      {
+       "id": "rs-q3-2-5-tfsi-quattro-s-tronic",
+       "name": "RS Q3 2.5 TFSI quattro S tronic",
+       "powertrain": "petrol",
+       "powerPs": 310,
+       "awd": true,
+       "trunkL": 356,
+       "trunkFoldedL": 1261,
+       "lengthMm": 4410,
+       "widthMm": 1841,
+       "heightMm": 1580,
+       "yearFrom": 2013,
+       "yearTo": 2018,
+       "notes": "ADAC: 4410 mm (10/13-11/14), 4411 mm and 340 PS after facelift (02/15-10/16); RS Q3 performance 367 PS from 2016. Trunk 356/1261 l per ADAC for both. Width/height from auto motor und sport."
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": 1365,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Front-drive and quattro versions; ADAC lists 460/1365 l for 2.0 TDI (facelift)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://press.audi.co.uk/assets/documents/original/20340-AudiUK00000079Q320TFSI170PSTechnical.pdf",
+       "what": "Official Audi UK technical data (04/2011): length 4385, width excl. mirrors 1831, height 1590 mm, luggage 460/1365 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/8u-facelift/243731/",
+       "what": "ADAC: facelift 2.0 TDI length 4388 mm, height 1590 mm, trunk 460/1365 l"
+      },
+      {
+       "url": "https://www.speedheads.de/auto-news/audi-q3-2015-zahlreiche-neuheiten-das-sind-die-details-und-preise-0008459.html",
+       "what": "Facelift 2015: 4388 x 1831 x 1590 mm, trunk 460/1365 l"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/marken-modelle/audi/q3/8u/technische-daten/",
+       "what": "Wheelbase 2603 mm (auto motor und sport, ADAC/manufacturer source not found for wheelbase)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/8u/235581",
+       "what": "ADAC: RS Q3 (10/13-11/14) length 4410 mm, trunk 356/1261 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/8u-facelift/243738",
+       "what": "ADAC: RS Q3 facelift (02/15-10/16) length 4411 mm, 340 PS, trunk 356/1261 l"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/audi-rs-q3-2-5-tfsi-quattro/technische-daten/",
+       "what": "RS Q3: 4410 x 1841 x 1580 mm, 310 PS, trunk 356-1261 l"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 41,
+      "confirmed": 41,
+      "corrected": 0
+     },
+     "notes": "Facelift 2015 (8U facelift) changed length only from 4385 to 4388 mm; trunk unchanged (460/1365 l), so not split. Not a separate entry since dimensions practically identical. No hybrid/PHEV variant existed."
     }
    ]
   },
@@ -1027,6 +1781,142 @@
       "corrected": 0
      },
      "notes": "The manufacturer trunk figure for TFSI/TDI was NOT found (550/1550 not confirmed; my unconfirmed recollection of the official value is 520/1520). Wheelbase conflicts: 2819 vs 2824, so null."
+    },
+    {
+     "id": "2008-8r-1-generation-inkl-facelift-2012",
+     "name": "8R (1. Generation, inkl. Facelift 2012)",
+     "yearFrom": 2008,
+     "yearTo": 2017,
+     "bodyType": "suv",
+     "lengthMm": 4629,
+     "widthMm": 1880,
+     "heightMm": 1653,
+     "wheelbaseMm": 2807,
+     "trunkL": 540,
+     "trunkFoldedL": 1560,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tfsi-quattro-3-2-fsi-quattro-benziner",
+       "name": "2.0 TFSI quattro / 3.2 FSI quattro (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 540,
+       "trunkFoldedL": 1560,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Audi UK tech data 2.0 TFSI quattro (07/2008): 540/1560 l."
+      },
+      {
+       "id": "2-0-tdi-diesel-frontantrieb",
+       "name": "2.0 TDI (Diesel, Frontantrieb)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 540,
+       "trunkFoldedL": 1560,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Front-drive 2.0 TDI offered from about 2011; no different trunk volume published."
+      },
+      {
+       "id": "2-0-tdi-3-0-tdi-quattro-diesel",
+       "name": "2.0 TDI / 3.0 TDI quattro (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 540,
+       "trunkFoldedL": 1560,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Audi UK tech data 2.0 TDI quattro (07/2008) and ADAC 2.0 TDI quattro: 540/1560 l."
+      },
+      {
+       "id": "sq5-tdi-quattro-tiptronic",
+       "name": "SQ5 TDI quattro tiptronic",
+       "powertrain": "diesel",
+       "powerPs": 313,
+       "awd": true,
+       "trunkL": 540,
+       "trunkFoldedL": 1560,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2012,
+       "yearTo": 2017,
+       "notes": "Trunk 540/1560 l (auto motor und sport, ADAC). Dimensions conflicting: auto motor und sport 4644 x 1911 x 1624 mm (lowered), ADAC lists 4629 x 1880 x 1653 mm - per-variant dimensions left null. SQ5 TDI competition 326 PS from 2015."
+      },
+      {
+       "id": "2-0-tfsi-hybrid-quattro-tiptronic-hybrid",
+       "name": "2.0 TFSI hybrid quattro tiptronic (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 245,
+       "awd": true,
+       "trunkL": 460,
+       "trunkFoldedL": 1480,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2011,
+       "yearTo": 2015,
+       "notes": "Full hybrid (155 kW TFSI + 40 kW e-motor, system 180 kW/245 PS); battery under cargo floor reduces trunk to 460/1480 l (ADAC)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://press.audi.co.uk/assets/documents/original/20865-AudiUK00000228Q520TFSIquattroTechnical.pdf",
+       "what": "Official Audi UK technical data Q5 2.0 TFSI quattro (07/2008): 4629/1880/1653 mm, luggage 540 l VDA, 1560 l folded to roof"
+      },
+      {
+       "url": "https://press.audi.co.uk/assets/documents/original/20864-AudiUK00000227Q520TDIquattroTechnical.pdf",
+       "what": "Official Audi UK technical data Q5 2.0 TDI quattro (07/2008): 4629/1880/1653 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q5/8r/214089/",
+       "what": "ADAC: wheelbase 2807 mm, width 1880 mm w/o mirrors, trunk 540/1560 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q5/8r-facelift/232201/",
+       "what": "ADAC: Q5 2.0 TFSI hybrid quattro (09/12-05/14) trunk 460/1480 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q5/8r-facelift/241201/",
+       "what": "ADAC: Q5 hybrid quattro (05/14-04/15) trunk 460 l"
+      },
+      {
+       "url": "https://seriouswheels.com/2011-audi-q5-hybrid-quattro.htm",
+       "what": "Reprint of Audi press release: hybrid 460-1480 l, 155 kW + 40 kW"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q5/8r-facelift/246846/",
+       "what": "ADAC: SQ5 TDI competition (04/15-01/17) 4629 x 1880 x 1653 mm, trunk 540/1560 l"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/fahrbericht/audi-sq5-tdi-im-fahrbericht-schwelgen-im-diesel-ueberfluss-1/technische-daten/",
+       "what": "auto motor und sport: SQ5 TDI 313 PS, 4644 x 1911 x 1624 mm, trunk 540-1560 l"
+      },
+      {
+       "url": "https://www.autobild.de/artikel/audi-q5-facelift-ami-2012-3406751.html",
+       "what": "AUTO BILD: facelift 2012 dimensions unchanged except width, max trunk 1560 l unchanged"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 41,
+      "confirmed": 41,
+      "corrected": 0
+     },
+     "notes": "Facelift autumn 2012 (MY 2013): trunk unchanged at 540/1560 l. Sources conflict on facelift dimensions (AUTO BILD claims width now 1.90 m, ADAC still lists 1880 mm; angurten gives 4663 mm which likely refers to FY), so facelift not split and pre-facelift official dimensions used. German market launch late 2008."
     }
    ]
   }
