@@ -1,0 +1,681 @@
+{
+ "id": "volvo-4",
+ "brand": "Volvo",
+ "data": {
+  "models": [
+   {
+    "brand": "Volvo",
+    "model": "XC40",
+    "generations": [
+     {
+      "name": "1. Generation (XC40, 2018-2022)",
+      "yearFrom": 2018,
+      "yearTo": 2022,
+      "bodyType": "suv",
+      "lengthMm": 4425,
+      "widthMm": 1863,
+      "heightMm": 1652,
+      "wheelbaseMm": 2702,
+      "trunkL": 433,
+      "trunkFoldedL": 1309,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "T3 / T4 (Benziner, Frontantrieb)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 433,
+        "trunkFoldedL": 1309,
+        "notes": "ADAC T3 Momentum / T4 Inscription Geartronic 02/18-04/19"
+       },
+       {
+        "name": "T5 AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 428,
+        "trunkFoldedL": 1304,
+        "notes": "ADAC T5 Momentum Pro AWD Geartronic 04/19-03/20"
+       },
+       {
+        "name": "D3 / D4 AWD (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 428,
+        "trunkFoldedL": 1304,
+        "notes": "Values from ADAC D4 Momentum AWD Geartronic 02/18-04/19; FWD D3 presumably 433/1309 (not verified)"
+       },
+       {
+        "name": "T5 Twin Engine (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 262,
+        "awd": false,
+        "trunkL": 433,
+        "trunkFoldedL": 1309,
+        "yearFrom": 2020,
+        "yearTo": 2022,
+        "notes": "ADAC T5 Twin Engine Inscription DKG 01/20-03/20 lists 433/1309; 262 PS system output per AUTO BILD/motor1 reports"
+       },
+       {
+        "name": "Recharge P8 AWD Pure Electric (Elektro)",
+        "powertrain": "bev",
+        "powerPs": 408,
+        "awd": true,
+        "trunkL": 414,
+        "trunkFoldedL": 1290,
+        "yearFrom": 2020,
+        "yearTo": 2022,
+        "notes": "ADAC Recharge Pure Electric Twin Pro 03/21-11/21: 414/1290 l plus 31 l frunk"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation/283787/",
+        "what": "ADAC: XC40 T3 Momentum 02/18-04/19 dimensions 4425x1863x1652, trunk 433/1309"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation/287925/",
+        "what": "ADAC: T4 Inscription trunk 433/1309"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation/283786/",
+        "what": "ADAC: D4 Momentum AWD trunk 428/1304"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation/298319",
+        "what": "ADAC: T5 AWD Momentum Pro trunk 428/1304"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation/305211",
+        "what": "ADAC: T5 Twin Engine Inscription DKG trunk 433/1309"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation/319932/",
+        "what": "ADAC: Recharge Pure Electric Twin Pro dimensions, trunk 414/1290, frunk 31 l"
+       },
+       {
+        "url": "https://www.volvocars.com/en-bh/support/car/xc40/18w17/article/b0804d54c7fc096bc0a81f6f065ad63e_0362eef4c7fc436fc0a81f6f7c27a289_0a9f81ad7fe71c97c0a8015176e5bb71/",
+        "what": "Volvo support: XC40 length 4425, wheelbase 2702, body width 1863"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/volvo-xc40-2017-10049105.html",
+        "what": "AUTO BILD: Volvo stated trunk 460/1336 l (manufacturer figure, different method)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Trunk values are ADAC catalogue (VDA) values; Volvo's own brochure figure was 460/1336 l (likely to the roof / different method). No official Volvo press-kit VDA data found within search budget."
+     },
+     {
+      "name": "1. Generation Facelift (XC40; Elektro seit 2024 als EX40)",
+      "yearFrom": 2022,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4440,
+      "widthMm": 1863,
+      "heightMm": 1652,
+      "wheelbaseMm": 2702,
+      "trunkL": 452,
+      "trunkFoldedL": 1328,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "B3 / B4 (Mild-Hybrid Benziner)",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 452,
+        "trunkFoldedL": 1328,
+        "notes": "ADAC B3 Plus Dark: 452/1328, length 4440, height 1652"
+       },
+       {
+        "name": "Recharge T4 / T5 Plug-in Hybrid",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 405,
+        "trunkFoldedL": 1281,
+        "lengthMm": 4425,
+        "yearFrom": 2022,
+        "yearTo": null,
+        "notes": "ADAC T5 Core DKG 03/22-10/22: 405/1281, length 4425 (early facelift entry)"
+       },
+       {
+        "name": "Recharge Pure Electric Twin Motor (Elektro, 2022-2023)",
+        "powertrain": "bev",
+        "powerPs": 408,
+        "awd": true,
+        "trunkL": 419,
+        "trunkFoldedL": 1295,
+        "lengthMm": 4425,
+        "heightMm": 1647,
+        "yearFrom": 2022,
+        "yearTo": 2023,
+        "notes": "ADAC Twin Motor Plus 03/22-11/22; frunk 31 l"
+       },
+       {
+        "name": "Recharge Pure Electric Single Motor / Extended Range (Elektro, MY2024)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 452,
+        "trunkFoldedL": 1328,
+        "heightMm": 1647,
+        "yearFrom": 2023,
+        "yearTo": 2024,
+        "notes": "ADAC Single Motor Plus 10/23-02/24 lists 452/1328 l"
+       },
+       {
+        "name": "EX40 Single Motor / Extended Range / Twin Motor (Elektro)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 410,
+        "trunkFoldedL": 1400,
+        "heightMm": 1647,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "ADAC EX40 entries from 02/24: 410/1400 l + 31 l frunk; Twin Motor is AWD with same values. Values conflict with earlier BEV entries (452/1328, 419/1295) - check."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/volvo-xc-40/",
+        "what": "ADAC: B3 mild hybrid 452/1328, length 4440, height 1652; T5 Recharge PHEV 405/1281"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation-facelift/324763/",
+        "what": "ADAC: XC40 Recharge Plug-in Hybrid T5 Core 03/22-10/22"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation-facelift/324772/",
+        "what": "ADAC: Recharge Pure Electric Twin Motor Plus 03/22-11/22 419/1295, length 4425, height 1647"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation-facelift/326918/",
+        "what": "ADAC: Recharge Pure Electric Single Motor Plus 10/23-02/24 length 4440, height 1647, trunk 452/1328"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex40/1generation/333052/",
+        "what": "ADAC: EX40 Single Motor Essential 02/24-: 4440/1647, trunk 410/1400, frunk 31"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex40/1generation/333058/",
+        "what": "ADAC: EX40 Twin Motor Core AWD same values"
+       },
+       {
+        "url": "https://www.volvocars.com/de-ch/cars/xc40/specifications/",
+        "what": "Volvo CH: B4 mild hybrid length 4440, height 1652"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Volvo_XC40",
+        "what": "XC40 Recharge Pure Electric renamed EX40 in 2024"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Facelift revealed 2022 (MY2023). ADAC entries for early facelift cars still list 4425 mm length; 4440 from late 2023. BEV trunk values differ across ADAC entries (414/419/452/410 l) - no official Volvo VDA source found to resolve. BEVs have 31 l frunk. Pure-ICE petrol/diesel without mild hybrid largely dropped by facelift."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "C40",
+    "generations": [
+     {
+      "name": "1. Generation (C40 Recharge; seit 2024 EC40)",
+      "yearFrom": 2021,
+      "yearTo": null,
+      "bodyType": "suv-coupe",
+      "lengthMm": 4440,
+      "widthMm": 1873,
+      "heightMm": 1591,
+      "wheelbaseMm": 2702,
+      "trunkL": 413,
+      "trunkFoldedL": 1205,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Recharge Twin Motor / EC40 Twin Motor (Elektro, AWD)",
+        "powertrain": "bev",
+        "powerPs": 408,
+        "awd": true,
+        "trunkL": 413,
+        "trunkFoldedL": 1205,
+        "notes": "ADAC Twin Motor 1st Edition 10/21-03/22 and Twin Motor Plus 05/23-02/24: 413/1205 l + 31 l frunk"
+       },
+       {
+        "name": "Recharge Single Motor / EC40 Single Motor (Extended Range) (Elektro)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 413,
+        "trunkFoldedL": 1205,
+        "notes": "Assumed same body; trunk per ADAC Twin Motor entries; Volvo EC40 page lists 404 l behind 2nd row (different method)"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c40/1generation/319710/",
+        "what": "ADAC: C40 Recharge Twin Motor 1st Edition dims 4440x1873x1591, trunk 413/1205, frunk 31 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c40/1generation/326915/",
+        "what": "ADAC: Twin Motor Plus 05/23-02/24 same dims/trunk, wheelbase 2702"
+       },
+       {
+        "url": "https://www.volvocars.com/de/support/car/ec40/article/0ed816eed33d98cac0a8cc377bc12bc7-e6a7973b2bf222b2c0a8b09757c97ec8-8664b2fa77a7e089c0a8296870d1a409/",
+        "what": "Volvo DE support EC40: length 4440, width 1873, height 1591, wheelbase 2702"
+       },
+       {
+        "url": "https://www.volvocars.com/de-ch/cars/ec40-electric/specifications/",
+        "what": "Volvo CH: EC40 404 l behind 2nd row"
+       },
+       {
+        "url": "https://www.autozeitung.de/volvo-c40-2021-preis-motoren-198934.html",
+        "what": "Rename C40 -> EC40 (2024)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Width 1873 per Volvo/ADAC (XC40 lists body width 1863). Frunk 31 l. Renamed EC40 in 2024."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "EX30",
+    "generations": [
+     {
+      "name": "1. Generation",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4233,
+      "widthMm": 1838,
+      "heightMm": 1550,
+      "wheelbaseMm": 2650,
+      "trunkL": 318,
+      "trunkFoldedL": 1000,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Single Motor / Single Motor Extended Range (Elektro)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 318,
+        "trunkFoldedL": 1000,
+        "notes": "ADAC; frunk 7 l"
+       },
+       {
+        "name": "Twin Motor Performance (Elektro, AWD)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 318,
+        "trunkFoldedL": 1000,
+        "notes": "ADAC Twin Motor Performance Ultra AWD 01/24-03/26"
+       },
+       {
+        "name": "Cross Country Twin Motor Performance / P8 (Elektro, AWD)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "heightMm": 1567,
+        "yearFrom": 2025,
+        "notes": "ADAC Cross Country: height 1567, ground clearance 190 mm; trunk not confirmed in search snippet"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex30/1generation/328820/",
+        "what": "ADAC: EX30 Single Motor Core 4233x1838x1550, trunk 318/1000"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex30/1generation/328826/",
+        "what": "ADAC: Twin Motor Performance Ultra AWD same dims/trunk"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex30/1generation/338828/",
+        "what": "ADAC: Cross Country Twin Motor Performance height 1567"
+       },
+       {
+        "url": "https://www.meinauto.de/volvo/neuwagen/volvo-ex30/angebote/v-ex30/technische-daten",
+        "what": "wheelbase 2650; trunk 318, folded 904-1000"
+       },
+       {
+        "url": "https://www.volvocars.com/us/cars/ex30-electric/specifications/",
+        "what": "Volvo US: frunk 0.2 cu ft (~7 l)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Folded value 1000 l = ADAC 'dachhoch'; other sources give 904 l (Volvo, likely to seatback height). Frunk 7 l. Width 1837-1838 depending on source."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "XC60",
+    "generations": [
+     {
+      "name": "1. Generation",
+      "yearFrom": 2008,
+      "yearTo": 2013,
+      "bodyType": "suv",
+      "lengthMm": 4627,
+      "widthMm": 1891,
+      "heightMm": 1713,
+      "wheelbaseMm": 2774,
+      "trunkL": 495,
+      "trunkFoldedL": 1455,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "T5 / T6 AWD / 3.2 AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 495,
+        "trunkFoldedL": 1455
+       },
+       {
+        "name": "DRIVe / D3 / D4 (Diesel, Frontantrieb)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 495,
+        "trunkFoldedL": 1455
+       },
+       {
+        "name": "D5 AWD (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 185,
+        "awd": true,
+        "trunkL": 495,
+        "trunkFoldedL": 1455,
+        "notes": "185 PS at launch (2008); later 205/215 PS"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.mobile.de/auto/volvo/xc60/2008/suv/modell/daten-fakten/",
+        "what": "length 4627, height 1713, trunk 495/1455"
+       },
+       {
+        "url": "https://www.autokosten.net/volvo/xc60/xc60-d5/xc60-11-08-06-13_4/technische-daten",
+        "what": "D5 AWD: 4627x1891x1713, trunk 495/1455"
+       },
+       {
+        "url": "https://www.autozine.de/volvo/xc60-2008-2017/d5-summum",
+        "what": "trunk 495/1455"
+       },
+       {
+        "url": "https://www.conceptcarz.com/s15116/volvo-xc60.aspx",
+        "what": "wheelbase ~2774 mm (109.21 in)"
+       },
+       {
+        "url": "https://www.autosieger.de/modules.php?op=modload&name=Reviews&file=index&req=showcontent&id=734&page=3",
+        "what": "D5 185 PS"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "No manufacturer/ADAC source for pre-facelift found within budget; values from secondary databases, consistent with facelift data except length."
+     },
+     {
+      "name": "1. Generation (Facelift)",
+      "yearFrom": 2014,
+      "yearTo": 2017,
+      "bodyType": "suv",
+      "lengthMm": 4644,
+      "widthMm": 1891,
+      "heightMm": 1713,
+      "wheelbaseMm": 2774,
+      "trunkL": 495,
+      "trunkFoldedL": 1455,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "T5 / T6 AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 495,
+        "trunkFoldedL": 1455
+       },
+       {
+        "name": "D3 / D4 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 495,
+        "trunkFoldedL": 1455,
+        "notes": "ADAC D4 Momentum"
+       },
+       {
+        "name": "D4 AWD / D5 AWD (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 495,
+        "trunkFoldedL": 1455,
+        "notes": "ADAC D4 Momentum AWD same values"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/1generation-facelift/245762/",
+        "what": "ADAC: D4 Momentum 03/15-05/17 4644x1891x1713, wheelbase 2774, trunk 495/1455"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/1generation-facelift/245773/",
+        "what": "ADAC: D4 Momentum AWD same dims/trunk"
+       },
+       {
+        "url": "https://www.volvocars.com/de/support/car/xc60/14w20/article/18f77489f78f457dc0a801e800a04016/",
+        "what": "Volvo DE support (MY2014): 4644/1891/1713/2774"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1191-XC60",
+        "what": "Facelift on sale from June 2013 as MY2014"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Split because length grew 4627->4644. Petrol trims mix FWD (T5) and AWD (T6); trunk identical."
+     },
+     {
+      "name": "2. Generation",
+      "yearFrom": 2017,
+      "yearTo": 2025,
+      "bodyType": "suv",
+      "lengthMm": 4688,
+      "widthMm": 1902,
+      "heightMm": 1658,
+      "wheelbaseMm": 2865,
+      "trunkL": 483,
+      "trunkFoldedL": 1410,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "D4 / D5 / B4 Diesel AWD (Diesel / Mild-Hybrid-Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 483,
+        "trunkFoldedL": 1410,
+        "notes": "ADAC D4 R Design AWD 11/17-04/19, B4 Diesel 04/19-07/20 and 12/21-10/22"
+       },
+       {
+        "name": "B4 / B5 / B6 (Mild-Hybrid Benziner)",
+        "powertrain": "mhev",
+        "powerPs": 250,
+        "awd": true,
+        "trunkL": 483,
+        "trunkFoldedL": 1410,
+        "notes": "ADAC B5 Core AWD 09/23-07/24 (250 PS); B4 FWD also 483/1410"
+       },
+       {
+        "name": "T8 Twin Engine (Plug-in-Hybrid, bis 2021)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 483,
+        "trunkFoldedL": 1410,
+        "yearFrom": 2017,
+        "yearTo": 2021,
+        "notes": "ADAC T8 Twin Engine R Design 07/17-02/18: 483/1410"
+       },
+       {
+        "name": "Recharge T6 / T8 Plug-in Hybrid (ab 2022, größere Batterie)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 468,
+        "trunkFoldedL": 1395,
+        "yearFrom": 2022,
+        "yearTo": 2025,
+        "notes": "ADAC T8 02/23-09/23"
+       },
+       {
+        "name": "T8 Polestar Engineered (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 455,
+        "awd": true,
+        "trunkL": 468,
+        "trunkFoldedL": 1395,
+        "notes": "ADAC from 01/24"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation/283862/",
+        "what": "ADAC: D4 R Design AWD 11/17-04/19 trunk 483/1410"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation/269239/",
+        "what": "ADAC: T8 Twin Engine 07/17-02/18 trunk 483/1410"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation/298355/",
+        "what": "ADAC: B4 Diesel 04/19-07/20 4688x1902x1658, trunk 483/1410"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation-facelift/330788/",
+        "what": "ADAC: B5 Core AWD 250 PS, 483/1410"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation-facelift/327292/",
+        "what": "ADAC: T8 02/23-09/23 trunk 468/1395"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation-facelift/332055/",
+        "what": "ADAC: T8 Polestar Engineered 4688x1902x1658, 468/1395, 455 PS"
+       },
+       {
+        "url": "https://www.mobile.de/auto/volvo/xc60/2017/suv/modell/daten-fakten/",
+        "what": "length 4688, height 1658, wheelbase 2865; Volvo launch figure 505/1432 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "2021 facelift (MY2022) did not change dimensions -> not split. Volvo launch press figures 505/1432 l (different method) vs ADAC 483/1410. PHEV trunk smaller (468/1395) from MY2022 with larger battery."
+     },
+     {
+      "name": "2. Generation (Facelift 2025)",
+      "yearFrom": 2025,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4708,
+      "widthMm": 1902,
+      "heightMm": 1655,
+      "wheelbaseMm": 2865,
+      "trunkL": 483,
+      "trunkFoldedL": 1543,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "B5 (Mild-Hybrid Benziner) AWD",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 483,
+        "trunkFoldedL": 1543
+       },
+       {
+        "name": "T6 / T8 Plug-in Hybrid AWD",
+        "powertrain": "phev",
+        "powerPs": 455,
+        "awd": true,
+        "trunkL": 468,
+        "trunkFoldedL": 1528,
+        "heightMm": 1651,
+        "notes": "ADAC T8 Ultra Bright 07/25: 455 PS, 468/1528, height 1651"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation-facelift-3/352771/",
+        "what": "ADAC: B5 Mild-Hybrid Core AWD 4708x1902x1655, trunk 483/1543"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation-facelift-2/341493/",
+        "what": "ADAC: T8 Ultra Bright 07/25 4708x1902x1651, 468/1528"
+       },
+       {
+        "url": "https://www.volvocars.com/de/cars/xc60/specifications/",
+        "what": "Volvo DE: length 4708, wheelbase 2865, 1543 l max"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Split because length (4708) and max volume (1543/1528) changed. ADAC entry dates for this series are inconsistent ('facelift-2' from 04/25, 'facelift-3' entries); grouped together."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "XC40 1. Generation powerPs for most variants",
+   "XC40 1. Generation Diesel FWD (D3) trunk verified",
+   "XC40 facelift EX40 BEV trunk conflict (410/1400 vs 452/1328) unresolved",
+   "EX30 Cross Country trunkL/trunkFoldedL",
+   "EX30 powerPs",
+   "C40 Single Motor trunk verified separately",
+   "XC60 1. Generation pre-facelift manufacturer/ADAC source",
+   "XC60 powerPs for most variants",
+   "loadSpace for all models"
+  ],
+  "notes": "Official Volvo press-kit VDA figures were not reachable via search; most values are ADAC Autokatalog (manufacturer data as published by ADAC), with Volvo support pages for dimensions. Volvo's own marketing trunk figures (e.g. XC40 460/1336, XC60 505/1432) differ from ADAC values. Search budget (20) used."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "EX30",
+    "generation": "1. Generation",
+    "variant": "Cross Country Twin Motor Performance / P8 (Elektro, AWD)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 318,
+    "sourceUrl": "https://insideevs.de/news/801547/volvo-ex30-cross-country-dauertest-teil2/",
+    "evidence": "InsideEVs.de long-term test of EX30 Cross Country (2026): trunk '318 - 1.000 Liter (+7 Liter Frunk)'; AutoScout24 EX30 Cross Country also 318-1000 l. Same values as Volvo's official EX30 spec pages (318 l second row up, 1000 l max seats folded)."
+   },
+   {
+    "model": "EX30",
+    "generation": "1. Generation",
+    "variant": "Cross Country Twin Motor Performance / P8 (Elektro, AWD)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1000,
+    "sourceUrl": "https://insideevs.de/news/801547/volvo-ex30-cross-country-dauertest-teil2/",
+    "evidence": "InsideEVs.de EX30 Cross Country long-term test: '318 - 1.000 Liter (+7 Liter Frunk)'."
+   }
+  ],
+  "missing": [
+   {
+    "model": "XC40",
+    "detail": "1. Generation (2018-2022): BEV variant 'Recharge Pure Electric Single Motor (P6, Frontantrieb, 231 PS/170 kW)' missing. ADAC entry 'XC40 Recharge Pure Electric Single Pro (10/21 - 11/21)' https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation/321657 lists 414/1290 l + 31 l frunk, FWD (awd:false), yearFrom 2021."
+   }
+  ],
+  "checkedValues": 51,
+  "confirmedValues": 46,
+  "notes": "19 WebSearch calls used. XC40/EX40 BEV trunk: Volvo DE official EX40 spec page (https://www.volvocars.com/de/cars/ex40-electric/specifications/) lists 'Gepäckraumvolumen hinter zweiter Sitzreihe: 410 l', 'maximal hinter erster Sitzreihe: 1 400 l', frunk 31 l -> EX40 410/1400 confirmed by manufacturer. Early XC40 Recharge P8 414/1290 confirmed by insideevs.de 2021 test; 2022-23 Twin 419/1295 consistent with evspecifications/vehiclesizes; MY2024 Single Motor (RWD) 452/1328 consistent with a German Autotest (regensburger-nachrichten). The differences are real data revisions across model years, not errors; no Volvo VDA figure for the pre-2024 BEV found. A 2020 launch report (driving.co.uk) cited 413 l for the Recharge (vs ADAC 414) - not strong enough to correct. XC60 2008-2013 now confirmed by ADAC (https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/1generation/214512, D5 AWD 11/08-04/09): 4627 x 1891 x 1713 mm, wheelbase 2774, trunk 495/1455 l, 185 PS -> all pre-facelift values confirmed; confidence can be raised. XC40 Gen1 dims 4425/1652/2702 and ~1.86 m width confirmed (carexpert/angurten). C40 413/1205 + 31 l frunk confirmed (evspecifications, incl. Single Motor). EX30 318/1000 l confirmed by Volvo's own spec pages (318 l second row up, 1000 l max seats folded; 904 l only third-party); wheelbase 2650, length 4233 confirmed; width given as 1836 (RWD)/1837 (AWD) by AutoScout24/Carwow vs 1838 in data - minor, not corrected without manufacturer source. XC60 Gen2 4688/1902/1658/2865 confirmed (carsales); 483/1410 confirmed (autoplenum). XC60 2025 facelift: length 4708, 483/1543 (B5, autoplenum) and T8 468/1528 (autotijd) confirmed; height 1655 not confirmed (autoplenum 1650, autotijd T6 1656) - left unchanged. Volvo's own non-VDA marketing figures (XC40 460/1336, XC40 B4 'max' 569/1432, XC60 505) use a different method and were not used as corrections. XC40 facelift length 4440 vs 4425 in ultimatespecs (B4 2023) - ADAC data already reflects the 4425->4440 change; not corrected."
+ }
+}

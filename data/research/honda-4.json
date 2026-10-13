@@ -1,0 +1,839 @@
+{
+ "id": "honda-4",
+ "brand": "Honda",
+ "data": {
+  "models": [
+   {
+    "brand": "Honda",
+    "model": "CR-V",
+    "generations": [
+     {
+      "loadSpace": null,
+      "name": "RD (2. Generation, Facelift 2005)",
+      "yearFrom": 2002,
+      "yearTo": 2006,
+      "bodyType": "suv",
+      "lengthMm": 4635,
+      "widthMm": 1785,
+      "heightMm": 1710,
+      "wheelbaseMm": 2630,
+      "trunkL": 527,
+      "trunkFoldedL": 952,
+      "variants": [
+       {
+        "name": "2.0 i-VTEC 150 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "awd": true,
+        "trunkL": 527,
+        "trunkFoldedL": 952,
+        "notes": "150 PS per drivearabia/third-party test; AWD assumed standard (Real Time 4WD) - not verified per price list"
+       },
+       {
+        "name": "2.2 i-CTDi 140 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 140,
+        "awd": true,
+        "trunkL": 527,
+        "trunkFoldedL": 952,
+        "yearFrom": 2005,
+        "notes": "103 kW/140 PS per autokosten/motorimdetail data sheets"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.motorimdetail.de/pa/honda-cr-v-2-2i-ctdi-es-2005",
+        "what": "length 4635 mm, wheelbase 2630 mm, trunk 527 l (third-party data sheet)"
+       },
+       {
+        "url": "https://www.autokosten.net/honda/cr-v/cr-v-2-2i-ctdi/cr-v-ii-11-04-12-06/technische-daten",
+        "what": "trunk 527 l / 952 l folded roof-high, 2.2 i-CTDi 140 PS (third-party)"
+       },
+       {
+        "url": "https://fastcarcheck.uk/specs/make/honda/cr-v/65317",
+        "what": "width 1785 mm, height 1710 mm (2.0 150 PS) - third-party"
+       },
+       {
+        "url": "https://automobilrevue.ch/images/Honda-Jubil%C3%A4um/Honda-CR-V-2.pdf",
+        "what": "historic brochure excerpt: width 178 cm, height 171 cm (pre-facelift)"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Generation built 2001/2002-2006, still sold in Germany 2005-2006 (facelift 2005). No official Honda data sheet found within search budget; values from third-party databases. Folded volume sources differ (948-952 l roof-high vs. 1568 l in another database). 2.2 i-CTDi offered in Germany from late 2004/2005."
+     },
+     {
+      "loadSpace": null,
+      "name": "RE (3. Generation)",
+      "yearFrom": 2007,
+      "yearTo": 2012,
+      "bodyType": "suv",
+      "lengthMm": 4525,
+      "widthMm": 1820,
+      "heightMm": 1675,
+      "wheelbaseMm": 2630,
+      "trunkL": 556,
+      "trunkFoldedL": 1532,
+      "variants": [
+       {
+        "name": "2.0 i-VTEC 150 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "awd": true,
+        "trunkL": 556,
+        "trunkFoldedL": 1532
+       },
+       {
+        "name": "2.2 i-CTDi 140 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 140,
+        "awd": true,
+        "trunkL": 556,
+        "trunkFoldedL": 1532,
+        "yearTo": 2009
+       },
+       {
+        "name": "2.2 i-DTEC (Diesel, Facelift 2010)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 556,
+        "trunkFoldedL": 1532,
+        "yearFrom": 2010,
+        "notes": "power not verified within search budget"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autokosten.net/honda/cr-v/cr-v-2-0-i-vtec/cr-v-iii-01-07-02-10/technische-daten",
+        "what": "2.0 i-VTEC 150 PS: length 4525, width 1820, height 1675, trunk 556 l / 955 l window-high / 1532 l roof-high (third-party data sheet)"
+       },
+       {
+        "url": "https://www.wikiwand.com/de/Honda%20CR-V",
+        "what": "length 4525, width 1820, height 1675, wheelbase 2630"
+       },
+       {
+        "url": "https://www.automoli.com/de/vehicles/honda/cr-v/cr-v-iii-2657/",
+        "what": "cross-check dimensions (4530/1820/1675, wb 2630; some variants 4519/2620), trunk 524-1532"
+       },
+       {
+        "url": "https://www.autokosten.net/honda/cr-v/cr-v-2-2i-ctdi/cr-v-iii-01-07-02-10_1/technische-daten",
+        "what": "2.2 i-CTDi variant"
+       }
+      ],
+      "confidence": "low",
+      "notes": "No official Honda data found within budget. Wheelbase conflicting (2620 vs 2630 mm). Trunk sources differ (556 vs 524 l). Facelift 2010 (i-DTEC diesel) not split - no evidence of changed dimensions/trunk found. AWD standard for diesel; 2WD 2.0 availability not verified."
+     },
+     {
+      "loadSpace": null,
+      "name": "RM (4. Generation)",
+      "yearFrom": 2013,
+      "yearTo": 2015,
+      "bodyType": "suv",
+      "lengthMm": 4570,
+      "widthMm": 1820,
+      "heightMm": null,
+      "wheelbaseMm": 2630,
+      "trunkL": 589,
+      "trunkFoldedL": 1669,
+      "variants": [
+       {
+        "name": "2.0 i-VTEC 155 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 155,
+        "awd": true,
+        "trunkL": 589,
+        "trunkFoldedL": 1669,
+        "notes": "2WD version also offered (not verified)"
+       },
+       {
+        "name": "2.2 i-DTEC 150 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": true,
+        "trunkL": 589,
+        "trunkFoldedL": 1669
+       },
+       {
+        "name": "1.6 i-DTEC (Diesel, 2WD)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 589,
+        "trunkFoldedL": 1669,
+        "yearFrom": 2013,
+        "notes": "power not verified"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://cararac.de/abmessungen/honda/cr-v.html",
+        "what": "pre-facelift length 4570 mm (third-party)"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/marken-modelle/honda/cr-v/technische-daten/",
+        "what": "trunk 589-1669 l"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/honda-cr-v-2012-preise-3652891.html",
+        "what": "engines 2.0 155 PS petrol, 2.2 diesel 150 PS"
+       },
+       {
+        "url": "https://w3.honda.de/globalimages/pdf/de/car/de_car_br_cr-v_2015_2015-03_preise_ausstattung_daten.pdf",
+        "what": "wheelbase 2630, width 1820 (official 2015 price list; assumed unchanged from pre-facelift)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "European launch Nov 2012 (MY 2013). Height not found. Trunk 589/1669 l per official 2015 list; assumed same for pre-facelift."
+     },
+     {
+      "loadSpace": null,
+      "name": "RM (4. Generation, Facelift)",
+      "yearFrom": 2015,
+      "yearTo": 2018,
+      "bodyType": "suv",
+      "lengthMm": 4605,
+      "widthMm": 1820,
+      "heightMm": null,
+      "wheelbaseMm": 2630,
+      "trunkL": 589,
+      "trunkFoldedL": 1669,
+      "variants": [
+       {
+        "name": "2.0 i-VTEC (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 589,
+        "trunkFoldedL": 1669,
+        "notes": "power not verified; 4WD also offered"
+       },
+       {
+        "name": "1.6 i-DTEC (Diesel, 2WD)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 589,
+        "trunkFoldedL": 1669
+       },
+       {
+        "name": "1.6 i-DTEC (Diesel, AWD)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 589,
+        "trunkFoldedL": 1669
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://w3.honda.de/globalimages/pdf/de/car/de_car_br_cr-v_2015_2015-03_preise_ausstattung_daten.pdf",
+        "what": "official Honda DE price list 2015: length 4605, width 1820 (2096 with mirrors), wheelbase 2630, trunk 589 l VDA"
+       },
+       {
+        "url": "https://www.mobile.de/auto/honda/cr-v/2012/suv/modell/daten-fakten/",
+        "what": "length 4605, max load volume 1669 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 2015 lengthened the car (4570 -> 4605 mm). Height not found. Variant power ratings not verified within budget;"
+     },
+     {
+      "loadSpace": null,
+      "name": "RW (5. Generation)",
+      "yearFrom": 2018,
+      "yearTo": 2023,
+      "bodyType": "suv",
+      "lengthMm": 4600,
+      "widthMm": 1855,
+      "heightMm": 1689,
+      "wheelbaseMm": 2663,
+      "trunkL": 561,
+      "trunkFoldedL": 1756,
+      "variants": [
+       {
+        "name": "1.5 VTEC TURBO 173 PS (Benziner, 5-Sitzer)",
+        "powertrain": "petrol",
+        "powerPs": 173,
+        "awd": false,
+        "trunkL": 561,
+        "trunkFoldedL": 1756,
+        "yearTo": 2019,
+        "notes": "1638 l folded with panoramic roof; AWD also offered with same values. Window-high folded 1123 l (ADAC)."
+       },
+       {
+        "name": "1.5 VTEC TURBO 173 PS (Benziner, 7-Sitzer)",
+        "powertrain": "petrol",
+        "powerPs": 173,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "7-seater: 150 l with all 7 seats up (Honda AT); value with 3rd row folded not found. Max load length 1800 mm (vs 1830 mm 5-seater)."
+       },
+       {
+        "name": "2.0 i-MMD Hybrid 2WD (Vollhybrid)",
+        "powertrain": "hev",
+        "powerPs": 184,
+        "awd": false,
+        "trunkL": 499,
+        "trunkFoldedL": 1694,
+        "yearFrom": 2019,
+        "notes": "184 PS = traction motor output. 1638 l folded with glass roof."
+       },
+       {
+        "name": "2.0 i-MMD Hybrid AWD (Vollhybrid)",
+        "powertrain": "hev",
+        "powerPs": 184,
+        "awd": true,
+        "trunkL": 497,
+        "trunkFoldedL": 1692,
+        "yearFrom": 2019,
+        "notes": "folded 1692-1694 l depending on trim; 1638 l with glass roof"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-v/5generation/294039/",
+        "what": "ADAC: length 4600, width 1855, height 1689, trunk 561 l, 1123 l window-high (1.5 Turbo AWD)"
+       },
+       {
+        "url": "https://hondanews.eu/at/de/cars/media/pressreleases/135746/honda-cr-v-2018-15-vtec-turbo3",
+        "what": "official: 1756 l folded (1638 with panoramic roof), load length 1830/1800 mm"
+       },
+       {
+        "url": "https://www.honda.at/content/dam/local/austria/cars/news/pdf/Honda_at_CR-V_2018_Detailinformationen_v2.pdf",
+        "what": "official: 7-seater 150 l"
+       },
+       {
+        "url": "https://hondanews.eu/at/de/cars/media/pressreleases/159992/honda-cr-v-hybrid-2019",
+        "what": "official: Hybrid 497 l, 1064 l window-high, 1694 l roof-high"
+       },
+       {
+        "url": "https://www.honda.de/content/dam/local/germany/cars/pdf/download-broschueren/cr-v-hybrid/CR-V_Hybrid_Preise_Ausstattung_Daten_2020-11-24.pdf",
+        "what": "official DE price list: Hybrid 2WD 499 l / AWD 497 l, 1692-1694 l"
+       },
+       {
+        "url": "https://www.autoplenum.de/auto/honda/cr-v/suv-2018/2-0-i-mmd-145-ps",
+        "what": "wheelbase 2663 mm"
+       },
+       {
+        "url": "https://www.auto-data.net/en/honda-cr-v-v-1.5-vtec-turbo-173hp-34296",
+        "what": "1.5 VTEC Turbo 173 PS"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Petrol 1.5 VTEC Turbo launched autumn 2018, Hybrid early 2019; from ~2020 Germany hybrid-only. Heights vary by source (1679-1689)."
+     },
+     {
+      "loadSpace": null,
+      "name": "RS (6. Generation)",
+      "yearFrom": 2023,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4706,
+      "widthMm": 1866,
+      "heightMm": 1674,
+      "wheelbaseMm": 2700,
+      "trunkL": 587,
+      "trunkFoldedL": 1642,
+      "variants": [
+       {
+        "name": "e:HEV 2WD (Vollhybrid)",
+        "powertrain": "hev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 587,
+        "trunkFoldedL": 1642,
+        "notes": "1070 l window-high. Power not verified within budget."
+       },
+       {
+        "name": "e:HEV AWD (Vollhybrid)",
+        "powertrain": "hev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 579,
+        "trunkFoldedL": 1634
+       },
+       {
+        "name": "e:PHEV 2WD (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 617,
+        "trunkFoldedL": 1710,
+        "notes": "PHEV has the LARGER trunk; press kit also quotes 635-647 l incl. underfloor compartment"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.honda.de/cars/new/cr-v-hybrid-suv/specifications.html",
+        "what": "official DE spec page: e:HEV 2WD 587/1070/1642 l, AWD 579/1634 l, e:PHEV 617/1710 l"
+       },
+       {
+        "url": "https://hondanews.eu/ch/de/cars/media/pressreleases/449040/presskit-honda-cr-v-2023",
+        "what": "official press kit: trunk 587/579 e:HEV, 617 e:PHEV"
+       },
+       {
+        "url": "https://www.motorprofis.at/honda/erster-test-honda-cr-v-e-hev-und-e-phev",
+        "what": "length 4706, width 1866, height 1673-1684, wheelbase 2700"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/honda-cr-v/",
+        "what": "ADAC cross-check of trunk values"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Height 1673-1684 mm depending on variant; motor1 quotes 4701 mm length / 2701 mm wheelbase."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "HR-V",
+    "generations": [
+     {
+      "loadSpace": null,
+      "name": "GH (1. Generation, 5-Türer)",
+      "yearFrom": 1999,
+      "yearTo": 2005,
+      "bodyType": "suv",
+      "lengthMm": 4110,
+      "widthMm": 1695,
+      "heightMm": 1580,
+      "wheelbaseMm": 2450,
+      "trunkL": 285,
+      "trunkFoldedL": null,
+      "variants": [
+       {
+        "name": "1.6i 105 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 105,
+        "awd": false,
+        "trunkL": 285,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "1.6i 105 PS 4WD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 105,
+        "awd": true,
+        "trunkL": 285,
+        "trunkFoldedL": null
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autokosten.net/honda/hr-v/hr-v-1-6i/hr-v-i-02-00-12-05_2/technische-daten",
+        "what": "1.6i: length 4110, width 1695, height 1580, wheelbase 2450, trunk 285 l (third-party)"
+       },
+       {
+        "url": "https://www.auto-data.net/en/honda-hr-v-gh-1.6i-16v-105hp-4wd-12348",
+        "what": "1.6i 4WD 105 PS, trunk 285 l"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Honda_HR-V",
+        "what": "3-door 4000 mm / wb 2360; 5-door 4110 mm / wb 2460"
+       },
+       {
+        "url": "https://www.mobile.de/auto/honda/hr-v/2015/suv/modell/daten-fakten/",
+        "what": "first generation sold in Germany until 2005"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Only third-party data. Sold in Germany until 2005 only. 3-door body (4000 mm, wb 2360) also existed; not separately entered. Wheelbase conflict 2450 vs 2460; height 1580 vs 1628 in another source. Trunk measurement norm unknown; folded volume not found. 1.6 VTEC 125 PS variant not verified."
+     },
+     {
+      "loadSpace": null,
+      "name": "RU (2. Generation)",
+      "yearFrom": 2015,
+      "yearTo": 2021,
+      "bodyType": "suv",
+      "lengthMm": 4294,
+      "widthMm": 1772,
+      "heightMm": 1605,
+      "wheelbaseMm": 2610,
+      "trunkL": 470,
+      "trunkFoldedL": 1533,
+      "variants": [
+       {
+        "name": "1.5 i-VTEC 130 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 130,
+        "awd": false,
+        "trunkL": 470,
+        "trunkFoldedL": 1533
+       },
+       {
+        "name": "1.6 i-DTEC (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 470,
+        "trunkFoldedL": 1533,
+        "notes": "power not verified"
+       },
+       {
+        "name": "1.5 VTEC TURBO Sport (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2019,
+        "notes": "facelift-era sport version; data not verified"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://hondanews.eu/at/de/media/pressreleases/57833/honda-hr-v-20159",
+        "what": "official press release: length 4294, trunk 470 l seats up, 1533 l folded"
+       },
+       {
+        "url": "https://www.autoplenum.de/auto/honda/hr-v/suv-2015/1-5-i-vtec-130-ps",
+        "what": "4294 x 1772 x 1605, wheelbase 2610, 1.5 i-VTEC 130 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/hr-v/2generation/250145/",
+        "what": "ADAC: length 4294, trunk 393 l normal / 1026 l folded (deviating)"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Trunk figures conflict: Honda press release 470/1533 l (probably incl. underfloor / roof-high), ADAC 393/1026 l, Honda Europe per Wikipedia & AUTO BILD 453/1026 l. Facelift 2018/2019 not split (dimension change unverified; some sources 4334-4355 mm)."
+     },
+     {
+      "loadSpace": null,
+      "name": "RV (3. Generation, e:HEV)",
+      "yearFrom": 2021,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4340,
+      "widthMm": 1790,
+      "heightMm": 1582,
+      "wheelbaseMm": 2610,
+      "trunkL": 319,
+      "trunkFoldedL": 1289,
+      "variants": [
+       {
+        "name": "1.5 i-MMD e:HEV 131 PS (Vollhybrid)",
+        "powertrain": "hev",
+        "powerPs": 131,
+        "awd": false,
+        "trunkL": 319,
+        "trunkFoldedL": 1289,
+        "notes": "Some trims quoted 335/1305 l"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.honda.at/cars/new/hr-v-hybrid/specifications.html",
+        "what": "official: trunk 319 l VDA"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/honda-hr-v-test/",
+        "what": "ADAC (manufacturer data): 319 l / 1289 l roof-high"
+       },
+       {
+        "url": "https://www.motorprofis.at/honda/test-honda-hr-v-e-hev-1-5-i-mmd-hybrid",
+        "what": "length 4340, width 1790, height 1582"
+       },
+       {
+        "url": "https://www.honda.de/cars/new/hr-v-hybrid/specifications.html",
+        "what": "wheelbase 2610, height 1582, 1289 l, 131 PS system output"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 2024/2025: honda.de lists 4355 mm (and 4398 mm for another variant) - facelift dimensions not verified, so not split. Hybrid only in Germany."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "ZR-V",
+    "generations": [
+     {
+      "loadSpace": null,
+      "name": "RZ (1. Generation)",
+      "yearFrom": 2023,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4568,
+      "widthMm": 1840,
+      "heightMm": 1613,
+      "wheelbaseMm": 2657,
+      "trunkL": 380,
+      "trunkFoldedL": 1312,
+      "variants": [
+       {
+        "name": "2.0 i-MMD e:HEV 184 PS (Vollhybrid, Elegance/Sport)",
+        "powertrain": "hev",
+        "powerPs": 184,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": 1312,
+        "notes": "876 l window-high"
+       },
+       {
+        "name": "2.0 i-MMD e:HEV 184 PS (Vollhybrid, Advance)",
+        "powertrain": "hev",
+        "powerPs": 184,
+        "awd": false,
+        "trunkL": 370,
+        "trunkFoldedL": 1291,
+        "notes": "866 l window-high; smaller due to audio subwoofer (assumed)"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.honda.de/cars/new/zr-v-hybrid-suv/specifications.html",
+        "what": "official DE spec: 4568 x 1840 (2093 with mirrors) x 1613, wb 2657, trunk 370-380 l, 866-876 l window-high, 1291-1312 l roof-high"
+       },
+       {
+        "url": "https://www.greengear.de/honda-zr-v-ehev-135-kw-hybrid-hybridauto-technische-daten/",
+        "what": "135 kW / 184 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/zr-v/1generation/328984/",
+        "what": "ADAC cross-check"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Height 1613 incl. antenna (other sources 1620). Front-wheel drive only in Germany."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "e:Ny1",
+    "generations": [
+     {
+      "loadSpace": null,
+      "name": "RS (1. Generation)",
+      "yearFrom": 2023,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4387,
+      "widthMm": 1790,
+      "heightMm": 1584,
+      "wheelbaseMm": 2607,
+      "trunkL": 361,
+      "trunkFoldedL": 1176,
+      "variants": [
+       {
+        "name": "e:Ny1 Elegance 204 PS (Elektro)",
+        "powertrain": "bev",
+        "powerPs": 204,
+        "awd": false,
+        "trunkL": 361,
+        "trunkFoldedL": 1176,
+        "notes": "801 l window-high"
+       },
+       {
+        "name": "e:Ny1 Advance 204 PS (Elektro)",
+        "powertrain": "bev",
+        "powerPs": 204,
+        "awd": false,
+        "trunkL": 344,
+        "trunkFoldedL": 1136,
+        "notes": "784 l window-high; subwoofer in trunk"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://hondanews.eu/at/de/cars/media/pressreleases/443702/honda-eny1-2023-pressemappe",
+        "what": "official press kit: length 4387, height 1584, wb 2607, trunk 361/801/1176 l (Advance 344/784/1136 l)"
+       },
+       {
+        "url": "https://www.automobiledimension.com/model/honda/e-ny1",
+        "what": "width 1790 mm without mirrors (third-party)"
+       },
+       {
+        "url": "https://www.auto-data.net/en/honda-eny1-68.8-kwh-204hp-48949",
+        "what": "204 PS, 68.8 kWh"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/eny1/1generation/328875/",
+        "what": "ADAC cross-check"
+       }
+      ],
+      "confidence": "high",
+      "notes": "No frunk. ADAC lists the version as 10/23-04/26, suggesting a model update in 2026 (not researched)."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "CR-V RM (4. Gen) heightMm (pre-facelift and facelift)",
+   "CR-V RM facelift variant power ratings",
+   "CR-V RW 7-seater trunkL with 3rd row folded and trunkFoldedL",
+   "CR-V RS (6. Gen) variant powerPs",
+   "CR-V RD/RE official Honda data (only third-party)",
+   "HR-V GH trunkFoldedL",
+   "HR-V RU 1.6 i-DTEC powerPs",
+   "HR-V RU 1.5 VTEC TURBO Sport powerPs/trunk",
+   "HR-V RU facelift dimensions",
+   "HR-V RV facelift (2024/25) dimensions",
+   "loadSpace measurements for all generations (only CR-V RW load length 1830/1800 mm known)"
+  ],
+  "notes": "Search budget (20) exhausted. CR-V RD included since sold in Germany through 2006. HR-V had no German sales 2006-2014 (gap between GH and RU). ZR-V and e:Ny1 have no predecessor in 2005-2026. Power values for some variants left null where not sourced."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "CR-V",
+    "generation": "RE (3. Generation)",
+    "variant": null,
+    "field": "wheelbaseMm",
+    "oldValue": 2630,
+    "newValue": 2620,
+    "sourceUrl": "https://www.netcarshow.com/honda/2007-cr-v_euro_specs/",
+    "evidence": "Honda Euro-spec press text: wheelbase reduced from 2630 to 2620 mm vs predecessor; CarExpert also 2620. (ADAC 3rd-gen facelift pages show 2630, so this remains a conflict; manufacturer press figure preferred.)"
+   },
+   {
+    "model": "CR-V",
+    "generation": "RE (3. Generation)",
+    "variant": null,
+    "field": "lengthMm",
+    "oldValue": 4525,
+    "newValue": 4530,
+    "sourceUrl": "https://www.netcarshow.com/honda/2007-cr-v_euro_specs/",
+    "evidence": "Honda Euro-spec press text: relocated spare wheel made the new CR-V about 105 mm shorter than its predecessor (4635), at 4530 mm. autokosten lists 4525 - minor."
+   },
+   {
+    "model": "CR-V",
+    "generation": "RE (3. Generation)",
+    "variant": "2.2 i-DTEC (Diesel, Facelift 2010)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 150,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-v/3generation-facelift/222327",
+    "evidence": "ADAC CR-V 2.2 i-DTEC Comfort (04/10-10/12): 110 kW (150 PS), 350 Nm; 556/955/1532 l."
+   },
+   {
+    "model": "CR-V",
+    "generation": "RM (4. Generation)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": null,
+    "newValue": 1685,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-v/4generation/234146",
+    "evidence": "ADAC CR-V 2.2 i-DTEC Comfort AWD (11/12-02/15): Länge 4570, Breite 1820, Höhe 1685 mm, 589/1146/1669 l."
+   },
+   {
+    "model": "CR-V",
+    "generation": "RM (4. Generation)",
+    "variant": "1.6 i-DTEC (Diesel, 2WD)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 120,
+    "sourceUrl": "https://paultan.org/2014/10/01/2015-honda-cr-v-facelift",
+    "evidence": "On the 2015 facelift: 'Front-wheel drive versions make do with the existing 120 PS/300 Nm 1.6 i-DTEC engine' (i.e. pre-facelift 1.6 i-DTEC = 120 PS)."
+   },
+   {
+    "model": "CR-V",
+    "generation": "RM (4. Generation, Facelift)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": null,
+    "newValue": 1685,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-v/4generation-facelift/245370/",
+    "evidence": "ADAC CR-V 2.0 Elegance 2WD (03/15-08/18): Länge 4605, Breite 1820, Höhe 1685, Radstand 2630, 589/1146/1669 l."
+   },
+   {
+    "model": "CR-V",
+    "generation": "RM (4. Generation, Facelift)",
+    "variant": "2.0 i-VTEC (Benziner)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 155,
+    "sourceUrl": "https://fleetworld.co.uk/honda-announces-prices-for-facelifted-cr-v",
+    "evidence": "Facelift retained 'the 153bhp i-VTEC petrol unit with two and four-wheel drive' (153 bhp = 155 PS)."
+   },
+   {
+    "model": "CR-V",
+    "generation": "RM (4. Generation, Facelift)",
+    "variant": "1.6 i-DTEC (Diesel, 2WD)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 120,
+    "sourceUrl": "https://paultan.org/2014/10/01/2015-honda-cr-v-facelift",
+    "evidence": "'Front-wheel drive versions make do with the existing 120 PS/300 Nm 1.6 i-DTEC engine and six-speed manual transmission.'"
+   },
+   {
+    "model": "CR-V",
+    "generation": "RM (4. Generation, Facelift)",
+    "variant": "1.6 i-DTEC (Diesel, AWD)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 160,
+    "sourceUrl": "https://autofreaks.com/?p=39058",
+    "evidence": "Uprated 1.6 i-DTEC with 160 PS / 350 Nm, only for 4WD variants (6-speed manual or 9-speed automatic); whatcar: 158 bhp."
+   },
+   {
+    "model": "CR-V",
+    "generation": "RS (6. Generation)",
+    "variant": "e:HEV 2WD (Vollhybrid)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 184,
+    "sourceUrl": "https://www.fleetnews.co.uk/news/manufacturer-news/2023/08/10/honda-confirms-pricing-and-specification-of-electrified-cr-v-suv-range",
+    "evidence": "European CR-V e:HEV and e:PHEV both 184 PS; ADAC lists e:PHEV 135 kW (184 PS)."
+   },
+   {
+    "model": "CR-V",
+    "generation": "RS (6. Generation)",
+    "variant": "e:HEV AWD (Vollhybrid)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 184,
+    "sourceUrl": "https://www.fleetnews.co.uk/news/manufacturer-news/2023/08/10/honda-confirms-pricing-and-specification-of-electrified-cr-v-suv-range",
+    "evidence": "European CR-V e:HEV (2WD/AWD) 184 PS."
+   },
+   {
+    "model": "CR-V",
+    "generation": "RS (6. Generation)",
+    "variant": "e:PHEV 2WD (Plug-in-Hybrid)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 184,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-v/6generation/351321/",
+    "evidence": "ADAC CR-V 2.0 i-MMD e:PHEV Elegance Tech 2WD: Systemleistung 135 kW (184 PS), 335 Nm."
+   },
+   {
+    "model": "HR-V",
+    "generation": "RU (2. Generation)",
+    "variant": "1.6 i-DTEC (Diesel)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 120,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/hr-v/2generation/250146/",
+    "evidence": "ADAC HR-V 1.6 i-DTEC Comfort (09/15-08/18): 88 kW (120 PS)."
+   },
+   {
+    "model": "HR-V",
+    "generation": "RU (2. Generation)",
+    "variant": "1.5 VTEC TURBO Sport (Benziner)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 182,
+    "sourceUrl": "https://de.motor1.com/news/262174/honda-hr-v-2019-facelift-turbomotor/",
+    "evidence": "'Honda HR-V Facelift (2019) und neuer Turbobenziner mit 182 PS'."
+   }
+  ],
+  "missing": [
+   {
+    "model": "CR-V",
+    "detail": "RE facelift (04/2010-10/2012) not split: ADAC lists length 4570 mm (vs 4525/4530 pre-facelift), wheelbase 2630, trunk 556/955/1532 l, 2.2 i-DTEC 150 PS. https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-v/3generation-facelift/222327"
+   },
+   {
+    "model": "HR-V",
+    "detail": "RU facelift (10/2018-2021) not split: ADAC lists length 4334 mm (vs 4294 pre-facelift); trunk 431 l (Comfort) / 393 l (Elegance/Executive), 1026 l window-high, 1456 l roof-high. https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/hr-v/2generation-facelift/294283/"
+   },
+   {
+    "model": "HR-V",
+    "detail": "RV facelift (from 03/2025) not split: ADAC lists length 4355 mm, height 1582, wheelbase 2610, trunk 319/971/1289 l, 131 PS (width listed 1866 by ADAC - looks erroneous, unverified). Pre-facelift should get yearTo 2025. https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/hr-v/3generation-facelift/339520"
+   }
+  ],
+  "checkedValues": 70,
+  "confirmedValues": 51,
+  "notes": "Confirmed: CR-V RD 4635/1785/1710 (ADAC test 06/2005, which however measured trunk 490/825 l vs maker 527 l - kept 527); RE width 1820/height 1675/trunk 556/1532 (ADAC); RM & RM-facelift length/width/wb/589/1669 (ADAC); RS 4706/1866/1674/2700 and 587/1642, 617/1710 (motor1); HR-V GH 4110/1695/1580/2450/285 (motoreu; wb 2460 not found anywhere); HR-V RU 4294/1772/1605; RV 319/1289/1582/2610; ZR-V 4568/1613/2657/380/370 (ADAC); e:Ny1 4387/1790/1584/2607, 361/1176, 344/1136 (carwow). UNRESOLVED HR-V RU trunk: Honda AT press release 470/1533 l vs Honda CH press release + AUTO BILD 453/1026 l vs ADAC 431 (Comfort) / 393 (Elegance/Executive) and 1456 l roof-high - not corrected because Honda's own releases conflict; 470/1533 likely include underfloor compartment; consider 453 or trim split. RE wheelbase conflict (Honda Euro press 2620 vs ADAC facelift 2630). CR-V RW not re-checked (budget); RW 7-seater folded volume still not found. Search budget (20) exhausted."
+ }
+}

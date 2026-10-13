@@ -1,0 +1,756 @@
+{
+ "id": "volvo-2",
+ "brand": "Volvo",
+ "data": {
+  "models": [
+   {
+    "brand": "Volvo",
+    "model": "S60",
+    "generations": [
+     {
+      "name": "S60 I (P2)",
+      "yearFrom": 2001,
+      "yearTo": 2009,
+      "bodyType": "sedan",
+      "lengthMm": 4576,
+      "widthMm": 1804,
+      "heightMm": 1428,
+      "wheelbaseMm": 2715,
+      "trunkL": 424,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Benziner (2.4, T5 u.a.)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 424,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "Diesel (D5, 2.4D)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 424,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "AWD-Versionen",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Trunk volume of AWD versions not verified"
+       },
+       {
+        "name": "S60 R",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Trunk volume not verified"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s60-v60/1generation/992645/",
+        "what": "ADAC Autokatalog S60 2.4 (09/00-06/04): length 4576, width 1804, height 1428, wheelbase 2715, trunk 424 l"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/volvo/volvo-s60/",
+        "what": "Confirms 4576 x 1804 x 1428 mm and 424 l for 1st generation"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Built 2000-2009; first German model year approx. 2001. Values from ADAC (no manufacturer press data found within search budget). Facelift 2004 not split (no evidence of dimension/trunk change found). Variant power figures not researched (null). Folded volume not found."
+     },
+     {
+      "name": "S60 II (Y20)",
+      "yearFrom": 2011,
+      "yearTo": 2018,
+      "bodyType": "sedan",
+      "lengthMm": 4628,
+      "widthMm": 1865,
+      "heightMm": 1484,
+      "wheelbaseMm": 2776,
+      "trunkL": 380,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Benziner (T3/T4/T5)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "Diesel (D2/D3/D4/D5)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "T6 AWD / D4-D5 AWD",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "AWD trunk not separately verified"
+       },
+       {
+        "name": "Polestar",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Trunk not verified"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.carsguide.com.au/volvo/s60/car-dimensions/2010",
+        "what": "Length 4628, height 1484, wheelbase 2776"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1184-S60",
+        "what": "Length 4628, width 1865, height 1484, wheelbase 2776"
+       },
+       {
+        "url": "https://www.volvocars.com/en-ca/support/car/s60/14w20/article/84c655c2aaaa015ac0a801e801c02b97_5c828b35aab0984dc0a801e801603734_0328ea86b98d614cc0a801e800b575bb/",
+        "what": "Volvo support (manufacturer): width 1865 without mirrors, height 1484, wheelbase 2776, length 4635 (later model year)"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/marken-modelle/volvo/s60/y20/technische-daten/",
+        "what": "auto motor und sport data: trunk 380 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/volvo/s60/2010/limousine/modell/daten-fakten/",
+        "what": "Trunk 380 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Launched in Germany 2010 (MY2011). Facelift 2013: Volvo support lists length 4635 mm vs 4628 pre-facelift; not split because trunk unchanged and difference is small/unverified as facelift-related. Folded volume: one unnamed source said 1034 l, not verified - null."
+     },
+     {
+      "name": "S60 III (Z)",
+      "yearFrom": 2019,
+      "yearTo": null,
+      "bodyType": "sedan",
+      "lengthMm": 4761,
+      "widthMm": 1850,
+      "heightMm": 1431,
+      "wheelbaseMm": 2872,
+      "trunkL": 442,
+      "trunkFoldedL": null,
+      "loadSpace": {
+       "lengthMm": 1005,
+       "widthMm": null,
+       "widthBetweenArchesMm": 996,
+       "heightMm": null,
+       "openingHeightMm": null,
+       "sillHeightMm": null,
+       "lengthFoldedMm": 1797,
+       "source": "https://www.volvocars.com/lb/support/car/s60/article/0ed816eed33d98cac0a8cc377bc12bc7-e6a7973b2bf222b2c0a8b09757c97ec8-8664b2fa77a7e089c0a8296870d1a409/"
+      },
+      "variants": [
+       {
+        "name": "T4/T5 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 442,
+        "trunkFoldedL": null,
+        "yearTo": 2020,
+        "notes": "T5 = 250 PS per motor1 test"
+       },
+       {
+        "name": "B4/B5 (Mild-Hybrid)",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 442,
+        "trunkFoldedL": null,
+        "notes": "442 l per ultimatespecs (B3); assumed same body - mild hybrid trunk not separately confirmed by manufacturer"
+       },
+       {
+        "name": "T6/T8 Twin Engine / Recharge AWD (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 390,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "T8 Polestar Engineered (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 390,
+        "trunkFoldedL": null,
+        "notes": "Shares T8 PHEV powertrain layout; 390 l assumed from T8 sources"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.media.volvocars.com/global/en-gb/models/s60/2019/specifications",
+        "what": "Volvo Global Newsroom (manufacturer): length 4761, body width 1850, wheelbase 2872"
+       },
+       {
+        "url": "https://de.motor1.com/reviews/372006/volvo-s60-t5-2019-test/",
+        "what": "Height 1431, trunk 442 l (T5)"
+       },
+       {
+        "url": "https://www.ultimatespecs.com/car-specs/Volvo/118970/Volvo-S60-III-B3.html",
+        "what": "Trunk 442 l (B3 mild hybrid)"
+       },
+       {
+        "url": "https://www.carwow.de/volvo/s60/technische-daten",
+        "what": "T8 Twin Engine AWD trunk 390 l"
+       },
+       {
+        "url": "https://www.automobiledimension.com/model/volvo/s60",
+        "what": "Recharge PHEV trunk 390 l, width 1850, height 1437"
+       },
+       {
+        "url": "https://www.volvocars.com/lb/support/car/s60/article/0ed816eed33d98cac0a8cc377bc12bc7-e6a7973b2bf222b2c0a8b09757c97ec8-8664b2fa77a7e089c0a8296870d1a409/",
+        "what": "Volvo support: load length 1005 / 1797 mm, width between wheelhouses 996 mm, length 4778 (later MY)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Height conflict: 1431 (motor1) vs 1437 (angurten, automobiledimension). Later model years listed by Volvo support with length 4778 mm (likely MY2023 bumper change) - not split, unverified. End of German sales NOT verified: UK took S60 off sale 2022/2023, US production ended June 2024 - yearTo set null but may need 2024/2025. Sedan: no folded volume published (through-load only)."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "V60",
+    "generations": [
+     {
+      "name": "V60 I (Y20)",
+      "yearFrom": 2011,
+      "yearTo": 2018,
+      "bodyType": "wagon",
+      "lengthMm": 4628,
+      "widthMm": 1865,
+      "heightMm": 1484,
+      "wheelbaseMm": 2776,
+      "trunkL": 430,
+      "trunkFoldedL": 1241,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Benziner (T3/T4/T5/T6)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 430,
+        "trunkFoldedL": 1241
+       },
+       {
+        "name": "Diesel (D2/D3/D4/D5)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 430,
+        "trunkFoldedL": 1241
+       },
+       {
+        "name": "AWD (T6/D4/D5 AWD)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "AWD trunk not separately verified"
+       },
+       {
+        "name": "D6 AWD Plug-in Hybrid / D5 Twin Engine",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 304,
+        "trunkFoldedL": 1120,
+        "yearFrom": 2013,
+        "yearTo": 2018,
+        "notes": "AutoScout24: 304-1120 l for the hybrid (2012-2018)"
+       },
+       {
+        "name": "Polestar",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Trunk not verified"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.mobile.de/auto/volvo/v60/2010/kombi/modell/daten-fakten/",
+        "what": "Trunk 430 l, max 1241 l"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/volvo/v60/",
+        "what": "Trunk 430-1241 l; Hybrid (2012-2018) 304-1120 l"
+       },
+       {
+        "url": "https://www.parkers.co.uk/volvo/v60/coupe-2010/d6-awd-plug-in-hybrid-pure-limited-5d-auto/specs/",
+        "what": "Length 4628 (D6 PHEV)"
+       },
+       {
+        "url": "https://www.automobile-detail.com/volvo-v60-d6-awd-plug-in-hybrid-car-technical-specifications/",
+        "what": "Length 4628, height 1484"
+       },
+       {
+        "url": "https://www.topgear.com/car-reviews/volvo/v60/d6-awd-plug-hybrid-pure-limited-5dr-auto/spec",
+        "what": "Wheelbase 2776"
+       },
+       {
+        "url": "https://www.volvocars.com/en-ca/support/car/s60/14w20/article/84c655c2aaaa015ac0a801e801c02b97_5c828b35aab0984dc0a801e801603734_0328ea86b98d614cc0a801e800b575bb/",
+        "what": "Platform sibling S60: width 1865 without mirrors (V60 width taken from shared body, CarsGuide/TrueDelta also 1865-1866)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "No manufacturer press kit with volumes found within budget; trunk figures from mobile.de/AutoScout24 (lower priority sources). Volvo later lists length 4635 (facelift 2013) - not split. TopGear lists 557 l for D6 which conflicts (likely different measurement)."
+     },
+     {
+      "name": "V60 II (Z)",
+      "yearFrom": 2018,
+      "yearTo": null,
+      "bodyType": "wagon",
+      "lengthMm": 4761,
+      "widthMm": 1850,
+      "heightMm": 1427,
+      "wheelbaseMm": 2872,
+      "trunkL": 529,
+      "trunkFoldedL": 1441,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Benziner (T4/T5)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 529,
+        "trunkFoldedL": 1441,
+        "yearTo": 2020
+       },
+       {
+        "name": "Diesel (D3/D4)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 529,
+        "trunkFoldedL": 1441,
+        "yearTo": 2020
+       },
+       {
+        "name": "B3/B4/B5 (Mild-Hybrid)",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 529,
+        "trunkFoldedL": 1441
+       },
+       {
+        "name": "T6/T8 Twin Engine / Recharge AWD (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 529,
+        "trunkFoldedL": 1441,
+        "heightMm": 1432,
+        "notes": "Parkers/drivingelectric/Practical Caravan: no boot loss, hybrid parts in tunnel; ADAC lists 475 l for T8 (10/18-04/19) - conflict. Austrian Volvo press release for V60 Recharge gives height 1432."
+       },
+       {
+        "name": "T8 Polestar Engineered",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 529,
+        "trunkFoldedL": 1441
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.media.volvocars.com/se/sv-se/models/new-v60/2019/specifications",
+        "what": "Volvo Sweden Newsroom (manufacturer) 2019: length 4761, height 1427, wheelbase 2872, max 1441 l"
+       },
+       {
+        "url": "https://www.autozeitung.de/volvo-v60-2018-preis-technische-daten-139653.html",
+        "what": "Width 1850, trunk 529-1441 l"
+       },
+       {
+        "url": "https://www.motor-talk.de/news/der-noch-schoenere-bruder-des-volvo-v90-t6277634.html",
+        "what": "Trunk 529 l (manufacturer figure)"
+       },
+       {
+        "url": "https://media.volvocars.com/at/de-at/media/pressreleases/317880/der-volvo-v60-recharge-auf-einen-blick-3",
+        "what": "Volvo Austria: V60 Recharge 4761 length, 1432 height, 2872 wheelbase"
+       },
+       {
+        "url": "https://www.parkers.co.uk/volvo/v60/review/practicality/",
+        "what": "PHEV loses no boot space"
+       },
+       {
+        "url": "https://www.practicalcaravan.com/reviews/volvo-v60-recharge-t6-awd-inscription",
+        "what": "T6 Recharge 529/1441 l"
+       },
+       {
+        "url": "https://www.media.volvocars.com/at/de-at/models/v60/2023/specifications",
+        "what": "Volvo Austria MY2023: length 4778, height 1432"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Volvo newsroom also lists 658 l (to roof) - VDA 529 used. MY2023 data shows length 4778 mm (minor update) - not split. Still on sale in Germany assumed (UK orders stopped Aug 2023); not verified."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "V60 Cross Country",
+    "generations": [
+     {
+      "name": "V60 Cross Country I",
+      "yearFrom": 2015,
+      "yearTo": 2018,
+      "bodyType": "wagon",
+      "lengthMm": 4637,
+      "widthMm": 1866,
+      "heightMm": 1545,
+      "wheelbaseMm": 2774,
+      "trunkL": 430,
+      "trunkFoldedL": 1241,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "D3/D4 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 430,
+        "trunkFoldedL": 1241
+       },
+       {
+        "name": "D4 AWD (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "AWD trunk not separately verified"
+       },
+       {
+        "name": "T5 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 430,
+        "trunkFoldedL": 1241
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autobild.de/artikel/volvo-v60-cross-country-2015-test-fahrbericht-5862011.html",
+        "what": "AUTO BILD: trunk 430 l, ground clearance 201 mm"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/volvo/v60-cross-country/v60-cross-country-d4-2015-2018-kombi-diesel/",
+        "what": "Length 4637, width 1866, height 1545, wheelbase 2774, trunk 430-1241 l"
+       },
+       {
+        "url": "https://www.media.volvocars.com/global/en-gb/models/old-v60-cross-country/2017/specifications",
+        "what": "Volvo Global Newsroom 2017 V60 CC technical data (page exists, values not extracted)"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Manufacturer spec page exists but values not retrieved; values from AUTO BILD/AutoScout24. Ground clearance 201 mm."
+     },
+     {
+      "name": "V60 Cross Country II",
+      "yearFrom": 2019,
+      "yearTo": null,
+      "bodyType": "wagon",
+      "lengthMm": 4784,
+      "widthMm": 1850,
+      "heightMm": 1499,
+      "wheelbaseMm": 2874,
+      "trunkL": 529,
+      "trunkFoldedL": 1441,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "D4 AWD (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 529,
+        "trunkFoldedL": 1441,
+        "yearTo": 2020,
+        "notes": "power not verified"
+       },
+       {
+        "name": "T5 AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 250,
+        "awd": true,
+        "trunkL": 529,
+        "trunkFoldedL": 1441,
+        "yearTo": 2020
+       },
+       {
+        "name": "B4/B5 AWD (Mild-Hybrid)",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 529,
+        "trunkFoldedL": 1441
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.media.volvocars.com/at/de-at/models/v60-cross-country/2019/specifications",
+        "what": "Volvo Austria Newsroom (manufacturer) 2019 D4: length 4784, body width 1850, height 1499, wheelbase 2874, ground clearance 210"
+       },
+       {
+        "url": "https://www.meinauto.de/testberichte/volvo-v60-cross-country-2019-im-test-schwedischer-mittelklasse-kombi-fuers-grobe",
+        "what": "Trunk 529-1441 l"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/volvo-v60-cross-country-test-preis-bilder-14100965.html",
+        "what": "Ground clearance 210 mm; T5 250 PS"
+       },
+       {
+        "url": "https://www.media.volvocars.com/uk/en-gb/models/v60-cross-country/2023/specifications",
+        "what": "Volvo UK MY2023: length 4787, height 1499, max 1431 l (to front seatbacks), 648 l seats up (to roof)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "All Cross Country versions AWD. MY2023 Volvo data lists length 4787 mm - not split."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "C70",
+    "generations": [
+     {
+      "name": "C70 I Cabrio",
+      "yearFrom": 1998,
+      "yearTo": 2005,
+      "bodyType": "convertible",
+      "lengthMm": 4716,
+      "widthMm": 1817,
+      "heightMm": 1429,
+      "wheelbaseMm": 2664,
+      "trunkL": null,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0T/2.4T/T5 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.auto-motor-und-sport.de/gebrauchtwagen/kauftipp-volvo-c70-cabrio-ab-7500-euro-weicher-schwede-mit-stoffkapuze/technische-daten/",
+        "what": "auto motor und sport: 2.4T 4716 x 1817 x 1429 mm, wheelbase 2664"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/volvo/c70/c70-cabrio-7452/",
+        "what": "4716 x 1817 x 1429 mm; trunk 262 l"
+       },
+       {
+        "url": "https://www.ultimatespecs.com/car-specs/Volvo/3186/Volvo-C70-Cabrio-24T.html",
+        "what": "Wheelbase 2664; trunk 223 l"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Soft-top cabriolet, sold until 2005 (coupe ended 2002, not included). Trunk conflict 262 l (AutoScout24) vs 223 l (ultimatespecs), likely roof-up vs roof-down - unresolved, so null. Wikipedia lists 4724 mm for 2003-2005."
+     },
+     {
+      "name": "C70 II Coupé-Cabriolet",
+      "yearFrom": 2006,
+      "yearTo": 2009,
+      "bodyType": "convertible",
+      "lengthMm": 4582,
+      "widthMm": 1820,
+      "heightMm": 1400,
+      "wheelbaseMm": 2640,
+      "trunkL": 404,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.4i / T5 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 404,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "D5 / 2.0D (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 404,
+        "trunkFoldedL": null
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.parkers.co.uk/volvo/c70/coupe-cabriolet-2006/t5-se-lux-2d/specs/",
+        "what": "Length 4582, height 1400, wheelbase 2640, boot 404 l"
+       },
+       {
+        "url": "https://www.parkers.co.uk/volvo/c70/review/practicality/",
+        "what": "404 l roof up, about 200 l roof down"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1190-C70",
+        "what": "Width 1820, height 1400, wheelbase 2640"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Retractable hardtop; trunkL = roof up 404 l; roof down approx. 200 l (Parkers). trunkFoldedL n/a. No manufacturer data retrieved within budget."
+     },
+     {
+      "name": "C70 II Coupé-Cabriolet (Facelift)",
+      "yearFrom": 2010,
+      "yearTo": 2013,
+      "bodyType": "convertible",
+      "lengthMm": 4615,
+      "widthMm": 1820,
+      "heightMm": 1400,
+      "wheelbaseMm": 2640,
+      "trunkL": 404,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.4i / T5 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 404,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "D3/D4/D5 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 404,
+        "trunkFoldedL": null
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/volvo/c70/c70-d4-2006-2013-cabrio-diesel/",
+        "what": "D4 (2010): length 4615"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/volvo/c70/c70-2-4-2005-2013-cabrio-benzin/",
+        "what": "Length 4615, width 1820, height 1400, wheelbase 2640, trunk 200-404 l"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Facelift split because length 4615 mm vs 4582 mm reported; attribution of 4615 to the facelift is inferred from AutoScout24 listing a 2010 D4 with 4615 - not confirmed by manufacturer. Roof down approx. 200 l."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "S60 I trunkFoldedL",
+   "S60 II trunkFoldedL (unverified 1034 l)",
+   "S60 III end of German sales (yearTo)",
+   "S60 III trunkFoldedL",
+   "S60 I/II/III and V60 I variant powerPs",
+   "V60 I AWD trunk",
+   "V60 Cross Country I manufacturer values",
+   "C70 I trunkL (conflict 262 vs 223 l)",
+   "C70 II manufacturer data / facelift length confirmation",
+   "loadSpace for all except S60 III"
+  ],
+  "notes": "Search budget (20) exhausted. Manufacturer data used where found (Volvo newsrooms for S60 III, V60 II, V60 CC II dimensions); trunk volumes mostly from secondary sources (ADAC, ams, AUTO BILD, autozeitung, AutoScout24/mobile.de, UK reviews). Variant powerPs mostly null because not verified."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "S60",
+    "generation": "S60 III (Z)",
+    "variant": null,
+    "field": "yearTo",
+    "oldValue": null,
+    "newValue": 2024,
+    "sourceUrl": "https://www.angurten.de/is/abmessungen/1858-volvo-s60-iii",
+    "evidence": "angurten.de: S60 III 'Baujahr: 2019 - 2024', production end December 2024; 'Die Limousine S60 hat Volvo mittlerweile komplett von der Webseite entfernt' - unlike the V60, German sales too low. US production in Ridgeville ended June 2024 (motor1 'The Volvo S60 Is Dead'). Not an official Volvo DE statement, but no evidence it is still sold in Germany."
+   },
+   {
+    "model": "V60",
+    "generation": "V60 II (Z)",
+    "variant": "B3/B4/B5 (Mild-Hybrid)",
+    "field": "trunkL",
+    "oldValue": 529,
+    "newValue": 519,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s60-v60/3generation/322989",
+    "evidence": "ADAC V60 B4 Core DKG (12/21-07/24): Kofferraumvolumen normal 519 l, umgeklappt 1431 l; carwow.de also 519-1431 l. Applies to later model years (MY2022+); MY2019 figure was 529/1441 (TCS test, Volvo newsroom). Consider a model-year split rather than replacing, or a yearFrom-limited variant."
+   },
+   {
+    "model": "V60",
+    "generation": "V60 II (Z)",
+    "variant": "B3/B4/B5 (Mild-Hybrid)",
+    "field": "trunkFoldedL",
+    "oldValue": 1441,
+    "newValue": 1431,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s60-v60/3generation/322989",
+    "evidence": "ADAC B4 Core DKG (12/21-07/24): 1431 l folded; Volvo UK/DE later MY data also 1431 l max."
+   },
+   {
+    "model": "V60",
+    "generation": "V60 II (Z)",
+    "variant": "T6/T8 Twin Engine / Recharge AWD (Plug-in-Hybrid)",
+    "field": "trunkL",
+    "oldValue": 529,
+    "newValue": 519,
+    "sourceUrl": "https://www.volvocars.com/de/cars/v60-hybrid/specifications/",
+    "evidence": "Volvo Deutschland (manufacturer, current MY) V60 T6 AWD Plug-in Hybrid: Gepäckraum hinter 2. Sitzreihe 519 l, hinter 1. Sitzreihe max. 1431 l; AutoScout24.at T8 AWD Recharge: 519-1431 l. MY2019 T8: TCS test 529-1441 l (VDA, matches original); ADAC (10/18-04/19) 475 l / 1393 l is an ADAC measurement, not manufacturer. So 529 valid for early MY, 519 for later MY - no evidence of PHEV-specific boot loss vs. non-PHEV."
+   },
+   {
+    "model": "V60",
+    "generation": "V60 II (Z)",
+    "variant": "T6/T8 Twin Engine / Recharge AWD (Plug-in-Hybrid)",
+    "field": "trunkFoldedL",
+    "oldValue": 1441,
+    "newValue": 1431,
+    "sourceUrl": "https://www.volvocars.com/de/cars/v60-hybrid/specifications/",
+    "evidence": "Volvo DE current spec page: max. 1431 l behind first row (T6 AWD Plug-in Hybrid)."
+   }
+  ],
+  "missing": [
+   {
+    "model": "S60 Cross Country",
+    "detail": "S60 Cross Country (sedan, 2015-2018) was sold in Germany from June 2015 (Volvo DE press release 'Verkaufsstart', only D4 Summum from 43,840 EUR). angurten.de (https://www.angurten.de/is/abmessungen/1714-volvo-s60-cross-country): length 4638 mm, height 1539 mm, ground clearance 201 mm, trunk 380 l; pkw.de 4635 x 1540 mm; Autoflotte test 2016: 380 l. Not in data."
+   }
+  ],
+  "checkedValues": 40,
+  "confirmedValues": 34,
+  "notes": "Search budget (20) used. Confirmed: C70 II pre-facelift 4582 x 1820 x 1400, wb 2640, 404 l roof up / ~200 l roof down (AutoScout24, AutoBild 2006 test, autoplenum 4580); facelift length 4615 mm confirmed by vehiclesizes.com ('C70 Coupe Cabrio II facelift 2009') and fastcarcheck (2009-2013) - split justified; C70 production ended 2013 (Uddevalla, Wikipedia/Motor Authority). V60 Cross Country I: encycarpedia 4638 x 1545, wb 2774, 430-1241 l (length 1 mm off, not corrected; width shown 1899 there, unclear - AutoScout24.at lists 380-1407 l, likely different method). V60 CC II: ams 4784 x 1850 x 1499 (B5 AWD Pro), autozine/encycarpedia 529/1441 l (ams own measurement 495-1407 l); later MY likely 519/1431 like V60 II but not verified. S60 II: 380 l, 4628, wb 2776 confirmed (carsales, AutoScout24); folded not found. S60 III: 442 l and PHEV 390 l confirmed (ADAC S60 T8 06/19-03/20: 391 l), height 1431 vs 1437 conflict persists. V60 I: 4628/1484/1865, 430/1241 confirmed (autozine.nl); D6 PHEV trunk unclear: TCS test 305 l, AutoBild 330 l, AutoScout24 304-1120 l - left unconfirmed, no correction. S60 III yearTo correction relies on a single non-manufacturer source."
+ }
+}

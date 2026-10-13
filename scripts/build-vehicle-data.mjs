@@ -18,6 +18,7 @@ const LOADERS = path.join(ROOT, "lib/vehicles/loaders.ts");
 const OLDEST_YEAR = 2005;
 
 // KBA-Neuzulassungen 2025 (Pressemitteilung Nr. 01/2026). Seat und Cupra zählt das KBA gemeinsam.
+// Honda und Volvo kamen später dazu (außerhalb der Top 10); ihr Rang ist nicht belegt → null.
 const BRANDS = [
   { id: "volkswagen", name: "Volkswagen", kbaRank: 1, aliases: ["vw", "volkswagen"] },
   { id: "mercedes-benz", name: "Mercedes-Benz", kbaRank: 2, aliases: ["mercedes", "mercedes-benz", "mercedesbenz"] },
@@ -30,6 +31,8 @@ const BRANDS = [
   { id: "ford", name: "Ford", kbaRank: 8, aliases: ["ford"] },
   { id: "hyundai", name: "Hyundai", kbaRank: 9, aliases: ["hyundai"] },
   { id: "toyota", name: "Toyota", kbaRank: 10, aliases: ["toyota"] },
+  { id: "volvo", name: "Volvo", kbaRank: null, aliases: ["volvo"] },
+  { id: "honda", name: "Honda", kbaRank: null, aliases: ["honda"] },
 ];
 
 const BODY_TYPES = new Set(["hatchback", "sedan", "wagon", "suv", "suv-coupe", "coupe", "convertible", "van"]);

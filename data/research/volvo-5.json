@@ -1,0 +1,618 @@
+{
+ "id": "volvo-5",
+ "brand": "Volvo",
+ "data": {
+  "models": [
+   {
+    "brand": "Volvo",
+    "model": "XC90",
+    "generations": [
+     {
+      "name": "XC90 I (Typ C, 2002-2006)",
+      "yearFrom": 2002,
+      "yearTo": 2006,
+      "bodyType": "suv",
+      "lengthMm": 4798,
+      "widthMm": 1898,
+      "heightMm": 1743,
+      "wheelbaseMm": 2857,
+      "trunkL": null,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.5T AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 211,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "211 PS per Wikipedia; AUTO BILD lists 'XC90 2.5T Kinetic 09/2004-05/2006'."
+       },
+       {
+        "name": "T6 AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 272,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "272 PS per mobile.de model page."
+       },
+       {
+        "name": "V8 AWD 4.4 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2005,
+        "notes": "4.4 V8 from mid-2005 (Volvo USA press release: 311 hp US rating); European PS figure not verified."
+       },
+       {
+        "name": "D5 AWD (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "PS rating of the early D5 not verified."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://en.wikipedia.org/wiki/Volvo_XC90",
+        "what": "Generation split (2003-2006 vs 2007-2016 length change; lists 4821 mm for early cars), 2.5T power"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/volvo/volvo-xc90/",
+        "what": "4798 x 1898 x 1743 mm (early XC90 I)"
+       },
+       {
+        "url": "https://www.mobile.de/auto/volvo/xc90/2002/suv/modell/daten-fakten/",
+        "what": "Length 4798/4807 mm, width w/o mirrors 1898 mm, wheelbase 2857 mm, T6 272 PS"
+       },
+       {
+        "url": "https://www.yumpu.com/de/document/view/31399245/volvo-xc90-d5-premium-automatik-7-sitzig-adac",
+        "what": "ADAC Autotest 09/2003 D5 7-Sitzer: measured trunk 525 l / 875 l (ADAC own measurement, not VDA - not used)"
+       },
+       {
+        "url": "https://www.volvocars.com/us/media/press-releases/B3815AD9A919C3A5/",
+        "what": "Volvo USA press release: V8 introduced mid-2005 for MY2006"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Pre-facelift XC90 I. Length conflicts: 4798 mm (mobile.de, AutoScout24) vs 4821 mm (Wikipedia, possibly incl. tow bar/bumper variant). Height 1743 mm only from AutoScout24 (others give 1784 mm for facelift). Standard 7-seater option (third row). No manufacturer VDA trunk figures found; ADAC test measured 525/875 l with own method. Model years are approximate (MY2003 launch; facelift for MY2007)."
+     },
+     {
+      "name": "XC90 I (Typ C, Facelift)",
+      "yearFrom": 2007,
+      "yearTo": 2014,
+      "bodyType": "suv",
+      "lengthMm": 4807,
+      "widthMm": 1898,
+      "heightMm": 1784,
+      "wheelbaseMm": 2857,
+      "trunkL": null,
+      "trunkFoldedL": 1837,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "3.2 AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": 1837,
+        "notes": "3.2 six-cylinder replaced the 2.5T from MY2007 (Volvo USA press release)."
+       },
+       {
+        "name": "V8 AWD 4.4 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": 1837
+       },
+       {
+        "name": "D5 AWD 200 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 200,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": 1837,
+        "notes": "ADAC: D5 R Design AWD Geartronic 7-Sitzer 12/11-07/14, 147 kW (200 PS); trunk 249 l behind 3rd row (7-seat), 1837 l roof-high with seats folded."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/1generation-facelift/229683/",
+        "what": "ADAC (manufacturer data): length 4807, width w/o mirrors 1898, height 1784 mm, trunk 249 l (7-seat, 3rd row up) / 1837 l roof-high folded, D5 200 PS"
+       },
+       {
+        "url": "https://www.mobile.de/auto/volvo/xc90/2002/suv/modell/daten-fakten/",
+        "what": "Wheelbase 2857 mm, trunk range 613-1837 l"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Volvo_XC90",
+        "what": "Length 4807 mm for 2007-2016 model years"
+       },
+       {
+        "url": "https://www.volvocars.com/us/media/press-releases/ED7C59828388A1CD/",
+        "what": "Volvo USA press release: MY2007 update with new 3.2 six-cylinder"
+       }
+      ],
+      "confidence": "low",
+      "notes": "7-seat value 249 l (3rd row up). The 5-seat (3rd row folded) VDA value was not found; mobile.de gives a range minimum of 613 l but it is unclear which configuration it refers to, so trunkL left null. Facelift year approximate."
+     },
+     {
+      "name": "XC90 II (Typ L, inkl. Facelift 2019)",
+      "yearFrom": 2015,
+      "yearTo": 2024,
+      "bodyType": "suv",
+      "lengthMm": 4950,
+      "widthMm": 1931,
+      "heightMm": 1775,
+      "wheelbaseMm": 2984,
+      "trunkL": 680,
+      "trunkFoldedL": 1856,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "D5 AWD / B5 Diesel AWD (Diesel, ab 2019 Mild-Hybrid)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 680,
+        "trunkFoldedL": 1856,
+        "notes": "ADAC B5 Diesel Plus Bright 12/21-10/22: 302 l (7-seat) / 680 l (3rd row folded, window-high) / 1856 l roof-high. Earlier ADAC D5 pages (11/16-10/17, 05/19-07/20) give 709 l normal / 1874 l roof-high in a different format. From 2019 the B5 Diesel is a 48V mild hybrid."
+       },
+       {
+        "name": "T5 / T6 / B5 / B6 AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 680,
+        "trunkFoldedL": 1856,
+        "notes": "Combustion variants share the 302/680/1856 l values per carwow ('Verbrenner'); B5/B6 petrol are mild hybrids from 2019. Powers not verified."
+       },
+       {
+        "name": "T8 Twin Engine / Recharge T8 AWD (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 640,
+        "trunkFoldedL": 1816,
+        "notes": "ADAC T8 Twin Engine Inscription 06/15-03/18: 262 l (7-seat) / 640 l window-high / 1816 l roof-high. Smaller trunk than combustion versions."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation/263606/",
+        "what": "ADAC D5 Inscription 11/16-10/17: length 4950, width 1931 (2140 incl. mirrors), height 1775 mm; trunk 709 l normal / 1874 l roof-high"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation-facelift/322934/",
+        "what": "ADAC B5 Diesel Plus Bright 12/21-10/22: height 1775, wheelbase 2984 mm; trunk 302/680/1856 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation/243355/",
+        "what": "ADAC T8 Twin Engine 06/15-03/18: width 1931 mm; trunk 262/640/1816 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation-facelift/321920/",
+        "what": "ADAC T8 R Design Edition 09/21-01/22: width given as 2008 mm (mirrors folded per Volvo) / 2140 mm incl. mirrors"
+       },
+       {
+        "url": "https://www.carwow.de/volvo/xc90/technische-daten",
+        "what": "Combustion 302/680/1856 l vs hybrid 262/640/1816 l"
+       },
+       {
+        "url": "https://www.volvocars.com/de/support/car/xc90/article/0ed816eed33d98cac0a8cc377bc12bc7-e6a7973b2bf222b2c0a8b09757c97ec8-8664b2fa77a7e089c0a8296870d1a409/",
+        "what": "Volvo: width 2008 mm with folded mirrors, 2140 mm with mirrors"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Standard 7-seater (3rd row); trunkL = 3rd row folded (5-seat config, window-high), 7-seat value 302 l (PHEV 262 l). Facelift 2019 (MY2020, B-mild-hybrid engines, Recharge naming) kept dimensions and trunk volumes - not split. Some ADAC entries list 2008 mm width (= mirrors folded); 1931 mm used as body width. Manufacturer-method figures from Volvo (e.g. 1950 l behind 1st row) differ and are not comparable."
+     },
+     {
+      "name": "XC90 II (Typ L, Facelift 2024)",
+      "yearFrom": 2025,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4953,
+      "widthMm": 1923,
+      "heightMm": 1771,
+      "wheelbaseMm": null,
+      "trunkL": 680,
+      "trunkFoldedL": 1856,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "B5 AWD (Mild-Hybrid Benziner)",
+        "powertrain": "mhev",
+        "powerPs": 250,
+        "awd": true,
+        "trunkL": 680,
+        "trunkFoldedL": 1856,
+        "notes": "ADAC B5 Core AWD (ab 09/24): 302 l (7-seat) / 680 l / 1856 l."
+       },
+       {
+        "name": "T8 AWD (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 455,
+        "awd": true,
+        "trunkL": 640,
+        "trunkFoldedL": 1816,
+        "yearTo": 2026,
+        "notes": "ADAC T8 Core AWD (ab 07/25) and Ultra Bright (09/24-07/25): 262 l (7-seat) / 640 l / 1816 l."
+       },
+       {
+        "name": "T8 AWD Long Range (Plug-in-Hybrid, ab 03/26)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 650,
+        "trunkFoldedL": 1941,
+        "yearFrom": 2026,
+        "notes": "ADAC T8 Core AWD (ab 03/26): 244 l (7-seat) / 650 l / 1941 l roof-high; Volvo DE PHEV spec page: 244 l behind 3rd row, 650 l behind 2nd row (window-high). Power conflicting: ADAC lists 299 kW (406 PS), vision-mobility 461 PS - left null."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation-facelift-2/336906/",
+        "what": "ADAC B5 Core AWD ab 09/24: length 4953, width 1923, height 1771 mm, 250 PS, trunk 302/680/1856 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation-facelift-2/341495/",
+        "what": "ADAC T8 Core AWD ab 07/25: 4953/1923/1771 mm, 455 PS, trunk 262/640/1816 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation-facelift-2/350413/",
+        "what": "ADAC T8 Core AWD ab 03/26: trunk 244/650/1941 l, 299 kW (406 PS)"
+       },
+       {
+        "url": "https://www.volvocars.com/de/cars/xc90-hybrid/specifications/",
+        "what": "Volvo DE PHEV spec page: 244 l behind 3rd row, 650 l behind 2nd row, 1123 l behind 1st row (window-high)"
+       },
+       {
+        "url": "https://vision-mobility.de/elektroauto/obere-mittelklasse/volvo-xc90-t8-awd-long-range-plug-in-hybrid-plugin-hybrid-reichweite-90-km-461-ps-bestellbar-394991.html",
+        "what": "T8 AWD Long Range 461 PS, 90 km electric range"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Second facelift ('new XC90', German sales from 09/2024) is 3 mm longer; split because length/width/height values differ. 7-seater standard; trunkL = 3rd row folded. Wheelbase for this facelift not found in a source (2984 mm before)."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "EX90",
+    "generations": [
+     {
+      "name": "EX90 (1. Generation)",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 5037,
+      "widthMm": 1964,
+      "heightMm": 1744,
+      "wheelbaseMm": 2985,
+      "trunkL": 697,
+      "trunkFoldedL": 2135,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Twin Motor AWD 408 PS (Elektro, bis 2025)",
+        "powertrain": "bev",
+        "powerPs": 408,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearTo": 2025,
+        "notes": "Pre-800V version. ADAC normal (7-seat) 324 l; 5-seat/folded values for this version not seen."
+       },
+       {
+        "name": "Twin Motor Performance AWD 517 PS (Elektro, bis 2025)",
+        "powertrain": "bev",
+        "powerPs": 517,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearTo": 2025,
+        "notes": "ADAC Twin Performance Ultra (03/24-09/25) page found but trunk values not read."
+       },
+       {
+        "name": "Twin Motor AWD 456 PS (Elektro, 800 V, ab 09/25)",
+        "powertrain": "bev",
+        "powerPs": 456,
+        "awd": true,
+        "trunkL": 697,
+        "trunkFoldedL": 2135,
+        "yearFrom": 2026,
+        "notes": "ADAC Core AWD (ab 03/26) and Plus Executive Edition: 324 l (7-seat) / 697 l / 2135 l roof-high; ADAC Plus AWD (ab 09/25, 6/7-Sitzer): 690 l / 2082 l. Power 456 PS per press report and datasheets (some databases list 449 PS)."
+       },
+       {
+        "name": "Twin Motor Performance AWD 680 PS (Elektro, 800 V, ab 09/25)",
+        "powertrain": "bev",
+        "powerPs": 680,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2026
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex90/1generation/344727/",
+        "what": "ADAC Twin Motor Plus AWD ab 09/25: 5037/1964 (2113 incl. mirrors)/1744 mm, wheelbase 2985; trunk 324/690/2082 l; frunk 49 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex90/1generation/350393/",
+        "what": "ADAC Twin Motor Core AWD 7-Sitzer ab 03/26: trunk 324/697/2135 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex90/1generation/326615/",
+        "what": "ADAC Twin Performance Ultra AWD 03/24-09/25 (variant existence)"
+       },
+       {
+        "url": "https://web.de/magazine/auto/volvo-ex90-modellpflege-800-volt-technik-bringt-leistung-verkuerzt-ladezeiten-41410666",
+        "what": "Model update: Twin Motor 408 -> 456 PS, Performance 517 -> 680 PS"
+       },
+       {
+        "url": "https://www.volvocars.com/us/cars/ex90-electric/specifications/",
+        "what": "Volvo: frunk 1.6 cu ft, max cargo 85.3 cu ft"
+       },
+       {
+        "url": "https://www.motor1.com/news/735467/volvo-ex90-dimensions-boot-space/",
+        "what": "347 l (7-seat), ~697 l (5-seat), 1915 l all folded; frunk 46 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Values from ADAC (manufacturer data); no Volvo VDA press data found. 6- or 7-seater; trunkL = 3rd row folded (window-high), 7-seat value 324 l. Frunk: 49 l (ADAC) vs 34 l (Top Gear/vision-mobility) - method dependent. Folded max differs by source: 2082-2135 l (ADAC) vs 1910-1915 l (Volvo/UK press). German deliveries started 2024."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "ES90",
+    "generations": [
+     {
+      "name": "ES90 (1. Generation)",
+      "yearFrom": 2025,
+      "yearTo": null,
+      "bodyType": "sedan",
+      "lengthMm": 5000,
+      "widthMm": 1942,
+      "heightMm": 1547,
+      "wheelbaseMm": 3102,
+      "trunkL": 442,
+      "trunkFoldedL": 1445,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Single Motor Extended Range (Elektro, Heckantrieb)",
+        "powertrain": "bev",
+        "powerPs": 333,
+        "awd": false,
+        "trunkL": 442,
+        "trunkFoldedL": 1445,
+        "notes": "ADAC Single Motor Extended Range Ultra (ab 12/25), 245 kW (333 PS)."
+       },
+       {
+        "name": "Twin Motor AWD (Elektro)",
+        "powertrain": "bev",
+        "powerPs": 456,
+        "awd": true,
+        "trunkL": 442,
+        "trunkFoldedL": 1445,
+        "notes": "Volvo spec page and German configurator: 335 kW (456 PS); some sources list 449 PS. ADAC Twin Motor Ultra AWD: 442/1445 l."
+       },
+       {
+        "name": "Twin Motor Performance AWD (Elektro)",
+        "powertrain": "bev",
+        "powerPs": 680,
+        "awd": true,
+        "trunkL": 442,
+        "trunkFoldedL": null,
+        "notes": "ADAC: 500 kW (680 PS), 442 l normal; folded value not seen for this variant."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/es90/1generation/339499/",
+        "what": "ADAC Single Motor Extended Range Ultra: 5000/1942/1547 mm, wheelbase 3102; trunk 442 l / 1445 l roof-high; frunk 27 l; 333 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/es90/1generation/339496/",
+        "what": "ADAC Twin Motor Ultra AWD: same dimensions and trunk 442/1445 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/es90/1generation/339497/",
+        "what": "ADAC Twin Motor Performance Ultra AWD: 680 PS, trunk 442 l"
+       },
+       {
+        "url": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+        "what": "Volvo: Single Motor ER 245 kW, Twin Motor 335 kW"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/volvo-es90-test/",
+        "what": "ADAC test (own measurement 400/845/1365 l - not used)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Electric fastback saloon with a large tailgate (liftback) - classified as sedan. Frunk 27 l (ADAC) / 22 l (other sources). Other sources give 424 l rear trunk (carwow, firmenauto) and 1256-1427 l folded; ADAC manufacturer data (442/1445 l) used. Height 1547 mm (ADAC) vs 1546/1550 mm elsewhere. German sales began late 2025 (ADAC entries ab 12/25)."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "XC90 I (2002-2006) trunkL",
+   "XC90 I (2002-2006) trunkFoldedL",
+   "XC90 I (Facelift) trunkL (5-seat / 3rd row folded)",
+   "XC90 I variant powers (2.5T Europe confirmed only via Wikipedia; V8, D5 early, 3.2)",
+   "XC90 II variant powers (D5/B5 Diesel, T5/T6/B5/B6, T8 2015-2024)",
+   "XC90 II Facelift 2024 wheelbaseMm",
+   "XC90 II Facelift 2024 T8 Long Range powerPs (406 vs 461 PS conflict)",
+   "EX90 Twin Motor 408 PS / Performance 517 PS trunkL and trunkFoldedL",
+   "EX90 Twin Motor Performance 680 PS trunkL and trunkFoldedL",
+   "ES90 Twin Motor Performance trunkFoldedL",
+   "loadSpace measurements for all generations"
+  ],
+  "notes": "Volvo newsroom VDA press data could not be reached via search; most values come from ADAC Autokatalog (manufacturer data) as fallback - flagged in sources. Search budget (20) fully used. All XC90/EX90 generations are 7-seaters (EX90 also 6-seat); trunkL is the 3rd-row-folded value, 7-seat values in notes."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "XC90",
+    "generation": "XC90 I (Typ C, 2002-2006)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": 1743,
+    "newValue": 1784,
+    "sourceUrl": "https://www.volvocars.com/us/media/models/xc90gen1/2002/",
+    "evidence": "Volvo media page XC90 Gen 1 (2002): 'wheelbase 286 cm, length 480 cm, width 190 cm, height 179 cm'. carsales.com.au 2003 XC90 D5: length 4798, height 1784, wheelbase 2857 mm. 1743 mm (Parkers/AutoScout24) is likely without roof rails; manufacturer figure ~1784 mm."
+   },
+   {
+    "model": "XC90",
+    "generation": "XC90 I (Typ C, 2002-2006)",
+    "variant": null,
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1837,
+    "sourceUrl": "https://www.autobild.de/marken-modelle/volvo/xc90/1/",
+    "evidence": "AUTO BILD gen-1 overview gives trunk range 249-1837 l for the whole first generation (2002-2014); Volvo AT press release (volvocars.com/at/media/press-releases/8E9924F398307BCF) states max load volume 1837 l; gebrauchtwagenberater.de 613-1837 l. Same body as facelift (1837 l)."
+   },
+   {
+    "model": "XC90",
+    "generation": "XC90 I (Typ C, 2002-2006)",
+    "variant": "2.5T AWD (Benziner)",
+    "field": "powerPs",
+    "oldValue": 211,
+    "newValue": 210,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/1generation/",
+    "evidence": "ADAC model overview lists Volvo XC90 2.5T with 154 kW / 210 PS; ultimatespecs also 210 PS / 154 kW."
+   },
+   {
+    "model": "XC90",
+    "generation": "XC90 I (Typ C, 2002-2006)",
+    "variant": "V8 AWD 4.4 (Benziner)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 315,
+    "sourceUrl": "https://www.ultimatespecs.com/pl/samochody-dane-techniczne/Volvo/M730/XC90",
+    "evidence": "Ultimatespecs: XC90 V8 (MY2005) 315 PS (232 kW), 4414 ccm; encycarpedia.com/de 05-xc90-v8-awd consistent (440 Nm). US rating 311 hp is SAE."
+   },
+   {
+    "model": "XC90",
+    "generation": "XC90 I (Typ C, 2002-2006)",
+    "variant": "D5 AWD (Diesel)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 163,
+    "sourceUrl": "https://www.ultimatespecs.com/pl/samochody-dane-techniczne/Volvo/M730/XC90",
+    "evidence": "Ultimatespecs: D5 163 PS / 120 kW, 2401 ccm; largus.fr lists 'D5 163ch' (2004), marketed until 06/2005. Note: from ~2005/06 a 185 PS D5 (autoplenum '2.4 D5 DPF 185 PS (2002-2006)') replaced it - consider splitting."
+   },
+   {
+    "model": "XC90",
+    "generation": "XC90 II (Typ L, Facelift 2024)",
+    "variant": null,
+    "field": "wheelbaseMm",
+    "oldValue": null,
+    "newValue": 2984,
+    "sourceUrl": "https://www.volvocars.com/in/cars/xc90/specifications/",
+    "evidence": "Volvo XC90 spec page (B5 AWD Mild hybrid): 'Vehicle length 4 953 mm ... Wheel base 2 984 mm'; autotijd.be B5/B6 AWD (2024-) also 4953 mm / 2984 mm, width 1923 mm w/o mirrors."
+   },
+   {
+    "model": "ES90",
+    "generation": "ES90 (1. Generation)",
+    "variant": null,
+    "field": "trunkL",
+    "oldValue": 442,
+    "newValue": 424,
+    "sourceUrl": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+    "evidence": "Volvo official ES90 spec pages (intl, mt, sg, my): luggage 424 l with 2nd row up (904 l seats folded, window-high); max-capacity figures 446 l / 1427 l; frunk 27 l. carwow.de and test reports also 424 l. ADAC's 442 l matches only the Indonesian Volvo page. Task rule: prefer manufacturer figure. Applies to all three variants."
+   },
+   {
+    "model": "ES90",
+    "generation": "ES90 (1. Generation)",
+    "variant": null,
+    "field": "trunkFoldedL",
+    "oldValue": 1445,
+    "newValue": 1427,
+    "sourceUrl": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+    "evidence": "Volvo official ES90 spec page gives maximum load capacity 1427 l with rear seats folded; echo24.de test: '424 Liter ... mit umgelegter Rückbank 1.427 Liter'. ADAC 1445 l differs. Applies to Single Motor ER and Twin Motor variants (and fills Performance null)."
+   },
+   {
+    "model": "ES90",
+    "generation": "ES90 (1. Generation)",
+    "variant": "Single Motor Extended Range (Elektro, Heckantrieb)",
+    "field": "trunkL",
+    "oldValue": 442,
+    "newValue": 424,
+    "sourceUrl": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+    "evidence": "Volvo spec (Single Motor Extended Range): 424 l with 2nd row up."
+   },
+   {
+    "model": "ES90",
+    "generation": "ES90 (1. Generation)",
+    "variant": "Single Motor Extended Range (Elektro, Heckantrieb)",
+    "field": "trunkFoldedL",
+    "oldValue": 1445,
+    "newValue": 1427,
+    "sourceUrl": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+    "evidence": "Volvo spec: max 1427 l."
+   },
+   {
+    "model": "ES90",
+    "generation": "ES90 (1. Generation)",
+    "variant": "Twin Motor AWD (Elektro)",
+    "field": "trunkL",
+    "oldValue": 442,
+    "newValue": 424,
+    "sourceUrl": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+    "evidence": "Volvo spec: 424 l (same body for all variants)."
+   },
+   {
+    "model": "ES90",
+    "generation": "ES90 (1. Generation)",
+    "variant": "Twin Motor AWD (Elektro)",
+    "field": "trunkFoldedL",
+    "oldValue": 1445,
+    "newValue": 1427,
+    "sourceUrl": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+    "evidence": "Volvo spec: max 1427 l."
+   },
+   {
+    "model": "ES90",
+    "generation": "ES90 (1. Generation)",
+    "variant": "Twin Motor Performance AWD (Elektro)",
+    "field": "trunkL",
+    "oldValue": 442,
+    "newValue": 424,
+    "sourceUrl": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+    "evidence": "Volvo spec: 424 l (same body for all variants)."
+   }
+  ],
+  "missing": [
+   {
+    "model": "EX90",
+    "detail": "Single Motor (RWD, 205 kW / 279 PS) variant missing: ADAC lists 'EX90 Single Motor Core (5-Sitzer) (03/24-09/25)', '(6/7-Sitzer) (03/24-09/25)', 'Single Motor Core (6-Sitzer) (09/25-03/26)' and 'Single Motor Plus (6/7-Sitzer) (ab 09/25)' (adac.de .../ex90/1generation/329860, 329861, 344725, 344726); autoplenum lists 'EX90 205 kW / 279 PS (seit 2024)'. Also a 5-seat EX90 configuration exists."
+   },
+   {
+    "model": "XC90",
+    "detail": "XC90 I: D5 185 PS (DPF) version from ~2005/06 (autoplenum '2.4 D5 DPF 185 PS'); 3.2 facelift power 238/243 PS (autoplenum '3.2 238 PS (2006-2014)', '3.2 243 PS'). ADAC also lists 5-seat 3.2 Executive (11/06-10/09) with 483 l normal trunk."
+   },
+   {
+    "model": "XC90",
+    "detail": "XC90 II (2015-2024): D4 diesel (front-wheel drive, 190 PS) offered in Germany at launch 2015 - not covered (all listed variants are AWD)."
+   },
+   {
+    "model": "XC90",
+    "detail": "XC90 II Facelift 2024: B6 AWD (300 PS mild-hybrid petrol) listed 2024-2026 by autotijd.be - German availability not confirmed."
+   }
+  ],
+  "checkedValues": 52,
+  "confirmedValues": 36,
+  "notes": "Confirmed: XC90 I length 4798 (Volvo 480 cm), width 1898, wheelbase 2857, yearFrom 2002 (production from Aug 2002, Volvo media) and yearTo 2014 (last car 11 Jul 2014), facelift ADAC entries from 11/06 (yearFrom 2007 ok), facelift 4807/1898/1784/2857 and 1837 l. XC90 I 5-seat trunk: secondary sources give 613 l (gebrauchtwagenberater, medidasdecoches) or 615 l (Parkers) with 249 l 7-seat; ADAC 5-seat 3.2 gives 483 l; no Volvo VDA figure found -> trunkL left null (conflicting). XC90 II: length 4950, wheelbase 2984, 302/680/1856 and PHEV 262/640/1816 consistent with carwow; width 1931 mm NOT confirmed (sources give 1923 w/o mirrors for 2019+/2024 models, 2008 mm with folded mirrors) - unresolved, no correction. Facelift 2024: 4953/1923/1771 confirmed (height 1767-1776 elsewhere). EX90: 5037/1964/1744/2985 confirmed; trunk conflicting: ADAC 324/697/2135 vs firmenauto 324/669/1955 vs UK press 310/655/1915 - no Volvo DE figure retrieved, no correction. ES90 dimensions 5000/1942/1547/3102 confirmed. 18 of 20 searches used."
+ }
+}

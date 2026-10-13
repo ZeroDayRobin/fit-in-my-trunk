@@ -784,6 +784,307 @@
      "yearTo": null
     }
    ]
+  },
+  {
+   "id": "volvo",
+   "name": "Volvo",
+   "kbaRank": null,
+   "models": [
+    {
+     "id": "c30",
+     "name": "C30",
+     "bodyType": "hatchback",
+     "yearFrom": 2007,
+     "yearTo": 2012
+    },
+    {
+     "id": "c40",
+     "name": "C40",
+     "bodyType": "suv-coupe",
+     "yearFrom": 2021,
+     "yearTo": null
+    },
+    {
+     "id": "c70",
+     "name": "C70",
+     "bodyType": "convertible",
+     "yearFrom": 1998,
+     "yearTo": 2013
+    },
+    {
+     "id": "es90",
+     "name": "ES90",
+     "bodyType": "sedan",
+     "yearFrom": 2025,
+     "yearTo": null
+    },
+    {
+     "id": "ex30",
+     "name": "EX30",
+     "bodyType": "suv",
+     "yearFrom": 2024,
+     "yearTo": null
+    },
+    {
+     "id": "ex90",
+     "name": "EX90",
+     "bodyType": "suv",
+     "yearFrom": 2024,
+     "yearTo": null
+    },
+    {
+     "id": "s40",
+     "name": "S40",
+     "bodyType": "sedan",
+     "yearFrom": 2004,
+     "yearTo": 2012
+    },
+    {
+     "id": "s60",
+     "name": "S60",
+     "bodyType": "sedan",
+     "yearFrom": 2001,
+     "yearTo": 2024
+    },
+    {
+     "id": "s80",
+     "name": "S80",
+     "bodyType": "sedan",
+     "yearFrom": 2005,
+     "yearTo": 2016
+    },
+    {
+     "id": "s90",
+     "name": "S90",
+     "bodyType": "sedan",
+     "yearFrom": 2017,
+     "yearTo": 2024
+    },
+    {
+     "id": "v40",
+     "name": "V40",
+     "bodyType": "hatchback",
+     "yearFrom": 2012,
+     "yearTo": 2019
+    },
+    {
+     "id": "v40-cross-country",
+     "name": "V40 Cross Country",
+     "bodyType": "hatchback",
+     "yearFrom": 2013,
+     "yearTo": 2019
+    },
+    {
+     "id": "v50",
+     "name": "V50",
+     "bodyType": "wagon",
+     "yearFrom": 2004,
+     "yearTo": 2012
+    },
+    {
+     "id": "v60",
+     "name": "V60",
+     "bodyType": "wagon",
+     "yearFrom": 2011,
+     "yearTo": null
+    },
+    {
+     "id": "v60-cross-country",
+     "name": "V60 Cross Country",
+     "bodyType": "wagon",
+     "yearFrom": 2015,
+     "yearTo": null
+    },
+    {
+     "id": "v70",
+     "name": "V70",
+     "bodyType": "wagon",
+     "yearFrom": 2005,
+     "yearTo": 2016
+    },
+    {
+     "id": "v90",
+     "name": "V90",
+     "bodyType": "wagon",
+     "yearFrom": 2017,
+     "yearTo": 2025
+    },
+    {
+     "id": "v90-cross-country",
+     "name": "V90 Cross Country",
+     "bodyType": "wagon",
+     "yearFrom": 2017,
+     "yearTo": 2024
+    },
+    {
+     "id": "xc40",
+     "name": "XC40",
+     "bodyType": "suv",
+     "yearFrom": 2018,
+     "yearTo": null
+    },
+    {
+     "id": "xc60",
+     "name": "XC60",
+     "bodyType": "suv",
+     "yearFrom": 2008,
+     "yearTo": null
+    },
+    {
+     "id": "xc70",
+     "name": "XC70",
+     "bodyType": "wagon",
+     "yearFrom": 2005,
+     "yearTo": 2016
+    },
+    {
+     "id": "xc90",
+     "name": "XC90",
+     "bodyType": "suv",
+     "yearFrom": 2002,
+     "yearTo": null
+    }
+   ]
+  },
+  {
+   "id": "honda",
+   "name": "Honda",
+   "kbaRank": null,
+   "models": [
+    {
+     "id": "accord-limousine",
+     "name": "Accord Limousine",
+     "bodyType": "sedan",
+     "yearFrom": 2003,
+     "yearTo": 2015
+    },
+    {
+     "id": "accord-tourer",
+     "name": "Accord Tourer",
+     "bodyType": "wagon",
+     "yearFrom": 2003,
+     "yearTo": 2015
+    },
+    {
+     "id": "civic",
+     "name": "Civic",
+     "bodyType": "hatchback",
+     "yearFrom": 2001,
+     "yearTo": null
+    },
+    {
+     "id": "civic-limousine",
+     "name": "Civic Limousine",
+     "bodyType": "sedan",
+     "yearFrom": 2001,
+     "yearTo": 2020
+    },
+    {
+     "id": "civic-tourer",
+     "name": "Civic Tourer",
+     "bodyType": "wagon",
+     "yearFrom": 2014,
+     "yearTo": 2017
+    },
+    {
+     "id": "cr-v",
+     "name": "CR-V",
+     "bodyType": "suv",
+     "yearFrom": 2002,
+     "yearTo": null
+    },
+    {
+     "id": "cr-z",
+     "name": "CR-Z",
+     "bodyType": "coupe",
+     "yearFrom": 2010,
+     "yearTo": 2013
+    },
+    {
+     "id": "e-ny1",
+     "name": "e:Ny1",
+     "bodyType": "suv",
+     "yearFrom": 2023,
+     "yearTo": null
+    },
+    {
+     "id": "fr-v",
+     "name": "FR-V",
+     "bodyType": "van",
+     "yearFrom": 2005,
+     "yearTo": 2009
+    },
+    {
+     "id": "honda-e",
+     "name": "Honda e",
+     "bodyType": "hatchback",
+     "yearFrom": 2020,
+     "yearTo": 2023
+    },
+    {
+     "id": "hr-v",
+     "name": "HR-V",
+     "bodyType": "suv",
+     "yearFrom": 1999,
+     "yearTo": null
+    },
+    {
+     "id": "insight",
+     "name": "Insight",
+     "bodyType": "hatchback",
+     "yearFrom": 2009,
+     "yearTo": 2013
+    },
+    {
+     "id": "jazz",
+     "name": "Jazz",
+     "bodyType": "hatchback",
+     "yearFrom": 2005,
+     "yearTo": null
+    },
+    {
+     "id": "legend",
+     "name": "Legend",
+     "bodyType": "sedan",
+     "yearFrom": 2006,
+     "yearTo": 2010
+    },
+    {
+     "id": "nsx",
+     "name": "NSX",
+     "bodyType": "coupe",
+     "yearFrom": 2002,
+     "yearTo": 2022
+    },
+    {
+     "id": "prelude",
+     "name": "Prelude",
+     "bodyType": "coupe",
+     "yearFrom": 2025,
+     "yearTo": null
+    },
+    {
+     "id": "s2000",
+     "name": "S2000",
+     "bodyType": "convertible",
+     "yearFrom": 2004,
+     "yearTo": 2009
+    },
+    {
+     "id": "stream",
+     "name": "Stream",
+     "bodyType": "van",
+     "yearFrom": 2004,
+     "yearTo": 2005
+    },
+    {
+     "id": "zr-v",
+     "name": "ZR-V",
+     "bodyType": "suv",
+     "yearFrom": 2023,
+     "yearTo": null
+    }
+   ]
   }
  ]
 }

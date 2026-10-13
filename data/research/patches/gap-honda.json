@@ -1,0 +1,26 @@
+{
+ "id": "gap-honda",
+ "kind": "gaps",
+ "patches": [
+  {
+   "model": "Accord Limousine",
+   "generation": "VII (CL, Accord Limousine)",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 740,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at4064_honda_accord_2_4_executive/honda_accord_2_4_executive.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest Honda Accord 2.4 Executive (Limousine): 'Kofferraumvolumen normal/geklappt 425 l/740 l' (ADAC measured). It is matched to gen VII because the ADAC catalogue says no Autotest was done for the 8th-gen 2.4 Executive, while the 7th-gen 2.4i Executive entry (01/03-02/06) shows Autotest ratings."
+  }
+ ],
+ "notFound": [
+  "Accord Limousine | VIII (CU) | trunkFoldedL",
+  "Civic Limousine | 10. Generation (FC) | trunkFoldedL",
+  "Civic Limousine | 8. Generation Civic Hybrid (FD3) | trunkFoldedL",
+  "Civic Limousine | 7. Generation 4-Türer / Civic IMA (ES) | trunkFoldedL",
+  "HR-V | GH (1. Generation, 5-Türer) | trunkFoldedL",
+  "Legend | IV (KB1, Facelift) | trunkFoldedL",
+  "Legend | IV (KB1) | trunkFoldedL",
+  "Civic Limousine 7. Generation lengthMm (Quellen widersprüchlich: 4440/4458/4480 mm)"
+ ]
+}

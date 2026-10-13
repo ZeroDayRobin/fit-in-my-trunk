@@ -1,0 +1,628 @@
+{
+ "id": "honda-3",
+ "brand": "Honda",
+ "data": {
+  "models": [
+   {
+    "brand": "Honda",
+    "model": "Accord Limousine",
+    "generations": [
+     {
+      "name": "VII (CL, Accord Limousine)",
+      "yearFrom": 2003,
+      "yearTo": 2008,
+      "bodyType": "sedan",
+      "lengthMm": 4665,
+      "widthMm": 1760,
+      "heightMm": 1445,
+      "wheelbaseMm": 2680,
+      "trunkL": 459,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 459,
+        "trunkFoldedL": null,
+        "notes": "Engine named in auto motor und sport Gebrauchtwagencheck (2.0i Sport); power not captured from a source."
+       },
+       {
+        "name": "2.4i Type S (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 459,
+        "trunkFoldedL": null,
+        "notes": "Same 459 l per auto motor und sport."
+       },
+       {
+        "name": "2.2 i-CTDi (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Diesel offered (ADAC catalogue lists 2.2 i-CTDi for Tourer); sedan trunk assumed equal but not verified, so null."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.auto-motor-und-sport.de/mittelklasse/gebrauchtwagen/gebrauchtwagencheck-honda-accord-7-alles-was-sie-zu-kauf-wissen-muessen/technische-daten/",
+        "what": "Length 4665, width 1760, height 1445, wheelbase 2680, trunk 459 l (2.0i Sport, 2.4i Type S)"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/Honda_Accord_7._Generation",
+        "what": "Generation range 2002/2003-2008, dimension ranges across body styles"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/accord/7generation-facelift/205837/",
+        "what": "ADAC: facelift period 02/06-01/08 and 2.2 i-CTDi engine"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "No Honda press source found; values from auto motor und sport. Facelift 2006 not split (no dimension/trunk change found). European launch 2003 (German MY 2003). trunkFoldedL not found."
+     },
+     {
+      "name": "VIII (CU)",
+      "yearFrom": 2008,
+      "yearTo": 2015,
+      "bodyType": "sedan",
+      "lengthMm": 4725,
+      "widthMm": 1840,
+      "heightMm": 1440,
+      "wheelbaseMm": 2705,
+      "trunkL": 467,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 i-VTEC (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 467,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "2.4 i-VTEC (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 201,
+        "awd": false,
+        "trunkL": 467,
+        "trunkFoldedL": null,
+        "notes": "201 PS per autoplenum; Type S trim per auto motor und sport."
+       },
+       {
+        "name": "2.2 i-DTEC (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 467,
+        "trunkFoldedL": null,
+        "yearFrom": 2008,
+        "yearTo": 2011
+       },
+       {
+        "name": "2.2 i-DTEC 180 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 180,
+        "awd": false,
+        "trunkL": 467,
+        "trunkFoldedL": null,
+        "yearFrom": 2011,
+        "yearTo": 2015,
+        "notes": "Facelift diesel; 180 PS designation per ADAC catalogue (Tourer entry 04/11-06/15)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.mobile.de/auto/honda/accord/2008/limousine/modell/daten-fakten/",
+        "what": "Length 4725 mm, trunk 467 l"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/fahrbericht/honda-accord-type-s-limousine-mit-sportlicher-optik/technische-daten/",
+        "what": "Width 1840, height 1440, trunk 467 l (VDA)"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Honda_Accord_(Japan_and_Europe_eighth_generation)",
+        "what": "Wheelbase 2705, sedan length 4726, width 1840, height 1440"
+       },
+       {
+        "url": "https://www.autoplenum.de/auto/honda/accord/limousine-2008/2-4-i-vtec-201-ps",
+        "what": "2.4 i-VTEC 201 PS, wheelbase 2705"
+       },
+       {
+        "url": "https://www.ultimatespecs.com/car-specs/Honda/M8573/Accord-8-Facelift",
+        "what": "Facelift length 4725 mm (unchanged)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/accord/8-generation-facelift/228033/",
+        "what": "ADAC: facelift period 04/11-06/15, 2.2 i-DTEC 180"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 2011 not split: no change in dimensions/trunk found (ultimatespecs 4725 mm). Accord discontinued in Europe 2015. Honda press kit for the sedan not found; hondaforum mentions 459 l for some sedans. trunkFoldedL (through-load) not found. 2.0 and 2.2 i-DTEC (pre-facelift) power not captured from a source."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "Accord Tourer",
+    "generations": [
+     {
+      "name": "VII (CM, Accord Tourer)",
+      "yearFrom": 2003,
+      "yearTo": 2008,
+      "bodyType": "wagon",
+      "lengthMm": 4750,
+      "widthMm": 1760,
+      "heightMm": 1470,
+      "wheelbaseMm": 2720,
+      "trunkL": 518,
+      "trunkFoldedL": 1657,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 518,
+        "trunkFoldedL": 1657
+       },
+       {
+        "name": "2.4 i-VTEC Type S (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 518,
+        "trunkFoldedL": 1657
+       },
+       {
+        "name": "2.2 i-CTDi (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 518,
+        "trunkFoldedL": 1657
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/accord/7generation/995908/",
+        "what": "ADAC catalogue (2.0i Sport 04/03-02/06): trunk 518 l normal, 921 l window-high folded, 1657 l roof-high folded, wheelbase 2720"
+       },
+       {
+        "url": "https://www.autoscout24.at/auto/technische-daten/honda/accord/accord-tourer-2-4-i-vtec-type-s-aut-kombi-benzin-bleifrei-13504/",
+        "what": "Height 1470 mm (2.4 i-VTEC Type S)"
+       },
+       {
+        "url": "http://autokatalog.autoscout24.de/honda/accord-tourer-2003-2008/",
+        "what": "4750 x 1760 x 1470 mm, 518-1657 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/accord/7generation-facelift/205837/",
+        "what": "ADAC: 2.2 i-CTDi Sport, facelift 02/06-01/08"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Honda press data not found; ADAC catalogue values. ADAC Autotest measured 395 l (different method). Window-high folded volume 921 l (ADAC). Facelift 2006 not split."
+     },
+     {
+      "name": "VIII (CW)",
+      "yearFrom": 2008,
+      "yearTo": 2015,
+      "bodyType": "wagon",
+      "lengthMm": 4750,
+      "widthMm": 1840,
+      "heightMm": 1470,
+      "wheelbaseMm": 2705,
+      "trunkL": 406,
+      "trunkFoldedL": 1183,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 i-VTEC (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 406,
+        "trunkFoldedL": 1183
+       },
+       {
+        "name": "2.4 i-VTEC (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 201,
+        "awd": false,
+        "trunkL": 406,
+        "trunkFoldedL": 1183,
+        "notes": "201 PS per autoplenum (sedan entry, same engine)."
+       },
+       {
+        "name": "2.2 i-DTEC (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 406,
+        "trunkFoldedL": 1183,
+        "yearFrom": 2008,
+        "yearTo": 2011
+       },
+       {
+        "name": "2.2 i-DTEC 180 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 180,
+        "awd": false,
+        "trunkL": 406,
+        "trunkFoldedL": 1183,
+        "yearFrom": 2011,
+        "yearTo": 2015
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://hondanews.eu/gb/en/cars/media/pressreleases/3540/honda-accord-press-kit",
+        "what": "Honda press kit: 406 l VDA seats up; 660 l to window line and 1183 l to roof with rear seats folded; 53 l underfloor"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/accord/8generation/214087/",
+        "what": "ADAC catalogue 2.2 i-DTEC: 406 l normal, 1252 l roof-high folded"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/accord/8-generation-facelift/228033/",
+        "what": "ADAC catalogue facelift 04/11-06/15: length 4750, 406/1252 l, 2.2 i-DTEC 180"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1114-Accord+Tourer",
+        "what": "Length 4750, width 1840, height 1470, wheelbase 2705"
+       },
+       {
+        "url": "https://www.whatcar.com/honda/accord/estate/used-review/n368",
+        "what": "406 l / 1183 l confirmation"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "trunkFoldedL conflict: Honda press kit 1183 l (to roof) vs ADAC catalogue 1252 l; press kit value used. ADAC Autotest: outer sill height just under 61 cm, measured 670 l folded to window line (not exact, loadSpace left null). Facelift 2011 not split (406 l and 4750 mm unchanged per ADAC). AutoScout24 lists 4740 mm length."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "Insight",
+    "generations": [
+     {
+      "name": "II (ZE2)",
+      "yearFrom": 2009,
+      "yearTo": 2013,
+      "bodyType": "hatchback",
+      "lengthMm": 4395,
+      "widthMm": 1695,
+      "heightMm": 1425,
+      "wheelbaseMm": 2545,
+      "trunkL": 408,
+      "trunkFoldedL": 1017,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.3 i-VTEC IMA Hybrid CVT",
+        "powertrain": "hev",
+        "powerPs": 88,
+        "awd": false,
+        "trunkL": 408,
+        "trunkFoldedL": 1017,
+        "notes": "88 PS = petrol engine rating (autoplenum/auto-data); mild-parallel IMA hybrid."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://hondanews.eu/gb/en/cars/media/pressreleases/3541/honda-insight-press-kit",
+        "what": "Honda press kit: boot 408 l VDA rear seats up (text elsewhere says 400 l), 8 l underfloor well"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/insight/2generation/217735/",
+        "what": "ADAC catalogue 06/09-02/12: 408 l normal, 584 l window-high folded; width with mirrors 2025"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/insight/2generation-facelift/231435/",
+        "what": "ADAC catalogue facelift 02/12-10/13: 4395 x 1695 x 1425, wheelbase 2545, 408 / 584 / 1017 l (roof-high folded)"
+       },
+       {
+        "url": "https://www.autoexpress.co.uk/honda/insight",
+        "what": "1017 l with rear seats folded"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 2012 not split (dimensions and trunk unchanged per ADAC). German sales ended 10/2013 per ADAC. Some databases quote 339 l (likely below cover). First-generation Insight (1999-2006) was per AutoScout24 never officially sold in Germany (autokosten lists 04/00-09/01 only) and ended before 2005 - excluded. Third generation (2018+) not sold in Europe."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "CR-Z",
+    "generations": [
+     {
+      "name": "ZF1/ZF2",
+      "yearFrom": 2010,
+      "yearTo": 2016,
+      "bodyType": "coupe",
+      "lengthMm": 4080,
+      "widthMm": 1740,
+      "heightMm": 1395,
+      "wheelbaseMm": 2425,
+      "trunkL": 215,
+      "trunkFoldedL": 583,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.5 i-VTEC IMA Hybrid",
+        "powertrain": "hev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 215,
+        "trunkFoldedL": 583,
+        "yearFrom": 2010,
+        "yearTo": 2012,
+        "notes": "Petrol engine 114 PS (autoplenum); system power not captured from a source."
+       },
+       {
+        "name": "1.5 i-VTEC IMA Hybrid 137 PS",
+        "powertrain": "hev",
+        "powerPs": 137,
+        "awd": false,
+        "trunkL": 215,
+        "trunkFoldedL": 583,
+        "yearFrom": 2013,
+        "yearTo": 2016,
+        "notes": "2013 facelift: system power 137 PS (petrol 121 + e-motor 20 PS) per mobile.de/autozeitung; trunk assumed unchanged (sources quote same range)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-z/1generation/223040/",
+        "what": "ADAC catalogue 1.5 Hybrid GT 06/10-12/12: 4080 x 1740 (w/o mirrors) x 1395, wheelbase 2425, trunk 215 l normal, 389 l window-high and 583 l roof-high folded"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1111-CR-Z",
+        "what": "Dimensions; alternative trunk 225 / 401 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/honda/cr-z/2010/dreituerer/modell/daten-fakten/",
+        "what": "215-595 l; 2013 facelift 137 PS"
+       },
+       {
+        "url": "https://www.autozeitung.de/honda-cr-z-1-5-ima-2012-hybrid-facelift-bilder-und-technische-daten-50799.html",
+        "what": "2013 facelift, 137 PS"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Honda_CR-Z",
+        "what": "Production 2010-2016"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "2+2 seat hybrid coupe/hatch. Honda EU press data not found; ADAC values used. Folded volume conflicts: 583 l (ADAC roof-high) vs 595 l (mobile.de/AutoScout24). yearTo 2016 is the production end (Wikipedia); exact last German model year not confirmed. Facelift 2013 not split (dimensions unchanged)."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "Legend",
+    "generations": [
+     {
+      "name": "IV (KB1)",
+      "yearFrom": 2006,
+      "yearTo": 2008,
+      "bodyType": "sedan",
+      "lengthMm": 4957,
+      "widthMm": 1845,
+      "heightMm": 1450,
+      "wheelbaseMm": 2800,
+      "trunkL": 452,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "3.5 V6 SH-AWD Automatik",
+        "powertrain": "petrol",
+        "powerPs": 295,
+        "awd": true,
+        "trunkL": 452,
+        "trunkFoldedL": null
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.auto-data.net/en/honda-legend-iv-kb1-3.5-v6-vtec-295hp-sh-awd-12170",
+        "what": "295 PS, width 1845, wheelbase 2800, trunk 452 l, length 4957"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/honda/honda-legend/",
+        "what": "2006-2008: wheelbase 2800, trunk 452 l, width 1847"
+       },
+       {
+        "url": "http://www.produkte24.com/cy/honda-automobile-deutschland-940/honda-legend-broschuere-2006-1281.html",
+        "what": "Honda Deutschland Legend brochure 2006 (length 4957 mm per search summary)"
+       },
+       {
+        "url": "https://www.autozeitung.de/luxus-hochform-honda-legend-35-v6-sh-awd-luxus-hochform-143045.html",
+        "what": "approx. 4.96 m long, 1.85 m wide"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/marken-modelle/honda/legend/kb1/technische-daten/",
+        "what": "Legend KB1 sold in Germany 2006-2010"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Height 1450 vs 1452 mm in sources; width 1845 vs 1847. No folded trunk value. Third-generation Legend (KA9) ended in Germany 04/2004 (autokosten) - excluded. Fifth generation (2014+) not sold in Europe."
+     },
+     {
+      "name": "IV (KB1, Facelift)",
+      "yearFrom": 2009,
+      "yearTo": 2010,
+      "bodyType": "sedan",
+      "lengthMm": 4985,
+      "widthMm": 1845,
+      "heightMm": null,
+      "wheelbaseMm": 2800,
+      "trunkL": 452,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "3.7 V6 SH-AWD Automatik",
+        "powertrain": "petrol",
+        "powerPs": 295,
+        "awd": true,
+        "trunkL": 452,
+        "trunkFoldedL": null
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autokosten.net/honda/legend/legend-3-7-v6/legend-iv-01-09-12-10/technische-daten",
+        "what": "Legend IV 3.7 V6, model start 01/2009, end 12/2010"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/honda/legend/legend-3-7-v6-sh-awd-2008-2010-limousine-benzin/",
+        "what": "Length 4985 mm, trunk 452 l"
+       },
+       {
+        "url": "https://www.autoplenum.de/auto/honda/legend/limousine-2004/3-7-v6-vtec-295-ps",
+        "what": "3.7 V6 295 PS, 452 l, wheelbase 2800, base price 59,990 EUR"
+       },
+       {
+        "url": "https://www.auto-data.net/en/honda-legend-iv-kb1-facelift-2008-3.7-vtec-v6-295hp-sh-awd-12172",
+        "what": "Facelift 3.7 VTEC V6 295 PS SH-AWD"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Split from pre-facelift because length grew to 4985 mm (new front). Height not confirmed for facelift. Some sources still quote 4957 mm for the facelift; 4985 mm used per AutoScout24/autokosten. German end of sale 12/2010 per autokosten."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Accord Limousine VII trunkFoldedL",
+   "Accord Limousine VIII trunkFoldedL",
+   "Accord Limousine/Tourer power ratings for 2.0 (VII/VIII), 2.4 (VII), 2.2 i-CTDi, 2.2 i-DTEC 150 (pre-facelift)",
+   "Accord Limousine VII 2.2 i-CTDi trunkL",
+   "Accord Tourer VIII loadSpace (only approx. sill height ~61 cm from ADAC test)",
+   "CR-Z pre-facelift system power",
+   "CR-Z last German model year (production end 2016 used)",
+   "Legend IV trunkFoldedL (both)",
+   "Legend IV Facelift heightMm",
+   "Official Honda press data for Accord VII, CR-Z, Legend"
+  ],
+  "notes": "Search budget (20) used. Honda sold in Germany 2005-2026 for these nameplates: Accord VII (2003-2008) and VIII (2008-2015) as Limousine and Tourer, Insight II (2009-2013), CR-Z (2010-2016), Legend IV (2006-2010). Insight I and Legend III ended before 2005 / not officially sold in Germany; later Insight/Legend/Accord generations were not sold in Germany. Most values from ADAC catalogue and databases since Honda EU press data was rarely reachable."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "Accord Limousine",
+    "generation": "VII (CL, Accord Limousine)",
+    "variant": null,
+    "field": "wheelbaseMm",
+    "oldValue": 2680,
+    "newValue": 2670,
+    "sourceUrl": "https://en.wikipedia.org/wiki/Honda_Accord_(Japan_and_Europe_seventh_generation)",
+    "evidence": "Wikipedia lists wheelbase 2,670 mm (105.1 in) for the 7th-gen JDM/Euro Accord sedan (4665 x 1760 x 1445). Consistent with Honda launch info that the Tourer (2720 mm) has a 50 mm longer wheelbase than the saloon (fleetnews 17 Oct 2002); autozine.nl also gives 267 cm."
+   },
+   {
+    "model": "Accord Tourer",
+    "generation": "VII (CM, Accord Tourer)",
+    "variant": null,
+    "field": "trunkL",
+    "oldValue": 518,
+    "newValue": 576,
+    "sourceUrl": "https://www.fleetnews.co.uk/news/2002/10/17/honda-reveals-new-stretched-accord/12609/",
+    "evidence": "Honda launch release: 'class leading load volume with all seats in place of 576 litres (VDA), rising to 921 litres with the one-motion rear seats folded' (also autozine.nl 10 Oct 2002 and Auto Bild 'Neuer Honda Accord': 576 l). Manufacturer figure preferred over ADAC catalogue 518 l. Note the manufacturer's 921 l folded is to window line; roof-high 1657 l (ADAC) kept."
+   },
+   {
+    "model": "Accord Tourer",
+    "generation": "VII (CM, Accord Tourer)",
+    "variant": "2.0i (Benziner)",
+    "field": "trunkL",
+    "oldValue": 518,
+    "newValue": 576,
+    "sourceUrl": "https://www.fleetnews.co.uk/news/2002/10/17/honda-reveals-new-stretched-accord/12609/",
+    "evidence": "Honda launch figure 576 l VDA seats up (same body for all engines)."
+   },
+   {
+    "model": "Accord Tourer",
+    "generation": "VII (CM, Accord Tourer)",
+    "variant": "2.4 i-VTEC Type S (Benziner)",
+    "field": "trunkL",
+    "oldValue": 518,
+    "newValue": 576,
+    "sourceUrl": "https://www.fleetnews.co.uk/news/2002/10/17/honda-reveals-new-stretched-accord/12609/",
+    "evidence": "Honda launch figure 576 l VDA seats up (same body for all engines)."
+   },
+   {
+    "model": "Accord Tourer",
+    "generation": "VII (CM, Accord Tourer)",
+    "variant": "2.2 i-CTDi (Diesel)",
+    "field": "trunkL",
+    "oldValue": 518,
+    "newValue": 576,
+    "sourceUrl": "https://www.autobild.de/artikel/neuer-honda-accord-38829.html",
+    "evidence": "Auto Bild: Accord Tourer 576 Liter Fassungsvermögen, 921 l bis Fensterlinie bei umgelegter Rückbank (Honda figure, same body for all engines)."
+   },
+   {
+    "model": "CR-Z",
+    "generation": "ZF1/ZF2",
+    "variant": null,
+    "field": "trunkL",
+    "oldValue": 215,
+    "newValue": 225,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-z/1generation/223039/",
+    "evidence": "ADAC catalogue lists 225 l normal for CR-Z 1.5 Hybrid S and Sport (06/10-12/12); only the GT trim is listed with 215 l (likely subwoofer). Top Gear spec (1.5 IMA S) also 225 l seats up; AutoScout24 225 l. 225 l is the base/most common figure; GT = 215 l."
+   },
+   {
+    "model": "CR-Z",
+    "generation": "ZF1/ZF2",
+    "variant": null,
+    "field": "trunkFoldedL",
+    "oldValue": 583,
+    "newValue": 595,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-z/1generation/223039/",
+    "evidence": "ADAC for S/Sport: 401 l window-high, 595 l roof-high folded (GT: 389/583). Encycarpedia/mobile.de also 225-595 l. Pairs with trunkL 225."
+   },
+   {
+    "model": "CR-Z",
+    "generation": "ZF1/ZF2",
+    "variant": null,
+    "field": "yearTo",
+    "oldValue": 2016,
+    "newValue": 2013,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-z/1generation-facelift/316994",
+    "evidence": "ADAC facelift entry 'Honda CR-Z 1.5 Hybrid GT (01/13 - 12/13)', 137 PS. German sources (mobile.de/AutoScout24 model pages) state sales in Germany were discontinued at end of 2013 due to weak sales; 2016 is only the global production end."
+   },
+   {
+    "model": "CR-Z",
+    "generation": "ZF1/ZF2",
+    "variant": "1.5 i-VTEC IMA Hybrid 137 PS",
+    "field": "yearTo",
+    "oldValue": 2016,
+    "newValue": 2013,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-z/1generation-facelift/316994",
+    "evidence": "ADAC: facelift 137 PS built/offered 01/13 - 12/13 in Germany; German sales ended end of 2013."
+   },
+   {
+    "model": "Legend",
+    "generation": "IV (KB1, Facelift)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": null,
+    "newValue": 1450,
+    "sourceUrl": "https://cars-data.com/en/honda/legend/dimensions",
+    "evidence": "cars-data.com gives 4,985 mm length, 1,845 mm width, 1,450 mm height for the 2008-2010 Legend (facelift); cararac also 1450. Not a manufacturer source (one sheet lists 1455)."
+   }
+  ],
+  "missing": [],
+  "checkedValues": 47,
+  "confirmedValues": 39,
+  "notes": "15 WebSearch calls used. Confirmed: Accord VII sedan 4665/1760/1445, 459 l, 2003-2008; Accord VIII sedan 4725/1840/1440/2705 and 467 l VDA (Honda launch material; 459 l belongs to gen VII); Accord VII Tourer length 4750, wheelbase 2720; Accord VIII Tourer 4750/1840/2705 (height 1470 per cars-data, L'argus says 1.44 m - not changed); Insight II 1695/1425, 408 l (length 4390-4395 and wheelbase 2545-2550 vary by source, left as is; 1017 l folded not re-found); CR-Z 4080/1740/1395/2425 (ADAC; some sources 2435 wb / 4075 length); Legend IV 4957/1845/1450/2800/452 l; Legend facelift German launch spring 2009 (automobile.at), width/wheelbase/452 l. Legend facelift length conflict unresolved (4957 per cararac/auto-data vs 4985 per cars-data/fastcarcheck) - not changed. No missing generations found; Honda sold no PHEV/4x4 variants of these besides Legend SH-AWD. Accord VII Tourer roof-high folded 1657 l (ADAC) not contradicted by a manufacturer figure (Honest John quotes 626-1707 l, unclear method)."
+ }
+}

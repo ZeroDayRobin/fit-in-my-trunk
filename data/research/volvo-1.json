@@ -1,0 +1,647 @@
+{
+ "id": "volvo-1",
+ "brand": "Volvo",
+ "data": {
+  "models": [
+   {
+    "brand": "Volvo",
+    "model": "V40",
+    "generations": [
+     {
+      "name": "V40 II (Typ M, 2012-2019, inkl. Facelift 2016)",
+      "yearFrom": 2012,
+      "yearTo": 2019,
+      "bodyType": "hatchback",
+      "lengthMm": 4369,
+      "widthMm": 1802,
+      "heightMm": 1420,
+      "wheelbaseMm": 2647,
+      "trunkL": 335,
+      "trunkFoldedL": 1032,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "T3 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 335,
+        "trunkFoldedL": 1032,
+        "notes": "150 PS laut Volvo-Pressemitteilung März 2012 (Markteinführung DE)"
+       },
+       {
+        "name": "T4 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 180,
+        "awd": false,
+        "trunkL": 335,
+        "trunkFoldedL": 1032,
+        "notes": "180 PS laut Volvo-Pressemitteilung Österreich März 2012; spätere Leistungsstufen (Drive-E ab 2014/15) nicht recherchiert"
+       },
+       {
+        "name": "T5 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 335,
+        "trunkFoldedL": 1032,
+        "notes": "Leistung nicht belegt"
+       },
+       {
+        "name": "D2 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 115,
+        "awd": false,
+        "trunkL": 335,
+        "trunkFoldedL": 1032,
+        "notes": "115 PS laut Volvo-Pressemitteilung März 2012"
+       },
+       {
+        "name": "D3 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 335,
+        "trunkFoldedL": 1032
+       },
+       {
+        "name": "D4 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 177,
+        "awd": false,
+        "trunkL": 335,
+        "trunkFoldedL": 1032,
+        "notes": "177 PS laut Volvo-Pressemitteilung Österreich März 2012 (Fünfzylinder; später Drive-E)"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.volvocars.com/de/support/car/v40/article/d3e3a984c472afb4c0a801e8016918f7/",
+        "what": "Volvo Support (Hersteller): Breite ohne Spiegel 1802 mm, Höhe 1420 mm, Radstand 2647 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-s50-v40-v50/3generation/232092/",
+        "what": "ADAC Autokatalog V40 T3 Momentum (08/12-04/15): Länge 4369 mm, Kofferraum 335/1032 l (Fallback, Hersteller nennt Volumen in gefundener Quelle nicht)"
+       },
+       {
+        "url": "https://mb.cision.com/Main/23603/4175685/3537502.pdf",
+        "what": "Volvo-Pressemitteilung März 2012: T3 150 PS, D2 115 PS, D3 150 PS (DE-Markteinführung)"
+       },
+       {
+        "url": "https://mb.cision.com/Main/23603/4175673/3537491.pdf",
+        "what": "Volvo-Pressemitteilung Österreich März 2012: T4 180 PS, D4 177 PS"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "ADAC nennt Breite 1783 mm (andere Messweise); hier Herstellerwert 1802 mm ohne Spiegel. Facelift 2016 nicht separat, da keine geänderten Maße/Volumen gefunden (nicht explizit verifiziert). Einzelne Portale nennen für einige Diesel abweichende Volumen (z. B. 324 l) - nicht bestätigt. Weitere Motoren (T2, D4 Drive-E 190 PS, T5 AWD) nicht recherchiert."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "V40 Cross Country",
+    "generations": [
+     {
+      "name": "V40 Cross Country (2013-2019)",
+      "yearFrom": 2013,
+      "yearTo": 2019,
+      "bodyType": "hatchback",
+      "lengthMm": 4370,
+      "widthMm": 1802,
+      "heightMm": 1458,
+      "wheelbaseMm": 2646,
+      "trunkL": 335,
+      "trunkFoldedL": 1032,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "T3 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 335,
+        "trunkFoldedL": 1032
+       },
+       {
+        "name": "T4 / T5 AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 335,
+        "trunkFoldedL": 1032,
+        "notes": "ADAC: T4 Ocean Race AWD Geartronic (04/14-04/15) mit identischen Maßen und 335/1032 l"
+       },
+       {
+        "name": "D3 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 335,
+        "trunkFoldedL": 1032
+       },
+       {
+        "name": "D4 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 335,
+        "trunkFoldedL": 1032
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.volvocars.com/de/support/car/v40-cross-country/article/d3e3a984c472afb4c0a801e8016918f7/",
+        "what": "Volvo Support (Hersteller): Höhe 1458 mm, Breite ohne Spiegel 1802 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-v40-v50/3generation/240809/",
+        "what": "ADAC Autokatalog V40 CC T4 Ocean Race AWD: Länge 4370, Radstand 2646, Höhe 1458, Kofferraum 335/1032 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-v40-v50/3generation/234341/",
+        "what": "ADAC Autokatalog V40 CC D3 Momentum (01/13-04/15): Marktstart 01/2013, gleiche Maße/Volumen"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Kein Vorgänger dieses Namens im Zeitraum 2005-2026. ADAC Breite 1783 mm (andere Messweise); Herstellerwert 1802 mm ohne Spiegel. Radstand: ADAC 2646 mm, V40-Herstellerseite 2647 mm. Leistungsangaben der Varianten nicht belegt (Suchbudget)."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "C30",
+    "generations": [
+     {
+      "name": "C30 (2006-2009)",
+      "yearFrom": 2007,
+      "yearTo": 2010,
+      "bodyType": "hatchback",
+      "lengthMm": 4252,
+      "widthMm": 1782,
+      "heightMm": 1447,
+      "wheelbaseMm": 2640,
+      "trunkL": 278,
+      "trunkFoldedL": 921,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 / 1.8 / 2.0 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 278,
+        "trunkFoldedL": 921,
+        "notes": "1.6 100 PS, 1.8 125 PS, 2.0 145 PS laut Wikipedia/autotijd (Sekundärquellen)"
+       },
+       {
+        "name": "2.4i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 170,
+        "awd": false,
+        "trunkL": 278,
+        "trunkFoldedL": 921
+       },
+       {
+        "name": "T5 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 230,
+        "awd": false,
+        "trunkL": 278,
+        "trunkFoldedL": 921,
+        "notes": "anfangs 220 PS, ab Mai 2007 230 PS (Wikipedia)"
+       },
+       {
+        "name": "1.6D (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 109,
+        "awd": false,
+        "trunkL": 278,
+        "trunkFoldedL": 921
+       },
+       {
+        "name": "2.0D (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 136,
+        "awd": false,
+        "trunkL": 278,
+        "trunkFoldedL": 921
+       },
+       {
+        "name": "D5 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 180,
+        "awd": false,
+        "trunkL": 278,
+        "trunkFoldedL": 921
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c30/1generation/208233/",
+        "what": "ADAC Autokatalog C30 1.6D Momentum (12/06-04/09): Länge 4252, Breite 1782, Höhe 1447, Kofferraum 278 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c30/1generation/217544/",
+        "what": "ADAC Autokatalog C30 1.6 Edition R Design: Kofferraum 278 l normal / 921 l dachhoch umgeklappt"
+       },
+       {
+        "url": "https://www.volvocars.com/uk/media/press-releases/FFF6E0A5459D533F/",
+        "what": "Volvo UK Presse (Launch): Länge 4,25 m; nennt 433/947 l (andere Messnorm, nicht VDA)"
+       },
+       {
+        "url": "https://www.volvocars.com/uk/media/press-releases/775D7B9DFDABB384/",
+        "what": "Volvo UK Presse MY2009: nennt 364/1010 l (andere Messnorm), Ladehöhe 807 mm"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Volvo_C30",
+        "what": "Radstand 2640 mm, Länge 4252 (2007-2009) / 4266 (ab 2010), T5 220->230 PS, Motorenübersicht"
+       },
+       {
+        "url": "https://autotijd.be/en/specs/volvo/c30-2006-2009",
+        "what": "Motorenprogramm 2006-2009 (1.6D 109 PS, 2.0D 136 PS, D5 180 PS)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Kofferraum: Volvo-Pressemitteilungen widersprechen sich (433/947 l bzw. 364/1010 l, offenbar nicht VDA); verwendet ADAC-VDA-Werte 278/921 l. Marktstart DE Ende 2006 (ADAC ab 12/06), daher Modelljahr 2007."
+     },
+     {
+      "name": "C30 (Facelift 2010-2012)",
+      "yearFrom": 2010,
+      "yearTo": 2012,
+      "bodyType": "hatchback",
+      "lengthMm": 4266,
+      "widthMm": 1782,
+      "heightMm": 1447,
+      "wheelbaseMm": 2640,
+      "trunkL": null,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "D2 / 1.6D DRIVe (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 115,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "T5 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "Benziner 1.6 / 2.0 / 2.4i",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "2.0D / D3 / D4 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://en.wikipedia.org/wiki/Volvo_C30",
+        "what": "Länge 4266 mm ab Facelift 2010, Radstand 2640 mm"
+       },
+       {
+        "url": "https://autotijd.be/fr/dimensions/volvo/c30/d2-manual-5220",
+        "what": "C30 D2 (2010-2013): Länge 4266 mm; nennt 251/894 l (Norm unklar, nicht übernommen)"
+       },
+       {
+        "url": "https://fastcarcheck.uk/specs/make/volvo/c30/24736",
+        "what": "1.6 D2 DRIVe 115 PS, Länge 4266 mm, Höhe 1447 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c30/1generation-facelift/220872",
+        "what": "ADAC C30 2.0D Momentum Powershift (12/09-05/10) als Facelift-Generation geführt (Marktstart Facelift 12/09)"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Facelift wegen geänderter Länge (+14 mm) separat. Breite/Höhe vom Vorfacelift übernommen gemäß Sekundärquellen (Höhe 1447 laut fastcarcheck; autotijd 1443). Kofferraum-VDA-Werte für Facelift nicht gefunden (Sekundärquellen 251/894 l bzw. 233/876 l, Norm unklar). C30 Electric (BEV, 2011) nur als Kleinserie/Leasing, nicht in regulärer Preisliste - nicht aufgenommen."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "S40",
+    "generations": [
+     {
+      "name": "S40 II (Typ M, 2004-2007)",
+      "yearFrom": 2004,
+      "yearTo": 2007,
+      "bodyType": "sedan",
+      "lengthMm": 4468,
+      "widthMm": 1770,
+      "heightMm": 1452,
+      "wheelbaseMm": 2640,
+      "trunkL": 404,
+      "trunkFoldedL": 883,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 / 1.8 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 404,
+        "trunkFoldedL": 883,
+        "notes": "1.6 100 PS, 1.8 125 PS laut Volvo-Pressemitteilung Schweden 11/2004"
+       },
+       {
+        "name": "2.4 / 2.4i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 404,
+        "trunkFoldedL": 883,
+        "notes": "2.4 140 PS, 2.4i 170 PS (Volvo-Pressemitteilung Schweden)"
+       },
+       {
+        "name": "T5 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 220,
+        "awd": false,
+        "trunkL": 404,
+        "trunkFoldedL": 883,
+        "notes": "AWD-Version existierte, Kofferraum der AWD-Version nicht verifiziert"
+       },
+       {
+        "name": "1.6D / 2.0D (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 404,
+        "trunkFoldedL": 883,
+        "notes": "1.6D 110 PS, 2.0D 136 PS (Volvo-Pressemitteilung Schweden)"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-s50-v40-v50/2generation/997727/",
+        "what": "ADAC Autokatalog S40 2.4i Momentum (02/04-04/07): Länge 4468, Breite 1770, Höhe 1452, Radstand 2640, Kofferraum 404 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-v40-v50/2generation/201739/",
+        "what": "ADAC Autokatalog S40 1.6 (02/05-04/07): 404 l / 883 l fensterhoch umgeklappt"
+       },
+       {
+        "url": "https://mb.cision.com/Main/23617/4197759/3564402.pdf",
+        "what": "Volvo-Pressemitteilung (Schweden, 11/2004): Motorenprogramm mit Leistungen (Landesspezifisch)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "S40 I (1995-2004) endete vor MJ 2005 und wird nicht aufgenommen. Herstellerquelle für Maße nicht gefunden, daher ADAC. 883 l ist 'fensterhoch' (ADAC). D5-Diesel (ab ca. 2005) nicht belegt."
+     },
+     {
+      "name": "S40 II (Typ M, Facelift 2007-2012)",
+      "yearFrom": 2007,
+      "yearTo": 2012,
+      "bodyType": "sedan",
+      "lengthMm": 4476,
+      "widthMm": 1770,
+      "heightMm": 1454,
+      "wheelbaseMm": 2640,
+      "trunkL": 404,
+      "trunkFoldedL": 883,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Benziner (1.6, 1.8, 2.0, 2.4i, T5)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 404,
+        "trunkFoldedL": 883
+       },
+       {
+        "name": "2.0D (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 404,
+        "trunkFoldedL": 883,
+        "notes": "ADAC 2.0D Powershift Geartronic (04/08-05/10): Höhe 1454, 404/883 l"
+       },
+       {
+        "name": "DRIVe / D2 / D5 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 404,
+        "trunkFoldedL": 883
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-v40-v50/2generation-facelift/210109/",
+        "what": "ADAC Autokatalog S40 2.0D Momentum (04/07-05/10): Länge 4476, Breite 1770"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-v40-v50/2generation-facelift/213915/",
+        "what": "ADAC Autokatalog S40 2.0D Powershift Geartronic (04/08-05/10): Höhe 1454, Radstand 2640, Kofferraum 404/883 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift wegen +8 mm Länge separat. Leistungsangaben nicht belegt (Suchbudget). Produktionsende 2012."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "V50",
+    "generations": [
+     {
+      "name": "V50 (Typ M, 2004-2007)",
+      "yearFrom": 2004,
+      "yearTo": 2007,
+      "bodyType": "wagon",
+      "lengthMm": 4514,
+      "widthMm": 1770,
+      "heightMm": 1452,
+      "wheelbaseMm": 2640,
+      "trunkL": 417,
+      "trunkFoldedL": 1307,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6 / 1.8 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 417,
+        "trunkFoldedL": 1307,
+        "notes": "1.6 100 PS, 1.8 125 PS laut Volvo-Pressemitteilung Schweden 11/2004"
+       },
+       {
+        "name": "2.4 / 2.4i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 417,
+        "trunkFoldedL": 1307
+       },
+       {
+        "name": "T5 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 220,
+        "awd": false,
+        "trunkL": 417,
+        "trunkFoldedL": 1307,
+        "notes": "AWD-Version existierte, Volumen der AWD-Version nicht verifiziert"
+       },
+       {
+        "name": "1.6D / 2.0D (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 417,
+        "trunkFoldedL": 1307,
+        "notes": "1.6D 110 PS, 2.0D 136 PS (Volvo-Pressemitteilung Schweden)"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-s50-v40-v50/2generation-facelift/210165/",
+        "what": "ADAC Autokatalog V50 2.0D Summum: Kofferraum 417 l normal / 1307 l dachhoch umgeklappt"
+       },
+       {
+        "url": "https://www.autokosten.net/volvo/v50/v50-2-0d/v50-04-04-04-07_16/technische-daten",
+        "what": "Datenblatt V50 2.0D (04/04-04/07): Länge 4514 mm"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1186-V50",
+        "what": "Breite ohne Spiegel 1770 mm, Radstand 2640 mm"
+       },
+       {
+        "url": "https://mb.cision.com/Main/23617/4197759/3564402.pdf",
+        "what": "Volvo-Pressemitteilung (Schweden, 11/2004): Motorenprogramm S40/V50"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Maße der Vorfacelift-Version nur aus Sekundärdatenbanken (Länge 4514, Höhe 1452); keine Hersteller-/ADAC-Bestätigung gefunden."
+     },
+     {
+      "name": "V50 (Typ M, Facelift 2007-2012)",
+      "yearFrom": 2007,
+      "yearTo": 2012,
+      "bodyType": "wagon",
+      "lengthMm": 4522,
+      "widthMm": 1770,
+      "heightMm": 1457,
+      "wheelbaseMm": 2640,
+      "trunkL": 417,
+      "trunkFoldedL": 1307,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Benziner (1.6, 1.8, 2.0, 2.4i, T5)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 417,
+        "trunkFoldedL": 1307
+       },
+       {
+        "name": "T5 AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 230,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "2.5 T5 230 PS AWD laut auto-data.net; Volumen AWD nicht verifiziert"
+       },
+       {
+        "name": "Diesel (1.6D DRIVe, 2.0D, D5)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 417,
+        "trunkFoldedL": 1307,
+        "notes": "1.6 D DRIVe 109 PS laut auto-data.net"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-s50-v40-v50/2generation-facelift/210165/",
+        "what": "ADAC Autokatalog V50 2.0D Summum (04/07-05/10): Länge 4522, Kofferraum 417/1307 l"
+       },
+       {
+        "url": "https://www.encycarpedia.com/de/volvo/10-v50-d2-kombi",
+        "what": "V50 D2 2010: Länge 4522, Höhe 1457"
+       },
+       {
+        "url": "https://www.auto-data.net/en/volvo-v50-facelift-2007-2.5-t5-230hp-awd-17174",
+        "what": "V50 Facelift 2.5 T5 AWD 230 PS"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/marken-modelle/volvo/v50/generation/technische-daten/",
+        "what": "auto motor und sport: Länge 4522 mm"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift wegen +8 mm Länge separat. Breite/Radstand wie Vorfacelift (angurten.de). Höhe 1457 aus Sekundärquelle."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "C30 Facelift (2010-2012) trunkL",
+   "C30 Facelift (2010-2012) trunkFoldedL",
+   "Alle Modelle: loadSpace (keine veröffentlichten Ladeflächenmaße gefunden)",
+   "V40 Cross Country powerPs aller Varianten",
+   "V40 T5 powerPs",
+   "S40/V50 Facelift powerPs (außer V50 T5 AWD)",
+   "S40/V50 T5 AWD trunkL/trunkFoldedL (AWD-spezifisch)",
+   "V50 Vorfacelift Maße aus Hersteller-/ADAC-Quelle (nur Sekundärdaten)",
+   "Herstellerquellen für Kofferraumvolumen (VDA) aller Modelle - ADAC als Fallback verwendet"
+  ],
+  "notes": "Volvo-Kompaktbaureihen 2004-2019. Keine Hybrid-/BEV-Varianten in regulären DE-Preislisten (C30 Electric nur Kleinserie). Suchbudget (20) ausgeschöpft. KBA-Rang nicht gefunden (KBA-PM 01/2026 bestätigt Volvo 2025 mit 59.380 Pkw-Neuzulassungen, Marktanteil 2,1 %, -4,7 %; Rang in den Suchergebnissen nicht genannt; Quelle https://www.kba.de/SharedDocs/Downloads/DE/Pressemitteilungen/2026/pm_01_2026_fahrzeugzulassungen_12_2025.pdf?__blob=publicationFile&v=4)"
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "V40",
+    "generation": "V40 II (Typ M, 2012-2019, inkl. Facelift 2016)",
+    "variant": "T5 (Benziner)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 254,
+    "sourceUrl": "https://autotijd.be/en/dimensions/volvo/v40-2012-2016",
+    "evidence": "autotijd lists 'Petrol V40 T5 254 hp' for the V40 2012-2016 (2.5-litre five-cylinder; cars-data/ultimatespecs also list T5 at 254 hp). Applies to the five-cylinder T5 until the Drive-E switch (~MY2015/16, later T5 Drive-E 245 PS - not verified)."
+   }
+  ],
+  "missing": [
+   {
+    "model": "V40",
+    "detail": "Variants not listed: T2 (122 PS), D4 Drive-E 190 PS (from ~MY2015), T5 Drive-E (245 PS) and later T3 152 PS Drive-E; the 2016 facelift is continuous in ADAC (3generation-facelift, 04/16 - 01/20), so yearTo 2019 is fine (ADAC lists production until 01/20)."
+   },
+   {
+    "model": "V40 Cross Country",
+    "detail": "D2 (1.6 115 PS, later Drive-E 120 PS) variant missing; T5 AWD has 254 PS (cars-data.com / ultimatespecs 'V40 Cross Country T5 AWD 254 hp', 2013); T3 152 PS and D4 190 PS (Drive-E, from MY2016) per Parkers."
+   },
+   {
+    "model": "S40 / V50",
+    "detail": "D5 (2.4D five-cylinder) diesel, T5 AWD, and 1.8F / 2.0F FlexiFuel petrol variants are not represented as separate variants (2.0F appears in autoscout24 with length 4476)."
+   },
+   {
+    "model": "C30",
+    "detail": "Facelift D5 and T5 power figures null (T5 facelift 230 PS per auto-data.net '2.5 T5 20V 230hp')."
+   }
+  ],
+  "checkedValues": 45,
+  "confirmedValues": 40,
+  "notes": "Confirmed: V40 L4369/WB2647/335/1032 l (autotijd, Wikipedia), D3 150/D4 177 PS; V40 CC L4370/H1458/WB2646/335/1032 (Volvo press PDF via cision, autoscout24); C30 L4252 (pre) / 4266 (FL), W1782, H1447, WB2640; S40 404 l, L4468 (pre, autoscout 2.0D) / 4476 (FL); V50 pre-FL 4514/1770/1452/417/1307 (vehiclesizes, encycarpedia), FL 4522/1770/1457/WB2640/417/1307 (vehiclesizes, angurten, ultimatespecs). Unresolved (no correction): V40 heightMm 1420 - Wikipedia and autotijd give 1445 mm for 2012-2016, but ADAC facelift (04/16-03/18) and Volvo support give 1420; fastcarcheck shows 1420-1458 by version, so value depends on model year/variant. V40 CC widthMm 1802: Volvo V40 CC press release (May 2013, cision) reportedly gives 1783 mm without mirrors / 2041 with mirrors, conflicting with Volvo support's 1802; both manufacturer figures, not corrected. C30 trunk: pre-facelift 278/921 (ADAC) vs 251/894 l in other sources - kept. 15 of 20 searches used. [Übernahme: 2 Korrektur(en) verworfen – nur auto-data.net, andere Quellen nennen 251/894 l]"
+ }
+}

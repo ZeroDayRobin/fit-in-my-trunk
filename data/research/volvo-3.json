@@ -1,0 +1,840 @@
+{
+ "id": "volvo-3",
+ "brand": "Volvo",
+ "data": {
+  "models": [
+   {
+    "brand": "Volvo",
+    "model": "S80",
+    "generations": [
+     {
+      "name": "S80 I (TS, Facelift 2004)",
+      "yearFrom": 2005,
+      "yearTo": 2006,
+      "bodyType": "sedan",
+      "lengthMm": 4822,
+      "widthMm": 1832,
+      "heightMm": 1452,
+      "wheelbaseMm": 2791,
+      "trunkL": 460,
+      "trunkFoldedL": 1126,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.4 / 2.5T / T6 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 460,
+        "trunkFoldedL": 1126
+       },
+       {
+        "name": "2.5T AWD (Benziner, Allrad)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 460,
+        "trunkFoldedL": 1126,
+        "notes": "ADAC entry 2.5T Momentum AWD Automatik"
+       },
+       {
+        "name": "D5 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "not verified separately; assumed same body"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s80/1generation-facelift/999212/",
+        "what": "ADAC: dimensions 4822/1832/1452, wheelbase 2791, trunk 460 l / 1126 l (2.5T AWD, 06/04-02/06)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Generation built 1998-2006; only facelift (06/2004-02/2006) data from ADAC found. Folded value 1126 l is ADAC \"fensterhoch\". No manufacturer press data found."
+     },
+     {
+      "name": "S80 II (A, inkl. Facelift 2010)",
+      "yearFrom": 2007,
+      "yearTo": 2016,
+      "bodyType": "sedan",
+      "lengthMm": 4851,
+      "widthMm": 1861,
+      "heightMm": 1493,
+      "wheelbaseMm": 2835,
+      "trunkL": 480,
+      "trunkFoldedL": 1126,
+      "loadSpace": {
+       "lengthMm": 1094,
+       "widthMm": null,
+       "widthBetweenArchesMm": null,
+       "heightMm": null,
+       "openingHeightMm": null,
+       "sillHeightMm": null,
+       "lengthFoldedMm": 1927,
+       "source": "https://www.volvocars.com/de/support/car/s80/article/18f77489f78f457dc0a801e800a04016/"
+      },
+      "variants": [
+       {
+        "name": "T4 / T5 / 3.2 / T6 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 480,
+        "trunkFoldedL": 1126
+       },
+       {
+        "name": "D3 / D4 / D5 / DRIVe (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 480,
+        "trunkFoldedL": 1126,
+        "notes": "ADAC D5 Executive Geartronic 05/11-07/13"
+       },
+       {
+        "name": "AWD (Allrad: T6, D5 AWD, V8)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "not verified separately"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.volvocars.com/de/support/car/s80/article/18f77489f78f457dc0a801e800a04016/",
+        "what": "Volvo: length 4854, width 1861 (without mirrors), height 1493, wheelbase 2835, load length 1094 / 1927 folded"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s80/2generation-facelift/228356/",
+        "what": "ADAC: length 4851, width 1861, height 1493, wheelbase 2835, trunk 480 l / 1126 l (D5, 05/11-07/13)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Volvo support page gives length 4854 mm, ADAC 4851 mm (used). Folded value is ADAC (fensterhoch). Facelift 2010 not split (no evidence of changed volume)."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "V70",
+    "generations": [
+     {
+      "name": "V70 II (P2, inkl. Facelift 2004)",
+      "yearFrom": 2005,
+      "yearTo": 2007,
+      "bodyType": "wagon",
+      "lengthMm": 4710,
+      "widthMm": 1804,
+      "heightMm": 1464,
+      "wheelbaseMm": 2755,
+      "trunkL": 485,
+      "trunkFoldedL": 1641,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.4 / 2.5T / T5 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 485,
+        "trunkFoldedL": 1641,
+        "notes": "ADAC T5 Summum 06/04-04/07"
+       },
+       {
+        "name": "2.4 Bi-Fuel (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "heightMm": 1468,
+        "notes": "ADAC lists height 1468 mm; trunk not verified"
+       },
+       {
+        "name": "2.4D / D5 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "AWD (Allrad)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s70-v70-xc70/2generation-facelift/999149/",
+        "what": "ADAC: length 4710, width 1804, height 1464, wheelbase 2755 (T5 Summum 06/04-04/07)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s70-v70-xc70/2generation-facelift/999173/",
+        "what": "ADAC: V70 2.4 Bi-Fuel CNG, trunk 485 l / 1641 l (dachhoch), height 1468"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Generation built 2000-2007. Trunk 485/1641 l from ADAC facelift entry; manufacturer data not found. Height varies 1464-1488 by variant."
+     },
+     {
+      "name": "V70 III (BW, inkl. Facelift 2013)",
+      "yearFrom": 2008,
+      "yearTo": 2016,
+      "bodyType": "wagon",
+      "lengthMm": 4823,
+      "widthMm": 1861,
+      "heightMm": 1547,
+      "wheelbaseMm": 2816,
+      "trunkL": 575,
+      "trunkFoldedL": 1600,
+      "loadSpace": {
+       "lengthMm": 1089,
+       "widthMm": null,
+       "widthBetweenArchesMm": null,
+       "heightMm": null,
+       "openingHeightMm": 724,
+       "sillHeightMm": null,
+       "lengthFoldedMm": 1878,
+       "source": "https://www.media.volvocars.com/global/en-gb/models/v70-2008-2016/2008/specifications (cargo length 1089 mm to 2nd row, 1878 mm to 1st row, opening height 724 mm)"
+      },
+      "variants": [
+       {
+        "name": "T4 / 3.2 / T5 / T6 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 575,
+        "trunkFoldedL": 1600
+       },
+       {
+        "name": "1.6D DRIVe / D3 / D4 / D5 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 575,
+        "trunkFoldedL": 1600,
+        "notes": "ADAC 1.6D DRIVe: 575 / 1600 l"
+       },
+       {
+        "name": "Bi-Fuel (Erdgas)",
+        "powertrain": "cng",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "AWD (T6 / D5 AWD)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.media.volvocars.com/global/en-gb/models/v70-2008-2016/2008/specifications",
+        "what": "Volvo: luggage volume 575 l (repair kit) / 555 l (spare wheel), 1600 / 1580 l folded; load lengths"
+       },
+       {
+        "url": "https://www.media.volvocars.com/global/en-gb/media/pressreleases/11935",
+        "what": "Volvo press: all-new V70 MY2008, length 4823, width 1861, height 1547, wheelbase 2816"
+       },
+       {
+        "url": "https://www.volvocars.com/de/support/car/v70/article/18f77489f78f457dc0a801e800a04016/",
+        "what": "Volvo support: length 4814, width 1861 (1876 wide tyres), height 1547, wheelbase 2816"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s70-v70-xc70/3generation/218290/",
+        "what": "ADAC: 1.6D DRIVe 575 l / 1600 l"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Length 4823 mm at launch (press release), 4814 mm on Volvo support page (probably later MY). With spare wheel 555/1580 l."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "XC70",
+    "generations": [
+     {
+      "name": "XC70 I (P2, bis 2002 \"V70 XC\", Facelift 2004)",
+      "yearFrom": 2005,
+      "yearTo": 2007,
+      "bodyType": "wagon",
+      "lengthMm": 4733,
+      "widthMm": 1860,
+      "heightMm": 1562,
+      "wheelbaseMm": 2763,
+      "trunkL": 485,
+      "trunkFoldedL": 1641,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.5T AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "D5 AWD (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 485,
+        "trunkFoldedL": 1641,
+        "notes": "ADAC D5 DPF Summum AWD 04/05-06/07"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s70-v70-xc70/2generation-facelift/202675/",
+        "what": "ADAC: length 4733, width 1860, height 1562, wheelbase 2763, trunk 485 l / 1641 l (D5 AWD 04/05-06/07)"
+       },
+       {
+        "url": "https://www.media.volvocars.com/global/en-gb/media/documenttext/244816",
+        "what": "Volvo: XC70 launched autumn 2000 as V70 XC, developed with 2nd-gen V70"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Generation built 2000-2007; was badged V70 XC until 2002. Data from ADAC only."
+     },
+     {
+      "name": "XC70 II (BZ, inkl. Facelift 2013)",
+      "yearFrom": 2008,
+      "yearTo": 2016,
+      "bodyType": "wagon",
+      "lengthMm": 4838,
+      "widthMm": 1870,
+      "heightMm": 1604,
+      "wheelbaseMm": 2815,
+      "trunkL": 575,
+      "trunkFoldedL": 1600,
+      "loadSpace": {
+       "lengthMm": 1089,
+       "widthMm": 1153,
+       "widthBetweenArchesMm": null,
+       "heightMm": null,
+       "openingHeightMm": 724,
+       "sillHeightMm": null,
+       "lengthFoldedMm": null,
+       "source": "https://www.volvocars.com/de/support/car/xc70/article/18f77489f78f457dc0a801e800a04016/ (Volvo support: load floor length 1089, width 1153, load height 724)"
+      },
+      "variants": [
+       {
+        "name": "3.2 / T6 AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 575,
+        "trunkFoldedL": 1600
+       },
+       {
+        "name": "D5 / D4 AWD (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 575,
+        "trunkFoldedL": 1600
+       },
+       {
+        "name": "DRIVe / D3 / D4 Frontantrieb (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 575,
+        "trunkFoldedL": 1600,
+        "notes": "FWD versions offered from ~2011"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.media.volvocars.com/global/en-gb/models/xc70-2008-2016/2012/specifications",
+        "what": "Volvo: luggage volume ISO V211 575 l (repair kit) / 555 l (spare wheel), folded 1600 / 1580 l"
+       },
+       {
+        "url": "https://www.media.volvocars.com/global/en-gb/media/pressreleases/11936",
+        "what": "Volvo press: all-new XC70 MY2008"
+       },
+       {
+        "url": "https://www.volvocars.com/de/support/car/xc70/article/18f77489f78f457dc0a801e800a04016/",
+        "what": "Volvo support: wheelbase 2815, length 4838, height 1604, width 1870 (1876 wide tyres), load floor dims"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Trunk 575/1600 l with repair kit, 555/1580 l with spare wheel (Volvo). Trunk identical for all engines per Volvo spec sheet."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "S90",
+    "generations": [
+     {
+      "name": "S90 II (P, Vorfacelift)",
+      "yearFrom": 2017,
+      "yearTo": 2020,
+      "bodyType": "sedan",
+      "lengthMm": 4963,
+      "widthMm": 1879,
+      "heightMm": 1443,
+      "wheelbaseMm": 2941,
+      "trunkL": 500,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "T4 / T5 / T6 AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 500,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "D3 / D4 / D5 AWD (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 500,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "T8 Twin Engine AWD (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Sources conflict: 500 l (drivingelectric.com, \"same as ICE\"), 461 l (ezoomed), 436 l (meinestadt, S90L); Volvo US sheet gives same volume for T5/T6/T8 (15.4 cu ft SAE). Left null."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autoevolution.com/news/2016-volvo-s90-s-full-specifications-leaked-102532.html",
+        "what": "S90 launch specs: length 4963, height 1443, wheelbase 2941, trunk ~500 l (third party)"
+       },
+       {
+        "url": "https://www.mobile.de/auto/volvo/s90/2016/limousine/modell/daten-fakten/",
+        "what": "S90 2016-2020 trunk 500 l"
+       },
+       {
+        "url": "https://www.media.volvocars.com/us/en-us/models/s90/2019/specifications",
+        "what": "Volvo US: cargo volume identical for T5/T6/T8 (15.4 cu ft)"
+       },
+       {
+        "url": "https://www.drivingelectric.com/volvo/s90",
+        "what": "T8 has same 500 l boot as the petrol/diesel versions (not used as value due to conflict)"
+       }
+      ],
+      "confidence": "low",
+      "notes": "No German manufacturer or ADAC data for pre-facelift S90 found within search budget; values from third parties. Width 1879 mm from ADAC S90 facelift entry (identical body width)."
+     },
+     {
+      "name": "S90 II (P, Facelift)",
+      "yearFrom": 2021,
+      "yearTo": 2024,
+      "bodyType": "sedan",
+      "lengthMm": 4969,
+      "widthMm": 1879,
+      "heightMm": 1440,
+      "wheelbaseMm": 2941,
+      "trunkL": null,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "B4 / B5 (Mild-Hybrid)",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "Recharge T8 AWD (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 431,
+        "trunkFoldedL": null,
+        "notes": "ADAC T8 Inscription AWD 09/21-02/22"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/321581/",
+        "what": "ADAC: length 4969, width 1879, height 1440, wheelbase 2941, trunk 431 l (T8)"
+       },
+       {
+        "url": "https://www.volvocars.com/de/cars/s90/",
+        "what": "Volvo DE: S90 Mild-Hybrid no longer available, production ended"
+       },
+       {
+        "url": "https://www.volvocars.com/de-ch/cars/legacy-models/s90/",
+        "what": "Volvo: S90 production ended 2024"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Discontinued in Europe (production ended 2024; successor ES90 is a different nameplate). Exact last German model year not verified. Mild-hybrid trunk not found."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "V90",
+    "generations": [
+     {
+      "name": "V90 II (P, Vorfacelift)",
+      "yearFrom": 2017,
+      "yearTo": 2020,
+      "bodyType": "wagon",
+      "lengthMm": 4936,
+      "widthMm": 1879,
+      "heightMm": 1475,
+      "wheelbaseMm": 2941,
+      "trunkL": 560,
+      "trunkFoldedL": 1526,
+      "loadSpace": {
+       "lengthMm": null,
+       "widthMm": null,
+       "widthBetweenArchesMm": null,
+       "heightMm": null,
+       "openingHeightMm": 704,
+       "sillHeightMm": null,
+       "lengthFoldedMm": 1988,
+       "source": "https://www.volvocars.com/mt/support/car/v90/article/abebdb7995733950c0a801516957f53d/ (Volvo: load length folded 1988, load height 704)"
+      },
+      "variants": [
+       {
+        "name": "T4 / T5 / T6 AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 560,
+        "trunkFoldedL": 1526
+       },
+       {
+        "name": "D3 / D4 / D5 AWD (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 560,
+        "trunkFoldedL": 1526,
+        "notes": "ADAC D5 Inscription AWD 09/16-03/18 and D4 03/18-04/19"
+       },
+       {
+        "name": "T8 Twin Engine AWD (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 560,
+        "trunkFoldedL": 1526,
+        "notes": "Volvo UK 2018 spec page lists 560 l / 1526 l in the T8 AWD column"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation/253962/",
+        "what": "ADAC: length 4936, height 1475, trunk 560 l / 1526 l (D5 AWD)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation/288470/",
+        "what": "ADAC: V90 D4 length 4936, width 1879, height 1475, wheelbase 2941, 560 l"
+       },
+       {
+        "url": "https://www.media.volvocars.com/uk/en-gb/models/v90/2018/specifications",
+        "what": "Volvo UK: 560 l seats up, 1526 l incl. under-floor folded (T8 AWD column)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "ADAC measured only 415 l by its own method; manufacturer value 560 l used."
+     },
+     {
+      "name": "V90 II (P, Facelift)",
+      "yearFrom": 2021,
+      "yearTo": null,
+      "bodyType": "wagon",
+      "lengthMm": 4945,
+      "widthMm": 1879,
+      "heightMm": 1472,
+      "wheelbaseMm": 2941,
+      "trunkL": 507,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "B4 / B5 (Mild-Hybrid, Benzin)",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 507,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "B4 Diesel (Mild-Hybrid)",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 507,
+        "trunkFoldedL": null,
+        "notes": "ADAC B4 Diesel Plus Dark 12/21-10/22"
+       },
+       {
+        "name": "T6 Recharge AWD (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 488,
+        "trunkFoldedL": 1454,
+        "notes": "ADAC T6 Inscription AWD 03/20-09/21"
+       },
+       {
+        "name": "T8 Recharge AWD (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 488,
+        "trunkFoldedL": 1454,
+        "notes": "ADAC T8 R Design 09/21-12/21, T8 Ultra Dark 09/23-01/24"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/323019/",
+        "what": "ADAC: B4 Diesel length 4945, height 1472, trunk 507 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/321577/",
+        "what": "ADAC: T8 length 4945, height 1472, trunk 488 l / 1454 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/311372/",
+        "what": "ADAC: T6 AWD 03/20-09/21 488 l / 1454 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/329640/",
+        "what": "ADAC: T8 Ultra Dark 09/23-01/24, same values"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift from 03/2020 (MY2021). Trunk values in ADAC changed vs pre-facelift (likely different measuring basis/under-floor). Mild-hybrid folded volume not found. A press item (auto.pub) reports V90 production ending; status in Germany not verified, so yearTo null."
+     }
+    ]
+   },
+   {
+    "brand": "Volvo",
+    "model": "V90 Cross Country",
+    "generations": [
+     {
+      "name": "V90 Cross Country (P, Vorfacelift)",
+      "yearFrom": 2017,
+      "yearTo": 2020,
+      "bodyType": "wagon",
+      "lengthMm": 4939,
+      "widthMm": 1879,
+      "heightMm": 1543,
+      "wheelbaseMm": 2941,
+      "trunkL": 560,
+      "trunkFoldedL": 1526,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "T5 / T6 AWD (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 560,
+        "trunkFoldedL": 1526
+       },
+       {
+        "name": "D4 / D5 AWD (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 560,
+        "trunkFoldedL": 1526
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autohaus-am-goetheplatz.de/files/Volvo/Volvo-V90-CrossCountry/Technische-Daten-Volvo-V90CC.pdf",
+        "what": "Dealer copy of Volvo technical data: length 4939, trunk VDA 560 / 1526 l"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/fahrbericht/volvo-v90-cross-country-2017-fahrbericht-daten-bilder-preise/technische-daten/",
+        "what": "auto motor und sport: 4939 x 1879 x 1543, wheelbase 2941, 560-1526 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "All-wheel drive standard. Manufacturer press data not found directly; dealer-hosted Volvo data sheet and ams used."
+     },
+     {
+      "name": "V90 Cross Country (P, Facelift)",
+      "yearFrom": 2021,
+      "yearTo": null,
+      "bodyType": "wagon",
+      "lengthMm": 4959,
+      "widthMm": 1879,
+      "heightMm": 1537,
+      "wheelbaseMm": 2941,
+      "trunkL": 507,
+      "trunkFoldedL": 1473,
+      "loadSpace": {
+       "lengthMm": 1153,
+       "widthMm": 1130,
+       "widthBetweenArchesMm": null,
+       "heightMm": null,
+       "openingHeightMm": 704,
+       "sillHeightMm": null,
+       "lengthFoldedMm": 1988,
+       "source": "https://www.volvocars.com/en-om/support/car/v90-cross-country/article/0ed816eed33d98cac0a8cc377bc12bc7-e6a7973b2bf222b2c0a8b09757c97ec8-8664b2fa77a7e089c0a8296870d1a409/ (Volvo: load floor length 1153, width 1130, opening height 704, folded length 1988)"
+      },
+      "variants": [
+       {
+        "name": "B5 AWD (Mild-Hybrid, Benzin)",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 507,
+        "trunkFoldedL": 1473,
+        "notes": "ADAC B5 Ultimate AWD 10/22-12/24"
+       },
+       {
+        "name": "B4 Diesel AWD (Mild-Hybrid)",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 507,
+        "trunkFoldedL": 1473,
+        "notes": "ADAC B4 Diesel Plus AWD 10/22-12/24"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/326934/",
+        "what": "ADAC: B5 AWD length 4959, height 1537, trunk 507 l / 1473 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/326935/",
+        "what": "ADAC: B4 Diesel AWD same values"
+       },
+       {
+        "url": "https://www.volvocars.com/en-om/support/car/v90-cross-country/article/0ed816eed33d98cac0a8cc377bc12bc7-e6a7973b2bf222b2c0a8b09757c97ec8-8664b2fa77a7e089c0a8296870d1a409/",
+        "what": "Volvo: length 4959, height 1537, wheelbase 2941, body width 1879, load space dims"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "ADAC entries end 12/24; current German availability not verified, yearTo null. No PHEV offered for Cross Country."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "S80 I D5/AWD trunk (assumed same, not verified)",
+   "S80 II AWD variant trunk",
+   "V70 II diesel/AWD trunk",
+   "V70 II manufacturer trunk data (ADAC only)",
+   "XC70 I 2.5T trunk",
+   "S90 II pre-facelift trunkFoldedL",
+   "S90 II pre-facelift T8 trunkL (sources conflict 436/461/500)",
+   "S90 II facelift mild-hybrid trunkL/trunkFoldedL",
+   "S90 II facelift T8 trunkFoldedL",
+   "V90 II facelift mild-hybrid trunkFoldedL",
+   "S90 last German model year (production ended 2024)",
+   "loadSpace for S80 I, V70 II, XC70 I, S90"
+  ],
+  "notes": "Search budget (20) exhausted. Pre-2005 generations listed only where sold in 2005 (S80 I, V70 II, XC70 I). S90 I/V90 I (1997-98) out of range. Facelifts of S80 II, V70 III, XC70 II not split (no evidence of changed volume). S90/V90/V90 CC facelift split because dimensions and published trunk values changed. ADAC folded values for older cars are partly \"fensterhoch\" vs \"dachhoch\"."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "S90",
+    "generation": "S90 II (P, Vorfacelift)",
+    "variant": "T8 Twin Engine AWD (Plug-in-Hybrid)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 500,
+    "sourceUrl": "https://www.autoscout24.de/auto/technische-daten/volvo/s90/s90-t8-twin-engine-awd-geartronic-seit-2017-limousine-benzin-elektro-plugin/",
+    "evidence": "AutoScout24 tech data S90 T8 Twin Engine AWD Geartronic (seit 2017, Limousine): Kofferraumvolumen 500 l; vision-mobility.de S90 T8 Twin-Engine also 500 l; an ADAC S90 T8 Twin Engine Polestar Performance R Design (2019) entry was reported in search snippets with 500 l normal. Volvo US spec gives identical cargo volume for T5/T6/T8. The 436 l figure belongs to the long-wheelbase S90L (China), not the German S90. Medium confidence (ADAC page not opened directly)."
+   },
+   {
+    "model": "S90",
+    "generation": "S90 II (P, Facelift)",
+    "variant": "B4 / B5 (Mild-Hybrid)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 453,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/313705/",
+    "evidence": "ADAC S90 B5 Diesel Momentum Pro AWD Automatik (07/20-02/22): Länge 4969 mm, Kofferraumvolumen normal 453 l; identical for Inscription (313706). B5 Diesel is a 48V mild hybrid."
+   },
+   {
+    "model": "S90",
+    "generation": "S90 II (P, Facelift)",
+    "variant": null,
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 453,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/313705/",
+    "evidence": "ADAC: S90 facelift mild-hybrid (B5 Diesel AWD) normal trunk 453 l (T8 PHEV 431 l). Base (non-PHEV) value is 453 l."
+   },
+   {
+    "model": "V90",
+    "generation": "V90 II (P, Facelift)",
+    "variant": null,
+    "field": "yearTo",
+    "oldValue": null,
+    "newValue": 2025,
+    "sourceUrl": "https://www.auto-motor-und-sport.de/verkehr/volvo-v90-produktion-endet-2025-nach-fast-neun-jahren/",
+    "evidence": "ams (03.09.2025): V90 production ends September 2025; new orders in Germany already no longer possible. Volvo DE site: V90 (Mild-Hybrid and Plug-in-Hybrid) no longer available as new car, production ended. angurten.de: B4/B4 Diesel mild hybrids dropped end of 2024 in Germany, only PHEVs remained into 2025. Last V90 built Oct 2025 (Wikipedia/motor1)."
+   },
+   {
+    "model": "V90 Cross Country",
+    "generation": "V90 Cross Country (P, Facelift)",
+    "variant": null,
+    "field": "yearTo",
+    "oldValue": null,
+    "newValue": 2024,
+    "sourceUrl": "https://www.angurten.de/is/abmessungen/1713-volvo-v90-cross-country",
+    "evidence": "angurten.de: V90 Cross Country built until 12/2024; with the discontinuation of the V90 mild hybrids the Cross Country (never offered as PHEV) was dropped at the same time. Consistent with ADAC entries ending 12/24 and Volvo DE page stating the V90 Cross Country is no longer available, production ended."
+   },
+   {
+    "model": "S80",
+    "generation": "S80 II (A, inkl. Facelift 2010)",
+    "variant": "AWD (Allrad: T6, D5 AWD, V8)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 480,
+    "sourceUrl": "https://cars-data.com/en/volvo/s80/p3/t6-awd-momentum--45821/specs",
+    "evidence": "cars-data.com lists 480 l luggage capacity for S80 (2007) T6 AWD, D5 AWD and V8 AWD, identical to FWD versions; length 4851, wheelbase 2835."
+   }
+  ],
+  "missing": [
+   {
+    "model": "S90",
+    "detail": "Facelift S90/V90 went on sale in Germany from 03/2020 (ADAC V90 B5 03/20, S90 B5 Diesel 06/20); yearFrom 2021 reflects MY2021 but German sales started 2020. Also ADAC lists V90 T6 AWD 03/20-09/21 under the facelift. Consider yearFrom 2020."
+   },
+   {
+    "model": "S90",
+    "detail": "S90 facelift ADAC entries (e.g. B5 Diesel Ultimate Bright AWD 02/22-12/24) confirm yearTo 2024 for Germany; topgear.nl: European sales ended after MY2024."
+   }
+  ],
+  "checkedValues": 38,
+  "confirmedValues": 28,
+  "notes": "Confirmed: S90 pre-FL 4963/1879/1443/2941 and 500 l (carsales, mobile.de, autoscout24); S90 FL length 4969, T8 431 l, yearTo 2024 (ADAC 323978 ends 12/24, topgear.nl); V90 pre-FL 560/1526 l incl. T8 (ADAC 278881 T8 Momentum 05/17-03/18: 560/1526); V90 FL 4945 mm, B5 507 l (ADAC 311328), T8 488 l; S80 II 4851/2835/480 l; S80 I 4822/2791/460/1126; V70 II 4710/1804/1464/2755/485/1641. S90 pre-FL T8: no Volvo DE figure found; third-party + ADAC snippet point to 500 l (436 l is S90L LWB, 461 l unsupported). Not re-checked within budget: V70 III, XC70 I/II, V90 CC pre-FL details, load space values. 19 of 20 searches used. [Übernahme: 2 Korrektur(en) verworfen – Wert vom Vor-Facelift übernommen, nicht für diese Variante belegt] [Übernahme: 2 Korrektur(en) verworfen – nur encycarpedia (Spec-Datenbank)]"
+ }
+}

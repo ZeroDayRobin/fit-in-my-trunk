@@ -1,0 +1,73 @@
+{
+ "id": "gap-volvo",
+ "kind": "gaps",
+ "patches": [
+  {
+   "model": "C30",
+   "generation": "C30 (Facelift 2010-2012)",
+   "variant": null,
+   "field": "trunkL",
+   "value": 278,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c30/1generation-facelift/223358/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog C30 DRIVe Momentum (1. Generation Facelift, 05/09-10/10): 'Kofferraumvolumen normal 278 l' (Herstellerangabe); same on 2.0D Momentum facelift page 220872"
+  },
+  {
+   "model": "C30",
+   "generation": "C30 (Facelift 2010-2012)",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 921,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c30/1generation-facelift/223358/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog C30 facelift: 'Kofferraumvolumen dachhoch mit umgeklappter Rücksitzbank 921 l'"
+  },
+  {
+   "model": "S60",
+   "generation": "S60 I (P2)",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 1034,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s60-v60/1generation/992645/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog Volvo S60 2.4 (09/00-06/04): 'Kofferraumvolumen normal 424 l | Kofferraumvolumen fensterhoch mit umgeklappter Rücksitzbank 1034 l' (Herstellerangabe)"
+  },
+  {
+   "model": "S90",
+   "generation": "S90 II (P, Vorfacelift)",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 790,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT5491_Volvo_S90_D4_Inscription_Automatik/Volvo_S90_D4_Inscription_Automatik.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest S90 D4 Inscription (ADAC measured): up to 410 l; with the optional folding rear bench 790 l available"
+  },
+  {
+   "model": "V90",
+   "generation": "V90 II (P, Facelift)",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 1454,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/311372/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog V90 T6 Inscription AWD (03/20-09/21, facelift): normal 488 l, dachhoch mit umgeklappter Rücksitzbank 1454 l (same for T8/T6 AWD variants; B4 FWD variants list 507/1473 l)"
+  },
+  {
+   "model": "XC90",
+   "generation": "XC90 I (Typ C, 2002-2006)",
+   "variant": null,
+   "field": "trunkL",
+   "value": 525,
+   "sourceUrl": "https://www.yumpu.com/de/document/view/31399245/volvo-xc90-d5-premium-automatik-7-sitzig-adac",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest XC90 D5 Premium (7-sitzig, 2003), ADAC measured: 'der große Kofferraum fasst 525 l Gepäck', folding rear bench raises it to 875 l (to window edge); 525 l implies 3rd row stowed"
+  }
+ ],
+ "notFound": [
+  "C70 | C70 I Cabrio | trunkL",
+  "S60 | S60 III (Z) | trunkFoldedL",
+  "S60 | S60 II (Y20) | trunkFoldedL",
+  "S90 | S90 II (P, Facelift) | trunkFoldedL",
+  "XC90 | XC90 I (Typ C, Facelift) | trunkL (5-seat / 3rd row folded)"
+ ]
+}

@@ -1,0 +1,3688 @@
+{
+ "id": "honda",
+ "name": "Honda",
+ "models": [
+  {
+   "id": "accord-limousine",
+   "name": "Accord Limousine",
+   "generations": [
+    {
+     "id": "2008-viii-cu",
+     "name": "VIII (CU)",
+     "yearFrom": 2008,
+     "yearTo": 2015,
+     "bodyType": "sedan",
+     "lengthMm": 4725,
+     "widthMm": 1840,
+     "heightMm": 1440,
+     "wheelbaseMm": 2705,
+     "trunkL": 467,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-i-vtec-benziner",
+       "name": "2.0 i-VTEC (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 467,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-4-i-vtec-benziner",
+       "name": "2.4 i-VTEC (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 201,
+       "awd": false,
+       "trunkL": 467,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "201 PS per autoplenum; Type S trim per auto motor und sport."
+      },
+      {
+       "id": "2-2-i-dtec-diesel",
+       "name": "2.2 i-DTEC (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 467,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2008,
+       "yearTo": 2011,
+       "notes": ""
+      },
+      {
+       "id": "2-2-i-dtec-180-diesel",
+       "name": "2.2 i-DTEC 180 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 180,
+       "awd": false,
+       "trunkL": 467,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2011,
+       "yearTo": 2015,
+       "notes": "Facelift diesel; 180 PS designation per ADAC catalogue (Tourer entry 04/11-06/15)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.mobile.de/auto/honda/accord/2008/limousine/modell/daten-fakten/",
+       "what": "Length 4725 mm, trunk 467 l"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/fahrbericht/honda-accord-type-s-limousine-mit-sportlicher-optik/technische-daten/",
+       "what": "Width 1840, height 1440, trunk 467 l (VDA)"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Honda_Accord_(Japan_and_Europe_eighth_generation)",
+       "what": "Wheelbase 2705, sedan length 4726, width 1840, height 1440"
+      },
+      {
+       "url": "https://www.autoplenum.de/auto/honda/accord/limousine-2008/2-4-i-vtec-201-ps",
+       "what": "2.4 i-VTEC 201 PS, wheelbase 2705"
+      },
+      {
+       "url": "https://www.ultimatespecs.com/car-specs/Honda/M8573/Accord-8-Facelift",
+       "what": "Facelift length 4725 mm (unchanged)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/accord/8-generation-facelift/228033/",
+       "what": "ADAC: facelift period 04/11-06/15, 2.2 i-DTEC 180"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 47,
+      "confirmed": 39,
+      "corrected": 0
+     },
+     "notes": "Facelift 2011 not split: no change in dimensions/trunk found (ultimatespecs 4725 mm). Accord discontinued in Europe 2015. Honda press kit for the sedan not found; hondaforum mentions 459 l for some sedans. trunkFoldedL (through-load) not found. 2.0 and 2.2 i-DTEC (pre-facelift) power not captured from a source."
+    },
+    {
+     "id": "2003-vii-cl-accord-limousine",
+     "name": "VII (CL, Accord Limousine)",
+     "yearFrom": 2003,
+     "yearTo": 2008,
+     "bodyType": "sedan",
+     "lengthMm": 4665,
+     "widthMm": 1760,
+     "heightMm": 1445,
+     "wheelbaseMm": 2670,
+     "trunkL": 459,
+     "trunkFoldedL": 740,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0i-benziner",
+       "name": "2.0i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 459,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Engine named in auto motor und sport Gebrauchtwagencheck (2.0i Sport); power not captured from a source."
+      },
+      {
+       "id": "2-4i-type-s-benziner",
+       "name": "2.4i Type S (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 459,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Same 459 l per auto motor und sport."
+      },
+      {
+       "id": "2-2-i-ctdi-diesel",
+       "name": "2.2 i-CTDi (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Diesel offered (ADAC catalogue lists 2.2 i-CTDi for Tourer); sedan trunk assumed equal but not verified, so null."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.auto-motor-und-sport.de/mittelklasse/gebrauchtwagen/gebrauchtwagencheck-honda-accord-7-alles-was-sie-zu-kauf-wissen-muessen/technische-daten/",
+       "what": "Length 4665, width 1760, height 1445, wheelbase 2680, trunk 459 l (2.0i Sport, 2.4i Type S)"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Honda_Accord_7._Generation",
+       "what": "Generation range 2002/2003-2008, dimension ranges across body styles"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/accord/7generation-facelift/205837/",
+       "what": "ADAC: facelift period 02/06-01/08 and 2.2 i-CTDi engine"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Honda_Accord_(Japan_and_Europe_seventh_generation)",
+       "what": "Korrektur wheelbaseMm: Wikipedia lists wheelbase 2,670 mm (105.1 in) for the 7th-gen JDM/Euro Accord sedan (4665 x 1760 x 1445). Consistent with Honda launch info that the Tourer (2720 mm) has a 50 mm longer wheelbase than the saloon (fleetnews 17 Oct 2002); autozine.nl also gives 267 cm."
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at4064_honda_accord_2_4_executive/honda_accord_2_4_executive.pdf",
+       "what": "ADAC: trunkFoldedL = 740 – ADAC Autotest Honda Accord 2.4 Executive (Limousine): 'Kofferraumvolumen normal/geklappt 425 l/740 l' (ADAC measured). It is matched to gen VII because the ADAC catalogue says no Autotest was done for the 8th-gen 2.4 Executive, while the 7th-gen 2.4i Executive entry (01/03"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 47,
+      "confirmed": 39,
+      "corrected": 1
+     },
+     "notes": "No Honda press source found; values from auto motor und sport. Facelift 2006 not split (no dimension/trunk change found). European launch 2003 (German MY 2003). trunkFoldedL not found."
+    }
+   ]
+  },
+  {
+   "id": "accord-tourer",
+   "name": "Accord Tourer",
+   "generations": [
+    {
+     "id": "2008-viii-cw",
+     "name": "VIII (CW)",
+     "yearFrom": 2008,
+     "yearTo": 2015,
+     "bodyType": "wagon",
+     "lengthMm": 4750,
+     "widthMm": 1840,
+     "heightMm": 1470,
+     "wheelbaseMm": 2705,
+     "trunkL": 406,
+     "trunkFoldedL": 1183,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-i-vtec-benziner",
+       "name": "2.0 i-VTEC (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 406,
+       "trunkFoldedL": 1183,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-4-i-vtec-benziner",
+       "name": "2.4 i-VTEC (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 201,
+       "awd": false,
+       "trunkL": 406,
+       "trunkFoldedL": 1183,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "201 PS per autoplenum (sedan entry, same engine)."
+      },
+      {
+       "id": "2-2-i-dtec-diesel",
+       "name": "2.2 i-DTEC (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 406,
+       "trunkFoldedL": 1183,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2008,
+       "yearTo": 2011,
+       "notes": ""
+      },
+      {
+       "id": "2-2-i-dtec-180-diesel",
+       "name": "2.2 i-DTEC 180 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 180,
+       "awd": false,
+       "trunkL": 406,
+       "trunkFoldedL": 1183,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2011,
+       "yearTo": 2015,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://hondanews.eu/gb/en/cars/media/pressreleases/3540/honda-accord-press-kit",
+       "what": "Honda press kit: 406 l VDA seats up; 660 l to window line and 1183 l to roof with rear seats folded; 53 l underfloor"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/accord/8generation/214087/",
+       "what": "ADAC catalogue 2.2 i-DTEC: 406 l normal, 1252 l roof-high folded"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/accord/8-generation-facelift/228033/",
+       "what": "ADAC catalogue facelift 04/11-06/15: length 4750, 406/1252 l, 2.2 i-DTEC 180"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1114-Accord+Tourer",
+       "what": "Length 4750, width 1840, height 1470, wheelbase 2705"
+      },
+      {
+       "url": "https://www.whatcar.com/honda/accord/estate/used-review/n368",
+       "what": "406 l / 1183 l confirmation"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 47,
+      "confirmed": 39,
+      "corrected": 0
+     },
+     "notes": "trunkFoldedL conflict: Honda press kit 1183 l (to roof) vs ADAC catalogue 1252 l; press kit value used. ADAC Autotest: outer sill height just under 61 cm, measured 670 l folded to window line (not exact, loadSpace left null). Facelift 2011 not split (406 l and 4750 mm unchanged per ADAC). AutoScout24 lists 4740 mm length."
+    },
+    {
+     "id": "2003-vii-cm-accord-tourer",
+     "name": "VII (CM, Accord Tourer)",
+     "yearFrom": 2003,
+     "yearTo": 2008,
+     "bodyType": "wagon",
+     "lengthMm": 4750,
+     "widthMm": 1760,
+     "heightMm": 1470,
+     "wheelbaseMm": 2720,
+     "trunkL": 576,
+     "trunkFoldedL": 1657,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0i-benziner",
+       "name": "2.0i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 576,
+       "trunkFoldedL": 1657,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-4-i-vtec-type-s-benziner",
+       "name": "2.4 i-VTEC Type S (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 576,
+       "trunkFoldedL": 1657,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-2-i-ctdi-diesel",
+       "name": "2.2 i-CTDi (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 576,
+       "trunkFoldedL": 1657,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/accord/7generation/995908/",
+       "what": "ADAC catalogue (2.0i Sport 04/03-02/06): trunk 518 l normal, 921 l window-high folded, 1657 l roof-high folded, wheelbase 2720"
+      },
+      {
+       "url": "https://www.autoscout24.at/auto/technische-daten/honda/accord/accord-tourer-2-4-i-vtec-type-s-aut-kombi-benzin-bleifrei-13504/",
+       "what": "Height 1470 mm (2.4 i-VTEC Type S)"
+      },
+      {
+       "url": "http://autokatalog.autoscout24.de/honda/accord-tourer-2003-2008/",
+       "what": "4750 x 1760 x 1470 mm, 518-1657 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/accord/7generation-facelift/205837/",
+       "what": "ADAC: 2.2 i-CTDi Sport, facelift 02/06-01/08"
+      },
+      {
+       "url": "https://www.fleetnews.co.uk/news/2002/10/17/honda-reveals-new-stretched-accord/12609/",
+       "what": "Korrektur trunkL: Honda launch release: 'class leading load volume with all seats in place of 576 litres (VDA), rising to 921 litres with the one-motion rear seats folded' (also autozine.nl 10 Oct 2002 and Auto Bild 'Neuer Honda Accord': 576 l). Manufacturer figure preferred over ADAC catalogue 518 "
+      },
+      {
+       "url": "https://www.fleetnews.co.uk/news/2002/10/17/honda-reveals-new-stretched-accord/12609/",
+       "what": "Korrektur trunkL: Honda launch figure 576 l VDA seats up (same body for all engines)."
+      },
+      {
+       "url": "https://www.fleetnews.co.uk/news/2002/10/17/honda-reveals-new-stretched-accord/12609/",
+       "what": "Korrektur trunkL: Honda launch figure 576 l VDA seats up (same body for all engines)."
+      },
+      {
+       "url": "https://www.autobild.de/artikel/neuer-honda-accord-38829.html",
+       "what": "Korrektur trunkL: Auto Bild: Accord Tourer 576 Liter Fassungsvermögen, 921 l bis Fensterlinie bei umgelegter Rückbank (Honda figure, same body for all engines)."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 47,
+      "confirmed": 39,
+      "corrected": 4
+     },
+     "notes": "Honda press data not found; ADAC catalogue values. ADAC Autotest measured 395 l (different method). Window-high folded volume 921 l (ADAC). Facelift 2006 not split."
+    }
+   ]
+  },
+  {
+   "id": "civic",
+   "name": "Civic",
+   "generations": [
+    {
+     "id": "2026-11-generation-facelift",
+     "name": "11. Generation Facelift",
+     "yearFrom": 2026,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 4560,
+     "widthMm": 1802,
+     "heightMm": 1408,
+     "wheelbaseMm": 2734,
+     "trunkL": 410,
+     "trunkFoldedL": 1220,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "type-r-fl5",
+       "name": "Type R (FL5)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Weiterverkauf nach 12/25 nicht verifiziert."
+      },
+      {
+       "id": "2-0-i-mmd-e-hev-vollhybrid",
+       "name": "2.0 i-MMD e:HEV (Vollhybrid)",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 410,
+       "trunkFoldedL": 1220,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC e:HEV Elegance/Advance/Sport ab 10/25."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/11generation-facelift/344875/",
+       "what": "ADAC Autokatalog e:HEV Elegance ab 10/25: Länge 4560, Höhe 1408, Radstand 2734, Kofferraum 410/820/1220 l"
+      },
+      {
+       "url": "https://www.honda.co.uk/cars/new/civic-hybrid/specifications.html",
+       "what": "Honda UK: Länge 4560, Breite 1802, Höhe 1408, Radstand 2734, 410/1220 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 61,
+      "confirmed": 42,
+      "corrected": 0
+     },
+     "notes": "Facelift ab 10/2025 (Modelljahr 2026), Länge +9 mm, Kofferraum unverändert. Breite nach Honda UK (ADAC: 1890)."
+    },
+    {
+     "id": "2022-11-generation-fl",
+     "name": "11. Generation (FL)",
+     "yearFrom": 2022,
+     "yearTo": 2025,
+     "bodyType": "hatchback",
+     "lengthMm": 4551,
+     "widthMm": 1802,
+     "heightMm": 1408,
+     "wheelbaseMm": 2734,
+     "trunkL": 410,
+     "trunkFoldedL": 1220,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "type-r-fl5-329-ps",
+       "name": "Type R (FL5) 329 PS",
+       "powertrain": "petrol",
+       "powerPs": 329,
+       "awd": false,
+       "trunkL": 410,
+       "trunkFoldedL": 1212,
+       "lengthMm": 4594,
+       "widthMm": 1890,
+       "heightMm": 1401,
+       "yearFrom": 2023,
+       "yearTo": null,
+       "notes": "ADAC Type R (01/25-12/25): 410 l normal, 904 l fensterhoch, 1212 l dachhoch; Radstand 2734."
+      },
+      {
+       "id": "2-0-i-mmd-e-hev-184-ps-vollhybrid",
+       "name": "2.0 i-MMD e:HEV 184 PS (Vollhybrid)",
+       "powertrain": "hev",
+       "powerPs": 184,
+       "awd": false,
+       "trunkL": 410,
+       "trunkFoldedL": 1220,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC/Honda: 410 l normal, 820 l fensterhoch, 1220 l dachhoch. Honda UK nennt für eine andere Ausstattung 404/1187 l (Zuordnung unklar)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/371298/2022-honda-civic-ehev",
+       "what": "Honda Europe Presse 2022 Civic e:HEV: Länge 4551, Breite 1802, Höhe 1408, Radstand 2734, Kofferraum über 400 l"
+      },
+      {
+       "url": "https://www.honda.co.uk/cars/new/civic-hybrid/specifications.html",
+       "what": "Honda UK Spezifikationen: 410 l Sitze oben, 820 l fensterhoch, 1220 l dachhoch (VDA); alternative Werte 404/1187 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/11generation/340166/",
+       "what": "ADAC Autokatalog e:HEV Sport 01/25-09/25: Länge 4551, Kofferraum 410/820/1220 l (ADAC nennt Breite 1890 – abweichend von Honda 1802)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/11generation/340169/",
+       "what": "ADAC Autokatalog Type R 01/25-12/25: 4594x1890x1401, Radstand 2734, 329 PS, Kofferraum 410/904/1212 l"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 61,
+      "confirmed": 42,
+      "corrected": 0
+     },
+     "notes": "Breite: Honda-Presse 1802 mm (verwendet), ADAC listet 1890 mm auch für e:HEV (vermutlich Übernahme des Type-R-Werts). Type R erst ab Modelljahr 2023 (Startjahr nicht explizit belegt)."
+    },
+    {
+     "id": "2017-10-generation-fk7-fk8",
+     "name": "10. Generation (FK7/FK8)",
+     "yearFrom": 2017,
+     "yearTo": 2022,
+     "bodyType": "hatchback",
+     "lengthMm": 4518,
+     "widthMm": 1799,
+     "heightMm": 1434,
+     "wheelbaseMm": 2697,
+     "trunkL": 478,
+     "trunkFoldedL": 1267,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "type-r-fk8-320-ps",
+       "name": "Type R (FK8) 320 PS",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 420,
+       "trunkFoldedL": null,
+       "lengthMm": 4557,
+       "widthMm": 1878,
+       "heightMm": 1434,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Maße laut Honda Canada Spec Sheet (Radstand 2700). Kofferraum nur nach SAE (728 l) gefunden, kein VDA-Wert."
+      },
+      {
+       "id": "1-0-vtec-turbo-129-ps-benziner",
+       "name": "1.0 VTEC Turbo 129 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 129,
+       "awd": false,
+       "trunkL": 478,
+       "trunkFoldedL": 1267,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.0 Turbo Comfort/Elegance (03/17-08/18): 478 l normal, 828 l fensterhoch, 1267 l dachhoch. PS nicht aus Quelle bestätigt."
+      },
+      {
+       "id": "1-5-vtec-turbo-182-ps-benziner",
+       "name": "1.5 VTEC Turbo 182 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 182,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Sport-Versionen mit Mittelauspuff haben laut Parkers kleineren Kofferraum (Spanne 420-478 l); genauer Wert nicht verifiziert. 182 PS laut motorsport-total (Limousine, gleicher Motor)."
+      },
+      {
+       "id": "1-6-i-dtec-diesel",
+       "name": "1.6 i-DTEC (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Nicht verifiziert."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/10generation/267876/",
+       "what": "ADAC Autokatalog 1.0 Turbo Elegance 03/17-08/18: Länge 4518, Breite 1799, Höhe 1434, Radstand 2697, Kofferraum 478/828/1267 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/10-generation/267875/",
+       "what": "ADAC Autokatalog 1.0 Turbo Comfort: gleiche Werte"
+      },
+      {
+       "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/103228/2017-honda-civic1",
+       "what": "Honda Europe Presse 2017 Civic: Kofferraum 478 l (Sitze oben), Ladeöffnung 1120 mm breit; nennt vorläufig Länge 4497, Radstand 2700 (ADAC-Werte verwendet)"
+      },
+      {
+       "url": "https://hondanews.ca/en-CA/releases/release-519a23469582d80780152ae423006b02-2017-civic-type-r-specifications",
+       "what": "Honda Canada Type R 2017: Länge 4557, Breite 1878 ohne Spiegel, Höhe 1434, Radstand 2700"
+      },
+      {
+       "url": "https://www.parkers.co.uk/honda/civic/hatchback-2017/used-review/practicality/",
+       "what": "Kofferraumspanne 420-478 l je nach Version (Mittelauspuff)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/10generation/267875/",
+       "what": "Korrektur powerPs: ADAC 1.0 Turbo Comfort (03/17-08/18): 95 kW (129 PS), 988 cm³."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/10generation/302941",
+       "what": "Korrektur trunkL: ADAC Civic Type R (08/19-03/20), Herstellerangabe: Kofferraumvolumen normal 420 l, fensterhoch umgeklappt 786 l; dachhoch-Wert nicht gefunden. ADAC nennt Breite 1877 mm (Honda Canada 1878 – Differenz vernachlässigbar, nicht korrigiert)."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 61,
+      "confirmed": 42,
+      "corrected": 2
+     },
+     "notes": "yearTo 2022 = Ablösung durch 11. Generation im Herbst 2022 (Modelljahr nicht exakt belegt). Honda-Presse nannte vorläufige Werte (4497/2700); ADAC-Herstellerangaben (4518/2697) verwendet."
+    },
+    {
+     "id": "2012-9-generation-fk-inkl-facelift-2015",
+     "name": "9. Generation (FK, inkl. Facelift 2015)",
+     "yearFrom": 2012,
+     "yearTo": 2017,
+     "bodyType": "hatchback",
+     "lengthMm": 4300,
+     "widthMm": 1770,
+     "heightMm": 1470,
+     "wheelbaseMm": 2595,
+     "trunkL": 477,
+     "trunkFoldedL": 1342,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-i-vtec-benziner",
+       "name": "1.4 i-VTEC (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 477,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Honda: 401 l plus 76 l Unterflurfach = 477 l; nicht motorspezifisch verifiziert."
+      },
+      {
+       "id": "type-r-fk2-310-ps",
+       "name": "Type R (FK2) 310 PS",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2015,
+       "yearTo": 2017,
+       "notes": "Facelift-Zeitraum (ADAC 9generation-facelift Type R GT 08/15-05/16); Maße/Kofferraum nicht ermittelt."
+      },
+      {
+       "id": "1-8-i-vtec-142-ps-benziner",
+       "name": "1.8 i-VTEC 142 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 142,
+       "awd": false,
+       "trunkL": 477,
+       "trunkFoldedL": 1342,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Wie 1.4 (Honda-Pressetext ohne Motorunterscheidung)."
+      },
+      {
+       "id": "2-2-i-dtec-diesel",
+       "name": "2.2 i-DTEC (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 477,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2012,
+       "yearTo": null,
+       "notes": "ADAC 2.2 i-DTEC Sport (02/12-01/14): 477 l."
+      },
+      {
+       "id": "1-6-i-dtec-120-ps-diesel",
+       "name": "1.6 i-DTEC 120 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 120,
+       "awd": false,
+       "trunkL": 467,
+       "trunkFoldedL": 1342,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2013,
+       "yearTo": null,
+       "notes": "ADAC 1.6 i-DTEC Lifestyle (04/13-01/15): 467 l normal, 1200 l fensterhoch, 1342 l dachhoch."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/34647/2012-honda-civic-5-door",
+       "what": "Honda Europe Presse 2012 Civic 5-Door: 401 l + 76 l Unterflurfach; 20 mm niedriger, 10 mm breiter als Vorgänger"
+      },
+      {
+       "url": "https://hondanews.eu/gb/en/cars/media/pressreleases/35421/2012-honda-civic-16-i-dtec-press-kit",
+       "what": "Honda Presskit 1.6 i-DTEC: 401 l, 120 PS"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/9generation/235788/",
+       "what": "ADAC Autokatalog 1.6 i-DTEC Lifestyle: Länge 4300, Breite 1770, Höhe 1470, Radstand 2595, Kofferraum 467/1200/1342 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/9-generation/230905/",
+       "what": "ADAC Autokatalog 2.2 i-DTEC Sport 02/12-01/14: gleiche Maße, Kofferraum 477 l"
+      },
+      {
+       "url": "https://www.parkers.co.uk/honda/civic/hatchback-2012/16-i-dtec-sport-5d/specs/",
+       "what": "Hinweis: Sport-Ausstattung 4370 mm lang (UK); nicht übernommen"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/9generation/230898",
+       "what": "Korrektur trunkFoldedL: ADAC 1.8 Executive (02/12-01/15): 467 l normal, 1200 l fensterhoch, 1342 l dachhoch umgeklappt (identisch Automatik 230902). Hinweis: ADAC-Normalwert 467 l vs. Honda/Autozeitung/largus 477 l – trunkL 477 (Herstellerangabe) beibehalten."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/9generation/230898",
+       "what": "Korrektur trunkFoldedL: Wie oben: 1342 l dachhoch für 1.8 i-VTEC und 1.6 i-DTEC laut ADAC (Herstellerangabe) – einheitlicher Wert über Motorisierungen."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 61,
+      "confirmed": 42,
+      "corrected": 2
+     },
+     "notes": "Facelift 2015 (inkl. Type R FK2) ohne gesicherte Änderungsdaten zu Maßen/Kofferraum; daher nicht gesplittet. Parkers nennt für Sport-Ausstattung 4370 mm Länge (Stoßfänger) – nicht verifiziert. trunkFoldedL nur für 1.6 i-DTEC (1342 l) bekannt."
+    },
+    {
+     "id": "2009-8-generation-facelift-fk-fn",
+     "name": "8. Generation Facelift (FK/FN)",
+     "yearFrom": 2009,
+     "yearTo": 2011,
+     "bodyType": "hatchback",
+     "lengthMm": 4255,
+     "widthMm": 1765,
+     "heightMm": 1460,
+     "wheelbaseMm": 2620,
+     "trunkL": 456,
+     "trunkFoldedL": 1352,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-i-vtec-benziner",
+       "name": "1.4 i-VTEC (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 456,
+       "trunkFoldedL": 1352,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.4 Sport 5-Türer (01/09-12/11)."
+      },
+      {
+       "id": "1-8-i-vtec-benziner",
+       "name": "1.8 i-VTEC (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Nicht separat verifiziert."
+      },
+      {
+       "id": "type-r-fn2-3-turer",
+       "name": "Type R (FN2, 3-Türer)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Nicht verifiziert."
+      },
+      {
+       "id": "2-2-i-ctdi-diesel",
+       "name": "2.2 i-CTDi (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Nicht separat verifiziert."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/8-generation-facelift/217042/",
+       "what": "ADAC Autokatalog (Herstellerangaben) 1.4 Sport 5-Türer 01/09-12/11: Länge 4255, Breite 1765, Höhe 1460, Radstand 2620, Kofferraum 456/1352 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 61,
+      "confirmed": 42,
+      "corrected": 0
+     },
+     "notes": "Separater Eintrag nur wegen +10 mm Länge laut ADAC; Kofferraum unverändert."
+    },
+    {
+     "id": "2006-8-generation-fk-fn",
+     "name": "8. Generation (FK/FN)",
+     "yearFrom": 2006,
+     "yearTo": 2008,
+     "bodyType": "hatchback",
+     "lengthMm": 4245,
+     "widthMm": 1765,
+     "heightMm": 1460,
+     "wheelbaseMm": 2620,
+     "trunkL": 456,
+     "trunkFoldedL": 1352,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4-i-dsi-benziner",
+       "name": "1.4 i-DSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 456,
+       "trunkFoldedL": 1352,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Kofferraum wie Generation (ADAC-Werte 1.4 Sport Facelift identisch)."
+      },
+      {
+       "id": "type-r-fn2-3-turer-201-ps",
+       "name": "Type R (FN2, 3-Türer) 201 PS",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": 4270,
+       "widthMm": 1785,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Länge/Breite laut angurten.de; PS/Kofferraum nicht verifiziert (powerPs daher null)."
+      },
+      {
+       "id": "type-s-3-turer",
+       "name": "Type S (3-Türer)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": 4270,
+       "widthMm": 1785,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "3-Türer Type S (auch als 2.2 i-CTDi Type S): Länge/Breite laut angurten.de (Datenbank, niedrige Priorität). Kofferraum nicht verifiziert."
+      },
+      {
+       "id": "1-8-i-vtec-140-ps-benziner",
+       "name": "1.8 i-VTEC 140 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": 456,
+       "trunkFoldedL": 1352,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.8 Executive 5-Türer (09/05-12/08)."
+      },
+      {
+       "id": "2-2-i-ctdi-diesel",
+       "name": "2.2 i-CTDi (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Kofferraum für Diesel nicht separat verifiziert."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/8generation/204320/",
+       "what": "ADAC Autokatalog (Herstellerangaben) 1.8 Executive 5-Türer 09/05-12/08: Länge 4245, Breite 1765, Höhe 1460, Radstand 2620, Kofferraum 456 l / 1352 l dachhoch, 140 PS"
+      },
+      {
+       "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/419/first-announcement-civic-06",
+       "what": "Honda Europe Pressemitteilung Civic 06: Gepäckraum-Gesamtvolumen 485 l (vermutlich inkl. Unterflurfächer, nicht VDA-vergleichbar mit 456 l)"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1110-Civic+(8.+Gen.)+Type-R",
+       "what": "Type R / Type S 3-Türer Länge 4270, Breite 1785 (Datenbank, nur als Hinweis)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 61,
+      "confirmed": 42,
+      "corrected": 0
+     },
+     "notes": "Honda nennt 485 l Gesamtvolumen; ADAC (Herstellerangabe) 456 l normal / 1352 l dachhoch – letzterer Wert verwendet. 3-Türer (Type S/Type R) ist länger und breiter."
+    },
+    {
+     "id": "2001-7-generation-eu-ep-5-turer-inkl-facelift-2004",
+     "name": "7. Generation (EU/EP, 5-Türer, inkl. Facelift 2004)",
+     "yearFrom": 2001,
+     "yearTo": 2005,
+     "bodyType": "hatchback",
+     "lengthMm": 4285,
+     "widthMm": 1715,
+     "heightMm": 1495,
+     "wheelbaseMm": 2685,
+     "trunkL": 370,
+     "trunkFoldedL": 825,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-4i-benziner",
+       "name": "1.4i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 370,
+       "trunkFoldedL": 825,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.4i LS 5-Türer (08/01-07/03): gleiche Maße/Kofferraum. PS nicht erhoben."
+      },
+      {
+       "id": "1-6i-benziner",
+       "name": "1.6i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 370,
+       "trunkFoldedL": 825,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.6i ES 5-Türer (08/01-07/03)."
+      },
+      {
+       "id": "2-0i-sport-benziner",
+       "name": "2.0i Sport (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 370,
+       "trunkFoldedL": 825,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2004,
+       "yearTo": 2005,
+       "notes": "ADAC 2.0i Sport 5-Türer (03/04-09/05)."
+      },
+      {
+       "id": "type-r-3-turer-benziner",
+       "name": "Type R (3-Türer, Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "3-Türer (EP3) hat andere Karosserie/Maße; Werte nicht recherchiert (Suchbudget)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/7-generation-facelift/998635/",
+       "what": "ADAC Autokatalog (Herstellerangaben) 2.0i Sport 5-Türer 03/04-09/05: Länge 4285, Breite 1715, Höhe 1495, Radstand 2685, Kofferraum 370/825 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/7generation/994144/",
+       "what": "ADAC Autokatalog 1.6i ES 5-Türer 08/01-07/03: identische Maße und Kofferraum 370/825 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/7generation/994148/",
+       "what": "ADAC Autokatalog 1.4i LS 5-Türer: identische Maße/Kofferraum"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 61,
+      "confirmed": 42,
+      "corrected": 0
+     },
+     "notes": "Nur noch Modelljahr 2005 im Zeitraum. Facelift (03/04) ohne Änderung von Maßen/Kofferraum laut ADAC. Keine Honda-Primärquelle gefunden; ADAC als Fallback. 3-Türer abweichend, nicht erfasst."
+    }
+   ]
+  },
+  {
+   "id": "civic-limousine",
+   "name": "Civic Limousine",
+   "generations": [
+    {
+     "id": "2017-10-generation-fc",
+     "name": "10. Generation (FC)",
+     "yearFrom": 2017,
+     "yearTo": 2020,
+     "bodyType": "sedan",
+     "lengthMm": 4648,
+     "widthMm": 1799,
+     "heightMm": 1416,
+     "wheelbaseMm": 2698,
+     "trunkL": 519,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-vtec-turbo-182-ps-benziner",
+       "name": "1.5 VTEC Turbo 182 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 182,
+       "awd": false,
+       "trunkL": 519,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.5 Turbo Elegance (08/18-08/19)."
+      },
+      {
+       "id": "1-6-i-dtec-diesel",
+       "name": "1.6 i-DTEC (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Angebot in DE nicht verifiziert."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/10-generation/293276/",
+       "what": "ADAC Autokatalog Civic Limousine 1.5 Turbo Elegance 08/18-08/19: Länge 4648, Kofferraum 519 l"
+      },
+      {
+       "url": "https://www.motorsport-total.com/auto/news/honda-civic-limousine-2017-vorstellung-bilder-motoren-daten-preis-17051802",
+       "what": "Vorstellung 2017: 4,65 x 1,80 x 1,42 m, Radstand 2,70 m, 182 PS, 519 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1805-honda-civic-10-gen-limousine",
+       "what": "Breite 1799 ohne Spiegel, Höhe 1416, Radstand 2698 (Datenbank, konsistent mit motorsport-total)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/10generation/303435",
+       "what": "Korrektur yearTo: ADAC Autokatalog führt 'Honda Civic Limousine 1.5 Turbo Executive CVT (12/19 - 12/20)' – Limousine also bis Ende 2020 in DE angeboten."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 61,
+      "confirmed": 42,
+      "corrected": 1
+     },
+     "notes": "Breite/Höhe/Radstand aus Sekundärdatenbank (angurten.de), passend zu gerundeten Werten von motorsport-total. Ende des DE-Angebots (ca. 2019/2020) nicht exakt belegt. Umgeklappt-Wert nicht gefunden."
+    },
+    {
+     "id": "2006-8-generation-civic-hybrid-fd3",
+     "name": "8. Generation Civic Hybrid (FD3)",
+     "yearFrom": 2006,
+     "yearTo": 2010,
+     "bodyType": "sedan",
+     "lengthMm": 4545,
+     "widthMm": 1750,
+     "heightMm": 1430,
+     "wheelbaseMm": 2700,
+     "trunkL": 350,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-3-i-dsi-i-vtec-ima-hybrid",
+       "name": "1.3 i-DSI i-VTEC IMA (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 350,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "In DE nur als Hybrid angeboten. Kofferraum nur als US-SAE-Wert (10,4 cu ft) gefunden, kein VDA-Wert; deutschsprachige Sekundärquellen nennen ca. 350 l (nicht verifiziert)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-dde951d62e72b9fafaf5be004c34c1ac-2006-honda-civic-press-information",
+       "what": "Honda USA 2006 Civic Hybrid: Radstand 106.3 in (2700 mm), Länge 176.7 in, Breite 68.9 in, Höhe 56.5 in (US-Spezifikation)"
+      },
+      {
+       "url": "https://www.carexpert.com.au/honda/civic/2006-hybrid-1-3l-sedan-fwd-electric-jjmgffwa20060203",
+       "what": "Australische Daten: 4550 x 1750 x 1430, Radstand 2700 (nur Plausibilisierung)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/",
+       "what": "ADAC führt Civic Limousine 04/06-10/10"
+      },
+      {
+       "url": "https://www.autokosten.net/honda/civic-hybrid/civic-1-3-i-dsi-i-vtec-ima/civic-viii-hybrid-04-06-10-10/technische-daten",
+       "what": "Korrektur lengthMm: Datenblatt Civic VIII Hybrid (04/06-10/10): Länge 4545 mm, Breite 1750 mm, Höhe 1430 mm, Radstand 2700 mm; AUTO BILD Fahrbericht 2006 (https://www.autobild.de/artikel/fahrbericht-honda-civic-hybrid-55423.html) nennt ebenfalls L/B/H 4545/1750/1430; AutoScout24 ebenso. Keine Honda-"
+      },
+      {
+       "url": "https://www.autokosten.net/honda/civic-hybrid/civic-1-3-i-dsi-i-vtec-ima/civic-viii-hybrid-04-06-10-10/technische-daten",
+       "what": "Korrektur widthMm: Breite 1750 mm (autokosten.net 04/06-10/10, AUTO BILD 2006, largus.fr übereinstimmend)."
+      },
+      {
+       "url": "https://www.autokosten.net/honda/civic-hybrid/civic-1-3-i-dsi-i-vtec-ima/civic-viii-hybrid-04-06-10-10/technische-daten",
+       "what": "Korrektur heightMm: Höhe 1430 mm (autokosten.net, AUTO BILD, AutoScout24 übereinstimmend)."
+      },
+      {
+       "url": "https://www.motorline.cc/autowelt/2008/Honda/Honda-Civic-Hybrid-13-i-DSI-im-Test-Innenraum-144851.html",
+       "what": "Korrektur trunkL: Test 2008: Kofferraum 350 l (Batterie hinter Rücksitzlehne); largus.fr Fiche technique Civic VIII Hybrid 4p ebenfalls 350 l; autokosten.net/AUTO BILD 350 l. Rücksitz nicht umklappbar (Batterie), daher trunkFoldedL bleibt null."
+      },
+      {
+       "url": "https://www.motorline.cc/autowelt/2008/Honda/Honda-Civic-Hybrid-13-i-DSI-im-Test-Innenraum-144851.html",
+       "what": "Korrektur trunkL: Wie Generationswert: 350 l (mehrere europäische Quellen)."
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 61,
+      "confirmed": 42,
+      "corrected": 5
+     },
+     "notes": "Europäische Maße nicht verifiziert: US-Presse 4488 mm (176,7 in), AU 4550 mm, AutoScout24 4545x1750x1430. Nur Radstand (2700) übereinstimmend."
+    },
+    {
+     "id": "2001-7-generation-4-turer-civic-ima-es",
+     "name": "7. Generation 4-Türer / Civic IMA (ES)",
+     "yearFrom": 2001,
+     "yearTo": 2005,
+     "bodyType": "sedan",
+     "lengthMm": null,
+     "widthMm": 1715,
+     "heightMm": 1440,
+     "wheelbaseMm": 2620,
+     "trunkL": 450,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-6i-benziner",
+       "name": "1.6i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 450,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Honda-Presse: 450 l (VDA)."
+      },
+      {
+       "id": "civic-ima-1-3-hybrid",
+       "name": "Civic IMA 1.3 (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2003,
+       "yearTo": null,
+       "notes": "Batterie hinter Rücksitz – Kofferraum vermutlich kleiner, nicht ermittelt."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/34350/civic-01-4-door",
+       "what": "Honda Europe Presse Civic 01 4-Door: Kofferraum auf 450 l (VDA) vergrößert"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Honda_Civic_IMA",
+       "what": "Hinweis auf Civic IMA (Hybrid-Limousine) in Deutschland"
+      },
+      {
+       "url": "https://www.auto-data.net/de/honda-civic-vii-sedan-generation-2626",
+       "what": "Korrektur wheelbaseMm: Radstand 2620 mm laut auto-data.net, motoreu.com, CarExpert und en.wikipedia (Civic 7th gen sedan); unserlexikon/autoplenum (IMA) nennen 2625 mm. Niedrige Sicherheit (Sekundärquellen)."
+      },
+      {
+       "url": "https://www.auto-data.net/de/honda-civic-vii-sedan-generation-2626",
+       "what": "Korrektur widthMm: Breite 1715 mm laut auto-data.net, motoreu.com sowie autoplenum/unserlexikon für den Civic IMA (4480 x 1715 x 1435). Niedrige Sicherheit (Sekundärquellen)."
+      },
+      {
+       "url": "https://www.auto-data.net/de/honda-civic-vii-sedan-generation-2626",
+       "what": "Korrektur heightMm: Höhe 1440 mm (auto-data.net, motoreu, CarExpert, en.wikipedia); IMA laut autoplenum 1435 mm. Niedrige Sicherheit."
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 61,
+      "confirmed": 42,
+      "corrected": 3
+     },
+     "notes": "Deutscher Vertrieb der normalen 4-türigen Limousine nicht eindeutig belegt (IMA-Hybrid wurde in DE angeboten). Maße nicht gefunden (Suchbudget erschöpft)."
+    }
+   ]
+  },
+  {
+   "id": "civic-tourer",
+   "name": "Civic Tourer",
+   "generations": [
+    {
+     "id": "2014-9-generation-tourer-fk3",
+     "name": "9. Generation Tourer (FK3)",
+     "yearFrom": 2014,
+     "yearTo": 2017,
+     "bodyType": "wagon",
+     "lengthMm": 4535,
+     "widthMm": 1770,
+     "heightMm": 1480,
+     "wheelbaseMm": 2595,
+     "trunkL": 624,
+     "trunkFoldedL": 1668,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-8-i-vtec-142-ps-benziner",
+       "name": "1.8 i-VTEC 142 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 142,
+       "awd": false,
+       "trunkL": 624,
+       "trunkFoldedL": 1668,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Einige Quellen nennen 4590 mm Länge für 1.8 (evtl. Facelift/Sport-Stoßfänger) – nicht verifiziert."
+      },
+      {
+       "id": "1-6-i-dtec-120-ps-diesel",
+       "name": "1.6 i-DTEC 120 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 120,
+       "awd": false,
+       "trunkL": 624,
+       "trunkFoldedL": 1668,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0327-honda-civic-2012-2017-bericht.pdf",
+       "what": "ADAC Gebrauchtwageninfo Civic 2012-2017: Tourer ab 02/2014, ca. 4535 x 1770 x 1480 mm, Kofferraum 624 l"
+      },
+      {
+       "url": "https://www.parkers.co.uk/honda/civic/tourer/review/practicality/",
+       "what": "624 l (bis Fensterlinie, inkl. ca. 117 l Unterflur) / 1668 l dachhoch umgeklappt"
+      },
+      {
+       "url": "https://www.autoplenum.de/auto/honda/civic/kombi-2013/1-8-i-vtec-142-ps",
+       "what": "Radstand 2595 mm, 624-1668 l (Datenbank)"
+      },
+      {
+       "url": "https://www.autokosten.net/honda/civic-tourer/civic-tourer-1-8/civic-ix-tourer-02-14-01-15_1/technische-daten",
+       "what": "1668 l dachhoch umgeklappt"
+      },
+      {
+       "url": "https://www.autoexpress.co.uk/honda/civic/84669/honda-civic-tourer-2014-review",
+       "what": "Gleicher Radstand wie Schrägheck, 235 mm länger"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 61,
+      "confirmed": 42,
+      "corrected": 0
+     },
+     "notes": "Offizielle Honda-DE-Preisliste existiert (https://w3.honda.de/globalimages/pdf/de/car/de_car_br_civic-tourer_2014-09_preise_ausstattung_daten.pdf), Werte daraus aber nicht einsehbar. 624 l schließt ca. 117 l Unterflurfach ein. Radstand 2595 = Schrägheck (ADAC) und Auto Express 'gleicher Radstand'. Kein Vorgänger/Nachfolger als Kombi im Zeitraum."
+    }
+   ]
+  },
+  {
+   "id": "cr-v",
+   "name": "CR-V",
+   "generations": [
+    {
+     "id": "2023-rs-6-generation",
+     "name": "RS (6. Generation)",
+     "yearFrom": 2023,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4706,
+     "widthMm": 1866,
+     "heightMm": 1674,
+     "wheelbaseMm": 2700,
+     "trunkL": 587,
+     "trunkFoldedL": 1642,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "e-hev-2wd-vollhybrid",
+       "name": "e:HEV 2WD (Vollhybrid)",
+       "powertrain": "hev",
+       "powerPs": 184,
+       "awd": false,
+       "trunkL": 587,
+       "trunkFoldedL": 1642,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "1070 l window-high. Power not verified within budget."
+      },
+      {
+       "id": "e-hev-awd-vollhybrid",
+       "name": "e:HEV AWD (Vollhybrid)",
+       "powertrain": "hev",
+       "powerPs": 184,
+       "awd": true,
+       "trunkL": 579,
+       "trunkFoldedL": 1634,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "e-phev-2wd-plug-in-hybrid",
+       "name": "e:PHEV 2WD (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 184,
+       "awd": false,
+       "trunkL": 617,
+       "trunkFoldedL": 1710,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "PHEV has the LARGER trunk; press kit also quotes 635-647 l incl. underfloor compartment"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.honda.de/cars/new/cr-v-hybrid-suv/specifications.html",
+       "what": "official DE spec page: e:HEV 2WD 587/1070/1642 l, AWD 579/1634 l, e:PHEV 617/1710 l"
+      },
+      {
+       "url": "https://hondanews.eu/ch/de/cars/media/pressreleases/449040/presskit-honda-cr-v-2023",
+       "what": "official press kit: trunk 587/579 e:HEV, 617 e:PHEV"
+      },
+      {
+       "url": "https://www.motorprofis.at/honda/erster-test-honda-cr-v-e-hev-und-e-phev",
+       "what": "length 4706, width 1866, height 1673-1684, wheelbase 2700"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/honda-cr-v/",
+       "what": "ADAC cross-check of trunk values"
+      },
+      {
+       "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2023/08/10/honda-confirms-pricing-and-specification-of-electrified-cr-v-suv-range",
+       "what": "Korrektur powerPs: European CR-V e:HEV and e:PHEV both 184 PS; ADAC lists e:PHEV 135 kW (184 PS)."
+      },
+      {
+       "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2023/08/10/honda-confirms-pricing-and-specification-of-electrified-cr-v-suv-range",
+       "what": "Korrektur powerPs: European CR-V e:HEV (2WD/AWD) 184 PS."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-v/6generation/351321/",
+       "what": "Korrektur powerPs: ADAC CR-V 2.0 i-MMD e:PHEV Elegance Tech 2WD: Systemleistung 135 kW (184 PS), 335 Nm."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 70,
+      "confirmed": 51,
+      "corrected": 3
+     },
+     "notes": "Height 1673-1684 mm depending on variant; motor1 quotes 4701 mm length / 2701 mm wheelbase."
+    },
+    {
+     "id": "2018-rw-5-generation",
+     "name": "RW (5. Generation)",
+     "yearFrom": 2018,
+     "yearTo": 2023,
+     "bodyType": "suv",
+     "lengthMm": 4600,
+     "widthMm": 1855,
+     "heightMm": 1689,
+     "wheelbaseMm": 2663,
+     "trunkL": 561,
+     "trunkFoldedL": 1756,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-vtec-turbo-173-ps-benziner-5-sitzer",
+       "name": "1.5 VTEC TURBO 173 PS (Benziner, 5-Sitzer)",
+       "powertrain": "petrol",
+       "powerPs": 173,
+       "awd": false,
+       "trunkL": 561,
+       "trunkFoldedL": 1756,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2019,
+       "notes": "1638 l folded with panoramic roof; AWD also offered with same values. Window-high folded 1123 l (ADAC)."
+      },
+      {
+       "id": "1-5-vtec-turbo-173-ps-benziner-7-sitzer",
+       "name": "1.5 VTEC TURBO 173 PS (Benziner, 7-Sitzer)",
+       "powertrain": "petrol",
+       "powerPs": 173,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "7-seater: 150 l with all 7 seats up (Honda AT); value with 3rd row folded not found. Max load length 1800 mm (vs 1830 mm 5-seater)."
+      },
+      {
+       "id": "2-0-i-mmd-hybrid-2wd-vollhybrid",
+       "name": "2.0 i-MMD Hybrid 2WD (Vollhybrid)",
+       "powertrain": "hev",
+       "powerPs": 184,
+       "awd": false,
+       "trunkL": 499,
+       "trunkFoldedL": 1694,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2019,
+       "yearTo": null,
+       "notes": "184 PS = traction motor output. 1638 l folded with glass roof."
+      },
+      {
+       "id": "2-0-i-mmd-hybrid-awd-vollhybrid",
+       "name": "2.0 i-MMD Hybrid AWD (Vollhybrid)",
+       "powertrain": "hev",
+       "powerPs": 184,
+       "awd": true,
+       "trunkL": 497,
+       "trunkFoldedL": 1692,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2019,
+       "yearTo": null,
+       "notes": "folded 1692-1694 l depending on trim; 1638 l with glass roof"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-v/5generation/294039/",
+       "what": "ADAC: length 4600, width 1855, height 1689, trunk 561 l, 1123 l window-high (1.5 Turbo AWD)"
+      },
+      {
+       "url": "https://hondanews.eu/at/de/cars/media/pressreleases/135746/honda-cr-v-2018-15-vtec-turbo3",
+       "what": "official: 1756 l folded (1638 with panoramic roof), load length 1830/1800 mm"
+      },
+      {
+       "url": "https://www.honda.at/content/dam/local/austria/cars/news/pdf/Honda_at_CR-V_2018_Detailinformationen_v2.pdf",
+       "what": "official: 7-seater 150 l"
+      },
+      {
+       "url": "https://hondanews.eu/at/de/cars/media/pressreleases/159992/honda-cr-v-hybrid-2019",
+       "what": "official: Hybrid 497 l, 1064 l window-high, 1694 l roof-high"
+      },
+      {
+       "url": "https://www.honda.de/content/dam/local/germany/cars/pdf/download-broschueren/cr-v-hybrid/CR-V_Hybrid_Preise_Ausstattung_Daten_2020-11-24.pdf",
+       "what": "official DE price list: Hybrid 2WD 499 l / AWD 497 l, 1692-1694 l"
+      },
+      {
+       "url": "https://www.autoplenum.de/auto/honda/cr-v/suv-2018/2-0-i-mmd-145-ps",
+       "what": "wheelbase 2663 mm"
+      },
+      {
+       "url": "https://www.auto-data.net/en/honda-cr-v-v-1.5-vtec-turbo-173hp-34296",
+       "what": "1.5 VTEC Turbo 173 PS"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 70,
+      "confirmed": 51,
+      "corrected": 0
+     },
+     "notes": "Petrol 1.5 VTEC Turbo launched autumn 2018, Hybrid early 2019; from ~2020 Germany hybrid-only. Heights vary by source (1679-1689)."
+    },
+    {
+     "id": "2015-rm-4-generation-facelift",
+     "name": "RM (4. Generation, Facelift)",
+     "yearFrom": 2015,
+     "yearTo": 2018,
+     "bodyType": "suv",
+     "lengthMm": 4605,
+     "widthMm": 1820,
+     "heightMm": 1685,
+     "wheelbaseMm": 2630,
+     "trunkL": 589,
+     "trunkFoldedL": 1669,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-i-vtec-benziner",
+       "name": "2.0 i-VTEC (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 155,
+       "awd": false,
+       "trunkL": 589,
+       "trunkFoldedL": 1669,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "power not verified; 4WD also offered"
+      },
+      {
+       "id": "1-6-i-dtec-diesel-2wd",
+       "name": "1.6 i-DTEC (Diesel, 2WD)",
+       "powertrain": "diesel",
+       "powerPs": 120,
+       "awd": false,
+       "trunkL": 589,
+       "trunkFoldedL": 1669,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-6-i-dtec-diesel-awd",
+       "name": "1.6 i-DTEC (Diesel, AWD)",
+       "powertrain": "diesel",
+       "powerPs": 160,
+       "awd": true,
+       "trunkL": 589,
+       "trunkFoldedL": 1669,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://w3.honda.de/globalimages/pdf/de/car/de_car_br_cr-v_2015_2015-03_preise_ausstattung_daten.pdf",
+       "what": "official Honda DE price list 2015: length 4605, width 1820 (2096 with mirrors), wheelbase 2630, trunk 589 l VDA"
+      },
+      {
+       "url": "https://www.mobile.de/auto/honda/cr-v/2012/suv/modell/daten-fakten/",
+       "what": "length 4605, max load volume 1669 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-v/4generation-facelift/245370/",
+       "what": "Korrektur heightMm: ADAC CR-V 2.0 Elegance 2WD (03/15-08/18): Länge 4605, Breite 1820, Höhe 1685, Radstand 2630, 589/1146/1669 l."
+      },
+      {
+       "url": "https://fleetworld.co.uk/honda-announces-prices-for-facelifted-cr-v",
+       "what": "Korrektur powerPs: Facelift retained 'the 153bhp i-VTEC petrol unit with two and four-wheel drive' (153 bhp = 155 PS)."
+      },
+      {
+       "url": "https://paultan.org/2014/10/01/2015-honda-cr-v-facelift",
+       "what": "Korrektur powerPs: 'Front-wheel drive versions make do with the existing 120 PS/300 Nm 1.6 i-DTEC engine and six-speed manual transmission.'"
+      },
+      {
+       "url": "https://autofreaks.com/?p=39058",
+       "what": "Korrektur powerPs: Uprated 1.6 i-DTEC with 160 PS / 350 Nm, only for 4WD variants (6-speed manual or 9-speed automatic); whatcar: 158 bhp."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 70,
+      "confirmed": 51,
+      "corrected": 4
+     },
+     "notes": "Facelift 2015 lengthened the car (4570 -> 4605 mm). Height not found. Variant power ratings not verified within budget;"
+    },
+    {
+     "id": "2013-rm-4-generation",
+     "name": "RM (4. Generation)",
+     "yearFrom": 2013,
+     "yearTo": 2015,
+     "bodyType": "suv",
+     "lengthMm": 4570,
+     "widthMm": 1820,
+     "heightMm": 1685,
+     "wheelbaseMm": 2630,
+     "trunkL": 589,
+     "trunkFoldedL": 1669,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-i-vtec-155-ps-benziner",
+       "name": "2.0 i-VTEC 155 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 155,
+       "awd": true,
+       "trunkL": 589,
+       "trunkFoldedL": 1669,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "2WD version also offered (not verified)"
+      },
+      {
+       "id": "1-6-i-dtec-diesel-2wd",
+       "name": "1.6 i-DTEC (Diesel, 2WD)",
+       "powertrain": "diesel",
+       "powerPs": 120,
+       "awd": false,
+       "trunkL": 589,
+       "trunkFoldedL": 1669,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2013,
+       "yearTo": null,
+       "notes": "power not verified"
+      },
+      {
+       "id": "2-2-i-dtec-150-ps-diesel",
+       "name": "2.2 i-DTEC 150 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 150,
+       "awd": true,
+       "trunkL": 589,
+       "trunkFoldedL": 1669,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://cararac.de/abmessungen/honda/cr-v.html",
+       "what": "pre-facelift length 4570 mm (third-party)"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/marken-modelle/honda/cr-v/technische-daten/",
+       "what": "trunk 589-1669 l"
+      },
+      {
+       "url": "https://www.autobild.de/artikel/honda-cr-v-2012-preise-3652891.html",
+       "what": "engines 2.0 155 PS petrol, 2.2 diesel 150 PS"
+      },
+      {
+       "url": "https://w3.honda.de/globalimages/pdf/de/car/de_car_br_cr-v_2015_2015-03_preise_ausstattung_daten.pdf",
+       "what": "wheelbase 2630, width 1820 (official 2015 price list; assumed unchanged from pre-facelift)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-v/4generation/234146",
+       "what": "Korrektur heightMm: ADAC CR-V 2.2 i-DTEC Comfort AWD (11/12-02/15): Länge 4570, Breite 1820, Höhe 1685 mm, 589/1146/1669 l."
+      },
+      {
+       "url": "https://paultan.org/2014/10/01/2015-honda-cr-v-facelift",
+       "what": "Korrektur powerPs: On the 2015 facelift: 'Front-wheel drive versions make do with the existing 120 PS/300 Nm 1.6 i-DTEC engine' (i.e. pre-facelift 1.6 i-DTEC = 120 PS)."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 70,
+      "confirmed": 51,
+      "corrected": 2
+     },
+     "notes": "European launch Nov 2012 (MY 2013). Height not found. Trunk 589/1669 l per official 2015 list; assumed same for pre-facelift."
+    },
+    {
+     "id": "2007-re-3-generation",
+     "name": "RE (3. Generation)",
+     "yearFrom": 2007,
+     "yearTo": 2012,
+     "bodyType": "suv",
+     "lengthMm": 4530,
+     "widthMm": 1820,
+     "heightMm": 1675,
+     "wheelbaseMm": 2620,
+     "trunkL": 556,
+     "trunkFoldedL": 1532,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-i-vtec-150-ps-benziner",
+       "name": "2.0 i-VTEC 150 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": true,
+       "trunkL": 556,
+       "trunkFoldedL": 1532,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-2-i-ctdi-140-ps-diesel",
+       "name": "2.2 i-CTDi 140 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 140,
+       "awd": true,
+       "trunkL": 556,
+       "trunkFoldedL": 1532,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2009,
+       "notes": ""
+      },
+      {
+       "id": "2-2-i-dtec-diesel-facelift-2010",
+       "name": "2.2 i-DTEC (Diesel, Facelift 2010)",
+       "powertrain": "diesel",
+       "powerPs": 150,
+       "awd": true,
+       "trunkL": 556,
+       "trunkFoldedL": 1532,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2010,
+       "yearTo": null,
+       "notes": "power not verified within search budget"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autokosten.net/honda/cr-v/cr-v-2-0-i-vtec/cr-v-iii-01-07-02-10/technische-daten",
+       "what": "2.0 i-VTEC 150 PS: length 4525, width 1820, height 1675, trunk 556 l / 955 l window-high / 1532 l roof-high (third-party data sheet)"
+      },
+      {
+       "url": "https://www.wikiwand.com/de/Honda%20CR-V",
+       "what": "length 4525, width 1820, height 1675, wheelbase 2630"
+      },
+      {
+       "url": "https://www.automoli.com/de/vehicles/honda/cr-v/cr-v-iii-2657/",
+       "what": "cross-check dimensions (4530/1820/1675, wb 2630; some variants 4519/2620), trunk 524-1532"
+      },
+      {
+       "url": "https://www.autokosten.net/honda/cr-v/cr-v-2-2i-ctdi/cr-v-iii-01-07-02-10_1/technische-daten",
+       "what": "2.2 i-CTDi variant"
+      },
+      {
+       "url": "https://www.netcarshow.com/honda/2007-cr-v_euro_specs/",
+       "what": "Korrektur wheelbaseMm: Honda Euro-spec press text: wheelbase reduced from 2630 to 2620 mm vs predecessor; CarExpert also 2620. (ADAC 3rd-gen facelift pages show 2630, so this remains a conflict; manufacturer press figure preferred.)"
+      },
+      {
+       "url": "https://www.netcarshow.com/honda/2007-cr-v_euro_specs/",
+       "what": "Korrektur lengthMm: Honda Euro-spec press text: relocated spare wheel made the new CR-V about 105 mm shorter than its predecessor (4635), at 4530 mm. autokosten lists 4525 - minor."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-v/3generation-facelift/222327",
+       "what": "Korrektur powerPs: ADAC CR-V 2.2 i-DTEC Comfort (04/10-10/12): 110 kW (150 PS), 350 Nm; 556/955/1532 l."
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 70,
+      "confirmed": 51,
+      "corrected": 3
+     },
+     "notes": "No official Honda data found within budget. Wheelbase conflicting (2620 vs 2630 mm). Trunk sources differ (556 vs 524 l). Facelift 2010 (i-DTEC diesel) not split - no evidence of changed dimensions/trunk found. AWD standard for diesel; 2WD 2.0 availability not verified."
+    },
+    {
+     "id": "2002-rd-2-generation-facelift-2005",
+     "name": "RD (2. Generation, Facelift 2005)",
+     "yearFrom": 2002,
+     "yearTo": 2006,
+     "bodyType": "suv",
+     "lengthMm": 4635,
+     "widthMm": 1785,
+     "heightMm": 1710,
+     "wheelbaseMm": 2630,
+     "trunkL": 527,
+     "trunkFoldedL": 952,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-i-vtec-150-ps-benziner",
+       "name": "2.0 i-VTEC 150 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": true,
+       "trunkL": 527,
+       "trunkFoldedL": 952,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "150 PS per drivearabia/third-party test; AWD assumed standard (Real Time 4WD) - not verified per price list"
+      },
+      {
+       "id": "2-2-i-ctdi-140-ps-diesel",
+       "name": "2.2 i-CTDi 140 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 140,
+       "awd": true,
+       "trunkL": 527,
+       "trunkFoldedL": 952,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2005,
+       "yearTo": null,
+       "notes": "103 kW/140 PS per autokosten/motorimdetail data sheets"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.motorimdetail.de/pa/honda-cr-v-2-2i-ctdi-es-2005",
+       "what": "length 4635 mm, wheelbase 2630 mm, trunk 527 l (third-party data sheet)"
+      },
+      {
+       "url": "https://www.autokosten.net/honda/cr-v/cr-v-2-2i-ctdi/cr-v-ii-11-04-12-06/technische-daten",
+       "what": "trunk 527 l / 952 l folded roof-high, 2.2 i-CTDi 140 PS (third-party)"
+      },
+      {
+       "url": "https://fastcarcheck.uk/specs/make/honda/cr-v/65317",
+       "what": "width 1785 mm, height 1710 mm (2.0 150 PS) - third-party"
+      },
+      {
+       "url": "https://automobilrevue.ch/images/Honda-Jubil%C3%A4um/Honda-CR-V-2.pdf",
+       "what": "historic brochure excerpt: width 178 cm, height 171 cm (pre-facelift)"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 70,
+      "confirmed": 51,
+      "corrected": 0
+     },
+     "notes": "Generation built 2001/2002-2006, still sold in Germany 2005-2006 (facelift 2005). No official Honda data sheet found within search budget; values from third-party databases. Folded volume sources differ (948-952 l roof-high vs. 1568 l in another database). 2.2 i-CTDi offered in Germany from late 2004/2005."
+    }
+   ]
+  },
+  {
+   "id": "cr-z",
+   "name": "CR-Z",
+   "generations": [
+    {
+     "id": "2010-zf1-zf2",
+     "name": "ZF1/ZF2",
+     "yearFrom": 2010,
+     "yearTo": 2013,
+     "bodyType": "coupe",
+     "lengthMm": 4080,
+     "widthMm": 1740,
+     "heightMm": 1395,
+     "wheelbaseMm": 2425,
+     "trunkL": 225,
+     "trunkFoldedL": 595,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-i-vtec-ima-hybrid",
+       "name": "1.5 i-VTEC IMA Hybrid",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 215,
+       "trunkFoldedL": 583,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2010,
+       "yearTo": 2012,
+       "notes": "Petrol engine 114 PS (autoplenum); system power not captured from a source."
+      },
+      {
+       "id": "1-5-i-vtec-ima-hybrid-137-ps",
+       "name": "1.5 i-VTEC IMA Hybrid 137 PS",
+       "powertrain": "hev",
+       "powerPs": 137,
+       "awd": false,
+       "trunkL": 215,
+       "trunkFoldedL": 583,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2013,
+       "yearTo": 2013,
+       "notes": "2013 facelift: system power 137 PS (petrol 121 + e-motor 20 PS) per mobile.de/autozeitung; trunk assumed unchanged (sources quote same range)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-z/1generation/223040/",
+       "what": "ADAC catalogue 1.5 Hybrid GT 06/10-12/12: 4080 x 1740 (w/o mirrors) x 1395, wheelbase 2425, trunk 215 l normal, 389 l window-high and 583 l roof-high folded"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1111-CR-Z",
+       "what": "Dimensions; alternative trunk 225 / 401 l"
+      },
+      {
+       "url": "https://www.mobile.de/auto/honda/cr-z/2010/dreituerer/modell/daten-fakten/",
+       "what": "215-595 l; 2013 facelift 137 PS"
+      },
+      {
+       "url": "https://www.autozeitung.de/honda-cr-z-1-5-ima-2012-hybrid-facelift-bilder-und-technische-daten-50799.html",
+       "what": "2013 facelift, 137 PS"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Honda_CR-Z",
+       "what": "Production 2010-2016"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-z/1generation/223039/",
+       "what": "Korrektur trunkL: ADAC catalogue lists 225 l normal for CR-Z 1.5 Hybrid S and Sport (06/10-12/12); only the GT trim is listed with 215 l (likely subwoofer). Top Gear spec (1.5 IMA S) also 225 l seats up; AutoScout24 225 l. 225 l is the base/most common figure; GT = 215 l."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-z/1generation/223039/",
+       "what": "Korrektur trunkFoldedL: ADAC for S/Sport: 401 l window-high, 595 l roof-high folded (GT: 389/583). Encycarpedia/mobile.de also 225-595 l. Pairs with trunkL 225."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-z/1generation-facelift/316994",
+       "what": "Korrektur yearTo: ADAC facelift entry 'Honda CR-Z 1.5 Hybrid GT (01/13 - 12/13)', 137 PS. German sources (mobile.de/AutoScout24 model pages) state sales in Germany were discontinued at end of 2013 due to weak sales; 2016 is only the global production end."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/cr-z/1generation-facelift/316994",
+       "what": "Korrektur yearTo: ADAC: facelift 137 PS built/offered 01/13 - 12/13 in Germany; German sales ended end of 2013."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 47,
+      "confirmed": 39,
+      "corrected": 4
+     },
+     "notes": "2+2 seat hybrid coupe/hatch. Honda EU press data not found; ADAC values used. Folded volume conflicts: 583 l (ADAC roof-high) vs 595 l (mobile.de/AutoScout24). yearTo 2016 is the production end (Wikipedia); exact last German model year not confirmed. Facelift 2013 not split (dimensions unchanged)."
+    }
+   ]
+  },
+  {
+   "id": "e-ny1",
+   "name": "e:Ny1",
+   "generations": [
+    {
+     "id": "2023-rs-1-generation",
+     "name": "RS (1. Generation)",
+     "yearFrom": 2023,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4387,
+     "widthMm": 1790,
+     "heightMm": 1584,
+     "wheelbaseMm": 2607,
+     "trunkL": 361,
+     "trunkFoldedL": 1176,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "e-ny1-advance-204-ps-elektro",
+       "name": "e:Ny1 Advance 204 PS (Elektro)",
+       "powertrain": "bev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 344,
+       "trunkFoldedL": 1136,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "784 l window-high; subwoofer in trunk"
+      },
+      {
+       "id": "e-ny1-elegance-204-ps-elektro",
+       "name": "e:Ny1 Elegance 204 PS (Elektro)",
+       "powertrain": "bev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 361,
+       "trunkFoldedL": 1176,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "801 l window-high"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://hondanews.eu/at/de/cars/media/pressreleases/443702/honda-eny1-2023-pressemappe",
+       "what": "official press kit: length 4387, height 1584, wb 2607, trunk 361/801/1176 l (Advance 344/784/1136 l)"
+      },
+      {
+       "url": "https://www.automobiledimension.com/model/honda/e-ny1",
+       "what": "width 1790 mm without mirrors (third-party)"
+      },
+      {
+       "url": "https://www.auto-data.net/en/honda-eny1-68.8-kwh-204hp-48949",
+       "what": "204 PS, 68.8 kWh"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/eny1/1generation/328875/",
+       "what": "ADAC cross-check"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 70,
+      "confirmed": 51,
+      "corrected": 0
+     },
+     "notes": "No frunk. ADAC lists the version as 10/23-04/26, suggesting a model update in 2026 (not researched)."
+    }
+   ]
+  },
+  {
+   "id": "fr-v",
+   "name": "FR-V",
+   "generations": [
+    {
+     "id": "2007-be-facelift-2007-2009",
+     "name": "BE (Facelift 2007-2009)",
+     "yearFrom": 2007,
+     "yearTo": 2009,
+     "bodyType": "van",
+     "lengthMm": 4285,
+     "widthMm": 1810,
+     "heightMm": 1610,
+     "wheelbaseMm": 2685,
+     "trunkL": 439,
+     "trunkFoldedL": 1600,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-8-i-vtec-benziner",
+       "name": "1.8 i-VTEC (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": 439,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-2-i-ctdi-diesel",
+       "name": "2.2 i-CTDi (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": 439,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://autocatalogarchive.com/wp-content/uploads/2016/10/Honda-FR-V-2007-GER.pdf",
+       "what": "Honda brochure 2007 (Germany): 4285x1810x1610 mm, trunk 439 l VDA, 1049 l window-high / 1600 l roof-high folded"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/fr-v/1generation-facelift/207728/",
+       "what": "ADAC Autokatalog FR-V 1.8 Executive Automatik (01/07-03/10): 140 PS, wheelbase 2685 mm, trunk 439/1049/1600 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/fr-v/1generation-facelift/207725/",
+       "what": "ADAC Autokatalog FR-V 2.2 i-CTDi Executive (01/07-03/10): 140 PS"
+      },
+      {
+       "url": "https://www.autocar.co.uk/node/35390",
+       "what": "2007 facelift: 1.7 and 2.0 petrol dropped, replaced by single 1.8 i-VTEC (UK/Europe)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 58,
+      "corrected": 0
+     },
+     "notes": "Facelift 01/2007, 1.7 replaced by 1.8 i-VTEC. Dimensions and trunk unchanged per ADAC/brochure. ADAC lists sales until 03/2010; last model year in Germany taken as 2009 (production end 2009) - uncertain. The 2.0 i-VTEC was dropped with the facelift in Europe (Autocar); only 1.8 and 2.2 i-CTDi listed by ADAC for 01/07-03/10."
+    },
+    {
+     "id": "2005-be-2004-2006",
+     "name": "BE (2004-2006)",
+     "yearFrom": 2005,
+     "yearTo": 2006,
+     "bodyType": "van",
+     "lengthMm": 4285,
+     "widthMm": 1810,
+     "heightMm": 1610,
+     "wheelbaseMm": 2685,
+     "trunkL": 439,
+     "trunkFoldedL": 1600,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-7i-benziner",
+       "name": "1.7i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 125,
+       "awd": false,
+       "trunkL": 439,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0i-benziner",
+       "name": "2.0i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 439,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-2-i-ctdi-diesel",
+       "name": "2.2 i-CTDi (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": 439,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/fr-v/1generation/999545/",
+       "what": "ADAC Autokatalog FR-V 1.7i (01/05-12/06): trunk 439 l, 1049 l window-high / 1600 l roof-high folded, 125 PS"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/fr-v/1generation/200762/",
+       "what": "ADAC Autokatalog FR-V 2.0i Executive (01/05-12/06): 150 PS"
+      },
+      {
+       "url": "https://www.autokosten.net/honda/fr-v/fr-v-2-2i-ctdi/fr-v-01-05-12-06_2/technische-daten",
+       "what": "2.2 i-CTDi 140 PS, length 4285 mm, wheelbase 2685 mm, trunk 439 l (03/2005-12/2006)"
+      },
+      {
+       "url": "https://autocatalogarchive.com/wp-content/uploads/2016/10/Honda-FR-V-2007-GER.pdf",
+       "what": "Honda brochure 2007 (Germany): 4285x1810x1610 mm, trunk 439/1049/1600 l VDA"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 58,
+      "corrected": 0
+     },
+     "notes": "6-seater (3+3) compact van. Width/height taken from the Honda 2007 brochure (facelift) and matching ADAC data; no evidence the body dimensions changed with the 2007 facelift. trunkFoldedL = roof-high value (window-high 1049 l). ADAC Autotest 2.0i Executive measured 365 l (middle seat fully back) / 965 l. Launch in Germany early 2005 (model year 2005)."
+    }
+   ]
+  },
+  {
+   "id": "honda-e",
+   "name": "Honda e",
+   "generations": [
+    {
+     "id": "2020-zc7",
+     "name": "ZC7",
+     "yearFrom": 2020,
+     "yearTo": 2023,
+     "bodyType": "hatchback",
+     "lengthMm": 3894,
+     "widthMm": 1752,
+     "heightMm": 1512,
+     "wheelbaseMm": 2538,
+     "trunkL": 171,
+     "trunkFoldedL": 861,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "honda-e-136-ps-elektro",
+       "name": "Honda e 136 PS (Elektro)",
+       "powertrain": "bev",
+       "powerPs": 136,
+       "awd": false,
+       "trunkL": 171,
+       "trunkFoldedL": 861,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "honda-e-advance-154-ps-elektro",
+       "name": "Honda e Advance 154 PS (Elektro)",
+       "powertrain": "bev",
+       "powerPs": 154,
+       "awd": false,
+       "trunkL": 171,
+       "trunkFoldedL": 861,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://de.honda.de/inhalt/automobile/preislisten/documents/Honda-e/Honda_e_Preise_Daten_Ausstattung_2022-01",
+       "what": "Honda Deutschland Preisliste 01/2022: length 3894, width incl. camera mirrors 1752, height incl. antenna 1512, wheelbase 2538, trunk 171 l VDA"
+      },
+      {
+       "url": "https://www.mobile.de/auto/honda/e/2020/modell/daten-fakten/",
+       "what": "trunkFoldedL 861 l (database fallback)"
+      },
+      {
+       "url": "https://vision-mobility.de/elektroauto/kleinwagen/honda-e-voll-elektrisch-33850-euro-reichweite-170-km-136-ps-nicht-bestellbar-231879.html",
+       "what": "Honda e 136 PS; 171/861 l"
+      },
+      {
+       "url": "https://vision-mobility.de/elektroauto/kleinwagen/honda-e-advance-voll-elektrisch-39900-euro-reichweite-170-km-154-ps-nicht-bestellbar-231914.html",
+       "what": "Honda e Advance 154 PS"
+      },
+      {
+       "url": "https://autotijd.be/en/dimensions/honda/e-2020-2023",
+       "what": "Korrektur widthMm: '3,894 mm in length, 1,752 mm in width (without mirrors) and 1,512 mm in height, wheelbase 2,538 mm'. Honda's press release (hondanews.eu/eu/en/cars/media/pressreleases/181246) says the side cameras sit within the vehicle's body width, so 1752 mm is the width both with and without"
+      },
+      {
+       "url": "https://newmobility.news/2023/11/30/honda-withdraws-pioneering-e-from-eu-market/",
+       "what": "Korrektur yearTo: Honda confirmed to electrive.net in Nov 2023 that it had stopped selling the Honda e in Europe (no longer orderable); Honda Japan: production ended January 2024. Only 101 German registrations in 2023. Last German model year is 2023; 2024 is defensible only if you count the end of p"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 48,
+      "confirmed": 36,
+      "corrected": 2
+     },
+     "notes": "Rear-wheel-drive BEV; no frunk. Width without mirrors not found (1752 mm is incl. camera mirrors). Production/sales ended 2024 (yearTo from general knowledge of discontinuation, not sourced)."
+    }
+   ]
+  },
+  {
+   "id": "hr-v",
+   "name": "HR-V",
+   "generations": [
+    {
+     "id": "2021-rv-3-generation-e-hev",
+     "name": "RV (3. Generation, e:HEV)",
+     "yearFrom": 2021,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4340,
+     "widthMm": 1790,
+     "heightMm": 1582,
+     "wheelbaseMm": 2610,
+     "trunkL": 319,
+     "trunkFoldedL": 1289,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-i-mmd-e-hev-131-ps-vollhybrid",
+       "name": "1.5 i-MMD e:HEV 131 PS (Vollhybrid)",
+       "powertrain": "hev",
+       "powerPs": 131,
+       "awd": false,
+       "trunkL": 319,
+       "trunkFoldedL": 1289,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Some trims quoted 335/1305 l"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.honda.at/cars/new/hr-v-hybrid/specifications.html",
+       "what": "official: trunk 319 l VDA"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/honda-hr-v-test/",
+       "what": "ADAC (manufacturer data): 319 l / 1289 l roof-high"
+      },
+      {
+       "url": "https://www.motorprofis.at/honda/test-honda-hr-v-e-hev-1-5-i-mmd-hybrid",
+       "what": "length 4340, width 1790, height 1582"
+      },
+      {
+       "url": "https://www.honda.de/cars/new/hr-v-hybrid/specifications.html",
+       "what": "wheelbase 2610, height 1582, 1289 l, 131 PS system output"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 70,
+      "confirmed": 51,
+      "corrected": 0
+     },
+     "notes": "Facelift 2024/2025: honda.de lists 4355 mm (and 4398 mm for another variant) - facelift dimensions not verified, so not split. Hybrid only in Germany."
+    },
+    {
+     "id": "2015-ru-2-generation",
+     "name": "RU (2. Generation)",
+     "yearFrom": 2015,
+     "yearTo": 2021,
+     "bodyType": "suv",
+     "lengthMm": 4294,
+     "widthMm": 1772,
+     "heightMm": 1605,
+     "wheelbaseMm": 2610,
+     "trunkL": 470,
+     "trunkFoldedL": 1533,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-i-vtec-130-ps-benziner",
+       "name": "1.5 i-VTEC 130 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 130,
+       "awd": false,
+       "trunkL": 470,
+       "trunkFoldedL": 1533,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-5-vtec-turbo-sport-benziner",
+       "name": "1.5 VTEC TURBO Sport (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 182,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2019,
+       "yearTo": null,
+       "notes": "facelift-era sport version; data not verified"
+      },
+      {
+       "id": "1-6-i-dtec-diesel",
+       "name": "1.6 i-DTEC (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 120,
+       "awd": false,
+       "trunkL": 470,
+       "trunkFoldedL": 1533,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "power not verified"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://hondanews.eu/at/de/media/pressreleases/57833/honda-hr-v-20159",
+       "what": "official press release: length 4294, trunk 470 l seats up, 1533 l folded"
+      },
+      {
+       "url": "https://www.autoplenum.de/auto/honda/hr-v/suv-2015/1-5-i-vtec-130-ps",
+       "what": "4294 x 1772 x 1605, wheelbase 2610, 1.5 i-VTEC 130 PS"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/hr-v/2generation/250145/",
+       "what": "ADAC: length 4294, trunk 393 l normal / 1026 l folded (deviating)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/hr-v/2generation/250146/",
+       "what": "Korrektur powerPs: ADAC HR-V 1.6 i-DTEC Comfort (09/15-08/18): 88 kW (120 PS)."
+      },
+      {
+       "url": "https://de.motor1.com/news/262174/honda-hr-v-2019-facelift-turbomotor/",
+       "what": "Korrektur powerPs: 'Honda HR-V Facelift (2019) und neuer Turbobenziner mit 182 PS'."
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 70,
+      "confirmed": 51,
+      "corrected": 2
+     },
+     "notes": "Trunk figures conflict: Honda press release 470/1533 l (probably incl. underfloor / roof-high), ADAC 393/1026 l, Honda Europe per Wikipedia & AUTO BILD 453/1026 l. Facelift 2018/2019 not split (dimension change unverified; some sources 4334-4355 mm)."
+    },
+    {
+     "id": "1999-gh-1-generation-5-turer",
+     "name": "GH (1. Generation, 5-Türer)",
+     "yearFrom": 1999,
+     "yearTo": 2005,
+     "bodyType": "suv",
+     "lengthMm": 4110,
+     "widthMm": 1695,
+     "heightMm": 1580,
+     "wheelbaseMm": 2450,
+     "trunkL": 285,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-6i-105-ps-benziner",
+       "name": "1.6i 105 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 105,
+       "awd": false,
+       "trunkL": 285,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-6i-105-ps-4wd-benziner",
+       "name": "1.6i 105 PS 4WD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 105,
+       "awd": true,
+       "trunkL": 285,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autokosten.net/honda/hr-v/hr-v-1-6i/hr-v-i-02-00-12-05_2/technische-daten",
+       "what": "1.6i: length 4110, width 1695, height 1580, wheelbase 2450, trunk 285 l (third-party)"
+      },
+      {
+       "url": "https://www.auto-data.net/en/honda-hr-v-gh-1.6i-16v-105hp-4wd-12348",
+       "what": "1.6i 4WD 105 PS, trunk 285 l"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Honda_HR-V",
+       "what": "3-door 4000 mm / wb 2360; 5-door 4110 mm / wb 2460"
+      },
+      {
+       "url": "https://www.mobile.de/auto/honda/hr-v/2015/suv/modell/daten-fakten/",
+       "what": "first generation sold in Germany until 2005"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 70,
+      "confirmed": 51,
+      "corrected": 0
+     },
+     "notes": "Only third-party data. Sold in Germany until 2005 only. 3-door body (4000 mm, wb 2360) also existed; not separately entered. Wheelbase conflict 2450 vs 2460; height 1580 vs 1628 in another source. Trunk measurement norm unknown; folded volume not found. 1.6 VTEC 125 PS variant not verified."
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "name": "Insight",
+   "generations": [
+    {
+     "id": "2009-ii-ze2",
+     "name": "II (ZE2)",
+     "yearFrom": 2009,
+     "yearTo": 2013,
+     "bodyType": "hatchback",
+     "lengthMm": 4395,
+     "widthMm": 1695,
+     "heightMm": 1425,
+     "wheelbaseMm": 2545,
+     "trunkL": 408,
+     "trunkFoldedL": 1017,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-3-i-vtec-ima-hybrid-cvt",
+       "name": "1.3 i-VTEC IMA Hybrid CVT",
+       "powertrain": "hev",
+       "powerPs": 88,
+       "awd": false,
+       "trunkL": 408,
+       "trunkFoldedL": 1017,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "88 PS = petrol engine rating (autoplenum/auto-data); mild-parallel IMA hybrid."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://hondanews.eu/gb/en/cars/media/pressreleases/3541/honda-insight-press-kit",
+       "what": "Honda press kit: boot 408 l VDA rear seats up (text elsewhere says 400 l), 8 l underfloor well"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/insight/2generation/217735/",
+       "what": "ADAC catalogue 06/09-02/12: 408 l normal, 584 l window-high folded; width with mirrors 2025"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/insight/2generation-facelift/231435/",
+       "what": "ADAC catalogue facelift 02/12-10/13: 4395 x 1695 x 1425, wheelbase 2545, 408 / 584 / 1017 l (roof-high folded)"
+      },
+      {
+       "url": "https://www.autoexpress.co.uk/honda/insight",
+       "what": "1017 l with rear seats folded"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 47,
+      "confirmed": 39,
+      "corrected": 0
+     },
+     "notes": "Facelift 2012 not split (dimensions and trunk unchanged per ADAC). German sales ended 10/2013 per ADAC. Some databases quote 339 l (likely below cover). First-generation Insight (1999-2006) was per AutoScout24 never officially sold in Germany (autokosten lists 04/00-09/01 only) and ended before 2005 - excluded. Third generation (2018+) not sold in Europe."
+    }
+   ]
+  },
+  {
+   "id": "jazz",
+   "name": "Jazz",
+   "generations": [
+    {
+     "id": "2023-gr-facelift",
+     "name": "GR (Facelift)",
+     "yearFrom": 2023,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 4089,
+     "widthMm": 1694,
+     "heightMm": 1526,
+     "wheelbaseMm": 2517,
+     "trunkL": 304,
+     "trunkFoldedL": 1205,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-i-mmd-e-hev-122-ps-hybrid",
+       "name": "1.5 i-MMD e:HEV 122 PS (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 122,
+       "awd": false,
+       "trunkL": 304,
+       "trunkFoldedL": 1205,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "crosstar-1-5-i-mmd-e-hev-122-ps-hybrid",
+       "name": "Crosstar 1.5 i-MMD e:HEV 122 PS (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 122,
+       "awd": false,
+       "trunkL": 304,
+       "trunkFoldedL": 1205,
+       "lengthMm": 4105,
+       "widthMm": null,
+       "heightMm": 1556,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Honda.de: length 4105, height 1556, wheelbase 2520. Facelift Crosstar trunk not confirmed (pre-facelift ADAC: 298/1199 l)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/434831/2023-honda-jazz-and-jazz-crosstar-facelift-full-press-kit",
+       "what": "Honda press kit 2023 facelift: trunk 304 l / 1205 l"
+      },
+      {
+       "url": "https://www.honda.co.uk/cars/new/jazz-hybrid/specifications.html",
+       "what": "Honda UK: length 4089, width 1694, height 1526, 844 l to window"
+      },
+      {
+       "url": "https://www.honda.de/cars/new/jazz-hybrid/specification.html",
+       "what": "Honda Deutschland: length 4089 (Crosstar 4105), height 1526 (Crosstar 1556), wheelbase 2517 (Crosstar 2520)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/5generation-facelift/327487",
+       "what": "ADAC: Crosstar Advance (03/23-11/25) facelift period"
+      },
+      {
+       "url": "https://www.auto-data.net/en/honda-jazz-iv-facelift-2023-crosstar-1.5-i-mmd-122hp-ehev-e-cvt-48481",
+       "what": "122 PS output facelift (database, low weight)"
+      },
+      {
+       "url": "https://www.latribuneauto.com/reportages/nouveautes/14179-la-honda-jazz-crosstar-e-hev-soffre-quelques-retouches-esthetiques",
+       "what": "Korrektur trunkL: Report on the facelifted Jazz Crosstar e:HEV: boot 'atteint 304 litres (sièges arrière relevés méthode VDA)', 1 205 litres seats folded (VDA). Pre-facelift ADAC/Rheinpfalz gave 298 l. Secondary source (no Honda document found), medium certainty."
+      },
+      {
+       "url": "https://www.latribuneauto.com/reportages/nouveautes/14179-la-honda-jazz-crosstar-e-hev-soffre-quelques-retouches-esthetiques",
+       "what": "Korrektur trunkFoldedL: Same source: '1 205 litres (méthode VDA)' with rear seats folded to the roof. Medium certainty (alternative 1199 l from pre-facelift ADAC)."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 48,
+      "confirmed": 36,
+      "corrected": 2
+     },
+     "notes": "Facelift 03/2023 (Advance, Advance Sport, Crosstar Advance); still on sale (ADAC entry from 11/25). Split because length changed (4044 -> 4089 per ADAC vs Honda)."
+    },
+    {
+     "id": "2020-gr-e-hev",
+     "name": "GR (e:HEV)",
+     "yearFrom": 2020,
+     "yearTo": 2023,
+     "bodyType": "hatchback",
+     "lengthMm": 4044,
+     "widthMm": 1694,
+     "heightMm": 1526,
+     "wheelbaseMm": 2517,
+     "trunkL": 304,
+     "trunkFoldedL": 1205,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-i-mmd-e-hev-109-ps-hybrid",
+       "name": "1.5 i-MMD e:HEV 109 PS (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 109,
+       "awd": false,
+       "trunkL": 304,
+       "trunkFoldedL": 1205,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "crosstar-1-5-i-mmd-e-hev-109-ps-hybrid",
+       "name": "Crosstar 1.5 i-MMD e:HEV 109 PS (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 109,
+       "awd": false,
+       "trunkL": 298,
+       "trunkFoldedL": 1199,
+       "lengthMm": 4090,
+       "widthMm": null,
+       "heightMm": 1556,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Crosstar Executive (07/20-03/23): 4090 x 1694 x 1556 mm, wheelbase 2520, trunk 298/838/1199 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/5generation/311866/",
+       "what": "ADAC: Jazz 1.5 i-MMD e:HEV Executive (07/20-03/23) length 4044, width 1694, height 1526, trunk 1205 l dachhoch"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/5generation/311865",
+       "what": "ADAC: Crosstar Executive (07/20-03/23) dimensions and trunk 298/838/1199 l"
+      },
+      {
+       "url": "https://www.de.honda.ch/cars/new/jazz-hybrid/specification.html",
+       "what": "Honda Schweiz: width excl. mirrors 1694, trunk VDA 304 l"
+      },
+      {
+       "url": "https://www.honda.de/cars/new/jazz-hybrid/specification.html",
+       "what": "Honda Deutschland: wheelbase 2517 (Crosstar 2520), height 1526, trunk 304 / 844 / 1205 l"
+      },
+      {
+       "url": "https://mobile.md/en/catalog/honda-122/jazz-1096/honda-jazz-iv-3098/crosstar-15-i-mmd-109-hp-ehev-e-cvt-16293",
+       "what": "109 PS output 2020-2022 (database, low weight)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 48,
+      "confirmed": 36,
+      "corrected": 0
+     },
+     "notes": "Hybrid only. Length conflict: ADAC 4044 mm vs. Honda 4089 mm (Honda site likely shows facelift). 109 PS power from secondary database."
+    },
+    {
+     "id": "2018-gk-facelift",
+     "name": "GK (Facelift)",
+     "yearFrom": 2018,
+     "yearTo": 2020,
+     "bodyType": "hatchback",
+     "lengthMm": 4028,
+     "widthMm": 1694,
+     "heightMm": 1525,
+     "wheelbaseMm": 2530,
+     "trunkL": 354,
+     "trunkFoldedL": 1314,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-3-i-vtec-102-ps-benziner",
+       "name": "1.3 i-VTEC 102 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 102,
+       "awd": false,
+       "trunkL": 354,
+       "trunkFoldedL": 1314,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-5-i-vtec-dynamic-130-ps-benziner",
+       "name": "1.5 i-VTEC Dynamic 130 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 130,
+       "awd": false,
+       "trunkL": 354,
+       "trunkFoldedL": 1314,
+       "lengthMm": 4051,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://hondanews.eu/ch/de/cars/media/pressreleases/125633/2018-honda-jazz-15-i-vtec-press-kit",
+       "what": "Honda press kit 2018 Jazz 1.5 i-VTEC: trunk 354 / 1314 l (kit lists length 3995 - conflicts with ADAC)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/4generation-facelift/286204/",
+       "what": "ADAC: 1.5 i-VTEC Dynamic (01/18-08/18) length 4051, width 1694, height 1525, wheelbase 2530, trunk 354/884/1314 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/4generation-facelift/302946/",
+       "what": "ADAC: 1.3 i-VTEC Comfort (08/19-06/20) length 4028, same height, wheelbase, trunk"
+      },
+      {
+       "url": "https://www.automobil-produktion.de/technik/honda-jazz-15-ivtec-zauberkiste/1093669",
+       "what": "1.5 i-VTEC 130 PS only as Dynamic"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 48,
+      "confirmed": 36,
+      "corrected": 0
+     },
+     "notes": "Facelift 01/2018 split because length changed per ADAC (1.3: 4028 mm, 1.5 Dynamic: 4051 mm); Honda press kit still states 3995 mm - unresolved. Trunk unchanged."
+    },
+    {
+     "id": "2015-gk",
+     "name": "GK",
+     "yearFrom": 2015,
+     "yearTo": 2017,
+     "bodyType": "hatchback",
+     "lengthMm": 3995,
+     "widthMm": 1694,
+     "heightMm": 1525,
+     "wheelbaseMm": 2530,
+     "trunkL": 354,
+     "trunkFoldedL": 1314,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-3-i-vtec-102-ps-benziner",
+       "name": "1.3 i-VTEC 102 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 102,
+       "awd": false,
+       "trunkL": 354,
+       "trunkFoldedL": 1314,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://hondanews.eu/at/de/cars/media/pressreleases/59600/honda-jazz-20153",
+       "what": "Honda press release Jazz 2015: trunk 354 l to 1314 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/4generation/250155/",
+       "what": "ADAC: 1.3 i-VTEC Elegance (09/15-12/17) length 3995, width 1694 (1980 incl. mirrors), height 1525, wheelbase 2530, trunk 354/884/1314 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/4generation/250151",
+       "what": "ADAC: 1.3 i-VTEC Trend 75 kW/102 PS"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 48,
+      "confirmed": 36,
+      "corrected": 0
+     },
+     "notes": "Sold 09/2015-12/2017 before facelift. 884 l folded to window height."
+    },
+    {
+     "id": "2009-ge",
+     "name": "GE",
+     "yearFrom": 2009,
+     "yearTo": 2015,
+     "bodyType": "hatchback",
+     "lengthMm": 3900,
+     "widthMm": 1695,
+     "heightMm": 1525,
+     "wheelbaseMm": 2495,
+     "trunkL": 375,
+     "trunkFoldedL": 1341,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-benziner",
+       "name": "1.2 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 90,
+       "awd": false,
+       "trunkL": 375,
+       "trunkFoldedL": 1341,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.2 (11/08-10/10): 375 l normal, 883 l fensterhoch, 1341 l dachhoch."
+      },
+      {
+       "id": "1-4-i-vtec-benziner",
+       "name": "1.4 i-VTEC (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 100,
+       "awd": false,
+       "trunkL": 375,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2011,
+       "yearTo": null,
+       "notes": "ADAC 1.4 Exclusive (04/11-08/15) lists 428 l normal; likely includes underfloor compartment - conflicts with 375 l of the 1.2 entry. Treat with caution."
+      },
+      {
+       "id": "1-3-hybrid-i-vtec-ima-cvt-hybrid",
+       "name": "1.3 Hybrid i-VTEC IMA CVT (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 98,
+       "awd": false,
+       "trunkL": 303,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2011,
+       "yearTo": 2015,
+       "notes": "Hybrid trunk smaller (battery under floor): 303 l per Wikipedia/autoguru/autoplenum (no manufacturer/ADAC confirmation). Folded value conflicting (1323 vs 1384 l). System output 72 kW/98 PS per ecomento."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/3generation/214787/",
+       "what": "ADAC: Jazz 1.2 (11/08-10/10) width 1695, wheelbase 2495, trunk 375/883/1341 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/3generation-facelift/227713/",
+       "what": "ADAC: Jazz 1.4 Exclusive (04/11-08/15) length 3900, width 1695, height 1525, trunk 428 l"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Honda_Jazz",
+       "what": "Hybrid trunk reduced from 379 l to 303 l"
+      },
+      {
+       "url": "https://www.autoguru.at/2011/07/honda-jazz-hybrid-1-3-ima-elegance-testbericht/",
+       "what": "Jazz Hybrid 3900x1695x1525, trunk 303-1323 l (test report)"
+      },
+      {
+       "url": "https://ecomento.de/modelle/honda-jazz-hybrid-2011/",
+       "what": "Jazz Hybrid system output 72 kW/98 PS"
+      },
+      {
+       "url": "https://www.autoplenum.de/auto/honda/jazz/van-2008/1-2-i-vtec-90-ps",
+       "what": "Korrektur powerPs: Jazz (2008-2015) 1.2 i-VTEC listed as 90 PS (66 kW, 1198 cm3); Autobild generation-3 page: Motoren 1,2-1,4 l Benziner (90-100 PS)."
+      },
+      {
+       "url": "https://www.autoplenum.de/auto/honda/jazz/van-2008/1-4-i-vtec-100-ps",
+       "what": "Korrektur powerPs: Jazz Van 2008-2015 '1.4 i-VTEC (100 PS)'; Autobild gen-3 page gives range 90-100 PS. Some sources say 73 kW/99 PS - 100 PS is the German-market figure."
+      },
+      {
+       "url": "https://de.motor1.com/news/161570/honda-jazz-und-accord-preise-der-gelifteten-versionen/",
+       "what": "Korrektur trunkL: Motor1 on the 2011 facelift prices: Hybrid 300 bis 1.323 Liter, 'das konventionell angetriebene Modell bietet 375 bis 1.371 Liter' (battery under the floor). So conventional facelift petrol models = 375 l, same as the 1.2; ADAC's 428 l is an outlier (probably incl. underfloor box)."
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 48,
+      "confirmed": 36,
+      "corrected": 3
+     },
+     "notes": "Sold 11/2008-08/2015; facelift 04/2011 (with Hybrid) without dimension change found. Trunk figures conflict between sources (375/379/399/428 l) - probably with/without underfloor box. UK brochure: 335 l + 64 l underfloor, 883 l seats down. No manufacturer press kit found."
+    },
+    {
+     "id": "2005-gd-facelift",
+     "name": "GD (Facelift)",
+     "yearFrom": 2005,
+     "yearTo": 2008,
+     "bodyType": "hatchback",
+     "lengthMm": 3845,
+     "widthMm": 1675,
+     "heightMm": 1525,
+     "wheelbaseMm": 2450,
+     "trunkL": 380,
+     "trunkFoldedL": 1323,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-benziner",
+       "name": "1.2 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 78,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1323,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-4-benziner-1-3-l-motor",
+       "name": "1.4 (Benziner, 1.3-l-Motor)",
+       "powertrain": "petrol",
+       "powerPs": 83,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1323,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-4-es-sport",
+       "name": "1.4 ES Sport",
+       "powertrain": "petrol",
+       "powerPs": 83,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": null,
+       "lengthMm": 3855,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC lists 3855 mm for ES Sport (11/04-11/08); trunkFoldedL not confirmed for this trim."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/2generation-facelift/212727/",
+       "what": "ADAC: Jazz 1.2 Style (01/08-11/08) width 1675, wheelbase 2450, trunk 380 l / 1323 l dachhoch"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/2generation-facelift/212728",
+       "what": "ADAC: Jazz 1.4 Style (01/08-11/08) length 3845, height 1525, wheelbase 2450"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/2generation-facelift/200564",
+       "what": "ADAC: Jazz 1.4 ES Sport (11/04-11/08) length 3855, height 1525, wheelbase 2450, trunk 380 l"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Honda_Jazz",
+       "what": "German engines 1.2 57 kW/78 PS, 1.4 (1.3-l) 61 kW/83 PS; build periods"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 48,
+      "confirmed": 36,
+      "corrected": 0
+     },
+     "notes": "Generation GD sold in Germany 01/2002-11/2008; entry covers the 11/2004 facelift (model years 2005-2008). Pre-facelift (to 11/2004) length 3830 mm per ADAC 1.4i LS. No manufacturer press kit found; all values ADAC (fallback). Magic Seats."
+    }
+   ]
+  },
+  {
+   "id": "legend",
+   "name": "Legend",
+   "generations": [
+    {
+     "id": "2009-iv-kb1-facelift",
+     "name": "IV (KB1, Facelift)",
+     "yearFrom": 2009,
+     "yearTo": 2010,
+     "bodyType": "sedan",
+     "lengthMm": 4985,
+     "widthMm": 1845,
+     "heightMm": 1450,
+     "wheelbaseMm": 2800,
+     "trunkL": 452,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "3-7-v6-sh-awd-automatik",
+       "name": "3.7 V6 SH-AWD Automatik",
+       "powertrain": "petrol",
+       "powerPs": 295,
+       "awd": true,
+       "trunkL": 452,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autokosten.net/honda/legend/legend-3-7-v6/legend-iv-01-09-12-10/technische-daten",
+       "what": "Legend IV 3.7 V6, model start 01/2009, end 12/2010"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/honda/legend/legend-3-7-v6-sh-awd-2008-2010-limousine-benzin/",
+       "what": "Length 4985 mm, trunk 452 l"
+      },
+      {
+       "url": "https://www.autoplenum.de/auto/honda/legend/limousine-2004/3-7-v6-vtec-295-ps",
+       "what": "3.7 V6 295 PS, 452 l, wheelbase 2800, base price 59,990 EUR"
+      },
+      {
+       "url": "https://www.auto-data.net/en/honda-legend-iv-kb1-facelift-2008-3.7-vtec-v6-295hp-sh-awd-12172",
+       "what": "Facelift 3.7 VTEC V6 295 PS SH-AWD"
+      },
+      {
+       "url": "https://cars-data.com/en/honda/legend/dimensions",
+       "what": "Korrektur heightMm: cars-data.com gives 4,985 mm length, 1,845 mm width, 1,450 mm height for the 2008-2010 Legend (facelift); cararac also 1450. Not a manufacturer source (one sheet lists 1455)."
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 47,
+      "confirmed": 39,
+      "corrected": 1
+     },
+     "notes": "Split from pre-facelift because length grew to 4985 mm (new front). Height not confirmed for facelift. Some sources still quote 4957 mm for the facelift; 4985 mm used per AutoScout24/autokosten. German end of sale 12/2010 per autokosten."
+    },
+    {
+     "id": "2006-iv-kb1",
+     "name": "IV (KB1)",
+     "yearFrom": 2006,
+     "yearTo": 2008,
+     "bodyType": "sedan",
+     "lengthMm": 4957,
+     "widthMm": 1845,
+     "heightMm": 1450,
+     "wheelbaseMm": 2800,
+     "trunkL": 452,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "3-5-v6-sh-awd-automatik",
+       "name": "3.5 V6 SH-AWD Automatik",
+       "powertrain": "petrol",
+       "powerPs": 295,
+       "awd": true,
+       "trunkL": 452,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.auto-data.net/en/honda-legend-iv-kb1-3.5-v6-vtec-295hp-sh-awd-12170",
+       "what": "295 PS, width 1845, wheelbase 2800, trunk 452 l, length 4957"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/honda/honda-legend/",
+       "what": "2006-2008: wheelbase 2800, trunk 452 l, width 1847"
+      },
+      {
+       "url": "http://www.produkte24.com/cy/honda-automobile-deutschland-940/honda-legend-broschuere-2006-1281.html",
+       "what": "Honda Deutschland Legend brochure 2006 (length 4957 mm per search summary)"
+      },
+      {
+       "url": "https://www.autozeitung.de/luxus-hochform-honda-legend-35-v6-sh-awd-luxus-hochform-143045.html",
+       "what": "approx. 4.96 m long, 1.85 m wide"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/marken-modelle/honda/legend/kb1/technische-daten/",
+       "what": "Legend KB1 sold in Germany 2006-2010"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 47,
+      "confirmed": 39,
+      "corrected": 0
+     },
+     "notes": "Height 1450 vs 1452 mm in sources; width 1845 vs 1847. No folded trunk value. Third-generation Legend (KA9) ended in Germany 04/2004 (autokosten) - excluded. Fifth generation (2014+) not sold in Europe."
+    }
+   ]
+  },
+  {
+   "id": "nsx",
+   "name": "NSX",
+   "generations": [
+    {
+     "id": "2016-nc1",
+     "name": "NC1",
+     "yearFrom": 2016,
+     "yearTo": 2022,
+     "bodyType": "coupe",
+     "lengthMm": 4487,
+     "widthMm": 1939,
+     "heightMm": 1204,
+     "wheelbaseMm": 2630,
+     "trunkL": 110,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "3-5-v6-sport-hybrid-sh-awd-581-ps",
+       "name": "3.5 V6 Sport Hybrid SH-AWD 581 PS",
+       "powertrain": "hev",
+       "powerPs": 581,
+       "awd": true,
+       "trunkL": 110,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.honda.at/cars/world-of-honda/news-events/2017-06-27-honda-nsx-mit-bestem-neuen-motor-bei-den-internationa/_jcr_content/par1/richtextcolumn/par/richtextdownload/file.res/news_2017-06-27_Honda-NSX_technische-Daten.pdf",
+       "what": "Honda Austria technical data sheet 2017: system output 427 kW (581 PS), 646 Nm"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/honda-nsx-supertest-nordschleife-hockenheim/technische-daten/",
+       "what": "auto motor und sport: 4487x1939x1204 mm, wheelbase 2630 mm, trunk 110 l"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/fahrbericht/honda-nsx-2016-nsx-rr-procar-prototyp-1992-fahrbericht/technische-daten/",
+       "what": "auto motor und sport: 4487x1939x1204 mm, wheelbase 2630 mm"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 58,
+      "corrected": 0
+     },
+     "notes": "Hybrid supercar (twin-turbo V6 + 3 electric motors, SH-AWD). Trunk 110 l behind the engine, no folding seats. Dimensions/trunk not confirmed from the Honda data sheet (not readable via search) - taken from auto motor und sport. Model-year 2019 update; Wikipedia lists length 4490 mm from 2019 (minor). NSX Type S (2022) not offered in Germany as far as found. European sales ended 2022."
+    },
+    {
+     "id": "2002-na2-facelift-2002",
+     "name": "NA2 (Facelift 2002)",
+     "yearFrom": 2002,
+     "yearTo": 2005,
+     "bodyType": "coupe",
+     "lengthMm": 4425,
+     "widthMm": 1810,
+     "heightMm": 1170,
+     "wheelbaseMm": 2530,
+     "trunkL": 154,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "3-0-24v-f-matic-benziner-automatik",
+       "name": "3.0 24V F-matic (Benziner, Automatik)",
+       "powertrain": "petrol",
+       "powerPs": 256,
+       "awd": false,
+       "trunkL": 154,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Listed by ADAC (04/02-08/05) as coupe and NSX-T; power not verified"
+      },
+      {
+       "id": "3-2-24v-benziner-280-ps",
+       "name": "3.2 24V (Benziner) 280 PS",
+       "powertrain": "petrol",
+       "powerPs": 280,
+       "awd": false,
+       "trunkL": 154,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "nsx-t-3-2-24v-targa-benziner-280-ps",
+       "name": "NSX-T 3.2 24V Targa (Benziner) 280 PS",
+       "powertrain": "petrol",
+       "powerPs": 280,
+       "awd": false,
+       "trunkL": 154,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Targa with removable roof panel; ADAC lists same dimensions and trunk"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/nsx/1generation-facelift/981346/",
+       "what": "ADAC Autokatalog NSX 3.2 24V (04/02-08/05): 4425x1810x1170 mm, wheelbase 2530 mm, trunk 154 l, 280 PS"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/nsx/1generation-facelift/983358/",
+       "what": "ADAC Autokatalog NSX-T 3.2 24V (04/02-08/05): trunk 154 l, same engine"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/nsx/1generation-facelift/985406/",
+       "what": "ADAC Autokatalog NSX 3.0 24V F-matic (04/02-08/05) exists in German range"
+      },
+      {
+       "url": "https://www.auto-data.net/en/honda-nsx-i-coupe-facelift-2002-3.0-v6-vtec-256hp-f-matic-42232",
+       "what": "Korrektur powerPs: auto-data.net lists 'Honda NSX I Coupe (facelift 2002) 3.0 V6 VTEC (256 Hp) F-matic', 2002-2005, 2977 cc, 4-speed automatic; mobile.md (https://mobile.md/en/catalog/honda-122/nsx-1106/honda-nsx-i-coupe-facelift-2002-3124/30-v6-256-hp-f-matic-16356) also gives 256 hp. Not a manufac"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 58,
+      "corrected": 1
+     },
+     "notes": "First-generation NSX, 2002 facelift (fixed headlights), sold in Germany until 08/2005. Mid-engine two-seater, trunk behind engine, no folding seats. No manufacturer data found; ADAC used."
+    }
+   ]
+  },
+  {
+   "id": "prelude",
+   "name": "Prelude",
+   "generations": [
+    {
+     "id": "2025-6-generation-bf1",
+     "name": "6. Generation (BF1)",
+     "yearFrom": 2025,
+     "yearTo": null,
+     "bodyType": "coupe",
+     "lengthMm": 4525,
+     "widthMm": 1880,
+     "heightMm": 1349,
+     "wheelbaseMm": 2604,
+     "trunkL": 264,
+     "trunkFoldedL": 760,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-e-hev-vollhybrid-184-ps",
+       "name": "2.0 e:HEV (Vollhybrid) 184 PS",
+       "powertrain": "hev",
+       "powerPs": 184,
+       "awd": false,
+       "trunkL": 264,
+       "trunkFoldedL": 760,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://hondanews.eu/at/de/cars/media/pressreleases/553753/2026-honda-prelude-coupe-ehev-technische-daten",
+       "what": "Honda press release technical data 2026 Prelude e:HEV: 4525x1880x1349 mm (2076 with mirrors), wheelbase 2604 mm, trunk 264 l, 663 l (window line) / 760 l (roof) VDA folded, 184 PS"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/honda-prelude/",
+       "what": "ADAC confirms trunk 264 l"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 60,
+      "confirmed": 58,
+      "corrected": 0
+     },
+     "notes": "Revived Prelude, launched in Germany autumn 2025 (marketed as 2026 Prelude); yearFrom 2025 based on market launch. Previous Prelude (5th gen) ended 2001 - outside range. Hatchback-style 2+2 coupe with tailgate and folding rear seats. trunkFoldedL = roof-high 760 l; window-line value 663 l."
+    }
+   ]
+  },
+  {
+   "id": "s2000",
+   "name": "S2000",
+   "generations": [
+    {
+     "id": "2004-ap1-facelift-2004",
+     "name": "AP1 (Facelift 2004)",
+     "yearFrom": 2004,
+     "yearTo": 2009,
+     "bodyType": "convertible",
+     "lengthMm": 4135,
+     "widthMm": 1750,
+     "heightMm": 1285,
+     "wheelbaseMm": 2400,
+     "trunkL": 143,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-benziner-240-ps",
+       "name": "2.0 (Benziner) 240 PS",
+       "powertrain": "petrol",
+       "powerPs": 240,
+       "awd": false,
+       "trunkL": 143,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/s2000/1generation-facelift/997525/",
+       "what": "ADAC Autokatalog S2000 (01/04-01/08): 4135x1750 (1865 with mirrors) x1285 mm, wheelbase 2400 mm, trunk 143 l, 240 PS"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/news/honda-s2000-im-fahrbericht-drehzahlkoenig-aus-fernost/technische-daten/",
+       "what": "auto motor und sport: wheelbase 2400 mm, trunk 143 l, 2.0 240 PS"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 58,
+      "corrected": 0
+     },
+     "notes": "Two-seat roadster, no folding rear seats (trunkFoldedL not applicable). Pre-facelift (1999-2003) omitted as outside 2005+. Europe kept the 2.0 F20C (no 2.2); 2008 model-year update (incl. Ultimate Edition 2009) without known dimension changes. Production ended mid-2009. No manufacturer press data found; ADAC used. Some databases give wheelbase 2405 mm."
+    }
+   ]
+  },
+  {
+   "id": "stream",
+   "name": "Stream",
+   "generations": [
+    {
+     "id": "2004-rn-facelift-2004",
+     "name": "RN (Facelift 2004)",
+     "yearFrom": 2004,
+     "yearTo": 2005,
+     "bodyType": "van",
+     "lengthMm": 4575,
+     "widthMm": 1695,
+     "heightMm": 1590,
+     "wheelbaseMm": 2725,
+     "trunkL": 435,
+     "trunkFoldedL": 718,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-7i-benziner",
+       "name": "1.7i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 125,
+       "awd": false,
+       "trunkL": 435,
+       "trunkFoldedL": 718,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "7-seat config: 158 l"
+      },
+      {
+       "id": "2-0i-benziner",
+       "name": "2.0i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 156,
+       "awd": false,
+       "trunkL": 435,
+       "trunkFoldedL": 718,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "7-seat config: 158 l"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://autocatalogarchive.com/wp-content/uploads/2016/10/Honda-Stream-2004-GER.pdf",
+       "what": "Honda Stream brochure 2004 (Germany): VDA trunk 158 l (3 rows), 435 l (3rd row folded), 718 l (2nd+3rd row folded)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/stream/1generation-facelift/998173/",
+       "what": "ADAC Autokatalog Stream 2.0i Sport (02/04-12/05): 4575x1695x1590 mm, wheelbase 2725 mm, 156 PS, trunk 158 l, 1520 l roof-high"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/stream/1generation-facelift/998172/",
+       "what": "ADAC Autokatalog Stream 1.7i ES (02/04-12/05): 125 PS, trunk 158 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 60,
+      "confirmed": 58,
+      "corrected": 0
+     },
+     "notes": "7-seater compact van, 1st generation (2001-2005); only the 02/2004 facelift falls into 2005+ (pre-facelift 04/01-02/04 sold before 2005, omitted). trunkL = 5-seat config (3rd row folded) 435 l; 7-seat 158 l. ADAC gives 1520 l roof-high max (different method); brochure VDA max 718 l used. 2nd-gen Stream (2006) was never sold in Europe. Dimensions from ADAC, not verified against the brochure."
+    }
+   ]
+  },
+  {
+   "id": "zr-v",
+   "name": "ZR-V",
+   "generations": [
+    {
+     "id": "2023-rz-1-generation",
+     "name": "RZ (1. Generation)",
+     "yearFrom": 2023,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4568,
+     "widthMm": 1840,
+     "heightMm": 1613,
+     "wheelbaseMm": 2657,
+     "trunkL": 380,
+     "trunkFoldedL": 1312,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-i-mmd-e-hev-184-ps-vollhybrid-advance",
+       "name": "2.0 i-MMD e:HEV 184 PS (Vollhybrid, Advance)",
+       "powertrain": "hev",
+       "powerPs": 184,
+       "awd": false,
+       "trunkL": 370,
+       "trunkFoldedL": 1291,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "866 l window-high; smaller due to audio subwoofer (assumed)"
+      },
+      {
+       "id": "2-0-i-mmd-e-hev-184-ps-vollhybrid-elegance-sport",
+       "name": "2.0 i-MMD e:HEV 184 PS (Vollhybrid, Elegance/Sport)",
+       "powertrain": "hev",
+       "powerPs": 184,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1312,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "876 l window-high"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.honda.de/cars/new/zr-v-hybrid-suv/specifications.html",
+       "what": "official DE spec: 4568 x 1840 (2093 with mirrors) x 1613, wb 2657, trunk 370-380 l, 866-876 l window-high, 1291-1312 l roof-high"
+      },
+      {
+       "url": "https://www.greengear.de/honda-zr-v-ehev-135-kw-hybrid-hybridauto-technische-daten/",
+       "what": "135 kW / 184 PS"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/zr-v/1generation/328984/",
+       "what": "ADAC cross-check"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 70,
+      "confirmed": 51,
+      "corrected": 0
+     },
+     "notes": "Height 1613 incl. antenna (other sources 1620). Front-wheel drive only in Germany."
+    }
+   ]
+  }
+ ]
+}

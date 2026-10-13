@@ -74,8 +74,8 @@ export interface BrandData {
 export interface BrandIndexEntry {
   id: string;
   name: string;
-  /** Rang laut KBA-Neuzulassungen 2025 (Seat und Cupra werden vom KBA gemeinsam gezählt) */
-  kbaRank: number;
+  /** Rang laut KBA-Neuzulassungen 2025 (Seat und Cupra werden vom KBA gemeinsam gezählt); null = nicht belegt */
+  kbaRank: number | null;
   models: { id: string; name: string; bodyType: BodyType; yearFrom: number; yearTo: number | null }[];
 }
 

@@ -1,15 +1,20 @@
 {
  "stats": {
-  "models": 101,
-  "generations": 303,
-  "variants": 1080
+  "models": 142,
+  "generations": 391,
+  "variants": 1338
  },
  "patchStats": {
-  "applied": 205,
+  "applied": 212,
   "skippedExisting": 8,
   "unmatched": 0
  },
  "warnings": [
+  "Honda Honda e / ZC7: Kofferraum 171 l wirkt im Verhältnis zur Fahrzeuggröße unplausibel (17 ‰)",
+  "Honda CR-V / RS (6. Generation) / e:PHEV 2WD (Plug-in-Hybrid): Plug-in-Hybrid hat größeren Kofferraum (617 l) als Verbrenner (587 l)",
+  "Honda S2000 / AP1 (Facelift 2004): Kofferraum 143 l wirkt im Verhältnis zur Fahrzeuggröße unplausibel (15 ‰)",
+  "Honda NSX / NA2 (Facelift 2002): Kofferraum 154 l wirkt im Verhältnis zur Fahrzeuggröße unplausibel (16 ‰)",
+  "Honda NSX / NC1: Kofferraum 110 l wirkt im Verhältnis zur Fahrzeuggröße unplausibel (11 ‰)",
   "Hyundai Tucson / JM: Kofferraum 325 l wirkt im Verhältnis zur Fahrzeuggröße unplausibel (24 ‰)"
  ],
  "unapplied": []

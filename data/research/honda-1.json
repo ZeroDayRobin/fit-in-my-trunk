@@ -1,0 +1,506 @@
+{
+ "id": "honda-1",
+ "brand": "Honda",
+ "data": {
+  "models": [
+   {
+    "brand": "Honda",
+    "model": "Jazz",
+    "generations": [
+     {
+      "name": "GD (Facelift)",
+      "yearFrom": 2005,
+      "yearTo": 2008,
+      "bodyType": "hatchback",
+      "lengthMm": 3845,
+      "widthMm": 1675,
+      "heightMm": 1525,
+      "wheelbaseMm": 2450,
+      "trunkL": 380,
+      "trunkFoldedL": 1323,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 78,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": 1323
+       },
+       {
+        "name": "1.4 (Benziner, 1.3-l-Motor)",
+        "powertrain": "petrol",
+        "powerPs": 83,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": 1323
+       },
+       {
+        "name": "1.4 ES Sport",
+        "powertrain": "petrol",
+        "powerPs": 83,
+        "awd": false,
+        "trunkL": 380,
+        "trunkFoldedL": null,
+        "lengthMm": 3855,
+        "notes": "ADAC lists 3855 mm for ES Sport (11/04-11/08); trunkFoldedL not confirmed for this trim."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/2generation-facelift/212727/",
+        "what": "ADAC: Jazz 1.2 Style (01/08-11/08) width 1675, wheelbase 2450, trunk 380 l / 1323 l dachhoch"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/2generation-facelift/212728",
+        "what": "ADAC: Jazz 1.4 Style (01/08-11/08) length 3845, height 1525, wheelbase 2450"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/2generation-facelift/200564",
+        "what": "ADAC: Jazz 1.4 ES Sport (11/04-11/08) length 3855, height 1525, wheelbase 2450, trunk 380 l"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/Honda_Jazz",
+        "what": "German engines 1.2 57 kW/78 PS, 1.4 (1.3-l) 61 kW/83 PS; build periods"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Generation GD sold in Germany 01/2002-11/2008; entry covers the 11/2004 facelift (model years 2005-2008). Pre-facelift (to 11/2004) length 3830 mm per ADAC 1.4i LS. No manufacturer press kit found; all values ADAC (fallback). Magic Seats."
+     },
+     {
+      "name": "GE",
+      "yearFrom": 2009,
+      "yearTo": 2015,
+      "bodyType": "hatchback",
+      "lengthMm": 3900,
+      "widthMm": 1695,
+      "heightMm": 1525,
+      "wheelbaseMm": 2495,
+      "trunkL": 375,
+      "trunkFoldedL": 1341,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.2 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 375,
+        "trunkFoldedL": 1341,
+        "notes": "ADAC 1.2 (11/08-10/10): 375 l normal, 883 l fensterhoch, 1341 l dachhoch."
+       },
+       {
+        "name": "1.4 i-VTEC (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 428,
+        "trunkFoldedL": null,
+        "yearFrom": 2011,
+        "notes": "ADAC 1.4 Exclusive (04/11-08/15) lists 428 l normal; likely includes underfloor compartment - conflicts with 375 l of the 1.2 entry. Treat with caution."
+       },
+       {
+        "name": "1.3 Hybrid i-VTEC IMA CVT (Hybrid)",
+        "powertrain": "hev",
+        "powerPs": 98,
+        "awd": false,
+        "trunkL": 303,
+        "trunkFoldedL": null,
+        "yearFrom": 2011,
+        "yearTo": 2015,
+        "notes": "Hybrid trunk smaller (battery under floor): 303 l per Wikipedia/autoguru/autoplenum (no manufacturer/ADAC confirmation). Folded value conflicting (1323 vs 1384 l). System output 72 kW/98 PS per ecomento."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/3generation/214787/",
+        "what": "ADAC: Jazz 1.2 (11/08-10/10) width 1695, wheelbase 2495, trunk 375/883/1341 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/3generation-facelift/227713/",
+        "what": "ADAC: Jazz 1.4 Exclusive (04/11-08/15) length 3900, width 1695, height 1525, trunk 428 l"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/Honda_Jazz",
+        "what": "Hybrid trunk reduced from 379 l to 303 l"
+       },
+       {
+        "url": "https://www.autoguru.at/2011/07/honda-jazz-hybrid-1-3-ima-elegance-testbericht/",
+        "what": "Jazz Hybrid 3900x1695x1525, trunk 303-1323 l (test report)"
+       },
+       {
+        "url": "https://ecomento.de/modelle/honda-jazz-hybrid-2011/",
+        "what": "Jazz Hybrid system output 72 kW/98 PS"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Sold 11/2008-08/2015; facelift 04/2011 (with Hybrid) without dimension change found. Trunk figures conflict between sources (375/379/399/428 l) - probably with/without underfloor box. UK brochure: 335 l + 64 l underfloor, 883 l seats down. No manufacturer press kit found."
+     },
+     {
+      "name": "GK",
+      "yearFrom": 2015,
+      "yearTo": 2017,
+      "bodyType": "hatchback",
+      "lengthMm": 3995,
+      "widthMm": 1694,
+      "heightMm": 1525,
+      "wheelbaseMm": 2530,
+      "trunkL": 354,
+      "trunkFoldedL": 1314,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.3 i-VTEC 102 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 102,
+        "awd": false,
+        "trunkL": 354,
+        "trunkFoldedL": 1314
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://hondanews.eu/at/de/cars/media/pressreleases/59600/honda-jazz-20153",
+        "what": "Honda press release Jazz 2015: trunk 354 l to 1314 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/4generation/250155/",
+        "what": "ADAC: 1.3 i-VTEC Elegance (09/15-12/17) length 3995, width 1694 (1980 incl. mirrors), height 1525, wheelbase 2530, trunk 354/884/1314 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/4generation/250151",
+        "what": "ADAC: 1.3 i-VTEC Trend 75 kW/102 PS"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Sold 09/2015-12/2017 before facelift. 884 l folded to window height."
+     },
+     {
+      "name": "GK (Facelift)",
+      "yearFrom": 2018,
+      "yearTo": 2020,
+      "bodyType": "hatchback",
+      "lengthMm": 4028,
+      "widthMm": 1694,
+      "heightMm": 1525,
+      "wheelbaseMm": 2530,
+      "trunkL": 354,
+      "trunkFoldedL": 1314,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.3 i-VTEC 102 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 102,
+        "awd": false,
+        "trunkL": 354,
+        "trunkFoldedL": 1314
+       },
+       {
+        "name": "1.5 i-VTEC Dynamic 130 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 130,
+        "awd": false,
+        "trunkL": 354,
+        "trunkFoldedL": 1314,
+        "lengthMm": 4051
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://hondanews.eu/ch/de/cars/media/pressreleases/125633/2018-honda-jazz-15-i-vtec-press-kit",
+        "what": "Honda press kit 2018 Jazz 1.5 i-VTEC: trunk 354 / 1314 l (kit lists length 3995 - conflicts with ADAC)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/4generation-facelift/286204/",
+        "what": "ADAC: 1.5 i-VTEC Dynamic (01/18-08/18) length 4051, width 1694, height 1525, wheelbase 2530, trunk 354/884/1314 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/4generation-facelift/302946/",
+        "what": "ADAC: 1.3 i-VTEC Comfort (08/19-06/20) length 4028, same height, wheelbase, trunk"
+       },
+       {
+        "url": "https://www.automobil-produktion.de/technik/honda-jazz-15-ivtec-zauberkiste/1093669",
+        "what": "1.5 i-VTEC 130 PS only as Dynamic"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 01/2018 split because length changed per ADAC (1.3: 4028 mm, 1.5 Dynamic: 4051 mm); Honda press kit still states 3995 mm - unresolved. Trunk unchanged."
+     },
+     {
+      "name": "GR (e:HEV)",
+      "yearFrom": 2020,
+      "yearTo": 2023,
+      "bodyType": "hatchback",
+      "lengthMm": 4044,
+      "widthMm": 1694,
+      "heightMm": 1526,
+      "wheelbaseMm": 2517,
+      "trunkL": 304,
+      "trunkFoldedL": 1205,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.5 i-MMD e:HEV 109 PS (Hybrid)",
+        "powertrain": "hev",
+        "powerPs": 109,
+        "awd": false,
+        "trunkL": 304,
+        "trunkFoldedL": 1205
+       },
+       {
+        "name": "Crosstar 1.5 i-MMD e:HEV 109 PS (Hybrid)",
+        "powertrain": "hev",
+        "powerPs": 109,
+        "awd": false,
+        "trunkL": 298,
+        "trunkFoldedL": 1199,
+        "lengthMm": 4090,
+        "heightMm": 1556,
+        "notes": "ADAC Crosstar Executive (07/20-03/23): 4090 x 1694 x 1556 mm, wheelbase 2520, trunk 298/838/1199 l."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/5generation/311866/",
+        "what": "ADAC: Jazz 1.5 i-MMD e:HEV Executive (07/20-03/23) length 4044, width 1694, height 1526, trunk 1205 l dachhoch"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/5generation/311865",
+        "what": "ADAC: Crosstar Executive (07/20-03/23) dimensions and trunk 298/838/1199 l"
+       },
+       {
+        "url": "https://www.de.honda.ch/cars/new/jazz-hybrid/specification.html",
+        "what": "Honda Schweiz: width excl. mirrors 1694, trunk VDA 304 l"
+       },
+       {
+        "url": "https://www.honda.de/cars/new/jazz-hybrid/specification.html",
+        "what": "Honda Deutschland: wheelbase 2517 (Crosstar 2520), height 1526, trunk 304 / 844 / 1205 l"
+       },
+       {
+        "url": "https://mobile.md/en/catalog/honda-122/jazz-1096/honda-jazz-iv-3098/crosstar-15-i-mmd-109-hp-ehev-e-cvt-16293",
+        "what": "109 PS output 2020-2022 (database, low weight)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Hybrid only. Length conflict: ADAC 4044 mm vs. Honda 4089 mm (Honda site likely shows facelift). 109 PS power from secondary database."
+     },
+     {
+      "name": "GR (Facelift)",
+      "yearFrom": 2023,
+      "yearTo": null,
+      "bodyType": "hatchback",
+      "lengthMm": 4089,
+      "widthMm": 1694,
+      "heightMm": 1526,
+      "wheelbaseMm": 2517,
+      "trunkL": 304,
+      "trunkFoldedL": 1205,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.5 i-MMD e:HEV 122 PS (Hybrid)",
+        "powertrain": "hev",
+        "powerPs": 122,
+        "awd": false,
+        "trunkL": 304,
+        "trunkFoldedL": 1205
+       },
+       {
+        "name": "Crosstar 1.5 i-MMD e:HEV 122 PS (Hybrid)",
+        "powertrain": "hev",
+        "powerPs": 122,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "lengthMm": 4105,
+        "heightMm": 1556,
+        "notes": "Honda.de: length 4105, height 1556, wheelbase 2520. Facelift Crosstar trunk not confirmed (pre-facelift ADAC: 298/1199 l)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/434831/2023-honda-jazz-and-jazz-crosstar-facelift-full-press-kit",
+        "what": "Honda press kit 2023 facelift: trunk 304 l / 1205 l"
+       },
+       {
+        "url": "https://www.honda.co.uk/cars/new/jazz-hybrid/specifications.html",
+        "what": "Honda UK: length 4089, width 1694, height 1526, 844 l to window"
+       },
+       {
+        "url": "https://www.honda.de/cars/new/jazz-hybrid/specification.html",
+        "what": "Honda Deutschland: length 4089 (Crosstar 4105), height 1526 (Crosstar 1556), wheelbase 2517 (Crosstar 2520)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/5generation-facelift/327487",
+        "what": "ADAC: Crosstar Advance (03/23-11/25) facelift period"
+       },
+       {
+        "url": "https://www.auto-data.net/en/honda-jazz-iv-facelift-2023-crosstar-1.5-i-mmd-122hp-ehev-e-cvt-48481",
+        "what": "122 PS output facelift (database, low weight)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 03/2023 (Advance, Advance Sport, Crosstar Advance); still on sale (ADAC entry from 11/25). Split because length changed (4044 -> 4089 per ADAC vs Honda)."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "Honda e",
+    "generations": [
+     {
+      "name": "ZC7",
+      "yearFrom": 2020,
+      "yearTo": 2024,
+      "bodyType": "hatchback",
+      "lengthMm": 3894,
+      "widthMm": null,
+      "heightMm": 1512,
+      "wheelbaseMm": 2538,
+      "trunkL": 171,
+      "trunkFoldedL": 861,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "Honda e 136 PS (Elektro)",
+        "powertrain": "bev",
+        "powerPs": 136,
+        "awd": false,
+        "trunkL": 171,
+        "trunkFoldedL": 861
+       },
+       {
+        "name": "Honda e Advance 154 PS (Elektro)",
+        "powertrain": "bev",
+        "powerPs": 154,
+        "awd": false,
+        "trunkL": 171,
+        "trunkFoldedL": 861
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://de.honda.de/inhalt/automobile/preislisten/documents/Honda-e/Honda_e_Preise_Daten_Ausstattung_2022-01",
+        "what": "Honda Deutschland Preisliste 01/2022: length 3894, width incl. camera mirrors 1752, height incl. antenna 1512, wheelbase 2538, trunk 171 l VDA"
+       },
+       {
+        "url": "https://www.mobile.de/auto/honda/e/2020/modell/daten-fakten/",
+        "what": "trunkFoldedL 861 l (database fallback)"
+       },
+       {
+        "url": "https://vision-mobility.de/elektroauto/kleinwagen/honda-e-voll-elektrisch-33850-euro-reichweite-170-km-136-ps-nicht-bestellbar-231879.html",
+        "what": "Honda e 136 PS; 171/861 l"
+       },
+       {
+        "url": "https://vision-mobility.de/elektroauto/kleinwagen/honda-e-advance-voll-elektrisch-39900-euro-reichweite-170-km-154-ps-nicht-bestellbar-231914.html",
+        "what": "Honda e Advance 154 PS"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Rear-wheel-drive BEV; no frunk. Width without mirrors not found (1752 mm is incl. camera mirrors). Production/sales ended 2024 (yearTo from general knowledge of discontinuation, not sourced)."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Honda e widthMm (without mirrors)",
+   "Jazz GE powerPs 1.2 and 1.4",
+   "Jazz GE 1.4 trunkFoldedL; GE trunk values conflicting",
+   "Jazz GE Hybrid trunkFoldedL (1323 vs 1384 l conflicting)",
+   "Jazz GD 1.4 ES Sport trunkFoldedL",
+   "Jazz GR (Facelift) Crosstar trunkL/trunkFoldedL",
+   "loadSpace for all generations",
+   "Manufacturer press kits for Jazz GD and GE"
+  ],
+  "notes": "KBA-Rang nicht gefunden (2 searches; KBA PM 03/2026 table snippet lacked the Honda row; only Jan-Sep 2025: 5,759 Honda registrations per KBA PM 42/2025). Search budget (20) used up. Jazz GD pre-facelift (to 11/2004) omitted as model years before 2005; facelift entry from 2005."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "Jazz",
+    "generation": "GE",
+    "variant": "1.2 (Benziner)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 90,
+    "sourceUrl": "https://www.autoplenum.de/auto/honda/jazz/van-2008/1-2-i-vtec-90-ps",
+    "evidence": "Jazz (2008-2015) 1.2 i-VTEC listed as 90 PS (66 kW, 1198 cm3); Autobild generation-3 page: Motoren 1,2-1,4 l Benziner (90-100 PS)."
+   },
+   {
+    "model": "Jazz",
+    "generation": "GE",
+    "variant": "1.4 i-VTEC (Benziner)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 100,
+    "sourceUrl": "https://www.autoplenum.de/auto/honda/jazz/van-2008/1-4-i-vtec-100-ps",
+    "evidence": "Jazz Van 2008-2015 '1.4 i-VTEC (100 PS)'; Autobild gen-3 page gives range 90-100 PS. Some sources say 73 kW/99 PS - 100 PS is the German-market figure."
+   },
+   {
+    "model": "Jazz",
+    "generation": "GE",
+    "variant": "1.4 i-VTEC (Benziner)",
+    "field": "trunkL",
+    "oldValue": 428,
+    "newValue": 375,
+    "sourceUrl": "https://de.motor1.com/news/161570/honda-jazz-und-accord-preise-der-gelifteten-versionen/",
+    "evidence": "Motor1 on the 2011 facelift prices: Hybrid 300 bis 1.323 Liter, 'das konventionell angetriebene Modell bietet 375 bis 1.371 Liter' (battery under the floor). So conventional facelift petrol models = 375 l, same as the 1.2; ADAC's 428 l is an outlier (probably incl. underfloor box). Note Autobild 2011 gives 399-1384 l (incl. underfloor). Not a manufacturer document, so medium certainty."
+   },
+   {
+    "model": "Honda e",
+    "generation": "ZC7",
+    "variant": null,
+    "field": "widthMm",
+    "oldValue": null,
+    "newValue": 1752,
+    "sourceUrl": "https://autotijd.be/en/dimensions/honda/e-2020-2023",
+    "evidence": "'3,894 mm in length, 1,752 mm in width (without mirrors) and 1,512 mm in height, wheelbase 2,538 mm'. Honda's press release (hondanews.eu/eu/en/cars/media/pressreleases/181246) says the side cameras sit within the vehicle's body width, so 1752 mm is the width both with and without the camera mirrors."
+   },
+   {
+    "model": "Honda e",
+    "generation": "ZC7",
+    "variant": null,
+    "field": "yearTo",
+    "oldValue": 2024,
+    "newValue": 2023,
+    "sourceUrl": "https://newmobility.news/2023/11/30/honda-withdraws-pioneering-e-from-eu-market/",
+    "evidence": "Honda confirmed to electrive.net in Nov 2023 that it had stopped selling the Honda e in Europe (no longer orderable); Honda Japan: production ended January 2024. Only 101 German registrations in 2023. Last German model year is 2023; 2024 is defensible only if you count the end of production rather than European sales."
+   },
+   {
+    "model": "Jazz",
+    "generation": "GR (Facelift)",
+    "variant": "Crosstar 1.5 i-MMD e:HEV 122 PS (Hybrid)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 304,
+    "sourceUrl": "https://www.latribuneauto.com/reportages/nouveautes/14179-la-honda-jazz-crosstar-e-hev-soffre-quelques-retouches-esthetiques",
+    "evidence": "Report on the facelifted Jazz Crosstar e:HEV: boot 'atteint 304 litres (sièges arrière relevés méthode VDA)', 1 205 litres seats folded (VDA). Pre-facelift ADAC/Rheinpfalz gave 298 l. Secondary source (no Honda document found), medium certainty."
+   },
+   {
+    "model": "Jazz",
+    "generation": "GR (Facelift)",
+    "variant": "Crosstar 1.5 i-MMD e:HEV 122 PS (Hybrid)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1205,
+    "sourceUrl": "https://www.latribuneauto.com/reportages/nouveautes/14179-la-honda-jazz-crosstar-e-hev-soffre-quelques-retouches-esthetiques",
+    "evidence": "Same source: '1 205 litres (méthode VDA)' with rear seats folded to the roof. Medium certainty (alternative 1199 l from pre-facelift ADAC)."
+   }
+  ],
+  "missing": [
+   {
+    "model": "Jazz",
+    "detail": "GR (Facelift): ADAC lists a newer trim period 'ab 11/25' (e.g. Jazz 1.5 i-MMD e:HEV Elegance, Crosstar Advance ab 11/25, https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/jazz/5generation-facelift/346961/) with length 4089 mm and wheelbase 2517 mm. No dimension change found, but the Elegance trim may be worth adding as a variant. yearTo null (still on sale) confirmed."
+   },
+   {
+    "model": "Honda (brand)",
+    "detail": "Only Jazz and Honda e are covered. Other German-market Honda models from 2005 to 2026 are missing if this file is meant to cover the whole brand: Civic (incl. Type R, e:HEV), CR-V (incl. e:PHEV), HR-V (incl. e:HEV), ZR-V, e:Ny1, Insight, CR-Z, Accord (incl. Tourer), FR-V, Legend, S2000."
+   }
+  ],
+  "checkedValues": 48,
+  "confirmedValues": 36,
+  "notes": "15 WebSearch calls used. Confirmed: GD facelift 3845x1675x1525, 380/1323 l, ES Sport 3855 (fastcarcheck, autobild); GE 3900x1695x1525, WB 2495, 375 l (motor1, mobile.de, angurten), Hybrid 98 PS (auto-news/ecomento), 2008-2015; GK 1694 width, WB 2530, 354 l, 3995 length (carsales/cars-data); facelift early 2018, 1.5 130 PS Dynamic (autonotizen), UK-spec length 4028; GR 4044x1694x1526, 304/1205 l (motor1, Honda UK); GR facelift 4089/1694/1526, 304/1205/844 l (Honda UK); Honda e 3894/1512/2538, 171/861 l. Still unresolved: (1) GE trunkFoldedL 1341 (ADAC) vs 1371 (motor1 2011) vs 1384 (Autobild 2011) vs 1320 (UK data). Not corrected because no source clearly prevails; 1371 is the figure tied to 375 l in the same Honda-based price report. (2) GE Hybrid trunk 303 vs 300 l (motor1); folded 1323 l per motor1. (3) GK Facelift 1.5 Dynamic length 4051: no source found; press kit 3995 vs ADAC/UK 4028 unresolved. (4) GR wheelbase 2517 only confirmed via ADAC/Honda for the facelift, not for 2020 (some sources give 2531 for other markets). (5) GE 1.4 trunkL correction is based on motor1, not on a manufacturer document."
+ }
+}

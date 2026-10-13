@@ -1,0 +1,852 @@
+{
+ "id": "honda-2",
+ "brand": "Honda",
+ "data": {
+  "models": [
+   {
+    "brand": "Honda",
+    "model": "Civic",
+    "generations": [
+     {
+      "name": "7. Generation (EU/EP, 5-Türer, inkl. Facelift 2004)",
+      "yearFrom": 2001,
+      "yearTo": 2005,
+      "bodyType": "hatchback",
+      "lengthMm": 4285,
+      "widthMm": 1715,
+      "heightMm": 1495,
+      "wheelbaseMm": 2685,
+      "trunkL": 370,
+      "trunkFoldedL": 825,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 370,
+        "trunkFoldedL": 825,
+        "notes": "ADAC 1.4i LS 5-Türer (08/01-07/03): gleiche Maße/Kofferraum. PS nicht erhoben."
+       },
+       {
+        "name": "1.6i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 370,
+        "trunkFoldedL": 825,
+        "notes": "ADAC 1.6i ES 5-Türer (08/01-07/03)."
+       },
+       {
+        "name": "2.0i Sport (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 370,
+        "trunkFoldedL": 825,
+        "yearFrom": 2004,
+        "yearTo": 2005,
+        "notes": "ADAC 2.0i Sport 5-Türer (03/04-09/05)."
+       },
+       {
+        "name": "Type R (3-Türer, Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "3-Türer (EP3) hat andere Karosserie/Maße; Werte nicht recherchiert (Suchbudget)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/7-generation-facelift/998635/",
+        "what": "ADAC Autokatalog (Herstellerangaben) 2.0i Sport 5-Türer 03/04-09/05: Länge 4285, Breite 1715, Höhe 1495, Radstand 2685, Kofferraum 370/825 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/7generation/994144/",
+        "what": "ADAC Autokatalog 1.6i ES 5-Türer 08/01-07/03: identische Maße und Kofferraum 370/825 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/7generation/994148/",
+        "what": "ADAC Autokatalog 1.4i LS 5-Türer: identische Maße/Kofferraum"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Nur noch Modelljahr 2005 im Zeitraum. Facelift (03/04) ohne Änderung von Maßen/Kofferraum laut ADAC. Keine Honda-Primärquelle gefunden; ADAC als Fallback. 3-Türer abweichend, nicht erfasst."
+     },
+     {
+      "name": "8. Generation (FK/FN)",
+      "yearFrom": 2006,
+      "yearTo": 2008,
+      "bodyType": "hatchback",
+      "lengthMm": 4245,
+      "widthMm": 1765,
+      "heightMm": 1460,
+      "wheelbaseMm": 2620,
+      "trunkL": 456,
+      "trunkFoldedL": 1352,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 i-DSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 456,
+        "trunkFoldedL": 1352,
+        "notes": "Kofferraum wie Generation (ADAC-Werte 1.4 Sport Facelift identisch)."
+       },
+       {
+        "name": "1.8 i-VTEC 140 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 140,
+        "awd": false,
+        "trunkL": 456,
+        "trunkFoldedL": 1352,
+        "notes": "ADAC 1.8 Executive 5-Türer (09/05-12/08)."
+       },
+       {
+        "name": "2.2 i-CTDi (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Kofferraum für Diesel nicht separat verifiziert."
+       },
+       {
+        "name": "Type S (3-Türer)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "lengthMm": 4270,
+        "widthMm": 1785,
+        "notes": "3-Türer Type S (auch als 2.2 i-CTDi Type S): Länge/Breite laut angurten.de (Datenbank, niedrige Priorität). Kofferraum nicht verifiziert."
+       },
+       {
+        "name": "Type R (FN2, 3-Türer) 201 PS",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "lengthMm": 4270,
+        "widthMm": 1785,
+        "notes": "Länge/Breite laut angurten.de; PS/Kofferraum nicht verifiziert (powerPs daher null)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/8generation/204320/",
+        "what": "ADAC Autokatalog (Herstellerangaben) 1.8 Executive 5-Türer 09/05-12/08: Länge 4245, Breite 1765, Höhe 1460, Radstand 2620, Kofferraum 456 l / 1352 l dachhoch, 140 PS"
+       },
+       {
+        "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/419/first-announcement-civic-06",
+        "what": "Honda Europe Pressemitteilung Civic 06: Gepäckraum-Gesamtvolumen 485 l (vermutlich inkl. Unterflurfächer, nicht VDA-vergleichbar mit 456 l)"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1110-Civic+(8.+Gen.)+Type-R",
+        "what": "Type R / Type S 3-Türer Länge 4270, Breite 1785 (Datenbank, nur als Hinweis)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Honda nennt 485 l Gesamtvolumen; ADAC (Herstellerangabe) 456 l normal / 1352 l dachhoch – letzterer Wert verwendet. 3-Türer (Type S/Type R) ist länger und breiter."
+     },
+     {
+      "name": "8. Generation Facelift (FK/FN)",
+      "yearFrom": 2009,
+      "yearTo": 2011,
+      "bodyType": "hatchback",
+      "lengthMm": 4255,
+      "widthMm": 1765,
+      "heightMm": 1460,
+      "wheelbaseMm": 2620,
+      "trunkL": 456,
+      "trunkFoldedL": 1352,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 i-VTEC (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 456,
+        "trunkFoldedL": 1352,
+        "notes": "ADAC 1.4 Sport 5-Türer (01/09-12/11)."
+       },
+       {
+        "name": "1.8 i-VTEC (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Nicht separat verifiziert."
+       },
+       {
+        "name": "2.2 i-CTDi (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Nicht separat verifiziert."
+       },
+       {
+        "name": "Type R (FN2, 3-Türer)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Nicht verifiziert."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/8-generation-facelift/217042/",
+        "what": "ADAC Autokatalog (Herstellerangaben) 1.4 Sport 5-Türer 01/09-12/11: Länge 4255, Breite 1765, Höhe 1460, Radstand 2620, Kofferraum 456/1352 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Separater Eintrag nur wegen +10 mm Länge laut ADAC; Kofferraum unverändert."
+     },
+     {
+      "name": "9. Generation (FK, inkl. Facelift 2015)",
+      "yearFrom": 2012,
+      "yearTo": 2017,
+      "bodyType": "hatchback",
+      "lengthMm": 4300,
+      "widthMm": 1770,
+      "heightMm": 1470,
+      "wheelbaseMm": 2595,
+      "trunkL": 477,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.4 i-VTEC (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 477,
+        "trunkFoldedL": null,
+        "notes": "Honda: 401 l plus 76 l Unterflurfach = 477 l; nicht motorspezifisch verifiziert."
+       },
+       {
+        "name": "1.8 i-VTEC 142 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 142,
+        "awd": false,
+        "trunkL": 477,
+        "trunkFoldedL": null,
+        "notes": "Wie 1.4 (Honda-Pressetext ohne Motorunterscheidung)."
+       },
+       {
+        "name": "2.2 i-DTEC (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 477,
+        "trunkFoldedL": null,
+        "yearFrom": 2012,
+        "notes": "ADAC 2.2 i-DTEC Sport (02/12-01/14): 477 l."
+       },
+       {
+        "name": "1.6 i-DTEC 120 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 120,
+        "awd": false,
+        "trunkL": 467,
+        "trunkFoldedL": 1342,
+        "yearFrom": 2013,
+        "notes": "ADAC 1.6 i-DTEC Lifestyle (04/13-01/15): 467 l normal, 1200 l fensterhoch, 1342 l dachhoch."
+       },
+       {
+        "name": "Type R (FK2) 310 PS",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2015,
+        "yearTo": 2017,
+        "notes": "Facelift-Zeitraum (ADAC 9generation-facelift Type R GT 08/15-05/16); Maße/Kofferraum nicht ermittelt."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/34647/2012-honda-civic-5-door",
+        "what": "Honda Europe Presse 2012 Civic 5-Door: 401 l + 76 l Unterflurfach; 20 mm niedriger, 10 mm breiter als Vorgänger"
+       },
+       {
+        "url": "https://hondanews.eu/gb/en/cars/media/pressreleases/35421/2012-honda-civic-16-i-dtec-press-kit",
+        "what": "Honda Presskit 1.6 i-DTEC: 401 l, 120 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/9generation/235788/",
+        "what": "ADAC Autokatalog 1.6 i-DTEC Lifestyle: Länge 4300, Breite 1770, Höhe 1470, Radstand 2595, Kofferraum 467/1200/1342 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/9-generation/230905/",
+        "what": "ADAC Autokatalog 2.2 i-DTEC Sport 02/12-01/14: gleiche Maße, Kofferraum 477 l"
+       },
+       {
+        "url": "https://www.parkers.co.uk/honda/civic/hatchback-2012/16-i-dtec-sport-5d/specs/",
+        "what": "Hinweis: Sport-Ausstattung 4370 mm lang (UK); nicht übernommen"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 2015 (inkl. Type R FK2) ohne gesicherte Änderungsdaten zu Maßen/Kofferraum; daher nicht gesplittet. Parkers nennt für Sport-Ausstattung 4370 mm Länge (Stoßfänger) – nicht verifiziert. trunkFoldedL nur für 1.6 i-DTEC (1342 l) bekannt."
+     },
+     {
+      "name": "10. Generation (FK7/FK8)",
+      "yearFrom": 2017,
+      "yearTo": 2022,
+      "bodyType": "hatchback",
+      "lengthMm": 4518,
+      "widthMm": 1799,
+      "heightMm": 1434,
+      "wheelbaseMm": 2697,
+      "trunkL": 478,
+      "trunkFoldedL": 1267,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.0 VTEC Turbo 129 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 478,
+        "trunkFoldedL": 1267,
+        "notes": "ADAC 1.0 Turbo Comfort/Elegance (03/17-08/18): 478 l normal, 828 l fensterhoch, 1267 l dachhoch. PS nicht aus Quelle bestätigt."
+       },
+       {
+        "name": "1.5 VTEC Turbo 182 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 182,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Sport-Versionen mit Mittelauspuff haben laut Parkers kleineren Kofferraum (Spanne 420-478 l); genauer Wert nicht verifiziert. 182 PS laut motorsport-total (Limousine, gleicher Motor)."
+       },
+       {
+        "name": "1.6 i-DTEC (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Nicht verifiziert."
+       },
+       {
+        "name": "Type R (FK8) 320 PS",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "lengthMm": 4557,
+        "widthMm": 1878,
+        "heightMm": 1434,
+        "notes": "Maße laut Honda Canada Spec Sheet (Radstand 2700). Kofferraum nur nach SAE (728 l) gefunden, kein VDA-Wert."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/10generation/267876/",
+        "what": "ADAC Autokatalog 1.0 Turbo Elegance 03/17-08/18: Länge 4518, Breite 1799, Höhe 1434, Radstand 2697, Kofferraum 478/828/1267 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/10-generation/267875/",
+        "what": "ADAC Autokatalog 1.0 Turbo Comfort: gleiche Werte"
+       },
+       {
+        "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/103228/2017-honda-civic1",
+        "what": "Honda Europe Presse 2017 Civic: Kofferraum 478 l (Sitze oben), Ladeöffnung 1120 mm breit; nennt vorläufig Länge 4497, Radstand 2700 (ADAC-Werte verwendet)"
+       },
+       {
+        "url": "https://hondanews.ca/en-CA/releases/release-519a23469582d80780152ae423006b02-2017-civic-type-r-specifications",
+        "what": "Honda Canada Type R 2017: Länge 4557, Breite 1878 ohne Spiegel, Höhe 1434, Radstand 2700"
+       },
+       {
+        "url": "https://www.parkers.co.uk/honda/civic/hatchback-2017/used-review/practicality/",
+        "what": "Kofferraumspanne 420-478 l je nach Version (Mittelauspuff)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "yearTo 2022 = Ablösung durch 11. Generation im Herbst 2022 (Modelljahr nicht exakt belegt). Honda-Presse nannte vorläufige Werte (4497/2700); ADAC-Herstellerangaben (4518/2697) verwendet."
+     },
+     {
+      "name": "11. Generation (FL)",
+      "yearFrom": 2022,
+      "yearTo": 2025,
+      "bodyType": "hatchback",
+      "lengthMm": 4551,
+      "widthMm": 1802,
+      "heightMm": 1408,
+      "wheelbaseMm": 2734,
+      "trunkL": 410,
+      "trunkFoldedL": 1220,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 i-MMD e:HEV 184 PS (Vollhybrid)",
+        "powertrain": "hev",
+        "powerPs": 184,
+        "awd": false,
+        "trunkL": 410,
+        "trunkFoldedL": 1220,
+        "notes": "ADAC/Honda: 410 l normal, 820 l fensterhoch, 1220 l dachhoch. Honda UK nennt für eine andere Ausstattung 404/1187 l (Zuordnung unklar)."
+       },
+       {
+        "name": "Type R (FL5) 329 PS",
+        "powertrain": "petrol",
+        "powerPs": 329,
+        "awd": false,
+        "trunkL": 410,
+        "trunkFoldedL": 1212,
+        "lengthMm": 4594,
+        "widthMm": 1890,
+        "heightMm": 1401,
+        "yearFrom": 2023,
+        "notes": "ADAC Type R (01/25-12/25): 410 l normal, 904 l fensterhoch, 1212 l dachhoch; Radstand 2734."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/371298/2022-honda-civic-ehev",
+        "what": "Honda Europe Presse 2022 Civic e:HEV: Länge 4551, Breite 1802, Höhe 1408, Radstand 2734, Kofferraum über 400 l"
+       },
+       {
+        "url": "https://www.honda.co.uk/cars/new/civic-hybrid/specifications.html",
+        "what": "Honda UK Spezifikationen: 410 l Sitze oben, 820 l fensterhoch, 1220 l dachhoch (VDA); alternative Werte 404/1187 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/11generation/340166/",
+        "what": "ADAC Autokatalog e:HEV Sport 01/25-09/25: Länge 4551, Kofferraum 410/820/1220 l (ADAC nennt Breite 1890 – abweichend von Honda 1802)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/11generation/340169/",
+        "what": "ADAC Autokatalog Type R 01/25-12/25: 4594x1890x1401, Radstand 2734, 329 PS, Kofferraum 410/904/1212 l"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Breite: Honda-Presse 1802 mm (verwendet), ADAC listet 1890 mm auch für e:HEV (vermutlich Übernahme des Type-R-Werts). Type R erst ab Modelljahr 2023 (Startjahr nicht explizit belegt)."
+     },
+     {
+      "name": "11. Generation Facelift",
+      "yearFrom": 2026,
+      "yearTo": null,
+      "bodyType": "hatchback",
+      "lengthMm": 4560,
+      "widthMm": 1802,
+      "heightMm": 1408,
+      "wheelbaseMm": 2734,
+      "trunkL": 410,
+      "trunkFoldedL": 1220,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 i-MMD e:HEV (Vollhybrid)",
+        "powertrain": "hev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 410,
+        "trunkFoldedL": 1220,
+        "notes": "ADAC e:HEV Elegance/Advance/Sport ab 10/25."
+       },
+       {
+        "name": "Type R (FL5)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Weiterverkauf nach 12/25 nicht verifiziert."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/11generation-facelift/344875/",
+        "what": "ADAC Autokatalog e:HEV Elegance ab 10/25: Länge 4560, Höhe 1408, Radstand 2734, Kofferraum 410/820/1220 l"
+       },
+       {
+        "url": "https://www.honda.co.uk/cars/new/civic-hybrid/specifications.html",
+        "what": "Honda UK: Länge 4560, Breite 1802, Höhe 1408, Radstand 2734, 410/1220 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift ab 10/2025 (Modelljahr 2026), Länge +9 mm, Kofferraum unverändert. Breite nach Honda UK (ADAC: 1890)."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "Civic Limousine",
+    "generations": [
+     {
+      "name": "7. Generation 4-Türer / Civic IMA (ES)",
+      "yearFrom": 2001,
+      "yearTo": 2005,
+      "bodyType": "sedan",
+      "lengthMm": null,
+      "widthMm": null,
+      "heightMm": null,
+      "wheelbaseMm": null,
+      "trunkL": 450,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.6i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 450,
+        "trunkFoldedL": null,
+        "notes": "Honda-Presse: 450 l (VDA)."
+       },
+       {
+        "name": "Civic IMA 1.3 (Hybrid)",
+        "powertrain": "hev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2003,
+        "notes": "Batterie hinter Rücksitz – Kofferraum vermutlich kleiner, nicht ermittelt."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/34350/civic-01-4-door",
+        "what": "Honda Europe Presse Civic 01 4-Door: Kofferraum auf 450 l (VDA) vergrößert"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/Honda_Civic_IMA",
+        "what": "Hinweis auf Civic IMA (Hybrid-Limousine) in Deutschland"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Deutscher Vertrieb der normalen 4-türigen Limousine nicht eindeutig belegt (IMA-Hybrid wurde in DE angeboten). Maße nicht gefunden (Suchbudget erschöpft)."
+     },
+     {
+      "name": "8. Generation Civic Hybrid (FD3)",
+      "yearFrom": 2006,
+      "yearTo": 2010,
+      "bodyType": "sedan",
+      "lengthMm": null,
+      "widthMm": null,
+      "heightMm": null,
+      "wheelbaseMm": 2700,
+      "trunkL": null,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.3 i-DSI i-VTEC IMA (Hybrid)",
+        "powertrain": "hev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "In DE nur als Hybrid angeboten. Kofferraum nur als US-SAE-Wert (10,4 cu ft) gefunden, kein VDA-Wert; deutschsprachige Sekundärquellen nennen ca. 350 l (nicht verifiziert)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-dde951d62e72b9fafaf5be004c34c1ac-2006-honda-civic-press-information",
+        "what": "Honda USA 2006 Civic Hybrid: Radstand 106.3 in (2700 mm), Länge 176.7 in, Breite 68.9 in, Höhe 56.5 in (US-Spezifikation)"
+       },
+       {
+        "url": "https://www.carexpert.com.au/honda/civic/2006-hybrid-1-3l-sedan-fwd-electric-jjmgffwa20060203",
+        "what": "Australische Daten: 4550 x 1750 x 1430, Radstand 2700 (nur Plausibilisierung)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/",
+        "what": "ADAC führt Civic Limousine 04/06-10/10"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Europäische Maße nicht verifiziert: US-Presse 4488 mm (176,7 in), AU 4550 mm, AutoScout24 4545x1750x1430. Nur Radstand (2700) übereinstimmend."
+     },
+     {
+      "name": "10. Generation (FC)",
+      "yearFrom": 2017,
+      "yearTo": 2019,
+      "bodyType": "sedan",
+      "lengthMm": 4648,
+      "widthMm": 1799,
+      "heightMm": 1416,
+      "wheelbaseMm": 2698,
+      "trunkL": 519,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.5 VTEC Turbo 182 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 182,
+        "awd": false,
+        "trunkL": 519,
+        "trunkFoldedL": null,
+        "notes": "ADAC 1.5 Turbo Elegance (08/18-08/19)."
+       },
+       {
+        "name": "1.6 i-DTEC (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Angebot in DE nicht verifiziert."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/10-generation/293276/",
+        "what": "ADAC Autokatalog Civic Limousine 1.5 Turbo Elegance 08/18-08/19: Länge 4648, Kofferraum 519 l"
+       },
+       {
+        "url": "https://www.motorsport-total.com/auto/news/honda-civic-limousine-2017-vorstellung-bilder-motoren-daten-preis-17051802",
+        "what": "Vorstellung 2017: 4,65 x 1,80 x 1,42 m, Radstand 2,70 m, 182 PS, 519 l"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1805-honda-civic-10-gen-limousine",
+        "what": "Breite 1799 ohne Spiegel, Höhe 1416, Radstand 2698 (Datenbank, konsistent mit motorsport-total)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Breite/Höhe/Radstand aus Sekundärdatenbank (angurten.de), passend zu gerundeten Werten von motorsport-total. Ende des DE-Angebots (ca. 2019/2020) nicht exakt belegt. Umgeklappt-Wert nicht gefunden."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "Civic Tourer",
+    "generations": [
+     {
+      "name": "9. Generation Tourer (FK3)",
+      "yearFrom": 2014,
+      "yearTo": 2017,
+      "bodyType": "wagon",
+      "lengthMm": 4535,
+      "widthMm": 1770,
+      "heightMm": 1480,
+      "wheelbaseMm": 2595,
+      "trunkL": 624,
+      "trunkFoldedL": 1668,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.8 i-VTEC 142 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 142,
+        "awd": false,
+        "trunkL": 624,
+        "trunkFoldedL": 1668,
+        "notes": "Einige Quellen nennen 4590 mm Länge für 1.8 (evtl. Facelift/Sport-Stoßfänger) – nicht verifiziert."
+       },
+       {
+        "name": "1.6 i-DTEC 120 PS (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 120,
+        "awd": false,
+        "trunkL": 624,
+        "trunkFoldedL": 1668
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0327-honda-civic-2012-2017-bericht.pdf",
+        "what": "ADAC Gebrauchtwageninfo Civic 2012-2017: Tourer ab 02/2014, ca. 4535 x 1770 x 1480 mm, Kofferraum 624 l"
+       },
+       {
+        "url": "https://www.parkers.co.uk/honda/civic/tourer/review/practicality/",
+        "what": "624 l (bis Fensterlinie, inkl. ca. 117 l Unterflur) / 1668 l dachhoch umgeklappt"
+       },
+       {
+        "url": "https://www.autoplenum.de/auto/honda/civic/kombi-2013/1-8-i-vtec-142-ps",
+        "what": "Radstand 2595 mm, 624-1668 l (Datenbank)"
+       },
+       {
+        "url": "https://www.autokosten.net/honda/civic-tourer/civic-tourer-1-8/civic-ix-tourer-02-14-01-15_1/technische-daten",
+        "what": "1668 l dachhoch umgeklappt"
+       },
+       {
+        "url": "https://www.autoexpress.co.uk/honda/civic/84669/honda-civic-tourer-2014-review",
+        "what": "Gleicher Radstand wie Schrägheck, 235 mm länger"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Offizielle Honda-DE-Preisliste existiert (https://w3.honda.de/globalimages/pdf/de/car/de_car_br_civic-tourer_2014-09_preise_ausstattung_daten.pdf), Werte daraus aber nicht einsehbar. 624 l schließt ca. 117 l Unterflurfach ein. Radstand 2595 = Schrägheck (ADAC) und Auto Express 'gleicher Radstand'. Kein Vorgänger/Nachfolger als Kombi im Zeitraum."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Civic 7. Gen 3-Türer / Type R EP3 Maße und Kofferraum",
+   "Civic 8. Gen 2.2 i-CTDi Kofferraum, Type S/Type R Kofferraum",
+   "Civic 9. Gen trunkFoldedL (Benziner/2.2 i-DTEC), Facelift 2015 Maße, Type R FK2 Maße/Kofferraum",
+   "Civic 10. Gen 1.5 VTEC Turbo Kofferraum (Sport mit Mittelauspuff), 1.6 i-DTEC Kofferraum, Type R FK8 VDA-Kofferraum",
+   "Civic Limousine 7. Gen Maße und trunkFoldedL",
+   "Civic Limousine Hybrid FD3 (2006-2010) europäische Länge/Breite/Höhe, trunkL, trunkFoldedL",
+   "Civic Limousine 10. Gen trunkFoldedL",
+   "loadSpace für alle Generationen",
+   "diverse powerPs-Werte"
+  ],
+  "notes": "Suchbudget (20 WebSearch) vollständig genutzt. Honda-Primärquellen (hondanews.eu, honda.co.uk) wo vorhanden, sonst ADAC Autokatalog (Herstellerangaben). Civic Tourer hat keinen Vorgänger im Zeitraum (Civic Aero Deck endete 2001)."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "Civic Limousine",
+    "generation": "8. Generation Civic Hybrid (FD3)",
+    "variant": null,
+    "field": "lengthMm",
+    "oldValue": null,
+    "newValue": 4545,
+    "sourceUrl": "https://www.autokosten.net/honda/civic-hybrid/civic-1-3-i-dsi-i-vtec-ima/civic-viii-hybrid-04-06-10-10/technische-daten",
+    "evidence": "Datenblatt Civic VIII Hybrid (04/06-10/10): Länge 4545 mm, Breite 1750 mm, Höhe 1430 mm, Radstand 2700 mm; AUTO BILD Fahrbericht 2006 (https://www.autobild.de/artikel/fahrbericht-honda-civic-hybrid-55423.html) nennt ebenfalls L/B/H 4545/1750/1430; AutoScout24 ebenso. Keine Honda-EU-Primärquelle gefunden."
+   },
+   {
+    "model": "Civic Limousine",
+    "generation": "8. Generation Civic Hybrid (FD3)",
+    "variant": null,
+    "field": "widthMm",
+    "oldValue": null,
+    "newValue": 1750,
+    "sourceUrl": "https://www.autokosten.net/honda/civic-hybrid/civic-1-3-i-dsi-i-vtec-ima/civic-viii-hybrid-04-06-10-10/technische-daten",
+    "evidence": "Breite 1750 mm (autokosten.net 04/06-10/10, AUTO BILD 2006, largus.fr übereinstimmend)."
+   },
+   {
+    "model": "Civic Limousine",
+    "generation": "8. Generation Civic Hybrid (FD3)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": null,
+    "newValue": 1430,
+    "sourceUrl": "https://www.autokosten.net/honda/civic-hybrid/civic-1-3-i-dsi-i-vtec-ima/civic-viii-hybrid-04-06-10-10/technische-daten",
+    "evidence": "Höhe 1430 mm (autokosten.net, AUTO BILD, AutoScout24 übereinstimmend)."
+   },
+   {
+    "model": "Civic Limousine",
+    "generation": "8. Generation Civic Hybrid (FD3)",
+    "variant": null,
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 350,
+    "sourceUrl": "https://www.motorline.cc/autowelt/2008/Honda/Honda-Civic-Hybrid-13-i-DSI-im-Test-Innenraum-144851.html",
+    "evidence": "Test 2008: Kofferraum 350 l (Batterie hinter Rücksitzlehne); largus.fr Fiche technique Civic VIII Hybrid 4p ebenfalls 350 l; autokosten.net/AUTO BILD 350 l. Rücksitz nicht umklappbar (Batterie), daher trunkFoldedL bleibt null."
+   },
+   {
+    "model": "Civic Limousine",
+    "generation": "8. Generation Civic Hybrid (FD3)",
+    "variant": "1.3 i-DSI i-VTEC IMA (Hybrid)",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 350,
+    "sourceUrl": "https://www.motorline.cc/autowelt/2008/Honda/Honda-Civic-Hybrid-13-i-DSI-im-Test-Innenraum-144851.html",
+    "evidence": "Wie Generationswert: 350 l (mehrere europäische Quellen)."
+   },
+   {
+    "model": "Civic Limousine",
+    "generation": "10. Generation (FC)",
+    "variant": null,
+    "field": "yearTo",
+    "oldValue": 2019,
+    "newValue": 2020,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/10generation/303435",
+    "evidence": "ADAC Autokatalog führt 'Honda Civic Limousine 1.5 Turbo Executive CVT (12/19 - 12/20)' – Limousine also bis Ende 2020 in DE angeboten."
+   },
+   {
+    "model": "Civic",
+    "generation": "10. Generation (FK7/FK8)",
+    "variant": "1.0 VTEC Turbo 129 PS (Benziner)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 129,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/10generation/267875/",
+    "evidence": "ADAC 1.0 Turbo Comfort (03/17-08/18): 95 kW (129 PS), 988 cm³."
+   },
+   {
+    "model": "Civic",
+    "generation": "10. Generation (FK7/FK8)",
+    "variant": "Type R (FK8) 320 PS",
+    "field": "trunkL",
+    "oldValue": null,
+    "newValue": 420,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/10generation/302941",
+    "evidence": "ADAC Civic Type R (08/19-03/20), Herstellerangabe: Kofferraumvolumen normal 420 l, fensterhoch umgeklappt 786 l; dachhoch-Wert nicht gefunden. ADAC nennt Breite 1877 mm (Honda Canada 1878 – Differenz vernachlässigbar, nicht korrigiert)."
+   },
+   {
+    "model": "Civic",
+    "generation": "9. Generation (FK, inkl. Facelift 2015)",
+    "variant": "1.8 i-VTEC 142 PS (Benziner)",
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1342,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/9generation/230898",
+    "evidence": "ADAC 1.8 Executive (02/12-01/15): 467 l normal, 1200 l fensterhoch, 1342 l dachhoch umgeklappt (identisch Automatik 230902). Hinweis: ADAC-Normalwert 467 l vs. Honda/Autozeitung/largus 477 l – trunkL 477 (Herstellerangabe) beibehalten."
+   },
+   {
+    "model": "Civic",
+    "generation": "9. Generation (FK, inkl. Facelift 2015)",
+    "variant": null,
+    "field": "trunkFoldedL",
+    "oldValue": null,
+    "newValue": 1342,
+    "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/civic/9generation/230898",
+    "evidence": "Wie oben: 1342 l dachhoch für 1.8 i-VTEC und 1.6 i-DTEC laut ADAC (Herstellerangabe) – einheitlicher Wert über Motorisierungen."
+   },
+   {
+    "model": "Civic Limousine",
+    "generation": "7. Generation 4-Türer / Civic IMA (ES)",
+    "variant": null,
+    "field": "wheelbaseMm",
+    "oldValue": null,
+    "newValue": 2620,
+    "sourceUrl": "https://www.auto-data.net/de/honda-civic-vii-sedan-generation-2626",
+    "evidence": "Radstand 2620 mm laut auto-data.net, motoreu.com, CarExpert und en.wikipedia (Civic 7th gen sedan); unserlexikon/autoplenum (IMA) nennen 2625 mm. Niedrige Sicherheit (Sekundärquellen)."
+   },
+   {
+    "model": "Civic Limousine",
+    "generation": "7. Generation 4-Türer / Civic IMA (ES)",
+    "variant": null,
+    "field": "widthMm",
+    "oldValue": null,
+    "newValue": 1715,
+    "sourceUrl": "https://www.auto-data.net/de/honda-civic-vii-sedan-generation-2626",
+    "evidence": "Breite 1715 mm laut auto-data.net, motoreu.com sowie autoplenum/unserlexikon für den Civic IMA (4480 x 1715 x 1435). Niedrige Sicherheit (Sekundärquellen)."
+   },
+   {
+    "model": "Civic Limousine",
+    "generation": "7. Generation 4-Türer / Civic IMA (ES)",
+    "variant": null,
+    "field": "heightMm",
+    "oldValue": null,
+    "newValue": 1440,
+    "sourceUrl": "https://www.auto-data.net/de/honda-civic-vii-sedan-generation-2626",
+    "evidence": "Höhe 1440 mm (auto-data.net, motoreu, CarExpert, en.wikipedia); IMA laut autoplenum 1435 mm. Niedrige Sicherheit."
+   }
+  ],
+  "missing": [
+   {
+    "model": "Civic",
+    "detail": "10. Gen 1.5 VTEC Turbo Sport Plus (Mittelauspuff): Kofferraum 420-1187 l laut autozeitung.de (https://www.autozeitung.de/honda-civic-vtec-turbo-sport-plus-test-185988.html), andere Versionen 478-1267 l. Variante 1.5 VTEC Turbo könnte mit trunkL 420 / trunkFoldedL 1187 (Sport Plus) bzw. 478/1267 (Sport ohne Plus) befüllt werden; Zuordnung Sport vs. Sport Plus nicht eindeutig."
+   },
+   {
+    "model": "Civic Limousine",
+    "detail": "7. Gen Civic IMA (2003-2005): Kofferraum laut autoplenum/unserlexikon 341 l (auto-data.net: 286 l) – widersprüchlich, nicht übernommen. Länge widersprüchlich (4440/4458/4480 mm)."
+   }
+  ],
+  "checkedValues": 61,
+  "confirmedValues": 42,
+  "notes": "19 WebSearch-Aufrufe. Bestätigt: 11. Gen Breite 1802 mm (Honda UK, autotijd, CarExpert) – ADAC 1890 ist Type-R-Wert; FL5 4594x1890x1401 und 1212 l (honda.co.uk). 11. Gen e:HEV 410/1220 l (ADAC Herstellerangabe 10/22-12/24); einige Quellen 404 l. 10. Gen Schrägheck 4518x1799, 478/1267 l, yearTo 2022 (ADAC 1.0 Turbo bis 07/22). Tourer 4535/1480/2595, 624/1668 l (ADAC). 10. Gen Limousine 4648x1799x1416, 2698, 519 l, 182 PS bestätigt. 8. Gen: fastcarcheck nennt 4250x1760x1460 (ADAC 4245x1765) – keine klare Herstellerquelle, nicht korrigiert. 7. Gen Schrägheck: largus.fr 4,29/1,70/1,50 m, Radstand 2,69 m, 370 l (Breite 1700 vs 1715 nicht eindeutig; 825 l umgeklappt nicht bestätigt, km77/andere nennen 1050 l – Messmethode unklar). 9. Gen: ADAC nennt für 1.8 Executive 467 l statt 477 l (Honda 477 l beibehalten). Hybrid FD3 in DE 04/06-10/10 bestätigt."
+ }
+}

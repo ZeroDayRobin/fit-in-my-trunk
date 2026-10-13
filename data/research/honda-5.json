@@ -1,0 +1,391 @@
+{
+ "id": "honda-5",
+ "brand": "Honda",
+ "data": {
+  "models": [
+   {
+    "brand": "Honda",
+    "model": "FR-V",
+    "generations": [
+     {
+      "name": "BE (2004-2006)",
+      "yearFrom": 2005,
+      "yearTo": 2006,
+      "bodyType": "van",
+      "lengthMm": 4285,
+      "widthMm": 1810,
+      "heightMm": 1610,
+      "wheelbaseMm": 2685,
+      "trunkL": 439,
+      "trunkFoldedL": 1600,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.7i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 125,
+        "awd": false,
+        "trunkL": 439,
+        "trunkFoldedL": 1600
+       },
+       {
+        "name": "2.0i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 439,
+        "trunkFoldedL": 1600
+       },
+       {
+        "name": "2.2 i-CTDi (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 140,
+        "awd": false,
+        "trunkL": 439,
+        "trunkFoldedL": 1600
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/fr-v/1generation/999545/",
+        "what": "ADAC Autokatalog FR-V 1.7i (01/05-12/06): trunk 439 l, 1049 l window-high / 1600 l roof-high folded, 125 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/fr-v/1generation/200762/",
+        "what": "ADAC Autokatalog FR-V 2.0i Executive (01/05-12/06): 150 PS"
+       },
+       {
+        "url": "https://www.autokosten.net/honda/fr-v/fr-v-2-2i-ctdi/fr-v-01-05-12-06_2/technische-daten",
+        "what": "2.2 i-CTDi 140 PS, length 4285 mm, wheelbase 2685 mm, trunk 439 l (03/2005-12/2006)"
+       },
+       {
+        "url": "https://autocatalogarchive.com/wp-content/uploads/2016/10/Honda-FR-V-2007-GER.pdf",
+        "what": "Honda brochure 2007 (Germany): 4285x1810x1610 mm, trunk 439/1049/1600 l VDA"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "6-seater (3+3) compact van. Width/height taken from the Honda 2007 brochure (facelift) and matching ADAC data; no evidence the body dimensions changed with the 2007 facelift. trunkFoldedL = roof-high value (window-high 1049 l). ADAC Autotest 2.0i Executive measured 365 l (middle seat fully back) / 965 l. Launch in Germany early 2005 (model year 2005)."
+     },
+     {
+      "name": "BE (Facelift 2007-2009)",
+      "yearFrom": 2007,
+      "yearTo": 2009,
+      "bodyType": "van",
+      "lengthMm": 4285,
+      "widthMm": 1810,
+      "heightMm": 1610,
+      "wheelbaseMm": 2685,
+      "trunkL": 439,
+      "trunkFoldedL": 1600,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.8 i-VTEC (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 140,
+        "awd": false,
+        "trunkL": 439,
+        "trunkFoldedL": 1600
+       },
+       {
+        "name": "2.2 i-CTDi (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": 140,
+        "awd": false,
+        "trunkL": 439,
+        "trunkFoldedL": 1600
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://autocatalogarchive.com/wp-content/uploads/2016/10/Honda-FR-V-2007-GER.pdf",
+        "what": "Honda brochure 2007 (Germany): 4285x1810x1610 mm, trunk 439 l VDA, 1049 l window-high / 1600 l roof-high folded"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/fr-v/1generation-facelift/207728/",
+        "what": "ADAC Autokatalog FR-V 1.8 Executive Automatik (01/07-03/10): 140 PS, wheelbase 2685 mm, trunk 439/1049/1600 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/fr-v/1generation-facelift/207725/",
+        "what": "ADAC Autokatalog FR-V 2.2 i-CTDi Executive (01/07-03/10): 140 PS"
+       },
+       {
+        "url": "https://www.autocar.co.uk/node/35390",
+        "what": "2007 facelift: 1.7 and 2.0 petrol dropped, replaced by single 1.8 i-VTEC (UK/Europe)"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift 01/2007, 1.7 replaced by 1.8 i-VTEC. Dimensions and trunk unchanged per ADAC/brochure. ADAC lists sales until 03/2010; last model year in Germany taken as 2009 (production end 2009) - uncertain. The 2.0 i-VTEC was dropped with the facelift in Europe (Autocar); only 1.8 and 2.2 i-CTDi listed by ADAC for 01/07-03/10."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "Stream",
+    "generations": [
+     {
+      "name": "RN (Facelift 2004)",
+      "yearFrom": 2004,
+      "yearTo": 2005,
+      "bodyType": "van",
+      "lengthMm": 4575,
+      "widthMm": 1695,
+      "heightMm": 1590,
+      "wheelbaseMm": 2725,
+      "trunkL": 435,
+      "trunkFoldedL": 718,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.7i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 125,
+        "awd": false,
+        "trunkL": 435,
+        "trunkFoldedL": 718,
+        "notes": "7-seat config: 158 l"
+       },
+       {
+        "name": "2.0i (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 156,
+        "awd": false,
+        "trunkL": 435,
+        "trunkFoldedL": 718,
+        "notes": "7-seat config: 158 l"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://autocatalogarchive.com/wp-content/uploads/2016/10/Honda-Stream-2004-GER.pdf",
+        "what": "Honda Stream brochure 2004 (Germany): VDA trunk 158 l (3 rows), 435 l (3rd row folded), 718 l (2nd+3rd row folded)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/stream/1generation-facelift/998173/",
+        "what": "ADAC Autokatalog Stream 2.0i Sport (02/04-12/05): 4575x1695x1590 mm, wheelbase 2725 mm, 156 PS, trunk 158 l, 1520 l roof-high"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/stream/1generation-facelift/998172/",
+        "what": "ADAC Autokatalog Stream 1.7i ES (02/04-12/05): 125 PS, trunk 158 l"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "7-seater compact van, 1st generation (2001-2005); only the 02/2004 facelift falls into 2005+ (pre-facelift 04/01-02/04 sold before 2005, omitted). trunkL = 5-seat config (3rd row folded) 435 l; 7-seat 158 l. ADAC gives 1520 l roof-high max (different method); brochure VDA max 718 l used. 2nd-gen Stream (2006) was never sold in Europe. Dimensions from ADAC, not verified against the brochure."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "S2000",
+    "generations": [
+     {
+      "name": "AP1 (Facelift 2004)",
+      "yearFrom": 2004,
+      "yearTo": 2009,
+      "bodyType": "convertible",
+      "lengthMm": 4135,
+      "widthMm": 1750,
+      "heightMm": 1285,
+      "wheelbaseMm": 2400,
+      "trunkL": 143,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 (Benziner) 240 PS",
+        "powertrain": "petrol",
+        "powerPs": 240,
+        "awd": false,
+        "trunkL": 143,
+        "trunkFoldedL": null
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/s2000/1generation-facelift/997525/",
+        "what": "ADAC Autokatalog S2000 (01/04-01/08): 4135x1750 (1865 with mirrors) x1285 mm, wheelbase 2400 mm, trunk 143 l, 240 PS"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/news/honda-s2000-im-fahrbericht-drehzahlkoenig-aus-fernost/technische-daten/",
+        "what": "auto motor und sport: wheelbase 2400 mm, trunk 143 l, 2.0 240 PS"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Two-seat roadster, no folding rear seats (trunkFoldedL not applicable). Pre-facelift (1999-2003) omitted as outside 2005+. Europe kept the 2.0 F20C (no 2.2); 2008 model-year update (incl. Ultimate Edition 2009) without known dimension changes. Production ended mid-2009. No manufacturer press data found; ADAC used. Some databases give wheelbase 2405 mm."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "NSX",
+    "generations": [
+     {
+      "name": "NA2 (Facelift 2002)",
+      "yearFrom": 2002,
+      "yearTo": 2005,
+      "bodyType": "coupe",
+      "lengthMm": 4425,
+      "widthMm": 1810,
+      "heightMm": 1170,
+      "wheelbaseMm": 2530,
+      "trunkL": 154,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "3.2 24V (Benziner) 280 PS",
+        "powertrain": "petrol",
+        "powerPs": 280,
+        "awd": false,
+        "trunkL": 154,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "NSX-T 3.2 24V Targa (Benziner) 280 PS",
+        "powertrain": "petrol",
+        "powerPs": 280,
+        "awd": false,
+        "trunkL": 154,
+        "trunkFoldedL": null,
+        "notes": "Targa with removable roof panel; ADAC lists same dimensions and trunk"
+       },
+       {
+        "name": "3.0 24V F-matic (Benziner, Automatik)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 154,
+        "trunkFoldedL": null,
+        "notes": "Listed by ADAC (04/02-08/05) as coupe and NSX-T; power not verified"
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/nsx/1generation-facelift/981346/",
+        "what": "ADAC Autokatalog NSX 3.2 24V (04/02-08/05): 4425x1810x1170 mm, wheelbase 2530 mm, trunk 154 l, 280 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/nsx/1generation-facelift/983358/",
+        "what": "ADAC Autokatalog NSX-T 3.2 24V (04/02-08/05): trunk 154 l, same engine"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/nsx/1generation-facelift/985406/",
+        "what": "ADAC Autokatalog NSX 3.0 24V F-matic (04/02-08/05) exists in German range"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "First-generation NSX, 2002 facelift (fixed headlights), sold in Germany until 08/2005. Mid-engine two-seater, trunk behind engine, no folding seats. No manufacturer data found; ADAC used."
+     },
+     {
+      "name": "NC1",
+      "yearFrom": 2016,
+      "yearTo": 2022,
+      "bodyType": "coupe",
+      "lengthMm": 4487,
+      "widthMm": 1939,
+      "heightMm": 1204,
+      "wheelbaseMm": 2630,
+      "trunkL": 110,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "3.5 V6 Sport Hybrid SH-AWD 581 PS",
+        "powertrain": "hev",
+        "powerPs": 581,
+        "awd": true,
+        "trunkL": 110,
+        "trunkFoldedL": null
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.honda.at/cars/world-of-honda/news-events/2017-06-27-honda-nsx-mit-bestem-neuen-motor-bei-den-internationa/_jcr_content/par1/richtextcolumn/par/richtextdownload/file.res/news_2017-06-27_Honda-NSX_technische-Daten.pdf",
+        "what": "Honda Austria technical data sheet 2017: system output 427 kW (581 PS), 646 Nm"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/test/honda-nsx-supertest-nordschleife-hockenheim/technische-daten/",
+        "what": "auto motor und sport: 4487x1939x1204 mm, wheelbase 2630 mm, trunk 110 l"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/fahrbericht/honda-nsx-2016-nsx-rr-procar-prototyp-1992-fahrbericht/technische-daten/",
+        "what": "auto motor und sport: 4487x1939x1204 mm, wheelbase 2630 mm"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Hybrid supercar (twin-turbo V6 + 3 electric motors, SH-AWD). Trunk 110 l behind the engine, no folding seats. Dimensions/trunk not confirmed from the Honda data sheet (not readable via search) - taken from auto motor und sport. Model-year 2019 update; Wikipedia lists length 4490 mm from 2019 (minor). NSX Type S (2022) not offered in Germany as far as found. European sales ended 2022."
+     }
+    ]
+   },
+   {
+    "brand": "Honda",
+    "model": "Prelude",
+    "generations": [
+     {
+      "name": "6. Generation (BF1)",
+      "yearFrom": 2025,
+      "yearTo": null,
+      "bodyType": "coupe",
+      "lengthMm": 4525,
+      "widthMm": 1880,
+      "heightMm": 1349,
+      "wheelbaseMm": 2604,
+      "trunkL": 264,
+      "trunkFoldedL": 760,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 e:HEV (Vollhybrid) 184 PS",
+        "powertrain": "hev",
+        "powerPs": 184,
+        "awd": false,
+        "trunkL": 264,
+        "trunkFoldedL": 760
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://hondanews.eu/at/de/cars/media/pressreleases/553753/2026-honda-prelude-coupe-ehev-technische-daten",
+        "what": "Honda press release technical data 2026 Prelude e:HEV: 4525x1880x1349 mm (2076 with mirrors), wheelbase 2604 mm, trunk 264 l, 663 l (window line) / 760 l (roof) VDA folded, 184 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/honda-prelude/",
+        "what": "ADAC confirms trunk 264 l"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Revived Prelude, launched in Germany autumn 2025 (marketed as 2026 Prelude); yearFrom 2025 based on market launch. Previous Prelude (5th gen) ended 2001 - outside range. Hatchback-style 2+2 coupe with tailgate and folding rear seats. trunkFoldedL = roof-high 760 l; window-line value 663 l."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "FR-V loadSpace (no published load-floor dimensions found)",
+   "Stream loadSpace",
+   "Stream trunk measurement for dimensions from manufacturer (dimensions from ADAC only)",
+   "NSX NA2 3.0 F-matic powerPs",
+   "NSX NC1 manufacturer-confirmed dimensions/trunk (auto motor und sport used)",
+   "S2000 manufacturer data (ADAC used)",
+   "S2000/NSX trunkFoldedL (not applicable, two-seaters)"
+  ],
+  "notes": "Honda new brand. FR-V: two entries (pre-facelift 2005-2006, facelift 2007-2009, identical dimensions/trunk). Stream: only 2004 facelift of 1st gen. S2000: AP1 facelift 2004-2009. NSX: NA2 (2002-2005) and NC1 (2016-2022). Prelude: new generation 2025-. No manufacturer sources reachable for most older models; ADAC Autokatalog and Honda brochures (autocatalogarchive) used."
+ },
+ "verification": {
+  "corrections": [
+   {
+    "model": "NSX",
+    "generation": "NA2 (Facelift 2002)",
+    "variant": "3.0 24V F-matic (Benziner, Automatik)",
+    "field": "powerPs",
+    "oldValue": null,
+    "newValue": 256,
+    "sourceUrl": "https://www.auto-data.net/en/honda-nsx-i-coupe-facelift-2002-3.0-v6-vtec-256hp-f-matic-42232",
+    "evidence": "auto-data.net lists 'Honda NSX I Coupe (facelift 2002) 3.0 V6 VTEC (256 Hp) F-matic', 2002-2005, 2977 cc, 4-speed automatic; mobile.md (https://mobile.md/en/catalog/honda-122/nsx-1106/honda-nsx-i-coupe-facelift-2002-3124/30-v6-256-hp-f-matic-16356) also gives 256 hp. Not a manufacturer source, but value was null."
+   }
+  ],
+  "missing": [],
+  "checkedValues": 60,
+  "confirmedValues": 58,
+  "notes": "Confirmed via independent searches: FR-V 4285x1810x1610, WB 2685, trunk 439/1049/1600 (ADAC, both pre-facelift and facelift; AutoScout24 lists 1625 mm height for some diesel, ADAC says 1610 - not changed). Stream facelift 4575x1695x1590, WB 2725 (ADAC; pre-facelift 4570/2720), trunk 158/435/718 confirmed by km77 (435 l with 3rd row folded, 718 l all folded to window line; 1349 l to roof per km77) and AutoScout24 158-718 l. S2000 4135x1750x1285, WB 2400, 143 l (ams, encycarpedia). NSX NA2 4425x1810x1170, 154 l (mobile.md, ultimatespecs, encycarpedia), sold until 08/05. NSX NC1 4487x1939x1204, WB 2630, 110 l (autoplenum, Top Gear, fastcarcheck; one AU source 1215 mm height), market launch 2016, production end 12/2022. Prelude 4525x1880x1349, WB 2604, 264/663/760 l, 184 PS (ADAC, AUTO BILD). Prelude yearFrom 2025 is slightly uncertain: Weser-Kurier says German launch 'zum Jahreswechsel' at 49,500 EUR, AutoScout24 says spring 2026, the only ADAC entry found is dated 'ab 03/26' (S+ Shift trim) - no clear contradiction, so not corrected; consider 2026 if German first registrations only started 2026. Unverified (not contradicted): FR-V/Stream per-variant power values, NSX-T trunk equality. Missing-model check not performed for other Honda lines (Jazz, Civic, CR-V etc.) as this batch is limited to the listed models."
+ }
+}

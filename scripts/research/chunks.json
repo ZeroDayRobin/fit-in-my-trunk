@@ -1,5 +1,5 @@
 {
- "_comment": "Recherche-Pakete (KBA-Top-10-Marken 2025, Seat und Cupra getrennt, Modelljahre 2020–2026). 'priority' = 80/20-Auswahl der meistverkauften Modelle (erledigt). 'full' = vollständige Modellpalette für spätere Erweiterungen; Pakete, für die data/research/<id>.json existiert, sind erledigt.",
+ "_comment": "Recherche-Pakete (KBA-Top-10-Marken 2025, Seat und Cupra getrennt, Modelljahre 2020–2026). 'priority' = 80/20-Auswahl der meistverkauften Modelle (erledigt). 'full' = vollständige Modellpalette für spätere Erweiterungen; Pakete, für die data/research/<id>.json existiert, sind erledigt. Honda und Volvo (honda-*, volvo-*) kamen später als komplette Marken dazu, jeweils alle Generationen der Modelljahre 2005–2026.",
  "priority": [
   {
    "id": "p-vw",
@@ -527,6 +527,107 @@
     "GR86",
     "GR Supra",
     "Mirai"
+   ]
+  },
+  {
+   "id": "honda-1",
+   "brand": "Honda",
+   "models": [
+    "Jazz (alle Generationen 2005–2026)",
+    "Honda e (alle Generationen 2005–2026)"
+   ]
+  },
+  {
+   "id": "honda-2",
+   "brand": "Honda",
+   "models": [
+    "Civic (alle Generationen 2005–2026)",
+    "Civic Limousine (alle Generationen 2005–2026)",
+    "Civic Tourer (alle Generationen 2005–2026)"
+   ]
+  },
+  {
+   "id": "honda-3",
+   "brand": "Honda",
+   "models": [
+    "Accord Limousine (alle Generationen 2005–2026)",
+    "Accord Tourer (alle Generationen 2005–2026)",
+    "Insight (alle Generationen 2005–2026)",
+    "CR-Z (alle Generationen 2005–2026)",
+    "Legend (alle Generationen 2005–2026)"
+   ]
+  },
+  {
+   "id": "honda-4",
+   "brand": "Honda",
+   "models": [
+    "CR-V (alle Generationen 2005–2026)",
+    "HR-V (alle Generationen 2005–2026)",
+    "ZR-V (alle Generationen 2005–2026)",
+    "e:Ny1 (alle Generationen 2005–2026)"
+   ]
+  },
+  {
+   "id": "honda-5",
+   "brand": "Honda",
+   "models": [
+    "FR-V (alle Generationen 2005–2026)",
+    "Stream (alle Generationen 2005–2026)",
+    "S2000 (alle Generationen 2005–2026)",
+    "NSX (alle Generationen 2005–2026)",
+    "Prelude (alle Generationen 2005–2026)"
+   ]
+  },
+  {
+   "id": "volvo-1",
+   "brand": "Volvo",
+   "models": [
+    "V40 (alle Generationen 2005–2026)",
+    "V40 Cross Country (alle Generationen 2005–2026)",
+    "C30 (alle Generationen 2005–2026)",
+    "S40 (alle Generationen 2005–2026)",
+    "V50 (alle Generationen 2005–2026)"
+   ]
+  },
+  {
+   "id": "volvo-2",
+   "brand": "Volvo",
+   "models": [
+    "S60 (alle Generationen 2005–2026)",
+    "V60 (alle Generationen 2005–2026)",
+    "V60 Cross Country (alle Generationen 2005–2026)",
+    "C70 (alle Generationen 2005–2026)"
+   ]
+  },
+  {
+   "id": "volvo-3",
+   "brand": "Volvo",
+   "models": [
+    "S80 (alle Generationen 2005–2026)",
+    "V70 (alle Generationen 2005–2026)",
+    "XC70 (alle Generationen 2005–2026)",
+    "S90 (alle Generationen 2005–2026)",
+    "V90 (alle Generationen 2005–2026)",
+    "V90 Cross Country (alle Generationen 2005–2026)"
+   ]
+  },
+  {
+   "id": "volvo-4",
+   "brand": "Volvo",
+   "models": [
+    "XC40 (since 2024 electric version named EX40) (alle Generationen 2005–2026)",
+    "C40 (since 2024 named EC40) (alle Generationen 2005–2026)",
+    "EX30 (alle Generationen 2005–2026)",
+    "XC60 (alle Generationen 2005–2026)"
+   ]
+  },
+  {
+   "id": "volvo-5",
+   "brand": "Volvo",
+   "models": [
+    "XC90 (alle Generationen 2005–2026)",
+    "EX90 (alle Generationen 2005–2026)",
+    "ES90 (alle Generationen 2005–2026)"
    ]
   }
  ]

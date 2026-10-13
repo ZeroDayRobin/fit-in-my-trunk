@@ -1,0 +1,4394 @@
+{
+ "id": "volvo",
+ "name": "Volvo",
+ "models": [
+  {
+   "id": "c30",
+   "name": "C30",
+   "generations": [
+    {
+     "id": "2010-c30-facelift-2010-2012",
+     "name": "C30 (Facelift 2010-2012)",
+     "yearFrom": 2010,
+     "yearTo": 2012,
+     "bodyType": "hatchback",
+     "lengthMm": 4266,
+     "widthMm": 1782,
+     "heightMm": 1447,
+     "wheelbaseMm": 2640,
+     "trunkL": 278,
+     "trunkFoldedL": 921,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "benziner-1-6-2-0-2-4i",
+       "name": "Benziner 1.6 / 2.0 / 2.4i",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "t5-benziner",
+       "name": "T5 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0d-d3-d4-diesel",
+       "name": "2.0D / D3 / D4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d2-1-6d-drive-diesel",
+       "name": "D2 / 1.6D DRIVe (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 115,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Volvo_C30",
+       "what": "Länge 4266 mm ab Facelift 2010, Radstand 2640 mm"
+      },
+      {
+       "url": "https://autotijd.be/fr/dimensions/volvo/c30/d2-manual-5220",
+       "what": "C30 D2 (2010-2013): Länge 4266 mm; nennt 251/894 l (Norm unklar, nicht übernommen)"
+      },
+      {
+       "url": "https://fastcarcheck.uk/specs/make/volvo/c30/24736",
+       "what": "1.6 D2 DRIVe 115 PS, Länge 4266 mm, Höhe 1447 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c30/1generation-facelift/220872",
+       "what": "ADAC C30 2.0D Momentum Powershift (12/09-05/10) als Facelift-Generation geführt (Marktstart Facelift 12/09)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c30/1generation-facelift/223358/",
+       "what": "ADAC: trunkL = 278 – ADAC Autokatalog C30 DRIVe Momentum (1. Generation Facelift, 05/09-10/10): 'Kofferraumvolumen normal 278 l' (Herstellerangabe); same on 2.0D Momentum facelift page 220872"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c30/1generation-facelift/223358/",
+       "what": "ADAC: trunkFoldedL = 921 – ADAC Autokatalog C30 facelift: 'Kofferraumvolumen dachhoch mit umgeklappter Rücksitzbank 921 l'"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 45,
+      "confirmed": 40,
+      "corrected": 0
+     },
+     "notes": "Facelift wegen geänderter Länge (+14 mm) separat. Breite/Höhe vom Vorfacelift übernommen gemäß Sekundärquellen (Höhe 1447 laut fastcarcheck; autotijd 1443). Kofferraum-VDA-Werte für Facelift nicht gefunden (Sekundärquellen 251/894 l bzw. 233/876 l, Norm unklar). C30 Electric (BEV, 2011) nur als Kleinserie/Leasing, nicht in regulärer Preisliste - nicht aufgenommen."
+    },
+    {
+     "id": "2007-c30-2006-2009",
+     "name": "C30 (2006-2009)",
+     "yearFrom": 2007,
+     "yearTo": 2010,
+     "bodyType": "hatchback",
+     "lengthMm": 4252,
+     "widthMm": 1782,
+     "heightMm": 1447,
+     "wheelbaseMm": 2640,
+     "trunkL": 278,
+     "trunkFoldedL": 921,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-6-1-8-2-0-benziner",
+       "name": "1.6 / 1.8 / 2.0 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 278,
+       "trunkFoldedL": 921,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "1.6 100 PS, 1.8 125 PS, 2.0 145 PS laut Wikipedia/autotijd (Sekundärquellen)"
+      },
+      {
+       "id": "2-4i-benziner",
+       "name": "2.4i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 170,
+       "awd": false,
+       "trunkL": 278,
+       "trunkFoldedL": 921,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "t5-benziner",
+       "name": "T5 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 230,
+       "awd": false,
+       "trunkL": 278,
+       "trunkFoldedL": 921,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "anfangs 220 PS, ab Mai 2007 230 PS (Wikipedia)"
+      },
+      {
+       "id": "1-6d-diesel",
+       "name": "1.6D (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 109,
+       "awd": false,
+       "trunkL": 278,
+       "trunkFoldedL": 921,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0d-diesel",
+       "name": "2.0D (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 136,
+       "awd": false,
+       "trunkL": 278,
+       "trunkFoldedL": 921,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d5-diesel",
+       "name": "D5 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 180,
+       "awd": false,
+       "trunkL": 278,
+       "trunkFoldedL": 921,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c30/1generation/208233/",
+       "what": "ADAC Autokatalog C30 1.6D Momentum (12/06-04/09): Länge 4252, Breite 1782, Höhe 1447, Kofferraum 278 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c30/1generation/217544/",
+       "what": "ADAC Autokatalog C30 1.6 Edition R Design: Kofferraum 278 l normal / 921 l dachhoch umgeklappt"
+      },
+      {
+       "url": "https://www.volvocars.com/uk/media/press-releases/FFF6E0A5459D533F/",
+       "what": "Volvo UK Presse (Launch): Länge 4,25 m; nennt 433/947 l (andere Messnorm, nicht VDA)"
+      },
+      {
+       "url": "https://www.volvocars.com/uk/media/press-releases/775D7B9DFDABB384/",
+       "what": "Volvo UK Presse MY2009: nennt 364/1010 l (andere Messnorm), Ladehöhe 807 mm"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Volvo_C30",
+       "what": "Radstand 2640 mm, Länge 4252 (2007-2009) / 4266 (ab 2010), T5 220->230 PS, Motorenübersicht"
+      },
+      {
+       "url": "https://autotijd.be/en/specs/volvo/c30-2006-2009",
+       "what": "Motorenprogramm 2006-2009 (1.6D 109 PS, 2.0D 136 PS, D5 180 PS)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 45,
+      "confirmed": 40,
+      "corrected": 0
+     },
+     "notes": "Kofferraum: Volvo-Pressemitteilungen widersprechen sich (433/947 l bzw. 364/1010 l, offenbar nicht VDA); verwendet ADAC-VDA-Werte 278/921 l. Marktstart DE Ende 2006 (ADAC ab 12/06), daher Modelljahr 2007."
+    }
+   ]
+  },
+  {
+   "id": "c40",
+   "name": "C40",
+   "generations": [
+    {
+     "id": "2021-1-generation-c40-recharge-seit-2024-ec40",
+     "name": "1. Generation (C40 Recharge; seit 2024 EC40)",
+     "yearFrom": 2021,
+     "yearTo": null,
+     "bodyType": "suv-coupe",
+     "lengthMm": 4440,
+     "widthMm": 1873,
+     "heightMm": 1591,
+     "wheelbaseMm": 2702,
+     "trunkL": 413,
+     "trunkFoldedL": 1205,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "recharge-single-motor-ec40-single-motor-extended-range-elekt",
+       "name": "Recharge Single Motor / EC40 Single Motor (Extended Range) (Elektro)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 413,
+       "trunkFoldedL": 1205,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Assumed same body; trunk per ADAC Twin Motor entries; Volvo EC40 page lists 404 l behind 2nd row (different method)"
+      },
+      {
+       "id": "recharge-twin-motor-ec40-twin-motor-elektro-awd",
+       "name": "Recharge Twin Motor / EC40 Twin Motor (Elektro, AWD)",
+       "powertrain": "bev",
+       "powerPs": 408,
+       "awd": true,
+       "trunkL": 413,
+       "trunkFoldedL": 1205,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Twin Motor 1st Edition 10/21-03/22 and Twin Motor Plus 05/23-02/24: 413/1205 l + 31 l frunk"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c40/1generation/319710/",
+       "what": "ADAC: C40 Recharge Twin Motor 1st Edition dims 4440x1873x1591, trunk 413/1205, frunk 31 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/c40/1generation/326915/",
+       "what": "ADAC: Twin Motor Plus 05/23-02/24 same dims/trunk, wheelbase 2702"
+      },
+      {
+       "url": "https://www.volvocars.com/de/support/car/ec40/article/0ed816eed33d98cac0a8cc377bc12bc7-e6a7973b2bf222b2c0a8b09757c97ec8-8664b2fa77a7e089c0a8296870d1a409/",
+       "what": "Volvo DE support EC40: length 4440, width 1873, height 1591, wheelbase 2702"
+      },
+      {
+       "url": "https://www.volvocars.com/de-ch/cars/ec40-electric/specifications/",
+       "what": "Volvo CH: EC40 404 l behind 2nd row"
+      },
+      {
+       "url": "https://www.autozeitung.de/volvo-c40-2021-preis-motoren-198934.html",
+       "what": "Rename C40 -> EC40 (2024)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 51,
+      "confirmed": 46,
+      "corrected": 0
+     },
+     "notes": "Width 1873 per Volvo/ADAC (XC40 lists body width 1863). Frunk 31 l. Renamed EC40 in 2024."
+    }
+   ]
+  },
+  {
+   "id": "c70",
+   "name": "C70",
+   "generations": [
+    {
+     "id": "2010-c70-ii-coupe-cabriolet-facelift",
+     "name": "C70 II Coupé-Cabriolet (Facelift)",
+     "yearFrom": 2010,
+     "yearTo": 2013,
+     "bodyType": "convertible",
+     "lengthMm": 4615,
+     "widthMm": 1820,
+     "heightMm": 1400,
+     "wheelbaseMm": 2640,
+     "trunkL": 404,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-4i-t5-benziner",
+       "name": "2.4i / T5 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 404,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d3-d4-d5-diesel",
+       "name": "D3/D4/D5 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 404,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/volvo/c70/c70-d4-2006-2013-cabrio-diesel/",
+       "what": "D4 (2010): length 4615"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/volvo/c70/c70-2-4-2005-2013-cabrio-benzin/",
+       "what": "Length 4615, width 1820, height 1400, wheelbase 2640, trunk 200-404 l"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 40,
+      "confirmed": 34,
+      "corrected": 0
+     },
+     "notes": "Facelift split because length 4615 mm vs 4582 mm reported; attribution of 4615 to the facelift is inferred from AutoScout24 listing a 2010 D4 with 4615 - not confirmed by manufacturer. Roof down approx. 200 l."
+    },
+    {
+     "id": "2006-c70-ii-coupe-cabriolet",
+     "name": "C70 II Coupé-Cabriolet",
+     "yearFrom": 2006,
+     "yearTo": 2009,
+     "bodyType": "convertible",
+     "lengthMm": 4582,
+     "widthMm": 1820,
+     "heightMm": 1400,
+     "wheelbaseMm": 2640,
+     "trunkL": 404,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-4i-t5-benziner",
+       "name": "2.4i / T5 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 404,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d5-2-0d-diesel",
+       "name": "D5 / 2.0D (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 404,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.parkers.co.uk/volvo/c70/coupe-cabriolet-2006/t5-se-lux-2d/specs/",
+       "what": "Length 4582, height 1400, wheelbase 2640, boot 404 l"
+      },
+      {
+       "url": "https://www.parkers.co.uk/volvo/c70/review/practicality/",
+       "what": "404 l roof up, about 200 l roof down"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1190-C70",
+       "what": "Width 1820, height 1400, wheelbase 2640"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 40,
+      "confirmed": 34,
+      "corrected": 0
+     },
+     "notes": "Retractable hardtop; trunkL = roof up 404 l; roof down approx. 200 l (Parkers). trunkFoldedL n/a. No manufacturer data retrieved within budget."
+    },
+    {
+     "id": "1998-c70-i-cabrio",
+     "name": "C70 I Cabrio",
+     "yearFrom": 1998,
+     "yearTo": 2005,
+     "bodyType": "convertible",
+     "lengthMm": 4716,
+     "widthMm": 1817,
+     "heightMm": 1429,
+     "wheelbaseMm": 2664,
+     "trunkL": null,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0t-2-4t-t5-benziner",
+       "name": "2.0T/2.4T/T5 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.auto-motor-und-sport.de/gebrauchtwagen/kauftipp-volvo-c70-cabrio-ab-7500-euro-weicher-schwede-mit-stoffkapuze/technische-daten/",
+       "what": "auto motor und sport: 2.4T 4716 x 1817 x 1429 mm, wheelbase 2664"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/volvo/c70/c70-cabrio-7452/",
+       "what": "4716 x 1817 x 1429 mm; trunk 262 l"
+      },
+      {
+       "url": "https://www.ultimatespecs.com/car-specs/Volvo/3186/Volvo-C70-Cabrio-24T.html",
+       "what": "Wheelbase 2664; trunk 223 l"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 40,
+      "confirmed": 34,
+      "corrected": 0
+     },
+     "notes": "Soft-top cabriolet, sold until 2005 (coupe ended 2002, not included). Trunk conflict 262 l (AutoScout24) vs 223 l (ultimatespecs), likely roof-up vs roof-down - unresolved, so null. Wikipedia lists 4724 mm for 2003-2005."
+    }
+   ]
+  },
+  {
+   "id": "es90",
+   "name": "ES90",
+   "generations": [
+    {
+     "id": "2025-es90-1-generation",
+     "name": "ES90 (1. Generation)",
+     "yearFrom": 2025,
+     "yearTo": null,
+     "bodyType": "sedan",
+     "lengthMm": 5000,
+     "widthMm": 1942,
+     "heightMm": 1547,
+     "wheelbaseMm": 3102,
+     "trunkL": 424,
+     "trunkFoldedL": 1427,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "single-motor-extended-range-elektro-heckantrieb",
+       "name": "Single Motor Extended Range (Elektro, Heckantrieb)",
+       "powertrain": "bev",
+       "powerPs": 333,
+       "awd": false,
+       "trunkL": 424,
+       "trunkFoldedL": 1427,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Single Motor Extended Range Ultra (ab 12/25), 245 kW (333 PS)."
+      },
+      {
+       "id": "twin-motor-awd-elektro",
+       "name": "Twin Motor AWD (Elektro)",
+       "powertrain": "bev",
+       "powerPs": 456,
+       "awd": true,
+       "trunkL": 424,
+       "trunkFoldedL": 1427,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Volvo spec page and German configurator: 335 kW (456 PS); some sources list 449 PS. ADAC Twin Motor Ultra AWD: 442/1445 l."
+      },
+      {
+       "id": "twin-motor-performance-awd-elektro",
+       "name": "Twin Motor Performance AWD (Elektro)",
+       "powertrain": "bev",
+       "powerPs": 680,
+       "awd": true,
+       "trunkL": 424,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC: 500 kW (680 PS), 442 l normal; folded value not seen for this variant."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/es90/1generation/339499/",
+       "what": "ADAC Single Motor Extended Range Ultra: 5000/1942/1547 mm, wheelbase 3102; trunk 442 l / 1445 l roof-high; frunk 27 l; 333 PS"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/es90/1generation/339496/",
+       "what": "ADAC Twin Motor Ultra AWD: same dimensions and trunk 442/1445 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/es90/1generation/339497/",
+       "what": "ADAC Twin Motor Performance Ultra AWD: 680 PS, trunk 442 l"
+      },
+      {
+       "url": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+       "what": "Volvo: Single Motor ER 245 kW, Twin Motor 335 kW"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/volvo-es90-test/",
+       "what": "ADAC test (own measurement 400/845/1365 l - not used)"
+      },
+      {
+       "url": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+       "what": "Korrektur trunkL: Volvo official ES90 spec pages (intl, mt, sg, my): luggage 424 l with 2nd row up (904 l seats folded, window-high); max-capacity figures 446 l / 1427 l; frunk 27 l. carwow.de and test reports also 424 l. ADAC's 442 l matches only the Indonesian Volvo page. Task rule: prefer manufac"
+      },
+      {
+       "url": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+       "what": "Korrektur trunkFoldedL: Volvo official ES90 spec page gives maximum load capacity 1427 l with rear seats folded; echo24.de test: '424 Liter ... mit umgelegter Rückbank 1.427 Liter'. ADAC 1445 l differs. Applies to Single Motor ER and Twin Motor variants (and fills Performance null)."
+      },
+      {
+       "url": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+       "what": "Korrektur trunkL: Volvo spec (Single Motor Extended Range): 424 l with 2nd row up."
+      },
+      {
+       "url": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+       "what": "Korrektur trunkFoldedL: Volvo spec: max 1427 l."
+      },
+      {
+       "url": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+       "what": "Korrektur trunkL: Volvo spec: 424 l (same body for all variants)."
+      },
+      {
+       "url": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+       "what": "Korrektur trunkFoldedL: Volvo spec: max 1427 l."
+      },
+      {
+       "url": "https://www.volvocars.com/intl/cars/es90-electric/specifications/",
+       "what": "Korrektur trunkL: Volvo spec: 424 l (same body for all variants)."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 52,
+      "confirmed": 36,
+      "corrected": 7
+     },
+     "notes": "Electric fastback saloon with a large tailgate (liftback) - classified as sedan. Frunk 27 l (ADAC) / 22 l (other sources). Other sources give 424 l rear trunk (carwow, firmenauto) and 1256-1427 l folded; ADAC manufacturer data (442/1445 l) used. Height 1547 mm (ADAC) vs 1546/1550 mm elsewhere. German sales began late 2025 (ADAC entries ab 12/25)."
+    }
+   ]
+  },
+  {
+   "id": "ex30",
+   "name": "EX30",
+   "generations": [
+    {
+     "id": "2024-1-generation",
+     "name": "1. Generation",
+     "yearFrom": 2024,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4233,
+     "widthMm": 1838,
+     "heightMm": 1550,
+     "wheelbaseMm": 2650,
+     "trunkL": 318,
+     "trunkFoldedL": 1000,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "cross-country-twin-motor-performance-p8-elektro-awd",
+       "name": "Cross Country Twin Motor Performance / P8 (Elektro, AWD)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 318,
+       "trunkFoldedL": 1000,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1567,
+       "yearFrom": 2025,
+       "yearTo": null,
+       "notes": "ADAC Cross Country: height 1567, ground clearance 190 mm; trunk not confirmed in search snippet"
+      },
+      {
+       "id": "single-motor-single-motor-extended-range-elektro",
+       "name": "Single Motor / Single Motor Extended Range (Elektro)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 318,
+       "trunkFoldedL": 1000,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC; frunk 7 l"
+      },
+      {
+       "id": "twin-motor-performance-elektro-awd",
+       "name": "Twin Motor Performance (Elektro, AWD)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 318,
+       "trunkFoldedL": 1000,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC Twin Motor Performance Ultra AWD 01/24-03/26"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex30/1generation/328820/",
+       "what": "ADAC: EX30 Single Motor Core 4233x1838x1550, trunk 318/1000"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex30/1generation/328826/",
+       "what": "ADAC: Twin Motor Performance Ultra AWD same dims/trunk"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex30/1generation/338828/",
+       "what": "ADAC: Cross Country Twin Motor Performance height 1567"
+      },
+      {
+       "url": "https://www.meinauto.de/volvo/neuwagen/volvo-ex30/angebote/v-ex30/technische-daten",
+       "what": "wheelbase 2650; trunk 318, folded 904-1000"
+      },
+      {
+       "url": "https://www.volvocars.com/us/cars/ex30-electric/specifications/",
+       "what": "Volvo US: frunk 0.2 cu ft (~7 l)"
+      },
+      {
+       "url": "https://insideevs.de/news/801547/volvo-ex30-cross-country-dauertest-teil2/",
+       "what": "Korrektur trunkL: InsideEVs.de long-term test of EX30 Cross Country (2026): trunk '318 - 1.000 Liter (+7 Liter Frunk)'; AutoScout24 EX30 Cross Country also 318-1000 l. Same values as Volvo's official EX30 spec pages (318 l second row up, 1000 l max seats folded)."
+      },
+      {
+       "url": "https://insideevs.de/news/801547/volvo-ex30-cross-country-dauertest-teil2/",
+       "what": "Korrektur trunkFoldedL: InsideEVs.de EX30 Cross Country long-term test: '318 - 1.000 Liter (+7 Liter Frunk)'."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 51,
+      "confirmed": 46,
+      "corrected": 2
+     },
+     "notes": "Folded value 1000 l = ADAC 'dachhoch'; other sources give 904 l (Volvo, likely to seatback height). Frunk 7 l. Width 1837-1838 depending on source."
+    }
+   ]
+  },
+  {
+   "id": "ex90",
+   "name": "EX90",
+   "generations": [
+    {
+     "id": "2024-ex90-1-generation",
+     "name": "EX90 (1. Generation)",
+     "yearFrom": 2024,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 5037,
+     "widthMm": 1964,
+     "heightMm": 1744,
+     "wheelbaseMm": 2985,
+     "trunkL": 697,
+     "trunkFoldedL": 2135,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "twin-motor-awd-408-ps-elektro-bis-2025",
+       "name": "Twin Motor AWD 408 PS (Elektro, bis 2025)",
+       "powertrain": "bev",
+       "powerPs": 408,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2025,
+       "notes": "Pre-800V version. ADAC normal (7-seat) 324 l; 5-seat/folded values for this version not seen."
+      },
+      {
+       "id": "twin-motor-awd-456-ps-elektro-800-v-ab-09-25",
+       "name": "Twin Motor AWD 456 PS (Elektro, 800 V, ab 09/25)",
+       "powertrain": "bev",
+       "powerPs": 456,
+       "awd": true,
+       "trunkL": 697,
+       "trunkFoldedL": 2135,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2026,
+       "yearTo": null,
+       "notes": "ADAC Core AWD (ab 03/26) and Plus Executive Edition: 324 l (7-seat) / 697 l / 2135 l roof-high; ADAC Plus AWD (ab 09/25, 6/7-Sitzer): 690 l / 2082 l. Power 456 PS per press report and datasheets (some databases list 449 PS)."
+      },
+      {
+       "id": "twin-motor-performance-awd-517-ps-elektro-bis-2025",
+       "name": "Twin Motor Performance AWD 517 PS (Elektro, bis 2025)",
+       "powertrain": "bev",
+       "powerPs": 517,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2025,
+       "notes": "ADAC Twin Performance Ultra (03/24-09/25) page found but trunk values not read."
+      },
+      {
+       "id": "twin-motor-performance-awd-680-ps-elektro-800-v-ab-09-25",
+       "name": "Twin Motor Performance AWD 680 PS (Elektro, 800 V, ab 09/25)",
+       "powertrain": "bev",
+       "powerPs": 680,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2026,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex90/1generation/344727/",
+       "what": "ADAC Twin Motor Plus AWD ab 09/25: 5037/1964 (2113 incl. mirrors)/1744 mm, wheelbase 2985; trunk 324/690/2082 l; frunk 49 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex90/1generation/350393/",
+       "what": "ADAC Twin Motor Core AWD 7-Sitzer ab 03/26: trunk 324/697/2135 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex90/1generation/326615/",
+       "what": "ADAC Twin Performance Ultra AWD 03/24-09/25 (variant existence)"
+      },
+      {
+       "url": "https://web.de/magazine/auto/volvo-ex90-modellpflege-800-volt-technik-bringt-leistung-verkuerzt-ladezeiten-41410666",
+       "what": "Model update: Twin Motor 408 -> 456 PS, Performance 517 -> 680 PS"
+      },
+      {
+       "url": "https://www.volvocars.com/us/cars/ex90-electric/specifications/",
+       "what": "Volvo: frunk 1.6 cu ft, max cargo 85.3 cu ft"
+      },
+      {
+       "url": "https://www.motor1.com/news/735467/volvo-ex90-dimensions-boot-space/",
+       "what": "347 l (7-seat), ~697 l (5-seat), 1915 l all folded; frunk 46 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 52,
+      "confirmed": 36,
+      "corrected": 0
+     },
+     "notes": "Values from ADAC (manufacturer data); no Volvo VDA press data found. 6- or 7-seater; trunkL = 3rd row folded (window-high), 7-seat value 324 l. Frunk: 49 l (ADAC) vs 34 l (Top Gear/vision-mobility) - method dependent. Folded max differs by source: 2082-2135 l (ADAC) vs 1910-1915 l (Volvo/UK press). German deliveries started 2024."
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "name": "S40",
+   "generations": [
+    {
+     "id": "2007-s40-ii-typ-m-facelift-2007-2012",
+     "name": "S40 II (Typ M, Facelift 2007-2012)",
+     "yearFrom": 2007,
+     "yearTo": 2012,
+     "bodyType": "sedan",
+     "lengthMm": 4476,
+     "widthMm": 1770,
+     "heightMm": 1454,
+     "wheelbaseMm": 2640,
+     "trunkL": 404,
+     "trunkFoldedL": 883,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "benziner-1-6-1-8-2-0-2-4i-t5",
+       "name": "Benziner (1.6, 1.8, 2.0, 2.4i, T5)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 404,
+       "trunkFoldedL": 883,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0d-diesel",
+       "name": "2.0D (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 404,
+       "trunkFoldedL": 883,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 2.0D Powershift Geartronic (04/08-05/10): Höhe 1454, 404/883 l"
+      },
+      {
+       "id": "drive-d2-d5-diesel",
+       "name": "DRIVe / D2 / D5 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 404,
+       "trunkFoldedL": 883,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-v40-v50/2generation-facelift/210109/",
+       "what": "ADAC Autokatalog S40 2.0D Momentum (04/07-05/10): Länge 4476, Breite 1770"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-v40-v50/2generation-facelift/213915/",
+       "what": "ADAC Autokatalog S40 2.0D Powershift Geartronic (04/08-05/10): Höhe 1454, Radstand 2640, Kofferraum 404/883 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 45,
+      "confirmed": 40,
+      "corrected": 0
+     },
+     "notes": "Facelift wegen +8 mm Länge separat. Leistungsangaben nicht belegt (Suchbudget). Produktionsende 2012."
+    },
+    {
+     "id": "2004-s40-ii-typ-m-2004-2007",
+     "name": "S40 II (Typ M, 2004-2007)",
+     "yearFrom": 2004,
+     "yearTo": 2007,
+     "bodyType": "sedan",
+     "lengthMm": 4468,
+     "widthMm": 1770,
+     "heightMm": 1452,
+     "wheelbaseMm": 2640,
+     "trunkL": 404,
+     "trunkFoldedL": 883,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-6-1-8-benziner",
+       "name": "1.6 / 1.8 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 404,
+       "trunkFoldedL": 883,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "1.6 100 PS, 1.8 125 PS laut Volvo-Pressemitteilung Schweden 11/2004"
+      },
+      {
+       "id": "2-4-2-4i-benziner",
+       "name": "2.4 / 2.4i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 404,
+       "trunkFoldedL": 883,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "2.4 140 PS, 2.4i 170 PS (Volvo-Pressemitteilung Schweden)"
+      },
+      {
+       "id": "t5-benziner",
+       "name": "T5 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 220,
+       "awd": false,
+       "trunkL": 404,
+       "trunkFoldedL": 883,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "AWD-Version existierte, Kofferraum der AWD-Version nicht verifiziert"
+      },
+      {
+       "id": "1-6d-2-0d-diesel",
+       "name": "1.6D / 2.0D (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 404,
+       "trunkFoldedL": 883,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "1.6D 110 PS, 2.0D 136 PS (Volvo-Pressemitteilung Schweden)"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-s50-v40-v50/2generation/997727/",
+       "what": "ADAC Autokatalog S40 2.4i Momentum (02/04-04/07): Länge 4468, Breite 1770, Höhe 1452, Radstand 2640, Kofferraum 404 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-v40-v50/2generation/201739/",
+       "what": "ADAC Autokatalog S40 1.6 (02/05-04/07): 404 l / 883 l fensterhoch umgeklappt"
+      },
+      {
+       "url": "https://mb.cision.com/Main/23617/4197759/3564402.pdf",
+       "what": "Volvo-Pressemitteilung (Schweden, 11/2004): Motorenprogramm mit Leistungen (Landesspezifisch)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 45,
+      "confirmed": 40,
+      "corrected": 0
+     },
+     "notes": "S40 I (1995-2004) endete vor MJ 2005 und wird nicht aufgenommen. Herstellerquelle für Maße nicht gefunden, daher ADAC. 883 l ist 'fensterhoch' (ADAC). D5-Diesel (ab ca. 2005) nicht belegt."
+    }
+   ]
+  },
+  {
+   "id": "s60",
+   "name": "S60",
+   "generations": [
+    {
+     "id": "2019-s60-iii-z",
+     "name": "S60 III (Z)",
+     "yearFrom": 2019,
+     "yearTo": 2024,
+     "bodyType": "sedan",
+     "lengthMm": 4761,
+     "widthMm": 1850,
+     "heightMm": 1431,
+     "wheelbaseMm": 2872,
+     "trunkL": 442,
+     "trunkFoldedL": null,
+     "loadSpace": {
+      "lengthMm": 1005,
+      "widthMm": null,
+      "widthBetweenArchesMm": 996,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": null,
+      "lengthFoldedMm": 1797,
+      "source": "Fachpresse"
+     },
+     "variants": [
+      {
+       "id": "t4-t5-benziner",
+       "name": "T4/T5 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 442,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2020,
+       "notes": "T5 = 250 PS per motor1 test"
+      },
+      {
+       "id": "b4-b5-mild-hybrid",
+       "name": "B4/B5 (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 442,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "442 l per ultimatespecs (B3); assumed same body - mild hybrid trunk not separately confirmed by manufacturer"
+      },
+      {
+       "id": "t6-t8-twin-engine-recharge-awd-plug-in-hybrid",
+       "name": "T6/T8 Twin Engine / Recharge AWD (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 390,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "t8-polestar-engineered-plug-in-hybrid",
+       "name": "T8 Polestar Engineered (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 390,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Shares T8 PHEV powertrain layout; 390 l assumed from T8 sources"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.media.volvocars.com/global/en-gb/models/s60/2019/specifications",
+       "what": "Volvo Global Newsroom (manufacturer): length 4761, body width 1850, wheelbase 2872"
+      },
+      {
+       "url": "https://de.motor1.com/reviews/372006/volvo-s60-t5-2019-test/",
+       "what": "Height 1431, trunk 442 l (T5)"
+      },
+      {
+       "url": "https://www.ultimatespecs.com/car-specs/Volvo/118970/Volvo-S60-III-B3.html",
+       "what": "Trunk 442 l (B3 mild hybrid)"
+      },
+      {
+       "url": "https://www.carwow.de/volvo/s60/technische-daten",
+       "what": "T8 Twin Engine AWD trunk 390 l"
+      },
+      {
+       "url": "https://www.automobiledimension.com/model/volvo/s60",
+       "what": "Recharge PHEV trunk 390 l, width 1850, height 1437"
+      },
+      {
+       "url": "https://www.volvocars.com/lb/support/car/s60/article/0ed816eed33d98cac0a8cc377bc12bc7-e6a7973b2bf222b2c0a8b09757c97ec8-8664b2fa77a7e089c0a8296870d1a409/",
+       "what": "Volvo support: load length 1005 / 1797 mm, width between wheelhouses 996 mm, length 4778 (later MY)"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1858-volvo-s60-iii",
+       "what": "Korrektur yearTo: angurten.de: S60 III 'Baujahr: 2019 - 2024', production end December 2024; 'Die Limousine S60 hat Volvo mittlerweile komplett von der Webseite entfernt' - unlike the V60, German sales too low. US production in Ridgeville ended June 2024 (motor1 'The Volvo S60 Is Dead'). Not an offi"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 40,
+      "confirmed": 34,
+      "corrected": 1
+     },
+     "notes": "Height conflict: 1431 (motor1) vs 1437 (angurten, automobiledimension). Later model years listed by Volvo support with length 4778 mm (likely MY2023 bumper change) - not split, unverified. End of German sales NOT verified: UK took S60 off sale 2022/2023, US production ended June 2024 - yearTo set null but may need 2024/2025. Sedan: no folded volume published (through-load only)."
+    },
+    {
+     "id": "2011-s60-ii-y20",
+     "name": "S60 II (Y20)",
+     "yearFrom": 2011,
+     "yearTo": 2018,
+     "bodyType": "sedan",
+     "lengthMm": 4628,
+     "widthMm": 1865,
+     "heightMm": 1484,
+     "wheelbaseMm": 2776,
+     "trunkL": 380,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "benziner-t3-t4-t5",
+       "name": "Benziner (T3/T4/T5)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "polestar",
+       "name": "Polestar",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Trunk not verified"
+      },
+      {
+       "id": "t6-awd-d4-d5-awd",
+       "name": "T6 AWD / D4-D5 AWD",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "AWD trunk not separately verified"
+      },
+      {
+       "id": "diesel-d2-d3-d4-d5",
+       "name": "Diesel (D2/D3/D4/D5)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.carsguide.com.au/volvo/s60/car-dimensions/2010",
+       "what": "Length 4628, height 1484, wheelbase 2776"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1184-S60",
+       "what": "Length 4628, width 1865, height 1484, wheelbase 2776"
+      },
+      {
+       "url": "https://www.volvocars.com/en-ca/support/car/s60/14w20/article/84c655c2aaaa015ac0a801e801c02b97_5c828b35aab0984dc0a801e801603734_0328ea86b98d614cc0a801e800b575bb/",
+       "what": "Volvo support (manufacturer): width 1865 without mirrors, height 1484, wheelbase 2776, length 4635 (later model year)"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/marken-modelle/volvo/s60/y20/technische-daten/",
+       "what": "auto motor und sport data: trunk 380 l"
+      },
+      {
+       "url": "https://www.mobile.de/auto/volvo/s60/2010/limousine/modell/daten-fakten/",
+       "what": "Trunk 380 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 40,
+      "confirmed": 34,
+      "corrected": 0
+     },
+     "notes": "Launched in Germany 2010 (MY2011). Facelift 2013: Volvo support lists length 4635 mm vs 4628 pre-facelift; not split because trunk unchanged and difference is small/unverified as facelift-related. Folded volume: one unnamed source said 1034 l, not verified - null."
+    },
+    {
+     "id": "2001-s60-i-p2",
+     "name": "S60 I (P2)",
+     "yearFrom": 2001,
+     "yearTo": 2009,
+     "bodyType": "sedan",
+     "lengthMm": 4576,
+     "widthMm": 1804,
+     "heightMm": 1428,
+     "wheelbaseMm": 2715,
+     "trunkL": 424,
+     "trunkFoldedL": 1034,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "awd-versionen",
+       "name": "AWD-Versionen",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Trunk volume of AWD versions not verified"
+      },
+      {
+       "id": "benziner-2-4-t5-u-a",
+       "name": "Benziner (2.4, T5 u.a.)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 424,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "s60-r",
+       "name": "S60 R",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Trunk volume not verified"
+      },
+      {
+       "id": "diesel-d5-2-4d",
+       "name": "Diesel (D5, 2.4D)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 424,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s60-v60/1generation/992645/",
+       "what": "ADAC Autokatalog S60 2.4 (09/00-06/04): length 4576, width 1804, height 1428, wheelbase 2715, trunk 424 l"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/volvo/volvo-s60/",
+       "what": "Confirms 4576 x 1804 x 1428 mm and 424 l for 1st generation"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s60-v60/1generation/992645/",
+       "what": "ADAC: trunkFoldedL = 1034 – ADAC Autokatalog Volvo S60 2.4 (09/00-06/04): 'Kofferraumvolumen normal 424 l | Kofferraumvolumen fensterhoch mit umgeklappter Rücksitzbank 1034 l' (Herstellerangabe)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 40,
+      "confirmed": 34,
+      "corrected": 0
+     },
+     "notes": "Built 2000-2009; first German model year approx. 2001. Values from ADAC (no manufacturer press data found within search budget). Facelift 2004 not split (no evidence of dimension/trunk change found). Variant power figures not researched (null). Folded volume not found."
+    }
+   ]
+  },
+  {
+   "id": "s80",
+   "name": "S80",
+   "generations": [
+    {
+     "id": "2007-s80-ii-a-inkl-facelift-2010",
+     "name": "S80 II (A, inkl. Facelift 2010)",
+     "yearFrom": 2007,
+     "yearTo": 2016,
+     "bodyType": "sedan",
+     "lengthMm": 4851,
+     "widthMm": 1861,
+     "heightMm": 1493,
+     "wheelbaseMm": 2835,
+     "trunkL": 480,
+     "trunkFoldedL": 1126,
+     "loadSpace": {
+      "lengthMm": 1094,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": null,
+      "lengthFoldedMm": 1927,
+      "source": "Fachpresse"
+     },
+     "variants": [
+      {
+       "id": "awd-allrad-t6-d5-awd-v8",
+       "name": "AWD (Allrad: T6, D5 AWD, V8)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 480,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "not verified separately"
+      },
+      {
+       "id": "t4-t5-3-2-t6-benziner",
+       "name": "T4 / T5 / 3.2 / T6 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 480,
+       "trunkFoldedL": 1126,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d3-d4-d5-drive-diesel",
+       "name": "D3 / D4 / D5 / DRIVe (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 480,
+       "trunkFoldedL": 1126,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC D5 Executive Geartronic 05/11-07/13"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volvocars.com/de/support/car/s80/article/18f77489f78f457dc0a801e800a04016/",
+       "what": "Volvo: length 4854, width 1861 (without mirrors), height 1493, wheelbase 2835, load length 1094 / 1927 folded"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s80/2generation-facelift/228356/",
+       "what": "ADAC: length 4851, width 1861, height 1493, wheelbase 2835, trunk 480 l / 1126 l (D5, 05/11-07/13)"
+      },
+      {
+       "url": "https://cars-data.com/en/volvo/s80/p3/t6-awd-momentum--45821/specs",
+       "what": "Korrektur trunkL: cars-data.com lists 480 l luggage capacity for S80 (2007) T6 AWD, D5 AWD and V8 AWD, identical to FWD versions; length 4851, wheelbase 2835."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 38,
+      "confirmed": 28,
+      "corrected": 1
+     },
+     "notes": "Volvo support page gives length 4854 mm, ADAC 4851 mm (used). Folded value is ADAC (fensterhoch). Facelift 2010 not split (no evidence of changed volume)."
+    },
+    {
+     "id": "2005-s80-i-ts-facelift-2004",
+     "name": "S80 I (TS, Facelift 2004)",
+     "yearFrom": 2005,
+     "yearTo": 2006,
+     "bodyType": "sedan",
+     "lengthMm": 4822,
+     "widthMm": 1832,
+     "heightMm": 1452,
+     "wheelbaseMm": 2791,
+     "trunkL": 460,
+     "trunkFoldedL": 1126,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-4-2-5t-t6-benziner",
+       "name": "2.4 / 2.5T / T6 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": 1126,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-5t-awd-benziner-allrad",
+       "name": "2.5T AWD (Benziner, Allrad)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 460,
+       "trunkFoldedL": 1126,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC entry 2.5T Momentum AWD Automatik"
+      },
+      {
+       "id": "d5-diesel",
+       "name": "D5 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "not verified separately; assumed same body"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s80/1generation-facelift/999212/",
+       "what": "ADAC: dimensions 4822/1832/1452, wheelbase 2791, trunk 460 l / 1126 l (2.5T AWD, 06/04-02/06)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 38,
+      "confirmed": 28,
+      "corrected": 0
+     },
+     "notes": "Generation built 1998-2006; only facelift (06/2004-02/2006) data from ADAC found. Folded value 1126 l is ADAC \"fensterhoch\". No manufacturer press data found."
+    }
+   ]
+  },
+  {
+   "id": "s90",
+   "name": "S90",
+   "generations": [
+    {
+     "id": "2021-s90-ii-p-facelift",
+     "name": "S90 II (P, Facelift)",
+     "yearFrom": 2021,
+     "yearTo": 2024,
+     "bodyType": "sedan",
+     "lengthMm": 4969,
+     "widthMm": 1879,
+     "heightMm": 1440,
+     "wheelbaseMm": 2941,
+     "trunkL": 453,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "b4-b5-mild-hybrid",
+       "name": "B4 / B5 (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 453,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "recharge-t8-awd-plug-in-hybrid",
+       "name": "Recharge T8 AWD (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 431,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC T8 Inscription AWD 09/21-02/22"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/321581/",
+       "what": "ADAC: length 4969, width 1879, height 1440, wheelbase 2941, trunk 431 l (T8)"
+      },
+      {
+       "url": "https://www.volvocars.com/de/cars/s90/",
+       "what": "Volvo DE: S90 Mild-Hybrid no longer available, production ended"
+      },
+      {
+       "url": "https://www.volvocars.com/de-ch/cars/legacy-models/s90/",
+       "what": "Volvo: S90 production ended 2024"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/313705/",
+       "what": "Korrektur trunkL: ADAC S90 B5 Diesel Momentum Pro AWD Automatik (07/20-02/22): Länge 4969 mm, Kofferraumvolumen normal 453 l; identical for Inscription (313706). B5 Diesel is a 48V mild hybrid."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/313705/",
+       "what": "Korrektur trunkL: ADAC: S90 facelift mild-hybrid (B5 Diesel AWD) normal trunk 453 l (T8 PHEV 431 l). Base (non-PHEV) value is 453 l."
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 38,
+      "confirmed": 28,
+      "corrected": 2
+     },
+     "notes": "Discontinued in Europe (production ended 2024; successor ES90 is a different nameplate). Exact last German model year not verified. Mild-hybrid trunk not found."
+    },
+    {
+     "id": "2017-s90-ii-p-vorfacelift",
+     "name": "S90 II (P, Vorfacelift)",
+     "yearFrom": 2017,
+     "yearTo": 2020,
+     "bodyType": "sedan",
+     "lengthMm": 4963,
+     "widthMm": 1879,
+     "heightMm": 1443,
+     "wheelbaseMm": 2941,
+     "trunkL": 500,
+     "trunkFoldedL": 790,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "t4-t5-t6-awd-benziner",
+       "name": "T4 / T5 / T6 AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 500,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d3-d4-d5-awd-diesel",
+       "name": "D3 / D4 / D5 AWD (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 500,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "t8-twin-engine-awd-plug-in-hybrid",
+       "name": "T8 Twin Engine AWD (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 500,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Sources conflict: 500 l (drivingelectric.com, \"same as ICE\"), 461 l (ezoomed), 436 l (meinestadt, S90L); Volvo US sheet gives same volume for T5/T6/T8 (15.4 cu ft SAE). Left null."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autoevolution.com/news/2016-volvo-s90-s-full-specifications-leaked-102532.html",
+       "what": "S90 launch specs: length 4963, height 1443, wheelbase 2941, trunk ~500 l (third party)"
+      },
+      {
+       "url": "https://www.mobile.de/auto/volvo/s90/2016/limousine/modell/daten-fakten/",
+       "what": "S90 2016-2020 trunk 500 l"
+      },
+      {
+       "url": "https://www.media.volvocars.com/us/en-us/models/s90/2019/specifications",
+       "what": "Volvo US: cargo volume identical for T5/T6/T8 (15.4 cu ft)"
+      },
+      {
+       "url": "https://www.drivingelectric.com/volvo/s90",
+       "what": "T8 has same 500 l boot as the petrol/diesel versions (not used as value due to conflict)"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/volvo/s90/s90-t8-twin-engine-awd-geartronic-seit-2017-limousine-benzin-elektro-plugin/",
+       "what": "Korrektur trunkL: AutoScout24 tech data S90 T8 Twin Engine AWD Geartronic (seit 2017, Limousine): Kofferraumvolumen 500 l; vision-mobility.de S90 T8 Twin-Engine also 500 l; an ADAC S90 T8 Twin Engine Polestar Performance R Design (2019) entry was reported in search snippets with 500 l normal. Volvo "
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT5491_Volvo_S90_D4_Inscription_Automatik/Volvo_S90_D4_Inscription_Automatik.pdf",
+       "what": "ADAC: trunkFoldedL = 790 – ADAC Autotest S90 D4 Inscription (ADAC measured): up to 410 l; with the optional folding rear bench 790 l available"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 38,
+      "confirmed": 28,
+      "corrected": 1
+     },
+     "notes": "No German manufacturer or ADAC data for pre-facelift S90 found within search budget; values from third parties. Width 1879 mm from ADAC S90 facelift entry (identical body width)."
+    }
+   ]
+  },
+  {
+   "id": "v40",
+   "name": "V40",
+   "generations": [
+    {
+     "id": "2012-v40-ii-typ-m-2012-2019-inkl-facelift-2016",
+     "name": "V40 II (Typ M, 2012-2019, inkl. Facelift 2016)",
+     "yearFrom": 2012,
+     "yearTo": 2019,
+     "bodyType": "hatchback",
+     "lengthMm": 4369,
+     "widthMm": 1802,
+     "heightMm": 1420,
+     "wheelbaseMm": 2647,
+     "trunkL": 335,
+     "trunkFoldedL": 1032,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "t3-benziner",
+       "name": "T3 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 335,
+       "trunkFoldedL": 1032,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "150 PS laut Volvo-Pressemitteilung März 2012 (Markteinführung DE)"
+      },
+      {
+       "id": "t4-benziner",
+       "name": "T4 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 180,
+       "awd": false,
+       "trunkL": 335,
+       "trunkFoldedL": 1032,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "180 PS laut Volvo-Pressemitteilung Österreich März 2012; spätere Leistungsstufen (Drive-E ab 2014/15) nicht recherchiert"
+      },
+      {
+       "id": "t5-benziner",
+       "name": "T5 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 254,
+       "awd": false,
+       "trunkL": 335,
+       "trunkFoldedL": 1032,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Leistung nicht belegt"
+      },
+      {
+       "id": "d2-diesel",
+       "name": "D2 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 115,
+       "awd": false,
+       "trunkL": 335,
+       "trunkFoldedL": 1032,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "115 PS laut Volvo-Pressemitteilung März 2012"
+      },
+      {
+       "id": "d3-diesel",
+       "name": "D3 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 335,
+       "trunkFoldedL": 1032,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d4-diesel",
+       "name": "D4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 177,
+       "awd": false,
+       "trunkL": 335,
+       "trunkFoldedL": 1032,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "177 PS laut Volvo-Pressemitteilung Österreich März 2012 (Fünfzylinder; später Drive-E)"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volvocars.com/de/support/car/v40/article/d3e3a984c472afb4c0a801e8016918f7/",
+       "what": "Volvo Support (Hersteller): Breite ohne Spiegel 1802 mm, Höhe 1420 mm, Radstand 2647 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-s50-v40-v50/3generation/232092/",
+       "what": "ADAC Autokatalog V40 T3 Momentum (08/12-04/15): Länge 4369 mm, Kofferraum 335/1032 l (Fallback, Hersteller nennt Volumen in gefundener Quelle nicht)"
+      },
+      {
+       "url": "https://mb.cision.com/Main/23603/4175685/3537502.pdf",
+       "what": "Volvo-Pressemitteilung März 2012: T3 150 PS, D2 115 PS, D3 150 PS (DE-Markteinführung)"
+      },
+      {
+       "url": "https://mb.cision.com/Main/23603/4175673/3537491.pdf",
+       "what": "Volvo-Pressemitteilung Österreich März 2012: T4 180 PS, D4 177 PS"
+      },
+      {
+       "url": "https://autotijd.be/en/dimensions/volvo/v40-2012-2016",
+       "what": "Korrektur powerPs: autotijd lists 'Petrol V40 T5 254 hp' for the V40 2012-2016 (2.5-litre five-cylinder; cars-data/ultimatespecs also list T5 at 254 hp). Applies to the five-cylinder T5 until the Drive-E switch (~MY2015/16, later T5 Drive-E 245 PS - not verified)."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 45,
+      "confirmed": 40,
+      "corrected": 1
+     },
+     "notes": "ADAC nennt Breite 1783 mm (andere Messweise); hier Herstellerwert 1802 mm ohne Spiegel. Facelift 2016 nicht separat, da keine geänderten Maße/Volumen gefunden (nicht explizit verifiziert). Einzelne Portale nennen für einige Diesel abweichende Volumen (z. B. 324 l) - nicht bestätigt. Weitere Motoren (T2, D4 Drive-E 190 PS, T5 AWD) nicht recherchiert."
+    }
+   ]
+  },
+  {
+   "id": "v40-cross-country",
+   "name": "V40 Cross Country",
+   "generations": [
+    {
+     "id": "2013-v40-cross-country-2013-2019",
+     "name": "V40 Cross Country (2013-2019)",
+     "yearFrom": 2013,
+     "yearTo": 2019,
+     "bodyType": "hatchback",
+     "lengthMm": 4370,
+     "widthMm": 1802,
+     "heightMm": 1458,
+     "wheelbaseMm": 2646,
+     "trunkL": 335,
+     "trunkFoldedL": 1032,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "t3-benziner",
+       "name": "T3 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 335,
+       "trunkFoldedL": 1032,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "t4-t5-awd-benziner",
+       "name": "T4 / T5 AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 335,
+       "trunkFoldedL": 1032,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC: T4 Ocean Race AWD Geartronic (04/14-04/15) mit identischen Maßen und 335/1032 l"
+      },
+      {
+       "id": "d3-diesel",
+       "name": "D3 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 335,
+       "trunkFoldedL": 1032,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d4-diesel",
+       "name": "D4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 335,
+       "trunkFoldedL": 1032,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volvocars.com/de/support/car/v40-cross-country/article/d3e3a984c472afb4c0a801e8016918f7/",
+       "what": "Volvo Support (Hersteller): Höhe 1458 mm, Breite ohne Spiegel 1802 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-v40-v50/3generation/240809/",
+       "what": "ADAC Autokatalog V40 CC T4 Ocean Race AWD: Länge 4370, Radstand 2646, Höhe 1458, Kofferraum 335/1032 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-v40-v50/3generation/234341/",
+       "what": "ADAC Autokatalog V40 CC D3 Momentum (01/13-04/15): Marktstart 01/2013, gleiche Maße/Volumen"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 45,
+      "confirmed": 40,
+      "corrected": 0
+     },
+     "notes": "Kein Vorgänger dieses Namens im Zeitraum 2005-2026. ADAC Breite 1783 mm (andere Messweise); Herstellerwert 1802 mm ohne Spiegel. Radstand: ADAC 2646 mm, V40-Herstellerseite 2647 mm. Leistungsangaben der Varianten nicht belegt (Suchbudget)."
+    }
+   ]
+  },
+  {
+   "id": "v50",
+   "name": "V50",
+   "generations": [
+    {
+     "id": "2007-v50-typ-m-facelift-2007-2012",
+     "name": "V50 (Typ M, Facelift 2007-2012)",
+     "yearFrom": 2007,
+     "yearTo": 2012,
+     "bodyType": "wagon",
+     "lengthMm": 4522,
+     "widthMm": 1770,
+     "heightMm": 1457,
+     "wheelbaseMm": 2640,
+     "trunkL": 417,
+     "trunkFoldedL": 1307,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "benziner-1-6-1-8-2-0-2-4i-t5",
+       "name": "Benziner (1.6, 1.8, 2.0, 2.4i, T5)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 417,
+       "trunkFoldedL": 1307,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "t5-awd-benziner",
+       "name": "T5 AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 230,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "2.5 T5 230 PS AWD laut auto-data.net; Volumen AWD nicht verifiziert"
+      },
+      {
+       "id": "diesel-1-6d-drive-2-0d-d5",
+       "name": "Diesel (1.6D DRIVe, 2.0D, D5)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 417,
+       "trunkFoldedL": 1307,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "1.6 D DRIVe 109 PS laut auto-data.net"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-s50-v40-v50/2generation-facelift/210165/",
+       "what": "ADAC Autokatalog V50 2.0D Summum (04/07-05/10): Länge 4522, Kofferraum 417/1307 l"
+      },
+      {
+       "url": "https://www.encycarpedia.com/de/volvo/10-v50-d2-kombi",
+       "what": "V50 D2 2010: Länge 4522, Höhe 1457"
+      },
+      {
+       "url": "https://www.auto-data.net/en/volvo-v50-facelift-2007-2.5-t5-230hp-awd-17174",
+       "what": "V50 Facelift 2.5 T5 AWD 230 PS"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/marken-modelle/volvo/v50/generation/technische-daten/",
+       "what": "auto motor und sport: Länge 4522 mm"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 45,
+      "confirmed": 40,
+      "corrected": 0
+     },
+     "notes": "Facelift wegen +8 mm Länge separat. Breite/Radstand wie Vorfacelift (angurten.de). Höhe 1457 aus Sekundärquelle."
+    },
+    {
+     "id": "2004-v50-typ-m-2004-2007",
+     "name": "V50 (Typ M, 2004-2007)",
+     "yearFrom": 2004,
+     "yearTo": 2007,
+     "bodyType": "wagon",
+     "lengthMm": 4514,
+     "widthMm": 1770,
+     "heightMm": 1452,
+     "wheelbaseMm": 2640,
+     "trunkL": 417,
+     "trunkFoldedL": 1307,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-6-1-8-benziner",
+       "name": "1.6 / 1.8 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 417,
+       "trunkFoldedL": 1307,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "1.6 100 PS, 1.8 125 PS laut Volvo-Pressemitteilung Schweden 11/2004"
+      },
+      {
+       "id": "2-4-2-4i-benziner",
+       "name": "2.4 / 2.4i (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 417,
+       "trunkFoldedL": 1307,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "t5-benziner",
+       "name": "T5 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 220,
+       "awd": false,
+       "trunkL": 417,
+       "trunkFoldedL": 1307,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "AWD-Version existierte, Volumen der AWD-Version nicht verifiziert"
+      },
+      {
+       "id": "1-6d-2-0d-diesel",
+       "name": "1.6D / 2.0D (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 417,
+       "trunkFoldedL": 1307,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "1.6D 110 PS, 2.0D 136 PS (Volvo-Pressemitteilung Schweden)"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s40-s50-v40-v50/2generation-facelift/210165/",
+       "what": "ADAC Autokatalog V50 2.0D Summum: Kofferraum 417 l normal / 1307 l dachhoch umgeklappt"
+      },
+      {
+       "url": "https://www.autokosten.net/volvo/v50/v50-2-0d/v50-04-04-04-07_16/technische-daten",
+       "what": "Datenblatt V50 2.0D (04/04-04/07): Länge 4514 mm"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1186-V50",
+       "what": "Breite ohne Spiegel 1770 mm, Radstand 2640 mm"
+      },
+      {
+       "url": "https://mb.cision.com/Main/23617/4197759/3564402.pdf",
+       "what": "Volvo-Pressemitteilung (Schweden, 11/2004): Motorenprogramm S40/V50"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 45,
+      "confirmed": 40,
+      "corrected": 0
+     },
+     "notes": "Maße der Vorfacelift-Version nur aus Sekundärdatenbanken (Länge 4514, Höhe 1452); keine Hersteller-/ADAC-Bestätigung gefunden."
+    }
+   ]
+  },
+  {
+   "id": "v60",
+   "name": "V60",
+   "generations": [
+    {
+     "id": "2018-v60-ii-z",
+     "name": "V60 II (Z)",
+     "yearFrom": 2018,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": 4761,
+     "widthMm": 1850,
+     "heightMm": 1427,
+     "wheelbaseMm": 2872,
+     "trunkL": 529,
+     "trunkFoldedL": 1441,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "benziner-t4-t5",
+       "name": "Benziner (T4/T5)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 529,
+       "trunkFoldedL": 1441,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2020,
+       "notes": ""
+      },
+      {
+       "id": "b3-b4-b5-mild-hybrid",
+       "name": "B3/B4/B5 (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 519,
+       "trunkFoldedL": 1431,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "diesel-d3-d4",
+       "name": "Diesel (D3/D4)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 529,
+       "trunkFoldedL": 1441,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2020,
+       "notes": ""
+      },
+      {
+       "id": "t6-t8-twin-engine-recharge-awd-plug-in-hybrid",
+       "name": "T6/T8 Twin Engine / Recharge AWD (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 519,
+       "trunkFoldedL": 1431,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1432,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Parkers/drivingelectric/Practical Caravan: no boot loss, hybrid parts in tunnel; ADAC lists 475 l for T8 (10/18-04/19) - conflict. Austrian Volvo press release for V60 Recharge gives height 1432."
+      },
+      {
+       "id": "t8-polestar-engineered",
+       "name": "T8 Polestar Engineered",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 529,
+       "trunkFoldedL": 1441,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.media.volvocars.com/se/sv-se/models/new-v60/2019/specifications",
+       "what": "Volvo Sweden Newsroom (manufacturer) 2019: length 4761, height 1427, wheelbase 2872, max 1441 l"
+      },
+      {
+       "url": "https://www.autozeitung.de/volvo-v60-2018-preis-technische-daten-139653.html",
+       "what": "Width 1850, trunk 529-1441 l"
+      },
+      {
+       "url": "https://www.motor-talk.de/news/der-noch-schoenere-bruder-des-volvo-v90-t6277634.html",
+       "what": "Trunk 529 l (manufacturer figure)"
+      },
+      {
+       "url": "https://media.volvocars.com/at/de-at/media/pressreleases/317880/der-volvo-v60-recharge-auf-einen-blick-3",
+       "what": "Volvo Austria: V60 Recharge 4761 length, 1432 height, 2872 wheelbase"
+      },
+      {
+       "url": "https://www.parkers.co.uk/volvo/v60/review/practicality/",
+       "what": "PHEV loses no boot space"
+      },
+      {
+       "url": "https://www.practicalcaravan.com/reviews/volvo-v60-recharge-t6-awd-inscription",
+       "what": "T6 Recharge 529/1441 l"
+      },
+      {
+       "url": "https://www.media.volvocars.com/at/de-at/models/v60/2023/specifications",
+       "what": "Volvo Austria MY2023: length 4778, height 1432"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s60-v60/3generation/322989",
+       "what": "Korrektur trunkL: ADAC V60 B4 Core DKG (12/21-07/24): Kofferraumvolumen normal 519 l, umgeklappt 1431 l; carwow.de also 519-1431 l. Applies to later model years (MY2022+); MY2019 figure was 529/1441 (TCS test, Volvo newsroom). Consider a model-year split rather than replacing, or a yearFrom-limited "
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s60-v60/3generation/322989",
+       "what": "Korrektur trunkFoldedL: ADAC B4 Core DKG (12/21-07/24): 1431 l folded; Volvo UK/DE later MY data also 1431 l max."
+      },
+      {
+       "url": "https://www.volvocars.com/de/cars/v60-hybrid/specifications/",
+       "what": "Korrektur trunkL: Volvo Deutschland (manufacturer, current MY) V60 T6 AWD Plug-in Hybrid: Gepäckraum hinter 2. Sitzreihe 519 l, hinter 1. Sitzreihe max. 1431 l; AutoScout24.at T8 AWD Recharge: 519-1431 l. MY2019 T8: TCS test 529-1441 l (VDA, matches original); ADAC (10/18-04/19) 475 l / 1393 l is an"
+      },
+      {
+       "url": "https://www.volvocars.com/de/cars/v60-hybrid/specifications/",
+       "what": "Korrektur trunkFoldedL: Volvo DE current spec page: max. 1431 l behind first row (T6 AWD Plug-in Hybrid)."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 40,
+      "confirmed": 34,
+      "corrected": 4
+     },
+     "notes": "Volvo newsroom also lists 658 l (to roof) - VDA 529 used. MY2023 data shows length 4778 mm (minor update) - not split. Still on sale in Germany assumed (UK orders stopped Aug 2023); not verified."
+    },
+    {
+     "id": "2011-v60-i-y20",
+     "name": "V60 I (Y20)",
+     "yearFrom": 2011,
+     "yearTo": 2018,
+     "bodyType": "wagon",
+     "lengthMm": 4628,
+     "widthMm": 1865,
+     "heightMm": 1484,
+     "wheelbaseMm": 2776,
+     "trunkL": 430,
+     "trunkFoldedL": 1241,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "benziner-t3-t4-t5-t6",
+       "name": "Benziner (T3/T4/T5/T6)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 430,
+       "trunkFoldedL": 1241,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "polestar",
+       "name": "Polestar",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Trunk not verified"
+      },
+      {
+       "id": "awd-t6-d4-d5-awd",
+       "name": "AWD (T6/D4/D5 AWD)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "AWD trunk not separately verified"
+      },
+      {
+       "id": "diesel-d2-d3-d4-d5",
+       "name": "Diesel (D2/D3/D4/D5)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 430,
+       "trunkFoldedL": 1241,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d6-awd-plug-in-hybrid-d5-twin-engine",
+       "name": "D6 AWD Plug-in Hybrid / D5 Twin Engine",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 304,
+       "trunkFoldedL": 1120,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2013,
+       "yearTo": 2018,
+       "notes": "AutoScout24: 304-1120 l for the hybrid (2012-2018)"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.mobile.de/auto/volvo/v60/2010/kombi/modell/daten-fakten/",
+       "what": "Trunk 430 l, max 1241 l"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/volvo/v60/",
+       "what": "Trunk 430-1241 l; Hybrid (2012-2018) 304-1120 l"
+      },
+      {
+       "url": "https://www.parkers.co.uk/volvo/v60/coupe-2010/d6-awd-plug-in-hybrid-pure-limited-5d-auto/specs/",
+       "what": "Length 4628 (D6 PHEV)"
+      },
+      {
+       "url": "https://www.automobile-detail.com/volvo-v60-d6-awd-plug-in-hybrid-car-technical-specifications/",
+       "what": "Length 4628, height 1484"
+      },
+      {
+       "url": "https://www.topgear.com/car-reviews/volvo/v60/d6-awd-plug-hybrid-pure-limited-5dr-auto/spec",
+       "what": "Wheelbase 2776"
+      },
+      {
+       "url": "https://www.volvocars.com/en-ca/support/car/s60/14w20/article/84c655c2aaaa015ac0a801e801c02b97_5c828b35aab0984dc0a801e801603734_0328ea86b98d614cc0a801e800b575bb/",
+       "what": "Platform sibling S60: width 1865 without mirrors (V60 width taken from shared body, CarsGuide/TrueDelta also 1865-1866)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 40,
+      "confirmed": 34,
+      "corrected": 0
+     },
+     "notes": "No manufacturer press kit with volumes found within budget; trunk figures from mobile.de/AutoScout24 (lower priority sources). Volvo later lists length 4635 (facelift 2013) - not split. TopGear lists 557 l for D6 which conflicts (likely different measurement)."
+    }
+   ]
+  },
+  {
+   "id": "v60-cross-country",
+   "name": "V60 Cross Country",
+   "generations": [
+    {
+     "id": "2019-v60-cross-country-ii",
+     "name": "V60 Cross Country II",
+     "yearFrom": 2019,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": 4784,
+     "widthMm": 1850,
+     "heightMm": 1499,
+     "wheelbaseMm": 2874,
+     "trunkL": 529,
+     "trunkFoldedL": 1441,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "t5-awd-benziner",
+       "name": "T5 AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 250,
+       "awd": true,
+       "trunkL": 529,
+       "trunkFoldedL": 1441,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2020,
+       "notes": ""
+      },
+      {
+       "id": "b4-b5-awd-mild-hybrid",
+       "name": "B4/B5 AWD (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 529,
+       "trunkFoldedL": 1441,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d4-awd-diesel",
+       "name": "D4 AWD (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 529,
+       "trunkFoldedL": 1441,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2020,
+       "notes": "power not verified"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.media.volvocars.com/at/de-at/models/v60-cross-country/2019/specifications",
+       "what": "Volvo Austria Newsroom (manufacturer) 2019 D4: length 4784, body width 1850, height 1499, wheelbase 2874, ground clearance 210"
+      },
+      {
+       "url": "https://www.meinauto.de/testberichte/volvo-v60-cross-country-2019-im-test-schwedischer-mittelklasse-kombi-fuers-grobe",
+       "what": "Trunk 529-1441 l"
+      },
+      {
+       "url": "https://www.autobild.de/artikel/volvo-v60-cross-country-test-preis-bilder-14100965.html",
+       "what": "Ground clearance 210 mm; T5 250 PS"
+      },
+      {
+       "url": "https://www.media.volvocars.com/uk/en-gb/models/v60-cross-country/2023/specifications",
+       "what": "Volvo UK MY2023: length 4787, height 1499, max 1431 l (to front seatbacks), 648 l seats up (to roof)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 40,
+      "confirmed": 34,
+      "corrected": 0
+     },
+     "notes": "All Cross Country versions AWD. MY2023 Volvo data lists length 4787 mm - not split."
+    },
+    {
+     "id": "2015-v60-cross-country-i",
+     "name": "V60 Cross Country I",
+     "yearFrom": 2015,
+     "yearTo": 2018,
+     "bodyType": "wagon",
+     "lengthMm": 4637,
+     "widthMm": 1866,
+     "heightMm": 1545,
+     "wheelbaseMm": 2774,
+     "trunkL": 430,
+     "trunkFoldedL": 1241,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "t5-benziner",
+       "name": "T5 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 430,
+       "trunkFoldedL": 1241,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d3-d4-diesel",
+       "name": "D3/D4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 430,
+       "trunkFoldedL": 1241,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d4-awd-diesel",
+       "name": "D4 AWD (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "AWD trunk not separately verified"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autobild.de/artikel/volvo-v60-cross-country-2015-test-fahrbericht-5862011.html",
+       "what": "AUTO BILD: trunk 430 l, ground clearance 201 mm"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/volvo/v60-cross-country/v60-cross-country-d4-2015-2018-kombi-diesel/",
+       "what": "Length 4637, width 1866, height 1545, wheelbase 2774, trunk 430-1241 l"
+      },
+      {
+       "url": "https://www.media.volvocars.com/global/en-gb/models/old-v60-cross-country/2017/specifications",
+       "what": "Volvo Global Newsroom 2017 V60 CC technical data (page exists, values not extracted)"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 40,
+      "confirmed": 34,
+      "corrected": 0
+     },
+     "notes": "Manufacturer spec page exists but values not retrieved; values from AUTO BILD/AutoScout24. Ground clearance 201 mm."
+    }
+   ]
+  },
+  {
+   "id": "v70",
+   "name": "V70",
+   "generations": [
+    {
+     "id": "2008-v70-iii-bw-inkl-facelift-2013",
+     "name": "V70 III (BW, inkl. Facelift 2013)",
+     "yearFrom": 2008,
+     "yearTo": 2016,
+     "bodyType": "wagon",
+     "lengthMm": 4823,
+     "widthMm": 1861,
+     "heightMm": 1547,
+     "wheelbaseMm": 2816,
+     "trunkL": 575,
+     "trunkFoldedL": 1600,
+     "loadSpace": {
+      "lengthMm": 1089,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": 724,
+      "sillHeightMm": null,
+      "lengthFoldedMm": 1878,
+      "source": "Fachpresse"
+     },
+     "variants": [
+      {
+       "id": "awd-t6-d5-awd",
+       "name": "AWD (T6 / D5 AWD)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "t4-3-2-t5-t6-benziner",
+       "name": "T4 / 3.2 / T5 / T6 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 575,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-6d-drive-d3-d4-d5-diesel",
+       "name": "1.6D DRIVe / D3 / D4 / D5 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 575,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 1.6D DRIVe: 575 / 1600 l"
+      },
+      {
+       "id": "bi-fuel-erdgas",
+       "name": "Bi-Fuel (Erdgas)",
+       "powertrain": "cng",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.media.volvocars.com/global/en-gb/models/v70-2008-2016/2008/specifications",
+       "what": "Volvo: luggage volume 575 l (repair kit) / 555 l (spare wheel), 1600 / 1580 l folded; load lengths"
+      },
+      {
+       "url": "https://www.media.volvocars.com/global/en-gb/media/pressreleases/11935",
+       "what": "Volvo press: all-new V70 MY2008, length 4823, width 1861, height 1547, wheelbase 2816"
+      },
+      {
+       "url": "https://www.volvocars.com/de/support/car/v70/article/18f77489f78f457dc0a801e800a04016/",
+       "what": "Volvo support: length 4814, width 1861 (1876 wide tyres), height 1547, wheelbase 2816"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s70-v70-xc70/3generation/218290/",
+       "what": "ADAC: 1.6D DRIVe 575 l / 1600 l"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 38,
+      "confirmed": 28,
+      "corrected": 0
+     },
+     "notes": "Length 4823 mm at launch (press release), 4814 mm on Volvo support page (probably later MY). With spare wheel 555/1580 l."
+    },
+    {
+     "id": "2005-v70-ii-p2-inkl-facelift-2004",
+     "name": "V70 II (P2, inkl. Facelift 2004)",
+     "yearFrom": 2005,
+     "yearTo": 2007,
+     "bodyType": "wagon",
+     "lengthMm": 4710,
+     "widthMm": 1804,
+     "heightMm": 1464,
+     "wheelbaseMm": 2755,
+     "trunkL": 485,
+     "trunkFoldedL": 1641,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-4-2-5t-t5-benziner",
+       "name": "2.4 / 2.5T / T5 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 485,
+       "trunkFoldedL": 1641,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC T5 Summum 06/04-04/07"
+      },
+      {
+       "id": "awd-allrad",
+       "name": "AWD (Allrad)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-4d-d5-diesel",
+       "name": "2.4D / D5 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-4-bi-fuel-erdgas",
+       "name": "2.4 Bi-Fuel (Erdgas)",
+       "powertrain": "cng",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1468,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC lists height 1468 mm; trunk not verified"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s70-v70-xc70/2generation-facelift/999149/",
+       "what": "ADAC: length 4710, width 1804, height 1464, wheelbase 2755 (T5 Summum 06/04-04/07)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s70-v70-xc70/2generation-facelift/999173/",
+       "what": "ADAC: V70 2.4 Bi-Fuel CNG, trunk 485 l / 1641 l (dachhoch), height 1468"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 38,
+      "confirmed": 28,
+      "corrected": 0
+     },
+     "notes": "Generation built 2000-2007. Trunk 485/1641 l from ADAC facelift entry; manufacturer data not found. Height varies 1464-1488 by variant."
+    }
+   ]
+  },
+  {
+   "id": "v90",
+   "name": "V90",
+   "generations": [
+    {
+     "id": "2021-v90-ii-p-facelift",
+     "name": "V90 II (P, Facelift)",
+     "yearFrom": 2021,
+     "yearTo": 2025,
+     "bodyType": "wagon",
+     "lengthMm": 4945,
+     "widthMm": 1879,
+     "heightMm": 1472,
+     "wheelbaseMm": 2941,
+     "trunkL": 507,
+     "trunkFoldedL": 1454,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "b4-b5-mild-hybrid-benzin",
+       "name": "B4 / B5 (Mild-Hybrid, Benzin)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 507,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "b4-diesel-mild-hybrid",
+       "name": "B4 Diesel (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 507,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC B4 Diesel Plus Dark 12/21-10/22"
+      },
+      {
+       "id": "t6-recharge-awd-plug-in-hybrid",
+       "name": "T6 Recharge AWD (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 488,
+       "trunkFoldedL": 1454,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC T6 Inscription AWD 03/20-09/21"
+      },
+      {
+       "id": "t8-recharge-awd-plug-in-hybrid",
+       "name": "T8 Recharge AWD (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 488,
+       "trunkFoldedL": 1454,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC T8 R Design 09/21-12/21, T8 Ultra Dark 09/23-01/24"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/323019/",
+       "what": "ADAC: B4 Diesel length 4945, height 1472, trunk 507 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/321577/",
+       "what": "ADAC: T8 length 4945, height 1472, trunk 488 l / 1454 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/311372/",
+       "what": "ADAC: T6 AWD 03/20-09/21 488 l / 1454 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/329640/",
+       "what": "ADAC: T8 Ultra Dark 09/23-01/24, same values"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/verkehr/volvo-v90-produktion-endet-2025-nach-fast-neun-jahren/",
+       "what": "Korrektur yearTo: ams (03.09.2025): V90 production ends September 2025; new orders in Germany already no longer possible. Volvo DE site: V90 (Mild-Hybrid and Plug-in-Hybrid) no longer available as new car, production ended. angurten.de: B4/B4 Diesel mild hybrids dropped end of 2024 in Germany, only "
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/311372/",
+       "what": "ADAC: trunkFoldedL = 1454 – ADAC Autokatalog V90 T6 Inscription AWD (03/20-09/21, facelift): normal 488 l, dachhoch mit umgeklappter Rücksitzbank 1454 l (same for T8/T6 AWD variants; B4 FWD variants list 507/1473 l)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 38,
+      "confirmed": 28,
+      "corrected": 1
+     },
+     "notes": "Facelift from 03/2020 (MY2021). Trunk values in ADAC changed vs pre-facelift (likely different measuring basis/under-floor). Mild-hybrid folded volume not found. A press item (auto.pub) reports V90 production ending; status in Germany not verified, so yearTo null."
+    },
+    {
+     "id": "2017-v90-ii-p-vorfacelift",
+     "name": "V90 II (P, Vorfacelift)",
+     "yearFrom": 2017,
+     "yearTo": 2020,
+     "bodyType": "wagon",
+     "lengthMm": 4936,
+     "widthMm": 1879,
+     "heightMm": 1475,
+     "wheelbaseMm": 2941,
+     "trunkL": 560,
+     "trunkFoldedL": 1526,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": 704,
+      "sillHeightMm": null,
+      "lengthFoldedMm": 1988,
+      "source": "Fachpresse"
+     },
+     "variants": [
+      {
+       "id": "t4-t5-t6-awd-benziner",
+       "name": "T4 / T5 / T6 AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 560,
+       "trunkFoldedL": 1526,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d3-d4-d5-awd-diesel",
+       "name": "D3 / D4 / D5 AWD (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 560,
+       "trunkFoldedL": 1526,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC D5 Inscription AWD 09/16-03/18 and D4 03/18-04/19"
+      },
+      {
+       "id": "t8-twin-engine-awd-plug-in-hybrid",
+       "name": "T8 Twin Engine AWD (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 560,
+       "trunkFoldedL": 1526,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Volvo UK 2018 spec page lists 560 l / 1526 l in the T8 AWD column"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation/253962/",
+       "what": "ADAC: length 4936, height 1475, trunk 560 l / 1526 l (D5 AWD)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation/288470/",
+       "what": "ADAC: V90 D4 length 4936, width 1879, height 1475, wheelbase 2941, 560 l"
+      },
+      {
+       "url": "https://www.media.volvocars.com/uk/en-gb/models/v90/2018/specifications",
+       "what": "Volvo UK: 560 l seats up, 1526 l incl. under-floor folded (T8 AWD column)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 38,
+      "confirmed": 28,
+      "corrected": 0
+     },
+     "notes": "ADAC measured only 415 l by its own method; manufacturer value 560 l used."
+    }
+   ]
+  },
+  {
+   "id": "v90-cross-country",
+   "name": "V90 Cross Country",
+   "generations": [
+    {
+     "id": "2021-v90-cross-country-p-facelift",
+     "name": "V90 Cross Country (P, Facelift)",
+     "yearFrom": 2021,
+     "yearTo": 2024,
+     "bodyType": "wagon",
+     "lengthMm": 4959,
+     "widthMm": 1879,
+     "heightMm": 1537,
+     "wheelbaseMm": 2941,
+     "trunkL": 507,
+     "trunkFoldedL": 1473,
+     "loadSpace": {
+      "lengthMm": 1153,
+      "widthMm": 1130,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": 704,
+      "sillHeightMm": null,
+      "lengthFoldedMm": 1988,
+      "source": "Fachpresse"
+     },
+     "variants": [
+      {
+       "id": "b4-diesel-awd-mild-hybrid",
+       "name": "B4 Diesel AWD (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 507,
+       "trunkFoldedL": 1473,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC B4 Diesel Plus AWD 10/22-12/24"
+      },
+      {
+       "id": "b5-awd-mild-hybrid-benzin",
+       "name": "B5 AWD (Mild-Hybrid, Benzin)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 507,
+       "trunkFoldedL": 1473,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC B5 Ultimate AWD 10/22-12/24"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/326934/",
+       "what": "ADAC: B5 AWD length 4959, height 1537, trunk 507 l / 1473 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s90-v90/2generation-facelift/326935/",
+       "what": "ADAC: B4 Diesel AWD same values"
+      },
+      {
+       "url": "https://www.volvocars.com/en-om/support/car/v90-cross-country/article/0ed816eed33d98cac0a8cc377bc12bc7-e6a7973b2bf222b2c0a8b09757c97ec8-8664b2fa77a7e089c0a8296870d1a409/",
+       "what": "Volvo: length 4959, height 1537, wheelbase 2941, body width 1879, load space dims"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1713-volvo-v90-cross-country",
+       "what": "Korrektur yearTo: angurten.de: V90 Cross Country built until 12/2024; with the discontinuation of the V90 mild hybrids the Cross Country (never offered as PHEV) was dropped at the same time. Consistent with ADAC entries ending 12/24 and Volvo DE page stating the V90 Cross Country is no longer availa"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 38,
+      "confirmed": 28,
+      "corrected": 1
+     },
+     "notes": "ADAC entries end 12/24; current German availability not verified, yearTo null. No PHEV offered for Cross Country."
+    },
+    {
+     "id": "2017-v90-cross-country-p-vorfacelift",
+     "name": "V90 Cross Country (P, Vorfacelift)",
+     "yearFrom": 2017,
+     "yearTo": 2020,
+     "bodyType": "wagon",
+     "lengthMm": 4939,
+     "widthMm": 1879,
+     "heightMm": 1543,
+     "wheelbaseMm": 2941,
+     "trunkL": 560,
+     "trunkFoldedL": 1526,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "t5-t6-awd-benziner",
+       "name": "T5 / T6 AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 560,
+       "trunkFoldedL": 1526,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d4-d5-awd-diesel",
+       "name": "D4 / D5 AWD (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 560,
+       "trunkFoldedL": 1526,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autohaus-am-goetheplatz.de/files/Volvo/Volvo-V90-CrossCountry/Technische-Daten-Volvo-V90CC.pdf",
+       "what": "Dealer copy of Volvo technical data: length 4939, trunk VDA 560 / 1526 l"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/fahrbericht/volvo-v90-cross-country-2017-fahrbericht-daten-bilder-preise/technische-daten/",
+       "what": "auto motor und sport: 4939 x 1879 x 1543, wheelbase 2941, 560-1526 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 38,
+      "confirmed": 28,
+      "corrected": 0
+     },
+     "notes": "All-wheel drive standard. Manufacturer press data not found directly; dealer-hosted Volvo data sheet and ams used."
+    }
+   ]
+  },
+  {
+   "id": "xc40",
+   "name": "XC40",
+   "generations": [
+    {
+     "id": "2022-1-generation-facelift-xc40-elektro-seit-2024-als-ex40",
+     "name": "1. Generation Facelift (XC40; Elektro seit 2024 als EX40)",
+     "yearFrom": 2022,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4440,
+     "widthMm": 1863,
+     "heightMm": 1652,
+     "wheelbaseMm": 2702,
+     "trunkL": 452,
+     "trunkFoldedL": 1328,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "b3-b4-mild-hybrid-benziner",
+       "name": "B3 / B4 (Mild-Hybrid Benziner)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 452,
+       "trunkFoldedL": 1328,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC B3 Plus Dark: 452/1328, length 4440, height 1652"
+      },
+      {
+       "id": "recharge-t4-t5-plug-in-hybrid",
+       "name": "Recharge T4 / T5 Plug-in Hybrid",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 405,
+       "trunkFoldedL": 1281,
+       "lengthMm": 4425,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2022,
+       "yearTo": null,
+       "notes": "ADAC T5 Core DKG 03/22-10/22: 405/1281, length 4425 (early facelift entry)"
+      },
+      {
+       "id": "ex40-single-motor-extended-range-twin-motor-elektro",
+       "name": "EX40 Single Motor / Extended Range / Twin Motor (Elektro)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 410,
+       "trunkFoldedL": 1400,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1647,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "ADAC EX40 entries from 02/24: 410/1400 l + 31 l frunk; Twin Motor is AWD with same values. Values conflict with earlier BEV entries (452/1328, 419/1295) - check."
+      },
+      {
+       "id": "recharge-pure-electric-single-motor-extended-range-elektro-m",
+       "name": "Recharge Pure Electric Single Motor / Extended Range (Elektro, MY2024)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 452,
+       "trunkFoldedL": 1328,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1647,
+       "yearFrom": 2023,
+       "yearTo": 2024,
+       "notes": "ADAC Single Motor Plus 10/23-02/24 lists 452/1328 l"
+      },
+      {
+       "id": "recharge-pure-electric-twin-motor-elektro-2022-2023",
+       "name": "Recharge Pure Electric Twin Motor (Elektro, 2022-2023)",
+       "powertrain": "bev",
+       "powerPs": 408,
+       "awd": true,
+       "trunkL": 419,
+       "trunkFoldedL": 1295,
+       "lengthMm": 4425,
+       "widthMm": null,
+       "heightMm": 1647,
+       "yearFrom": 2022,
+       "yearTo": 2023,
+       "notes": "ADAC Twin Motor Plus 03/22-11/22; frunk 31 l"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/volvo-xc-40/",
+       "what": "ADAC: B3 mild hybrid 452/1328, length 4440, height 1652; T5 Recharge PHEV 405/1281"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation-facelift/324763/",
+       "what": "ADAC: XC40 Recharge Plug-in Hybrid T5 Core 03/22-10/22"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation-facelift/324772/",
+       "what": "ADAC: Recharge Pure Electric Twin Motor Plus 03/22-11/22 419/1295, length 4425, height 1647"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation-facelift/326918/",
+       "what": "ADAC: Recharge Pure Electric Single Motor Plus 10/23-02/24 length 4440, height 1647, trunk 452/1328"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex40/1generation/333052/",
+       "what": "ADAC: EX40 Single Motor Essential 02/24-: 4440/1647, trunk 410/1400, frunk 31"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/ex40/1generation/333058/",
+       "what": "ADAC: EX40 Twin Motor Core AWD same values"
+      },
+      {
+       "url": "https://www.volvocars.com/de-ch/cars/xc40/specifications/",
+       "what": "Volvo CH: B4 mild hybrid length 4440, height 1652"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Volvo_XC40",
+       "what": "XC40 Recharge Pure Electric renamed EX40 in 2024"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 51,
+      "confirmed": 46,
+      "corrected": 0
+     },
+     "notes": "Facelift revealed 2022 (MY2023). ADAC entries for early facelift cars still list 4425 mm length; 4440 from late 2023. BEV trunk values differ across ADAC entries (414/419/452/410 l) - no official Volvo VDA source found to resolve. BEVs have 31 l frunk. Pure-ICE petrol/diesel without mild hybrid largely dropped by facelift."
+    },
+    {
+     "id": "2018-1-generation-xc40-2018-2022",
+     "name": "1. Generation (XC40, 2018-2022)",
+     "yearFrom": 2018,
+     "yearTo": 2022,
+     "bodyType": "suv",
+     "lengthMm": 4425,
+     "widthMm": 1863,
+     "heightMm": 1652,
+     "wheelbaseMm": 2702,
+     "trunkL": 433,
+     "trunkFoldedL": 1309,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "t3-t4-benziner-frontantrieb",
+       "name": "T3 / T4 (Benziner, Frontantrieb)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 433,
+       "trunkFoldedL": 1309,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC T3 Momentum / T4 Inscription Geartronic 02/18-04/19"
+      },
+      {
+       "id": "t5-awd-benziner",
+       "name": "T5 AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 428,
+       "trunkFoldedL": 1304,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC T5 Momentum Pro AWD Geartronic 04/19-03/20"
+      },
+      {
+       "id": "d3-d4-awd-diesel",
+       "name": "D3 / D4 AWD (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 428,
+       "trunkFoldedL": 1304,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Values from ADAC D4 Momentum AWD Geartronic 02/18-04/19; FWD D3 presumably 433/1309 (not verified)"
+      },
+      {
+       "id": "t5-twin-engine-plug-in-hybrid",
+       "name": "T5 Twin Engine (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 262,
+       "awd": false,
+       "trunkL": 433,
+       "trunkFoldedL": 1309,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2022,
+       "notes": "ADAC T5 Twin Engine Inscription DKG 01/20-03/20 lists 433/1309; 262 PS system output per AUTO BILD/motor1 reports"
+      },
+      {
+       "id": "recharge-p8-awd-pure-electric-elektro",
+       "name": "Recharge P8 AWD Pure Electric (Elektro)",
+       "powertrain": "bev",
+       "powerPs": 408,
+       "awd": true,
+       "trunkL": 414,
+       "trunkFoldedL": 1290,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2022,
+       "notes": "ADAC Recharge Pure Electric Twin Pro 03/21-11/21: 414/1290 l plus 31 l frunk"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation/283787/",
+       "what": "ADAC: XC40 T3 Momentum 02/18-04/19 dimensions 4425x1863x1652, trunk 433/1309"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation/287925/",
+       "what": "ADAC: T4 Inscription trunk 433/1309"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation/283786/",
+       "what": "ADAC: D4 Momentum AWD trunk 428/1304"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation/298319",
+       "what": "ADAC: T5 AWD Momentum Pro trunk 428/1304"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation/305211",
+       "what": "ADAC: T5 Twin Engine Inscription DKG trunk 433/1309"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc40/1generation/319932/",
+       "what": "ADAC: Recharge Pure Electric Twin Pro dimensions, trunk 414/1290, frunk 31 l"
+      },
+      {
+       "url": "https://www.volvocars.com/en-bh/support/car/xc40/18w17/article/b0804d54c7fc096bc0a81f6f065ad63e_0362eef4c7fc436fc0a81f6f7c27a289_0a9f81ad7fe71c97c0a8015176e5bb71/",
+       "what": "Volvo support: XC40 length 4425, wheelbase 2702, body width 1863"
+      },
+      {
+       "url": "https://www.autobild.de/artikel/volvo-xc40-2017-10049105.html",
+       "what": "AUTO BILD: Volvo stated trunk 460/1336 l (manufacturer figure, different method)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 51,
+      "confirmed": 46,
+      "corrected": 0
+     },
+     "notes": "Trunk values are ADAC catalogue (VDA) values; Volvo's own brochure figure was 460/1336 l (likely to the roof / different method). No official Volvo press-kit VDA data found within search budget."
+    }
+   ]
+  },
+  {
+   "id": "xc60",
+   "name": "XC60",
+   "generations": [
+    {
+     "id": "2025-2-generation-facelift-2025",
+     "name": "2. Generation (Facelift 2025)",
+     "yearFrom": 2025,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4708,
+     "widthMm": 1902,
+     "heightMm": 1655,
+     "wheelbaseMm": 2865,
+     "trunkL": 483,
+     "trunkFoldedL": 1543,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "b5-mild-hybrid-benziner-awd",
+       "name": "B5 (Mild-Hybrid Benziner) AWD",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 483,
+       "trunkFoldedL": 1543,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "t6-t8-plug-in-hybrid-awd",
+       "name": "T6 / T8 Plug-in Hybrid AWD",
+       "powertrain": "phev",
+       "powerPs": 455,
+       "awd": true,
+       "trunkL": 468,
+       "trunkFoldedL": 1528,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1651,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC T8 Ultra Bright 07/25: 455 PS, 468/1528, height 1651"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation-facelift-3/352771/",
+       "what": "ADAC: B5 Mild-Hybrid Core AWD 4708x1902x1655, trunk 483/1543"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation-facelift-2/341493/",
+       "what": "ADAC: T8 Ultra Bright 07/25 4708x1902x1651, 468/1528"
+      },
+      {
+       "url": "https://www.volvocars.com/de/cars/xc60/specifications/",
+       "what": "Volvo DE: length 4708, wheelbase 2865, 1543 l max"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 51,
+      "confirmed": 46,
+      "corrected": 0
+     },
+     "notes": "Split because length (4708) and max volume (1543/1528) changed. ADAC entry dates for this series are inconsistent ('facelift-2' from 04/25, 'facelift-3' entries); grouped together."
+    },
+    {
+     "id": "2017-2-generation",
+     "name": "2. Generation",
+     "yearFrom": 2017,
+     "yearTo": 2025,
+     "bodyType": "suv",
+     "lengthMm": 4688,
+     "widthMm": 1902,
+     "heightMm": 1658,
+     "wheelbaseMm": 2865,
+     "trunkL": 483,
+     "trunkFoldedL": 1410,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "b4-b5-b6-mild-hybrid-benziner",
+       "name": "B4 / B5 / B6 (Mild-Hybrid Benziner)",
+       "powertrain": "mhev",
+       "powerPs": 250,
+       "awd": true,
+       "trunkL": 483,
+       "trunkFoldedL": 1410,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC B5 Core AWD 09/23-07/24 (250 PS); B4 FWD also 483/1410"
+      },
+      {
+       "id": "d4-d5-b4-diesel-awd-diesel-mild-hybrid-diesel",
+       "name": "D4 / D5 / B4 Diesel AWD (Diesel / Mild-Hybrid-Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 483,
+       "trunkFoldedL": 1410,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC D4 R Design AWD 11/17-04/19, B4 Diesel 04/19-07/20 and 12/21-10/22"
+      },
+      {
+       "id": "recharge-t6-t8-plug-in-hybrid-ab-2022-gro-ere-batterie",
+       "name": "Recharge T6 / T8 Plug-in Hybrid (ab 2022, größere Batterie)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 468,
+       "trunkFoldedL": 1395,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2022,
+       "yearTo": 2025,
+       "notes": "ADAC T8 02/23-09/23"
+      },
+      {
+       "id": "t8-twin-engine-plug-in-hybrid-bis-2021",
+       "name": "T8 Twin Engine (Plug-in-Hybrid, bis 2021)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 483,
+       "trunkFoldedL": 1410,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2017,
+       "yearTo": 2021,
+       "notes": "ADAC T8 Twin Engine R Design 07/17-02/18: 483/1410"
+      },
+      {
+       "id": "t8-polestar-engineered-plug-in-hybrid",
+       "name": "T8 Polestar Engineered (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 455,
+       "awd": true,
+       "trunkL": 468,
+       "trunkFoldedL": 1395,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC from 01/24"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation/283862/",
+       "what": "ADAC: D4 R Design AWD 11/17-04/19 trunk 483/1410"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation/269239/",
+       "what": "ADAC: T8 Twin Engine 07/17-02/18 trunk 483/1410"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation/298355/",
+       "what": "ADAC: B4 Diesel 04/19-07/20 4688x1902x1658, trunk 483/1410"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation-facelift/330788/",
+       "what": "ADAC: B5 Core AWD 250 PS, 483/1410"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation-facelift/327292/",
+       "what": "ADAC: T8 02/23-09/23 trunk 468/1395"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/2generation-facelift/332055/",
+       "what": "ADAC: T8 Polestar Engineered 4688x1902x1658, 468/1395, 455 PS"
+      },
+      {
+       "url": "https://www.mobile.de/auto/volvo/xc60/2017/suv/modell/daten-fakten/",
+       "what": "length 4688, height 1658, wheelbase 2865; Volvo launch figure 505/1432 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 51,
+      "confirmed": 46,
+      "corrected": 0
+     },
+     "notes": "2021 facelift (MY2022) did not change dimensions -> not split. Volvo launch press figures 505/1432 l (different method) vs ADAC 483/1410. PHEV trunk smaller (468/1395) from MY2022 with larger battery."
+    },
+    {
+     "id": "2014-1-generation-facelift",
+     "name": "1. Generation (Facelift)",
+     "yearFrom": 2014,
+     "yearTo": 2017,
+     "bodyType": "suv",
+     "lengthMm": 4644,
+     "widthMm": 1891,
+     "heightMm": 1713,
+     "wheelbaseMm": 2774,
+     "trunkL": 495,
+     "trunkFoldedL": 1455,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "t5-t6-awd-benziner",
+       "name": "T5 / T6 AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 495,
+       "trunkFoldedL": 1455,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d3-d4-diesel",
+       "name": "D3 / D4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 495,
+       "trunkFoldedL": 1455,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC D4 Momentum"
+      },
+      {
+       "id": "d4-awd-d5-awd-diesel",
+       "name": "D4 AWD / D5 AWD (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 495,
+       "trunkFoldedL": 1455,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC D4 Momentum AWD same values"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/1generation-facelift/245762/",
+       "what": "ADAC: D4 Momentum 03/15-05/17 4644x1891x1713, wheelbase 2774, trunk 495/1455"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc60/1generation-facelift/245773/",
+       "what": "ADAC: D4 Momentum AWD same dims/trunk"
+      },
+      {
+       "url": "https://www.volvocars.com/de/support/car/xc60/14w20/article/18f77489f78f457dc0a801e800a04016/",
+       "what": "Volvo DE support (MY2014): 4644/1891/1713/2774"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1191-XC60",
+       "what": "Facelift on sale from June 2013 as MY2014"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 51,
+      "confirmed": 46,
+      "corrected": 0
+     },
+     "notes": "Split because length grew 4627->4644. Petrol trims mix FWD (T5) and AWD (T6); trunk identical."
+    },
+    {
+     "id": "2008-1-generation",
+     "name": "1. Generation",
+     "yearFrom": 2008,
+     "yearTo": 2013,
+     "bodyType": "suv",
+     "lengthMm": 4627,
+     "widthMm": 1891,
+     "heightMm": 1713,
+     "wheelbaseMm": 2774,
+     "trunkL": 495,
+     "trunkFoldedL": 1455,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "t5-t6-awd-3-2-awd-benziner",
+       "name": "T5 / T6 AWD / 3.2 AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 495,
+       "trunkFoldedL": 1455,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "drive-d3-d4-diesel-frontantrieb",
+       "name": "DRIVe / D3 / D4 (Diesel, Frontantrieb)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 495,
+       "trunkFoldedL": 1455,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d5-awd-diesel",
+       "name": "D5 AWD (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 185,
+       "awd": true,
+       "trunkL": 495,
+       "trunkFoldedL": 1455,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "185 PS at launch (2008); later 205/215 PS"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.mobile.de/auto/volvo/xc60/2008/suv/modell/daten-fakten/",
+       "what": "length 4627, height 1713, trunk 495/1455"
+      },
+      {
+       "url": "https://www.autokosten.net/volvo/xc60/xc60-d5/xc60-11-08-06-13_4/technische-daten",
+       "what": "D5 AWD: 4627x1891x1713, trunk 495/1455"
+      },
+      {
+       "url": "https://www.autozine.de/volvo/xc60-2008-2017/d5-summum",
+       "what": "trunk 495/1455"
+      },
+      {
+       "url": "https://www.conceptcarz.com/s15116/volvo-xc60.aspx",
+       "what": "wheelbase ~2774 mm (109.21 in)"
+      },
+      {
+       "url": "https://www.autosieger.de/modules.php?op=modload&name=Reviews&file=index&req=showcontent&id=734&page=3",
+       "what": "D5 185 PS"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 51,
+      "confirmed": 46,
+      "corrected": 0
+     },
+     "notes": "No manufacturer/ADAC source for pre-facelift found within budget; values from secondary databases, consistent with facelift data except length."
+    }
+   ]
+  },
+  {
+   "id": "xc70",
+   "name": "XC70",
+   "generations": [
+    {
+     "id": "2008-xc70-ii-bz-inkl-facelift-2013",
+     "name": "XC70 II (BZ, inkl. Facelift 2013)",
+     "yearFrom": 2008,
+     "yearTo": 2016,
+     "bodyType": "wagon",
+     "lengthMm": 4838,
+     "widthMm": 1870,
+     "heightMm": 1604,
+     "wheelbaseMm": 2815,
+     "trunkL": 575,
+     "trunkFoldedL": 1600,
+     "loadSpace": {
+      "lengthMm": 1089,
+      "widthMm": 1153,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": 724,
+      "sillHeightMm": null,
+      "lengthFoldedMm": null,
+      "source": "Fachpresse"
+     },
+     "variants": [
+      {
+       "id": "3-2-t6-awd-benziner",
+       "name": "3.2 / T6 AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 575,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d5-d4-awd-diesel",
+       "name": "D5 / D4 AWD (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 575,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "drive-d3-d4-frontantrieb-diesel",
+       "name": "DRIVe / D3 / D4 Frontantrieb (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 575,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "FWD versions offered from ~2011"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.media.volvocars.com/global/en-gb/models/xc70-2008-2016/2012/specifications",
+       "what": "Volvo: luggage volume ISO V211 575 l (repair kit) / 555 l (spare wheel), folded 1600 / 1580 l"
+      },
+      {
+       "url": "https://www.media.volvocars.com/global/en-gb/media/pressreleases/11936",
+       "what": "Volvo press: all-new XC70 MY2008"
+      },
+      {
+       "url": "https://www.volvocars.com/de/support/car/xc70/article/18f77489f78f457dc0a801e800a04016/",
+       "what": "Volvo support: wheelbase 2815, length 4838, height 1604, width 1870 (1876 wide tyres), load floor dims"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 38,
+      "confirmed": 28,
+      "corrected": 0
+     },
+     "notes": "Trunk 575/1600 l with repair kit, 555/1580 l with spare wheel (Volvo). Trunk identical for all engines per Volvo spec sheet."
+    },
+    {
+     "id": "2005-xc70-i-p2-bis-2002-v70-xc-facelift-2004",
+     "name": "XC70 I (P2, bis 2002 \"V70 XC\", Facelift 2004)",
+     "yearFrom": 2005,
+     "yearTo": 2007,
+     "bodyType": "wagon",
+     "lengthMm": 4733,
+     "widthMm": 1860,
+     "heightMm": 1562,
+     "wheelbaseMm": 2763,
+     "trunkL": 485,
+     "trunkFoldedL": 1641,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-5t-awd-benziner",
+       "name": "2.5T AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d5-awd-diesel",
+       "name": "D5 AWD (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 485,
+       "trunkFoldedL": 1641,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC D5 DPF Summum AWD 04/05-06/07"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/s70-v70-xc70/2generation-facelift/202675/",
+       "what": "ADAC: length 4733, width 1860, height 1562, wheelbase 2763, trunk 485 l / 1641 l (D5 AWD 04/05-06/07)"
+      },
+      {
+       "url": "https://www.media.volvocars.com/global/en-gb/media/documenttext/244816",
+       "what": "Volvo: XC70 launched autumn 2000 as V70 XC, developed with 2nd-gen V70"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 38,
+      "confirmed": 28,
+      "corrected": 0
+     },
+     "notes": "Generation built 2000-2007; was badged V70 XC until 2002. Data from ADAC only."
+    }
+   ]
+  },
+  {
+   "id": "xc90",
+   "name": "XC90",
+   "generations": [
+    {
+     "id": "2025-xc90-ii-typ-l-facelift-2024",
+     "name": "XC90 II (Typ L, Facelift 2024)",
+     "yearFrom": 2025,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4953,
+     "widthMm": 1923,
+     "heightMm": 1771,
+     "wheelbaseMm": 2984,
+     "trunkL": 680,
+     "trunkFoldedL": 1856,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "b5-awd-mild-hybrid-benziner",
+       "name": "B5 AWD (Mild-Hybrid Benziner)",
+       "powertrain": "mhev",
+       "powerPs": 250,
+       "awd": true,
+       "trunkL": 680,
+       "trunkFoldedL": 1856,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC B5 Core AWD (ab 09/24): 302 l (7-seat) / 680 l / 1856 l."
+      },
+      {
+       "id": "t8-awd-long-range-plug-in-hybrid-ab-03-26",
+       "name": "T8 AWD Long Range (Plug-in-Hybrid, ab 03/26)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 650,
+       "trunkFoldedL": 1941,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2026,
+       "yearTo": null,
+       "notes": "ADAC T8 Core AWD (ab 03/26): 244 l (7-seat) / 650 l / 1941 l roof-high; Volvo DE PHEV spec page: 244 l behind 3rd row, 650 l behind 2nd row (window-high). Power conflicting: ADAC lists 299 kW (406 PS), vision-mobility 461 PS - left null."
+      },
+      {
+       "id": "t8-awd-plug-in-hybrid",
+       "name": "T8 AWD (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 455,
+       "awd": true,
+       "trunkL": 640,
+       "trunkFoldedL": 1816,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2026,
+       "notes": "ADAC T8 Core AWD (ab 07/25) and Ultra Bright (09/24-07/25): 262 l (7-seat) / 640 l / 1816 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation-facelift-2/336906/",
+       "what": "ADAC B5 Core AWD ab 09/24: length 4953, width 1923, height 1771 mm, 250 PS, trunk 302/680/1856 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation-facelift-2/341495/",
+       "what": "ADAC T8 Core AWD ab 07/25: 4953/1923/1771 mm, 455 PS, trunk 262/640/1816 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation-facelift-2/350413/",
+       "what": "ADAC T8 Core AWD ab 03/26: trunk 244/650/1941 l, 299 kW (406 PS)"
+      },
+      {
+       "url": "https://www.volvocars.com/de/cars/xc90-hybrid/specifications/",
+       "what": "Volvo DE PHEV spec page: 244 l behind 3rd row, 650 l behind 2nd row, 1123 l behind 1st row (window-high)"
+      },
+      {
+       "url": "https://vision-mobility.de/elektroauto/obere-mittelklasse/volvo-xc90-t8-awd-long-range-plug-in-hybrid-plugin-hybrid-reichweite-90-km-461-ps-bestellbar-394991.html",
+       "what": "T8 AWD Long Range 461 PS, 90 km electric range"
+      },
+      {
+       "url": "https://www.volvocars.com/in/cars/xc90/specifications/",
+       "what": "Korrektur wheelbaseMm: Volvo XC90 spec page (B5 AWD Mild hybrid): 'Vehicle length 4 953 mm ... Wheel base 2 984 mm'; autotijd.be B5/B6 AWD (2024-) also 4953 mm / 2984 mm, width 1923 mm w/o mirrors."
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 52,
+      "confirmed": 36,
+      "corrected": 1
+     },
+     "notes": "Second facelift ('new XC90', German sales from 09/2024) is 3 mm longer; split because length/width/height values differ. 7-seater standard; trunkL = 3rd row folded. Wheelbase for this facelift not found in a source (2984 mm before)."
+    },
+    {
+     "id": "2015-xc90-ii-typ-l-inkl-facelift-2019",
+     "name": "XC90 II (Typ L, inkl. Facelift 2019)",
+     "yearFrom": 2015,
+     "yearTo": 2024,
+     "bodyType": "suv",
+     "lengthMm": 4950,
+     "widthMm": 1931,
+     "heightMm": 1775,
+     "wheelbaseMm": 2984,
+     "trunkL": 680,
+     "trunkFoldedL": 1856,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "t5-t6-b5-b6-awd-benziner",
+       "name": "T5 / T6 / B5 / B6 AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 680,
+       "trunkFoldedL": 1856,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Combustion variants share the 302/680/1856 l values per carwow ('Verbrenner'); B5/B6 petrol are mild hybrids from 2019. Powers not verified."
+      },
+      {
+       "id": "d5-awd-b5-diesel-awd-diesel-ab-2019-mild-hybrid",
+       "name": "D5 AWD / B5 Diesel AWD (Diesel, ab 2019 Mild-Hybrid)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 680,
+       "trunkFoldedL": 1856,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC B5 Diesel Plus Bright 12/21-10/22: 302 l (7-seat) / 680 l (3rd row folded, window-high) / 1856 l roof-high. Earlier ADAC D5 pages (11/16-10/17, 05/19-07/20) give 709 l normal / 1874 l roof-high in a different format. From 2019 the B5 Diesel is a 48V mild hybrid."
+      },
+      {
+       "id": "t8-twin-engine-recharge-t8-awd-plug-in-hybrid",
+       "name": "T8 Twin Engine / Recharge T8 AWD (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 640,
+       "trunkFoldedL": 1816,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC T8 Twin Engine Inscription 06/15-03/18: 262 l (7-seat) / 640 l window-high / 1816 l roof-high. Smaller trunk than combustion versions."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation/263606/",
+       "what": "ADAC D5 Inscription 11/16-10/17: length 4950, width 1931 (2140 incl. mirrors), height 1775 mm; trunk 709 l normal / 1874 l roof-high"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation-facelift/322934/",
+       "what": "ADAC B5 Diesel Plus Bright 12/21-10/22: height 1775, wheelbase 2984 mm; trunk 302/680/1856 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation/243355/",
+       "what": "ADAC T8 Twin Engine 06/15-03/18: width 1931 mm; trunk 262/640/1816 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/2generation-facelift/321920/",
+       "what": "ADAC T8 R Design Edition 09/21-01/22: width given as 2008 mm (mirrors folded per Volvo) / 2140 mm incl. mirrors"
+      },
+      {
+       "url": "https://www.carwow.de/volvo/xc90/technische-daten",
+       "what": "Combustion 302/680/1856 l vs hybrid 262/640/1816 l"
+      },
+      {
+       "url": "https://www.volvocars.com/de/support/car/xc90/article/0ed816eed33d98cac0a8cc377bc12bc7-e6a7973b2bf222b2c0a8b09757c97ec8-8664b2fa77a7e089c0a8296870d1a409/",
+       "what": "Volvo: width 2008 mm with folded mirrors, 2140 mm with mirrors"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 52,
+      "confirmed": 36,
+      "corrected": 0
+     },
+     "notes": "Standard 7-seater (3rd row); trunkL = 3rd row folded (5-seat config, window-high), 7-seat value 302 l (PHEV 262 l). Facelift 2019 (MY2020, B-mild-hybrid engines, Recharge naming) kept dimensions and trunk volumes - not split. Some ADAC entries list 2008 mm width (= mirrors folded); 1931 mm used as body width. Manufacturer-method figures from Volvo (e.g. 1950 l behind 1st row) differ and are not comparable."
+    },
+    {
+     "id": "2007-xc90-i-typ-c-facelift",
+     "name": "XC90 I (Typ C, Facelift)",
+     "yearFrom": 2007,
+     "yearTo": 2014,
+     "bodyType": "suv",
+     "lengthMm": 4807,
+     "widthMm": 1898,
+     "heightMm": 1784,
+     "wheelbaseMm": 2857,
+     "trunkL": null,
+     "trunkFoldedL": 1837,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "3-2-awd-benziner",
+       "name": "3.2 AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": 1837,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "3.2 six-cylinder replaced the 2.5T from MY2007 (Volvo USA press release)."
+      },
+      {
+       "id": "v8-awd-4-4-benziner",
+       "name": "V8 AWD 4.4 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": 1837,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "d5-awd-200-ps-diesel",
+       "name": "D5 AWD 200 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 200,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": 1837,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC: D5 R Design AWD Geartronic 7-Sitzer 12/11-07/14, 147 kW (200 PS); trunk 249 l behind 3rd row (7-seat), 1837 l roof-high with seats folded."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/1generation-facelift/229683/",
+       "what": "ADAC (manufacturer data): length 4807, width w/o mirrors 1898, height 1784 mm, trunk 249 l (7-seat, 3rd row up) / 1837 l roof-high folded, D5 200 PS"
+      },
+      {
+       "url": "https://www.mobile.de/auto/volvo/xc90/2002/suv/modell/daten-fakten/",
+       "what": "Wheelbase 2857 mm, trunk range 613-1837 l"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Volvo_XC90",
+       "what": "Length 4807 mm for 2007-2016 model years"
+      },
+      {
+       "url": "https://www.volvocars.com/us/media/press-releases/ED7C59828388A1CD/",
+       "what": "Volvo USA press release: MY2007 update with new 3.2 six-cylinder"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 52,
+      "confirmed": 36,
+      "corrected": 0
+     },
+     "notes": "7-seat value 249 l (3rd row up). The 5-seat (3rd row folded) VDA value was not found; mobile.de gives a range minimum of 613 l but it is unclear which configuration it refers to, so trunkL left null. Facelift year approximate."
+    },
+    {
+     "id": "2002-xc90-i-typ-c-2002-2006",
+     "name": "XC90 I (Typ C, 2002-2006)",
+     "yearFrom": 2002,
+     "yearTo": 2006,
+     "bodyType": "suv",
+     "lengthMm": 4798,
+     "widthMm": 1898,
+     "heightMm": 1784,
+     "wheelbaseMm": 2857,
+     "trunkL": 525,
+     "trunkFoldedL": 1837,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-5t-awd-benziner",
+       "name": "2.5T AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 210,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "211 PS per Wikipedia; AUTO BILD lists 'XC90 2.5T Kinetic 09/2004-05/2006'."
+      },
+      {
+       "id": "t6-awd-benziner",
+       "name": "T6 AWD (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 272,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "272 PS per mobile.de model page."
+      },
+      {
+       "id": "v8-awd-4-4-benziner",
+       "name": "V8 AWD 4.4 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 315,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2005,
+       "yearTo": null,
+       "notes": "4.4 V8 from mid-2005 (Volvo USA press release: 311 hp US rating); European PS figure not verified."
+      },
+      {
+       "id": "d5-awd-diesel",
+       "name": "D5 AWD (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 163,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "PS rating of the early D5 not verified."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Volvo_XC90",
+       "what": "Generation split (2003-2006 vs 2007-2016 length change; lists 4821 mm for early cars), 2.5T power"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/volvo/volvo-xc90/",
+       "what": "4798 x 1898 x 1743 mm (early XC90 I)"
+      },
+      {
+       "url": "https://www.mobile.de/auto/volvo/xc90/2002/suv/modell/daten-fakten/",
+       "what": "Length 4798/4807 mm, width w/o mirrors 1898 mm, wheelbase 2857 mm, T6 272 PS"
+      },
+      {
+       "url": "https://www.yumpu.com/de/document/view/31399245/volvo-xc90-d5-premium-automatik-7-sitzig-adac",
+       "what": "ADAC Autotest 09/2003 D5 7-Sitzer: measured trunk 525 l / 875 l (ADAC own measurement, not VDA - not used)"
+      },
+      {
+       "url": "https://www.volvocars.com/us/media/press-releases/B3815AD9A919C3A5/",
+       "what": "Volvo USA press release: V8 introduced mid-2005 for MY2006"
+      },
+      {
+       "url": "https://www.volvocars.com/us/media/models/xc90gen1/2002/",
+       "what": "Korrektur heightMm: Volvo media page XC90 Gen 1 (2002): 'wheelbase 286 cm, length 480 cm, width 190 cm, height 179 cm'. carsales.com.au 2003 XC90 D5: length 4798, height 1784, wheelbase 2857 mm. 1743 mm (Parkers/AutoScout24) is likely without roof rails; manufacturer figure ~1784 mm."
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/volvo/xc90/1/",
+       "what": "Korrektur trunkFoldedL: AUTO BILD gen-1 overview gives trunk range 249-1837 l for the whole first generation (2002-2014); Volvo AT press release (volvocars.com/at/media/press-releases/8E9924F398307BCF) states max load volume 1837 l; gebrauchtwagenberater.de 613-1837 l. Same body as facelift (1837 l)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/volvo/xc90/1generation/",
+       "what": "Korrektur powerPs: ADAC model overview lists Volvo XC90 2.5T with 154 kW / 210 PS; ultimatespecs also 210 PS / 154 kW."
+      },
+      {
+       "url": "https://www.ultimatespecs.com/pl/samochody-dane-techniczne/Volvo/M730/XC90",
+       "what": "Korrektur powerPs: Ultimatespecs: XC90 V8 (MY2005) 315 PS (232 kW), 4414 ccm; encycarpedia.com/de 05-xc90-v8-awd consistent (440 Nm). US rating 311 hp is SAE."
+      },
+      {
+       "url": "https://www.ultimatespecs.com/pl/samochody-dane-techniczne/Volvo/M730/XC90",
+       "what": "Korrektur powerPs: Ultimatespecs: D5 163 PS / 120 kW, 2401 ccm; largus.fr lists 'D5 163ch' (2004), marketed until 06/2005. Note: from ~2005/06 a 185 PS D5 (autoplenum '2.4 D5 DPF 185 PS (2002-2006)') replaced it - consider splitting."
+      },
+      {
+       "url": "https://www.yumpu.com/de/document/view/31399245/volvo-xc90-d5-premium-automatik-7-sitzig-adac",
+       "what": "ADAC: trunkL = 525 – ADAC Autotest XC90 D5 Premium (7-sitzig, 2003), ADAC measured: 'der große Kofferraum fasst 525 l Gepäck', folding rear bench raises it to 875 l (to window edge); 525 l implies 3rd row stowed"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 52,
+      "confirmed": 36,
+      "corrected": 5
+     },
+     "notes": "Pre-facelift XC90 I. Length conflicts: 4798 mm (mobile.de, AutoScout24) vs 4821 mm (Wikipedia, possibly incl. tow bar/bumper variant). Height 1743 mm only from AutoScout24 (others give 1784 mm for facelift). Standard 7-seater option (third row). No manufacturer VDA trunk figures found; ADAC test measured 525/875 l with own method. Model years are approximate (MY2003 launch; facelift for MY2007)."
+    }
+   ]
+  }
+ ]
+}
