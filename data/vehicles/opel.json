@@ -18,7 +18,16 @@
      "wheelbaseMm": 2675,
      "trunkL": 422,
      "trunkFoldedL": 1339,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": 795,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": null,
+      "lengthFoldedMm": 1589,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "1-2-turbo-benziner-1-5-diesel",
@@ -120,6 +129,14 @@
       {
        "url": "https://de.motor1.com/reviews/790461/opel-astra-2026-plugin-electric-test/",
        "what": "Facelift 2026 test: PHEV 310 l vs Electric 352 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2023-opel-astra-l",
+       "what": "Fachpresse: loadSpace.lengthMm = 795 – angurten.de Opel Astra L: 'Ladelänge bis Rücksitze 795 mm' (-33 mm vs. Astra K 828 mm)"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2023-opel-astra-l",
+       "what": "Fachpresse: loadSpace.lengthFoldedMm = 1589 – angurten.de Opel Astra L: Ladelänge bis Vordersitze 1.589 mm"
       }
      ],
      "confidence": "medium",
@@ -156,7 +173,7 @@
       "openingHeightMm": null,
       "sillHeightMm": 599,
       "lengthFoldedMm": 1850,
-      "source": "angurten.de Astra L Sports Tourer table: load length to rear seats 1026 mm, to front seats 1850 mm, sill height 599 mm (variant not specified)"
+      "source": "Fachpresse"
      },
      "variants": [
       {
@@ -403,7 +420,16 @@
      "wheelbaseMm": 2604,
      "trunkL": 410,
      "trunkFoldedL": 1255,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": 793,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 728,
+      "lengthFoldedMm": 1483,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "1-2-turbo-benziner-1-5-diesel",
@@ -437,6 +463,18 @@
       {
        "url": "https://www.carwow.de/opel/crossland-x/technische-daten",
        "what": "Crossland dimensions and trunk"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2006-opel-crossland",
+       "what": "Fachpresse: loadSpace.lengthMm = 793 – angurten.de Opel Crossland (Baujahr 2020-2024): Ladelänge bis Rücksitze 793 mm"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2006-opel-crossland",
+       "what": "Fachpresse: loadSpace.lengthFoldedMm = 1483 – angurten.de Opel Crossland (Baujahr 2020-2024): Ladelänge bis Vordersitze 1.483 mm"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2006-opel-crossland",
+       "what": "Fachpresse: loadSpace.sillHeightMm = 728 – angurten.de Opel Crossland (Baujahr 2020-2024): Höhe der Ladekante 728 mm"
       }
      ],
      "confidence": "medium",

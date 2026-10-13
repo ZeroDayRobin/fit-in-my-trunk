@@ -1,0 +1,124 @@
+{
+ "id": "ls-seat",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "Arona",
+   "generation": "KJ7 (inkl. Facelift 2021 und Facelift 2026)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 700,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/seat-arona/",
+   "sourceType": "adac",
+   "evidence": "ADAC test text: 'Zum Beladen muss man das Gepäck über eine 70 Zentimeter hohe Ladekante heben.' (ADAC also measured 310 l normal / 680 l umgeklappt)"
+  },
+  {
+   "model": "Arona",
+   "generation": "KJ7 (inkl. Facelift 2021 und Facelift 2026)",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 980,
+   "sourceUrl": "https://www.auto-motor-und-sport.de/test/seat-arona-1-0-tsi/technische-daten/",
+   "sourceType": "sonstige",
+   "evidence": "auto motor und sport test data (Test 03/2022): Breite zwischen den Radkästen 980 mm (Ladekantenhöhe 675 mm)"
+  },
+  {
+   "model": "Arona",
+   "generation": "KJ7 (inkl. Facelift 2021 und Facelift 2026)",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 770,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-seat-arona-typ-kj-2017-bis/",
+   "sourceType": "sonstige",
+   "evidence": "kofferraum-check.de Arona Typ KJ: Tiefe reicht von 47 cm oben bis 77 cm unten an der Ladekante (Bodenlänge bis Rücksitzlehne)"
+  },
+  {
+   "model": "Arona",
+   "generation": "KJ7 (inkl. Facelift 2021 und Facelift 2026)",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1360,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-seat-arona-typ-kj-2017-bis/",
+   "sourceType": "sonstige",
+   "evidence": "kofferraum-check.de Arona Typ KJ: bei umgelegter Rückbank sind es 136 cm Tiefe"
+  },
+  {
+   "model": "Ateca",
+   "generation": "KH (Facelift 08/2020)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 680,
+   "sourceUrl": "https://www.auto-motor-und-sport.de/test/kosten-realverbrauch-seat-ateca-tsi-fr/technische-daten/",
+   "sourceType": "sonstige",
+   "evidence": "auto motor und sport, Kosten und Realverbrauch Seat Ateca 1.5 TSI FR (Bauzeit 2020-2023): Ladekantenhöhe 680 mm"
+  },
+  {
+   "model": "Ateca",
+   "generation": "KH (Facelift 08/2020)",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1015,
+   "sourceUrl": "https://www.auto-motor-und-sport.de/test/kosten-realverbrauch-seat-ateca-tsi-fr/technische-daten/",
+   "sourceType": "sonstige",
+   "evidence": "auto motor und sport, Seat Ateca 1.5 TSI FR technische Daten: Breite zwischen Radkästen 1015 mm"
+  },
+  {
+   "model": "Ibiza",
+   "generation": "KJ (Ibiza V, inkl. Facelift 2021 und Facelift 2026)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 685,
+   "sourceUrl": "https://www.auto-motor-und-sport.de/test/seat-ibiza-und-seat-leon/technische-daten/",
+   "sourceType": "sonstige",
+   "evidence": "auto motor und sport Vergleich Seat Ibiza 1.0 TSI (1.0 EcoTSI Xcellence, Ibiza V) vs Leon 1.0 TSI: Ladekantenhöhe 685 mm (Ibiza)"
+  },
+  {
+   "model": "Leon Sportstourer",
+   "generation": "KL (Leon IV, inkl. Update 2024)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 660,
+   "sourceUrl": "https://www.auto-motor-und-sport.de/fahrbericht/kosten-realverbrauch-seat-leon-st-1-5-tsi-fr/technische-daten/",
+   "sourceType": "sonstige",
+   "evidence": "auto motor und sport, Seat Leon ST 1.5 TSI FR (Bauzeit 04/2020-03/2024, Testdatum 09/2023): Ladekantenhöhe 660 mm"
+  },
+  {
+   "model": "Leon Sportstourer",
+   "generation": "KL (Leon IV, inkl. Update 2024)",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1020,
+   "sourceUrl": "https://www.auto-motor-und-sport.de/fahrbericht/kosten-realverbrauch-seat-leon-st-1-5-tsi-fr/technische-daten/",
+   "sourceType": "sonstige",
+   "evidence": "auto motor und sport, Seat Leon ST 1.5 TSI FR technische Daten: Breite zwischen den Radkästen 1020 mm"
+  }
+ ],
+ "notFound": [
+  "Arona | KJ7 (inkl. Facelift 2021 und Facelift 2026) | loadSpace.widthMm",
+  "Arona | KJ7 (inkl. Facelift 2021 und Facelift 2026) | loadSpace.heightMm",
+  "Arona | KJ7 (inkl. Facelift 2021 und Facelift 2026) | loadSpace.openingHeightMm",
+  "Ateca | KH (Facelift 08/2020) | loadSpace.lengthMm",
+  "Ateca | KH (Facelift 08/2020) | loadSpace.widthMm",
+  "Ateca | KH (Facelift 08/2020) | loadSpace.heightMm",
+  "Ateca | KH (Facelift 08/2020) | loadSpace.openingHeightMm",
+  "Ateca | KH (Facelift 08/2020) | loadSpace.lengthFoldedMm",
+  "Ibiza | KJ (Ibiza V, inkl. Facelift 2021 und Facelift 2026) | loadSpace.lengthMm",
+  "Ibiza | KJ (Ibiza V, inkl. Facelift 2021 und Facelift 2026) | loadSpace.widthBetweenArchesMm",
+  "Ibiza | KJ (Ibiza V, inkl. Facelift 2021 und Facelift 2026) | loadSpace.widthMm",
+  "Ibiza | KJ (Ibiza V, inkl. Facelift 2021 und Facelift 2026) | loadSpace.heightMm",
+  "Ibiza | KJ (Ibiza V, inkl. Facelift 2021 und Facelift 2026) | loadSpace.openingHeightMm",
+  "Ibiza | KJ (Ibiza V, inkl. Facelift 2021 und Facelift 2026) | loadSpace.lengthFoldedMm",
+  "Leon | KL (Leon IV, inkl. Update 2024) | loadSpace.lengthMm",
+  "Leon | KL (Leon IV, inkl. Update 2024) | loadSpace.widthBetweenArchesMm",
+  "Leon | KL (Leon IV, inkl. Update 2024) | loadSpace.widthMm",
+  "Leon | KL (Leon IV, inkl. Update 2024) | loadSpace.heightMm",
+  "Leon | KL (Leon IV, inkl. Update 2024) | loadSpace.openingHeightMm",
+  "Leon | KL (Leon IV, inkl. Update 2024) | loadSpace.sillHeightMm",
+  "Leon | KL (Leon IV, inkl. Update 2024) | loadSpace.lengthFoldedMm",
+  "Leon Sportstourer | KL (Leon IV, inkl. Update 2024) | loadSpace.lengthMm",
+  "Leon Sportstourer | KL (Leon IV, inkl. Update 2024) | loadSpace.widthMm",
+  "Leon Sportstourer | KL (Leon IV, inkl. Update 2024) | loadSpace.heightMm",
+  "Leon Sportstourer | KL (Leon IV, inkl. Update 2024) | loadSpace.openingHeightMm",
+  "Leon Sportstourer | KL (Leon IV, inkl. Update 2024) | loadSpace.lengthFoldedMm"
+ ]
+}

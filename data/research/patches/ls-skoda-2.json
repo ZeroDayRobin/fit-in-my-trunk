@@ -1,0 +1,32 @@
+{
+ "id": "ls-skoda-2",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "Octavia Limousine",
+   "generation": "NX (4. Generation, inkl. Facelift 2024)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 697,
+   "sourceUrl": "https://www.skoda-media.de/model_motor/genpdf/26592/full",
+   "sourceType": "hersteller",
+   "evidence": "Skoda-Media data sheet 'Technische Daten Octavia Limousine 2024' (2.0 TDI DSG 110 kW): Ladekantenhöhe (bei Leergewicht) 697 mm. The 2023 Octavia Limousine petrol data sheet also gives 697 mm. The 2022 Octavia Limousine iV gives 709 mm."
+  },
+  {
+   "model": "Superb Limousine",
+   "generation": "3Y / B9 (4. Generation)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 712,
+   "sourceUrl": "https://www.skoda-media.de/model_motor/genpdf/26759/full",
+   "sourceType": "hersteller",
+   "evidence": "Skoda-Media 'Technische Daten Superb Limousine 2024': Ladekantenhöhe bei Leergewicht 712 mm (2.0 TDI DSG 4x4). The 1.5 TSI mHEV 110 kW sheet (genpdf/26768) gives the same 712 mm."
+  }
+ ],
+ "notFound": [
+  "Octavia Limousine | NX (4. Generation, inkl. Facelift 2024): loadSpace.lengthMm, loadSpace.widthBetweenArchesMm, loadSpace.widthMm, loadSpace.heightMm, loadSpace.openingHeightMm, loadSpace.lengthFoldedMm. No ADAC Autotest of the sedan turned up, and the Skoda data sheets give only the sill height.",
+  "Scala | NW (inkl. Facelift 2024): all loadSpace fields. ADAC Autotest PDFs exist (AT6634 Scala 1.5 TSI ACT Monte Carlo DSG, at6436 Scala 1.0 TSI Selection DSG), but the search snippets showed only the volumes (370 l / 585 l / 1070 l, ADAC-measured) and a step of about 17 cm, not the interior dimensions. No sill height was found from Skoda.",
+  "Superb Combi | 3Y / B9 (4. Generation): loadSpace.lengthMm, loadSpace.widthBetweenArchesMm, loadSpace.widthMm, loadSpace.heightMm, loadSpace.openingHeightMm, loadSpace.lengthFoldedMm. These are not in the Skoda data sheets, and the ADAC Autotest PDF was not reached. loadSpace.sillHeightMm was not patched: the Skoda-Media 2024 Combi data sheets give different values per engine (626 mm for 2.0 TDI 150 PS, 620 mm for 2.0 TSI, 605 mm for Sportline 2.0 TDI 200 PS), and the search results did not tie each value to a specific URL among genpdf/26531, 26673, 26541 and 26771.",
+  "Superb Limousine | 3Y / B9 (4. Generation): loadSpace.lengthMm, loadSpace.widthBetweenArchesMm, loadSpace.widthMm, loadSpace.heightMm, loadSpace.openingHeightMm, loadSpace.lengthFoldedMm. Not in the Skoda data sheets, and no ADAC Autotest of the sedan was found."
+ ]
+}

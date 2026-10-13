@@ -1,0 +1,99 @@
+{
+ "id": "ls-cupra",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "Formentor",
+   "generation": "KM (2020–, Facelift 2024)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 750,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6471-cupra-formentor-vz-20-tsi-extreme-dsg/cupra-formentor-vz-20-tsi-extreme-dsg.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest Cupra Formentor VZ 2.0 TSI Extreme DSG: the sill (Ladekante) is about 75 cm above the road. With the variable floor up, there is an 11 cm drop to the load floor."
+  },
+  {
+   "model": "Tavascan",
+   "generation": "1. Generation",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 740,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6574-cupra-tavascan-endurance/cupra-tavascan-endurance.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest Cupra Tavascan Endurance: 'Ladekante liegt bei 74 cm über der Straße'. There is an inner step of about 3 cm with the floor in its upper position. (auto motor und sport gives 630 mm, so the measurements disagree.)"
+  },
+  {
+   "model": "Tavascan",
+   "generation": "1. Generation",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1000,
+   "sourceUrl": "https://www.auto-motor-und-sport.de/test/cupra-tavascan-vz/technische-daten/",
+   "sourceType": "sonstige",
+   "evidence": "auto motor und sport test Cupra Tavascan VZ (07/2024), technical data/measurements: 'Breite zwischen den Radkästen 1000 mm'."
+  },
+  {
+   "model": "Born",
+   "generation": "1. Generation (Facelift 2026)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 770,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6429-cupra-born-vz/cupra-born-vz.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest Cupra Born VZ (pre-facelift): the Ladekante is 77 cm and the inner step is about 6.5 cm with the floor up. The ADAC facelift drive report (adac.de/.../cupra-born-fahrbericht/) says the interior space and cargo volume are unchanged in the facelift."
+  },
+  {
+   "model": "Terramar",
+   "generation": "KP",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 790,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-cupra-terramar-typ-kp-2024-bis/",
+   "sourceType": "sonstige",
+   "evidence": "kofferraum-check.de Kofferraum-Test Cupra Terramar (Typ KP): the Ladekante is 79 cm high, and the floor drops 2 cm behind the plastic edge. No ADAC Autotest measurement was found."
+  },
+  {
+   "model": "Terramar",
+   "generation": "KP",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1000,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-cupra-terramar-typ-kp-2024-bis/",
+   "sourceType": "sonstige",
+   "evidence": "kofferraum-check.de: the trunk is exactly 100 cm wide at its narrowest point between the wheel arches. Higher up, trim panels reduce the usable width to about 92 cm."
+  },
+  {
+   "model": "Terramar",
+   "generation": "KP",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1900,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-cupra-terramar-typ-kp-2024-bis/",
+   "sourceType": "sonstige",
+   "evidence": "kofferraum-check.de: maximum loading length up to 190 cm. As a maximum, this implies the rear bench folded."
+  }
+ ],
+ "notFound": [
+  "Born | 1. Generation (Facelift 2026) | loadSpace.lengthMm",
+  "Born | 1. Generation (Facelift 2026) | loadSpace.widthBetweenArchesMm",
+  "Born | 1. Generation (Facelift 2026) | loadSpace.widthMm",
+  "Born | 1. Generation (Facelift 2026) | loadSpace.heightMm",
+  "Born | 1. Generation (Facelift 2026) | loadSpace.openingHeightMm",
+  "Born | 1. Generation (Facelift 2026) | loadSpace.lengthFoldedMm",
+  "Formentor | KM (2020–, Facelift 2024) | loadSpace.lengthMm",
+  "Formentor | KM (2020–, Facelift 2024) | loadSpace.widthBetweenArchesMm",
+  "Formentor | KM (2020–, Facelift 2024) | loadSpace.widthMm",
+  "Formentor | KM (2020–, Facelift 2024) | loadSpace.heightMm",
+  "Formentor | KM (2020–, Facelift 2024) | loadSpace.openingHeightMm",
+  "Formentor | KM (2020–, Facelift 2024) | loadSpace.lengthFoldedMm",
+  "Tavascan | 1. Generation | loadSpace.lengthMm",
+  "Tavascan | 1. Generation | loadSpace.widthMm",
+  "Tavascan | 1. Generation | loadSpace.heightMm",
+  "Tavascan | 1. Generation | loadSpace.openingHeightMm",
+  "Tavascan | 1. Generation | loadSpace.lengthFoldedMm",
+  "Terramar | KP | loadSpace.lengthMm",
+  "Terramar | KP | loadSpace.widthMm",
+  "Terramar | KP | loadSpace.heightMm",
+  "Terramar | KP | loadSpace.openingHeightMm"
+ ]
+}

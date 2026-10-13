@@ -1,0 +1,37 @@
+{
+ "id": "ls-volkswagen-3",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "T-Cross",
+   "generation": "C1 Facelift (2024-)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 710,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at6419-vw-t-cross-10-tsi-opf-r-line-dsg-7-gang/vw-t-cross-10-tsi-opf-r-line-dsg-7-gang.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest VW T-Cross 1.0 TSI OPF R-Line DSG (AT6419, the current/facelift-era test): Ladekante 71 cm above the road; the inner step to the floor is about 2 cm with the load floor up and about 17 cm with it down. The ADAC model page gives 72 cm, so the sources disagree by 1 cm."
+  },
+  {
+   "model": "Tiguan",
+   "generation": "3. Generation (ab 2024)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 740,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-volkswagen-vw-tiguan-ab-2024/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Check test 'Volkswagen VW Tiguan ab 2024': Ladekantenhöhe 74 cm, then about 1 cm further down behind the sill. The load floor cannot be lowered because of the subwoofer."
+  }
+ ],
+ "notFound": [
+  "T-Cross | C1 Facelift (2024-): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm (only ADAC measured volume 310 l and sill height found)",
+  "T-Roc | 2. Generation (2025-): all loadSpace fields. kofferraum.org gives about 101 cm wide x 78 cm long, but which generation it covers is unclear and the site is not reliable",
+  "T-Roc Cabriolet | A1 Cabriolet (2020-, Facelift 2022): all loadSpace fields (nothing found)",
+  "Taigo | CS (2021-): all loadSpace fields. A sill height of 76 cm appears only in a motor-talk forum post attributed to ADAC, so it is not reported; kofferraum.org gives only relative comparisons",
+  "Tayron | 1. Generation (ab 2025): all loadSpace fields (nothing found)",
+  "Tiguan | 3. Generation (ab 2024): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm. Only a forum post and the unreliable kofferraum.org give widths and lengths (about 100-101 cm wide, 88-90 cm long), so they are not reported",
+  "Tiguan Allspace | BW2 (inkl. Facelift 2021): all loadSpace fields (nothing found)",
+  "Touareg | CR (3. Generation, inkl. Facelift 2023): all loadSpace fields (only volumes found: 445/845/1500 l, source of the table unclear)",
+  "Touran | 5T (2. Generation): all loadSpace fields. A motor-talk thread quotes 1145/1744 mm length and 1050 mm between the wheel arches from touran.de, but these figures probably belong to the 1st generation (1T), so they are not reported"
+ ]
+}

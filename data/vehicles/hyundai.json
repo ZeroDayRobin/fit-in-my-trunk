@@ -383,7 +383,16 @@
      "wheelbaseMm": 2580,
      "trunkL": 280,
      "trunkFoldedL": 1059,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": 340,
+      "openingHeightMm": 750,
+      "sillHeightMm": 780,
+      "lengthFoldedMm": null,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "cross-49-kwh",
@@ -447,6 +456,18 @@
       {
        "url": "https://kofferraum-check.de/eautos/kofferraum-test-hyundai-inster/",
        "what": "Trunk check"
+      },
+      {
+       "url": "https://kofferraum-check.de/eautos/kofferraum-test-hyundai-inster/",
+       "what": "Fachpresse: loadSpace.sillHeightMm = 780 – Kofferraum-Test Hyundai Inster: 'Die Ladekante befindet sich in einer Höhe von 78 cm, wobei sie nach innen hin um weitere 7 cm absinkt.' (ADAC-Test nennt nur 'hohe Ladekante' ohne Zahl)"
+      },
+      {
+       "url": "https://kofferraum-check.de/eautos/kofferraum-test-hyundai-inster/",
+       "what": "Fachpresse: loadSpace.openingHeightMm = 750 – Kofferraum-Test Hyundai Inster: Laderaum an der Öffnung 75 cm hoch."
+      },
+      {
+       "url": "https://kofferraum-check.de/eautos/kofferraum-test-hyundai-inster/",
+       "what": "Fachpresse: loadSpace.heightMm = 340 – Kofferraum-Test Hyundai Inster: Höhe bis zur Sichtschutzabdeckung 34 cm."
       }
      ],
      "confidence": "medium",
@@ -796,9 +817,9 @@
      "lengthMm": 4165,
      "widthMm": 1800,
      "heightMm": 1565,
-     "wheelbaseMm": null,
+     "wheelbaseMm": 2600,
      "trunkL": 374,
-     "trunkFoldedL": null,
+     "trunkFoldedL": 1143,
      "loadSpace": null,
      "variants": [
       {
@@ -859,6 +880,14 @@
       {
        "url": "https://www.autozeitung.de/hyundai-kona-elektro-2023-fahrbericht-204413.html",
        "what": "Predecessor Elektro 336 l"
+      },
+      {
+       "url": "https://www.hyundai.news/newsroom/dam/de/Pressemappen/Kona/Hyundai_Kona_2020_3_Technische_Daten.pdf",
+       "what": "Hersteller: wheelbaseMm = 2600 – Hyundai Pressemappe Kona Technische Daten: Radstand 2600 mm (same in 2017 launch press release)"
+      },
+      {
+       "url": "https://www.hyundai.news/newsroom/dam/de/Pressemappen/Kona/Hyundai_Kona_2020_3_Technische_Daten.pdf",
+       "what": "Hersteller: trunkFoldedL = 1143 – Hyundai Pressemappe Kona Technische Daten: Gepäckraumvolumen 361-1143 l (VDA), Benziner/Diesel"
       }
      ],
      "confidence": "low",
@@ -887,7 +916,16 @@
      "wheelbaseMm": 2680,
      "trunkL": 620,
      "trunkFoldedL": 1799,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": 740,
+      "sillHeightMm": 730,
+      "lengthFoldedMm": 1530,
+      "source": "Fachpresse + ADAC"
+     },
      "variants": [
       {
        "id": "1-6-t-gdi-benziner",
@@ -989,6 +1027,18 @@
       {
        "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-hyundai-tucson/",
        "what": "2025 Tucson manufacturer value 546/1725 l, measured 410 l"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-hyundai-tucson/",
+       "what": "Fachpresse: loadSpace.openingHeightMm = 740 – Kofferraum-Test Hyundai Tucson 1.6 T-GDI Hybrid: Breite der Ladeöffnung 103 cm, Höhe der Ladeöffnung 74 cm."
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-hyundai-tucson/",
+       "what": "Fachpresse: loadSpace.lengthFoldedMm = 1530 – Kofferraum-Test Hyundai Tucson 1.6 T-GDI Hybrid: Kofferraumtiefe mit umgelegter 2. Sitzreihe 153 cm (bis vorgeschobenem Beifahrersitz 188 cm)."
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at6466-hyundai-tucson-16-t-gdi-plug-in-hybrid-prime-allrad-automatik/hyundai-tucson-16-t-gdi-plug-in-hybrid-prime-allrad-automatik.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 730 – ADAC Autotest Tucson 1.6 T-GDI Plug-in-Hybrid Prime Allrad: Ladekante liegt 73 cm über der Straße; innen sind Kofferraumboden und Ladekante in einer Ebene."
       }
      ],
      "confidence": "medium",

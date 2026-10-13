@@ -18,7 +18,16 @@
      "wheelbaseMm": 2755,
      "trunkL": 1213,
      "trunkFoldedL": 2556,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": 1100,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": null,
+      "lengthFoldedMm": 1780,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "1-5-tsi-114-ps",
@@ -123,6 +132,14 @@
       {
        "url": "https://www.vehiclesizes.com/compare/4416-4418/volkswagen-caddy-maxi-v-minivan-2021-vs-volkswagen-caddy-v-minivan-2021/",
        "what": "Caddy V length 4,500 mm; width 1,855 mm"
+      },
+      {
+       "url": "https://www.vw-nutzfahrzeuge.at/caddy/caddy/technische-daten/life",
+       "what": "Hersteller: loadSpace.lengthMm = 1100 – VW technical data Caddy Life: 'Gepäckraumbodenlänge hinter 2. Sitzreihe in mm | 1.100' (Maxi: 1.452)"
+      },
+      {
+       "url": "https://www.vw-nutzfahrzeuge.at/caddy/caddy/technische-daten/life",
+       "what": "Hersteller: loadSpace.lengthFoldedMm = 1780 – VW technical data Caddy Life: 'Gepäckraumbodenlänge hinter 1. Sitzreihe in mm | 1.780' (Maxi: 2.136)"
       }
      ],
      "confidence": "medium",
@@ -151,7 +168,16 @@
      "wheelbaseMm": 2970,
      "trunkL": 1720,
      "trunkFoldedL": 3105,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": 1452,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": null,
+      "lengthFoldedMm": 2136,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "1-5-tsi-114-ps",
@@ -264,6 +290,14 @@
       {
        "url": "https://kofferraum.org/volumen/vw/caddy-maxi/",
        "what": "Outlier 600 l (not used)"
+      },
+      {
+       "url": "https://www.vw-nutzfahrzeuge.at/caddy/caddy/technische-daten/life-maxi",
+       "what": "Hersteller: loadSpace.lengthMm = 1452 – VW technical data Caddy Life / Life Maxi table: 'Gepäckraumbodenlänge hinter 2. Sitzreihe in mm | 1.100 | 1.452' (Maxi = 1.452)"
+      },
+      {
+       "url": "https://www.vw-nutzfahrzeuge.at/caddy/caddy/technische-daten/life-maxi",
+       "what": "Hersteller: loadSpace.lengthFoldedMm = 2136 – VW technical data Caddy Life / Life Maxi table: 'Gepäckraumbodenlänge hinter 1. Sitzreihe in mm | 1.780 | 2.136' (Maxi = 2.136)"
       }
      ],
      "confidence": "medium",
@@ -292,7 +326,16 @@
      "wheelbaseMm": 2620,
      "trunkL": 381,
      "trunkFoldedL": 1237,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 680,
+      "lengthFoldedMm": null,
+      "source": "ADAC"
+     },
      "variants": [
       {
        "id": "1-5-tsi-benziner",
@@ -413,6 +456,10 @@
       {
        "url": "https://www.carwow.de/volkswagen/golf-r/technische-daten",
        "what": "Golf R trunk 341-374 l (conflicting)"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at6463-vw-golf-15-tsi-life/vw-golf-15-tsi-life.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 680 – ADAC Autotest VW Golf 1.5 TSI Life (facelift, 2024): loading edge 68 cm above the road (ADAC measured; eHybrid test at6565 gives 69 cm)"
       }
      ],
      "confidence": "high",
@@ -695,7 +742,16 @@
      "wheelbaseMm": 2669,
      "trunkL": 611,
      "trunkFoldedL": 1642,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 610,
+      "lengthFoldedMm": null,
+      "source": "ADAC"
+     },
      "variants": [
       {
        "id": "1-5-tsi-benziner",
@@ -774,6 +830,10 @@
       {
        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/vw-golf-variant/",
        "what": "ADAC: facelift leaves dimensions and space unchanged; R 4MOTION 4651x1789x1462 mm, 611 l"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6490-vw-golf-variant-r-4motion-dsg/vw-golf-variant-r-4motion-dsg.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 610 – ADAC Autotest Golf Variant R 4MOTION DSG (Mk8, 4.651 mm long): 'Die Ladekante liegt 61 cm über der Straße und damit sehr günstig.' (ADAC measured)"
       }
      ],
      "confidence": "high",
@@ -1680,7 +1740,16 @@
      "wheelbaseMm": 2971,
      "trunkL": 532,
      "trunkFoldedL": 1586,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": 1000,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 700,
+      "lengthFoldedMm": 1948,
+      "source": "Hersteller + ADAC"
+     },
      "variants": [
       {
        "id": "pro-286-ps",
@@ -1744,6 +1813,18 @@
       {
        "url": "https://www.volkswagen-newsroom.com/de/pressemitteilungen/der-neue-vollelektrische-id7-ist-ab-sofort-bestellbar-17554",
        "what": "Bestellstart ID.7 in Deutschland (2023)"
+      },
+      {
+       "url": "https://www.volkswagen.de/de/modelle/id7.html/__ui/technische-daten.app",
+       "what": "Hersteller: loadSpace.widthBetweenArchesMm = 1000 – VW technische Daten ID.7: Breite zwischen den Radkästen 1.000 mm (also listed by auto-motor-und-sport technical data for ID.7 Pro)"
+      },
+      {
+       "url": "https://www.volkswagen.de/de/modelle/id7.html/__ui/technische-daten.app",
+       "what": "Hersteller: loadSpace.lengthFoldedMm = 1948 – VW technische Daten ID.7: Ladelänge bis 1. Sitzreihe (Rückbank umgeklappt) 1.948 mm"
+      },
+      {
+       "url": "https://www.volkswagen.de/idhub/content/dam/onehub_master/pc/models/id-7/ADAC%20Testbericht%20VW%20ID.7Pro.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 700 – ADAC Autotest VW ID.7 Pro: Ladekante liegt bei rund 70 cm (measured by ADAC)"
       }
      ],
      "confidence": "medium",
@@ -1772,7 +1853,16 @@
      "wheelbaseMm": 2971,
      "trunkL": 605,
      "trunkFoldedL": 1714,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": 1074,
+      "widthMm": null,
+      "widthBetweenArchesMm": 1000,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 680,
+      "lengthFoldedMm": 1948,
+      "source": "Fachpresse + ADAC"
+     },
      "variants": [
       {
        "id": "pure-170-ps",
@@ -1863,6 +1953,22 @@
       {
        "url": "https://www.mobile.de/auto/vw/id7/serie/",
        "what": "Tourer 605-1714 l"
+      },
+      {
+       "url": "https://www.carwow.de/volkswagen/id7-tourer-gtx",
+       "what": "Fachpresse: loadSpace.lengthMm = 1074 – Carwow ID.7 Tourer: Ladeboden-Länge 1.074 mm (Rücksitze aufrecht)"
+      },
+      {
+       "url": "https://www.carwow.de/volkswagen/id7-tourer-gtx",
+       "what": "Fachpresse: loadSpace.widthBetweenArchesMm = 1000 – Carwow ID.7 Tourer: Kofferraumbreite genau ein Meter (1.000 mm)"
+      },
+      {
+       "url": "https://www.carwow.de/volkswagen/id7-tourer-gtx",
+       "what": "Fachpresse: loadSpace.lengthFoldedMm = 1948 – Carwow ID.7 Tourer: Ladelänge wächst bei umgeklappten Rücksitzen auf 1.948 mm"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at6459-vw-id7-tourer-gtx-4motion/vw-id7-tourer-gtx-4motion.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 680 – ADAC Autotest VW ID.7 Tourer GTX 4MOTION: Ladekante rund 68 cm über der Straße (ADAC measurement)"
       }
      ],
      "confidence": "medium",
@@ -2007,7 +2113,7 @@
      "widthMm": 1941,
      "heightMm": 1907,
      "wheelbaseMm": 3124,
-     "trunkL": null,
+     "trunkL": 763,
      "trunkFoldedL": 4053,
      "loadSpace": null,
      "variants": [
@@ -2080,6 +2186,10 @@
       {
        "url": "https://www.auto-motor-und-sport.de/test/vw-multivan-e-hybrid/technische-daten/",
        "what": "Width/height/wheelbase of the T7 (short version)"
+      },
+      {
+       "url": "https://www.motormobiles.de/fahrbericht-vw-multivan-ehybrid-4motion-langversion-modelljahr-2026/",
+       "what": "Fachpresse: trunkL = 763 – The long version holds 763 l with all seats in place, behind row 3; the short version holds 469 l. The search summary did not say which of its sources gave this figure, so the URL attribution is uncertain."
       }
      ],
      "confidence": "low",
@@ -2105,7 +2215,7 @@
      "lengthMm": 4780,
      "widthMm": 1853,
      "heightMm": 1527,
-     "wheelbaseMm": null,
+     "wheelbaseMm": 2788,
      "trunkL": 639,
      "trunkFoldedL": 1769,
      "loadSpace": null,
@@ -2176,6 +2286,10 @@
       {
        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8/297961",
        "what": "Vor-Facelift-Alltrack (03/19-05/19): 4777 x 1832 x 1506 mm, Radstand 2789 mm, 639/1769 l (Vergleich)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/315529/",
+       "what": "ADAC: wheelbaseMm = 2788 – ADAC Autokatalog VW Passat Alltrack 2.0 TDI SCR 4MOTION DSG (09/20-11/23): Radstand 2788 mm"
       }
      ],
      "confidence": "medium",
@@ -2198,10 +2312,10 @@
      "yearFrom": 2019,
      "yearTo": 2021,
      "bodyType": "sedan",
-     "lengthMm": null,
-     "widthMm": null,
-     "heightMm": null,
-     "wheelbaseMm": null,
+     "lengthMm": 4775,
+     "widthMm": 1832,
+     "heightMm": 1456,
+     "wheelbaseMm": 2791,
      "trunkL": 586,
      "trunkFoldedL": 1152,
      "loadSpace": null,
@@ -2257,6 +2371,22 @@
       {
        "url": "https://en.wikipedia.org/wiki/Volkswagen_Passat_(B8)",
        "what": "Limousine gebaut bis 12/2021"
+      },
+      {
+       "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mittelklasse/passat-b8.html",
+       "what": "Hersteller: widthMm = 1832 – VW Passat B8 overview: Breite ohne Spiegel 1.832 mm, mit Spiegeln 2.083 mm"
+      },
+      {
+       "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mittelklasse/passat-b8.html",
+       "what": "Hersteller: heightMm = 1456 – VW Passat B8 overview: 'Höhe (bei geschlossenem Kofferraum, ohne Antenne, ohne Dachreling): 1456 mm (Passat Variant: 1477 mm)'"
+      },
+      {
+       "url": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mittelklasse/passat-b8.html",
+       "what": "Hersteller: wheelbaseMm = 2791 – VW Passat B8 overview gives Radstand 2791 mm. auto-data.net lists 2,786 mm."
+      },
+      {
+       "url": "https://www.auto-data.net/en/volkswagen-passat-b8-facelift-2019-generation-7177",
+       "what": "Fachpresse: lengthMm = 4775 – auto-data.net Passat (B8, facelift 2019) sedan: Length 4775 mm"
       }
      ],
      "confidence": "low",
@@ -2285,7 +2415,16 @@
      "wheelbaseMm": 2837,
      "trunkL": 690,
      "trunkFoldedL": 1920,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 620,
+      "lengthFoldedMm": null,
+      "source": "ADAC"
+     },
      "variants": [
       {
        "id": "2-0-tsi-4motion-204-ps-dsg",
@@ -2464,6 +2603,10 @@
       {
        "url": "https://www.autohled.cz/de/a/volkswagen/passat-variant/variant-1-5-ehybrid-dsg-2760026",
        "what": "eHybrid (150 kW und 200 kW) jeweils 510 l"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6517-vw-passat-variant-15-ehybrid-dsg/vw-passat-variant-15-ehybrid-dsg.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 620 – ADAC Autotest Passat Variant (B9): 'Die Ladekante liegt mit rund 62 cm angenehm niedrig und erleichtert damit das Beladen.'"
       }
      ],
      "confidence": "high",
@@ -2762,7 +2905,16 @@
      "wheelbaseMm": 2551,
      "trunkL": 455,
      "trunkFoldedL": 1281,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 710,
+      "lengthFoldedMm": null,
+      "source": "ADAC"
+     },
      "variants": [
       {
        "id": "1-0-tsi-95-ps-6-gang",
@@ -2838,6 +2990,10 @@
       {
        "url": "https://de.motor1.com/news/675118/vw-tcross-facelift-infos-2024/",
        "what": "Length 4135 mm, +27 mm over the predecessor"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at6419-vw-t-cross-10-tsi-opf-r-line-dsg-7-gang/vw-t-cross-10-tsi-opf-r-line-dsg-7-gang.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 710 – ADAC Autotest VW T-Cross 1.0 TSI OPF R-Line DSG (AT6419, the current/facelift-era test): Ladekante 71 cm above the road; the inner step to the floor is about 2 cm with the load floor up and about 17 cm with it down. The ADAC model page gives 72 cm, so the sources"
       }
      ],
      "confidence": "high",
@@ -2997,9 +3153,9 @@
      "yearTo": null,
      "bodyType": "suv",
      "lengthMm": 4373,
-     "widthMm": null,
-     "heightMm": null,
-     "wheelbaseMm": null,
+     "widthMm": 1828,
+     "heightMm": 1562,
+     "wheelbaseMm": 2631,
      "trunkL": 475,
      "trunkFoldedL": 1350,
      "loadSpace": null,
@@ -3078,6 +3234,18 @@
       {
        "url": "https://www.autoscout24.at/auto/vw/vw-t-roc",
        "what": "Launch engines 1.5 eTSI 116/150 PS with 7-speed DSG; full hybrids from 2026"
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/the-new-t-roc-world-premiere-19761/design-and-dimensions-19763",
+       "what": "Hersteller: widthMm = 1828 – VW press kit, world premiere 08/2025: 'The new T-Roc is 1,828 mm (+9 mm) wide (without exterior mirrors)'"
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/the-new-t-roc-world-premiere-19761/design-and-dimensions-19763",
+       "what": "Hersteller: heightMm = 1562 – VW press kit, world premiere 08/2025: '... and 1,562 mm (+9 mm) tall'. The volkswagen.de model page gives 1,573 mm, possibly measured with roof rails."
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/en/the-new-t-roc-world-premiere-19761/design-and-dimensions-19763",
+       "what": "Hersteller: wheelbaseMm = 2631 – VW press kit, world premiere 08/2025: '2,631 mm (+28 mm) between the alloy wheels' (wheelbase). The VW UK tech data page gives 2,629 mm."
       }
      ],
      "confidence": "medium",
@@ -3255,7 +3423,7 @@
      "lengthMm": 4234,
      "widthMm": 1819,
      "heightMm": 1573,
-     "wheelbaseMm": null,
+     "wheelbaseMm": 2590,
      "trunkL": 445,
      "trunkFoldedL": 1290,
      "loadSpace": null,
@@ -3390,6 +3558,10 @@
       {
        "url": "https://www.carbuyer.co.uk/volkswagen/t-roc/303621/new-2022-volkswagen-t-roc-facelift-unveiled",
        "what": "Engine range unchanged at the facelift: 1.0 TSI 110 PS, 1.5 TSI 150 PS, 2.0 TSI 190 PS, 2.0 TDI 115/150 PS; 4MOTION on the stronger engines (UK figures in bhp)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/1generation/284313/",
+       "what": "ADAC: wheelbaseMm = 2590 – ADAC Autokatalog VW T-Roc 1.5 TSI ACT Style (11/17-08/18), also 1.0 TSI Style: Radstand 2590 mm. AMS gives 2593 mm for the 4MOTION versions."
       }
      ],
      "confidence": "medium",
@@ -3602,7 +3774,7 @@
      "heightMm": 1666,
      "wheelbaseMm": 2789,
      "trunkL": 885,
-     "trunkFoldedL": null,
+     "trunkFoldedL": 2090,
      "loadSpace": null,
      "variants": [
       {
@@ -3735,6 +3907,10 @@
       {
        "url": "https://www.carwow.de/volkswagen/tayron/technische-daten",
        "what": "Combustion versions 885 l trunk; optional third row not available for the hybrid"
+      },
+      {
+       "url": "https://www.volkswagen-newsroom.com/de/pressemitteilungen/weltpremiere-des-neuen-tayron-suv-allrounder-mit-bis-zu-sieben-sitzplaetzen-18714/download",
+       "what": "Hersteller: trunkFoldedL = 2090 – VW data for the five-seater: 885 l with seats up, up to 2,090 l with the rear seats folded (largest volume behind row 1). The eHybrid is 705/1,915 l."
       }
      ],
      "confidence": "medium",
@@ -3763,7 +3939,16 @@
      "wheelbaseMm": 2680,
      "trunkL": 652,
      "trunkFoldedL": 1650,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 740,
+      "lengthFoldedMm": null,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "2-0-tsi-4motion-204-ps-dsg",
@@ -3926,6 +4111,10 @@
       {
        "url": "https://de.motor1.com/news/695479/vw-tiguan-abmessungen-kofferraum-2023/",
        "what": "Rounded dimensions (4540 x 1840 x 1670 mm, wheelbase 2680), 652 l"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-volkswagen-vw-tiguan-ab-2024/",
+       "what": "Fachpresse: loadSpace.sillHeightMm = 740 – Kofferraum-Check test 'Volkswagen VW Tiguan ab 2024': Ladekantenhöhe 74 cm, then about 1 cm further down behind the sill. The load floor cannot be lowered because of the subwoofer."
       }
      ],
      "confidence": "high",
@@ -4317,12 +4506,12 @@
      "yearFrom": 2017,
      "yearTo": 2024,
      "bodyType": "suv",
-     "lengthMm": null,
-     "widthMm": null,
-     "heightMm": null,
-     "wheelbaseMm": null,
-     "trunkL": null,
-     "trunkFoldedL": null,
+     "lengthMm": 4701,
+     "widthMm": 1839,
+     "heightMm": 1674,
+     "wheelbaseMm": 2787,
+     "trunkL": 760,
+     "trunkFoldedL": 1920,
      "loadSpace": null,
      "variants": [
       {
@@ -4368,6 +4557,30 @@
       {
        "url": "https://www.carwow.de/volkswagen/tiguan-allspace/technische-daten",
        "what": "Technical data page found but contents not retrieved"
+      },
+      {
+       "url": "https://www.promobil.de/wohnwagen/zugwagen/zugwagen-test-vw-tiguan-allspace-2-0-tsi/",
+       "what": "Fachpresse: wheelbaseMm = 2787 – promobil Zugwagen-Test VW Tiguan Allspace 2.0 TSI: Radstand 2787 mm. AutoScout24 and some dealer pages give 2,789 mm."
+      },
+      {
+       "url": "https://de.motor1.com/news/506567/vw-tiguan-allspace-facelift-2021/",
+       "what": "Fachpresse: trunkL = 760 – Motor1 (Allspace facelift 2021): five-seater 760 to 1,920 l, seven-seater 700 to 1,755 l. The value is 760 l with five seats up."
+      },
+      {
+       "url": "https://de.motor1.com/news/506567/vw-tiguan-allspace-facelift-2021/",
+       "what": "Fachpresse: trunkFoldedL = 1920 – Motor1 (Allspace facelift 2021): five-seater 760 to 1,920 l, so 1,920 l with the rear seats folded"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii/282443/",
+       "what": "ADAC: lengthMm = 4701 – ADAC Autokatalog Tiguan Allspace 2.0 TDI SCR Highline 4MOTION DSG (09/17-08/18): Länge 4701 mm. This is the pre-facelift value; the facelift is about 4,728 mm per carwow and AUTODOC."
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii/282443/",
+       "what": "ADAC: widthMm = 1839 – ADAC Autokatalog Tiguan Allspace 2.0 TDI Highline 4MOTION DSG (09/17-08/18): Breite 1839 mm ohne Spiegel (2099 mm mit Spiegeln)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii/282443/",
+       "what": "ADAC: heightMm = 1674 – ADAC Autokatalog Tiguan Allspace 2.0 TDI Highline 4MOTION DSG (09/17-08/18): Höhe 1674 mm"
       }
      ],
      "confidence": "low",
@@ -4393,9 +4606,9 @@
      "lengthMm": 4902,
      "widthMm": 1984,
      "heightMm": 1712,
-     "wheelbaseMm": null,
-     "trunkL": null,
-     "trunkFoldedL": null,
+     "wheelbaseMm": 2899,
+     "trunkL": 810,
+     "trunkFoldedL": 1800,
      "loadSpace": null,
      "variants": [
       {
@@ -4464,6 +4677,18 @@
       {
        "url": "https://kofferraum.org/masse/vw/touareg/",
        "what": "Rounded 490 x 198 x 171 cm; claims manufacturer trunk 655 l and measured up to 810 l (unreliable, not used)"
+      },
+      {
+       "url": "https://www.volkswagen.at/touareg/touareg/technische-daten/r-line",
+       "what": "Hersteller: wheelbaseMm = 2899 – Volkswagen Österreich technical data, Touareg R-Line: Radstand 2.899 mm"
+      },
+      {
+       "url": "https://www.carwow.de/volkswagen/touareg/technische-daten",
+       "what": "Fachpresse: trunkL = 810 – carwow: 'Gepäckraumvolumen von 810 Litern im normalen Zustand', up to 1,800 l with the rear bench folded. The Touareg R eHybrid is 665/1,675 l."
+      },
+      {
+       "url": "https://www.carwow.de/volkswagen/touareg/technische-daten",
+       "what": "Fachpresse: trunkFoldedL = 1800 – carwow: up to 1,800 l to the roof with the rear bench folded. angurten.de also gives 810 / 1,800 l."
       }
      ],
      "confidence": "low",

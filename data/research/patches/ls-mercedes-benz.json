@@ -1,0 +1,137 @@
+{
+ "id": "ls-mercedes-benz",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "C-Klasse T-Modell",
+   "generation": "S206",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 789,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2036-mercedes-benz-c-klasse-t-modell",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de (derived from Mercedes dimension drawings of the C 200 T-Modell): 'Ladelänge bis Rücksitze 789 mm'"
+  },
+  {
+   "model": "C-Klasse T-Modell",
+   "generation": "S206",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1872,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2036-mercedes-benz-c-klasse-t-modell",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de: 'Ladelänge bis Vordersitze 1.872 mm' (C 200 T-Modell graphics). Note: kofferraum-check.de measured 165 cm loading depth with the rear bench folded."
+  },
+  {
+   "model": "C-Klasse T-Modell",
+   "generation": "S206",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 930,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-mercedes-benz-c-klasse-t-modell-typ-s206-2021-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Check (C 220 d 4MATIC T-Modell) measured: narrowest width 93 cm (between the wheel arches)"
+  },
+  {
+   "model": "C-Klasse T-Modell",
+   "generation": "S206",
+   "variant": null,
+   "field": "loadSpace.widthMm",
+   "value": 1090,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-mercedes-benz-c-klasse-t-modell-typ-s206-2021-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Check (C 220 d 4MATIC T-Modell) measured: 109 cm width behind the wheel arches"
+  },
+  {
+   "model": "C-Klasse T-Modell",
+   "generation": "S206",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 620,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-mercedes-benz-c-klasse-t-modell-typ-s206-2021-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Check (C 220 d 4MATIC T-Modell): Ladekantenhöhe 62 cm"
+  },
+  {
+   "model": "E-Klasse T-Modell",
+   "generation": "S214",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 936,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2115-mercedes-benz-e-klasse-t-modell",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de (from graphics of the E 220 d T-Modell): 'Ladelänge bis Rücksitze · 936 mm · -239 mm · 1.175 mm' (vs. predecessor S213)"
+  },
+  {
+   "model": "E-Klasse T-Modell",
+   "generation": "S214",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 2008,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2115-mercedes-benz-e-klasse-t-modell",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de: 'Ladelänge bis Vordersitze · 2.008 mm · +3 mm · 2.005 mm'"
+  },
+  {
+   "model": "E-Klasse T-Modell",
+   "generation": "S214",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 579,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2115-mercedes-benz-e-klasse-t-modell",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de (E 220 d T-Modell graphics): 'Höhe der Ladekante 579 mm'. Note: the PHEV has a higher sill (Kofferraum-Check measured 67 cm)."
+  },
+  {
+   "model": "E-Klasse T-Modell",
+   "generation": "S214",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1100,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-mercedes-benz-e-klasse-t-modell-phev-s214-2024-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Check test of the E-Klasse T-Modell PHEV (S214): 110 cm at the narrowest point (measured on the PHEV, same body)"
+  },
+  {
+   "model": "A-Klasse Kompaktlimousine",
+   "generation": "W177 (Mopf 2023)",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 822,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/1727-mercedes-benz-a-klasse",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de, Mercedes-Benz A-Klasse (W 177) (2026): Ladelänge bis Rücksitze 822 mm"
+  },
+  {
+   "model": "A-Klasse Kompaktlimousine",
+   "generation": "W177 (Mopf 2023)",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1327,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/1727-mercedes-benz-a-klasse",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de, Mercedes-Benz A-Klasse (W 177) (2026): Ladelänge bis Vordersitze 1.327 mm"
+  },
+  {
+   "model": "CLA",
+   "generation": "C174 / C178 (3. Generation)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 770,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at6559-mercedes-benz-cla-coupe-250plus-eq-progressive/mercedes-benz-cla-coupe-250plus-eq-progressive.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest CLA Coupé 250+ EQ Progressive: 'Die Ladekante liegt mit knapp 77 cm hoch über der Fahrbahn, innen stört zudem die 18 cm hohe Stufe zwischen Ladekante und Boden.' (Kofferraum-Check measured 79 cm)"
+  }
+ ],
+ "notFound": [
+  "A-Klasse Kompaktlimousine | W177 (Mopf 2023): loadSpace.widthBetweenArchesMm, loadSpace.widthMm, loadSpace.heightMm, loadSpace.openingHeightMm, loadSpace.sillHeightMm",
+  "A-Klasse Limousine | V177: all loadSpace fields (the angurten.de V177 page showed no loading-length values in the results)",
+  "C-Klasse Limousine | W206: all loadSpace fields",
+  "C-Klasse T-Modell | S206: loadSpace.heightMm, loadSpace.openingHeightMm",
+  "CLA | C174 / C178 (3. Generation): loadSpace.lengthMm, loadSpace.widthBetweenArchesMm, loadSpace.widthMm, loadSpace.heightMm, loadSpace.openingHeightMm, loadSpace.lengthFoldedMm (only owner-measured forum figures were found: about 99-100 cm width and 103.5 cm depth, so they were not used)",
+  "CLA Shooting Brake | X174 (elektrisch): all loadSpace fields",
+  "E-Klasse T-Modell | S214: loadSpace.widthMm, loadSpace.heightMm, loadSpace.openingHeightMm",
+  "GLA | 3. Generation (2026, elektrisch): all loadSpace fields",
+  "GLB | X248: all loadSpace fields. angurten.de's 'GLB 2026' page lists 771 mm to the rear seats, 1,687 mm to the front seats and a 740 mm sill, but the old X247 page has the same loading lengths, so the figures look copied from the predecessor and were not used"
+ ]
+}

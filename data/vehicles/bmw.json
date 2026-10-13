@@ -18,7 +18,16 @@
      "wheelbaseMm": 2670,
      "trunkL": 380,
      "trunkFoldedL": 1200,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": 1010,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": null,
+      "lengthFoldedMm": 1360,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "116-118-benziner-ohne-mildhybrid",
@@ -124,6 +133,14 @@
       {
        "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-check-bmw-1er-f70-2024-bis/",
        "what": "120 MHEV 300/1135 L"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-check-bmw-1er-f70-2024-bis/",
+       "what": "Fachpresse: loadSpace.widthBetweenArchesMm = 1010 – Kofferraum-Check BMW 120 M Sport (F70): Kofferraumbreite (zwischen Radkästen) 101 cm"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-check-bmw-1er-f70-2024-bis/",
+       "what": "Fachpresse: loadSpace.lengthFoldedMm = 1360 – Kofferraum-Check BMW 120 (F70): Ladetiefe bei umgelegter Rückbank 136 cm (160 cm mit vorgeschobenem Beifahrersitz)"
       }
      ],
      "confidence": "medium",
@@ -141,7 +158,7 @@
      "yearTo": 2024,
      "bodyType": "hatchback",
      "lengthMm": 4319,
-     "widthMm": null,
+     "widthMm": 1799,
      "heightMm": 1434,
      "wheelbaseMm": 2670,
      "trunkL": 380,
@@ -214,6 +231,10 @@
       {
        "url": "https://de.wikipedia.org/wiki/BMW_F70",
        "what": "Wheelbase unchanged from F40 at 2670 mm"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0296068DE/441771",
+       "what": "Hersteller: widthMm = 1799 – BMW Medieninformation 05/2019 (neuer BMW 1er): Länge 4319 mm, Breite 1799 mm (+34 mm), Höhe 1434 mm, Radstand 2670 mm. Breite ohne Außenspiegel (angurten.de: 1799 ohne / 2081 mm mit Spiegeln)."
       }
      ],
      "confidence": "medium",
@@ -404,8 +425,8 @@
        "powertrain": "phev",
        "powerPs": null,
        "awd": true,
-       "trunkL": null,
-       "trunkFoldedL": null,
+       "trunkL": 400,
+       "trunkFoldedL": 1350,
        "lengthMm": null,
        "widthMm": null,
        "heightMm": null,
@@ -434,6 +455,14 @@
       {
        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/2er-reihe-active-gran-tourer/f45-f46/240388/",
        "what": "ADAC 218i (pre-facelift)"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/asia/article/attachment/T0274617EN/394439",
+       "what": "Hersteller: trunkL (225xe iPerformance (Plug-in-Hybrid)) = 400 – BMW media information sheet for the 225xe Active Tourer: luggage compartment capacity 400–1350 ltr. The ADAC Autokatalog entry for the 225xe iPerformance Active Tourer (03/16–02/18) also lists 400 l normal."
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/asia/article/attachment/T0274617EN/394439",
+       "what": "Hersteller: trunkFoldedL (225xe iPerformance (Plug-in-Hybrid)) = 1350 – BMW media information sheet for the 225xe Active Tourer: luggage compartment capacity 400–1350 ltr. BMW press: expandable to 1,350 l by folding the 40:20:40 split rear backrests."
       }
      ],
      "confidence": "low",
@@ -588,7 +617,16 @@
      "wheelbaseMm": 2851,
      "trunkL": 500,
      "trunkFoldedL": 1510,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": 950,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 630,
+      "lengthFoldedMm": 1630,
+      "source": "Fachpresse + ADAC"
+     },
      "variants": [
       {
        "id": "320i-330i-benziner",
@@ -682,6 +720,18 @@
       {
        "url": "https://www.autobild.de/artikel/bmw-3er-touring-g21-2019-test-preise-motoren-kofferraum-abmessungen-marktstart--13947531.html",
        "what": "AUTO BILD G21 trunk and dimensions overview"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-3er-touring-g21-2019-bis/",
+       "what": "Fachpresse: loadSpace.widthBetweenArchesMm = 950 – Kofferraum-Test G21: Breite zwischen den Radkästen 95 cm (narrowest point between side bulges stated as 89 cm)"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-3er-touring-g21-2019-bis/",
+       "what": "Fachpresse: loadSpace.lengthFoldedMm = 1630 – Kofferraum-Test G21: Tiefe bei umgeklappter Rückbank 163 cm (193 cm with front passenger seat pushed forward)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/bmw-3er-touring/",
+       "what": "ADAC: loadSpace.sillHeightMm = 630 – ADAC test page: Ladekante liegt bei 63 cm, ohne nennenswerte Stufe im Inneren"
       }
      ],
      "confidence": "medium",
@@ -715,10 +765,10 @@
       "widthMm": 1380,
       "widthBetweenArchesMm": 1147,
       "heightMm": 692,
-      "openingHeightMm": null,
-      "sillHeightMm": null,
-      "lengthFoldedMm": null,
-      "source": "bmw.de: load space 69.2 cm high x 108 cm deep x 114.7-138 cm wide"
+      "openingHeightMm": 710,
+      "sillHeightMm": 660,
+      "lengthFoldedMm": 1710,
+      "source": "Hersteller + Fachpresse"
      },
      "variants": [
       {
@@ -870,6 +920,18 @@
       {
        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/5er-reihe/g60-g61-g90-g99/345290/",
        "what": "ADAC M5 Touring data"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-5er-touring-g61-2022-bis/",
+       "what": "Fachpresse: loadSpace.sillHeightMm = 660 – Kofferraum-Check G61: Ladekante 66 cm, keine Stufe zum Ladeboden (ausfahrt.tv measured 67 cm on i5 Touring)"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-5er-touring-g61-2022-bis/",
+       "what": "Fachpresse: loadSpace.lengthFoldedMm = 1710 – Kofferraum-Check G61: bei umgeklappter Rückbank 171 cm Ladelänge"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-5er-touring-g61-2022-bis/",
+       "what": "Fachpresse: loadSpace.openingHeightMm = 710 – Kofferraum-Check G61: Öffnungshöhe 71 cm"
       }
      ],
      "confidence": "high",
@@ -1067,7 +1129,7 @@
       "openingHeightMm": null,
       "sillHeightMm": 720,
       "lengthFoldedMm": null,
-      "source": "firmenwagen.co.at test (Ladekantenhöhe 72 cm)"
+      "source": "Fachpresse"
      },
      "variants": [
       {
@@ -1134,7 +1196,16 @@
      "wheelbaseMm": 2692,
      "trunkL": 540,
      "trunkFoldedL": 1600,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 740,
+      "lengthFoldedMm": 1520,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "m35i-xdrive",
@@ -1270,6 +1341,14 @@
       {
        "url": "https://www.angurten.de/is/abmessungen/2074-bmw-ix1",
        "what": "iX1 dimensions"
+      },
+      {
+       "url": "https://kofferraum-check.de/suv/kofferraum-test-bmw-x1-bmw-ix1-typ-u11-2023-bis/",
+       "what": "Fachpresse: loadSpace.sillHeightMm = 740 – Kofferraum-Test X1/iX1 U11: Ladekante auf 74 cm Höhe, Ladeboden dahinter ca. 2 cm tiefer"
+      },
+      {
+       "url": "https://kofferraum-check.de/suv/kofferraum-test-bmw-x1-bmw-ix1-typ-u11-2023-bis/",
+       "what": "Fachpresse: loadSpace.lengthFoldedMm = 1520 – Kofferraum-Test X1/iX1 U11: Ladefläche bei umgeklappter Rückbank 152 cm tief (191 cm mit vorgeschobenem Beifahrersitz)"
       }
      ],
      "confidence": "medium",
@@ -1287,9 +1366,9 @@
      "yearTo": 2022,
      "bodyType": "suv",
      "lengthMm": 4439,
-     "widthMm": null,
-     "heightMm": null,
-     "wheelbaseMm": null,
+     "widthMm": 1821,
+     "heightMm": 1598,
+     "wheelbaseMm": 2670,
      "trunkL": 505,
      "trunkFoldedL": 1550,
      "loadSpace": null,
@@ -1360,6 +1439,18 @@
       {
        "url": "https://www.mobile.de/auto/bmw/x1/2015/suv/modell/daten-fakten/",
        "what": "F48 data"
+      },
+      {
+       "url": "https://www.7-forum.com/news/2015/bmw_x1_f48/technische_daten.pdf",
+       "what": "Hersteller: widthMm = 1821 – BMW Medieninformation 06/2015, technische Daten BMW X1 sDrive20i/xDrive20i: Länge/Breite/Höhe 4439/1821/1598 mm. ADAC lists 1821 mm without and 2060 mm with mirrors."
+      },
+      {
+       "url": "https://www.7-forum.com/news/2015/bmw_x1_f48/technische_daten.pdf",
+       "what": "Hersteller: heightMm = 1598 – BMW Medieninformation 06/2015: Länge/Breite/Höhe 4439/1821/1598 mm. A footnote gives 1612 mm for the variant with the roof fin antenna."
+      },
+      {
+       "url": "https://www.7-forum.com/news/2015/bmw_x1_f48/technische_daten.pdf",
+       "what": "Hersteller: wheelbaseMm = 2670 – BMW Medieninformation 06/2015, technische Daten BMW X1: Radstand 2670 mm (also confirmed by en.wikipedia BMW X1 (F48))."
       }
      ],
      "confidence": "low",
@@ -1388,7 +1479,16 @@
      "wheelbaseMm": 2865,
      "trunkL": 570,
      "trunkFoldedL": 1700,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": 930,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 790,
+      "lengthFoldedMm": 1560,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "20-20-xdrive-benziner-48v-mildhybrid",
@@ -1475,6 +1575,18 @@
       {
        "url": "https://www.motorsport-total.com/auto/news/bmw-x3-masse-und-kofferraumvolumen-der-neuen-generation-2024-24092001",
        "what": "Trunk by powertrain incl. 30e 460-1600"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-x3-g45-2024-bis/",
+       "what": "Fachpresse: loadSpace.sillHeightMm = 790 – Kofferraum-Test X3 G45 (20d xDrive): Ladekante bei 79 cm"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-x3-g45-2024-bis/",
+       "what": "Fachpresse: loadSpace.lengthMm = 930 – Kofferraum-Test X3 G45: Tiefe 80 cm oben und 93 cm unten bis zur Rücksitzlehne (floor value used; angurten.de lists Ladelänge 1010 mm)"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-x3-g45-2024-bis/",
+       "what": "Fachpresse: loadSpace.lengthFoldedMm = 1560 – Kofferraum-Test X3 G45: bei umgeklappter Bank 156 cm Tiefe"
       }
      ],
      "confidence": "high",
@@ -1535,8 +1647,8 @@
        "powertrain": "phev",
        "powerPs": null,
        "awd": true,
-       "trunkL": null,
-       "trunkFoldedL": null,
+       "trunkL": 450,
+       "trunkFoldedL": 1500,
        "lengthMm": null,
        "widthMm": null,
        "heightMm": null,
@@ -1561,6 +1673,14 @@
       {
        "url": "https://www.carsized.com/en/cars/bmw-x3-2017-suv/",
        "what": "Dimensions"
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0302155DE/erfolgreiches-sports-activity-vehicle-jetzt-auch-mit-plug-in-hybrid-antrieb:-der-neue-bmw-x3-xdrive30e?language=de",
+       "what": "Hersteller: trunkL (xDrive30e (Plug-in-Hybrid)) = 450 – BMW Presse: 'Mit einem Wert von 450 Litern liegt das Gepäckraumvolumen des neuen BMW X3 xDrive30e auf dem Niveau der herkömmlich motorisierten Modellvarianten.' The technical data sheet lists Kofferraumvolumen 450–1500 l."
+      },
+      {
+       "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0302155DE/erfolgreiches-sports-activity-vehicle-jetzt-auch-mit-plug-in-hybrid-antrieb:-der-neue-bmw-x3-xdrive30e?language=de",
+       "what": "Hersteller: trunkFoldedL (xDrive30e (Plug-in-Hybrid)) = 1500 – BMW Presse: 'Durch das Umklappen der im Verhältnis 40 : 20 : 40 teilbaren Fondsitzlehne lässt sich der Stauraum auf bis zu 1 500 Liter erweitern.'"
       }
      ],
      "confidence": "medium",

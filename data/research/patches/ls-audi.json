@@ -1,0 +1,57 @@
+{
+ "id": "ls-audi",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "A4 Avant",
+   "generation": "B9 (Facelift 2019)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 640,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT5960_Audi_A4_Avant_40_TFSI_S_line_S_tronic/Audi_A4_Avant_40_TFSI_S_line_S_tronic.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest A4 Avant 40 TFSI S line S tronic (B9 facelift): 'Dank der niedrigen Ladekante außen (64 cm) und dem zur Ladekante nahezu ebenen Ladeboden...'"
+  },
+  {
+   "model": "A5 Avant",
+   "generation": "B10",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 650,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6534-audi-a5-avant-20-tdi-mhev-plus-s-tronic/audi-a5-avant-20-tdi-mhev-plus-s-tronic.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest A5 Avant 2.0 TDI MHEV plus S tronic: 'Die Höhe der Ladekante beträgt praxistaugliche 65 cm' (step to load floor approx. 10 cm)"
+  },
+  {
+   "model": "A6 Avant",
+   "generation": "C9",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 640,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at6454-audi-a6-avant-40-tdi-advanced-quattro-s-tronic/audi-a6-avant-40-tdi-advanced-quattro-s-tronic.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest A6 Avant 40 TDI advanced quattro S tronic (C9, 2025): 'die Ladekante liegt nur 64 Zentimeter über der Straße'"
+  },
+  {
+   "model": "Q4 e-tron",
+   "generation": "FZ (inkl. Facelift 2023)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 770,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6591-audi-q4-40-e-tron-advanced/audi-q4-40-e-tron-advanced.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest Audi Q4 40 e-tron advanced: Ladekante liegt 77 cm über der Fahrbahn; Stehhöhe unter der Heckklappe 1,91 m"
+  }
+ ],
+ "notFound": [
+  "A3 Sportback | 8Y (inkl. Facelift 2024): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, sillHeightMm, lengthFoldedMm (only third-party kofferraum-check.de with garbled values, not used)",
+  "A4 Avant | B9 (Facelift 2019): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm",
+  "A5 Avant | B10: loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm",
+  "A6 Avant | C9: loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm",
+  "Q3 | 3. Generation: loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, sillHeightMm, lengthFoldedMm",
+  "Q3 Sportback | 3. Generation: loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, sillHeightMm, lengthFoldedMm",
+  "Q4 e-tron | FZ (inkl. Facelift 2023): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm",
+  "Q4 Sportback e-tron | FZ: loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, sillHeightMm, lengthFoldedMm",
+  "Q5 | GU (3. Generation): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, sillHeightMm, lengthFoldedMm (ADAC test only criticizes high Ladekante without a number; kofferraum.org values not tied to generation, not used)"
+ ]
+}

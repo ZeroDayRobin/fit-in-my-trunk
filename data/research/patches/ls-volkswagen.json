@@ -1,0 +1,77 @@
+{
+ "id": "ls-volkswagen",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "Caddy",
+   "generation": "Caddy 5 (SK)",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 1100,
+   "sourceUrl": "https://www.vw-nutzfahrzeuge.at/caddy/caddy/technische-daten/life",
+   "sourceType": "hersteller",
+   "evidence": "VW technical data Caddy Life: 'Gepäckraumbodenlänge hinter 2. Sitzreihe in mm | 1.100' (Maxi: 1.452)"
+  },
+  {
+   "model": "Caddy",
+   "generation": "Caddy 5 (SK)",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1780,
+   "sourceUrl": "https://www.vw-nutzfahrzeuge.at/caddy/caddy/technische-daten/life",
+   "sourceType": "hersteller",
+   "evidence": "VW technical data Caddy Life: 'Gepäckraumbodenlänge hinter 1. Sitzreihe in mm | 1.780' (Maxi: 2.136)"
+  },
+  {
+   "model": "Caddy Maxi",
+   "generation": "Caddy 5 Maxi (SK)",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 1452,
+   "sourceUrl": "https://www.vw-nutzfahrzeuge.at/caddy/caddy/technische-daten/life-maxi",
+   "sourceType": "hersteller",
+   "evidence": "VW technical data Caddy Life / Life Maxi table: 'Gepäckraumbodenlänge hinter 2. Sitzreihe in mm | 1.100 | 1.452' (Maxi = 1.452)"
+  },
+  {
+   "model": "Caddy Maxi",
+   "generation": "Caddy 5 Maxi (SK)",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 2136,
+   "sourceUrl": "https://www.vw-nutzfahrzeuge.at/caddy/caddy/technische-daten/life-maxi",
+   "sourceType": "hersteller",
+   "evidence": "VW technical data Caddy Life / Life Maxi table: 'Gepäckraumbodenlänge hinter 1. Sitzreihe in mm | 1.780 | 2.136' (Maxi = 2.136)"
+  },
+  {
+   "model": "Golf Variant",
+   "generation": "Mk8 (inkl. Facelift 2024)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 610,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6490-vw-golf-variant-r-4motion-dsg/vw-golf-variant-r-4motion-dsg.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest Golf Variant R 4MOTION DSG (Mk8, 4.651 mm long): 'Die Ladekante liegt 61 cm über der Straße und damit sehr günstig.' (ADAC measured)"
+  },
+  {
+   "model": "Golf",
+   "generation": "Mk8 Facelift (8.5)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 680,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at6463-vw-golf-15-tsi-life/vw-golf-15-tsi-life.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest VW Golf 1.5 TSI Life (facelift, 2024): loading edge 68 cm above the road (ADAC measured; eHybrid test at6565 gives 69 cm)"
+  }
+ ],
+ "notFound": [
+  "Caddy | Caddy 5 (SK): loadSpace.widthBetweenArchesMm, widthMm, heightMm, openingHeightMm, sillHeightMm (1.230 mm between arches found only for Caddy Cargo van, not passenger Caddy)",
+  "Caddy Maxi | Caddy 5 Maxi (SK): loadSpace.widthBetweenArchesMm, widthMm, heightMm, openingHeightMm, sillHeightMm",
+  "Golf | Mk8 Facelift (8.5): loadSpace.lengthMm, widthBetweenArchesMm, widthMm, heightMm, openingHeightMm, lengthFoldedMm",
+  "Golf Sportsvan | Golf VII Sportsvan Facelift (2018-2020): all loadSpace fields (only ADAC pre-facelift test AT5160 1.4 TSI Highline found: Ladekante 65 cm; not patched because it is the pre-facelift test)",
+  "Golf Variant | Mk8 (inkl. Facelift 2024): loadSpace.lengthMm, widthBetweenArchesMm, widthMm, heightMm, openingHeightMm, lengthFoldedMm",
+  "ID. Buzz | 1. Generation (kurzer Radstand): all loadSpace fields (only ID. Buzz Cargo van values found: floor length 2.208 mm, not applicable to passenger version)",
+  "ID. Buzz langer Radstand | 1. Generation (langer Radstand): all loadSpace fields (ADAC Autotest at6479 ID. Buzz lang Pro exists but values not visible in search; Cargo LWB values 2.458 mm / 1.230 mm not applicable)",
+  "ID.3 | 1. Generation Facelift: all loadSpace fields",
+  "ID.4 | 1. Generation: all loadSpace fields"
+ ]
+}

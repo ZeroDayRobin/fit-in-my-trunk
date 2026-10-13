@@ -1,0 +1,213 @@
+{
+ "id": "gap-volkswagen",
+ "kind": "gaps",
+ "patches": [
+  {
+   "model": "T-Roc",
+   "generation": "A1 (2017-2021, vor Facelift)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2590,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/1generation/284313/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog VW T-Roc 1.5 TSI ACT Style (11/17-08/18), also 1.0 TSI Style: Radstand 2590 mm. AMS gives 2593 mm for the 4MOTION versions."
+  },
+  {
+   "model": "Passat Alltrack",
+   "generation": "B8 (Facelift)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2788,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/315529/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog VW Passat Alltrack 2.0 TDI SCR 4MOTION DSG (09/20-11/23): Radstand 2788 mm"
+  },
+  {
+   "model": "T-Roc",
+   "generation": "2. Generation (2025-)",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1828,
+   "sourceUrl": "https://www.volkswagen-newsroom.com/en/the-new-t-roc-world-premiere-19761/design-and-dimensions-19763",
+   "sourceType": "hersteller",
+   "evidence": "VW press kit, world premiere 08/2025: 'The new T-Roc is 1,828 mm (+9 mm) wide (without exterior mirrors)'"
+  },
+  {
+   "model": "T-Roc",
+   "generation": "2. Generation (2025-)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1562,
+   "sourceUrl": "https://www.volkswagen-newsroom.com/en/the-new-t-roc-world-premiere-19761/design-and-dimensions-19763",
+   "sourceType": "hersteller",
+   "evidence": "VW press kit, world premiere 08/2025: '... and 1,562 mm (+9 mm) tall'. The volkswagen.de model page gives 1,573 mm, possibly measured with roof rails."
+  },
+  {
+   "model": "T-Roc",
+   "generation": "2. Generation (2025-)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2631,
+   "sourceUrl": "https://www.volkswagen-newsroom.com/en/the-new-t-roc-world-premiere-19761/design-and-dimensions-19763",
+   "sourceType": "hersteller",
+   "evidence": "VW press kit, world premiere 08/2025: '2,631 mm (+28 mm) between the alloy wheels' (wheelbase). The VW UK tech data page gives 2,629 mm."
+  },
+  {
+   "model": "Tayron",
+   "generation": "1. Generation (ab 2025)",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 2090,
+   "sourceUrl": "https://www.volkswagen-newsroom.com/de/pressemitteilungen/weltpremiere-des-neuen-tayron-suv-allrounder-mit-bis-zu-sieben-sitzplaetzen-18714/download",
+   "sourceType": "hersteller",
+   "evidence": "VW data for the five-seater: 885 l with seats up, up to 2,090 l with the rear seats folded (largest volume behind row 1). The eHybrid is 705/1,915 l."
+  },
+  {
+   "model": "Tiguan Allspace",
+   "generation": "BW2 (inkl. Facelift 2021)",
+   "variant": null,
+   "field": "lengthMm",
+   "value": 4701,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii/282443/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog Tiguan Allspace 2.0 TDI SCR Highline 4MOTION DSG (09/17-08/18): Länge 4701 mm. This is the pre-facelift value; the facelift is about 4,728 mm per carwow and AUTODOC."
+  },
+  {
+   "model": "Tiguan Allspace",
+   "generation": "BW2 (inkl. Facelift 2021)",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1839,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii/282443/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog Tiguan Allspace 2.0 TDI Highline 4MOTION DSG (09/17-08/18): Breite 1839 mm ohne Spiegel (2099 mm mit Spiegeln)"
+  },
+  {
+   "model": "Tiguan Allspace",
+   "generation": "BW2 (inkl. Facelift 2021)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1674,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii/282443/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog Tiguan Allspace 2.0 TDI Highline 4MOTION DSG (09/17-08/18): Höhe 1674 mm"
+  },
+  {
+   "model": "Tiguan Allspace",
+   "generation": "BW2 (inkl. Facelift 2021)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2787,
+   "sourceUrl": "https://www.promobil.de/wohnwagen/zugwagen/zugwagen-test-vw-tiguan-allspace-2-0-tsi/",
+   "sourceType": "sonstige",
+   "evidence": "promobil Zugwagen-Test VW Tiguan Allspace 2.0 TSI: Radstand 2787 mm. AutoScout24 and some dealer pages give 2,789 mm."
+  },
+  {
+   "model": "Tiguan Allspace",
+   "generation": "BW2 (inkl. Facelift 2021)",
+   "variant": null,
+   "field": "trunkL",
+   "value": 760,
+   "sourceUrl": "https://de.motor1.com/news/506567/vw-tiguan-allspace-facelift-2021/",
+   "sourceType": "sonstige",
+   "evidence": "Motor1 (Allspace facelift 2021): five-seater 760 to 1,920 l, seven-seater 700 to 1,755 l. The value is 760 l with five seats up."
+  },
+  {
+   "model": "Tiguan Allspace",
+   "generation": "BW2 (inkl. Facelift 2021)",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 1920,
+   "sourceUrl": "https://de.motor1.com/news/506567/vw-tiguan-allspace-facelift-2021/",
+   "sourceType": "sonstige",
+   "evidence": "Motor1 (Allspace facelift 2021): five-seater 760 to 1,920 l, so 1,920 l with the rear seats folded"
+  },
+  {
+   "model": "Touareg",
+   "generation": "CR (3. Generation, inkl. Facelift 2023)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2899,
+   "sourceUrl": "https://www.volkswagen.at/touareg/touareg/technische-daten/r-line",
+   "sourceType": "hersteller",
+   "evidence": "Volkswagen Österreich technical data, Touareg R-Line: Radstand 2.899 mm"
+  },
+  {
+   "model": "Touareg",
+   "generation": "CR (3. Generation, inkl. Facelift 2023)",
+   "variant": null,
+   "field": "trunkL",
+   "value": 810,
+   "sourceUrl": "https://www.carwow.de/volkswagen/touareg/technische-daten",
+   "sourceType": "sonstige",
+   "evidence": "carwow: 'Gepäckraumvolumen von 810 Litern im normalen Zustand', up to 1,800 l with the rear bench folded. The Touareg R eHybrid is 665/1,675 l."
+  },
+  {
+   "model": "Touareg",
+   "generation": "CR (3. Generation, inkl. Facelift 2023)",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 1800,
+   "sourceUrl": "https://www.carwow.de/volkswagen/touareg/technische-daten",
+   "sourceType": "sonstige",
+   "evidence": "carwow: up to 1,800 l to the roof with the rear bench folded. angurten.de also gives 810 / 1,800 l."
+  },
+  {
+   "model": "Passat Limousine",
+   "generation": "B8 (Facelift)",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1832,
+   "sourceUrl": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mittelklasse/passat-b8.html",
+   "sourceType": "hersteller",
+   "evidence": "VW Passat B8 overview: Breite ohne Spiegel 1.832 mm, mit Spiegeln 2.083 mm"
+  },
+  {
+   "model": "Passat Limousine",
+   "generation": "B8 (Facelift)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1456,
+   "sourceUrl": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mittelklasse/passat-b8.html",
+   "sourceType": "hersteller",
+   "evidence": "VW Passat B8 overview: 'Höhe (bei geschlossenem Kofferraum, ohne Antenne, ohne Dachreling): 1456 mm (Passat Variant: 1477 mm)'"
+  },
+  {
+   "model": "Passat Limousine",
+   "generation": "B8 (Facelift)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2791,
+   "sourceUrl": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/mittelklasse/passat-b8.html",
+   "sourceType": "hersteller",
+   "evidence": "VW Passat B8 overview gives Radstand 2791 mm. auto-data.net lists 2,786 mm."
+  },
+  {
+   "model": "Passat Limousine",
+   "generation": "B8 (Facelift)",
+   "variant": null,
+   "field": "lengthMm",
+   "value": 4775,
+   "sourceUrl": "https://www.auto-data.net/en/volkswagen-passat-b8-facelift-2019-generation-7177",
+   "sourceType": "sonstige",
+   "evidence": "auto-data.net Passat (B8, facelift 2019) sedan: Length 4775 mm"
+  },
+  {
+   "model": "Multivan langer Überhang",
+   "generation": "T7 (langer Überhang)",
+   "variant": null,
+   "field": "trunkL",
+   "value": 763,
+   "sourceUrl": "https://www.motormobiles.de/fahrbericht-vw-multivan-ehybrid-4motion-langversion-modelljahr-2026/",
+   "sourceType": "sonstige",
+   "evidence": "The long version holds 763 l with all seats in place, behind row 3; the short version holds 469 l. The search summary did not say which of its sources gave this figure, so the URL attribution is uncertain."
+  }
+ ],
+ "notFound": [
+  "Caddy | Caddy 5 (SK) | heightMm (the only value found was ADAC's 1819 mm for the eHybrid variant, not a figure for the whole generation)",
+  "Caddy | Caddy 5 (SK) | trunkL for variant '1.5 eHybrid 150 PS DSG' (only the maximum of 2,556 l was found)",
+  "Caddy Maxi | Caddy 5 Maxi (SK) | trunkL for variant '1.5 eHybrid 150 PS DSG' (only the maximum of 3,105 l was found)",
+  "ID. Buzz langer Radstand | 1. Generation (langer Radstand) | heightMm (sources conflict: 1,905, 1,924 and 1,927 mm, depending on variant and roof rails)",
+  "Multivan | T7 (kurzer Überhang) | trunkL for variant 'eHybrid 4MOTION 245 PS DSG' (no clearly attributed source; one report says 469 l, the same as the other variants, a dealer says it may be less)"
+ ]
+}

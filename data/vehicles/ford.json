@@ -18,7 +18,16 @@
      "wheelbaseMm": 2767,
      "trunkL": 470,
      "trunkFoldedL": 1460,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": 804,
+      "widthMm": 1312,
+      "widthBetweenArchesMm": 1008,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 772,
+      "lengthFoldedMm": 1611,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "extended-range-awd-elektro-79-kwh",
@@ -94,6 +103,26 @@
       {
        "url": "https://kofferraum-check.de/eautos/kofferraum-test-ford-explorer-ev-2024-bis/",
        "what": "RWD: 445 l / 1417 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2206-Explorer+2024",
+       "what": "Fachpresse: loadSpace.lengthMm = 804 – angurten.de Ford Explorer 2024: Ladelänge bis Rücksitze 804 mm (no ADAC/Ford figure found; kofferraum-check.de measured ~82 cm at floor)"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2206-Explorer+2024",
+       "what": "Fachpresse: loadSpace.lengthFoldedMm = 1611 – angurten.de Ford Explorer 2024: Ladelänge bis Vordersitze 1.611 mm (same value on dealer site esso-borgentreich.de)"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2206-Explorer+2024",
+       "what": "Fachpresse: loadSpace.sillHeightMm = 772 – angurten.de Ford Explorer 2024: Höhe der Ladekante 772 mm"
+      },
+      {
+       "url": "https://www.esso-borgentreich.de/neuwagen/ford/explorer-/technische-daten",
+       "what": "Fachpresse: loadSpace.widthBetweenArchesMm = 1008 – Ford dealer technical data page (Esso Borgentreich), Ford Explorer: Laderaumbreite 1.008 - 1.312 mm (minimum = 1008 mm); kofferraum-check.de measured ~101 cm interior width"
+      },
+      {
+       "url": "https://www.esso-borgentreich.de/neuwagen/ford/explorer-/technische-daten",
+       "what": "Fachpresse: loadSpace.widthMm = 1312 – Ford dealer technical data page (Esso Borgentreich), Ford Explorer: Laderaumbreite 1.008 - 1.312 mm (maximum = 1312 mm)"
       }
      ],
      "confidence": "medium",
@@ -116,13 +145,22 @@
      "yearFrom": 2022,
      "yearTo": 2025,
      "bodyType": "wagon",
-     "lengthMm": null,
+     "lengthMm": 4672,
      "widthMm": 1825,
      "heightMm": 1497,
      "wheelbaseMm": 2700,
      "trunkL": 635,
      "trunkFoldedL": 1653,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": 1047,
+      "widthMm": null,
+      "widthBetweenArchesMm": 1150,
+      "heightMm": null,
+      "openingHeightMm": 702,
+      "sillHeightMm": 625,
+      "lengthFoldedMm": null,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "st-2-3-ecoboost",
@@ -224,6 +262,26 @@
       {
        "url": "https://kofferraum.org/masse/ford/focus-turnier/",
        "what": "Abweichende Angabe 575 l / 1620 l (vermutlich Vor-Facelift bzw. andere Messung)"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/2022/05/Roadshow/Pressetext-Focus-Technische-Daten-Mai2022.pdf",
+       "what": "Hersteller: lengthMm = 4672 – Ford Technische Daten Focus (Facelift), Mai 2022: Länge Turnier 4672 bis 4693 mm je nach Ausstattung (base value 4672 mm), Radstand 2700 mm"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/2022/05/Roadshow/Pressetext-Focus-Technische-Daten-Mai2022.pdf",
+       "what": "Hersteller: loadSpace.lengthMm = 1047 – Technische Daten Ford Focus (Facelift), Mai 2022, Turnier: Ladelänge am Boden bis Rückseite der zweiten Sitzreihe 1.047 mm (5-Türer: 844 mm)"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/2022/05/Roadshow/Pressetext-Focus-Technische-Daten-Mai2022.pdf",
+       "what": "Hersteller: loadSpace.widthBetweenArchesMm = 1150 – Technische Daten Ford Focus (Facelift), Mai 2022, Turnier: Breite zwischen den Radkästen 1.150 mm; same table also lists 'Effektive Ladebreite 1.051 mm' (narrower usable width) - consider 1051 if the narrowest usable width is preferred"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/2022/05/Roadshow/Pressetext-Focus-Technische-Daten-Mai2022.pdf",
+       "what": "Hersteller: loadSpace.openingHeightMm = 702 – Technische Daten Ford Focus (Facelift), Mai 2022, Turnier: Höhe der Laderaum-Öffnung 702 mm"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/2022/05/Roadshow/Pressetext-Focus-Technische-Daten-Mai2022.pdf",
+       "what": "Hersteller: loadSpace.sillHeightMm = 625 – Technische Daten Ford Focus (Facelift), Mai 2022, Turnier: Höhe der Ladekante bei Leergewicht 625 / 665 / 616 mm (Titanium / Active / ST-Line); 625 mm Titanium"
       }
      ],
      "confidence": "medium",
@@ -252,7 +310,16 @@
      "wheelbaseMm": 2711,
      "trunkL": 412,
      "trunkFoldedL": 1534,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": 865,
+      "widthMm": 1290,
+      "widthBetweenArchesMm": 1051,
+      "heightMm": 885,
+      "openingHeightMm": 773,
+      "sillHeightMm": 712,
+      "lengthFoldedMm": 1688,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "2-5-fhev-vollhybrid",
@@ -351,6 +418,34 @@
       {
        "url": "https://www.automoli.com/de/vehicles/ford/kuga/kuga-iii-facelift-2024-9846/",
        "what": "Kuga III Facelift technische Daten (Radstand 2711 mm, Höhen 1651-1683 mm)"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/2024/01/240117%20Kuga%20Technische%20Daten.pdf",
+       "what": "Hersteller: loadSpace.lengthMm = 865 – Ford Kuga Technische Daten (Presse 17.01.2024): Ladelänge am Boden bis zweite Sitzreihe 865-1017 mm (verschiebbare Rückbank; 865 mm = Rückbank ganz hinten)"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/2024/01/240117%20Kuga%20Technische%20Daten.pdf",
+       "what": "Hersteller: loadSpace.lengthFoldedMm = 1688 – Ford Kuga Technische Daten (Presse 17.01.2024): Ladelänge am Boden bis Rückseite der Vordersitze 1688 mm (mit Reifen-Reparatur-Set)"
+      },
+      {
+       "url": "https://www.de.ford.ch/content/dam/guxeu/ch/de_ch/documents/tech-spec/PDF-technische_daten_des_neuen_ford_kuga.pdf",
+       "what": "Hersteller: loadSpace.widthBetweenArchesMm = 1051 – Ford Kuga MY26.75 Technische Daten (Schweiz) and Ford DE data sheet: Ladebreite zwischen den Radkästen 1051 mm, all trims"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Kuga/Technische_Daten_des_neuen_Ford_Kuga.pdf",
+       "what": "Hersteller: loadSpace.widthMm = 1290 – Ford Kuga Technische Daten: Ladebreite maximal 1290 mm"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Kuga/Technische_Daten_des_neuen_Ford_Kuga.pdf",
+       "what": "Hersteller: loadSpace.heightMm = 885 – Ford Kuga Technische Daten: Ladehöhe maximal 885 mm (Swiss MY26.75 sheet lists N/A)"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Kuga/Technische_Daten_des_neuen_Ford_Kuga.pdf",
+       "what": "Hersteller: loadSpace.openingHeightMm = 773 – Ford Kuga Technische Daten: Höhe der Gepäckraumöffnung 773 mm (Breite der Öffnung 1071 mm)"
+      },
+      {
+       "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/new-kuga/Technische_Daten_Ford_Kuga_MY26.75_zur_Preisliste_vom_11.02.2026_s.pdf",
+       "what": "Hersteller: loadSpace.sillHeightMm = 712 – Ford Kuga MY26.75 Technische Daten zur Preisliste 11.02.2026: Ladekantenhöhe unbeladen 712-724 / 714-726 / 712-725 mm depending on version (lowest 712 mm)"
       }
      ],
      "confidence": "medium",
@@ -368,10 +463,10 @@
      "yearTo": 2024,
      "bodyType": "suv",
      "lengthMm": 4614,
-     "widthMm": null,
+     "widthMm": 1883,
      "heightMm": 1658,
-     "wheelbaseMm": null,
-     "trunkL": null,
+     "wheelbaseMm": 2710,
+     "trunkL": 435,
      "trunkFoldedL": 1534,
      "loadSpace": null,
      "variants": [
@@ -475,6 +570,18 @@
       {
        "url": "https://www.motorprofis.at/ford/erster-test-ford-kuga-plug-in-hybrid-phev",
        "what": "Abweichende PHEV-Angaben: 385-486 l, Höhe 1680 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii/310380/",
+       "what": "ADAC: widthMm = 1883 – ADAC Autokatalog Kuga III 1.5 EcoBoost (04/20-09/20): Breite 1883 mm (mit Außenspiegeln 2178 mm); fordfan.de 'Technische Daten Ford Kuga (Stand April 2020)' also gives Breite ohne Außenspiegel 1.883 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii/310380/",
+       "what": "ADAC: wheelbaseMm = 2710 – ADAC Autokatalog Kuga III (04/20-09/20): Radstand 2710 mm (facelift III-Facelift listed with 2711 mm); mobile.de: Radstand 2,71 m"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii/310380/",
+       "what": "ADAC: trunkL = 435 – ADAC Autokatalog Kuga 1.5 EcoBoost ST-Line X (04/20-09/20): Kofferraumvolumen normal 435 l, umgeklappt 1534 l (PHEV 405/1481 l). Note: fordfan.de (April 2020) lists 475-645 l depending on rear-seat position, so values differ by source."
       }
      ],
      "confidence": "low",
@@ -503,7 +610,16 @@
      "wheelbaseMm": 2588,
      "trunkL": 456,
      "trunkFoldedL": 1216,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": 725,
+      "widthMm": null,
+      "widthBetweenArchesMm": 1000,
+      "heightMm": 865,
+      "openingHeightMm": null,
+      "sillHeightMm": 769,
+      "lengthFoldedMm": 1479,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "1-0-ecoboost-125-ps-benziner-ohne-hybrid",
@@ -610,6 +726,26 @@
       {
        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/ford-puma/",
        "what": "ADAC-Test: im eigentlichen Kofferraum ohne Doppelboden nur ca. 280 l (ADAC-Messung)"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Puma/Ford%20Puma_Technische_Daten_11.2025.pdf",
+       "what": "Hersteller: loadSpace.lengthMm = 725 – Ford Puma Technische Daten 11.2025: Ladelänge am Boden bis Rückseite der Rücksitze / zweite Sitzreihe 725 mm (Gen-E sheet also 725 mm)"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Puma/Ford%20Puma_Technische_Daten_11.2025.pdf",
+       "what": "Hersteller: loadSpace.lengthFoldedMm = 1479 – Ford Puma Technische Daten 11.2025: Ladelänge am Boden bis erste Sitzreihe (Zweisitzer-Modus) 1479 mm (2020 sheet: 1472 mm with tyre repair kit)"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Puma/Ford%20Puma_Technische_Daten_11.2025.pdf",
+       "what": "Hersteller: loadSpace.widthBetweenArchesMm = 1000 – Ford Puma Technische Daten 11.2025: Ladebreite zwischen den Radkästen 1000 mm (Breite Gepäckraumöffnung 982 mm)"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Puma/Ford%20Puma_Technische_Daten_11.2025.pdf",
+       "what": "Hersteller: loadSpace.heightMm = 865 – Ford Puma Technische Daten 11.2025: Ladehöhe maximal 865 mm (same in Gen-E sheet)"
+      },
+      {
+       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Puma/Ford%20Puma_Technische_Daten_11.2025.pdf",
+       "what": "Hersteller: loadSpace.sillHeightMm = 769 – Ford Puma Technische Daten 11.2025: Ladekantenhöhe unbeladen 769 mm (Gen-E: 771 mm; older sheets 769-776 mm depending on version)"
       }
      ],
      "confidence": "medium",
@@ -619,150 +755,6 @@
       "corrected": 0
      },
      "notes": "Das Facelift 2024 hat laut motorsport-total Maße und Kofferraum nicht verändert, deshalb gibt es nur einen Generationseintrag. Die Höhenangaben schwanken: ADAC 2020 1534 mm (ST-Line X), motor1 1537 mm, ADAC/motorsport-total Facelift 1550 mm. AUTO BILD nannte 2020 für den umgeklappten Zustand 1161 l statt 1216 l, hier wird der ADAC-Wert 1216 l verwendet. Die VDA-Werte enthalten die MegaBox bzw. GigaBox unter dem Ladeboden, die echte Ladefläche über dem Boden ist deutlich kleiner (ADAC misst ca. 280 l). Die GigaBox-Maße aus einem Test (79 x 63 x 30 cm) betreffen nur das Unterflurfach und sind deshalb nicht als loadSpace eingetragen."
-    },
-    {
-     "id": "2020-2-generation-inkl-facelift-2024-und-gen-e",
-     "name": "2. Generation (inkl. Facelift 2024 und Gen-E)",
-     "yearFrom": 2020,
-     "yearTo": null,
-     "bodyType": "suv",
-     "lengthMm": 4186,
-     "widthMm": 1805,
-     "heightMm": 1550,
-     "wheelbaseMm": 2588,
-     "trunkL": 456,
-     "trunkFoldedL": 1216,
-     "loadSpace": null,
-     "variants": [
-      {
-       "id": "st-1-5-ecoboost-benziner-bis-2023",
-       "name": "ST 1.5 EcoBoost (Benziner, bis 2023)",
-       "powertrain": "petrol",
-       "powerPs": null,
-       "awd": false,
-       "trunkL": 456,
-       "trunkFoldedL": 1216,
-       "lengthMm": 4226,
-       "widthMm": null,
-       "heightMm": 1533,
-       "yearFrom": 2020,
-       "yearTo": 2023,
-       "notes": "Maße laut Ford-Datenblatt für den ST. Leistung in dieser Recherche nicht per Quelle bestätigt. Kofferraum laut Ford-Datenblatt modellübergreifend 456/1216 l, nicht separat für den ST bestätigt."
-      },
-      {
-       "id": "st-1-0-ecoboost-hybrid-powershift-mhev",
-       "name": "ST 1.0 EcoBoost Hybrid Powershift (mHEV)",
-       "powertrain": "mhev",
-       "powerPs": null,
-       "awd": false,
-       "trunkL": 456,
-       "trunkFoldedL": 1216,
-       "lengthMm": 4226,
-       "widthMm": null,
-       "heightMm": 1533,
-       "yearFrom": 2023,
-       "yearTo": null,
-       "notes": "Leistungsangaben widersprechen sich: Ford-Datenblatt 117 kW (160 PS), motorsport-total 170 PS. Deshalb null."
-      },
-      {
-       "id": "1-0-ecoboost-hybrid-125-ps-mhev",
-       "name": "1.0 EcoBoost Hybrid 125 PS (mHEV)",
-       "powertrain": "mhev",
-       "powerPs": 125,
-       "awd": false,
-       "trunkL": 456,
-       "trunkFoldedL": 1216,
-       "lengthMm": null,
-       "widthMm": null,
-       "heightMm": null,
-       "yearFrom": null,
-       "yearTo": null,
-       "notes": "456 l inkl. 80-l-MegaBox unter dem Ladeboden. ADAC misst ohne doppelten Boden nur ca. 280 l."
-      },
-      {
-       "id": "1-0-ecoboost-hybrid-155-ps-mhev",
-       "name": "1.0 EcoBoost Hybrid 155 PS (mHEV)",
-       "powertrain": "mhev",
-       "powerPs": 155,
-       "awd": false,
-       "trunkL": 456,
-       "trunkFoldedL": 1216,
-       "lengthMm": null,
-       "widthMm": null,
-       "heightMm": null,
-       "yearFrom": null,
-       "yearTo": null,
-       "notes": "Nur mit Automatik. Kofferraum wie 125 PS."
-      },
-      {
-       "id": "gen-e-elektro-43-kwh",
-       "name": "Gen-E (Elektro 43 kWh)",
-       "powertrain": "bev",
-       "powerPs": null,
-       "awd": false,
-       "trunkL": 523,
-       "trunkFoldedL": 1283,
-       "lengthMm": 4214,
-       "widthMm": null,
-       "heightMm": 1555,
-       "yearFrom": 2025,
-       "yearTo": null,
-       "notes": "523 l inkl. wasserdichter 145-l-GigaBox unter dem Ladeboden. Manche Quellen nennen 574 l (mit GigaBox bis zur Dachkante) oder 566 l. Dazu kommt ein Frunk mit 43 l. Leistung 168 oder 169 PS je nach Quelle, deshalb null. ADAC führt die Varianten 01/25-02/26 und ab 02/26 getrennt."
-      }
-     ],
-     "sources": [
-      {
-       "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/puma/Technische_Daten_des_neuen_Ford_Puma.pdf",
-       "what": "Ford-Datenblatt Facelift: Länge 4186/4207/4226 mm, Höhe 1550/1548/1533 mm (Titanium/ST-Line/ST), Radstand 2588 mm, ST-Leistung"
-      },
-      {
-       "url": "https://www.auto-motor-und-sport.de/test/kosten-realverbrauch-ford-puma-1-0-ecoboost-hybrid-titanium-x/technische-daten/",
-       "what": "Kofferraum 456 l / 1216 l (Herstellerangabe)"
-      },
-      {
-       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/puma/ii-facelift/332622/",
-       "what": "ADAC-Daten 1.0 EcoBoost Hybrid ST-Line (04/24-09/25): 125 PS, Breite 1805 mm (1930 mm mit Spiegeln)"
-      },
-      {
-       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/ford-puma/",
-       "what": "ADAC-Test: gemessen 280 l ohne doppelten Boden"
-      },
-      {
-       "url": "https://www.motorsport-total.com/auto/news/ford-puma-2024-alle-details-zum-neuen-facelift-24021001",
-       "what": "Facelift 2024: Antriebe, ST mit 170 PS"
-      },
-      {
-       "url": "https://www.carwow.de/ford/puma-st/technische-daten",
-       "what": "Puma ST: 4226 x 1805 x 1533 mm"
-      },
-      {
-       "url": "https://media.ford.com/content/dam/fordmedia/Europe/de/2024/12/Puma%20Gen-E%20factsheet_DE_.pdf",
-       "what": "Ford-Factsheet Puma Gen-E (Maße)"
-      },
-      {
-       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/puma/ii-facelift/337837/",
-       "what": "Puma Gen-E: Länge 4214 mm, Höhe 1555 mm, Kofferraum 523 l / 1283 l, Frunk 43 l"
-      },
-      {
-       "url": "https://www.acs.ch/de/interessantes/fahrbericht-ford-puma-genE.php",
-       "what": "Gen-E: 523 l / 1283 l, 574 l mit GigaBox bis zur Dachkante"
-      },
-      {
-       "url": "https://www.dmt-puls.de/news/ford-puma-gen-e-der-mit-der-giga-box/",
-       "what": "GigaBox 145 l"
-      },
-      {
-       "url": "https://insideevs.de/news/754074/ford-puma-elektroversion-daten-preise/",
-       "what": "Gen-E: 4,21 m Länge, 523-1283 l"
-      }
-     ],
-     "confidence": "high",
-     "verification": {
-      "checked": 0,
-      "confirmed": 0,
-      "corrected": 0
-     },
-     "notes": "Facelift 2024 ohne Änderung von Kofferraum und Grundmaßen, deshalb kein eigener Eintrag. Die Höhen vor dem Facelift könnten leicht abweichen (Ford-Datenblatt 2020 nicht ausgewertet). ST-Line: Länge 4207 mm, Höhe 1548 mm. Breite in allen Versionen 1805 mm ohne Spiegel. Ein reiner 1.0 EcoBoost ohne Hybrid (vor dem Facelift) hat dieselbe Karosserie und wurde nicht eigens recherchiert."
     }
    ]
   }

@@ -168,7 +168,17 @@ export interface CarInfo {
   trunkL: number | null;
   trunkFoldedL: number | null;
   /** Laderaum-Box der Simulation */
-  box: { widthCm: number; heightCm: number; depthCm: number; foldedDepthCm: number | null; estimated: boolean };
+  box: {
+    widthCm: number;
+    heightCm: number;
+    depthCm: number;
+    foldedDepthCm: number | null;
+    estimated: boolean;
+    /** measured = alle drei Innenmaße gemessen, partial = teilweise, estimated = aus VDA-Volumen geschätzt */
+    basis: "measured" | "partial" | "estimated";
+    /** Herkunft gemessener Innenmaße, z. B. "Hersteller" oder "ADAC-Messung" */
+    sourceLabel: string;
+  };
   sources: Source[];
   confidence: GenerationData["confidence"];
   verification: GenerationData["verification"];
@@ -240,30 +250,45 @@ export function buildCarSpec(
   const liters = trunkL ?? fb.trunkL;
   const ls = gen.loadSpace;
 
-  const floorY = clamp(P.floor + (r - 0.32) * 0.8, Math.max(0.45, P.gc + 0.3), 0.95);
+  // Ladeboden: aus der gemessenen Ladekantenhöhe (Boden liegt meist knapp darunter), sonst typisch für die Karosserieform
+  const sill = ls?.sillHeightMm && ls.sillHeightMm > 400 && ls.sillHeightMm < 1100 ? ls.sillHeightMm / 1000 : null;
+  const floorY = clamp(sill ? sill - 0.03 : P.floor + (r - 0.32) * 0.8, Math.max(0.45, P.gc + 0.3), 0.95);
   const roofRearY = H - 0.06;
   const heightMax = hasTrunkLid(style) ? rearBeltline - 0.03 - floorY : roofRearY - 0.14 - floorY;
 
-  let estimated = true;
   let width = clamp(W - 0.78, 0.86, 1.24);
   let height = clamp(H * P.trunkH, 0.26, Math.min(heightMax, 1.15));
   let depth: number;
 
+  // Gemessene Innenmaße (Hersteller oder ADAC) haben Vorrang vor der Schätzung
   const lsWidth = ls?.widthBetweenArchesMm ?? ls?.widthMm ?? null;
   const lsHeight = ls?.heightMm ?? ls?.openingHeightMm ?? null;
-  if (lsWidth && lsWidth > 600 && lsWidth < 1600) width = lsWidth / 1000;
-  if (lsHeight && lsHeight > 250 && lsHeight < 1400) height = Math.min(lsHeight / 1000, Math.max(heightMax, 0.3));
-  if (ls?.lengthMm && ls.lengthMm > 300 && ls.lengthMm < 2000) {
-    depth = ls.lengthMm / 1000;
-    estimated = !(lsWidth && lsHeight);
+  const usedW = Boolean(lsWidth && lsWidth > 600 && lsWidth < 1600);
+  let usedH = Boolean(lsHeight && lsHeight > 250 && lsHeight < 1400);
+  const usedD = Boolean(ls?.lengthMm && ls.lengthMm > 300 && ls.lengthMm < 2000);
+  if (usedW) width = lsWidth! / 1000;
+  if (usedH) height = Math.min(lsHeight! / 1000, Math.max(heightMax, 0.3));
+  if (usedD) {
+    depth = ls!.lengthMm! / 1000;
+    // Maximalmaße ergeben oft mehr als das VDA-Volumen – ohne gemessene Höhe diese aus dem Volumen ableiten
+    if (!usedH) height = clamp(liters / 1000 / (width * depth), 0.26, Math.max(heightMax, 0.3));
+    // Unplausibel große Box (über 140 % VDA): Höhe begrenzen
+    if (trunkL && width * height * depth * 1000 > trunkL * 1.4) {
+      height = clamp((trunkL * 1.25) / 1000 / (width * depth), 0.26, height);
+      usedH = false;
+    }
   } else {
     depth = liters / 1000 / (width * height);
     if (depth > P.maxDepth) {
       depth = P.maxDepth;
-      height = clamp(liters / 1000 / (width * depth), 0.26, Math.max(heightMax, 0.3));
+      if (!usedH) height = clamp(liters / 1000 / (width * depth), 0.26, Math.max(heightMax, 0.3));
     }
     depth = clamp(depth, 0.35, P.maxDepth);
   }
+  const measured = [usedW, usedH, usedD].filter(Boolean).length;
+  const estimated = measured < 3;
+  const basis: CarInfo["box"]["basis"] = measured === 3 ? "measured" : measured > 0 ? "partial" : "estimated";
+  const sourceLabel = measured > 0 ? ls?.source || "Hersteller" : "";
 
   let foldExtension = 0;
   if (trunkFoldedL && trunkFoldedL > liters) {
@@ -309,6 +334,8 @@ export function buildCarSpec(
       depthCm: cm(depth),
       foldedDepthCm: foldExtension > 0 ? cm(depth + foldExtension) : null,
       estimated,
+      basis,
+      sourceLabel,
     },
     sources: gen.sources,
     confidence: gen.confidence,

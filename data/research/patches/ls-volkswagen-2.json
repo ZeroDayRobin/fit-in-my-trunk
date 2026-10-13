@@ -1,0 +1,97 @@
+{
+ "id": "ls-volkswagen-2",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "ID.7",
+   "generation": "ID.7 (Limousine)",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1000,
+   "sourceUrl": "https://www.volkswagen.de/de/modelle/id7.html/__ui/technische-daten.app",
+   "sourceType": "hersteller",
+   "evidence": "VW technische Daten ID.7: Breite zwischen den Radkästen 1.000 mm (also listed by auto-motor-und-sport technical data for ID.7 Pro)"
+  },
+  {
+   "model": "ID.7",
+   "generation": "ID.7 (Limousine)",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1948,
+   "sourceUrl": "https://www.volkswagen.de/de/modelle/id7.html/__ui/technische-daten.app",
+   "sourceType": "hersteller",
+   "evidence": "VW technische Daten ID.7: Ladelänge bis 1. Sitzreihe (Rückbank umgeklappt) 1.948 mm"
+  },
+  {
+   "model": "ID.7",
+   "generation": "ID.7 (Limousine)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 700,
+   "sourceUrl": "https://www.volkswagen.de/idhub/content/dam/onehub_master/pc/models/id-7/ADAC%20Testbericht%20VW%20ID.7Pro.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest VW ID.7 Pro: Ladekante liegt bei rund 70 cm (measured by ADAC)"
+  },
+  {
+   "model": "ID.7 Tourer",
+   "generation": "ID.7 Tourer",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 680,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at6459-vw-id7-tourer-gtx-4motion/vw-id7-tourer-gtx-4motion.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest VW ID.7 Tourer GTX 4MOTION: Ladekante rund 68 cm über der Straße (ADAC measurement)"
+  },
+  {
+   "model": "ID.7 Tourer",
+   "generation": "ID.7 Tourer",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 1074,
+   "sourceUrl": "https://www.carwow.de/volkswagen/id7-tourer-gtx",
+   "sourceType": "sonstige",
+   "evidence": "Carwow ID.7 Tourer: Ladeboden-Länge 1.074 mm (Rücksitze aufrecht)"
+  },
+  {
+   "model": "ID.7 Tourer",
+   "generation": "ID.7 Tourer",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1000,
+   "sourceUrl": "https://www.carwow.de/volkswagen/id7-tourer-gtx",
+   "sourceType": "sonstige",
+   "evidence": "Carwow ID.7 Tourer: Kofferraumbreite genau ein Meter (1.000 mm)"
+  },
+  {
+   "model": "ID.7 Tourer",
+   "generation": "ID.7 Tourer",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1948,
+   "sourceUrl": "https://www.carwow.de/volkswagen/id7-tourer-gtx",
+   "sourceType": "sonstige",
+   "evidence": "Carwow ID.7 Tourer: Ladelänge wächst bei umgeklappten Rücksitzen auf 1.948 mm"
+  },
+  {
+   "model": "Passat Variant",
+   "generation": "B9",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 620,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6517-vw-passat-variant-15-ehybrid-dsg/vw-passat-variant-15-ehybrid-dsg.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest Passat Variant (B9): 'Die Ladekante liegt mit rund 62 cm angenehm niedrig und erleichtert damit das Beladen.'"
+  }
+ ],
+ "notFound": [
+  "ID.5 | 1. Generation: no interior trunk dimensions (Ladelänge, Breite, Höhe, Ladekante) found in ADAC or VW sources (only volumes 549/1561 l manufacturer, ADAC measured 470/870/1415 l)",
+  "ID.7 | ID.7 (Limousine): loadSpace.lengthMm, loadSpace.widthMm, loadSpace.heightMm, loadSpace.openingHeightMm not found",
+  "ID.7 Tourer | ID.7 Tourer: loadSpace.widthMm, loadSpace.heightMm, loadSpace.openingHeightMm not found from manufacturer/ADAC (length/width/folded only from carwow)",
+  "Multivan | T7 (kurzer Überhang): no Laderaum interior dimensions or Ladekante found (only volumes and load floor areas ~1.7/3.3 m²)",
+  "Multivan langer Überhang | T7 (langer Überhang): no Laderaum interior dimensions or Ladekante found (only load floor areas ~1.9/3.5 m²)",
+  "Passat Alltrack | B8 (Facelift): ADAC Autotest AT5033 (pre-facelift 2.0 TDI BMT) gives Ladekante knapp 66 cm, but no facelift-specific test found; not patched",
+  "Passat Limousine | B8 (Facelift): no interior trunk dimensions or Ladekante found",
+  "Passat Variant | B9: loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm not found",
+  "Polo | VI (AW, inkl. Facelift 2021): no ADAC/manufacturer interior dimensions found (only conflicting third-party sites kofferraum-check.de / kofferraum.org)"
+ ]
+}

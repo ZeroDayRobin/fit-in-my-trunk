@@ -1,0 +1,225 @@
+{
+ "id": "ls-ford",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "Puma",
+   "generation": "2. Generation (inkl. Facelift 2024 und Puma Gen-E)",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 725,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Puma/Ford%20Puma_Technische_Daten_11.2025.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Ford Puma Technische Daten 11.2025: Ladelänge am Boden bis Rückseite der Rücksitze / zweite Sitzreihe 725 mm (Gen-E sheet also 725 mm)"
+  },
+  {
+   "model": "Puma",
+   "generation": "2. Generation (inkl. Facelift 2024 und Puma Gen-E)",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1479,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Puma/Ford%20Puma_Technische_Daten_11.2025.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Ford Puma Technische Daten 11.2025: Ladelänge am Boden bis erste Sitzreihe (Zweisitzer-Modus) 1479 mm (2020 sheet: 1472 mm with tyre repair kit)"
+  },
+  {
+   "model": "Puma",
+   "generation": "2. Generation (inkl. Facelift 2024 und Puma Gen-E)",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1000,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Puma/Ford%20Puma_Technische_Daten_11.2025.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Ford Puma Technische Daten 11.2025: Ladebreite zwischen den Radkästen 1000 mm (Breite Gepäckraumöffnung 982 mm)"
+  },
+  {
+   "model": "Puma",
+   "generation": "2. Generation (inkl. Facelift 2024 und Puma Gen-E)",
+   "variant": null,
+   "field": "loadSpace.heightMm",
+   "value": 865,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Puma/Ford%20Puma_Technische_Daten_11.2025.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Ford Puma Technische Daten 11.2025: Ladehöhe maximal 865 mm (same in Gen-E sheet)"
+  },
+  {
+   "model": "Puma",
+   "generation": "2. Generation (inkl. Facelift 2024 und Puma Gen-E)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 769,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Puma/Ford%20Puma_Technische_Daten_11.2025.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Ford Puma Technische Daten 11.2025: Ladekantenhöhe unbeladen 769 mm (Gen-E: 771 mm; older sheets 769-776 mm depending on version)"
+  },
+  {
+   "model": "Kuga",
+   "generation": "3. Generation Facelift",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 865,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/2024/01/240117%20Kuga%20Technische%20Daten.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Ford Kuga Technische Daten (Presse 17.01.2024): Ladelänge am Boden bis zweite Sitzreihe 865-1017 mm (verschiebbare Rückbank; 865 mm = Rückbank ganz hinten)"
+  },
+  {
+   "model": "Kuga",
+   "generation": "3. Generation Facelift",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1688,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/2024/01/240117%20Kuga%20Technische%20Daten.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Ford Kuga Technische Daten (Presse 17.01.2024): Ladelänge am Boden bis Rückseite der Vordersitze 1688 mm (mit Reifen-Reparatur-Set)"
+  },
+  {
+   "model": "Kuga",
+   "generation": "3. Generation Facelift",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1051,
+   "sourceUrl": "https://www.de.ford.ch/content/dam/guxeu/ch/de_ch/documents/tech-spec/PDF-technische_daten_des_neuen_ford_kuga.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Ford Kuga MY26.75 Technische Daten (Schweiz) and Ford DE data sheet: Ladebreite zwischen den Radkästen 1051 mm, all trims"
+  },
+  {
+   "model": "Kuga",
+   "generation": "3. Generation Facelift",
+   "variant": null,
+   "field": "loadSpace.widthMm",
+   "value": 1290,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Kuga/Technische_Daten_des_neuen_Ford_Kuga.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Ford Kuga Technische Daten: Ladebreite maximal 1290 mm"
+  },
+  {
+   "model": "Kuga",
+   "generation": "3. Generation Facelift",
+   "variant": null,
+   "field": "loadSpace.heightMm",
+   "value": 885,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Kuga/Technische_Daten_des_neuen_Ford_Kuga.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Ford Kuga Technische Daten: Ladehöhe maximal 885 mm (Swiss MY26.75 sheet lists N/A)"
+  },
+  {
+   "model": "Kuga",
+   "generation": "3. Generation Facelift",
+   "variant": null,
+   "field": "loadSpace.openingHeightMm",
+   "value": 773,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/Produkte/PKW/Kuga/Technische_Daten_des_neuen_Ford_Kuga.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Ford Kuga Technische Daten: Höhe der Gepäckraumöffnung 773 mm (Breite der Öffnung 1071 mm)"
+  },
+  {
+   "model": "Kuga",
+   "generation": "3. Generation Facelift",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 712,
+   "sourceUrl": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/new-kuga/Technische_Daten_Ford_Kuga_MY26.75_zur_Preisliste_vom_11.02.2026_s.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Ford Kuga MY26.75 Technische Daten zur Preisliste 11.02.2026: Ladekantenhöhe unbeladen 712-724 / 714-726 / 712-725 mm depending on version (lowest 712 mm)"
+  },
+  {
+   "model": "Focus Turnier",
+   "generation": "4. Generation Facelift",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 1047,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/2022/05/Roadshow/Pressetext-Focus-Technische-Daten-Mai2022.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Technische Daten Ford Focus (Facelift), Mai 2022, Turnier: Ladelänge am Boden bis Rückseite der zweiten Sitzreihe 1.047 mm (5-Türer: 844 mm)"
+  },
+  {
+   "model": "Focus Turnier",
+   "generation": "4. Generation Facelift",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1150,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/2022/05/Roadshow/Pressetext-Focus-Technische-Daten-Mai2022.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Technische Daten Ford Focus (Facelift), Mai 2022, Turnier: Breite zwischen den Radkästen 1.150 mm; same table also lists 'Effektive Ladebreite 1.051 mm' (narrower usable width) - consider 1051 if the narrowest usable width is preferred"
+  },
+  {
+   "model": "Focus Turnier",
+   "generation": "4. Generation Facelift",
+   "variant": null,
+   "field": "loadSpace.openingHeightMm",
+   "value": 702,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/2022/05/Roadshow/Pressetext-Focus-Technische-Daten-Mai2022.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Technische Daten Ford Focus (Facelift), Mai 2022, Turnier: Höhe der Laderaum-Öffnung 702 mm"
+  },
+  {
+   "model": "Focus Turnier",
+   "generation": "4. Generation Facelift",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 625,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/2022/05/Roadshow/Pressetext-Focus-Technische-Daten-Mai2022.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Technische Daten Ford Focus (Facelift), Mai 2022, Turnier: Höhe der Ladekante bei Leergewicht 625 / 665 / 616 mm (Titanium / Active / ST-Line); 625 mm Titanium"
+  },
+  {
+   "model": "Explorer",
+   "generation": "1. Generation (Elektro, MEB)",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 804,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2206-Explorer+2024",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de Ford Explorer 2024: Ladelänge bis Rücksitze 804 mm (no ADAC/Ford figure found; kofferraum-check.de measured ~82 cm at floor)"
+  },
+  {
+   "model": "Explorer",
+   "generation": "1. Generation (Elektro, MEB)",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1611,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2206-Explorer+2024",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de Ford Explorer 2024: Ladelänge bis Vordersitze 1.611 mm (same value on dealer site esso-borgentreich.de)"
+  },
+  {
+   "model": "Explorer",
+   "generation": "1. Generation (Elektro, MEB)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 772,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2206-Explorer+2024",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de Ford Explorer 2024: Höhe der Ladekante 772 mm"
+  },
+  {
+   "model": "Explorer",
+   "generation": "1. Generation (Elektro, MEB)",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1008,
+   "sourceUrl": "https://www.esso-borgentreich.de/neuwagen/ford/explorer-/technische-daten",
+   "sourceType": "sonstige",
+   "evidence": "Ford dealer technical data page (Esso Borgentreich), Ford Explorer: Laderaumbreite 1.008 - 1.312 mm (minimum = 1008 mm); kofferraum-check.de measured ~101 cm interior width"
+  },
+  {
+   "model": "Explorer",
+   "generation": "1. Generation (Elektro, MEB)",
+   "variant": null,
+   "field": "loadSpace.widthMm",
+   "value": 1312,
+   "sourceUrl": "https://www.esso-borgentreich.de/neuwagen/ford/explorer-/technische-daten",
+   "sourceType": "sonstige",
+   "evidence": "Ford dealer technical data page (Esso Borgentreich), Ford Explorer: Laderaumbreite 1.008 - 1.312 mm (maximum = 1312 mm)"
+  }
+ ],
+ "notFound": [
+  "Explorer | 1. Generation (Elektro, MEB) | loadSpace.heightMm",
+  "Explorer | 1. Generation (Elektro, MEB) | loadSpace.openingHeightMm",
+  "Focus Turnier | 4. Generation Facelift | loadSpace.widthMm",
+  "Focus Turnier | 4. Generation Facelift | loadSpace.heightMm",
+  "Focus Turnier | 4. Generation Facelift | loadSpace.lengthFoldedMm",
+  "Puma | 2. Generation (inkl. Facelift 2024 und Puma Gen-E) | loadSpace.widthMm",
+  "Puma | 2. Generation (inkl. Facelift 2024 und Puma Gen-E) | loadSpace.openingHeightMm"
+ ]
+}

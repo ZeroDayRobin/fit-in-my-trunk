@@ -1,0 +1,151 @@
+{
+ "id": "gap-misc",
+ "kind": "gaps",
+ "patches": [
+  {
+   "model": "Enyaq",
+   "generation": "Enyaq iV (vor Facelift)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1616,
+   "sourceUrl": "https://cdn.skoda-storyboard.com/2021/03/TD-ENYAQ-iV-DE.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Škoda Technische Daten Enyaq iV (8.3.2021): Höhe (bei Leergewicht) 1616 mm, Radstand 2765 mm"
+  },
+  {
+   "model": "Fabia Combi",
+   "generation": "NJ Facelift (3. Generation)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2470,
+   "sourceUrl": "https://cdn.skoda-storyboard.com/2019/12/TD-FABIA-COMBI-petrol-en.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Škoda Technische Daten Fabia Combi Ottomotoren (23.11.2020): Radstand 2470 mm"
+  },
+  {
+   "model": "Superb Limousine",
+   "generation": "3Y / B9 (4. Generation)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2841,
+   "sourceUrl": "https://www.skoda-media.de/model_motor/genpdf/26759/full",
+   "sourceType": "hersteller",
+   "evidence": "Škoda Media 'Technische Daten Superb Limousine 2024': Radstand 2841 mm (also Motor1)"
+  },
+  {
+   "model": "Leon",
+   "generation": "KL (Leon IV, inkl. Update 2024)",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 1301,
+   "sourceUrl": "https://www.autobild.de/marken-modelle/seat/leon/",
+   "sourceType": "sonstige",
+   "evidence": "AUTO BILD: Kofferraumvolumen Leon Fünftürer 380 bis 1301 l (PHEV 270 bis 1187 l); carwow also lists 1301 l folded. No manufacturer page found in search."
+  },
+  {
+   "model": "Focus Turnier",
+   "generation": "4. Generation Facelift",
+   "variant": null,
+   "field": "lengthMm",
+   "value": 4672,
+   "sourceUrl": "https://media.ford.com/content/dam/fordmedia/Europe/de/2022/05/Roadshow/Pressetext-Focus-Technische-Daten-Mai2022.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Ford Technische Daten Focus (Facelift), Mai 2022: Länge Turnier 4672 bis 4693 mm je nach Ausstattung (base value 4672 mm), Radstand 2700 mm"
+  },
+  {
+   "model": "Kuga",
+   "generation": "3. Generation (Vor-Facelift)",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1883,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii/310380/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog Kuga III 1.5 EcoBoost (04/20-09/20): Breite 1883 mm (mit Außenspiegeln 2178 mm); fordfan.de 'Technische Daten Ford Kuga (Stand April 2020)' also gives Breite ohne Außenspiegel 1.883 mm"
+  },
+  {
+   "model": "Kuga",
+   "generation": "3. Generation (Vor-Facelift)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2710,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii/310380/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog Kuga III (04/20-09/20): Radstand 2710 mm (facelift III-Facelift listed with 2711 mm); mobile.de: Radstand 2,71 m"
+  },
+  {
+   "model": "Kuga",
+   "generation": "3. Generation (Vor-Facelift)",
+   "variant": null,
+   "field": "trunkL",
+   "value": 435,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/kuga/iii/310380/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog Kuga 1.5 EcoBoost ST-Line X (04/20-09/20): Kofferraumvolumen normal 435 l, umgeklappt 1534 l (PHEV 405/1481 l). Note: fordfan.de (April 2020) lists 475-645 l depending on rear-seat position, so values differ by source."
+  },
+  {
+   "model": "Kona",
+   "generation": "OS (1. Generation, inkl. Facelift 2021)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2600,
+   "sourceUrl": "https://www.hyundai.news/newsroom/dam/de/Pressemappen/Kona/Hyundai_Kona_2020_3_Technische_Daten.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Hyundai Pressemappe Kona Technische Daten: Radstand 2600 mm (same in 2017 launch press release)"
+  },
+  {
+   "model": "Kona",
+   "generation": "OS (1. Generation, inkl. Facelift 2021)",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 1143,
+   "sourceUrl": "https://www.hyundai.news/newsroom/dam/de/Pressemappen/Kona/Hyundai_Kona_2020_3_Technische_Daten.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Hyundai Pressemappe Kona Technische Daten: Gepäckraumvolumen 361-1143 l (VDA), Benziner/Diesel"
+  },
+  {
+   "model": "C-HR",
+   "generation": "X10 Facelift (1. Generation)",
+   "variant": null,
+   "field": "lengthMm",
+   "value": 4390,
+   "sourceUrl": "https://www.toyota-media.de/blog/toyota-modelle/thema/c-hr-ab-2020/technische-daten",
+   "sourceType": "hersteller",
+   "evidence": "Toyota Media 'C-HR (ab 2020) Technische Daten': Länge der Karosserie 4390 mm (1,8 Hybrid) / 4402-4395 mm (2,0 Hybrid)"
+  },
+  {
+   "model": "C-HR",
+   "generation": "X10 Facelift (1. Generation)",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1795,
+   "sourceUrl": "https://www.toyota-media.de/blog/toyota-modelle/thema/c-hr-ab-2020/technische-daten",
+   "sourceType": "hersteller",
+   "evidence": "Toyota Media 'C-HR (ab 2020) Technische Daten': Breite der Karosserie 1795 mm"
+  },
+  {
+   "model": "C-HR",
+   "generation": "X10 Facelift (1. Generation)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1555,
+   "sourceUrl": "https://www.toyota-media.de/blog/toyota-modelle/thema/c-hr-ab-2020/technische-daten",
+   "sourceType": "hersteller",
+   "evidence": "Toyota Media 'C-HR (ab 2020) Technische Daten': Höhe der Karosserie 1555 mm (Nov 2019 press kit states 1565 mm, so the two Toyota documents disagree)"
+  },
+  {
+   "model": "C-HR",
+   "generation": "X10 Facelift (1. Generation)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2640,
+   "sourceUrl": "https://www.toyota-media.de/blog/toyota-modelle/thema/c-hr-ab-2020/technische-daten",
+   "sourceType": "hersteller",
+   "evidence": "Toyota Media 'C-HR (ab 2020) Technische Daten': Radstand 2640 mm"
+  }
+ ],
+ "notFound": [
+  "Opel Astra Sports Tourer | Astra L Sports Tourer (inkl. Facelift 2026) | trunkL for variant 'Plug-in-Hybrid (Facelift 2026)': search budget ran out before a source was found",
+  "Hyundai i20 | BC3 Facelift | heightMm: no manufacturer, ADAC or major-magazine source found",
+  "Hyundai i20 | BC3 (2020-2023) | heightMm: only low-quality spec sites (motorimdetail.de, ultimatespecs) list 1450 mm; no manufacturer, ADAC or major-magazine source found"
+ ]
+}

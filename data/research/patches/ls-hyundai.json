@@ -1,0 +1,75 @@
+{
+ "id": "ls-hyundai",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "Tucson",
+   "generation": "NX4 (inkl. Facelift 2024)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 730,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at6466-hyundai-tucson-16-t-gdi-plug-in-hybrid-prime-allrad-automatik/hyundai-tucson-16-t-gdi-plug-in-hybrid-prime-allrad-automatik.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest Tucson 1.6 T-GDI Plug-in-Hybrid Prime Allrad: Ladekante liegt 73 cm über der Straße; innen sind Kofferraumboden und Ladekante in einer Ebene."
+  },
+  {
+   "model": "Tucson",
+   "generation": "NX4 (inkl. Facelift 2024)",
+   "variant": null,
+   "field": "loadSpace.openingHeightMm",
+   "value": 740,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-hyundai-tucson/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Test Hyundai Tucson 1.6 T-GDI Hybrid: Breite der Ladeöffnung 103 cm, Höhe der Ladeöffnung 74 cm."
+  },
+  {
+   "model": "Tucson",
+   "generation": "NX4 (inkl. Facelift 2024)",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1530,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-hyundai-tucson/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Test Hyundai Tucson 1.6 T-GDI Hybrid: Kofferraumtiefe mit umgelegter 2. Sitzreihe 153 cm (bis vorgeschobenem Beifahrersitz 188 cm)."
+  },
+  {
+   "model": "Inster",
+   "generation": "AX1",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 780,
+   "sourceUrl": "https://kofferraum-check.de/eautos/kofferraum-test-hyundai-inster/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Test Hyundai Inster: 'Die Ladekante befindet sich in einer Höhe von 78 cm, wobei sie nach innen hin um weitere 7 cm absinkt.' (ADAC-Test nennt nur 'hohe Ladekante' ohne Zahl)"
+  },
+  {
+   "model": "Inster",
+   "generation": "AX1",
+   "variant": null,
+   "field": "loadSpace.openingHeightMm",
+   "value": 750,
+   "sourceUrl": "https://kofferraum-check.de/eautos/kofferraum-test-hyundai-inster/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Test Hyundai Inster: Laderaum an der Öffnung 75 cm hoch."
+  },
+  {
+   "model": "Inster",
+   "generation": "AX1",
+   "variant": null,
+   "field": "loadSpace.heightMm",
+   "value": 340,
+   "sourceUrl": "https://kofferraum-check.de/eautos/kofferraum-test-hyundai-inster/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Test Hyundai Inster: Höhe bis zur Sichtschutzabdeckung 34 cm."
+  }
+ ],
+ "notFound": [
+  "i10 | AC3 (3. Generation, inkl. Facelift 2023): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, sillHeightMm, lengthFoldedMm (ADAC only gives volumes 185/905 l; ~70 cm sill only from unattributed sources)",
+  "i20 | BC3 Facelift: all loadSpace fields (kofferraum.org figures found but generation not identifiable)",
+  "i30 Kombi | PD (inkl. Facelift 2020 und Modellpflege 2024): all loadSpace fields (ADAC i30 test page contains conflicting sill heights 63 cm vs 75 cm, unclear which applies to Kombi; no length/width)",
+  "Inster | AX1: loadSpace.lengthMm, widthMm, widthBetweenArchesMm, lengthFoldedMm (kofferraum-check gives 95 cm width, 144 cm / 228 cm lengths but measurement reference ambiguous - to front seat / with sliding seats)",
+  "Ioniq 5 | NE Facelift: all loadSpace fields (kofferraum-check.de values 76 cm sill, 104 cm width, 75 cm opening refer to pre-facelift Ioniq 5 / Ioniq 5 N, not confirmed for facelift)",
+  "Kona | SX2 (2. Generation): all loadSpace fields (ADAC sill 71 cm is 1st generation; kofferraum.org generation unclear)",
+  "Tucson | NX4 (inkl. Facelift 2024): loadSpace.lengthMm (only range 75-83 cm given), widthMm, widthBetweenArchesMm, heightMm"
+ ]
+}

@@ -173,6 +173,76 @@ for (const file of files) {
 }
 
 // ---------------------------------------------------------------------------
+// 1b. Lückenfüller-Ergebnisse (data/research/patches/*.json) anwenden
+//     Nur fehlende Werte werden ergänzt; Herstellerwerte haben Vorrang vor ADAC-Messungen.
+
+const SOURCE_LABEL = { hersteller: "Hersteller", adac: "ADAC", sonstige: "Fachpresse" };
+const PATCH_DIR = path.join(RESEARCH, "patches");
+const patchStats = { applied: 0, skippedExisting: 0, unmatched: 0 };
+if (fs.existsSync(PATCH_DIR)) {
+  for (const file of fs.readdirSync(PATCH_DIR).filter((f) => f.endsWith(".json"))) {
+    const pf = JSON.parse(fs.readFileSync(path.join(PATCH_DIR, file), "utf8"));
+    // Hersteller zuerst anwenden, damit ADAC-Werte nur noch echte Lücken füllen
+    const order = { hersteller: 0, sonstige: 1, adac: 2 };
+    const patches = [...(pf.patches ?? [])].sort((a, b) => (order[a.sourceType] ?? 3) - (order[b.sourceType] ?? 3));
+    for (const p of patches) {
+      const candidates = rawModels.filter((r) => norm(r.model.model) === norm(p.model));
+      const hits = candidates.length ? candidates : rawModels.filter((r) => norm(r.model.model).includes(norm(p.model)));
+      let gen;
+      for (const r of hits) {
+        gen = looseFind(r.model.generations ?? [], "name", p.generation);
+        if (gen) break;
+      }
+      if (!gen) {
+        patchStats.unmatched++;
+        unapplied.push({ chunk: pf.id, reason: "Patch: Modell/Generation nicht gefunden", ...p });
+        continue;
+      }
+      let target = gen;
+      if (p.variant) {
+        target = looseFind(gen.variants ?? [], "name", p.variant);
+        if (!target) {
+          patchStats.unmatched++;
+          unapplied.push({ chunk: pf.id, reason: "Patch: Variante nicht gefunden", ...p });
+          continue;
+        }
+      }
+      const label = SOURCE_LABEL[p.sourceType] ?? "Quelle";
+      if (p.field.startsWith("loadSpace.")) {
+        const key = p.field.slice("loadSpace.".length);
+        gen.loadSpace = gen.loadSpace && typeof gen.loadSpace === "object" ? gen.loadSpace : {};
+        if (gen.loadSpace[key] != null) {
+          patchStats.skippedExisting++;
+          continue;
+        }
+        gen.loadSpace[key] = p.value;
+        const sources = new Set(
+          String(gen.loadSpace.source ?? "")
+            .split(" + ")
+            .filter(Boolean),
+        );
+        sources.add(label);
+        gen.loadSpace.source = [...sources].join(" + ");
+      } else {
+        if (target[p.field] != null) {
+          patchStats.skippedExisting++;
+          continue;
+        }
+        target[p.field] = p.value;
+      }
+      gen.sources = [
+        ...(gen.sources ?? []),
+        {
+          url: p.sourceUrl,
+          what: `${label}: ${p.field}${p.variant ? ` (${p.variant})` : ""} = ${p.value} – ${p.evidence ?? ""}`.slice(0, 300),
+        },
+      ];
+      patchStats.applied++;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
 // 2. Normalisieren
 
 function cleanVariant(v, ctx, gen) {
@@ -205,6 +275,21 @@ function cleanVariant(v, ctx, gen) {
     yearTo: v.yearTo ? Math.round(v.yearTo) : null,
     notes: String(v.notes ?? "").trim(),
   };
+}
+
+/** Freitext-Quellen der Innenmaße auf einheitliche Kategorien abbilden */
+function sourceLabel(text) {
+  const parts = String(text ?? "")
+    .split(" + ")
+    .map((t) => {
+      const l = t.toLowerCase();
+      if (l.includes("adac")) return "ADAC";
+      if (/hersteller|bmw\.|volkswagen|vw\.de|skoda|mercedes|audi\.|seat\.|cupra|opel\.|ford\.|hyundai\.|toyota\./.test(l))
+        return "Hersteller";
+      return t.trim() ? "Fachpresse" : "";
+    })
+    .filter(Boolean);
+  return [...new Set(parts)].join(" + ");
 }
 
 function cleanGeneration(g, ctx) {
@@ -265,7 +350,7 @@ function cleanGeneration(g, ctx) {
       openingHeightMm: mm(ls.openingHeightMm),
       sillHeightMm: mm(ls.sillHeightMm),
       lengthFoldedMm: mm(ls.lengthFoldedMm),
-      source: String(ls.source ?? ""),
+      source: sourceLabel(ls.source),
     };
     if (Object.entries(loadSpace).some(([k, v]) => k !== "source" && v)) out.loadSpace = loadSpace;
   }
@@ -439,6 +524,9 @@ ${loaderLines.join("\n")}
 `,
 );
 
-fs.writeFileSync(path.join(RESEARCH, "_build-report.json"), JSON.stringify({ stats, warnings, unapplied }, null, 1) + "\n");
+fs.writeFileSync(path.join(RESEARCH, "_build-report.json"), JSON.stringify({ stats, patchStats, warnings, unapplied }, null, 1) + "\n");
 console.log(`Marken: ${index.brands.length}, Modelle: ${stats.models}, Generationen: ${stats.generations}, Varianten: ${stats.variants}`);
+console.log(
+  `Ergänzungen: ${patchStats.applied} übernommen, ${patchStats.skippedExisting} übersprungen (Wert vorhanden), ${patchStats.unmatched} nicht zuordenbar`,
+);
 console.log(`Warnungen: ${warnings.length}, nicht angewandte Korrekturen: ${unapplied.length} (siehe data/research/_build-report.json)`);

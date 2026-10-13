@@ -18,7 +18,16 @@
      "wheelbaseMm": 2566,
      "trunkL": 400,
      "trunkFoldedL": 1280,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": 770,
+      "widthMm": null,
+      "widthBetweenArchesMm": 980,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 700,
+      "lengthFoldedMm": 1360,
+      "source": "Fachpresse + ADAC"
+     },
      "variants": [
       {
        "id": "1-0-tsi-95-115-ps-benziner",
@@ -90,6 +99,22 @@
       {
        "url": "https://autonotizen.de/neuigkeiten/seat-arona-tgi-cng-erdgas-preise-daten-kofferraum-2019",
        "what": "Arona TGI trunk 282/1162 L"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/seat-arona-1-0-tsi/technische-daten/",
+       "what": "Fachpresse: loadSpace.widthBetweenArchesMm = 980 – auto motor und sport test data (Test 03/2022): Breite zwischen den Radkästen 980 mm (Ladekantenhöhe 675 mm)"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-seat-arona-typ-kj-2017-bis/",
+       "what": "Fachpresse: loadSpace.lengthMm = 770 – kofferraum-check.de Arona Typ KJ: Tiefe reicht von 47 cm oben bis 77 cm unten an der Ladekante (Bodenlänge bis Rücksitzlehne)"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-seat-arona-typ-kj-2017-bis/",
+       "what": "Fachpresse: loadSpace.lengthFoldedMm = 1360 – kofferraum-check.de Arona Typ KJ: bei umgelegter Rückbank sind es 136 cm Tiefe"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/seat-arona/",
+       "what": "ADAC: loadSpace.sillHeightMm = 700 – ADAC test text: 'Zum Beladen muss man das Gepäck über eine 70 Zentimeter hohe Ladekante heben.' (ADAC also measured 310 l normal / 680 l umgeklappt)"
       }
      ],
      "confidence": "high",
@@ -118,7 +143,16 @@
      "wheelbaseMm": 2638,
      "trunkL": 510,
      "trunkFoldedL": 1604,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": 1015,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 680,
+      "lengthFoldedMm": null,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "1-0-tsi-benziner",
@@ -224,6 +258,14 @@
       {
        "url": "https://www.angurten.de/is/abmessungen/1644-seat-ateca",
        "what": "Length 4381 mm, wheelbase 2638 mm"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/kosten-realverbrauch-seat-ateca-tsi-fr/technische-daten/",
+       "what": "Fachpresse: loadSpace.sillHeightMm = 680 – auto motor und sport, Kosten und Realverbrauch Seat Ateca 1.5 TSI FR (Bauzeit 2020-2023): Ladekantenhöhe 680 mm"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/kosten-realverbrauch-seat-ateca-tsi-fr/technische-daten/",
+       "what": "Fachpresse: loadSpace.widthBetweenArchesMm = 1015 – auto motor und sport, Seat Ateca 1.5 TSI FR technische Daten: Breite zwischen Radkästen 1015 mm"
       }
      ],
      "confidence": "high",
@@ -252,7 +294,16 @@
      "wheelbaseMm": 2564,
      "trunkL": 355,
      "trunkFoldedL": 1165,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 685,
+      "lengthFoldedMm": null,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "1-0-tsi-95-115-ps-benziner",
@@ -328,6 +379,10 @@
       {
        "url": "https://www.mobile.de/magazin/artikel/der-seat-ibiza-mit-erdgas-im-alltagstest--15324",
        "what": "Ibiza TGI trunk 262-1072 L"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/seat-ibiza-und-seat-leon/technische-daten/",
+       "what": "Fachpresse: loadSpace.sillHeightMm = 685 – auto motor und sport Vergleich Seat Ibiza 1.0 TSI (1.0 EcoTSI Xcellence, Ibiza V) vs Leon 1.0 TSI: Ladekantenhöhe 685 mm (Ibiza)"
       }
      ],
      "confidence": "high",
@@ -355,7 +410,7 @@
      "heightMm": 1456,
      "wheelbaseMm": 2686,
      "trunkL": 380,
-     "trunkFoldedL": null,
+     "trunkFoldedL": 1301,
      "loadSpace": null,
      "variants": [
       {
@@ -454,6 +509,10 @@
       {
        "url": "https://autonotizen.de/fahrberichte/seat-leon-sportstourer-e-hybrid-alltag-test-video-facelift-2025",
        "what": "Hatchback 380 L vs 270 L for e-Hybrid"
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/seat/leon/",
+       "what": "Fachpresse: trunkFoldedL = 1301 – AUTO BILD: Kofferraumvolumen Leon Fünftürer 380 bis 1301 l (PHEV 270 bis 1187 l); carwow also lists 1301 l folded. No manufacturer page found in search."
       }
      ],
      "confidence": "medium",
@@ -482,7 +541,16 @@
      "wheelbaseMm": 2682,
      "trunkL": 620,
      "trunkFoldedL": 1600,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": 1020,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 660,
+      "lengthFoldedMm": null,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "1-0-1-5-tsi-benziner",
@@ -584,6 +652,14 @@
       {
        "url": "https://www.carwow.de/seat/leon-st/technische-daten",
        "what": "carwow height 1475 mm (conflicting)"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/fahrbericht/kosten-realverbrauch-seat-leon-st-1-5-tsi-fr/technische-daten/",
+       "what": "Fachpresse: loadSpace.sillHeightMm = 660 – auto motor und sport, Seat Leon ST 1.5 TSI FR (Bauzeit 04/2020-03/2024, Testdatum 09/2023): Ladekantenhöhe 660 mm"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/fahrbericht/kosten-realverbrauch-seat-leon-st-1-5-tsi-fr/technische-daten/",
+       "what": "Fachpresse: loadSpace.widthBetweenArchesMm = 1020 – auto motor und sport, Seat Leon ST 1.5 TSI FR technische Daten: Breite zwischen den Radkästen 1020 mm"
       }
      ],
      "confidence": "medium",

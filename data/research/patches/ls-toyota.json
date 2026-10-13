@@ -1,0 +1,75 @@
+{
+ "id": "ls-toyota",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "C-HR",
+   "generation": "X20 (2. Generation)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 790,
+   "sourceUrl": "https://assets.adac.de/image/upload/v1759995432/ADAC-eV/KOR/Text/PDF/toyota-c-hr-20-plug-in-hybrid-lounge_yyijbh.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest Toyota C-HR 2.0 Plug-In Hybrid Lounge: Ladekante mit 79 cm (sehr hoch), dazu 5 cm Stufe zwischen Ladefläche und Bordwand (ADAC-Messung)"
+  },
+  {
+   "model": "Yaris",
+   "generation": "XP21 (4. Generation, inkl. Facelift 2024)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 680,
+   "sourceUrl": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6516-toyota-yaris-15-hybrid-130-style-plus-cvt/toyota-yaris-15-hybrid-130-style-plus-cvt.pdf",
+   "sourceType": "adac",
+   "evidence": "ADAC Autotest Toyota Yaris 1.5 Hybrid 130 Style PLUS CVT: 'Die Ladekante fällt mit 68 cm angenehm niedrig aus.' (ADAC-Messung)"
+  },
+  {
+   "model": "Corolla Cross",
+   "generation": "XG1 (1. Generation, inkl. Facelift 10/2025)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 720,
+   "sourceUrl": "https://www.motormobiles.de/toyota-corolla-cross-hybrid-im-test/",
+   "sourceType": "sonstige",
+   "evidence": "Motormobiles-Test Corolla Cross Hybrid: 'Die Ladekante ist beim Beladen mit einer Höhe von 72 Zentimeter zu überwinden. Es folgt eine Stufe von zehn Zentimetern.' (carwalk.de nennt denselben Wert; kein ADAC-Wert gefunden)"
+  },
+  {
+   "model": "Yaris Cross",
+   "generation": "XP21 (1. Generation, inkl. Facelift 2024)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 795,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/toyota-yaris-cross-kofferraum-test/",
+   "sourceType": "sonstige",
+   "evidence": "kofferraum-check.de Kofferraum-Test Toyota Yaris Cross: Ladekantenhöhe 79,5 cm (eigene Messung der Seite; kein ADAC- oder Herstellerwert gefunden)"
+  }
+ ],
+ "notFound": [
+  "C-HR | X20 (2. Generation) | loadSpace.lengthMm",
+  "C-HR | X20 (2. Generation) | loadSpace.widthMm",
+  "C-HR | X20 (2. Generation) | loadSpace.widthBetweenArchesMm (kofferraum-check.de nennt 'Breite 69-95 cm', unklar zugeordnet, daher nicht übernommen)",
+  "C-HR | X20 (2. Generation) | loadSpace.heightMm / openingHeightMm",
+  "C-HR | X20 (2. Generation) | loadSpace.lengthFoldedMm",
+  "Corolla Cross | XG1 (1. Generation, inkl. Facelift 10/2025) | loadSpace.lengthMm",
+  "Corolla Cross | XG1 (1. Generation, inkl. Facelift 10/2025) | loadSpace.widthMm / widthBetweenArchesMm",
+  "Corolla Cross | XG1 (1. Generation, inkl. Facelift 10/2025) | loadSpace.heightMm / openingHeightMm",
+  "Corolla Cross | XG1 (1. Generation, inkl. Facelift 10/2025) | loadSpace.lengthFoldedMm",
+  "Corolla Touring Sports | E21 Facelift | loadSpace.lengthMm",
+  "Corolla Touring Sports | E21 Facelift | loadSpace.widthMm / widthBetweenArchesMm",
+  "Corolla Touring Sports | E21 Facelift | loadSpace.heightMm / openingHeightMm",
+  "Corolla Touring Sports | E21 Facelift | loadSpace.sillHeightMm",
+  "Corolla Touring Sports | E21 Facelift | loadSpace.lengthFoldedMm",
+  "RAV4 | 6. Generation | loadSpace.lengthMm",
+  "RAV4 | 6. Generation | loadSpace.widthMm / widthBetweenArchesMm",
+  "RAV4 | 6. Generation | loadSpace.heightMm / openingHeightMm",
+  "RAV4 | 6. Generation | loadSpace.sillHeightMm",
+  "RAV4 | 6. Generation | loadSpace.lengthFoldedMm",
+  "Yaris | XP21 (4. Generation, inkl. Facelift 2024) | loadSpace.lengthMm",
+  "Yaris | XP21 (4. Generation, inkl. Facelift 2024) | loadSpace.widthMm / widthBetweenArchesMm",
+  "Yaris | XP21 (4. Generation, inkl. Facelift 2024) | loadSpace.heightMm / openingHeightMm",
+  "Yaris | XP21 (4. Generation, inkl. Facelift 2024) | loadSpace.lengthFoldedMm",
+  "Yaris Cross | XP21 (1. Generation, inkl. Facelift 2024) | loadSpace.lengthMm",
+  "Yaris Cross | XP21 (1. Generation, inkl. Facelift 2024) | loadSpace.widthMm / widthBetweenArchesMm (kofferraum-check.de nennt 'Breite 92 cm', Bezug unklar, daher nicht übernommen)",
+  "Yaris Cross | XP21 (1. Generation, inkl. Facelift 2024) | loadSpace.heightMm / openingHeightMm",
+  "Yaris Cross | XP21 (1. Generation, inkl. Facelift 2024) | loadSpace.lengthFoldedMm"
+ ]
+}

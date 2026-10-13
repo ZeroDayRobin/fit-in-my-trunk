@@ -1,0 +1,107 @@
+{
+ "id": "ls-skoda",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "Elroq",
+   "generation": "1. Generation",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 702,
+   "sourceUrl": "https://www.skoda-media.de/model_motor/genpdf/27018",
+   "sourceType": "hersteller",
+   "evidence": "Skoda Media Technische Daten Elroq (2025): Ladekantenhöhe (bei Leergewicht) 702 mm (also 702 mm on Sportline 85 sheet; ADAC Autotest measured 'knapp 69 cm')"
+  },
+  {
+   "model": "Enyaq",
+   "generation": "Facelift (Enyaq)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 706,
+   "sourceUrl": "https://www.skoda-media.de/model_motor/genpdf/27676",
+   "sourceType": "hersteller",
+   "evidence": "Skoda Media Technische Daten Enyaq (2027): Ladekantenhöhe bei Leergewicht 706 mm (Enyaq 60); 703 mm for 85/85x"
+  },
+  {
+   "model": "Enyaq Coupé",
+   "generation": "Enyaq Coupé (iV, inkl. Facelift 2025)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 795,
+   "sourceUrl": "https://www.skoda-media.de/model_motor/genpdf/27684",
+   "sourceType": "hersteller",
+   "evidence": "Skoda Media Technische Daten Enyaq Coupé (2027): Ladekantenhöhe bei Leergewicht 795 mm (60), 792 mm (85/85x); earlier sheets 786-799 mm"
+  },
+  {
+   "model": "Fabia",
+   "generation": "PJ (4. Generation)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 680,
+   "sourceUrl": "https://www.skoda-media.de/model_motor/genpdf/26734/full",
+   "sourceType": "hersteller",
+   "evidence": "Skoda Media Technische Daten Fabia 2024 (1.0 TSI 70 kW): Ladekantenhöhe bei Leergewicht 680 mm (Fabia 2023 sheet: 679-680 mm)"
+  },
+  {
+   "model": "Fabia Combi",
+   "generation": "NJ Facelift (3. Generation)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 611,
+   "sourceUrl": "https://cdn.skoda-storyboard.com/2019/12/TD-FABIA-COMBI-petrol-en.pdf",
+   "sourceType": "hersteller",
+   "evidence": "Skoda Fabia Combi technical data (petrol, dated 23.11.2020), 1.0 MPI 44 kW: loading edge height 611 mm; Fabia III sheet 12/2018 also 611 mm for Combi"
+  },
+  {
+   "model": "Kamiq",
+   "generation": "NW (inkl. Facelift 2024)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 696,
+   "sourceUrl": "https://www.skoda-media.de/model_motor/genpdf/26724",
+   "sourceType": "hersteller",
+   "evidence": "Skoda Media Technische Daten Kamiq (2024): Ladekantenhöhe bei Leergewicht 696 mm (same in 2025 and 2023 sheets; 691 mm for 1.0 TGI)"
+  },
+  {
+   "model": "Karoq",
+   "generation": "1. Generation (NU7) Facelift",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 680,
+   "sourceUrl": "https://www.skoda-media.de/model_motor/genpdf/25324",
+   "sourceType": "hersteller",
+   "evidence": "Skoda Media Technische Daten Karoq (2023) Benzinmotoren: Ladekantenhöhe 680 mm (some variants 684/685 mm)"
+  },
+  {
+   "model": "Kodiaq",
+   "generation": "2. Generation (PS)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 759,
+   "sourceUrl": "https://www.skoda-media.de/model_motor/genpdf/26879/full",
+   "sourceType": "hersteller",
+   "evidence": "Skoda Media Technische Daten Kodiaq 2025: Ladekantenhöhe bei Leergewicht 759 (763) mm; 2026 sheet 758 (756) mm"
+  },
+  {
+   "model": "Octavia Combi",
+   "generation": "NX (4. Generation, inkl. Facelift 2024)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 632,
+   "sourceUrl": "https://www.skoda-media.de/model_motor/genpdf/26782",
+   "sourceType": "hersteller",
+   "evidence": "Skoda Media Technische Daten Octavia Combi (2025): Ladekantenhöhe (bei Leergewicht) 632 mm"
+  }
+ ],
+ "notFound": [
+  "Elroq | 1. Generation: loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm (ADAC Autotest PDF at6474 has only volumes in search snippets; kofferraum-check.de gives 149 cm folded for the RS only, so not used)",
+  "Enyaq | Facelift (Enyaq): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm",
+  "Enyaq Coupé | Enyaq Coupé (iV, inkl. Facelift 2025): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm",
+  "Fabia | PJ (4. Generation): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm",
+  "Fabia Combi | NJ Facelift (3. Generation): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm",
+  "Kamiq | NW (inkl. Facelift 2024): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm",
+  "Karoq | 1. Generation (NU7) Facelift: loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm",
+  "Kodiaq | 2. Generation (PS): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm",
+  "Octavia Combi | NX (4. Generation, inkl. Facelift 2024): loadSpace.lengthMm, widthMm, widthBetweenArchesMm, heightMm, openingHeightMm, lengthFoldedMm"
+ ]
+}

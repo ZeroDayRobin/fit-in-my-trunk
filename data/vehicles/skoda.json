@@ -26,7 +26,7 @@
       "openingHeightMm": null,
       "sillHeightMm": 702,
       "lengthFoldedMm": null,
-      "source": "https://www.carwow.de/skoda/elroq-rs/technische-daten (sill height 702 mm for regular versions, 684 mm for RS)"
+      "source": "Hersteller"
      },
      "variants": [
       {
@@ -157,7 +157,16 @@
      "wheelbaseMm": 2766,
      "trunkL": 585,
      "trunkFoldedL": 1710,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 706,
+      "lengthFoldedMm": null,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "enyaq-60-elektro-63-kwh",
@@ -236,6 +245,10 @@
       {
        "url": "https://www.skoda-media.de/model_motor/genpdf/26864/full",
        "what": "Official data sheet Enyaq 85x 2025 (210 kW / 286 PS)"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/27676",
+       "what": "Hersteller: loadSpace.sillHeightMm = 706 – Skoda Media Technische Daten Enyaq (2027): Ladekantenhöhe bei Leergewicht 706 mm (Enyaq 60); 703 mm for 85/85x"
       }
      ],
      "confidence": "high",
@@ -254,7 +267,7 @@
      "bodyType": "suv",
      "lengthMm": 4649,
      "widthMm": 1879,
-     "heightMm": null,
+     "heightMm": 1616,
      "wheelbaseMm": 2765,
      "trunkL": 585,
      "trunkFoldedL": 1710,
@@ -363,6 +376,10 @@
       {
        "url": "https://fuhrpark.de/facelift-der-neue-skoda-enyaq-2025",
        "what": "Facelift vs pre-facelift comparison"
+      },
+      {
+       "url": "https://cdn.skoda-storyboard.com/2021/03/TD-ENYAQ-iV-DE.pdf",
+       "what": "Hersteller: heightMm = 1616 – Škoda Technische Daten Enyaq iV (8.3.2021): Höhe (bei Leergewicht) 1616 mm, Radstand 2765 mm"
       }
      ],
      "confidence": "medium",
@@ -391,7 +408,16 @@
      "wheelbaseMm": 2765,
      "trunkL": 570,
      "trunkFoldedL": 1610,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 795,
+      "lengthFoldedMm": null,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "coupe-60-elektro",
@@ -474,6 +500,10 @@
       {
        "url": "https://www.skoda-media.de/model_motor/genpdf/25878",
        "what": "Official data sheet Enyaq Coupé RS (2023)"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/27684",
+       "what": "Hersteller: loadSpace.sillHeightMm = 795 – Skoda Media Technische Daten Enyaq Coupé (2027): Ladekantenhöhe bei Leergewicht 795 mm (60), 792 mm (85/85x); earlier sheets 786-799 mm"
       }
      ],
      "confidence": "medium",
@@ -502,7 +532,16 @@
      "wheelbaseMm": 2564,
      "trunkL": 380,
      "trunkFoldedL": 1190,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 680,
+      "lengthFoldedMm": null,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "1-0-mpi-benziner-65-80-ps",
@@ -585,6 +624,10 @@
       {
        "url": "https://www.autoscout24.de/auto/technische-daten/skoda/fabia/fabia-1-0-tsi-seit-2021-limousine-benzin/",
        "what": "Height 1482 mm for some variants"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26734/full",
+       "what": "Hersteller: loadSpace.sillHeightMm = 680 – Skoda Media Technische Daten Fabia 2024 (1.0 TSI 70 kW): Ladekantenhöhe bei Leergewicht 680 mm (Fabia 2023 sheet: 679-680 mm)"
       }
      ],
      "confidence": "high",
@@ -677,10 +720,19 @@
      "lengthMm": 4257,
      "widthMm": 1732,
      "heightMm": 1467,
-     "wheelbaseMm": null,
+     "wheelbaseMm": 2470,
      "trunkL": 530,
      "trunkFoldedL": 1395,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 611,
+      "lengthFoldedMm": null,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "1-0-mpi-1-0-tsi-benziner",
@@ -710,6 +762,14 @@
       {
        "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Fabia_III",
        "what": "Combi 530 / 1395 l"
+      },
+      {
+       "url": "https://cdn.skoda-storyboard.com/2019/12/TD-FABIA-COMBI-petrol-en.pdf",
+       "what": "Hersteller: wheelbaseMm = 2470 – Škoda Technische Daten Fabia Combi Ottomotoren (23.11.2020): Radstand 2470 mm"
+      },
+      {
+       "url": "https://cdn.skoda-storyboard.com/2019/12/TD-FABIA-COMBI-petrol-en.pdf",
+       "what": "Hersteller: loadSpace.sillHeightMm = 611 – Skoda Fabia Combi technical data (petrol, dated 23.11.2020), 1.0 MPI 44 kW: loading edge height 611 mm; Fabia III sheet 12/2018 also 611 mm for Combi"
       }
      ],
      "confidence": "medium",
@@ -738,7 +798,16 @@
      "wheelbaseMm": 2651,
      "trunkL": 400,
      "trunkFoldedL": 1395,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 696,
+      "lengthFoldedMm": null,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "1-0-tsi-benziner-95-116-ps",
@@ -806,6 +875,10 @@
       {
        "url": "https://www.mobile.de/auto/skoda/kamiq/2019/modell/daten-fakten/",
        "what": "Type NW since 2019"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26724",
+       "what": "Hersteller: loadSpace.sillHeightMm = 696 – Skoda Media Technische Daten Kamiq (2024): Ladekantenhöhe bei Leergewicht 696 mm (same in 2025 and 2023 sheets; 691 mm for 1.0 TGI)"
       }
      ],
      "confidence": "high",
@@ -834,7 +907,16 @@
      "wheelbaseMm": 2638,
      "trunkL": 521,
      "trunkFoldedL": 1630,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 680,
+      "lengthFoldedMm": null,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "1-0-tsi-benziner",
@@ -943,6 +1025,10 @@
       {
        "url": "https://www.carwow.de/skoda/karoq-sportline/technische-daten",
        "what": "Sportline data (wheelbase/height variance)"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/25324",
+       "what": "Hersteller: loadSpace.sillHeightMm = 680 – Skoda Media Technische Daten Karoq (2023) Benzinmotoren: Ladekantenhöhe 680 mm (some variants 684/685 mm)"
       }
      ],
      "confidence": "high",
@@ -1083,7 +1169,16 @@
      "wheelbaseMm": 2791,
      "trunkL": 910,
      "trunkFoldedL": 2105,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 759,
+      "lengthFoldedMm": null,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "2-0-tsi-4x4-204-ps-dsg-benziner",
@@ -1208,6 +1303,10 @@
       {
        "url": "https://www.carwow.de/skoda/kodiaq-rs/technische-daten",
        "what": "Kodiaq RS trunk 910/2105 l"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26879/full",
+       "what": "Hersteller: loadSpace.sillHeightMm = 759 – Skoda Media Technische Daten Kodiaq 2025: Ladekantenhöhe bei Leergewicht 759 (763) mm; 2026 sheet 758 (756) mm"
       }
      ],
      "confidence": "high",
@@ -1360,7 +1459,16 @@
      "wheelbaseMm": 2686,
      "trunkL": 640,
      "trunkFoldedL": 1700,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 632,
+      "lengthFoldedMm": null,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "1-0-1-5-tsi-benziner",
@@ -1492,6 +1600,10 @@
       {
        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/4generation-facelift/336166/",
        "what": "RS facelift (from 07/24): length 4709 mm, width 1829 mm"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26782",
+       "what": "Hersteller: loadSpace.sillHeightMm = 632 – Skoda Media Technische Daten Octavia Combi (2025): Ladekantenhöhe (bei Leergewicht) 632 mm"
       }
      ],
      "confidence": "high",
@@ -1520,7 +1632,16 @@
      "wheelbaseMm": 2686,
      "trunkL": 600,
      "trunkFoldedL": 1555,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 697,
+      "lengthFoldedMm": null,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "1-0-1-5-tsi-benziner",
@@ -1641,6 +1762,10 @@
       {
        "url": "https://www.auto-data.net/en/skoda-octavia-iv-facelift-2024-rs-2.0-tsi-265hp-dsg-52252",
        "what": "RS facelift 4709 mm, height 1455 mm"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26592/full",
+       "what": "Hersteller: loadSpace.sillHeightMm = 697 – Skoda-Media data sheet 'Technische Daten Octavia Limousine 2024' (2.0 TDI DSG 110 kW): Ladekantenhöhe (bei Leergewicht) 697 mm. The 2023 Octavia Limousine petrol data sheet also gives 697 mm. The 2022 Octavia Limousine iV gives 709 mm."
       }
      ],
      "confidence": "medium",
@@ -2004,10 +2129,19 @@
      "lengthMm": 4912,
      "widthMm": 1849,
      "heightMm": 1481,
-     "wheelbaseMm": null,
+     "wheelbaseMm": 2841,
      "trunkL": 645,
      "trunkFoldedL": 1795,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 712,
+      "lengthFoldedMm": null,
+      "source": "Hersteller"
+     },
      "variants": [
       {
        "id": "2-0-tsi-4x4-benziner",
@@ -2090,6 +2224,14 @@
       {
        "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Superb_IV",
        "what": "Superb IV: length 4902-4912 mm, height 1481-1506 mm"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26759/full",
+       "what": "Hersteller: wheelbaseMm = 2841 – Škoda Media 'Technische Daten Superb Limousine 2024': Radstand 2841 mm (also Motor1)"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26759/full",
+       "what": "Hersteller: loadSpace.sillHeightMm = 712 – Skoda-Media 'Technische Daten Superb Limousine 2024': Ladekantenhöhe bei Leergewicht 712 mm (2.0 TDI DSG 4x4). The 1.5 TSI mHEV 110 kW sheet (genpdf/26768) gives the same 712 mm."
       }
      ],
      "confidence": "medium",

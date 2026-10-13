@@ -1,0 +1,177 @@
+{
+ "id": "ls-bmw",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "3er Touring",
+   "generation": "G21 (inkl. LCI 2022)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 630,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/bmw-3er-touring/",
+   "sourceType": "adac",
+   "evidence": "ADAC test page: Ladekante liegt bei 63 cm, ohne nennenswerte Stufe im Inneren"
+  },
+  {
+   "model": "3er Touring",
+   "generation": "G21 (inkl. LCI 2022)",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 950,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-3er-touring-g21-2019-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Test G21: Breite zwischen den Radkästen 95 cm (narrowest point between side bulges stated as 89 cm)"
+  },
+  {
+   "model": "3er Touring",
+   "generation": "G21 (inkl. LCI 2022)",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1630,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-3er-touring-g21-2019-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Test G21: Tiefe bei umgeklappter Rückbank 163 cm (193 cm with front passenger seat pushed forward)"
+  },
+  {
+   "model": "5er Touring (inkl. i5 Touring)",
+   "generation": "G61 / i5 Touring",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 660,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-5er-touring-g61-2022-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Check G61: Ladekante 66 cm, keine Stufe zum Ladeboden (ausfahrt.tv measured 67 cm on i5 Touring)"
+  },
+  {
+   "model": "5er Touring (inkl. i5 Touring)",
+   "generation": "G61 / i5 Touring",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 1080,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-5er-touring-g61-2022-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Check G61: nutzbare Tiefe 85 cm oben und 108 cm unten bei aufrechter Rückbank (floor-level value used)"
+  },
+  {
+   "model": "5er Touring (inkl. i5 Touring)",
+   "generation": "G61 / i5 Touring",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1710,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-5er-touring-g61-2022-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Check G61: bei umgeklappter Rückbank 171 cm Ladelänge"
+  },
+  {
+   "model": "5er Touring (inkl. i5 Touring)",
+   "generation": "G61 / i5 Touring",
+   "variant": null,
+   "field": "loadSpace.openingHeightMm",
+   "value": 710,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-5er-touring-g61-2022-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Check G61: Öffnungshöhe 71 cm"
+  },
+  {
+   "model": "5er Touring (inkl. i5 Touring)",
+   "generation": "G61 / i5 Touring",
+   "variant": null,
+   "field": "loadSpace.heightMm",
+   "value": 410,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-5er-touring-g61-2022-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Check G61: Höhe unter der Laderaumabdeckung 41 cm"
+  },
+  {
+   "model": "5er Touring (inkl. i5 Touring)",
+   "generation": "G61 / i5 Touring",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1070,
+   "sourceUrl": "https://ausfahrt.tv/2024-bmw-5er-touring-g61/",
+   "sourceType": "sonstige",
+   "evidence": "ausfahrt.tv own measurement (i5 eDrive40 Touring): schmalste Stelle des Laderaums 107 cm"
+  },
+  {
+   "model": "X3",
+   "generation": "G45",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 790,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-x3-g45-2024-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Test X3 G45 (20d xDrive): Ladekante bei 79 cm"
+  },
+  {
+   "model": "X3",
+   "generation": "G45",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 930,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-x3-g45-2024-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Test X3 G45: Tiefe 80 cm oben und 93 cm unten bis zur Rücksitzlehne (floor value used; angurten.de lists Ladelänge 1010 mm)"
+  },
+  {
+   "model": "X3",
+   "generation": "G45",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1560,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-bmw-x3-g45-2024-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Test X3 G45: bei umgeklappter Bank 156 cm Tiefe"
+  },
+  {
+   "model": "X1",
+   "generation": "U11",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 740,
+   "sourceUrl": "https://kofferraum-check.de/suv/kofferraum-test-bmw-x1-bmw-ix1-typ-u11-2023-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Test X1/iX1 U11: Ladekante auf 74 cm Höhe, Ladeboden dahinter ca. 2 cm tiefer"
+  },
+  {
+   "model": "X1",
+   "generation": "U11",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1520,
+   "sourceUrl": "https://kofferraum-check.de/suv/kofferraum-test-bmw-x1-bmw-ix1-typ-u11-2023-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Test X1/iX1 U11: Ladefläche bei umgeklappter Rückbank 152 cm tief (191 cm mit vorgeschobenem Beifahrersitz)"
+  },
+  {
+   "model": "1er",
+   "generation": "F70",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1010,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-check-bmw-1er-f70-2024-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Check BMW 120 M Sport (F70): Kofferraumbreite (zwischen Radkästen) 101 cm"
+  },
+  {
+   "model": "1er",
+   "generation": "F70",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1360,
+   "sourceUrl": "https://kofferraum-check.de/kofferraum-check/kofferraum-check-bmw-1er-f70-2024-bis/",
+   "sourceType": "sonstige",
+   "evidence": "Kofferraum-Check BMW 120 (F70): Ladetiefe bei umgelegter Rückbank 136 cm (160 cm mit vorgeschobenem Beifahrersitz)"
+  }
+ ],
+ "notFound": [
+  "1er | F70: loadSpace.lengthMm, loadSpace.widthMm, loadSpace.heightMm, loadSpace.openingHeightMm, loadSpace.sillHeightMm (70 cm mentioned but source attribution in search summary contradictory)",
+  "2er Active Tourer | U06: all loadSpace fields (search budget exhausted)",
+  "3er Limousine | G20 (inkl. LCI 2022): all loadSpace fields (search budget exhausted)",
+  "3er Touring | G21 (inkl. LCI 2022): loadSpace.lengthMm (only unofficial forum claim 986 mm), loadSpace.widthMm (only forum claim 1244 mm), loadSpace.heightMm, loadSpace.openingHeightMm",
+  "5er Touring (inkl. i5 Touring) | G61 / i5 Touring: loadSpace.widthMm",
+  "iX3 | NA5 (Neue Klasse): all loadSpace fields (search budget exhausted)",
+  "X1 | U11: loadSpace.lengthMm, loadSpace.widthBetweenArchesMm/widthMm (kofferraum-check states 'Innenbreite 102 cm' without saying whether narrowest or max), loadSpace.heightMm, loadSpace.openingHeightMm",
+  "X3 | G45: loadSpace.widthBetweenArchesMm/widthMm (kofferraum-check 'Kofferraumbreite 109 cm' without measuring point), loadSpace.heightMm, loadSpace.openingHeightMm",
+  "X5 | G05 LCI (Facelift): all loadSpace fields (search budget exhausted)"
+ ]
+}

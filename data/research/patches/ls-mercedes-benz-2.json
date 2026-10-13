@@ -1,0 +1,33 @@
+{
+ "id": "ls-mercedes-benz-2",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "GLC",
+   "generation": "X254",
+   "variant": null,
+   "field": "loadSpace.widthBetweenArchesMm",
+   "value": 1090,
+   "sourceUrl": "https://www.auto-motor-und-sport.de/test/kosten-realverbrauch-mercedes-glc-220-d-4matic/technische-daten/",
+   "sourceType": "sonstige",
+   "evidence": "auto motor und sport, Test GLC 220 d 4Matic (10/2023, 620–1680 l, so X254), technical data: Breite zwischen den Radkästen 1090 mm. Neither Mercedes nor an ADAC Autotest of the X254 publishes this value."
+  },
+  {
+   "model": "GLC",
+   "generation": "X254",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 730,
+   "sourceUrl": "https://www.auto-motor-und-sport.de/test/kosten-realverbrauch-mercedes-glc-220-d-4matic/technische-daten/",
+   "sourceType": "sonstige",
+   "evidence": "auto motor und sport, Test GLC 220 d 4Matic (10/2023, X254), technical data: Ladekantenhöhe 730 mm. The AMS GLC 300 de test data page also gives 730 mm. ADAC catalog pages for X254 variants say 'kein eigener ADAC Autotest durchgeführt'."
+  }
+ ],
+ "notFound": [
+  "GLC | X254: loadSpace.lengthMm (no explicit load length to the rear seatback found. AMS gives only a 'Quader' of 1380 x 880 x 690 mm. The angurten.de figures of 930/1008 mm are inconsistent and may be for the X253)",
+  "GLC | X254: loadSpace.widthMm (AMS lists only cabin widths of 1500/1480 mm, not the maximum load width)",
+  "GLC | X254: loadSpace.heightMm",
+  "GLC | X254: loadSpace.openingHeightMm",
+  "GLC | X254: loadSpace.lengthFoldedMm (angurten.de 1558 mm not clearly X254)"
+ ]
+}

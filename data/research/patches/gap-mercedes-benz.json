@@ -1,0 +1,263 @@
+{
+ "id": "gap-mercedes-benz",
+ "kind": "gaps",
+ "patches": [
+  {
+   "model": "GLC",
+   "generation": "X253 (incl. Mopf 2019)",
+   "variant": null,
+   "field": "lengthMm",
+   "value": 4656,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glc/253/248579/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog GLC 220 d 4MATIC 9G-TRONIC (09/15-05/18): Länge 4656 mm"
+  },
+  {
+   "model": "GLC",
+   "generation": "X253 (incl. Mopf 2019)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2873,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glc/253/248579/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog GLC 220 d 4MATIC (09/15-05/18): Radstand 2873 mm"
+  },
+  {
+   "model": "GLC",
+   "generation": "X253 (incl. Mopf 2019)",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1890,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glc/253/248580/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog GLC 250 d 4MATIC (09/15-05/18), manufacturer data: Breite 1890 mm (without mirrors); the same value is listed for the 2019 facelift GLC 220 d"
+  },
+  {
+   "model": "GLC",
+   "generation": "X253 (incl. Mopf 2019)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1639,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glc/253/248580/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog GLC 250 d 4MATIC (09/15-05/18): Höhe 1639 mm"
+  },
+  {
+   "model": "GLC",
+   "generation": "X253 (incl. Mopf 2019)",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 1600,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glc/253/248580/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog GLC 250 d 4MATIC: Kofferraumvolumen dachhoch mit umgeklappter Rücksitzbank 1600 l (manufacturer figure, not an ADAC measurement)"
+  },
+  {
+   "model": "CLA",
+   "generation": "C118 (2. Generation, incl. Mopf 2023)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1439,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cla/118/324583/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog CLA Coupé 200 EDITION 2022 (04/22-10/22): Höhe 1439 mm (pre-facelift; facelift 2023 is listed with 1430 mm)"
+  },
+  {
+   "model": "CLA",
+   "generation": "C118 (2. Generation, incl. Mopf 2023)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2729,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cla/118/324583/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog CLA Coupé 200 EDITION 2022: Radstand 2729 mm; the facelift (01/25-11/25) entries also list 2729 mm"
+  },
+  {
+   "model": "CLA",
+   "generation": "C118 (2. Generation, incl. Mopf 2023)",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1830,
+   "sourceUrl": "https://mbpassion.de/2019/01/erster-blick-auf-die-neue-cla-generation-der-baureihe-c-118/",
+   "sourceType": "sonstige",
+   "evidence": "Launch report on C 118 (manufacturer data): Breite 1.830 mm, mit Außenspiegeln 1.999 mm. Note: ADAC lists 1834 mm for the facelift CLA Coupé 200 Advanced (01/25-11/25)."
+  },
+  {
+   "model": "CLA Shooting Brake",
+   "generation": "X174 (elektrisch)",
+   "variant": null,
+   "field": "lengthMm",
+   "value": 4723,
+   "sourceUrl": "https://www.mercedes-benz.de/passengercars/models/estate/cla-shooting-brake-electric/overview.html",
+   "sourceType": "hersteller",
+   "evidence": "Mercedes-Benz.de, CLA Shooting Brake elektrisch: Länge 4.723 mm"
+  },
+  {
+   "model": "CLA Shooting Brake",
+   "generation": "X174 (elektrisch)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1469,
+   "sourceUrl": "https://www.mercedes-benz.de/passengercars/models/estate/cla-shooting-brake-electric/overview.html",
+   "sourceType": "hersteller",
+   "evidence": "Mercedes data and press release: Höhe 1.469 mm (27 mm higher than the predecessor)"
+  },
+  {
+   "model": "CLA Shooting Brake",
+   "generation": "X174 (elektrisch)",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1855,
+   "sourceUrl": "https://www.elektroauto-news.net/news/daten-fakten-mercedes-benz-cla-shooting-brake",
+   "sourceType": "sonstige",
+   "evidence": "Data and facts on the CLA Shooting Brake: Breite 1.855 mm ohne Außenspiegel (2.021 mm with mirrors, 1.885 mm with mirrors folded)"
+  },
+  {
+   "model": "CLA Shooting Brake",
+   "generation": "X174 (elektrisch)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2790,
+   "sourceUrl": "https://www.elektroauto-news.net/news/daten-fakten-mercedes-benz-cla-shooting-brake",
+   "sourceType": "sonstige",
+   "evidence": "Radstand um 61 Millimeter auf 2.790 Millimeter gewachsen"
+  },
+  {
+   "model": "GLA",
+   "generation": "3. Generation (2026, elektrisch)",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1873,
+   "sourceUrl": "https://www.motorized.ch/car/mercedes-benz-gla-klasse-elektro-suv/",
+   "sourceType": "sonstige",
+   "evidence": "motorized.ch: 4'565 mm long, 1'873 mm wide, 1'604 mm high (ADAC gives only the rounded value of 1.87 m)"
+  },
+  {
+   "model": "GLA",
+   "generation": "3. Generation (2026, elektrisch)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1604,
+   "sourceUrl": "https://www.motorized.ch/car/mercedes-benz-gla-klasse-elektro-suv/",
+   "sourceType": "sonstige",
+   "evidence": "motorized.ch: Höhe 1'604 mm (ADAC rounded value: 1.60 m)"
+  },
+  {
+   "model": "GLA",
+   "generation": "3. Generation (2026, elektrisch)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2790,
+   "sourceUrl": "https://www.motorized.ch/car/mercedes-benz-gla-klasse-elektro-suv/",
+   "sourceType": "sonstige",
+   "evidence": "motorized.ch: Radstand wächst auf 2'790 mm (ADAC: 2,79 m)"
+  },
+  {
+   "model": "E-Klasse T-Modell",
+   "generation": "S213 (incl. Mopf 2020)",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1852,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/e-klasse/213-238/295760/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog E 300 de T-Modell 9G-TRONIC (10/18-05/19): Breite 1852 mm (2065 mm inkl. Spiegel)"
+  },
+  {
+   "model": "E-Klasse T-Modell",
+   "generation": "S213 (incl. Mopf 2020)",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1475,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/e-klasse/213-238/295760/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog E 300 de T-Modell (10/18-05/19): Höhe 1475 mm"
+  },
+  {
+   "model": "E-Klasse T-Modell",
+   "generation": "S213 (incl. Mopf 2020)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2939,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/e-klasse/213-238/295760/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog E 300 de T-Modell (10/18-05/19): Radstand 2939 mm"
+  },
+  {
+   "model": "E-Klasse T-Modell",
+   "generation": "S213 (incl. Mopf 2020)",
+   "variant": "E 300 de / E 300 e (Plug-in-Hybrid)",
+   "field": "trunkL",
+   "value": 480,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/e-klasse/213-238/295760/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog E 300 de T-Modell (10/18-05/19): Kofferraumvolumen normal 480 l, 1660 l dachhoch mit umgeklappter Rücksitzbank"
+  },
+  {
+   "model": "E-Klasse T-Modell",
+   "generation": "S214",
+   "variant": null,
+   "field": "trunkFoldedL",
+   "value": 1830,
+   "sourceUrl": "https://www.autobild.de/artikel/mercedes-e-klasse-t-modell-s-214-alle-infos-zum-kombi-22792871.html",
+   "sourceType": "sonstige",
+   "evidence": "AUTO BILD: 615 bis 1830 Liter Stauraum for the combustion T-Modell (Plug-in-Hybrid: 460 bis 1675 Liter)"
+  },
+  {
+   "model": "E-Klasse T-Modell",
+   "generation": "S214",
+   "variant": "Mercedes-AMG E 53 HYBRID 4MATIC+ T-Modell",
+   "field": "trunkL",
+   "value": 460,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/e-klasse/214/334826/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog E 53 Hybrid AMG T-Modell Premium 4MATIC (04/24-06/25): Kofferraumvolumen normal 460 l, dachhoch umgeklappt 1675 l"
+  },
+  {
+   "model": "A-Klasse Limousine",
+   "generation": "V177",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1796,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/a-klasse/177-facelift/327080/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog A 250 e Limousine AMG-Line Advanced Plus (01/23-01/24): Breite 1796 mm (1992 mm inkl. Spiegel)"
+  },
+  {
+   "model": "A-Klasse Limousine",
+   "generation": "V177",
+   "variant": "A 250 e (Plug-in-Hybrid)",
+   "field": "trunkL",
+   "value": 332,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/a-klasse/177-facelift/327080/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog A 250 e Limousine (01/23-01/24): Kofferraumvolumen normal 332 l (catalog figure; carwow states 345 l)"
+  },
+  {
+   "model": "GLB",
+   "generation": "X247 (Facelift)",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1834,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glb/247-facelift/328507/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog GLB 200 Advanced 7G-DCT (09/23-01/24): Breite 1834 mm ohne Außenspiegel (2020 mm inkl.)"
+  },
+  {
+   "model": "GLB",
+   "generation": "X247 (Facelift)",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2829,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glb/247-facelift/328507/",
+   "sourceType": "adac",
+   "evidence": "ADAC Autokatalog GLB 200 Advanced (09/23-01/24): Radstand 2829 mm"
+  }
+ ],
+ "notFound": [
+  "A-Klasse Kompaktlimousine | W177 (2018-2022) | trunkL for variant \"A 250 e (Plug-in-Hybrid)\": the only ADAC entry found (310 l) is for the 01/23-01/24 facelift, and no pre-facelift source was found",
+  "A-Klasse Limousine | V177 | trunkFoldedL",
+  "C-Klasse Limousine | W206 | trunkFoldedL",
+  "CLA | C174 / C178 (3. Generation) | trunkFoldedL",
+  "CLA | C118 (2. Generation, incl. Mopf 2023) | trunkFoldedL"
+ ]
+}

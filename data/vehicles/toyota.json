@@ -18,7 +18,16 @@
      "wheelbaseMm": 2640,
      "trunkL": 430,
      "trunkFoldedL": 1140,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 790,
+      "lengthFoldedMm": null,
+      "source": "ADAC"
+     },
      "variants": [
       {
        "id": "2-0-hybrid-awd-i-gr-sport",
@@ -105,6 +114,10 @@
       {
        "url": "https://www.motor1.com/news/694621/toyota-chr-2023-dimensions-boot/",
        "what": "Alternative trunk figures 388/364/362/310 l"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/v1759995432/ADAC-eV/KOR/Text/PDF/toyota-c-hr-20-plug-in-hybrid-lounge_yyijbh.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 790 – ADAC Autotest Toyota C-HR 2.0 Plug-In Hybrid Lounge: Ladekante mit 79 cm (sehr hoch), dazu 5 cm Stufe zwischen Ladefläche und Bordwand (ADAC-Messung)"
       }
      ],
      "confidence": "high",
@@ -121,10 +134,10 @@
      "yearFrom": 2020,
      "yearTo": 2023,
      "bodyType": "suv-coupe",
-     "lengthMm": null,
-     "widthMm": null,
-     "heightMm": null,
-     "wheelbaseMm": null,
+     "lengthMm": 4390,
+     "widthMm": 1795,
+     "heightMm": 1555,
+     "wheelbaseMm": 2640,
      "trunkL": 377,
      "trunkFoldedL": 1160,
      "loadSpace": null,
@@ -176,6 +189,22 @@
       {
        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/c-hr/x10-facelift/309736/",
        "what": "ADAC catalogue entry C-HR 2.0 Hybrid (12/19-12/23) (not read in detail)"
+      },
+      {
+       "url": "https://www.toyota-media.de/blog/toyota-modelle/thema/c-hr-ab-2020/technische-daten",
+       "what": "Hersteller: lengthMm = 4390 – Toyota Media 'C-HR (ab 2020) Technische Daten': Länge der Karosserie 4390 mm (1,8 Hybrid) / 4402-4395 mm (2,0 Hybrid)"
+      },
+      {
+       "url": "https://www.toyota-media.de/blog/toyota-modelle/thema/c-hr-ab-2020/technische-daten",
+       "what": "Hersteller: widthMm = 1795 – Toyota Media 'C-HR (ab 2020) Technische Daten': Breite der Karosserie 1795 mm"
+      },
+      {
+       "url": "https://www.toyota-media.de/blog/toyota-modelle/thema/c-hr-ab-2020/technische-daten",
+       "what": "Hersteller: heightMm = 1555 – Toyota Media 'C-HR (ab 2020) Technische Daten': Höhe der Karosserie 1555 mm (Nov 2019 press kit states 1565 mm, so the two Toyota documents disagree)"
+      },
+      {
+       "url": "https://www.toyota-media.de/blog/toyota-modelle/thema/c-hr-ab-2020/technische-daten",
+       "what": "Hersteller: wheelbaseMm = 2640 – Toyota Media 'C-HR (ab 2020) Technische Daten': Radstand 2640 mm"
       }
      ],
      "confidence": "low",
@@ -204,7 +233,16 @@
      "wheelbaseMm": 2640,
      "trunkL": 414,
      "trunkFoldedL": 1333,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 720,
+      "lengthFoldedMm": null,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "2-0-hybrid-frontantrieb-facelift",
@@ -306,6 +344,10 @@
       {
        "url": "https://www.autozeitung.de/toyota-corolla-cross-test-203073.html",
        "what": "Test: 425 / 1337 l"
+      },
+      {
+       "url": "https://www.motormobiles.de/toyota-corolla-cross-hybrid-im-test/",
+       "what": "Fachpresse: loadSpace.sillHeightMm = 720 – Motormobiles-Test Corolla Cross Hybrid: 'Die Ladekante ist beim Beladen mit einer Höhe von 72 Zentimeter zu überwinden. Es folgt eine Stufe von zehn Zentimetern.' (carwalk.de nennt denselben Wert; kein ADAC-Wert gefunden)"
       }
      ],
      "confidence": "medium",
@@ -637,7 +679,16 @@
      "wheelbaseMm": 2560,
      "trunkL": 286,
      "trunkFoldedL": 935,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 680,
+      "lengthFoldedMm": null,
+      "source": "ADAC"
+     },
      "variants": [
       {
        "id": "1-5-hybrid-116-ps-hybrid",
@@ -671,6 +722,10 @@
       {
        "url": "https://www.autoscout24.de/auto/technische-daten/toyota/yaris/yaris-hybrid-16942/",
        "what": "Trunk 286-768 l range (cross-check)"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6516-toyota-yaris-15-hybrid-130-style-plus-cvt/toyota-yaris-15-hybrid-130-style-plus-cvt.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 680 – ADAC Autotest Toyota Yaris 1.5 Hybrid 130 Style PLUS CVT: 'Die Ladekante fällt mit 68 cm angenehm niedrig aus.' (ADAC-Messung)"
       }
      ],
      "confidence": "medium",
@@ -699,7 +754,16 @@
      "wheelbaseMm": 2560,
      "trunkL": 397,
      "trunkFoldedL": 1097,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 795,
+      "lengthFoldedMm": null,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "1-5-hybrid-frontantrieb",
@@ -748,6 +812,10 @@
       {
        "url": "https://www.angurten.de/is/abmessungen/2021-Yaris+Cross",
        "what": "Dimensions 4180 x 1765 mm (width without mirrors)"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/toyota-yaris-cross-kofferraum-test/",
+       "what": "Fachpresse: loadSpace.sillHeightMm = 795 – kofferraum-check.de Kofferraum-Test Toyota Yaris Cross: Ladekantenhöhe 79,5 cm (eigene Messung der Seite; kein ADAC- oder Herstellerwert gefunden)"
       }
      ],
      "confidence": "medium",

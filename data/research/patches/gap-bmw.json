@@ -1,0 +1,89 @@
+{
+ "id": "gap-bmw",
+ "kind": "gaps",
+ "patches": [
+  {
+   "model": "1er",
+   "generation": "F40",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1799,
+   "sourceUrl": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0296068DE/441771",
+   "sourceType": "hersteller",
+   "evidence": "BMW Medieninformation 05/2019 (neuer BMW 1er): Länge 4319 mm, Breite 1799 mm (+34 mm), Höhe 1434 mm, Radstand 2670 mm. Breite ohne Außenspiegel (angurten.de: 1799 ohne / 2081 mm mit Spiegeln)."
+  },
+  {
+   "model": "2er Active Tourer",
+   "generation": "F45",
+   "variant": "225xe iPerformance (Plug-in-Hybrid)",
+   "field": "trunkL",
+   "value": 400,
+   "sourceUrl": "https://www.press.bmwgroup.com/asia/article/attachment/T0274617EN/394439",
+   "sourceType": "hersteller",
+   "evidence": "BMW media information sheet for the 225xe Active Tourer: luggage compartment capacity 400–1350 ltr. The ADAC Autokatalog entry for the 225xe iPerformance Active Tourer (03/16–02/18) also lists 400 l normal."
+  },
+  {
+   "model": "2er Active Tourer",
+   "generation": "F45",
+   "variant": "225xe iPerformance (Plug-in-Hybrid)",
+   "field": "trunkFoldedL",
+   "value": 1350,
+   "sourceUrl": "https://www.press.bmwgroup.com/asia/article/attachment/T0274617EN/394439",
+   "sourceType": "hersteller",
+   "evidence": "BMW media information sheet for the 225xe Active Tourer: luggage compartment capacity 400–1350 ltr. BMW press: expandable to 1,350 l by folding the 40:20:40 split rear backrests."
+  },
+  {
+   "model": "X1",
+   "generation": "F48",
+   "variant": null,
+   "field": "widthMm",
+   "value": 1821,
+   "sourceUrl": "https://www.7-forum.com/news/2015/bmw_x1_f48/technische_daten.pdf",
+   "sourceType": "hersteller",
+   "evidence": "BMW Medieninformation 06/2015, technische Daten BMW X1 sDrive20i/xDrive20i: Länge/Breite/Höhe 4439/1821/1598 mm. ADAC lists 1821 mm without and 2060 mm with mirrors."
+  },
+  {
+   "model": "X1",
+   "generation": "F48",
+   "variant": null,
+   "field": "heightMm",
+   "value": 1598,
+   "sourceUrl": "https://www.7-forum.com/news/2015/bmw_x1_f48/technische_daten.pdf",
+   "sourceType": "hersteller",
+   "evidence": "BMW Medieninformation 06/2015: Länge/Breite/Höhe 4439/1821/1598 mm. A footnote gives 1612 mm for the variant with the roof fin antenna."
+  },
+  {
+   "model": "X1",
+   "generation": "F48",
+   "variant": null,
+   "field": "wheelbaseMm",
+   "value": 2670,
+   "sourceUrl": "https://www.7-forum.com/news/2015/bmw_x1_f48/technische_daten.pdf",
+   "sourceType": "hersteller",
+   "evidence": "BMW Medieninformation 06/2015, technische Daten BMW X1: Radstand 2670 mm (also confirmed by en.wikipedia BMW X1 (F48))."
+  },
+  {
+   "model": "X3",
+   "generation": "G01",
+   "variant": "xDrive30e (Plug-in-Hybrid)",
+   "field": "trunkL",
+   "value": 450,
+   "sourceUrl": "https://www.press.bmwgroup.com/deutschland/article/detail/T0302155DE/erfolgreiches-sports-activity-vehicle-jetzt-auch-mit-plug-in-hybrid-antrieb:-der-neue-bmw-x3-xdrive30e?language=de",
+   "sourceType": "hersteller",
+   "evidence": "BMW Presse: 'Mit einem Wert von 450 Litern liegt das Gepäckraumvolumen des neuen BMW X3 xDrive30e auf dem Niveau der herkömmlich motorisierten Modellvarianten.' The technical data sheet lists Kofferraumvolumen 450–1500 l."
+  },
+  {
+   "model": "X3",
+   "generation": "G01",
+   "variant": "xDrive30e (Plug-in-Hybrid)",
+   "field": "trunkFoldedL",
+   "value": 1500,
+   "sourceUrl": "https://www.press.bmwgroup.com/deutschland/article/detail/T0302155DE/erfolgreiches-sports-activity-vehicle-jetzt-auch-mit-plug-in-hybrid-antrieb:-der-neue-bmw-x3-xdrive30e?language=de",
+   "sourceType": "hersteller",
+   "evidence": "BMW Presse: 'Durch das Umklappen der im Verhältnis 40 : 20 : 40 teilbaren Fondsitzlehne lässt sich der Stauraum auf bis zu 1 500 Liter erweitern.'"
+  }
+ ],
+ "notFound": [
+  "3er Limousine | G20 (inkl. LCI 2022) | trunkFoldedL: BMW gives only 480 l (VDA) with the seats up. I found no manufacturer, ADAC or auto motor und sport figure for the sedan with the seats folded. The 1510 l figure belongs to the Touring (G21) and does not apply."
+ ]
+}

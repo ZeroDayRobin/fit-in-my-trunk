@@ -18,7 +18,16 @@
      "wheelbaseMm": 2766,
      "trunkL": 385,
      "trunkFoldedL": 1267,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 770,
+      "lengthFoldedMm": null,
+      "source": "ADAC"
+     },
      "variants": [
       {
        "id": "elektro-79-kwh",
@@ -71,6 +80,10 @@
       {
        "url": "https://de.motor1.com/news/792802/cupra-born-2026-innenraum-kofferraum/",
        "what": "Facelift interior/trunk: volume unchanged"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6429-cupra-born-vz/cupra-born-vz.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 770 – ADAC Autotest Cupra Born VZ (pre-facelift): the Ladekante is 77 cm and the inner step is about 6.5 cm with the floor up. The ADAC facelift drive report (adac.de/.../cupra-born-fahrbericht/) says the interior space and cargo volume are unchanged in the facelift."
       }
      ],
      "confidence": "medium",
@@ -181,7 +194,16 @@
      "wheelbaseMm": 2680,
      "trunkL": 450,
      "trunkFoldedL": 1505,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 750,
+      "lengthFoldedMm": null,
+      "source": "ADAC"
+     },
      "variants": [
       {
        "id": "2-0-tsi-4drive-vz-4drive-benziner",
@@ -344,6 +366,10 @@
       {
        "url": "https://cupra-forum.com/forum/thread/111-cupra-formentor-kofferraum-ma%C3%9Fe-in-cm-96-60-cm-volumen-450-420-345-liter-je-moto/",
        "what": "Forum (unofficial): 450/420/345 L by drivetrain; VZ 4Drive folded 1475 L"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6471-cupra-formentor-vz-20-tsi-extreme-dsg/cupra-formentor-vz-20-tsi-extreme-dsg.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 750 – ADAC Autotest Cupra Formentor VZ 2.0 TSI Extreme DSG: the sill (Ladekante) is about 75 cm above the road. With the variable floor up, there is an 11 cm drop to the load floor."
       }
      ],
      "confidence": "medium",
@@ -375,12 +401,12 @@
      "loadSpace": {
       "lengthMm": null,
       "widthMm": null,
-      "widthBetweenArchesMm": null,
+      "widthBetweenArchesMm": 1000,
       "heightMm": null,
       "openingHeightMm": null,
       "sillHeightMm": 740,
       "lengthFoldedMm": null,
-      "source": "ADAC test (via gute-fahrt.de): loading sill 74 cm"
+      "source": "ADAC + Fachpresse"
      },
      "variants": [
       {
@@ -461,6 +487,10 @@
       {
        "url": "https://www.autoguru.at/2025/09/cupra-tavascan-im-test/",
        "what": "540 L, about 1500 L folded"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/cupra-tavascan-vz/technische-daten/",
+       "what": "Fachpresse: loadSpace.widthBetweenArchesMm = 1000 – auto motor und sport test Cupra Tavascan VZ (07/2024), technical data/measurements: 'Breite zwischen den Radkästen 1000 mm'."
       }
      ],
      "confidence": "high",
@@ -489,7 +519,16 @@
      "wheelbaseMm": 2681,
      "trunkL": 540,
      "trunkFoldedL": 1544,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": 1000,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 790,
+      "lengthFoldedMm": 1900,
+      "source": "Fachpresse"
+     },
      "variants": [
       {
        "id": "2-0-tsi-4drive-dsg-benziner",
@@ -611,6 +650,18 @@
       {
        "url": "https://www.carwow.de/cupra/terramar/technische-daten",
        "what": "1.5 eTSI 150 PS 540 L; e-HYBRID 450 L"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-cupra-terramar-typ-kp-2024-bis/",
+       "what": "Fachpresse: loadSpace.sillHeightMm = 790 – kofferraum-check.de Kofferraum-Test Cupra Terramar (Typ KP): the Ladekante is 79 cm high, and the floor drops 2 cm behind the plastic edge. No ADAC Autotest measurement was found."
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-cupra-terramar-typ-kp-2024-bis/",
+       "what": "Fachpresse: loadSpace.widthBetweenArchesMm = 1000 – kofferraum-check.de: the trunk is exactly 100 cm wide at its narrowest point between the wheel arches. Higher up, trim panels reduce the usable width to about 92 cm."
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-cupra-terramar-typ-kp-2024-bis/",
+       "what": "Fachpresse: loadSpace.lengthFoldedMm = 1900 – kofferraum-check.de: maximum loading length up to 190 cm. As a maximum, this implies the rear bench folded."
       }
      ],
      "confidence": "medium",

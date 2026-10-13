@@ -107,10 +107,19 @@
      "lengthMm": 4762,
      "widthMm": 1847,
      "heightMm": 1435,
-     "wheelbaseMm": null,
+     "wheelbaseMm": 2820,
      "trunkL": 495,
      "trunkFoldedL": 1495,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 640,
+      "lengthFoldedMm": null,
+      "source": "ADAC"
+     },
      "variants": [
       {
        "id": "rs-4-avant",
@@ -170,6 +179,14 @@
       {
        "url": "https://kofferraum.org/?p=24208",
        "what": "RS 4 Avant 495/1495 l manufacturer figure"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/b9-facelift-2/314335/",
+       "what": "ADAC: wheelbaseMm = 2820 – ADAC Autokatalog A4 Avant 40 TDI quattro S tronic (08/20-11/23): Radstand 2820 mm (same 2820 mm on all B9-facelift Avant entries)"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT5960_Audi_A4_Avant_40_TFSI_S_line_S_tronic/Audi_A4_Avant_40_TFSI_S_line_S_tronic.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 640 – ADAC Autotest A4 Avant 40 TFSI S line S tronic (B9 facelift): 'Dank der niedrigen Ladekante außen (64 cm) und dem zur Ladekante nahezu ebenen Ladeboden...'"
       }
      ],
      "confidence": "medium",
@@ -196,9 +213,18 @@
      "widthMm": 1860,
      "heightMm": 1460,
      "wheelbaseMm": 2892,
-     "trunkL": null,
-     "trunkFoldedL": null,
-     "loadSpace": null,
+     "trunkL": 476,
+     "trunkFoldedL": 1424,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 650,
+      "lengthFoldedMm": null,
+      "source": "ADAC"
+     },
      "variants": [
       {
        "id": "e-hybrid-quattro-plug-in-hybrid",
@@ -232,6 +258,18 @@
       {
        "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-audi-a5-avant-b10-2024-bis/",
        "what": "e-hybrid 361-1361 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a5/b10/336226/",
+       "what": "ADAC: trunkL = 476 – ADAC Autokatalog A5 Avant 2.0 TFSI S tronic (11/24-09/25): Kofferraumvolumen normal 476 l (manufacturer figure; quattro/TDI 448 l, e-hybrid 361 l)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a5/b10/336226/",
+       "what": "ADAC: trunkFoldedL = 1424 – ADAC Autokatalog A5 Avant 2.0 TFSI S tronic: Kofferraumvolumen dachhoch mit umgeklappter Rücksitzbank 1424 l (manufacturer figure; quattro/TDI 1396 l)"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6534-audi-a5-avant-20-tdi-mhev-plus-s-tronic/audi-a5-avant-20-tdi-mhev-plus-s-tronic.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 650 – ADAC Autotest A5 Avant 2.0 TDI MHEV plus S tronic: 'Die Höhe der Ladekante beträgt praxistaugliche 65 cm' (step to load floor approx. 10 cm)"
       }
      ],
      "confidence": "medium",
@@ -255,12 +293,21 @@
      "yearTo": null,
      "bodyType": "wagon",
      "lengthMm": 4999,
-     "widthMm": null,
-     "heightMm": null,
+     "widthMm": 1875,
+     "heightMm": 1472,
      "wheelbaseMm": 2927,
      "trunkL": 503,
      "trunkFoldedL": 1534,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 640,
+      "lengthFoldedMm": null,
+      "source": "ADAC"
+     },
      "variants": [
       {
        "id": "2-0-tfsi-benziner-frontantrieb",
@@ -309,6 +356,18 @@
       {
        "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-audi-a6-avant-tfsi-typ-c9-2024-bis/",
        "what": "Trunk test of the C9 Avant TFSI"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a6/gh-c9/339500/",
+       "what": "ADAC: widthMm = 1875 – ADAC Autokatalog A6 Avant 2.0 TFSI S tronic (ab 05/25): Breite 1875 mm, mit Außenspiegeln 2099 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a6/gh-c9/339500/",
+       "what": "ADAC: heightMm = 1472 – ADAC Autokatalog A6 Avant 2.0 TFSI S tronic (ab 05/25): Höhe 1472 mm"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at6454-audi-a6-avant-40-tdi-advanced-quattro-s-tronic/audi-a6-avant-40-tdi-advanced-quattro-s-tronic.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 640 – ADAC Autotest A6 Avant 40 TDI advanced quattro S tronic (C9, 2025): 'die Ladekante liegt nur 64 Zentimeter über der Straße'"
       }
      ],
      "confidence": "medium",
@@ -326,8 +385,8 @@
      "yearTo": 2025,
      "bodyType": "wagon",
      "lengthMm": 4939,
-     "widthMm": null,
-     "heightMm": null,
+     "widthMm": 1886,
+     "heightMm": 1467,
      "wheelbaseMm": 2924,
      "trunkL": 565,
      "trunkFoldedL": 1680,
@@ -380,6 +439,14 @@
       {
        "url": "https://www.auto-data.net/de/audi-a6-avant-c8-55-tfsi-e-367hp-plug-in-hybrid-quattro-ultra-s-tronic-42727",
        "what": "Length 4939, wheelbase 2924, 405-1535 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a6/c8/291826/",
+       "what": "ADAC: widthMm = 1886 – ADAC Autokatalog A6 Avant 45 TDI quattro tiptronic (09/18-06/19): Breite 1886 mm (2110 mm mit Außenspiegeln); same on C8 facelift entries"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a6/c8/291826/",
+       "what": "ADAC: heightMm = 1467 – ADAC Autokatalog A6 Avant 45 TDI quattro tiptronic (09/18-06/19): Höhe 1467 mm; same on C8 facelift entries"
       }
      ],
      "confidence": "medium",
@@ -546,8 +613,8 @@
      "yearFrom": 2025,
      "yearTo": null,
      "bodyType": "suv-coupe",
-     "lengthMm": null,
-     "widthMm": null,
+     "lengthMm": 4531,
+     "widthMm": 1859,
      "heightMm": null,
      "wheelbaseMm": null,
      "trunkL": 488,
@@ -574,6 +641,14 @@
       {
        "url": "https://www.autobild.de/marken-modelle/audi/q3/",
        "what": "New Q3 Sportback trunk 488-1275 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2259-Q3+Sportback+2025",
+       "what": "Fachpresse: lengthMm = 4531 – angurten.de Audi Q3 Sportback 2025 (FJ): Länge 4.531 mm (also MeinAuto.de Q3 Sportback TFSI e: 4.531 mm); no ADAC/Audi page found"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2259-Q3+Sportback+2025",
+       "what": "Fachpresse: widthMm = 1859 – angurten.de Audi Q3 Sportback 2025 (FJ): Breite ohne Spiegel 1.859 mm, mit Spiegeln 2.087 mm; no ADAC/Audi page found"
       }
      ],
      "confidence": "low",
@@ -591,9 +666,9 @@
      "yearTo": 2025,
      "bodyType": "suv-coupe",
      "lengthMm": 4500,
-     "widthMm": null,
-     "heightMm": null,
-     "wheelbaseMm": null,
+     "widthMm": 1843,
+     "heightMm": 1567,
+     "wheelbaseMm": 2680,
      "trunkL": 530,
      "trunkFoldedL": 1400,
      "loadSpace": null,
@@ -637,6 +712,18 @@
       {
        "url": "https://www.autobild.de/marken-modelle/audi/q3/",
        "what": "Predecessor Sportback 530-1400 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/f3/309666/",
+       "what": "ADAC: widthMm = 1843 – ADAC Autokatalog Q3 Sportback 35 TFSI (01/20-08/20): Breite 1843 mm (2022 mm mit Spiegeln); same on 05/23-03/24 Sportback entry"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/f3/309666/",
+       "what": "ADAC: heightMm = 1567 – ADAC Autokatalog Q3 Sportback 35 TFSI (01/20-08/20): Höhe 1567 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/f3/309666/",
+       "what": "ADAC: wheelbaseMm = 2680 – ADAC Autokatalog Q3 Sportback 35 TFSI (01/20-08/20): Radstand 2680 mm"
       }
      ],
      "confidence": "low",
@@ -665,7 +752,16 @@
      "wheelbaseMm": 2764,
      "trunkL": 520,
      "trunkFoldedL": 1490,
-     "loadSpace": null,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 770,
+      "lengthFoldedMm": null,
+      "source": "ADAC"
+     },
      "variants": [
       {
        "id": "e-tron-elektro-35-40-45-50-55",
@@ -695,6 +791,10 @@
       {
        "url": "https://kofferraum.org/volumen/audi/q4-e-tron/",
        "what": "Trunk 520/1490"
+      },
+      {
+       "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6591-audi-q4-40-e-tron-advanced/audi-q4-40-e-tron-advanced.pdf",
+       "what": "ADAC: loadSpace.sillHeightMm = 770 – ADAC Autotest Audi Q4 40 e-tron advanced: Ladekante liegt 77 cm über der Fahrbahn; Stehhöhe unter der Heckklappe 1,91 m"
       }
      ],
      "confidence": "high",
@@ -717,10 +817,10 @@
      "yearFrom": 2021,
      "yearTo": null,
      "bodyType": "suv-coupe",
-     "lengthMm": null,
-     "widthMm": null,
+     "lengthMm": 4588,
+     "widthMm": 1865,
      "heightMm": 1614,
-     "wheelbaseMm": null,
+     "wheelbaseMm": 2764,
      "trunkL": 535,
      "trunkFoldedL": 1460,
      "loadSpace": null,
@@ -745,6 +845,18 @@
       {
        "url": "https://www.carwow.de/audi/q4-sportback-e-tron/technische-daten",
        "what": "Trunk 535/1460, height 1614"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q4-e-tron/fz/329779/",
+       "what": "ADAC: lengthMm = 4588 – ADAC Autokatalog Q4 Sportback 45 e-tron quattro (09/23-04/26): Länge 4588 mm (same on 40 e-tron / 50 e-tron FZ entries)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q4-e-tron/fz/329779/",
+       "what": "ADAC: widthMm = 1865 – ADAC Autokatalog Q4 Sportback 45 e-tron quattro (09/23-04/26): Breite 1865 mm (2108 mm mit Spiegeln)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q4-e-tron/fz/329779/",
+       "what": "ADAC: wheelbaseMm = 2764 – ADAC Autokatalog Q4 Sportback 45 e-tron quattro (09/23-04/26): Radstand 2764 mm"
       }
      ],
      "confidence": "medium",
@@ -845,9 +957,9 @@
      "lengthMm": 4682,
      "widthMm": 1893,
      "heightMm": 1662,
-     "wheelbaseMm": null,
-     "trunkL": null,
-     "trunkFoldedL": null,
+     "wheelbaseMm": 2819,
+     "trunkL": 520,
+     "trunkFoldedL": 1520,
      "loadSpace": null,
      "variants": [
       {
@@ -882,6 +994,18 @@
       {
        "url": "https://uploads.audi-mediacenter.com/system/production/car_motorizations/933/file_en/1c194a48ecee337757e5f1e0933a8111196df7f6/eTD-Audi-Q5-55-TFSIe-quattro-S_tronic-270kW_240402.pdf",
        "what": "Audi data sheet Q5 55 TFSI e (content not read)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q5/fy-facelift/330993/",
+       "what": "ADAC: wheelbaseMm = 2819 – ADAC Autokatalog Q5 40 TDI quattro S tronic (11/23-11/24): Radstand 2819 mm (also 40 TDI advanced 09/20-11/23)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q5/fy-facelift/330993/",
+       "what": "ADAC: trunkL = 520 – ADAC Autokatalog Q5 40 TDI quattro S tronic (11/23-11/24): Kofferraumvolumen normal 520 l (manufacturer figure)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q5/fy-facelift/330993/",
+       "what": "ADAC: trunkFoldedL = 1520 – ADAC Autokatalog Q5 40 TDI quattro S tronic (11/23-11/24): Kofferraumvolumen dachhoch mit umgeklappter Rücksitzbank 1520 l"
       }
      ],
      "confidence": "low",

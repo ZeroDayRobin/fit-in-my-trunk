@@ -1,0 +1,95 @@
+{
+ "id": "ls-opel",
+ "kind": "loadspace",
+ "patches": [
+  {
+   "model": "Astra",
+   "generation": "Astra L (inkl. Facelift 2026)",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 795,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2023-opel-astra-l",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de Opel Astra L: 'Ladelänge bis Rücksitze 795 mm' (-33 mm vs. Astra K 828 mm)"
+  },
+  {
+   "model": "Astra",
+   "generation": "Astra L (inkl. Facelift 2026)",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1589,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2023-opel-astra-l",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de Opel Astra L: Ladelänge bis Vordersitze 1.589 mm"
+  },
+  {
+   "model": "Astra Sports Tourer",
+   "generation": "Astra L Sports Tourer (inkl. Facelift 2026)",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 1026,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2024-opel-astra-l-sports-tourer",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de Opel Astra L Sports Tourer: 'Ladelänge bis Rücksitze 1.026 mm' (same value on dealer tech-data page opel-heinrichs.de)"
+  },
+  {
+   "model": "Astra Sports Tourer",
+   "generation": "Astra L Sports Tourer (inkl. Facelift 2026)",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1850,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2024-opel-astra-l-sports-tourer",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de Opel Astra L Sports Tourer: Ladelänge bis Vordersitze 1.850 mm"
+  },
+  {
+   "model": "Astra Sports Tourer",
+   "generation": "Astra L Sports Tourer (inkl. Facelift 2026)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 610,
+   "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/opel-astra-sports-tourer/",
+   "sourceType": "adac",
+   "evidence": "ADAC test: 'Die Ladekante liegt auf nur 61 (Electric: 62) Zentimetern über der Straße' (ADAC-measured; angurten.de lists 599 mm)"
+  },
+  {
+   "model": "Crossland",
+   "generation": "Crossland X / Crossland (inkl. Facelift 2020/21)",
+   "variant": null,
+   "field": "loadSpace.lengthMm",
+   "value": 793,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2006-opel-crossland",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de Opel Crossland (Baujahr 2020-2024): Ladelänge bis Rücksitze 793 mm"
+  },
+  {
+   "model": "Crossland",
+   "generation": "Crossland X / Crossland (inkl. Facelift 2020/21)",
+   "variant": null,
+   "field": "loadSpace.lengthFoldedMm",
+   "value": 1483,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2006-opel-crossland",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de Opel Crossland (Baujahr 2020-2024): Ladelänge bis Vordersitze 1.483 mm"
+  },
+  {
+   "model": "Crossland",
+   "generation": "Crossland X / Crossland (inkl. Facelift 2020/21)",
+   "variant": null,
+   "field": "loadSpace.sillHeightMm",
+   "value": 728,
+   "sourceUrl": "https://www.angurten.de/is/abmessungen/2006-opel-crossland",
+   "sourceType": "sonstige",
+   "evidence": "angurten.de Opel Crossland (Baujahr 2020-2024): Höhe der Ladekante 728 mm"
+  }
+ ],
+ "notFound": [
+  "Astra | Astra L (inkl. Facelift 2026): loadSpace.widthBetweenArchesMm, loadSpace.widthMm, loadSpace.heightMm, loadSpace.openingHeightMm, loadSpace.sillHeightMm (one angurten snippet mixed in 599 mm, but it was jumbled, so not reported)",
+  "Astra Sports Tourer | Astra L Sports Tourer (inkl. Facelift 2026): loadSpace.widthBetweenArchesMm, loadSpace.widthMm, loadSpace.heightMm, loadSpace.openingHeightMm",
+  "Corsa | Corsa F (inkl. Facelift 2023/24): all loadSpace fields (only Corsa F Electric values found: 674/1553 mm, sill 682 mm; not applied to whole generation)",
+  "Crossland | Crossland X / Crossland (inkl. Facelift 2020/21): loadSpace.widthBetweenArchesMm, loadSpace.widthMm, loadSpace.heightMm, loadSpace.openingHeightMm",
+  "Frontera | Frontera (2024, Smart Car Platform): all loadSpace fields (search summary gave angurten values 793/1483 mm, sill 776 mm, but the lengths match the Crossland exactly, so likely copied or mixed up; not reported)",
+  "Grandland | Grandland (2. Generation, STLA Medium): all loadSpace fields (angurten page 873/1676/866 mm seems to belong to the previous generation, with length 4477 mm)",
+  "Mokka | Mokka B (inkl. Facelift 2025): all loadSpace fields"
+ ]
+}

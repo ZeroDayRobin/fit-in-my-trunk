@@ -301,7 +301,13 @@ function VehicleInfoCard() {
           wide
         />
         <Stat
-          label={info.box.estimated ? "Laderaum (geschätzt)" : "Laderaum (Hersteller)"}
+          label={
+            info.box.basis === "measured"
+              ? `Laderaum (${info.box.sourceLabel})`
+              : info.box.basis === "partial"
+                ? `Laderaum (teils ${info.box.sourceLabel}, teils geschätzt)`
+                : "Laderaum (geschätzt)"
+          }
           value={`B ${info.box.widthCm} × H ${info.box.heightCm} × T ${info.box.depthCm} cm`}
           wide
         />
@@ -322,9 +328,7 @@ function VehicleInfoCard() {
           </button>
         )}
       </div>
-      {info.box.estimated && (
-        <p className="mt-1.5 text-[10.5px] leading-snug text-neutral-500 dark:text-neutral-400">{estimateNote(info)}</p>
-      )}
+      {<p className="mt-1.5 text-[10.5px] leading-snug text-neutral-500 dark:text-neutral-400">{estimateNote(info)}</p>}
       {showSources && (
         <ul className="mt-2 max-h-40 space-y-1 overflow-auto text-[10.5px] leading-snug">
           {info.sources.map((s, i) => (
@@ -348,10 +352,14 @@ function VehicleInfoCard() {
 
 /** Erklärt, wie die Laderaum-Box zustande kommt, wenn keine Innenmaße veröffentlicht sind */
 function estimateNote(info: NonNullable<ReturnType<typeof useSim.getState>["info"]>) {
-  const { widthCm, heightCm, depthCm } = info.box;
+  const { widthCm, heightCm, depthCm, basis, sourceLabel } = info.box;
   const boxL = Math.round((widthCm * heightCm * depthCm) / 1000);
+  if (basis === "measured")
+    return `Die blaue Box nutzt gemessene Innenmaße (${sourceLabel}). Das offizielle VDA-Volumen${info.trunkL ? ` (${fmt(info.trunkL)} L)` : ""} wird mit genormten 1-Liter-Klötzen ermittelt und kann davon abweichen.`;
+  if (basis === "partial")
+    return `Ein Teil der Innenmaße ist gemessen (${sourceLabel}), der Rest ist aus dem offiziellen Volumen${info.trunkL ? ` (${fmt(info.trunkL)} L)` : ""} berechnet. Die blaue Box hat ≈ ${fmt(boxL)} L.`;
   const shape =
-    "Breite, Höhe und Tiefe sind geschätzt, weil der Hersteller keine Innenmaße angibt – die echte Form (Radkästen, schräge Heckklappe) kann etwas abweichen.";
+    "Breite, Höhe und Tiefe sind geschätzt, weil keine Innenmaße veröffentlicht sind – die echte Form (Radkästen, schräge Heckklappe) kann etwas abweichen.";
   if (!info.trunkL)
     return `Für diese Variante ist kein offizielles Kofferraumvolumen bekannt. Die blaue Box (≈ ${fmt(boxL)} L) ist anhand typischer Werte geschätzt.`;
   if (Math.abs(boxL - info.trunkL) <= info.trunkL * 0.03)
