@@ -277,6 +277,298 @@
    ]
   },
   {
+   "id": "golf",
+   "name": "Golf",
+   "generations": [
+    {
+     "id": "2024-mk8-facelift-8-5",
+     "name": "Mk8 Facelift (8.5)",
+     "yearFrom": 2024,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 4282,
+     "widthMm": 1789,
+     "heightMm": 1483,
+     "wheelbaseMm": 2620,
+     "trunkL": 381,
+     "trunkFoldedL": 1237,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-tsi-benziner",
+       "name": "1.5 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 381,
+       "trunkFoldedL": 1237,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "gti-265-ps",
+       "name": "GTI 265 PS",
+       "powertrain": "petrol",
+       "powerPs": 265,
+       "awd": false,
+       "trunkL": 374,
+       "trunkFoldedL": 1230,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "Trunk from secondary sources (kofferraum-volumen.de), same as the pre-facelift GTI"
+      },
+      {
+       "id": "r-4motion-333-ps",
+       "name": "R 4MOTION 333 PS",
+       "powertrain": "petrol",
+       "powerPs": 333,
+       "awd": true,
+       "trunkL": 374,
+       "trunkFoldedL": 1230,
+       "lengthMm": 4290,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "Low confidence. These are the ADAC pre-facelift R values; ADAC reports unchanged space after the facelift. Carwow and autohled.cz give 341 l for the current R."
+      },
+      {
+       "id": "1-5-etsi-dsg-mild-hybrid",
+       "name": "1.5 eTSI DSG (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 381,
+       "trunkFoldedL": 1237,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 381,
+       "trunkFoldedL": 1237,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-5-ehybrid-204-ps-plug-in-hybrid",
+       "name": "1.5 eHybrid 204 PS (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 273,
+       "trunkFoldedL": 1129,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "From ADAC and Motor1. GTE (272 PS) trunk not verified."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/viii-facelift/332976/",
+       "what": "Golf 1.5 eTSI Style DSG from 07/24: 4282 mm length, 1483 mm height, 2620 mm wheelbase, 381/1237 l trunk"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/viii-facelift/340769/",
+       "what": "Golf 1.5 eTSI ENERGY DSG from 06/25: same dimensions and trunk"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/viii-facelift/345186/",
+       "what": "Golf 1.5 eHybrid Style DSG from 10/25: 4282 mm length, 1483 mm height, 2620 mm wheelbase, 273/1129 l trunk"
+      },
+      {
+       "url": "https://de.motor1.com/reviews/778730/vw-golf-ehybrid-2025-test/",
+       "what": "Golf eHybrid 2025: 273-1129 l against 381-1237 l for the ICE models"
+      },
+      {
+       "url": "https://www.volkswagen.de/de/modelle/golf.html/__ui/technische-daten.app",
+       "what": "VW official: 381 l for petrol, diesel and mild hybrid, 2629 mm PHEV wheelbase"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1985-vw-golf-viii-gti",
+       "what": "Golf VIII GTI (2026) dimensions"
+      },
+      {
+       "url": "https://www.carwow.de/volkswagen/golf-r/technische-daten",
+       "what": "Golf R trunk 341-374 l (conflicting)"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "ADAC data for the 1.5 eTSI, valid from 07/24. The dimensions are almost the same as before the facelift. VW gives a 2629 mm wheelbase for the plug-in hybrids, Motor1 gives 2629 mm and 1478 mm height for the eHybrid, and ADAC gives 2620 mm."
+    },
+    {
+     "id": "2020-mk8",
+     "name": "Mk8",
+     "yearFrom": 2020,
+     "yearTo": 2024,
+     "bodyType": "hatchback",
+     "lengthMm": 4284,
+     "widthMm": 1789,
+     "heightMm": 1482,
+     "wheelbaseMm": 2619,
+     "trunkL": 381,
+     "trunkFoldedL": 1237,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-tsi-1-5-tsi-benziner",
+       "name": "1.0 TSI / 1.5 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 381,
+       "trunkFoldedL": 1237,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": ""
+      },
+      {
+       "id": "gti-245-ps",
+       "name": "GTI 245 PS",
+       "powertrain": "petrol",
+       "powerPs": 245,
+       "awd": false,
+       "trunkL": 374,
+       "trunkFoldedL": 1230,
+       "lengthMm": 4287,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": "Sources give GTI heights from 1456 to 1478 mm, so no variant height is set"
+      },
+      {
+       "id": "r-4motion-320-ps",
+       "name": "R 4MOTION 320 PS",
+       "powertrain": "petrol",
+       "powerPs": 320,
+       "awd": true,
+       "trunkL": 374,
+       "trunkFoldedL": 1230,
+       "lengthMm": 4290,
+       "widthMm": null,
+       "heightMm": 1458,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": "Trunk is from ADAC. Carwow quotes 341-374 l."
+      },
+      {
+       "id": "1-0-etsi-1-5-etsi-dsg-mild-hybrid",
+       "name": "1.0 eTSI / 1.5 eTSI DSG (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 381,
+       "trunkFoldedL": 1237,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": "VW lists the same 381 l for mild hybrids as for petrol and diesel"
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 381,
+       "trunkFoldedL": 1237,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": ""
+      },
+      {
+       "id": "1-4-ehybrid-204-ps-plug-in-hybrid",
+       "name": "1.4 eHybrid 204 PS (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 273,
+       "trunkFoldedL": 1129,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1482,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": "The high-voltage battery under the trunk floor makes the trunk smaller (ADAC). GTE trunk not verified."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/viii/314290/",
+       "what": "Golf VIII 1.4 eHybrid 08/20-06/22: 4284 mm length, 1482 mm height, 2619 mm wheelbase, 273/1129 l trunk"
+      },
+      {
+       "url": "https://uploads.vw-mms.de/system/production/files/vwn/016/288/file/03bba28546f700cd138675911c0f6a87d2fa7808/DE_Golf_Hybride_Specifications.pdf?1598435182=",
+       "what": "VW official 2020 Golf hybrid spec sheet: eHybrid wheelbase 2619 mm"
+      },
+      {
+       "url": "https://www.volkswagen.de/de/modelle/golf.html/__ui/technische-daten.app",
+       "what": "VW official: 381 l trunk for petrol, diesel and mild hybrid"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/viii/317212",
+       "what": "Golf R 4MOTION DSG 11/20-02/24: 374/1230 l trunk, 1458 mm height"
+      },
+      {
+       "url": "https://kofferraum-volumen.de/vw-golf-8-gti-kofferraumvolumen-abmessungen-im-ueberblick/",
+       "what": "Golf 8 GTI trunk 374/1230 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1985-vw-golf-viii-gti",
+       "what": "Golf 8 GTI length about 4287 mm, wheelbase 2627/2628 mm"
+      },
+      {
+       "url": "https://kofferraum-volumen.de/vw-golf-8-ehybrid-kofferraumabmessungen-ladevolumen/",
+       "what": "Golf 8 eHybrid trunk 273/1129 l (battery under the floor)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Length, height and wheelbase come from the ADAC page for the pre-facelift 1.4 eHybrid (08/20-06/22). The VW 2020 hybrid spec PDF confirms the 2619 mm wheelbase. On the facelift, ADAC gives identical body dimensions for eTSI and eHybrid, so these values are used for the whole pre-facelift generation. Other sources quote 1456 mm height, probably without the antenna. Width without mirrors is 1789 mm. The 381/1237 l trunk for petrol, diesel and mild-hybrid comes from the VW technische Daten page and ADAC."
+    }
+   ]
+  },
+  {
    "id": "golf-sportsvan",
    "name": "Golf Sportsvan",
    "generations": [
@@ -384,6 +676,113 @@
       "corrected": 0
      },
      "notes": "Compact MPV, front-wheel drive. The rear bench slides: 590 l with it all the way forward (ADAC 'Serienstellung', carwow) and 500 l with it all the way back (AutoScout24 data sheet). 1520 l with the seats folded. ADAC lists most Sportsvan versions at 4338 mm long; one facelift entry lists 4351 mm, used here for the facelift. Width 1807 mm (2050 mm with mirrors), height 1578 mm and wheelbase 2670 mm are as ADAC lists them; they were not cross-checked against VW press data. ADAC series change around 10-11/2017. Production ended in 2020 with no direct successor."
+    }
+   ]
+  },
+  {
+   "id": "golf-variant",
+   "name": "Golf Variant",
+   "generations": [
+    {
+     "id": "2020-mk8-inkl-facelift-2024",
+     "name": "Mk8 (inkl. Facelift 2024)",
+     "yearFrom": 2020,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": 4631,
+     "widthMm": 1789,
+     "heightMm": 1487,
+     "wheelbaseMm": 2669,
+     "trunkL": 611,
+     "trunkFoldedL": 1642,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-tsi-benziner",
+       "name": "1.5 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 611,
+       "trunkFoldedL": 1642,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "r-4motion-333-ps",
+       "name": "R 4MOTION 333 PS",
+       "powertrain": "petrol",
+       "powerPs": 333,
+       "awd": true,
+       "trunkL": 611,
+       "trunkFoldedL": null,
+       "lengthMm": 4651,
+       "widthMm": 1789,
+       "heightMm": 1462,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "ADAC: 611 l for the R Variant from 07/24. The folded volume was not found, though the base car has 1642 l. The pre-facelift R Variant (320 PS, 2021-2024) was not checked."
+      },
+      {
+       "id": "1-5-etsi-dsg-mild-hybrid",
+       "name": "1.5 eTSI DSG (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 611,
+       "trunkFoldedL": 1642,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 611,
+       "trunkFoldedL": 1642,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": "VW gives 611/1642 l for the Variant without listing powertrains separately"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/viii-facelift/332984/",
+       "what": "Golf Variant 1.5 eTSI Life DSG from 07/24: 4631 mm length, 1487 mm height, 2669 mm wheelbase, 611 l trunk"
+      },
+      {
+       "url": "https://www.volkswagen.de/de/modelle/golf-variant.html/__ui/technische-daten.app",
+       "what": "VW official: 611 l trunk, 1642 l behind the first row"
+      },
+      {
+       "url": "https://www.volkswagen.at/golf-variant/golf-variant/technische-daten/sport",
+       "what": "VW Austria: 2669 mm wheelbase, 4635 mm length"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/vw-golf-variant/",
+       "what": "ADAC: facelift leaves dimensions and space unchanged; R 4MOTION 4651x1789x1462 mm, 611 l"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "ADAC says dimensions and space are unchanged by the 2024 facelift, so the facelift is not split out. VW Austria gives 4635 mm length without a tow bar, and VW Germany gives 4631/4638 mm. There is no eHybrid for the Golf Variant. The Alltrack (Mk8, 4MOTION) was not researched."
     }
    ]
   },
@@ -576,9 +975,235 @@
    ]
   },
   {
+   "id": "id-3",
+   "name": "ID.3",
+   "generations": [
+    {
+     "id": "2023-1-generation-facelift",
+     "name": "1. Generation Facelift",
+     "yearFrom": 2023,
+     "yearTo": 2026,
+     "bodyType": "hatchback",
+     "lengthMm": 4264,
+     "widthMm": 1809,
+     "heightMm": 1564,
+     "wheelbaseMm": 2770,
+     "trunkL": 385,
+     "trunkFoldedL": 1267,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "elektro-pure-pro-pro-s",
+       "name": "Elektro Pure / Pro / Pro S",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 385,
+       "trunkFoldedL": 1267,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2023,
+       "yearTo": 2026,
+       "notes": ""
+      },
+      {
+       "id": "gtx-gtx-performance-79-kwh-286-326-ps",
+       "name": "GTX / GTX Performance 79 kWh (286/326 PS)",
+       "powertrain": "bev",
+       "powerPs": 326,
+       "awd": false,
+       "trunkL": 385,
+       "trunkFoldedL": 1267,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": 2026,
+       "notes": "Rear-wheel drive; same body and trunk as the regular ID.3"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id3/1generation-facelift/335648",
+       "what": "ID.3 Pro 05/24-04/26: 4264 mm length, 1564 mm height, 1809 mm width, 2770 mm wheelbase, 385/1267 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id3/1generation-facelift/336644",
+       "what": "ID.3 GTX Performance 08/24-04/26: 4264x1809x1564 mm, 2770 mm wheelbase, 385/1267 l, 326 PS"
+      },
+      {
+       "url": "https://www.electrive.net/2023/03/01/ueberarbeiteter-vw-id-3-hoehere-qualitaet-zu-hoeheren-preisen/",
+       "what": "Facelift presented in March 2023"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2240-ID3+GTX",
+       "what": "ID.3 GTX dimensions; note about the ID.3 Neo successor"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Facelift introduced in March 2023. ADAC lists it until 04/26, and angurten.de says the successor update is sold as the ID.3 Neo; that was not verified or researched. There is no frunk."
+    },
+    {
+     "id": "2020-1-generation",
+     "name": "1. Generation",
+     "yearFrom": 2020,
+     "yearTo": 2023,
+     "bodyType": "hatchback",
+     "lengthMm": 4261,
+     "widthMm": 1809,
+     "heightMm": 1568,
+     "wheelbaseMm": 2770,
+     "trunkL": 385,
+     "trunkFoldedL": 1267,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "elektro-pure-45-kwh-pro-58-kwh-pro-s-77-kwh",
+       "name": "Elektro Pure 45 kWh / Pro 58 kWh / Pro S 77 kWh",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 385,
+       "trunkFoldedL": 1267,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2023,
+       "notes": "Rear trunk only; there is no frunk"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id3/1generation/313854",
+       "what": "ID.3 Pro Performance Style 09/20-05/21: 4261x1809x1568 mm, 2770 mm wheelbase, 385/1267 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id3/1generation/320811",
+       "what": "ID.3 Pro 05/21-01/22: same dimensions"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "ADAC data for the ID.3 Pro / Pro Performance (09/20-01/22). All battery sizes share the same body; trunk values were checked for Pro and Pro Performance. There is no frunk."
+    }
+   ]
+  },
+  {
    "id": "id-4",
    "name": "ID.4",
    "generations": [
+    {
+     "id": "2021-1-generation",
+     "name": "1. Generation",
+     "yearFrom": 2021,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4584,
+     "widthMm": 1852,
+     "heightMm": 1634,
+     "wheelbaseMm": 2771,
+     "trunkL": 543,
+     "trunkFoldedL": 1575,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "pro-4motion-77-kwh",
+       "name": "Pro 4MOTION 77 kWh",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 543,
+       "trunkFoldedL": 1575,
+       "lengthMm": 4582,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "pro-77-kwh-heckantrieb",
+       "name": "Pro 77 kWh (Heckantrieb)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 543,
+       "trunkFoldedL": 1575,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "pure-52-kwh-heckantrieb",
+       "name": "Pure 52 kWh (Heckantrieb)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 543,
+       "trunkFoldedL": 1575,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "gtx-4motion-299-340-ps",
+       "name": "GTX 4MOTION (299/340 PS)",
+       "powertrain": "bev",
+       "powerPs": 340,
+       "awd": true,
+       "trunkL": 543,
+       "trunkFoldedL": 1575,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": null,
+       "notes": "GTX dimensions were not found; the height is probably lower (sources give 1616 mm as the low end of the range). Trunk follows the 77 kWh models."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.volkswagen.at/id4/id4/technische-daten/pure",
+       "what": "VW Austria: 4584 mm length, 1852 mm width, 2771 mm wheelbase, 543-1575 l"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/fahrbericht/vw-id-4-kompakter-e-suv/technische-daten/",
+       "what": "ID.4 Pro: 1634 mm height, 543/1575 l"
+      },
+      {
+       "url": "https://www.carwow.de/volkswagen/id4/technische-daten",
+       "what": "4584x1852x1640 mm, 543/1575 l"
+      },
+      {
+       "url": "https://www.autoscout24.at/auto/technische-daten/volkswagen/id-4/id-4-pro-4motion-77kwh-limousine-strom-22945/",
+       "what": "ID.4 Pro 4MOTION: 4582 mm length, 2769 mm wheelbase"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Length, width and wheelbase are from VW Austria. Height varies by variant from 1616 to 1640 mm; 1634 mm is the auto motor und sport figure for the Pro, and carwow gives 1640 mm. AutoScout24 gives the Pro 4MOTION as 4582 mm long with a 2769 mm wheelbase. The 543/1575 l trunk applies to Pure and the 77 kWh models. There is no frunk."
+    },
     {
      "id": "2020-1-generation-e2",
      "name": "1. Generation (E2)",
@@ -2018,6 +2643,106 @@
       "corrected": 0
      },
      "notes": "Facelift-Marktstart 08/2019 (Modelljahr 2020), Bauende Variant 11/2023 laut ADAC. Maße/Kofferraum laut ADAC (Herstellerangaben), Breite mit Spiegeln 2083 mm. Die Facelift-Maße/Kofferraum entsprechen den Werten des Vor-Facelift-B8 (ADAC: 650/1780 l, Höhe 1516 mm), daher eine Generation. GTE (Plug-in-Hybrid) hat nur 483/1613 l. Motorenprogramm unvollständig verifiziert (siehe notFound)."
+    }
+   ]
+  },
+  {
+   "id": "polo",
+   "name": "Polo",
+   "generations": [
+    {
+     "id": "2017-vi-aw-inkl-facelift-2021",
+     "name": "VI (AW, inkl. Facelift 2021)",
+     "yearFrom": 2017,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 4074,
+     "widthMm": 1751,
+     "heightMm": 1451,
+     "wheelbaseMm": 2552,
+     "trunkL": 351,
+     "trunkFoldedL": 1125,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-mpi-1-0-tsi-benziner",
+       "name": "1.0 MPI / 1.0 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 351,
+       "trunkFoldedL": 1125,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2017,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "gti-200-ps-dsg-vor-facelift",
+       "name": "GTI 200 PS DSG (vor Facelift)",
+       "powertrain": "petrol",
+       "powerPs": 200,
+       "awd": false,
+       "trunkL": 305,
+       "trunkFoldedL": 1079,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2018,
+       "yearTo": 2021,
+       "notes": "ADAC 2018 GTI: the trunk is smaller than the regular Polo"
+      },
+      {
+       "id": "gti-207-ps-dsg",
+       "name": "GTI 207 PS DSG",
+       "powertrain": "petrol",
+       "powerPs": 207,
+       "awd": false,
+       "trunkL": 351,
+       "trunkFoldedL": 1125,
+       "lengthMm": 4074,
+       "widthMm": null,
+       "heightMm": 1431,
+       "yearFrom": 2021,
+       "yearTo": null,
+       "notes": "ADAC data from 02/24. Carwow still lists 305/1079 l for the GTI, so the GTI trunk for 2021-2023 is uncertain."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/polo/vi-facelift/333195",
+       "what": "Polo 1.0 TSI OPF Life 02/24-11/24: 4074 mm length, 1751 mm width, 1451 mm height, 2552 mm wheelbase, 351/1125 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/polo/vi-facelift/340406/",
+       "what": "Polo 1.0 TSI OPF Life from 11/24: same dimensions and trunk"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/polo/vi/296748/",
+       "what": "Polo VI pre-facelift 2019: height 1446 mm, length and wheelbase marginally shorter"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/polo/vi-facelift/333203/",
+       "what": "Polo GTI DSG 02/24-06/25: 4074 mm length, 1751 mm width, 1431 mm height, 2549 mm wheelbase, 351/1125 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/polo/vi/282283/",
+       "what": "Polo GTI DSG 2018 (pre-facelift): 305/1079 l"
+      },
+      {
+       "url": "https://www.autoscout24.de/informieren/testberichte/volkswagen/polo/erster-test-volkswagen-polo-vi/",
+       "what": "Polo VI: 351-1125 l trunk"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Dimensions are from ADAC for the facelifted Polo 1.0 TSI Life (02/24 onwards). Before the facelift (2017-2021), ADAC gives length and wheelbase 1-2 mm shorter and 1446 mm height; the trunk is the same at 351/1125 l. Since the differences are tiny, the facelift is not split out."
     }
    ]
   },

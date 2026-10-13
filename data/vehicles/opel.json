@@ -1,0 +1,831 @@
+{
+ "id": "opel",
+ "name": "Opel",
+ "models": [
+  {
+   "id": "astra",
+   "name": "Astra",
+   "generations": [
+    {
+     "id": "2022-astra-l-inkl-facelift-2026",
+     "name": "Astra L (inkl. Facelift 2026)",
+     "yearFrom": 2022,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 4374,
+     "widthMm": 1860,
+     "heightMm": 1470,
+     "wheelbaseMm": 2675,
+     "trunkL": 422,
+     "trunkFoldedL": 1339,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-turbo-benziner-1-5-diesel",
+       "name": "1.2 Turbo (Benziner) / 1.5 Diesel",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 422,
+       "trunkFoldedL": 1339,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2022,
+       "yearTo": null,
+       "notes": "Combustion figure 422-1339 l (VDA). The diesel was still offered after the 2026 facelift."
+      },
+      {
+       "id": "1-2-turbo-hybrid-48v-mild-hybrid",
+       "name": "1.2 Turbo Hybrid 48V (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "No separate trunk figure found."
+      },
+      {
+       "id": "plug-in-hybrid-facelift-2026-14-kwh-batterie",
+       "name": "Plug-in-Hybrid (Facelift 2026, 14-kWh-Batterie)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 310,
+       "trunkFoldedL": 1236,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2026,
+       "yearTo": null,
+       "notes": "Manufacturer figure 310-1236 l per the ADAC test and motor1. The larger battery reduces the trunk. About 80 km WLTP electric range."
+      },
+      {
+       "id": "plug-in-hybrid-180-ps-gse-225-ps-vor-facelift",
+       "name": "Plug-in-Hybrid 180 PS / GSe 225 PS (vor Facelift)",
+       "powertrain": "phev",
+       "powerPs": 180,
+       "awd": false,
+       "trunkL": 352,
+       "trunkFoldedL": 1268,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2022,
+       "yearTo": 2025,
+       "notes": "12.4 kWh battery. Several sources give 352-1268 l (VDA/ECIE). GSe 225 PS is the same body."
+      },
+      {
+       "id": "electric-54-58-kwh",
+       "name": "Electric (54 / 58 kWh)",
+       "powertrain": "bev",
+       "powerPs": 156,
+       "awd": false,
+       "trunkL": 352,
+       "trunkFoldedL": 1268,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2023,
+       "yearTo": null,
+       "notes": "motor1 gives 352 l for the Electric. ADAC gives 352-1268 l as the manufacturer figure. No frunk."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.opel.de/cars/astra-models/astra-hybrid/hatchback/vehicle-details.html",
+       "what": "Official Opel: height range 1442-1472 mm, PHEV details"
+      },
+      {
+       "url": "https://www.meinauto.de/opel/neuwagen/astra/angebote/astra-5-tuerig-plug-in-hybrid/technische-daten",
+       "what": "Length 4374, width 1860 (2062 with mirrors), wheelbase 2675, PHEV 352-1268 l"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/opel-astra-plug-in-hybrid/technische-daten/",
+       "what": "PHEV technical data / trunk"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2023-opel-astra-l",
+       "what": "Astra L dimensions, combustion trunk 422-1339 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/opel-astra/",
+       "what": "Facelift 2026: PHEV 310-1236 l (manufacturer), 14 kWh battery; 352-1268 l manufacturer vs 260-1080 l measured"
+      },
+      {
+       "url": "https://de.motor1.com/reviews/790461/opel-astra-2026-plugin-electric-test/",
+       "what": "Facelift 2026 test: PHEV 310 l vs Electric 352 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Height differs by source: Opel lists 1442-1472 mm, others 1441 or 1470 mm. Width with mirrors is 2062 mm. With the 2026 facelift the PHEV got a 14 kWh (17.2 kWh gross) battery and its trunk fell to 310-1236 l, so that PHEV is its own variant. The Electric went from 54 to 58 kWh, and its trunk is still given as 352 l. ADAC measured 260 / 1080 l on a 352-l car."
+    }
+   ]
+  },
+  {
+   "id": "astra-sports-tourer",
+   "name": "Astra Sports Tourer",
+   "generations": [
+    {
+     "id": "2022-astra-l-sports-tourer-inkl-facelift-2026",
+     "name": "Astra L Sports Tourer (inkl. Facelift 2026)",
+     "yearFrom": 2022,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": 4642,
+     "widthMm": 1860,
+     "heightMm": 1481,
+     "wheelbaseMm": 2732,
+     "trunkL": 597,
+     "trunkFoldedL": 1634,
+     "loadSpace": {
+      "lengthMm": 1026,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 599,
+      "lengthFoldedMm": 1850,
+      "source": "angurten.de Astra L Sports Tourer table: load length to rear seats 1026 mm, to front seats 1850 mm, sill height 599 mm (variant not specified)"
+     },
+     "variants": [
+      {
+       "id": "1-2-turbo-benziner-1-5-diesel",
+       "name": "1.2 Turbo (Benziner) / 1.5 Diesel",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 597,
+       "trunkFoldedL": 1634,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2022,
+       "yearTo": null,
+       "notes": "Combustion figure 597-1634 l. Carwow gives 598 l."
+      },
+      {
+       "id": "1-2-turbo-hybrid-48v-mild-hybrid",
+       "name": "1.2 Turbo Hybrid 48V (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "No separate figure found."
+      },
+      {
+       "id": "plug-in-hybrid-facelift-2026",
+       "name": "Plug-in-Hybrid (Facelift 2026)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2026,
+       "yearTo": null,
+       "notes": "New 14 kWh battery. The 5-door shrank by 42 l with it, but no Sports Tourer figure was found."
+      },
+      {
+       "id": "plug-in-hybrid-180-ps-gse-225-ps-vor-facelift",
+       "name": "Plug-in-Hybrid 180 PS / GSe 225 PS (vor Facelift)",
+       "powertrain": "phev",
+       "powerPs": 180,
+       "awd": false,
+       "trunkL": 548,
+       "trunkFoldedL": 1574,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2022,
+       "yearTo": 2025,
+       "notes": "Carwow gives 548-1574 l. AUTO BILD gives 516-1553 l for the GSe 225, which conflicts and is probably the Electric value."
+      },
+      {
+       "id": "electric-54-58-kwh",
+       "name": "Electric (54 / 58 kWh)",
+       "powertrain": "bev",
+       "powerPs": 156,
+       "awd": false,
+       "trunkL": 516,
+       "trunkFoldedL": 1553,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2023,
+       "yearTo": null,
+       "notes": "Manufacturer 516-1553 l. kofferraum.org measured 405 l under the cover and 1295 l roof-high. No frunk."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.carwow.de/opel/astra-electric-sports-tourer/technische-daten",
+       "what": "ST Electric: length 4642, wheelbase 2732, trunk 516/1553 l"
+      },
+      {
+       "url": "https://www.mobile.de/auto/opel/astra-electric/2023/kombi/modell/daten-fakten/",
+       "what": "ST Electric data incl. 1553 l"
+      },
+      {
+       "url": "https://www.carwow.de/opel/astra-sports-tourer/technische-daten",
+       "what": "ST combustion 598 l, PHEV 548-1574 l"
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/opel/astra/",
+       "what": "ST combustion 597-1634 l (predecessor 540-1630 l)"
+      },
+      {
+       "url": "https://www.autozeitung.de/neues-opel-astra-sports-tourer-facelift-2026-fahrbericht-300515.html",
+       "what": "Facelift 2026 ST: 597-1634 l"
+      },
+      {
+       "url": "https://www.autobild.de/artikel/opel-astra-sports-tourer-gse-hybrid-225-test-23141351.html",
+       "what": "GSe Hybrid 225 test: 516-1553 l (conflicting)"
+      },
+      {
+       "url": "https://auto-motor.at/Auto/Testberichte/Opel-Test/Opel-Astra-Sports-Tourer-Plug-in-Hybrid-Test.html",
+       "what": "ST PHEV width 1860, height 1481"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2024-opel-astra-l-sports-tourer",
+       "what": "Load length 1026 / 1850 mm, sill height 599 mm"
+      },
+      {
+       "url": "https://kofferraum.org/volumen/opel/astra-sports-tourer/",
+       "what": "Independent ST Electric measurement 405 / 1295 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/opel-astra-sports-tourer/",
+       "what": "ST test and facelift 2026 info"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Height 1481 mm is from a PHEV test (auto-motor.at). Carwow gives 598 l for the combustion car, AUTO BILD and autozeitung give 597-1634 l. The predecessor Astra K ST had 540-1630 l. For the PHEV before the facelift, carwow says 548-1574 l, but AUTO BILD gives 516-1553 l for the GSe Hybrid 225. That 516-1553 l figure is the documented Electric value, so it may be a mix-up. The trunk of the facelifted 2026 PHEV (bigger 14 kWh battery) was not found. The load-floor figures are from angurten.de, which does not say which variant they apply to."
+    }
+   ]
+  },
+  {
+   "id": "corsa",
+   "name": "Corsa",
+   "generations": [
+    {
+     "id": "2019-corsa-f-inkl-facelift-2023-24",
+     "name": "Corsa F (inkl. Facelift 2023/24)",
+     "yearFrom": 2019,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 4060,
+     "widthMm": 1765,
+     "heightMm": 1433,
+     "wheelbaseMm": 2538,
+     "trunkL": 309,
+     "trunkFoldedL": 1081,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-turbo-benziner-1-5-diesel",
+       "name": "1.2 Turbo (Benziner) / 1.5 Diesel",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 309,
+       "trunkFoldedL": 1081,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2019,
+       "yearTo": null,
+       "notes": "Manufacturer figure for the combustion versions. The diesel was dropped during the facelift period. Petrol is 75/100/130 PS."
+      },
+      {
+       "id": "1-2-turbo-hybrid-48v-mild-hybrid-edct",
+       "name": "1.2 Turbo Hybrid 48V (Mild-Hybrid) eDCT",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 309,
+       "trunkFoldedL": 1081,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "Opel quotes 309-1081 l. ADAC catalogue: 1004 l roof-high with seats folded. Available with 100/110 and 136/145 PS."
+      },
+      {
+       "id": "electric-corsa-e-corsa-electric",
+       "name": "Electric (Corsa-e / Corsa Electric)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 267,
+       "trunkFoldedL": 1042,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1435,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": "Battery under the floor makes the trunk smaller. No frunk. Available with 136 and 156 PS."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.mobile.de/auto/opel/corsa/corsa-f/modell/daten-fakten/",
+       "what": "Dimensions 4060/1765/1433, wheelbase 2538, trunk 309 l, Electric 267 l"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Opel_Corsa_F",
+       "what": "Range of length and wheelbase across versions"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1928-opel-corsa-f-elektro",
+       "what": "Corsa F Electric dimensions and trunk (267 / 1042 l)"
+      },
+      {
+       "url": "https://www.newcarz.de/opel-corsa-hybrid-benziner-mit-48-volt-haeubchen/",
+       "what": "Corsa Hybrid 48V trunk 309-1081 l (manufacturer figure)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/corsa/f-facelift/333021/",
+       "what": "ADAC catalogue Corsa Hybrid 48V GS (facelift): 309 l / 1004 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/opel-corsa/",
+       "what": "Facelift info, ADAC measured volumes"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Facelift (from late 2023 / 2024 model year): no change in trunk volume was reported, so it is not split out. Wikipedia gives length 4060-4082 mm and wheelbase 2538-2557 mm across versions. Height of the Electric is 1433 or 1435 mm depending on the source. The ADAC catalogue lists 1004 l roof-high with seats folded for the Hybrid 48V, while Opel's figure is 1081 l. ADAC's own measurement was 250 / 890 l."
+    }
+   ]
+  },
+  {
+   "id": "crossland",
+   "name": "Crossland",
+   "generations": [
+    {
+     "id": "2017-crossland-x-crossland-inkl-facelift-2020-21",
+     "name": "Crossland X / Crossland (inkl. Facelift 2020/21)",
+     "yearFrom": 2017,
+     "yearTo": 2024,
+     "bodyType": "suv",
+     "lengthMm": 4212,
+     "widthMm": 1765,
+     "heightMm": 1605,
+     "wheelbaseMm": 2604,
+     "trunkL": 410,
+     "trunkFoldedL": 1255,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-turbo-benziner-1-5-diesel",
+       "name": "1.2 (Turbo) Benziner / 1.5 Diesel",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 410,
+       "trunkFoldedL": 1255,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2017,
+       "yearTo": 2024,
+       "notes": "Same body for all engines."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/opel-crossland-x/",
+       "what": "ADAC: 1255 l roof-high, 4229x1765x1605 mm"
+      },
+      {
+       "url": "https://www.autohaus-schaible.de/opel-neuwagen-abmessungen.php?auto=24",
+       "what": "Opel dealer dimension sheet: length 4212, wheelbase 2604, height 1605"
+      },
+      {
+       "url": "https://kofferraum.org/volumen/opel/crossland/",
+       "what": "Trunk 410 l manufacturer figure"
+      },
+      {
+       "url": "https://www.carwow.de/opel/crossland-x/technische-daten",
+       "what": "Crossland dimensions and trunk"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Added because it was sold until 2024 and was missing from the list. After the facelift (late 2020) it was renamed from Crossland X to Crossland. Length is 4212 mm per Opel dealer data, while the ADAC lists 4229 mm for a 2021-2022 version. Width is 1765 mm in some sources and 1825 mm in others. Trunk is 410 l with the sliding rear bench in the standard position (manufacturer) and 1255 l roof-high with seats folded (ADAC). There was no electrified version."
+    }
+   ]
+  },
+  {
+   "id": "frontera",
+   "name": "Frontera",
+   "generations": [
+    {
+     "id": "2024-frontera-2024-smart-car-platform",
+     "name": "Frontera (2024, Smart Car Platform)",
+     "yearFrom": 2024,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4385,
+     "widthMm": 1795,
+     "heightMm": 1635,
+     "wheelbaseMm": 2670,
+     "trunkL": 460,
+     "trunkFoldedL": 1600,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-turbo-hybrid-48v-mild-hybrid-110-145-ps",
+       "name": "1.2 Turbo Hybrid 48V (Mild-Hybrid) 110 / 145 PS",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "Same as Electric."
+      },
+      {
+       "id": "electric-44-kwh-113-ps-extended-range-54-kwh",
+       "name": "Electric 44 kWh 113 PS / Extended Range 54 kWh",
+       "powertrain": "bev",
+       "powerPs": 113,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "mobile.de: length 4385, height 1635, wheelbase 2670. No frunk."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.mobile.de/auto/opel/frontera-electric/2024/modell/daten-fakten/",
+       "what": "Frontera Electric length 4385, height 1635, wheelbase 2670"
+      },
+      {
+       "url": "https://www.carwow.de/opel/frontera/technische-daten",
+       "what": "Frontera dimensions and trunk 460/1600 l"
+      },
+      {
+       "url": "https://www.carwow.de/opel/frontera-e/technische-daten",
+       "what": "Frontera Electric data"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2159-opel-frontera",
+       "what": "Frontera dimensions and trunk"
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/opel/frontera/",
+       "what": "Model overview"
+      },
+      {
+       "url": "https://www.firmenauto.de/fahrzeuge/pkw/opel-frontera-kompakt-suv-mit-viel-platz-und-fairem-preis-fahrbericht/",
+       "what": "Test with trunk volume"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Trunk is 460 l (5 seats) and 1600 l roof-high with the 60:40 bench folded, the same for Hybrid and Electric. Width is 1795 mm without mirrors in most sources, while some list about 1850 mm. Height is 1635 mm in most sources, 1640 mm in some. A 7-seat version of the Hybrid has been announced, but no 7-seat volume was found. A forum quotes a sill height of 776 mm, which is not official, so it is not used. The Frontera replaces the Crossland."
+    }
+   ]
+  },
+  {
+   "id": "grandland",
+   "name": "Grandland",
+   "generations": [
+    {
+     "id": "2024-grandland-2-generation-stla-medium",
+     "name": "Grandland (2. Generation, STLA Medium)",
+     "yearFrom": 2024,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4650,
+     "widthMm": 1905,
+     "heightMm": 1665,
+     "wheelbaseMm": 2795,
+     "trunkL": 550,
+     "trunkFoldedL": 1645,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-turbo-hybrid-48v-mild-hybrid-145-ps",
+       "name": "1.2 Turbo Hybrid 48V (Mild-Hybrid) 145 PS",
+       "powertrain": "mhev",
+       "powerPs": 145,
+       "awd": false,
+       "trunkL": 550,
+       "trunkFoldedL": 1645,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "Same volume for all powertrains (carwow)."
+      },
+      {
+       "id": "plug-in-hybrid-195-ps",
+       "name": "Plug-in-Hybrid 195 PS",
+       "powertrain": "phev",
+       "powerPs": 195,
+       "awd": false,
+       "trunkL": 550,
+       "trunkFoldedL": 1645,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1667,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "MeinAuto data: height 1667 mm."
+      },
+      {
+       "id": "electric-73-82-97-kwh",
+       "name": "Electric (73 / 82 / 97 kWh)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 550,
+       "trunkFoldedL": 1645,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "ADAC catalogue for the Electric Long Range 97 kWh GS (from 10/25): 550 l. No frunk reported."
+      },
+      {
+       "id": "electric-awd",
+       "name": "Electric AWD",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 550,
+       "trunkFoldedL": 1645,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2025,
+       "yearTo": null,
+       "notes": "Carwow gives one trunk volume for every powertrain. Not checked separately."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.carwow.de/opel/grandland/technische-daten",
+       "what": "Trunk 550/1645 l, same for all powertrains"
+      },
+      {
+       "url": "https://www.carwow.de/opel/grandland-electric/technische-daten",
+       "what": "Grandland Electric data"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/opel-grandland/",
+       "what": "Manufacturer data 550/1645 l, 4650x1905x1665 mm; ADAC measured 425/855/1460 l"
+      },
+      {
+       "url": "https://www.meinauto.de/opel/neuwagen/grandland-x/angebote/grandland-x-hybrid/technische-daten",
+       "what": "PHEV: length 4650, width 1905, height 1667, wheelbase 2795"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/opel-grandland-1-6-hybrid-gse/technische-daten/",
+       "what": "Grandland 1.6 Hybrid test data"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Trunk is 550-1645 l for all powertrains (carwow, ADAC manufacturer data). ADAC measured 425 / 855 / 1460 l. Height is 1665 mm (ADAC) or 1667 mm (MeinAuto, PHEV). Wheelbase 2795 mm is from MeinAuto, and carwow gives about 2.80 m. An official Opel spec sheet was not retrieved."
+    },
+    {
+     "id": "2017-grandland-x-grandland-1-generation-inkl-facelift-2021",
+     "name": "Grandland X / Grandland (1. Generation, inkl. Facelift 2021)",
+     "yearFrom": 2017,
+     "yearTo": 2024,
+     "bodyType": "suv",
+     "lengthMm": 4477,
+     "widthMm": 1856,
+     "heightMm": 1609,
+     "wheelbaseMm": 2675,
+     "trunkL": 514,
+     "trunkFoldedL": 1652,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-turbo-benziner-1-5-diesel",
+       "name": "1.2 Turbo (Benziner) / 1.5 Diesel",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 514,
+       "trunkFoldedL": 1652,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2017,
+       "yearTo": 2024,
+       "notes": "Combustion figure."
+      },
+      {
+       "id": "plug-in-hybrid-224-ps-hybrid",
+       "name": "Plug-in-Hybrid 224 PS (Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 224,
+       "awd": false,
+       "trunkL": 390,
+       "trunkFoldedL": 1528,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": "Battery under the trunk floor/rear seat."
+      },
+      {
+       "id": "plug-in-hybrid4-300-ps-awd",
+       "name": "Plug-in-Hybrid4 300 PS (AWD)",
+       "powertrain": "phev",
+       "powerPs": 300,
+       "awd": true,
+       "trunkL": 390,
+       "trunkFoldedL": 1528,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": "mobile.de test: 390 l and 1528 l. 514 l for versions without the e-motor and battery."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.carwow.de/opel/grandland-x/technische-daten",
+       "what": "Grandland (2018-2024) dimensions and trunk"
+      },
+      {
+       "url": "https://www.mobile.de/magazin/artikel/opel-grandland-x-hybrid4-2020-test-24088",
+       "what": "Hybrid4: 390 l / 1528 l; 514 l for non-hybrid"
+      },
+      {
+       "url": "https://vision-mobility.de/elektroauto/kompaktklasse/opel-grandland-x-hybrid-plugin-hybrid-reichweite-40-km-224-ps-nicht-bestellbar-231581.html",
+       "what": "Grandland X Hybrid 224 PS FWD"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/opel/grandland-x/",
+       "what": "Dimensions 1856 / 1609 / 2675, trunk 514-1652 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "After the 2021 facelift the car was renamed from Grandland X to Grandland, and dimensions stayed about the same. One spec table lists length 4447 mm, which is probably a typo for 4477. Both plug-in hybrids (Hybrid 224 PS FWD and Hybrid4 300 PS AWD) have 390-1528 l. AutoScout24 lists 514-1652 l for the PHEV, which conflicts and probably refers to the combustion figure."
+    }
+   ]
+  },
+  {
+   "id": "mokka",
+   "name": "Mokka",
+   "generations": [
+    {
+     "id": "2021-mokka-b-inkl-facelift-2025",
+     "name": "Mokka B (inkl. Facelift 2025)",
+     "yearFrom": 2021,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4151,
+     "widthMm": 1791,
+     "heightMm": 1531,
+     "wheelbaseMm": 2557,
+     "trunkL": 350,
+     "trunkFoldedL": 1105,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-2-turbo-benziner-1-5-diesel",
+       "name": "1.2 Turbo (Benziner) / 1.5 Diesel",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 350,
+       "trunkFoldedL": 1105,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": null,
+       "notes": "The diesel was dropped during this generation."
+      },
+      {
+       "id": "1-2-turbo-hybrid-48v-mild-hybrid-edct",
+       "name": "1.2 Turbo Hybrid 48V (Mild-Hybrid) eDCT",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 350,
+       "trunkFoldedL": 1105,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "From the ADAC catalogue, for both the pre-facelift (05/24) and the facelift (03/25)."
+      },
+      {
+       "id": "electric-mokka-e-mokka-electric",
+       "name": "Electric (Mokka-e / Mokka Electric)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 310,
+       "trunkFoldedL": 1060,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": null,
+       "notes": "136 / 156 PS. No frunk."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2007-opel-mokka-b",
+       "what": "Mokka B dimensions and trunk"
+      },
+      {
+       "url": "https://www.ahh-haus.de/opel-neuwagen-abmessungen.php?auto=28",
+       "what": "Opel dealer dimension sheet Mokka / Mokka-e"
+      },
+      {
+       "url": "https://www.carwow.de/opel/mokka/technische-daten",
+       "what": "Trunk 350/1105 l, Mokka-e 310/1060 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/mokka/b-facelift/339989/",
+       "what": "Mokka Hybrid 48V facelift: 350 / 1105 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/mokka/b/335859/",
+       "what": "Mokka Hybrid 48V GS pre-facelift data"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Height is 1531 or 1534 mm and wheelbase 2557-2561 mm depending on the source. Width with mirrors is 1987 mm. The ADAC catalogue gives the same trunk volume for the facelift (from 03/2025), so it is not split out. The Mokka GSE (Electric, 281 PS, 2025) trunk was not checked separately."
+    }
+   ]
+  }
+ ]
+}

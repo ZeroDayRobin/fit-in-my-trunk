@@ -1,0 +1,880 @@
+{
+ "id": "p-skoda-1",
+ "brand": "Skoda",
+ "data": {
+  "models": [
+   {
+    "brand": "Skoda",
+    "model": "Fabia",
+    "generations": [
+     {
+      "name": "PJ (4. Generation)",
+      "yearFrom": 2021,
+      "yearTo": null,
+      "bodyType": "hatchback",
+      "lengthMm": 4108,
+      "widthMm": 1780,
+      "heightMm": 1459,
+      "wheelbaseMm": 2564,
+      "trunkL": 380,
+      "trunkFoldedL": 1190,
+      "loadSpace": null,
+      "confidence": "high",
+      "notes": "Height varies by source and trim: 1459 to 1460 mm (manufacturer, magazines), 1479 mm (mobile.de), and 1482 mm for some variants (AutoScout24, probably with roof rails). One source gives the length as 4107 mm. No PHEV, BEV or diesel, so the trunk is the same for every powertrain. No facelift with changed dimensions found up to 2026. The special-edition Fabia 130 (2024) was not researched.",
+      "sources": [
+       {
+        "url": "https://www.auto-motor-und-sport.de/marken-modelle/skoda/fabia/typ-pj/technische-daten/",
+        "what": "Technical data for type PJ: dimensions and trunk"
+       },
+       {
+        "url": "https://automobilsalon-bellemann.de/news/skoda-fabia-kofferraum-masse-abmessungen/",
+        "what": "Length 4108 mm, trunk 380 / 1190 l"
+       },
+       {
+        "url": "https://www.automobiledimension.com/model/skoda/fabia",
+        "what": "Width 1780 mm without mirrors (1954 mm with), height 1459 mm"
+       },
+       {
+        "url": "https://www.mobile.de/auto/skoda/fabia/2021/schr%C3%A4gheck/modell/daten-fakten/",
+        "what": "Height and wheelbase discrepancies (1479 / 2552 mm)"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/skoda/fabia/fabia-1-0-tsi-seit-2021-limousine-benzin/",
+        "what": "Height 1482 mm for some variants"
+       }
+      ],
+      "variants": [
+       {
+        "name": "1.0 MPI (Benziner, 65/80 PS)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "trunkL": 380,
+        "trunkFoldedL": 1190,
+        "awd": false
+       },
+       {
+        "name": "1.0 TSI 95 PS",
+        "powertrain": "petrol",
+        "powerPs": 95,
+        "trunkL": 380,
+        "trunkFoldedL": 1190,
+        "awd": false
+       },
+       {
+        "name": "1.0 TSI 116 PS",
+        "powertrain": "petrol",
+        "powerPs": 116,
+        "trunkL": 380,
+        "trunkFoldedL": 1190,
+        "awd": false
+       },
+       {
+        "name": "1.5 TSI 150 PS DSG (u.a. Monte Carlo)",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "trunkL": 380,
+        "trunkFoldedL": 1190,
+        "awd": false
+       }
+      ]
+     },
+     {
+      "name": "NJ Facelift (3. Generation)",
+      "yearFrom": 2018,
+      "yearTo": 2021,
+      "bodyType": "hatchback",
+      "lengthMm": 3997,
+      "widthMm": 1732,
+      "heightMm": 1482,
+      "wheelbaseMm": 2470,
+      "trunkL": 330,
+      "trunkFoldedL": 1150,
+      "loadSpace": null,
+      "confidence": "high",
+      "notes": "ADAC (1.0 TSI Style 08/18-07/19) gives 3997 x 1732 x 1482 mm and a wheelbase of 2470 mm. Some other sources give a lower height (1467 mm), probably without roof rails. According to Wikipedia, a spare wheel reduces the trunk by 25 l. After the 2018 facelift only petrol engines were sold, so there is no diesel variant.",
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/fabia/3generation-facelift/292809/",
+        "what": "Dimensions, wheelbase, trunk 330 / 1150 l"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Fabia_III",
+        "what": "Trunk volumes, spare wheel -25 l"
+       },
+       {
+        "url": "https://www.automoli.com/de/vehicles/skoda/fabia/fabia-iii-facelift-2018-6436/",
+        "what": "330 / 1150 l for the facelift"
+       }
+      ],
+      "variants": [
+       {
+        "name": "1.0 MPI (Benziner, 60/75 PS)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "trunkL": 330,
+        "trunkFoldedL": 1150,
+        "awd": false,
+        "yearTo": 2021
+       },
+       {
+        "name": "1.0 TSI (Benziner, 95/110 PS)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "trunkL": 330,
+        "trunkFoldedL": 1150,
+        "awd": false,
+        "yearTo": 2021
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Skoda",
+    "model": "Fabia Combi",
+    "generations": [
+     {
+      "name": "NJ Facelift (3. Generation)",
+      "yearFrom": 2018,
+      "yearTo": 2021,
+      "bodyType": "wagon",
+      "lengthMm": 4257,
+      "widthMm": 1732,
+      "heightMm": 1467,
+      "wheelbaseMm": null,
+      "trunkL": 530,
+      "trunkFoldedL": 1395,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Added as a missing body style. The 4th-generation Fabia (2021) has no Combi. The 2021 end year of the Combi was not verified exactly; it may have been built somewhat longer in parallel with the new Fabia. Dimensions come from a database listing (4257 x 1732 x 1467 mm, diesel). Wheelbase not confirmed (null).",
+      "sources": [
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/skoda/fabia/fabia-iii-combi-17839/",
+        "what": "Trunk 530 - 1395 l"
+       },
+       {
+        "url": "https://www.automoli.com/us/vehicles/skoda/fabia/fabia-iii-combi-facelift-2018-6437/",
+        "what": "Combi facelift 2018: 530 / 1395 l"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Fabia_III",
+        "what": "Combi 530 / 1395 l"
+       }
+      ],
+      "variants": [
+       {
+        "name": "1.0 MPI / 1.0 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "trunkL": 530,
+        "trunkFoldedL": 1395,
+        "awd": false
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Skoda",
+    "model": "Scala",
+    "generations": [
+     {
+      "name": "NW (inkl. Facelift 2024)",
+      "yearFrom": 2019,
+      "yearTo": null,
+      "bodyType": "hatchback",
+      "lengthMm": 4362,
+      "widthMm": 1793,
+      "heightMm": 1514,
+      "wheelbaseMm": 2649,
+      "trunkL": 467,
+      "trunkFoldedL": 1410,
+      "loadSpace": null,
+      "confidence": "high",
+      "notes": "Added as a missing model (compact hatchback between the Fabia and Octavia). The 2023/2024 facelift did not change the outer dimensions (autozeitung), so it is not split out. Sources give a height of 1514 mm and a wheelbase of 2649 or 2650 mm. The ADAC's own measurement gives 370 / 1070 l; the values here are the manufacturer VDA figures.",
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/scala/1generation-facelift/331276/",
+        "what": "Facelift dimensions and wheelbase"
+       },
+       {
+        "url": "https://automobilsalon-bellemann.de/news/skoda-scala-kofferraum-masse/",
+        "what": "Trunk 467 l, dimensions"
+       },
+       {
+        "url": "https://www.carwow.de/skoda/scala/technische-daten",
+        "what": "467 / 1410 l"
+       },
+       {
+        "url": "https://www.autozeitung.de/skoda-scala-facelift-2023-preis-motoren-200788.html",
+        "what": "Facelift has unchanged dimensions"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/skoda-scala/",
+        "what": "ADAC test, manufacturer 467 / 1410 l vs. measured values"
+       }
+      ],
+      "variants": [
+       {
+        "name": "1.0 TSI (Benziner, 95-116 PS)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "trunkL": 467,
+        "trunkFoldedL": 1410,
+        "awd": false
+       },
+       {
+        "name": "1.5 TSI 150 PS (u.a. Monte Carlo)",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "trunkL": 467,
+        "trunkFoldedL": 1410,
+        "awd": false
+       },
+       {
+        "name": "1.6 TDI (Diesel, Vor-Facelift)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "trunkL": 467,
+        "trunkFoldedL": 1410,
+        "awd": false,
+        "notes": "No different trunk value found; assumed to be the same body."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Skoda",
+    "model": "Kamiq",
+    "generations": [
+     {
+      "name": "NW (inkl. Facelift 2024)",
+      "yearFrom": 2019,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4241,
+      "widthMm": 1793,
+      "heightMm": 1531,
+      "wheelbaseMm": 2651,
+      "trunkL": 400,
+      "trunkFoldedL": 1395,
+      "loadSpace": null,
+      "confidence": "high",
+      "notes": "The 2024 facelift did not change the outer dimensions or trunk, so it is not split out. Wheelbase is 2651 mm per ADAC and Skoda Media; Carwow gives 2639 mm. Height ranges from 1531 to 1562 mm depending on source and equipment. With the optional fold-down front passenger seatback, items up to 2447 mm long fit (Skoda).",
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/kamiq/1generation-facelift/331299/",
+        "what": "Facelift 01/24: length 4241, width 1793, wheelbase 2651 mm"
+       },
+       {
+        "url": "https://www.skoda-media.de/model/txt/16074/*",
+        "what": "Manufacturer: wheelbase 2651 mm, load length 2447 mm with front passenger seat folded"
+       },
+       {
+        "url": "https://automobilsalon-bellemann.de/news/skoda-kamiq-kofferraum-masse/",
+        "what": "400 l, 4.24 m"
+       },
+       {
+        "url": "https://www.carwow.de/skoda/kamiq/technische-daten",
+        "what": "400 / 1395 l, wheelbase 2639 (discrepancy)"
+       },
+       {
+        "url": "https://www.mobile.de/auto/skoda/kamiq/2019/modell/daten-fakten/",
+        "what": "Type NW since 2019"
+       }
+      ],
+      "variants": [
+       {
+        "name": "1.0 TSI (Benziner, 95-116 PS)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "trunkL": 400,
+        "trunkFoldedL": 1395,
+        "awd": false
+       },
+       {
+        "name": "1.5 TSI 150 PS (u.a. Monte Carlo)",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "trunkL": 400,
+        "trunkFoldedL": 1395,
+        "awd": false
+       },
+       {
+        "name": "1.6 TDI (Diesel, Vor-Facelift)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "trunkL": 400,
+        "trunkFoldedL": 1395,
+        "awd": false,
+        "notes": "No different trunk value found."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Skoda",
+    "model": "Octavia Combi",
+    "generations": [
+     {
+      "name": "NX (4. Generation, inkl. Facelift 2024)",
+      "yearFrom": 2020,
+      "yearTo": null,
+      "bodyType": "wagon",
+      "lengthMm": 4689,
+      "widthMm": 1829,
+      "heightMm": 1468,
+      "wheelbaseMm": 2686,
+      "trunkL": 640,
+      "trunkFoldedL": 1700,
+      "loadSpace": null,
+      "confidence": "high",
+      "notes": "The manufacturer data sheet for the 2024 Combi (facelift) still gives 4689 / 1829 / 1468 / 2686 mm and 640 / 1700 l. Auto Zeitung gives 4698 mm for the facelift. Because the trunk did not change, the facelift is not split out. The facelift (2024) dropped the PHEV models (iV / RS iV). The 4x4 trunk was not separately confirmed. Scout and G-TEC were not researched.",
+      "sources": [
+       {
+        "url": "https://www.skoda-media.de/model_motor/genpdf/26611/full",
+        "what": "Manufacturer data Octavia Combi 2024: 640 / 1700 l, 4689 / 1829 / 1468 / 2686 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/4generation/315163/",
+        "what": "Combi 1.4 TSI iV: 490 / 1555 l"
+       },
+       {
+        "url": "https://ausfahrt.tv/2020-skoda-octavia-combi-rs-iv-phev-nx/",
+        "what": "RS iV Combi: 490 / 1555 l"
+       },
+       {
+        "url": "https://www.autozeitung.de/neues-skoda-octavia-facelift-2024-fahrbericht-206001.html",
+        "what": "Facelift length 4698 mm (discrepancy)"
+       },
+       {
+        "url": "https://www.automobile.at/magazin/740133",
+        "what": "RS 2024: Combi 640 - 1700 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/4generation-facelift/336166/",
+        "what": "RS facelift (from 07/24): length 4709 mm, width 1829 mm"
+       }
+      ],
+      "variants": [
+       {
+        "name": "1.0 / 1.5 eTSI DSG (Mild-Hybrid)",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "trunkL": 640,
+        "trunkFoldedL": 1700,
+        "awd": false
+       },
+       {
+        "name": "1.0 / 1.5 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "trunkL": 640,
+        "trunkFoldedL": 1700,
+        "awd": false
+       },
+       {
+        "name": "2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "trunkL": 640,
+        "trunkFoldedL": 1700,
+        "awd": false
+       },
+       {
+        "name": "2.0 TDI 4x4",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "trunkL": 640,
+        "trunkFoldedL": 1700,
+        "awd": true,
+        "notes": "4x4 trunk not separately confirmed; no different value found."
+       },
+       {
+        "name": "1.4 TSI iV / RS iV (Plug-in-Hybrid, 204/245 PS)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "trunkL": 490,
+        "trunkFoldedL": 1555,
+        "awd": false,
+        "yearFrom": 2020,
+        "yearTo": 2024,
+        "notes": "Battery under the floor. Confirmed by ADAC (iV) and ausfahrt.tv (RS iV). No longer offered after the 2024 facelift."
+       },
+       {
+        "name": "RS 2.0 TSI / 2.0 TDI (Vor-Facelift)",
+        "powertrain": "petrol",
+        "powerPs": 245,
+        "trunkL": 640,
+        "trunkFoldedL": 1700,
+        "awd": false,
+        "yearFrom": 2020,
+        "yearTo": 2024,
+        "notes": "Length of the pre-facelift RS not found. RS 2.0 TDI (200 PS, partly 4x4) has the same trunk."
+       },
+       {
+        "name": "RS 2.0 TSI 265 PS DSG (Facelift)",
+        "powertrain": "petrol",
+        "powerPs": 265,
+        "trunkL": 640,
+        "trunkFoldedL": 1700,
+        "awd": false,
+        "yearFrom": 2024,
+        "notes": "ADAC gives 4709 mm length and about 1455 mm height for the RS facelift, from the Limousine entry. Not separately confirmed for the Combi, so variant dimensions are left empty."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Skoda",
+    "model": "Octavia Limousine",
+    "generations": [
+     {
+      "name": "NX (4. Generation, inkl. Facelift 2024)",
+      "yearFrom": 2020,
+      "yearTo": null,
+      "bodyType": "sedan",
+      "lengthMm": 4689,
+      "widthMm": 1829,
+      "heightMm": 1470,
+      "wheelbaseMm": 2686,
+      "trunkL": 600,
+      "trunkFoldedL": 1555,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "A liftback (fastback with a large tailgate including the rear window), not a classic notchback sedan. Length, width and wheelbase were taken over from the manufacturer's Combi data sheet. AUTO BILD confirms width 1.83 m, height 1.47 m and wheelbase 2.68 m for the Octavia, so the height (1470) is only the rounded 1.47 m. Facelift 2024: trunk unchanged at 600 / 1555 l (autozeitung), and the PHEVs were dropped.",
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/4generation/315165/",
+        "what": "1.4 TSI iV Limousine: 450 / 1405 l"
+       },
+       {
+        "url": "https://www.skoda-media.de/model/txt/16306/*",
+        "what": "Manufacturer: Octavia iV Limousine 450 l, Combi 490 l"
+       },
+       {
+        "url": "https://www.autozeitung.de/neues-skoda-octavia-facelift-2024-fahrbericht-206001.html",
+        "what": "Facelift Limousine trunk unchanged at 600 - 1555 l"
+       },
+       {
+        "url": "https://www.autobild.de/marken-modelle/skoda/octavia/",
+        "what": "Width 1.83 m, height 1.47 m, wheelbase 2.68 m unchanged"
+       },
+       {
+        "url": "https://www.automobile.at/magazin/740133",
+        "what": "RS 2024 Limousine 600 - 1555 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/4generation-facelift/336166/",
+        "what": "RS DSG (from 07/24): length 4709, width 1829 mm"
+       },
+       {
+        "url": "https://www.auto-data.net/en/skoda-octavia-iv-facelift-2024-rs-2.0-tsi-265hp-dsg-52252",
+        "what": "RS facelift 4709 mm, height 1455 mm"
+       }
+      ],
+      "variants": [
+       {
+        "name": "1.0 / 1.5 eTSI DSG (Mild-Hybrid)",
+        "powertrain": "mhev",
+        "powerPs": null,
+        "trunkL": 600,
+        "trunkFoldedL": 1555,
+        "awd": false
+       },
+       {
+        "name": "1.0 / 1.5 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "trunkL": 600,
+        "trunkFoldedL": 1555,
+        "awd": false
+       },
+       {
+        "name": "2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "trunkL": 600,
+        "trunkFoldedL": 1555,
+        "awd": false
+       },
+       {
+        "name": "1.4 TSI iV / RS iV (Plug-in-Hybrid, 204/245 PS)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "trunkL": 450,
+        "trunkFoldedL": 1405,
+        "awd": false,
+        "yearFrom": 2020,
+        "yearTo": 2024,
+        "notes": "450 / 1405 l confirmed for the iV (ADAC, Skoda). Not separately confirmed for the RS iV Limousine, which has the same PHEV drivetrain."
+       },
+       {
+        "name": "RS 2.0 TSI / 2.0 TDI (Vor-Facelift)",
+        "powertrain": "petrol",
+        "powerPs": 245,
+        "trunkL": 600,
+        "trunkFoldedL": 1555,
+        "awd": false,
+        "yearFrom": 2020,
+        "yearTo": 2024,
+        "notes": "Length of the pre-facelift RS not found."
+       },
+       {
+        "name": "RS 2.0 TSI 265 PS DSG (Facelift)",
+        "powertrain": "petrol",
+        "powerPs": 265,
+        "trunkL": 600,
+        "trunkFoldedL": 1555,
+        "awd": false,
+        "yearFrom": 2024,
+        "lengthMm": 4709,
+        "heightMm": 1455,
+        "notes": "ADAC / auto-data: 4709 mm long; height 1455 mm (Carwow 1457 mm)."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Skoda",
+    "model": "Superb Combi",
+    "generations": [
+     {
+      "name": "3Y / B9 (4. Generation)",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "wagon",
+      "lengthMm": 4902,
+      "widthMm": 1849,
+      "heightMm": 1482,
+      "wheelbaseMm": 2841,
+      "trunkL": 690,
+      "trunkFoldedL": 1920,
+      "loadSpace": null,
+      "confidence": "high",
+      "notes": "PHEV (iV / e-Hybrid): 510 / 1770 l because the battery sits in the floor. One database gives 1521 mm height for the iV (not confirmed by the manufacturer, so not used). mobile.de lists 645 l in one place, which does not match the manufacturer figure. 4x4 trunk not separately confirmed.",
+      "sources": [
+       {
+        "url": "https://www.skoda-media.de/model_motor/genpdf/26531/full",
+        "what": "Manufacturer data Superb Combi 2024: 690 / 1920 l, 4902 / 1849 / 1482 / 2841 mm"
+       },
+       {
+        "url": "https://www.carwow.de/skoda/superb-combi/technische-daten",
+        "what": "iV trunk 510 l, battery position"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/technische-daten/skoda/superb/",
+        "what": "Combi PHEV 510 - 1770 l"
+       },
+       {
+        "url": "https://de.motor1.com/reviews/677305/skoda-superb-combi-2024-vorserientest/",
+        "what": "Pre-production test of the Superb Combi 2024"
+       },
+       {
+        "url": "https://www.skoda-media.de/model_motor/genpdf/26935",
+        "what": "Superb iV Combi 2025 data sheet"
+       }
+      ],
+      "variants": [
+       {
+        "name": "1.5 TSI mHEV 150 PS DSG (Mild-Hybrid)",
+        "powertrain": "mhev",
+        "powerPs": 150,
+        "trunkL": 690,
+        "trunkFoldedL": 1920,
+        "awd": false
+       },
+       {
+        "name": "2.0 TSI 4x4 (Benziner, 204/265 PS)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "trunkL": 690,
+        "trunkFoldedL": 1920,
+        "awd": true,
+        "notes": "4x4 trunk not separately confirmed."
+       },
+       {
+        "name": "2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "trunkL": 690,
+        "trunkFoldedL": 1920,
+        "awd": false
+       },
+       {
+        "name": "2.0 TDI 4x4 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "trunkL": 690,
+        "trunkFoldedL": 1920,
+        "awd": true,
+        "notes": "4x4 trunk not separately confirmed."
+       },
+       {
+        "name": "1.5 TSI iV 204 PS (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 204,
+        "trunkL": 510,
+        "trunkFoldedL": 1770,
+        "awd": false
+       }
+      ]
+     },
+     {
+      "name": "3V / B8 Facelift (3. Generation)",
+      "yearFrom": 2019,
+      "yearTo": 2023,
+      "bodyType": "wagon",
+      "lengthMm": 4862,
+      "widthMm": 1864,
+      "heightMm": 1477,
+      "wheelbaseMm": 2841,
+      "trunkL": 660,
+      "trunkFoldedL": 1950,
+      "loadSpace": null,
+      "confidence": "high",
+      "notes": "Facelift from autumn 2019 (model year 2020). iV PHEV (from 2020): 510 / 1800 l (ADAC). Automoli gives 1447 mm height for the iV, probably an error (ADAC says 1477). Superb Combi Scout (raised, 4x4) not researched.",
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/superb/3generation-facelift/307602/",
+        "what": "Combi 1.4 TSI iV: 4862 / 1864 / 1477 mm, 510 / 1800 l"
+       },
+       {
+        "url": "https://www.motorsport-total.com/auto/news/skoda-superb-facelift-2019-preis-motoren-kofferraumvolumen-19083005",
+        "what": "Combi 660 / 1950 l, iV 510 l"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/skoda-superb-facelift-2019-test-laenge-bilder-led-diesel-hybrid-masse-preis-sportline-combi-10615055.html",
+        "what": "Facelift dimensions, wheelbase 2841 mm, battery in front of the rear axle"
+       },
+       {
+        "url": "https://www.automoli.com/de/vehicles/skoda/superb/superb-iii-combi-facelift-2019-7144/",
+        "what": "Combi facelift 2019 data"
+       }
+      ],
+      "variants": [
+       {
+        "name": "1.5 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "trunkL": 660,
+        "trunkFoldedL": 1950,
+        "awd": false
+       },
+       {
+        "name": "2.0 TSI 4x4 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "trunkL": 660,
+        "trunkFoldedL": 1950,
+        "awd": true,
+        "notes": "4x4 trunk not separately confirmed."
+       },
+       {
+        "name": "2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "trunkL": 660,
+        "trunkFoldedL": 1950,
+        "awd": false
+       },
+       {
+        "name": "2.0 TDI 4x4 (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "trunkL": 660,
+        "trunkFoldedL": 1950,
+        "awd": true,
+        "notes": "4x4 trunk not separately confirmed."
+       },
+       {
+        "name": "1.4 TSI iV 218 PS (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 218,
+        "trunkL": 510,
+        "trunkFoldedL": 1800,
+        "awd": false,
+        "yearFrom": 2020,
+        "yearTo": 2023
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Skoda",
+    "model": "Superb Limousine",
+    "generations": [
+     {
+      "name": "3Y / B9 (4. Generation)",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "sedan",
+      "lengthMm": 4912,
+      "widthMm": 1849,
+      "heightMm": 1481,
+      "wheelbaseMm": null,
+      "trunkL": 645,
+      "trunkFoldedL": 1795,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Added as a missing body style. A liftback with a large tailgate. Manufacturer figure is 645 l (+20 vs. predecessor); ADAC measured 560 l. Wheelbase not confirmed separately for the Limousine (Combi: 2841 mm). The iV / PHEV trunk is only from automobiledimension (486 l, marked with an asterisk); folded value not found.",
+      "sources": [
+       {
+        "url": "https://www.carwow.de/skoda/superb/technische-daten",
+        "what": "Limousine 645 / 1795 l"
+       },
+       {
+        "url": "https://www.autoscout24.at/auto/technische-daten/skoda/superb/",
+        "what": "Superb 3Y Limousine 4912 x 1849 x 1481 mm, 645 - 1795 l"
+       },
+       {
+        "url": "https://www.autobild.de/marken-modelle/skoda/superb/",
+        "what": "Limousine 645 l (+20 l)"
+       },
+       {
+        "url": "https://www.automobiledimension.com/model/skoda/superb",
+        "what": "Superb iV trunk 486* l"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Superb_IV",
+        "what": "Superb IV: length 4902-4912 mm, height 1481-1506 mm"
+       }
+      ],
+      "variants": [
+       {
+        "name": "1.5 TSI mHEV 150 PS DSG (Mild-Hybrid)",
+        "powertrain": "mhev",
+        "powerPs": 150,
+        "trunkL": 645,
+        "trunkFoldedL": 1795,
+        "awd": false
+       },
+       {
+        "name": "2.0 TSI 4x4 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "trunkL": 645,
+        "trunkFoldedL": 1795,
+        "awd": true,
+        "notes": "4x4 trunk not separately confirmed."
+       },
+       {
+        "name": "2.0 TDI (Diesel, auch 4x4)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "trunkL": 645,
+        "trunkFoldedL": 1795,
+        "awd": false
+       },
+       {
+        "name": "1.5 TSI iV 204 PS (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 204,
+        "trunkL": 486,
+        "trunkFoldedL": null,
+        "awd": false,
+        "notes": "486 l only from automobiledimension (marked with an asterisk). Folded volume not found."
+       }
+      ]
+     },
+     {
+      "name": "3V / B8 Facelift (3. Generation)",
+      "yearFrom": 2019,
+      "yearTo": 2023,
+      "bodyType": "sedan",
+      "lengthMm": 4869,
+      "widthMm": 1864,
+      "heightMm": 1468,
+      "wheelbaseMm": 2841,
+      "trunkL": 625,
+      "trunkFoldedL": 1760,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Liftback. Length and height are from the manufacturer data sheet for the Superb iV Limousine 2021 (4869 / 1468 mm). Width and wheelbase are shared with the Combi (ADAC / AUTO BILD). iV Limousine: 485 l (Skoda), folded value not found.",
+      "sources": [
+       {
+        "url": "https://www.skoda-media.de/model_motor/genpdf/23805",
+        "what": "Manufacturer data Superb iV Limousine 2021: length 4869, height 1468 mm, 485 l"
+       },
+       {
+        "url": "https://www.skoda-storyboard.com/de/modelle-de/superb-de/skoda-superb-iv-reichweite-ausstattung-und-details/",
+        "what": "Skoda: iV Limousine 485 l, Combi 510 l"
+       },
+       {
+        "url": "https://www.motorsport-total.com/auto/news/skoda-superb-facelift-2019-preis-motoren-kofferraumvolumen-19083005",
+        "what": "Limousine 625 / 1760 l, iV Limousine 485 l"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/skoda-superb-facelift-2019-test-laenge-bilder-led-diesel-hybrid-masse-preis-sportline-combi-10615055.html",
+        "what": "Wheelbase 2841, width 1864 mm"
+       }
+      ],
+      "variants": [
+       {
+        "name": "1.5 TSI (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "trunkL": 625,
+        "trunkFoldedL": 1760,
+        "awd": false
+       },
+       {
+        "name": "2.0 TSI 4x4 (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "trunkL": 625,
+        "trunkFoldedL": 1760,
+        "awd": true,
+        "notes": "4x4 trunk not separately confirmed."
+       },
+       {
+        "name": "2.0 TDI (Diesel, auch 4x4)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "trunkL": 625,
+        "trunkFoldedL": 1760,
+        "awd": false
+       },
+       {
+        "name": "1.4 TSI iV 218 PS (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 218,
+        "trunkL": 485,
+        "trunkFoldedL": null,
+        "awd": false,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "Folded volume not found."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Octavia Combi/Limousine G-TEC (CNG) trunk volume",
+   "Kamiq 1.0 G-TEC (CNG) trunk volume",
+   "Scala 1.0 G-TEC (CNG) trunk volume",
+   "Octavia Combi Scout dimensions/trunk",
+   "Superb Combi Scout (B8) dimensions",
+   "Octavia RS pre-facelift (2020-2024) length",
+   "Octavia Combi RS facelift length (only the Limousine RS at 4709 mm is confirmed)",
+   "Octavia Limousine exact height (only 1.47 m rounded)",
+   "Superb Limousine B9 (2024) wheelbase confirmed separately",
+   "Superb Limousine B9 iV trunk volume with seats folded",
+   "Superb Limousine B8 iV (2020-2023) trunk volume with seats folded",
+   "Fabia Combi III wheelbase",
+   "Fabia 130 (2024) dimensions",
+   "4x4 trunk volumes for Octavia/Superb not confirmed separately (base value used)",
+   "loadSpace measurements (load length/width/sill height) for all models",
+   "Kamiq exact height (1531-1562 mm depending on source)"
+  ],
+  "notes": "The search budget of 12 WebSearch calls was used up (80/20 approach). Added as missing models/body styles: Scala, Superb Limousine, Fabia Combi (predecessor only). The Octavia 2024 facelift is not split out because base dimensions and trunk are unchanged; the PHEVs (iV/RS iV) are marked as ending in 2024. Not covered (SUV/BEV segment, presumably on other lists): Karoq, Kodiaq, Enyaq, Enyaq Coupe, Elroq, Epiq. Some powerPs values are null where a price-list group covers several power outputs."
+ },
+ "verification": null
+}

@@ -1,0 +1,536 @@
+{
+ "id": "p-cupra",
+ "brand": "Cupra",
+ "data": {
+  "models": [
+   {
+    "brand": "Cupra",
+    "model": "Formentor",
+    "generations": [
+     {
+      "name": "KM (2020–, Facelift 2024)",
+      "yearFrom": 2020,
+      "yearTo": null,
+      "bodyType": "suv-coupe",
+      "lengthMm": 4451,
+      "widthMm": 1839,
+      "heightMm": 1520,
+      "wheelbaseMm": 2680,
+      "trunkL": 450,
+      "trunkFoldedL": 1505,
+      "loadSpace": null,
+      "notes": "Facelift 07/2024 not split: trunk volumes unchanged (FWD 450 L, 4Drive 420 L, e-HYBRID 345/1415 L per ADAC for both 1.4 and 1.5 e-HYBRID) and length differs by only about 1 mm (4450 pre-facelift vs. 4451 facelift). Height differs by variant: sources give about 1505–1537 mm, e.g. 1520 mm on the manufacturer's VZ e-HYBRID page and 1528 mm on another manufacturer page for the VZ. Sources give the wheelbase as 2679–2681 mm, and 2680 mm is used here. The 4Drive trunk is smaller (420 L) because of the changed rear-axle design and the top-view camera. The ADAC's own crate measurement is much lower (VZ 2.0 TSI: 320 L / 1185 L), but the values here are manufacturer VDA figures.",
+      "sources": [
+       {
+        "url": "https://www.cupraofficial.at/formentor/formentor-vz-technische-details",
+        "what": "Manufacturer: VZ e-HYBRID 272 PS, 4451/1839/1520 mm, 345 L; note that 4Drive 150 kW/195 kW with top-view camera = 420 L"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/cupra-formentor/",
+        "what": "ADAC facelift test: 2.0 TSI VZ Extreme DSG (from 11/24) 450 L / 1505 L roof-high; ADAC measurement 320/1185 L"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/formentor/1generation-facelift/336521/",
+        "what": "ADAC: 1.5 e-HYBRID DSG (08/24–10/25) 345 L / 1415 L"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/formentor/1generation-facelift/336055/",
+        "what": "ADAC: 1.5 e-HYBRID VZ DSG (07/24–10/25) 345 L / 1415 L"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/formentor/1generation/327060/",
+        "what": "ADAC: 1.4 e-HYBRID VZ Tribe Edition (01/23–07/24) 345 L / 1415 L"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/formentor/1generation/332748/",
+        "what": "ADAC: 1.4 e-HYBRID Tribe Edition (02/24–07/24)"
+       },
+       {
+        "url": "https://www.motorsport-total.com/auto/news/cupra-formentor-2024-abmessungen-und-daten-zum-facelift-24062003",
+        "what": "Facelift: trunk unchanged at 450 L (FWD petrol), 4Drive 420 L"
+       },
+       {
+        "url": "https://www.cupraofficial.ch/de/modelle/formentor/technische-daten",
+        "what": "Manufacturer CH: 1.5 TSI mHEV 150 PS DSG"
+       },
+       {
+        "url": "https://produktkatalog.cupra.de/clp/cupra-formentor/",
+        "what": "Manufacturer product catalog: heights by variant (about 1511–1537 mm)"
+       },
+       {
+        "url": "https://cupra-forum.com/forum/thread/111-cupra-formentor-kofferraum-ma%C3%9Fe-in-cm-96-60-cm-volumen-450-420-345-liter-je-moto/",
+        "what": "Forum (unofficial): 450/420/345 L by drivetrain; VZ 4Drive folded 1475 L"
+       }
+      ],
+      "confidence": "medium",
+      "variants": [
+       {
+        "name": "1.5 TSI 150 PS (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 450,
+        "trunkFoldedL": 1505,
+        "yearFrom": 2020,
+        "yearTo": 2024,
+        "notes": "Pre-facelift. 450 L for FWD petrol/diesel; folded value from the facelift ADAC entry (trunk unchanged at facelift)."
+       },
+       {
+        "name": "1.5 eTSI 150 PS DSG (Mild-Hybrid)",
+        "powertrain": "mhev",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 450,
+        "trunkFoldedL": 1505,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "Facelift. Manufacturer CH page: 1.5 TSI mHEV 150 PS."
+       },
+       {
+        "name": "2.0 TSI VZ DSG (Frontantrieb)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 450,
+        "trunkFoldedL": 1505,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "ADAC: 2.0 TSI VZ Extreme DSG (from 11/24), 450/1505 L. Power not confirmed in the sources."
+       },
+       {
+        "name": "2.0 TDI (Diesel)",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 450,
+        "trunkFoldedL": null,
+        "yearFrom": null,
+        "yearTo": 2024,
+        "notes": "Pre-facelift only. 450 L given for FWD petrol and diesel. Folded value not found for the diesel."
+       },
+       {
+        "name": "2.0 TSI 4Drive / VZ 4Drive (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 420,
+        "trunkFoldedL": null,
+        "yearFrom": 2020,
+        "yearTo": null,
+        "notes": "Manufacturer: 4Drive 150 kW (204 PS) and 195 kW (265 PS, facelift) = 420 L. The pre-facelift VZ 310 PS also 420 L (forum citing a test). Folded: forum gives 1475 L (unofficial), so null here."
+       },
+       {
+        "name": "VZ5 2.5 TSI 390 PS 4Drive",
+        "powertrain": "petrol",
+        "powerPs": 390,
+        "awd": true,
+        "trunkL": 420,
+        "trunkFoldedL": null,
+        "yearFrom": null,
+        "yearTo": null,
+        "notes": "Limited 5-cylinder top model of the pre-facelift. A search summary says the 420 L 4Drive figure applies to 2.0 and 2.5 TSI. Production years not verified."
+       },
+       {
+        "name": "1.4 e-HYBRID / VZ e-HYBRID (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 345,
+        "trunkFoldedL": 1415,
+        "yearFrom": null,
+        "yearTo": 2024,
+        "notes": "Pre-facelift PHEV (ADAC entries up to 07/24). Power not verified (commonly 204/245 PS)."
+       },
+       {
+        "name": "VZ e-HYBRID 272 PS (Plug-in-Hybrid, 1.5 e-HYBRID)",
+        "powertrain": "phev",
+        "powerPs": 272,
+        "awd": false,
+        "trunkL": 345,
+        "trunkFoldedL": 1415,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "Facelift PHEV. The base 1.5 e-HYBRID has the same 345/1415 L (ADAC). Manufacturer gives 4451/1839/1520 mm for this variant."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Cupra",
+    "model": "Born",
+    "generations": [
+     {
+      "name": "1. Generation",
+      "yearFrom": 2021,
+      "yearTo": 2026,
+      "bodyType": "hatchback",
+      "lengthMm": 4324,
+      "widthMm": 1809,
+      "heightMm": 1540,
+      "wheelbaseMm": 2766,
+      "trunkL": 385,
+      "trunkFoldedL": 1267,
+      "loadSpace": null,
+      "notes": "BEV, rear trunk only. No frunk data found. Dimensions and trunk come from ADAC entries for the 2024–2026 versions. The 2021–2024 versions (45/58/77 kWh) use the same body with the same quoted 385 L, but they were not verified in a separate source within the search budget. Many sources quote 4322 mm length for early cars.",
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/born/1generation/336129/",
+        "what": "ADAC: Born 79 kWh VZ (06/24–04/26) 385 L / 1267 L, 4324/1809/1540 mm, wheelbase 2766 mm, 240 kW"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/born/1generation/340308/",
+        "what": "ADAC: Born 79 kWh (05/25–04/26) technical data"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/2136-cupra-born",
+        "what": "Dimensions and trunk volume overview"
+       }
+      ],
+      "confidence": "medium",
+      "variants": [
+       {
+        "name": "Elektro 58 kWh",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 385,
+        "trunkFoldedL": 1267,
+        "yearFrom": 2021,
+        "yearTo": 2026,
+        "notes": "Same body. Power variants (incl. e-Boost) not verified within the search budget."
+       },
+       {
+        "name": "Elektro 77 kWh / 79 kWh",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 385,
+        "trunkFoldedL": 1267,
+        "yearFrom": 2021,
+        "yearTo": 2026,
+        "notes": "79 kWh net (84 kWh gross) version listed by ADAC from 05/25."
+       },
+       {
+        "name": "VZ 79 kWh 326 PS",
+        "powertrain": "bev",
+        "powerPs": 326,
+        "awd": false,
+        "trunkL": 385,
+        "trunkFoldedL": 1267,
+        "yearFrom": 2024,
+        "yearTo": 2026,
+        "notes": "ADAC: 240 kW, 06/24–04/26."
+       }
+      ]
+     },
+     {
+      "name": "1. Generation (Facelift 2026)",
+      "yearFrom": 2026,
+      "yearTo": null,
+      "bodyType": "hatchback",
+      "lengthMm": 4336,
+      "widthMm": 1809,
+      "heightMm": 1543,
+      "wheelbaseMm": 2766,
+      "trunkL": 385,
+      "trunkFoldedL": 1267,
+      "loadSpace": null,
+      "notes": "Facelift, market launch summer 2026. Trunk unchanged (385/1267 L). Split because length and height changed: ADAC and Cupra give the VZ as 4336 x 1809 x 1543 mm. Length reports conflict: one report says 4316 mm (8 mm shorter) and another 4324 mm, possibly depending on variant. 4336 mm is the manufacturer/ADAC VZ value. BEV, no frunk data found.",
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/born/1generation-facelift/350016/",
+        "what": "ADAC: Born 79 kWh VZ (from 06/26) 4336 mm length, 1543 mm height"
+       },
+       {
+        "url": "https://www.cupra.com/de-de/fahrzeuge/born",
+        "what": "Manufacturer: new Born 2026, VZ length 4336 mm"
+       },
+       {
+        "url": "https://automobilsalon-bellemann.de/news/cupra-born-kofferraum-masse-abmessungen-2026/",
+        "what": "Dealer: Born 2026 trunk 385 L / 1267 L, dimensions"
+       },
+       {
+        "url": "https://ecomento.de/2026/03/05/cupra-stellt-born-facelift-vor-markteinfuehrung-im-sommer-2026/",
+        "what": "Facelift presentation, market launch summer 2026"
+       },
+       {
+        "url": "https://de.motor1.com/news/792802/cupra-born-2026-innenraum-kofferraum/",
+        "what": "Facelift interior/trunk: volume unchanged"
+       }
+      ],
+      "confidence": "medium",
+      "variants": [
+       {
+        "name": "Elektro 79 kWh",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 385,
+        "trunkFoldedL": 1267,
+        "yearFrom": 2026,
+        "yearTo": null,
+        "notes": "Facelift lineup and power outputs not verified within the search budget."
+       },
+       {
+        "name": "VZ 79 kWh",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 385,
+        "trunkFoldedL": 1267,
+        "lengthMm": 4336,
+        "heightMm": 1543,
+        "yearFrom": 2026,
+        "yearTo": null,
+        "notes": "ADAC VZ from 06/26."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Cupra",
+    "model": "Terramar",
+    "generations": [
+     {
+      "name": "KP",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4519,
+      "widthMm": 1869,
+      "heightMm": 1586,
+      "wheelbaseMm": 2681,
+      "trunkL": 540,
+      "trunkFoldedL": 1544,
+      "loadSpace": null,
+      "notes": "Sliding rear bench: 540 L with the bench fully back, up to 642 L with it slid forward (Cupra AT lists 642 L for the 1.5 eTSI). The e-HYBRID trunk is smaller (ADAC: 450 L; UK reviews: 400–490 L depending on bench position; Cupra AT 490 L max). The battery removes the underfloor storage. Folded 1544 L (to the roof) comes from Parkers and a test of the 2.0 TSI VZ 4Drive. No official German folded figure was found. Wikipedia gives height as 1584 mm. Cupra's global dimensions page lists 508 L, which is inconsistent with all other sources.",
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/terramar/1generation/336900/",
+        "what": "ADAC: 1.5 eTSI DSG (from 12/24) 540 L"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/terramar/1generation/345234/",
+        "what": "ADAC: 1.5 e-HYBRID DSG (from 10/25) 450 L"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/terramar/1generation/336903/",
+        "what": "ADAC: 1.5 e-HYBRID VZ DSG (12/24–10/25) 450 L"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/cupra-terramar/",
+        "what": "ADAC test: 540 L (eTSI) vs 450 L (e-HYBRID)"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/2204-cupra-terramar",
+        "what": "Dimensions 4519/1869 (without mirrors)/1586 mm, wheelbase 2681 mm"
+       },
+       {
+        "url": "https://www.mobile.de/auto/cupra/terramar/serie/",
+        "what": "Dimensions confirm (height 1586 mm)"
+       },
+       {
+        "url": "https://www.parkers.co.uk/cupra/terramar/review/practicality/",
+        "what": "540 L, 642 L bench forward, 1544 L folded to the roof (mild hybrid and 2.0 4WD)"
+       },
+       {
+        "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-cupra-terramar-typ-kp-2024-bis/",
+        "what": "Trunk test: 1544 L folded"
+       },
+       {
+        "url": "https://www.topgear.com/car-reviews/cupra/terramar/interior",
+        "what": "e-HYBRID 400–490 L depending on bench position"
+       },
+       {
+        "url": "https://www.cupraofficial.at/terramar/technische-daten",
+        "what": "Manufacturer AT: 1.5 eTSI 642 L (max), e-HYBRID 490 L (max, bench forward)"
+       },
+       {
+        "url": "https://www.carwow.de/cupra/terramar/technische-daten",
+        "what": "1.5 eTSI 150 PS 540 L; e-HYBRID 450 L"
+       }
+      ],
+      "confidence": "medium",
+      "variants": [
+       {
+        "name": "1.5 eTSI 150 PS DSG (Mild-Hybrid)",
+        "powertrain": "mhev",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 540,
+        "trunkFoldedL": 1544,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "540 L with the bench fully back, 642 L with it forward."
+       },
+       {
+        "name": "2.0 TSI 4Drive DSG (Benziner)",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 540,
+        "trunkFoldedL": 1544,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "Power unclear in sources (204 PS listed by angurten.de, possibly mixed up)."
+       },
+       {
+        "name": "VZ 2.0 TSI 265 PS 4Drive DSG",
+        "powertrain": "petrol",
+        "powerPs": 265,
+        "awd": true,
+        "trunkL": 540,
+        "trunkFoldedL": 1544,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "Manufacturer 540 L; test 1544 L folded."
+       },
+       {
+        "name": "1.5 e-HYBRID 204 PS (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 204,
+        "awd": false,
+        "trunkL": 450,
+        "trunkFoldedL": null,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "ADAC 450 L. Some UK reviews give 400 L with the bench fully back, up to 490 L forward. Folded value not found."
+       },
+       {
+        "name": "VZ e-HYBRID 272 PS (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 272,
+        "awd": false,
+        "trunkL": 450,
+        "trunkFoldedL": null,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "ADAC 1.5 e-HYBRID VZ DSG: 450 L. Folded value not found."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Cupra",
+    "model": "Tavascan",
+    "generations": [
+     {
+      "name": "1. Generation",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "suv-coupe",
+      "lengthMm": 4644,
+      "widthMm": 1861,
+      "heightMm": 1597,
+      "wheelbaseMm": 2766,
+      "trunkL": 540,
+      "trunkFoldedL": 1550,
+      "loadSpace": {
+       "heightMm": null,
+       "lengthFoldedMm": null,
+       "lengthMm": null,
+       "openingHeightMm": null,
+       "sillHeightMm": 740,
+       "source": "ADAC test (via gute-fahrt.de): loading sill 74 cm",
+       "widthBetweenArchesMm": null,
+       "widthMm": null
+      },
+      "notes": "BEV, rear trunk only. No frunk data found. The manufacturer's 540 L (measured under the tailgate) and 1550 L folded come from Cupra Australia's official site. The ADAC's own measurement gives 460 L (575 L to the roof), and a German source gives about 1500 L folded. A 05/2026 update (new digital cockpit, new 58 kWh version) did not change dimensions according to the sources. Width with mirrors is 2108 mm.",
+      "sources": [
+       {
+        "url": "https://www.cupraofficial.com.au/cars/tavascan",
+        "what": "Manufacturer: 540 L, 1550 L with rear seats folded"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/tavascan/1generation/328193/",
+        "what": "ADAC: 77 kWh VZ 4Drive (06/24–05/26) 4644/1861/1597 mm, wheelbase 2766 mm, 250 kW/340 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/tavascan/1generation/328192/",
+        "what": "ADAC: 77 kWh Endurance (06/24–05/26) 540 L"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/tavascan/1generation/350985/",
+        "what": "ADAC: 58 kWh (from 05/26)"
+       },
+       {
+        "url": "https://www.autoscout24.de/auto/cupra/cupra-tavascan/",
+        "what": "Dimensions; Endurance 210 kW/286 PS; ADAC measured 460 L"
+       },
+       {
+        "url": "https://www.gute-fahrt.de/marken/cupra/tavascan/cupra-tavascan-ueberzeugt-im-adac-test-mit-bestnote/",
+        "what": "ADAC test: 460 L measured, 575 L to the roof, loading sill 74 cm"
+       },
+       {
+        "url": "https://www.autobild.de/marken-modelle/cupra/tavascan/",
+        "what": "58 kWh/140 kW version from 04/2026"
+       },
+       {
+        "url": "https://www.autoguru.at/2025/09/cupra-tavascan-im-test/",
+        "what": "540 L, about 1500 L folded"
+       }
+      ],
+      "confidence": "high",
+      "variants": [
+       {
+        "name": "Endurance 77 kWh 286 PS",
+        "powertrain": "bev",
+        "powerPs": 286,
+        "awd": false,
+        "trunkL": 540,
+        "trunkFoldedL": 1550,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "Rear-wheel drive, 210 kW."
+       },
+       {
+        "name": "VZ 4Drive 77 kWh 340 PS",
+        "powertrain": "bev",
+        "powerPs": 340,
+        "awd": true,
+        "trunkL": 540,
+        "trunkFoldedL": 1550,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "250 kW, all-wheel drive. ADAC lists an entry from 05/26 as well."
+       },
+       {
+        "name": "Elektro 58 kWh 190 PS",
+        "powertrain": "bev",
+        "powerPs": 190,
+        "awd": false,
+        "trunkL": 540,
+        "trunkFoldedL": 1550,
+        "yearFrom": 2026,
+        "yearTo": null,
+        "notes": "140 kW, from 04–05/2026. Trunk taken from the model-wide manufacturer figure (same body). A variant-specific figure was not checked."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Cupra Leon (5-door) and Cupra Leon Sportstourer: not researched because the 12-search budget was prioritized on the four assigned models (they may already be covered with the Seat Leon)",
+   "Cupra Ateca (2020 to about 2024/25): not researched (search budget)",
+   "Cupra Raval (small BEV, 2026): not researched (search budget)",
+   "Formentor 4Drive / VZ5 official folded trunk volume (forum gives 1475 L only)",
+   "Formentor 2.0 TDI folded trunk volume and power",
+   "Formentor pre-facelift e-HYBRID power outputs and first model year",
+   "Formentor exact per-variant heights (sources give 1505 to 1537 mm)",
+   "Terramar e-HYBRID trunk volume with seats folded",
+   "Terramar official German (manufacturer) folded volume (1544 L from Parkers/test)",
+   "Terramar 2.0 TSI 4Drive (non-VZ) power output",
+   "Born 2021 to 2024 (45/58/77 kWh) trunk volume, explicit source (assumed same 385/1267 L body)",
+   "Born power outputs except VZ 326 PS",
+   "Born facelift 2026 per-variant length (conflict 4316 / 4324 / 4336 mm)",
+   "Born and Tavascan frunk (no data found)",
+   "loadSpace floor dimensions for Formentor, Born and Terramar"
+  ],
+  "notes": "The research was cut down to 12 searches, as you asked (80/20). Most values come from ADAC catalog entries (which reproduce the manufacturer's VDA figures) and official Cupra pages (AT/CH/DE/AU). Formentor facelift 2024 not split (trunk unchanged, length +1 mm). Born facelift 2026 split (length and height changed, trunk unchanged). Trunk volume differs by powertrain: Formentor FWD 450 L, 4Drive 420 L, e-HYBRID 345 L; Terramar ICE/MHEV 540 L, e-HYBRID 450 L (ADAC; UK sources 400 to 490 L depending on the sliding bench). Tavascan and Born have the same trunk across all variants. ADAC's own crate measurements (e.g. Formentor VZ 320 L, Tavascan 460 L) are lower than the manufacturer VDA values and were not used. Cupra Leon, Leon Sportstourer, Ateca and Raval are in the same brand range but were not researched because of the budget; see notFound."
+ },
+ "verification": null
+}

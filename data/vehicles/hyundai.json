@@ -1,0 +1,1005 @@
+{
+ "id": "hyundai",
+ "name": "Hyundai",
+ "models": [
+  {
+   "id": "i10",
+   "name": "i10",
+   "generations": [
+    {
+     "id": "2020-ac3-3-generation-inkl-facelift-2023",
+     "name": "AC3 (3. Generation, inkl. Facelift 2023)",
+     "yearFrom": 2020,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 3670,
+     "widthMm": 1680,
+     "heightMm": 1480,
+     "wheelbaseMm": 2425,
+     "trunkL": 252,
+     "trunkFoldedL": 1050,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-benziner",
+       "name": "1.0 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 252,
+       "trunkFoldedL": 1050,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": "Power not verified within search budget"
+      },
+      {
+       "id": "1-2-benziner",
+       "name": "1.2 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 252,
+       "trunkFoldedL": 1050,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": "Power not verified within search budget"
+      },
+      {
+       "id": "1-0-t-gdi-n-line-100-ps",
+       "name": "1.0 T-GDI N Line 100 PS",
+       "powertrain": "petrol",
+       "powerPs": 100,
+       "awd": false,
+       "trunkL": 252,
+       "trunkFoldedL": 1050,
+       "lengthMm": 3675,
+       "widthMm": null,
+       "heightMm": 1483,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": "N Line bumpers make it 5 mm longer (ADAC)"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i10/3generation-facelift/335463/",
+       "what": "1.0 Trend facelift: length 3670, height 1480"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i10/3generation-facelift/328187/",
+       "what": "1.0 T-GDI N Line: 3675 x 1680 x 1483 mm, wheelbase 2425, 100 PS"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/hyundai-i10/",
+       "what": "Manufacturer trunk 252/1050 l; ADAC measured 185/905 l"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Manufacturer trunk value 252 l / 1050 l (folded, roof-high). ADAC measured 185 l / 905 l with its own method. The 2023 facelift (04/23) did not change trunk volume. Standard trims are 3670 x 1480 mm (ADAC, 1.0 Trend 05/24-12/25). Width without mirrors is 1680 mm (1961 mm with mirrors)."
+    }
+   ]
+  },
+  {
+   "id": "i20",
+   "name": "i20",
+   "generations": [
+    {
+     "id": "2023-bc3-facelift",
+     "name": "BC3 Facelift",
+     "yearFrom": 2023,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 4065,
+     "widthMm": 1775,
+     "heightMm": null,
+     "wheelbaseMm": 2580,
+     "trunkL": 352,
+     "trunkFoldedL": 1165,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-t-gdi-benziner",
+       "name": "1.0 T-GDI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 352,
+       "trunkFoldedL": 1165,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2023,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-2-benziner",
+       "name": "1.2 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 352,
+       "trunkFoldedL": 1165,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2023,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i20/3generation-facelift/329790/",
+       "what": "1.2 Select: length 4065, trunk 352/1165 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i20/3generation-facelift/329792/",
+       "what": "1.0 T-GDI Trend: length 4065, trunk 352 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/hyundai-i20/",
+       "what": "ADAC facelift test, measured volumes"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Facelift 10/2023, 25 mm longer. ADAC measured 255 / 645 / 1055 l (normal / folded to window line / roof-high) against the manufacturer's 352/1165 l. Height left null because sources conflict (1440-1450 mm)."
+    },
+    {
+     "id": "2020-bc3-2020-2023",
+     "name": "BC3 (2020-2023)",
+     "yearFrom": 2020,
+     "yearTo": 2023,
+     "bodyType": "hatchback",
+     "lengthMm": 4040,
+     "widthMm": 1775,
+     "heightMm": null,
+     "wheelbaseMm": 2580,
+     "trunkL": 352,
+     "trunkFoldedL": 1165,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-t-gdi-benziner",
+       "name": "1.0 T-GDI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 352,
+       "trunkFoldedL": 1165,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2023,
+       "notes": ""
+      },
+      {
+       "id": "1-2-benziner",
+       "name": "1.2 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 352,
+       "trunkFoldedL": 1165,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2023,
+       "notes": ""
+      },
+      {
+       "id": "n-1-6-t-gdi",
+       "name": "N 1.6 T-GDI",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": 2024,
+       "notes": "Sporty N model. No dimensions or trunk volume found within the search budget"
+      },
+      {
+       "id": "1-0-t-gdi-48v-mild-hybrid",
+       "name": "1.0 T-GDI 48V (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2023,
+       "notes": "Trunk may be reduced (carwow minimum 262 l), but this was not confirmed for this variant"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.carwow.de/hyundai/i20/technische-daten",
+       "what": "Trunk range 262-352 / 1042-1165 l, wheelbase 2580"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/hyundai/i20/",
+       "what": "Width 1775, height ~1445, trunk 262-1165 l"
+      },
+      {
+       "url": "https://www.allesauto.at/vorstellung-facelift-hyundai-i20/",
+       "what": "Facelift is 25 mm longer than the 2021 model"
+      },
+      {
+       "url": "https://www.automobiledimension.com/model/hyundai/i20",
+       "what": "Facelift length change"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Length 4040 mm comes from the facelift's 4065 mm and the reported '+25 mm vs. 2021 model'. Sources give the height as 1440-1450 mm (AutoScout24 1445), so it is left null. Carwow gives a trunk range of 262-352 l / 1042-1165 l, so one variant has 262 l. That is probably the 48V mild hybrid or the i20 N, but no source confirms which, so it is not assigned. 352/1165 l is the standard value."
+    }
+   ]
+  },
+  {
+   "id": "i30-kombi",
+   "name": "i30 Kombi",
+   "generations": [
+    {
+     "id": "2017-pd-inkl-facelift-2020-und-modellpflege-2024",
+     "name": "PD (inkl. Facelift 2020 und Modellpflege 2024)",
+     "yearFrom": 2017,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": 4585,
+     "widthMm": 1795,
+     "heightMm": 1465,
+     "wheelbaseMm": 2650,
+     "trunkL": 602,
+     "trunkFoldedL": 1650,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-dpi-benziner",
+       "name": "1.5 DPI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 602,
+       "trunkFoldedL": 1650,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-0-t-gdi-48v-mild-hybrid",
+       "name": "1.0 T-GDI 48V (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 602,
+       "trunkFoldedL": 1650,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-5-t-gdi-48v-mild-hybrid",
+       "name": "1.5 T-GDI 48V (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 602,
+       "trunkFoldedL": 1650,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-6-crdi-48v-diesel-mild-hybrid",
+       "name": "1.6 CRDi 48V (Diesel-Mild-Hybrid)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 602,
+       "trunkFoldedL": 1650,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": "48V diesel mild hybrid. End year in Germany not verified"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.hyundai.news/newsroom/dam/de/Pressemappen/i30_Kombi/i30_Kombi_Facelift_2020/Hyundai_i30_Kombi_Facelift__3_Technische_Daten.pdf",
+       "what": "Official data: 4585/1795/1465 (1475 with roof rails), wheelbase 2650, trunk 602-1650 l VDA"
+      },
+      {
+       "url": "https://www.autozeitung.de/hyundai-i30-kombi-facelift-2020-preis-motor-197962.html",
+       "what": "Dimensions unchanged with facelift"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/hyundai-i30-kombi/",
+       "what": "2024 model update, manufacturer 602 l, ADAC measured 405/1325 l"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "The Hyundai press kit (Facelift 2020) gives 602-1650 l VDA for the whole engine range, 48V versions included. Dimensions did not change with the 2020 facelift. Height is 1465 mm without roof rails and 1475 mm with them. The ADAC (2024 model update) measured about 405 l / 1325 l. Engine power was not verified within the search budget."
+    }
+   ]
+  },
+  {
+   "id": "inster",
+   "name": "Inster",
+   "generations": [
+    {
+     "id": "2025-ax1",
+     "name": "AX1",
+     "yearFrom": 2025,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 3825,
+     "widthMm": 1610,
+     "heightMm": 1575,
+     "wheelbaseMm": 2580,
+     "trunkL": 280,
+     "trunkFoldedL": 1059,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "cross-49-kwh",
+       "name": "Cross 49 kWh",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 280,
+       "trunkFoldedL": 1059,
+       "lengthMm": 3845,
+       "widthMm": null,
+       "heightMm": 1610,
+       "yearFrom": 2025,
+       "yearTo": null,
+       "notes": "No Cross-specific trunk figure was published. Same body, so the general Inster values are used"
+      },
+      {
+       "id": "elektro-42-kwh",
+       "name": "Elektro 42 kWh",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 280,
+       "trunkFoldedL": 1059,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2025,
+       "yearTo": null,
+       "notes": "Up to 351 l with the rear seats slid forward"
+      },
+      {
+       "id": "elektro-49-kwh",
+       "name": "Elektro 49 kWh",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 280,
+       "trunkFoldedL": 1059,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2025,
+       "yearTo": null,
+       "notes": "Up to 351 l with the rear seats slid forward"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.carwow.de/hyundai/inster/technische-daten",
+       "what": "Cross: 3845 x 1610 x 1610, wheelbase 2580; trunk data"
+      },
+      {
+       "url": "https://www.mobile.de/auto/hyundai/2025/inster/modell/daten-fakten/",
+       "what": "Inster (AX1) since 2025, 3845 length, 2580 wheelbase"
+      },
+      {
+       "url": "https://www.meinauto.de/hyundai/neuwagen/inster/angebote/inster/technische-daten",
+       "what": "Standard dimensions 3825 x 1610 x 1575; trunk 280 l VDA (up to 351 l), 1059 l folded"
+      },
+      {
+       "url": "https://kofferraum-check.de/eautos/kofferraum-test-hyundai-inster/",
+       "what": "Trunk check"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "The rear seats slide, so trunk volume varies: 280 l VDA in the standard seat position, up to 351 l with the seats moved forward. Some sources give 238 l as the minimum. Folded: 1059 l. The Inster Cross is 3845 mm long and 1610 mm high. No Cross-specific trunk value was published, so the general Inster values are used."
+    }
+   ]
+  },
+  {
+   "id": "ioniq-5",
+   "name": "Ioniq 5",
+   "generations": [
+    {
+     "id": "2024-ne-facelift",
+     "name": "NE Facelift",
+     "yearFrom": 2024,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4655,
+     "widthMm": 1890,
+     "heightMm": 1605,
+     "wheelbaseMm": 3000,
+     "trunkL": 520,
+     "trunkFoldedL": 1580,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "elektro-63-kwh-heckantrieb",
+       "name": "Elektro 63 kWh (Heckantrieb)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 520,
+       "trunkFoldedL": 1580,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "Plus 57 l frunk"
+      },
+      {
+       "id": "elektro-84-kwh-heckantrieb",
+       "name": "Elektro 84 kWh (Heckantrieb)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 520,
+       "trunkFoldedL": 1580,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "Plus 57 l frunk"
+      },
+      {
+       "id": "elektro-84-kwh-allrad",
+       "name": "Elektro 84 kWh Allrad",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 520,
+       "trunkFoldedL": 1580,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "Frunk only 24 l"
+      },
+      {
+       "id": "n-84-kwh",
+       "name": "N 84 kWh",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 480,
+       "trunkFoldedL": 1540,
+       "lengthMm": 4715,
+       "widthMm": 1940,
+       "heightMm": 1585,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "ADAC; 24 l frunk; kofferraum-check gives 1514 l folded"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://cdn.motor1.com/pdf-files/technische-daten-ioniq-5-fl.pdf",
+       "what": "Hyundai data sheet (11/2024): length 4655, trunk 520-1580 l"
+      },
+      {
+       "url": "https://www.gute-fahrt.de/marken/hyundai/ioniq-5/hyundai-ioniq-5-waechst-in-allen-dimensionen/",
+       "what": "4655 x 1890 x 1605, wheelbase 3000, frunk 57/24 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/ioniq-5/1generation-facelift/331077/",
+       "what": "Ioniq 5 N: 4715 x 1940 (without mirrors) x 1585, trunk 480/1540 l, frunk 24 l"
+      },
+      {
+       "url": "https://kofferraum-check.de/eautos/kofferraum-test-hyundai-ioniq-5n/",
+       "what": "Ioniq 5 N 480 l / 1514 l"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "The facelift is 20 mm longer. The manufacturer now gives 520/1580 l VDA. Frunk 57 l (RWD) / 24 l (AWD). An independent measurement gave 410 l. N Line and XRT dimensions were not looked up."
+    },
+    {
+     "id": "2021-ne-2021-2024",
+     "name": "NE (2021-2024)",
+     "yearFrom": 2021,
+     "yearTo": 2024,
+     "bodyType": "suv",
+     "lengthMm": 4635,
+     "widthMm": 1890,
+     "heightMm": 1605,
+     "wheelbaseMm": 3000,
+     "trunkL": 527,
+     "trunkFoldedL": 1587,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "elektro-58-kwh-heckantrieb",
+       "name": "Elektro 58 kWh (Heckantrieb)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 527,
+       "trunkFoldedL": 1587,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": 2024,
+       "notes": "Plus 57 l frunk"
+      },
+      {
+       "id": "elektro-72-6-77-4-kwh-heckantrieb",
+       "name": "Elektro 72,6 / 77,4 kWh (Heckantrieb)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 527,
+       "trunkFoldedL": 1587,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": 2024,
+       "notes": "Plus 57 l frunk"
+      },
+      {
+       "id": "elektro-72-6-77-4-kwh-allrad",
+       "name": "Elektro 72,6 / 77,4 kWh Allrad",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 527,
+       "trunkFoldedL": 1587,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": 2024,
+       "notes": "Frunk only 24 l"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/hyundai-ioniq-5-1/technische-daten/",
+       "what": "4635 x 1890 x 1605, trunk 527-1587 l"
+      },
+      {
+       "url": "https://insideevs.de/news/489296/hyundai-ioniq-5-vorstellung-antriebe-daten/",
+       "what": "4635 mm, 531-1591 l"
+      },
+      {
+       "url": "https://www.gute-fahrt.de/marken/hyundai/ioniq-5/hyundai-ioniq-5-waechst-in-allen-dimensionen/",
+       "what": "Wheelbase 3000; frunk 57 l RWD / 24 l AWD"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Rear trunk 527/1587 l VDA (InsideEVs gives 531/1591 l). Frunk 57 l with rear-wheel drive, 24 l with all-wheel drive. The 3000 mm wheelbase is unchanged in the facelift."
+    }
+   ]
+  },
+  {
+   "id": "kona",
+   "name": "Kona",
+   "generations": [
+    {
+     "id": "2023-sx2-2-generation",
+     "name": "SX2 (2. Generation)",
+     "yearFrom": 2023,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4350,
+     "widthMm": 1825,
+     "heightMm": 1585,
+     "wheelbaseMm": 2660,
+     "trunkL": 466,
+     "trunkFoldedL": 1300,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-t-gdi-benziner",
+       "name": "1.0 T-GDI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 466,
+       "trunkFoldedL": 1300,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2023,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-6-t-gdi-benziner-2wd",
+       "name": "1.6 T-GDI (Benziner, 2WD)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 466,
+       "trunkFoldedL": 1300,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2023,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-6-t-gdi-4wd",
+       "name": "1.6 T-GDI 4WD",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2023,
+       "yearTo": null,
+       "notes": "The 4WD trunk volume (possibly smaller because of the rear axle) was not found"
+      },
+      {
+       "id": "1-6-gdi-hybrid",
+       "name": "1.6 GDI Hybrid",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 466,
+       "trunkFoldedL": 1300,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2023,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "elektro-48-4-kwh",
+       "name": "Elektro 48,4 kWh",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 466,
+       "trunkFoldedL": null,
+       "lengthMm": 4355,
+       "widthMm": null,
+       "heightMm": 1580,
+       "yearFrom": 2023,
+       "yearTo": null,
+       "notes": "Plus 27 l frunk. Some sources give 493/1327 l"
+      },
+      {
+       "id": "elektro-65-4-kwh",
+       "name": "Elektro 65,4 kWh",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 466,
+       "trunkFoldedL": null,
+       "lengthMm": 4355,
+       "widthMm": null,
+       "heightMm": 1580,
+       "yearFrom": 2023,
+       "yearTo": null,
+       "notes": "Plus 27 l frunk. Some sources give 493/1327 l"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2111-hyundai-kona-2023",
+       "what": "ICE/Hybrid: 4350 x 1825 (without mirrors) x 1585, trunk 466/1300 l"
+      },
+      {
+       "url": "https://www.autozeitung.de/hyundai-kona-elektro-2023-fahrbericht-204413.html",
+       "what": "Elektro: 4355/1825/1580, trunk at least 466 l, frunk 27 l"
+      },
+      {
+       "url": "https://www.mobile.de/auto/hyundai/kona-elektro/2023/modell/daten-fakten/",
+       "what": "Elektro: length 4355, height 1580, wheelbase 2660, trunk 493/1327 l (conflicting)"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/hyundai/kona/",
+       "what": "Hybrid 2023: 466-1300 l; predecessor values"
+      },
+      {
+       "url": "https://www.carwow.de/hyundai/kona/technische-daten",
+       "what": "Kona ICE trunk range 374-466 / 1143-1300 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Combustion and hybrid models: 466/1300 l. Kona Elektro: 466 l (Autozeitung) plus a 27 l frunk. mobile.de and carwow list 493/1327 l for the Elektro, so its folded value is left null because sources conflict. One source gives 4385 mm, probably the N Line. The hybrid is front-wheel drive only. 4WD is only available with the 1.6 T-GDI."
+    },
+    {
+     "id": "2017-os-1-generation-inkl-facelift-2021",
+     "name": "OS (1. Generation, inkl. Facelift 2021)",
+     "yearFrom": 2017,
+     "yearTo": 2023,
+     "bodyType": "suv",
+     "lengthMm": 4165,
+     "widthMm": 1800,
+     "heightMm": 1565,
+     "wheelbaseMm": null,
+     "trunkL": 374,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-t-gdi-benziner",
+       "name": "1.0 T-GDI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 374,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2017,
+       "yearTo": 2023,
+       "notes": "Folded value not verified"
+      },
+      {
+       "id": "1-6-gdi-hybrid",
+       "name": "1.6 GDI Hybrid",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 361,
+       "trunkFoldedL": 1156,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2019,
+       "yearTo": 2023,
+       "notes": ""
+      },
+      {
+       "id": "elektro-39-2-64-kwh",
+       "name": "Elektro 39,2 / 64 kWh",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 332,
+       "trunkFoldedL": 1114,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2018,
+       "yearTo": 2023,
+       "notes": "Autozeitung gives 336 l"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/hyundai/kona/",
+       "what": "Predecessor Hybrid 361-1156 l, Elektro 332-1114 l, Hybrid from 4185 x 1800 x 1565"
+      },
+      {
+       "url": "https://www.carwow.de/hyundai/kona/technische-daten",
+       "what": "Trunk range incl. 374 l (old ICE)"
+      },
+      {
+       "url": "https://www.autozeitung.de/hyundai-kona-elektro-2023-fahrbericht-204413.html",
+       "what": "Predecessor Elektro 336 l"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Predecessor, included because the generation changed in 2023. 4165 mm is the pre-facelift length. With the 2021 facelift, sources give about 4185 mm or more depending on trim (AutoScout24: Hybrid from 4185 x 1800 x 1565). The facelift is not split out because its exact dimensions were not verified. The wheelbase was not found in the searched sources. The 374 l combustion value comes from the carwow Kona range. Autozeitung gives 336 l for the Elektro. Kona N (2021-2023) was not covered."
+    }
+   ]
+  },
+  {
+   "id": "tucson",
+   "name": "Tucson",
+   "generations": [
+    {
+     "id": "2020-nx4-inkl-facelift-2024",
+     "name": "NX4 (inkl. Facelift 2024)",
+     "yearFrom": 2020,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4500,
+     "widthMm": 1865,
+     "heightMm": 1650,
+     "wheelbaseMm": 2680,
+     "trunkL": 620,
+     "trunkFoldedL": 1799,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-6-t-gdi-benziner",
+       "name": "1.6 T-GDI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 620,
+       "trunkFoldedL": 1799,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-6-t-gdi-48v-mild-hybrid",
+       "name": "1.6 T-GDI 48V (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 577,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": "577 l is from a test report (petrol MHEV); the folded value was not found; a 4WD-specific value was not found"
+      },
+      {
+       "id": "1-6-crdi-48v-diesel-mild-hybrid",
+       "name": "1.6 CRDi 48V (Diesel-Mild-Hybrid)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 546,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": "48V diesel mild hybrid, 546 l (carwow/test report); the folded value was not found; the end year in Germany was not verified"
+      },
+      {
+       "id": "1-6-t-gdi-hybrid",
+       "name": "1.6 T-GDI Hybrid",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 616,
+       "trunkFoldedL": 1795,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": "Official Hyundai data sheet. Available with 2WD or 4WD"
+      },
+      {
+       "id": "1-6-t-gdi-plug-in-hybrid",
+       "name": "1.6 T-GDI Plug-in-Hybrid",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 558,
+       "trunkFoldedL": 1721,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": null,
+       "notes": "Auto Bild and kofferraum-check give 546/1725 l"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.hyundai.news/newsroom/dam/de/Pressemappen/Tucson/2020__NX4_/Technische_Daten_Hyundai_Tucson_Hybrid.pdf",
+       "what": "Official: Hybrid trunk 616-1795 l VDA"
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/hyundai/tucson/",
+       "what": "Dimensions 4500 (N Line 4510) x 1865 x 1650, wheelbase 2680; PHEV 546-1725 l"
+      },
+      {
+       "url": "https://de.motor1.com/reviews/740728/hyundai-tucson-hybrid-2024-test/",
+       "what": "2024 Hybrid: 4510/1865/1650/2680, trunk 616-1795 l; petrol 620/1799 l; PHEV 558 l (max 1721 l)"
+      },
+      {
+       "url": "https://www.automobiledimension.com/model/hyundai/tucson",
+       "what": "PHEV 558 l, 48V 546 l"
+      },
+      {
+       "url": "https://www.carwow.de/hyundai/tucson/technische-daten",
+       "what": "1.6 CRDi 48V about 546 l; 1.6 T-GDI 1799 l max"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-hyundai-tucson/",
+       "what": "2025 Tucson manufacturer value 546/1725 l, measured 410 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "The 2024 facelift mainly renewed the interior and left the exterior almost unchanged (Auto Bild: 4500 mm, N Line 4510 mm; Motor1 lists 4510 mm for the 2024 Hybrid). Trunk volume depends on powertrain. For the PHEV, Auto Bild and kofferraum-check (2025 car) give 546/1725 l, possibly a facelift or variant difference. The successor generation (about 4.56 m, up to 695 l) is not covered here."
+    }
+   ]
+  }
+ ]
+}

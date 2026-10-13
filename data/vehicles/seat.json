@@ -1,0 +1,600 @@
+{
+ "id": "seat",
+ "name": "Seat",
+ "models": [
+  {
+   "id": "arona",
+   "name": "Arona",
+   "generations": [
+    {
+     "id": "2017-kj7-inkl-facelift-2021-und-facelift-2026",
+     "name": "KJ7 (inkl. Facelift 2021 und Facelift 2026)",
+     "yearFrom": 2017,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4153,
+     "widthMm": 1780,
+     "heightMm": 1537,
+     "wheelbaseMm": 2566,
+     "trunkL": 400,
+     "trunkFoldedL": 1280,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-tsi-95-115-ps-benziner",
+       "name": "1.0 TSI 95/115 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 400,
+       "trunkFoldedL": 1280,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-5-tsi-150-ps-fr",
+       "name": "1.5 TSI 150 PS (FR)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 400,
+       "trunkFoldedL": 1280,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-0-tgi-erdgas",
+       "name": "1.0 TGI (Erdgas)",
+       "powertrain": "cng",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 282,
+       "trunkFoldedL": 1162,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "The CNG tanks under the floor reduce the trunk to 282 / 1162 L (autonotizen 2019, matches carwow's range). One other source claims 245 L. The end of German sales was not verified."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.seat.de/content/dam/countries/de/seat-website/download/pdf/autos/modelle/preisliste/arona/cars-models-pricelist-KJ7-NA-NA-NA.pdf",
+       "what": "Official SEAT DE price list: trunk 400/1280 L"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/arona/kj-facelift/333163/",
+       "what": "ADAC Arona 1.0 TSI Style (02/24-07/25): trunk 400/1280 L, height 1537 mm"
+      },
+      {
+       "url": "https://www.autozeitung.de/neues-seat-arona-facelift-2026-fahrbericht-300067.html",
+       "what": "Arona facelift 2026 1.5 TSI: 4153/1780/1537 mm"
+      },
+      {
+       "url": "https://www.carwow.de/seat/arona/technische-daten",
+       "what": "Trunk range 282-400 / 1162-1280 L, wheelbase 2566 mm, length 4153 mm"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1738-seat-arona",
+       "what": "Length 4138 mm (pre-facelift figure)"
+      },
+      {
+       "url": "https://autonotizen.de/neuigkeiten/seat-arona-tgi-cng-erdgas-preise-daten-kofferraum-2019",
+       "what": "Arona TGI trunk 282/1162 L"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Dimensions are for the 2021 facelift; the 2026 second facelift shows the same 4153/1780/1537 mm (autozeitung). The pre-2021 car was 4138 mm long (angurten), only 15 mm shorter, with the same 400/1280 L, so it is not split out. Some sources list 1552 mm height, which is likely the pre-facelift car or with roof rails. Width with mirrors is 1942 mm. loadSpace measurements were not found."
+    }
+   ]
+  },
+  {
+   "id": "ateca",
+   "name": "Ateca",
+   "generations": [
+    {
+     "id": "2016-kh-facelift-08-2020",
+     "name": "KH (Facelift 08/2020)",
+     "yearFrom": 2016,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4381,
+     "widthMm": 1841,
+     "heightMm": 1601,
+     "wheelbaseMm": 2638,
+     "trunkL": 510,
+     "trunkFoldedL": 1604,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-tsi-benziner",
+       "name": "1.0 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 510,
+       "trunkFoldedL": 1604,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Still listed from 07/25 (ADAC 1.0 TSI Reference)."
+      },
+      {
+       "id": "1-5-tsi-act-150-ps-benziner",
+       "name": "1.5 TSI ACT 150 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 510,
+       "trunkFoldedL": 1604,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tsi-190-ps-4drive-dsg-benziner-allrad",
+       "name": "2.0 TSI 190 PS 4Drive DSG (Benziner, Allrad)",
+       "powertrain": "petrol",
+       "powerPs": 190,
+       "awd": true,
+       "trunkL": 485,
+       "trunkFoldedL": 1579,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1611,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "485 L from an overview listing. The folded value and height are assumed equal to the 2.0 TDI 4Drive (same AWD rear axle) and should be treated as medium confidence. End of German sales not verified."
+      },
+      {
+       "id": "2-0-tdi-diesel-frontantrieb",
+       "name": "2.0 TDI (Diesel, Frontantrieb)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 510,
+       "trunkFoldedL": 1604,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-4drive-dsg-diesel-allrad",
+       "name": "2.0 TDI 4Drive DSG (Diesel, Allrad)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 485,
+       "trunkFoldedL": 1579,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1611,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC entries 08/20-06/23. No 4Drive entry was found for 2024 and later, so it may have left the German line-up (unverified)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/ateca/5fp-facelift/331989/",
+       "what": "ADAC Ateca 1.5 TSI ACT Style Edition (01/24-04/24): 4381/1841/1601 mm, 510/1604 L"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/ateca/5fp-facelift/334121/",
+       "what": "ADAC Ateca 2.0 TDI FR DSG (04/24-07/25): 510/1604 L, same dims"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/ateca/5fp-facelift/318175/",
+       "what": "ADAC Ateca 2.0 TDI FR 4Drive DSG (11/20-06/23): height 1611 mm, trunk 485/1579 L"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/ateca/5fp-facelift/314313/",
+       "what": "ADAC Ateca 2.0 TDI Style 4Drive DSG (08/20-10/20): 485/1579 L"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/ateca/5fp-facelift/348601/",
+       "what": "ADAC Ateca 1.0 TSI Reference (from 07/25): current line-up"
+      },
+      {
+       "url": "https://mundoseat.seat.com/mediacenter_netstor/seat-media-center/global_site/documents/Ateca/de/Technical_Specifications_SEAT_ATECA_DE.pdf",
+       "what": "Official SEAT spec sheet (pre-facelift): 4363/1841/1601 mm, wheelbase 2638 mm"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1644-seat-ateca",
+       "what": "Length 4381 mm, wheelbase 2638 mm"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Dimensions are for the facelift (from 08/2020). The pre-facelift car (2016-mid 2020) was 4363 mm long per the SEAT spec sheet, with the same width, height, wheelbase and trunk, so it is not split out. Width with mirrors is 2078 mm. 4Drive versions are 1611 mm tall and have a smaller trunk (485/1579 L). One ADAC 4Drive record lists a 2630 mm wheelbase. loadSpace measurements were not found."
+    }
+   ]
+  },
+  {
+   "id": "ibiza",
+   "name": "Ibiza",
+   "generations": [
+    {
+     "id": "2017-kj-ibiza-v-inkl-facelift-2021-und-facelift-2026",
+     "name": "KJ (Ibiza V, inkl. Facelift 2021 und Facelift 2026)",
+     "yearFrom": 2017,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 4059,
+     "widthMm": 1780,
+     "heightMm": 1447,
+     "wheelbaseMm": 2564,
+     "trunkL": 355,
+     "trunkFoldedL": 1165,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-tsi-95-115-ps-benziner",
+       "name": "1.0 TSI 95/115 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 355,
+       "trunkFoldedL": 1165,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Same trunk as all petrol versions."
+      },
+      {
+       "id": "1-5-tsi-150-ps-fr",
+       "name": "1.5 TSI 150 PS (FR)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 355,
+       "trunkFoldedL": 1165,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "2026 facelift FR test car: autonotizen gives 4070/1780/1447 mm, which conflicts with 4059 mm elsewhere."
+      },
+      {
+       "id": "1-0-tgi-erdgas",
+       "name": "1.0 TGI (Erdgas)",
+       "powertrain": "cng",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 262,
+       "trunkFoldedL": 1072,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "The CNG tanks under the load floor reduce the trunk to 262 / 1072 L (from 2019-era sources). It was dropped from the German line-up during the KJ facelift period; the exact year was not verified."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.seat.de/content/dam/countries/de/seat-website/download/pdf/autos/modelle/preisliste/ibiza/cars-models-pricelist-KJ1-NA-NA-NA.pdf",
+       "what": "Official SEAT DE price list / technical data: 4059/1780/1447 mm, trunk 355/1165 L"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/ibiza/kj-facelift/333171/",
+       "what": "ADAC Autokatalog Ibiza 1.0 TSI Style (02/24-07/25): 4059/1780/1447 mm, wheelbase 2564 mm, width with mirrors 1942 mm"
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/seat/ibiza/",
+       "what": "AUTO BILD Ibiza 2026 facelift: 4059 x 1780 x 1447 mm"
+      },
+      {
+       "url": "https://autonotizen.de/fahrberichte/seat-ibiza-fr-alltag-test-video-2026",
+       "what": "Ibiza 1.5 TSI FR 2026: 4070/1780/1447 mm (conflicting length)"
+      },
+      {
+       "url": "https://de.motor1.com/news/776637/seat-ibiza-2026-facelift-infos/",
+       "what": "Ibiza 2026 facelift info, trunk 355 L"
+      },
+      {
+       "url": "https://de.motor1.com/news/347235/seat-erdgasmodelle-rabatt-verbessert/",
+       "what": "Ibiza TGI trunk 262 L vs 355 L"
+      },
+      {
+       "url": "https://www.mobile.de/magazin/artikel/der-seat-ibiza-mit-erdgas-im-alltagstest--15324",
+       "what": "Ibiza TGI trunk 262-1072 L"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "One entry for the whole KJ generation: the 2021 facelift and the second facelift (market launch Jan 2026) did not change trunk volume, and SEAT announced no changes to the body or wheelbase. Pre-2021 height was a few mm lower (about 1444 mm, unverified). For the 2026 facelift, AUTO BILD and motor1 give 4059 x 1780 x 1447 mm, while autonotizen and auto-data.net give 4070 mm (the new bumper may add length). The 4059 mm in the official price list is used here. Width with mirrors is 1942 mm (ADAC). loadSpace measurements were not found."
+    }
+   ]
+  },
+  {
+   "id": "leon",
+   "name": "Leon",
+   "generations": [
+    {
+     "id": "2020-kl-leon-iv-inkl-update-2024",
+     "name": "KL (Leon IV, inkl. Update 2024)",
+     "yearFrom": 2020,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 4368,
+     "widthMm": 1799,
+     "heightMm": 1456,
+     "wheelbaseMm": 2686,
+     "trunkL": 380,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-1-5-tsi-benziner",
+       "name": "1.0 / 1.5 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-0-1-5-etsi-dsg-mild-hybrid",
+       "name": "1.0 / 1.5 eTSI DSG (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "85 kW (116 PS) or 110 kW (150 PS). Trunk is the same as the TSI."
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "autoscout24 lists height 1449 mm."
+      },
+      {
+       "id": "1-4-e-hybrid-204-ps-plug-in-hybrid",
+       "name": "1.4 e-HYBRID 204 PS (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 270,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": "The battery under the floor reduces the trunk to 270 L. The folded volume for the 1.4 was not found."
+      },
+      {
+       "id": "1-5-e-hybrid-204-ps-plug-in-hybrid",
+       "name": "1.5 e-HYBRID 204 PS (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 270,
+       "trunkFoldedL": 1187,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "19.7 kWh battery, about 130 km electric range. ADAC 2025 entry gives 270/1187 L. autoscout24 lists 4368x1799x1451 mm for the PHEV."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/seat/leon/",
+       "what": "Leon IV dims 4368x1799x1449-1451 mm, e-Hybrid trunk 270 L"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Seat_Leon_IV",
+       "what": "Trunk 380 L, wheelbase about 2686 mm, 2024 update only technical changes"
+      },
+      {
+       "url": "https://de.motor1.com/news/395621/seat-leon-alt-neu-vergleich/",
+       "what": "Leon IV vs III comparison: height 1456 mm, wheelbase 2686 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/kl/338242/",
+       "what": "ADAC Leon 1.5 e-HYBRID FR Black Edition (01/25-10/25): trunk 270/1187 L"
+      },
+      {
+       "url": "https://autonotizen.de/fahrberichte/seat-leon-sportstourer-e-hybrid-alltag-test-video-facelift-2025",
+       "what": "Hatchback 380 L vs 270 L for e-Hybrid"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "The 2024 update (MY2025) brought the 1.5 e-HYBRID with a 19.7 kWh battery and tech changes; the SEAT-badged Leon got no visual facelift and dimensions stayed the same, so it is one entry. Height varies by source: 1449-1451 mm (autoscout24, Diesel/PHEV) and 1456 mm (motor1). Width is 1799 mm (about 1800). The folded volume for petrol/diesel cars was not confirmed in the sources found; 1301 L is often cited but is unverified and left null. The predecessor Leon III (5F) is not covered because the generation changed in early 2020."
+    }
+   ]
+  },
+  {
+   "id": "leon-sportstourer",
+   "name": "Leon Sportstourer",
+   "generations": [
+    {
+     "id": "2020-kl-leon-iv-inkl-update-2024",
+     "name": "KL (Leon IV, inkl. Update 2024)",
+     "yearFrom": 2020,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": 4642,
+     "widthMm": 1799,
+     "heightMm": 1456,
+     "wheelbaseMm": 2682,
+     "trunkL": 620,
+     "trunkFoldedL": 1600,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-1-5-tsi-benziner",
+       "name": "1.0 / 1.5 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 620,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-0-1-5-etsi-dsg-mild-hybrid",
+       "name": "1.0 / 1.5 eTSI DSG (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 620,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 620,
+       "trunkFoldedL": 1600,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-4-e-hybrid-204-ps-plug-in-hybrid",
+       "name": "1.4 e-HYBRID 204 PS (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 470,
+       "trunkFoldedL": 1450,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": "The battery under the floor takes about 150 L."
+      },
+      {
+       "id": "1-5-e-hybrid-204-ps-plug-in-hybrid",
+       "name": "1.5 e-HYBRID 204 PS (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 470,
+       "trunkFoldedL": 1450,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "19.7 kWh battery. ADAC: 4642/1799/1456 mm, wheelbase 2682 mm."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/kl/338249/",
+       "what": "ADAC Leon ST 1.5 e-HYBRID FR Black Edition (01/25-10/25): 4642/1799/1456 mm, wheelbase 2682 mm, trunk 470/1450 L"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/kl/316408/",
+       "what": "ADAC Leon ST 1.4 e-HYBRID FR (10/20-07/24): pre-update PHEV entry"
+      },
+      {
+       "url": "https://automobilsalon-bellemann.de/news/seat-leon-sportstourer-2026-masse-kofferraum-motoren/",
+       "what": "Leon ST combustion/mild-hybrid 620/1600 L, e-Hybrid 470/1450 L, length 4642 mm"
+      },
+      {
+       "url": "https://autonotizen.de/fahrberichte/seat-leon-sportstourer-e-hybrid-alltag-test-video-facelift-2025",
+       "what": "ST 620 L vs 470 L for e-Hybrid"
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/seat/leon/",
+       "what": "AUTO BILD height 1448 mm (conflicting)"
+      },
+      {
+       "url": "https://www.carwow.de/seat/leon-st/technische-daten",
+       "what": "carwow height 1475 mm (conflicting)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Dimensions are from the ADAC 2025 e-Hybrid entry. Height conflicts between sources: 1448 mm (AUTO BILD), 1456 mm (ADAC) and 1475 mm (carwow, probably with roof rails). ADAC gives a 2682 mm wheelbase, while the hatchback is quoted at 2686 mm. The 2024 update did not change dimensions or trunk volume. loadSpace measurements were not found."
+    }
+   ]
+  }
+ ]
+}

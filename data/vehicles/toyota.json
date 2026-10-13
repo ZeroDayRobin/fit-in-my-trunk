@@ -1,0 +1,764 @@
+{
+ "id": "toyota",
+ "name": "Toyota",
+ "models": [
+  {
+   "id": "c-hr",
+   "name": "C-HR",
+   "generations": [
+    {
+     "id": "2024-x20-2-generation",
+     "name": "X20 (2. Generation)",
+     "yearFrom": 2024,
+     "yearTo": null,
+     "bodyType": "suv-coupe",
+     "lengthMm": 4362,
+     "widthMm": 1832,
+     "heightMm": 1564,
+     "wheelbaseMm": 2640,
+     "trunkL": 430,
+     "trunkFoldedL": 1140,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-hybrid-awd-i-gr-sport",
+       "name": "2.0 Hybrid AWD-i (GR SPORT)",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 424,
+       "trunkFoldedL": 1134,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-8-hybrid-140-ps-hybrid",
+       "name": "1.8 Hybrid 140 PS (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": 447,
+       "trunkFoldedL": 1155,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "ADAC entry only found for 01/24-01/25."
+      },
+      {
+       "id": "2-0-hybrid-197-ps-hybrid-frontantrieb",
+       "name": "2.0 Hybrid 197 PS (Hybrid, Frontantrieb)",
+       "powertrain": "hev",
+       "powerPs": 197,
+       "awd": false,
+       "trunkL": 430,
+       "trunkFoldedL": 1140,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Same values in ADAC for 01/24-01/25, 01/25-01/26 and from 01/26."
+      },
+      {
+       "id": "2-0-plug-in-hybrid-223-ps",
+       "name": "2.0 Plug-in Hybrid 223 PS",
+       "powertrain": "phev",
+       "powerPs": 223,
+       "awd": false,
+       "trunkL": 350,
+       "trunkFoldedL": 1076,
+       "lengthMm": 4362,
+       "widthMm": 1832,
+       "heightMm": 1564,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC own measurement much lower: 235 / 665 / 1100 l (+25 l under floor). Motor1 quotes 310 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/c-hr/2generation/329871/",
+       "what": "1.8 Hybrid: 447 / 1155 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/c-hr/2generation/329872/",
+       "what": "2.0 Hybrid: 430 / 1140 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/c-hr/x20/348308/",
+       "what": "2.0 Hybrid GR SPORT AWD-i: 424 / 1134 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/c-hr/2generation/330972/",
+       "what": "PHEV: 350 / 1076 l, dimensions 4362 x 1832 x 1564 mm, wheelbase 2640 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/toyota-c-hr/",
+       "what": "ADAC test, measured PHEV trunk 235/665/1100 l"
+      },
+      {
+       "url": "https://www.motor1.com/news/694621/toyota-chr-2023-dimensions-boot/",
+       "what": "Alternative trunk figures 388/364/362/310 l"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Dimensions from ADAC (PHEV 2.0 Lounge); other sources 4360 x 1830 x 1570 mm. Trunk values are manufacturer data as listed in ADAC catalogue (to roof with seats folded). Motor1 quotes much lower figures (388 / 364 / 362 / 310 l), probably a different measurement basis."
+    },
+    {
+     "id": "2020-x10-facelift-1-generation",
+     "name": "X10 Facelift (1. Generation)",
+     "yearFrom": 2020,
+     "yearTo": 2023,
+     "bodyType": "suv-coupe",
+     "lengthMm": null,
+     "widthMm": null,
+     "heightMm": null,
+     "wheelbaseMm": null,
+     "trunkL": 377,
+     "trunkFoldedL": 1160,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-8-hybrid-122-ps-hybrid",
+       "name": "1.8 Hybrid 122 PS (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 122,
+       "awd": false,
+       "trunkL": 377,
+       "trunkFoldedL": 1160,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "1160 l is the upper end of AutoScout24's range for the generation; assigned to the 1.8 Hybrid."
+      },
+      {
+       "id": "2-0-hybrid-184-ps-hybrid",
+       "name": "2.0 Hybrid 184 PS (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 184,
+       "awd": false,
+       "trunkL": 358,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Motor1 states 354 l for the 2.0 HSD; folded value not found."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.carwow.de/toyota/c-hr",
+       "what": "Predecessor trunk: 377 l (1.8 Hybrid), 358 l (2.0 Hybrid)"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/toyota/c-hr/",
+       "what": "Generation 2016-2023 trunk 377-1160 l"
+      },
+      {
+       "url": "https://www.motor1.com/news/694621/toyota-chr-2023-dimensions-boot/",
+       "what": "Predecessor 2.0 HSD 354 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/c-hr/x10-facelift/309736/",
+       "what": "ADAC catalogue entry C-HR 2.0 Hybrid (12/19-12/23) (not read in detail)"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Exterior dimensions of the facelifted first-generation C-HR were not found within the search budget (ADAC page 2.0 Hybrid Team Deutschland 12/19-12/23 exists). Trunk values from AUTO BILD/carwow and AutoScout24, low confidence."
+    }
+   ]
+  },
+  {
+   "id": "corolla-cross",
+   "name": "Corolla Cross",
+   "generations": [
+    {
+     "id": "2022-xg1-1-generation-inkl-facelift-10-2025",
+     "name": "XG1 (1. Generation, inkl. Facelift 10/2025)",
+     "yearFrom": 2022,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4460,
+     "widthMm": 1825,
+     "heightMm": 1620,
+     "wheelbaseMm": 2640,
+     "trunkL": 414,
+     "trunkFoldedL": 1333,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-hybrid-frontantrieb-facelift",
+       "name": "2.0 Hybrid Frontantrieb (Facelift)",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 425,
+       "trunkFoldedL": 1337,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2025,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-8-hybrid-140-ps-hybrid",
+       "name": "1.8 Hybrid 140 PS (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": 425,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2023,
+       "yearTo": null,
+       "notes": "ADAC: 425 l for 1.8 Hybrid Lounge; ADAC lists 473 l for 1.8 Hybrid Comfort (kofferraum-check measured 473 / 1337 l). Folded value for 1.8 not confirmed."
+      },
+      {
+       "id": "2-0-hybrid-180-ps-awd-i-facelift-inkl-gr-sport",
+       "name": "2.0 Hybrid 180 PS AWD-i (Facelift, inkl. GR SPORT)",
+       "powertrain": "hev",
+       "powerPs": 180,
+       "awd": true,
+       "trunkL": 390,
+       "trunkFoldedL": 1299,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2025,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-hybrid-197-ps-hybrid-frontantrieb",
+       "name": "2.0 Hybrid 197 PS (Hybrid, Frontantrieb)",
+       "powertrain": "hev",
+       "powerPs": 197,
+       "awd": false,
+       "trunkL": 414,
+       "trunkFoldedL": 1333,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2022,
+       "yearTo": 2025,
+       "notes": ""
+      },
+      {
+       "id": "2-0-hybrid-197-ps-awd-i",
+       "name": "2.0 Hybrid 197 PS AWD-i",
+       "powertrain": "hev",
+       "powerPs": 197,
+       "awd": true,
+       "trunkL": 380,
+       "trunkFoldedL": 1295,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2022,
+       "yearTo": 2025,
+       "notes": "Values from AutoWiki (low confidence); ADAC AWD-i page may list 414/1333 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/corolla-cross/xg1tj/335160/",
+       "what": "AWD-i: 4460 x 1825 x 1620 mm, wheelbase 2640 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/corolla-cross/xg1tj/326169/",
+       "what": "2.0 Hybrid Team Deutschland (10/22-04/24): 414 / 1333 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/corolla-cross/xg1tj/327368/",
+       "what": "1.8 Hybrid Lounge: 425 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/toyota-corolla-cross/",
+       "what": "Facelift: 2.0 FWD 425/1337 l, AWD-i 390/1299 l, 1.8 Comfort 473 l"
+      },
+      {
+       "url": "https://www.auto-wiki.org/toyota/corolla-cross/xg1tj/corolla-cross-2-0-hybrid-team-deutschland-awd-i-145-kw-8570/",
+       "what": "AWD-i: 380 / 1295 l"
+      },
+      {
+       "url": "https://www.autozeitung.de/toyota-corolla-cross-test-203073.html",
+       "what": "Test: 425 / 1337 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Dimensions from ADAC (AWD-i Team Deutschland); facelift dimensions not verified. Trunk figures differ considerably between sources/model years (carwow range 380-475 / 1295-1404 l)."
+    }
+   ]
+  },
+  {
+   "id": "corolla-touring-sports",
+   "name": "Corolla Touring Sports",
+   "generations": [
+    {
+     "id": "2023-e21-facelift",
+     "name": "E21 Facelift",
+     "yearFrom": 2023,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": 4650,
+     "widthMm": 1790,
+     "heightMm": 1435,
+     "wheelbaseMm": 2700,
+     "trunkL": 596,
+     "trunkFoldedL": 1606,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-8-hybrid-140-ps-hybrid",
+       "name": "1.8 Hybrid 140 PS (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 140,
+       "awd": false,
+       "trunkL": 596,
+       "trunkFoldedL": 1606,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC measurement: 480 / 815 / 1305 l."
+      },
+      {
+       "id": "2-0-hybrid-196-ps-hybrid-inkl-gr-sport",
+       "name": "2.0 Hybrid 196 PS (Hybrid, inkl. GR SPORT)",
+       "powertrain": "hev",
+       "powerPs": 196,
+       "awd": false,
+       "trunkL": 596,
+       "trunkFoldedL": 1606,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/toyota-corolla/",
+       "what": "1.8 Hybrid (02/23-01/25): 596 / 1606 l, 4650 x 1790 x 1435 mm; ADAC measurement 480/815/1305 l"
+      },
+      {
+       "url": "https://ausfahrt.tv/2023-toyota-corolla-touring-2-0-hybrid-sports-gr-sport-e210-facelift/",
+       "what": "2.0 Hybrid GR Sport facelift: 596 / 1606 l"
+      },
+      {
+       "url": "https://www.carwow.de/toyota/corolla-touring-sports/technische-daten",
+       "what": "Wheelbase 2700 mm, length 4650 mm"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Split from pre-facelift because the 2.0 Hybrid trunk changed from 581 to 596 l."
+    },
+    {
+     "id": "2019-e21-vor-facelift",
+     "name": "E21 (vor Facelift)",
+     "yearFrom": 2019,
+     "yearTo": 2022,
+     "bodyType": "wagon",
+     "lengthMm": 4653,
+     "widthMm": 1790,
+     "heightMm": 1435,
+     "wheelbaseMm": 2700,
+     "trunkL": 581,
+     "trunkFoldedL": 1606,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-8-hybrid-122-ps-hybrid",
+       "name": "1.8 Hybrid 122 PS (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 122,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Pre-facelift 1.8 Hybrid trunk volume not found within search budget."
+      },
+      {
+       "id": "2-0-hybrid-180-ps-hybrid",
+       "name": "2.0 Hybrid 180 PS (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 180,
+       "awd": false,
+       "trunkL": 581,
+       "trunkFoldedL": 1606,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/corolla/e21/297552/",
+       "what": "2.0 Hybrid: 581 / 1606 l; 4653 x 1790 x 1435 mm, wheelbase 2700 mm"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/toyota-corolla-touring-sports-2-0-hybrid-lounge/technische-daten/",
+       "what": "Technical data 2.0 Hybrid (cross-check)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Dimensions/trunk from ADAC entry 2.0 Hybrid Lounge (04/19-10/19). Carwow quotes height 1460 mm (possibly with roof rails/TREK, unverified)."
+    }
+   ]
+  },
+  {
+   "id": "rav4",
+   "name": "RAV4",
+   "generations": [
+    {
+     "id": "2026-6-generation",
+     "name": "6. Generation",
+     "yearFrom": 2026,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4600,
+     "widthMm": 1855,
+     "heightMm": 1680,
+     "wheelbaseMm": 2690,
+     "trunkL": 514,
+     "trunkFoldedL": 1706,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "hybrid-2wd-awd-i",
+       "name": "Hybrid (2WD / AWD-i)",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 514,
+       "trunkFoldedL": 1706,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "plug-in-hybrid-awd-i",
+       "name": "Plug-in Hybrid AWD-i",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 446,
+       "trunkFoldedL": 1619,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "firmenauto quotes 446-1561 l. Motor1 PHEV test car: 4646 x 1880 x 1660 mm (likely GR SPORT body, unverified, not applied)."
+      },
+      {
+       "id": "plug-in-hybrid-awd-i-gr-sport-308-ps",
+       "name": "Plug-in Hybrid AWD-i GR SPORT 308 PS",
+       "powertrain": "phev",
+       "powerPs": 308,
+       "awd": true,
+       "trunkL": 446,
+       "trunkFoldedL": 1619,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Trunk assumed equal to PHEV per ADAC PHEV figure; specific GR SPORT dimensions not verified (Motor1 lists 4646 x 1880 x 1660 mm for a PHEV)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/toyota-rav4-fahrbericht/",
+       "what": "Hybrid 514 / 1706 l, PHEV 446 / 1619 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2257-RAV4+VI+(2026)",
+       "what": "4600 x 1855 x 1680 mm, wheelbase 2690 mm"
+      },
+      {
+       "url": "https://de.motor1.com/reviews/791211/toyota-rav4-phev-2026-test/",
+       "what": "PHEV test: 4646 x 1880 x 1660 mm"
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/toyota/rav4/",
+       "what": "GR SPORT PHEV 308 PS"
+      },
+      {
+       "url": "https://www.firmenauto.de/fahrzeuge/pkw/toyota-rav4-2026-hybrid-plug-in-suv-test-verbrauch-preis-technik/",
+       "what": "PHEV trunk 446-1561 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Dimensions from angurten.de (width without mirrors); trunk from ADAC (manufacturer data). AUTO BILD quotes 414-1706 l."
+    },
+    {
+     "id": "2019-xa50-5-generation",
+     "name": "XA50 (5. Generation)",
+     "yearFrom": 2019,
+     "yearTo": 2025,
+     "bodyType": "suv",
+     "lengthMm": 4600,
+     "widthMm": 1855,
+     "heightMm": 1685,
+     "wheelbaseMm": 2690,
+     "trunkL": 580,
+     "trunkFoldedL": 1690,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-5-hybrid-2wd-awd-i",
+       "name": "2.5 Hybrid (2WD / AWD-i)",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 580,
+       "trunkFoldedL": 1690,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Covers 218 PS 2WD and 222 PS AWD-i; Motor1: 580 l for full hybrids."
+      },
+      {
+       "id": "2-5-plug-in-hybrid-awd-i-306-ps",
+       "name": "2.5 Plug-in Hybrid AWD-i 306 PS",
+       "powertrain": "phev",
+       "powerPs": 306,
+       "awd": true,
+       "trunkL": 520,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Folded volume for PHEV not found."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/toyota-rav4-hybrid/technische-daten/",
+       "what": "Dimensions 4600 x 1855 x 1685 mm, wheelbase 2690 mm"
+      },
+      {
+       "url": "https://www.motor1.com/news/709094/toyota-rav4-2024-dimensions-boot-space/",
+       "what": "Trunk 580 l (hybrid) / 520 l (PHEV), 1690 l folded"
+      },
+      {
+       "url": "https://www.motor-talk.de/news/der-neue-toyota-rav4-eckt-an-t6458504.html",
+       "what": "2019 hybrid trunk 580 l"
+      },
+      {
+       "url": "https://ausfahrt.tv/2021-toyota-rav4-2-5l-plug-in-hybrid-phev/",
+       "what": "PHEV trunk 520 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Motor1 lists height 1690 mm for 2024 model. Some sources give 1706 l folded."
+    }
+   ]
+  },
+  {
+   "id": "yaris",
+   "name": "Yaris",
+   "generations": [
+    {
+     "id": "2020-xp21-4-generation-inkl-facelift-2024",
+     "name": "XP21 (4. Generation, inkl. Facelift 2024)",
+     "yearFrom": 2020,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 3940,
+     "widthMm": 1745,
+     "heightMm": 1500,
+     "wheelbaseMm": 2560,
+     "trunkL": 286,
+     "trunkFoldedL": 935,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-hybrid-116-ps-hybrid",
+       "name": "1.5 Hybrid 116 PS (Hybrid)",
+       "powertrain": "hev",
+       "powerPs": 116,
+       "awd": false,
+       "trunkL": 286,
+       "trunkFoldedL": 935,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": "ADAC (Herstellerangabe): 286 l normal, 768 l fensterhoch bzw. 935 l dachhoch bei umgeklappter Rückbank. trunkFoldedL = dachhoch."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/yaris/xp21/313319/",
+       "what": "Yaris 1.5 Hybrid 116 (09/20-01/24): trunk 286 / 768 / 935 l (Herstellerangabe)"
+      },
+      {
+       "url": "https://www.heise.de/tests/Toyota-Yaris-Hybrid-im-Test-Das-reale-Drei-Liter-Auto-5065034.html?seite=3",
+       "what": "Dimensions 3940 x 1745 x 1500 mm, wheelbase 2560 mm"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/test/toyota-yaris-1-5-hybrid/technische-daten/",
+       "what": "Technical data Yaris 1.5 Hybrid (cross-check)"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/toyota/yaris/yaris-hybrid-16942/",
+       "what": "Trunk 286-768 l range (cross-check)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Width without mirrors (AutoScout24 lists 3943 x 1720 x 1505, deviating; ADAC/heise values used). Folded value: 768 l up to window line, 935 l to roof (ADAC/Toyota data sheet); 935 used for consistency with other models. 2024 facelift (Hybrid 130 PS) not separately verified - assumed same body, trunk not re-checked. Petrol variants (1.0 / 1.5 VVT-i) and GR Yaris not verified within the search budget (pkw.de mentions approx. 207 l for GR Yaris, unconfirmed)."
+    }
+   ]
+  },
+  {
+   "id": "yaris-cross",
+   "name": "Yaris Cross",
+   "generations": [
+    {
+     "id": "2021-xp21-1-generation-inkl-facelift-2024",
+     "name": "XP21 (1. Generation, inkl. Facelift 2024)",
+     "yearFrom": 2021,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4180,
+     "widthMm": 1765,
+     "heightMm": 1595,
+     "wheelbaseMm": 2560,
+     "trunkL": 397,
+     "trunkFoldedL": 1097,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-hybrid-frontantrieb",
+       "name": "1.5 Hybrid (Frontantrieb)",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 397,
+       "trunkFoldedL": 1097,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Variable Ladeboden (doppelter Boden). ADAC-Messung (2WD Elegant): 330 / 665 / 1090 l."
+      },
+      {
+       "id": "1-5-hybrid-awd-i-allrad",
+       "name": "1.5 Hybrid AWD-i (Allrad)",
+       "powertrain": "hev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 320,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Kein doppelter Ladeboden wegen E-Motor an der Hinterachse. Folded volume for AWD-i not found."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.toyota-media.de/blog/toyota-modelle/thema/yaris-cross-2021/technische-daten",
+       "what": "Official Toyota DE technical data Yaris Cross (dimensions, trunk)"
+      },
+      {
+       "url": "https://www.toyota.de/neuwagen/yaris-cross",
+       "what": "Toyota DE: trunk 320-397 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/toyota-yaris-cross-test/",
+       "what": "ADAC test: AWD-i without double floor, measured 330/665/1090 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2021-Yaris+Cross",
+       "what": "Dimensions 4180 x 1765 mm (width without mirrors)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Height 1595 mm is the most commonly quoted value (some sources give ~1560 without roof rails); other sources list length 4172/4188 mm. Toyota DE lists trunk 320-397 l. 2024 facelift (Hybrid 130 PS, GR SPORT) not separately verified."
+    }
+   ]
+  }
+ ]
+}

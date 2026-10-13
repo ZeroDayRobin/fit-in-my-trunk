@@ -1,0 +1,2207 @@
+{
+ "id": "skoda",
+ "name": "Škoda",
+ "models": [
+  {
+   "id": "elroq",
+   "name": "Elroq",
+   "generations": [
+    {
+     "id": "2025-1-generation",
+     "name": "1. Generation",
+     "yearFrom": 2025,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4488,
+     "widthMm": 1884,
+     "heightMm": 1625,
+     "wheelbaseMm": 2765,
+     "trunkL": 470,
+     "trunkFoldedL": 1580,
+     "loadSpace": {
+      "lengthMm": null,
+      "widthMm": null,
+      "widthBetweenArchesMm": null,
+      "heightMm": null,
+      "openingHeightMm": null,
+      "sillHeightMm": 702,
+      "lengthFoldedMm": null,
+      "source": "https://www.carwow.de/skoda/elroq-rs/technische-daten (sill height 702 mm for regular versions, 684 mm for RS)"
+     },
+     "variants": [
+      {
+       "id": "elroq-50-elektro-55-kwh",
+       "name": "Elroq 50 (Elektro 55 kWh)",
+       "powertrain": "bev",
+       "powerPs": 170,
+       "awd": false,
+       "trunkL": 470,
+       "trunkFoldedL": 1580,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "elroq-60-elektro-63-kwh",
+       "name": "Elroq 60 (Elektro 63 kWh)",
+       "powertrain": "bev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 470,
+       "trunkFoldedL": 1580,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "elroq-85-elektro-77-kwh",
+       "name": "Elroq 85 (Elektro 77 kWh)",
+       "powertrain": "bev",
+       "powerPs": 286,
+       "awd": false,
+       "trunkL": 470,
+       "trunkFoldedL": 1580,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "elroq-85x-elektro-77-kwh-allrad",
+       "name": "Elroq 85x (Elektro 77 kWh, Allrad)",
+       "powertrain": "bev",
+       "powerPs": 286,
+       "awd": true,
+       "trunkL": 470,
+       "trunkFoldedL": 1580,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "elroq-rs-elektro-allrad",
+       "name": "Elroq RS (Elektro, Allrad)",
+       "powertrain": "bev",
+       "powerPs": 340,
+       "awd": true,
+       "trunkL": 470,
+       "trunkFoldedL": 1580,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Carwow gives a height of 1637 mm and a wheelbase of 2773 mm, but these were not applied because they conflict with the standard car. Sill height 684 mm."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://insideevs.de/news/735607/skoda-elroq-daten-versionen-preise/",
+       "what": "Elroq data, versions, prices; dimensions 4488/1884/1625, wheelbase 2765"
+      },
+      {
+       "url": "https://automobilsalon-bellemann.de/news/skoda-elroq-kofferraum-masse-familienauto-2026/",
+       "what": "Trunk 470 to 1580 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/elroq/1generation/337074/",
+       "what": "ADAC Elroq 85 (01/25-04/26) technical data"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/skoda-elroq/",
+       "what": "ADAC test: 365 l measured"
+      },
+      {
+       "url": "https://www.carwow.de/skoda/elroq-rs/technische-daten",
+       "what": "Elroq RS: 470/1580 l, height 1637, wheelbase 2773, sill height 684 / 702 mm"
+      },
+      {
+       "url": "https://www.carwow.de/skoda/elroq/technische-daten",
+       "what": "Elroq technical data cross-check"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Manufacturer trunk figure is 470/1580 l for all versions (rear trunk). ADAC measured only 365 l (its own method) on the Elroq 85. Some sources give a height of 1645-1654 mm and a wheelbase up to 2773 mm. No frunk was found in the data. An ADAC entry for the Elroq 85 runs to 04/26, which suggests a model-year update."
+    }
+   ]
+  },
+  {
+   "id": "enyaq",
+   "name": "Enyaq",
+   "generations": [
+    {
+     "id": "2025-facelift-enyaq",
+     "name": "Facelift (Enyaq)",
+     "yearFrom": 2025,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4658,
+     "widthMm": 1879,
+     "heightMm": 1620,
+     "wheelbaseMm": 2766,
+     "trunkL": 585,
+     "trunkFoldedL": 1710,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "enyaq-60-elektro-63-kwh",
+       "name": "Enyaq 60 (Elektro 63 kWh)",
+       "powertrain": "bev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 585,
+       "trunkFoldedL": 1710,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "enyaq-85-elektro-77-kwh",
+       "name": "Enyaq 85 (Elektro 77 kWh)",
+       "powertrain": "bev",
+       "powerPs": 286,
+       "awd": false,
+       "trunkL": 585,
+       "trunkFoldedL": 1710,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "enyaq-85x-elektro-77-kwh-allrad",
+       "name": "Enyaq 85x (Elektro 77 kWh, Allrad)",
+       "powertrain": "bev",
+       "powerPs": 286,
+       "awd": true,
+       "trunkL": 585,
+       "trunkFoldedL": 1710,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "enyaq-rs-elektro-allrad",
+       "name": "Enyaq RS (Elektro, Allrad)",
+       "powertrain": "bev",
+       "powerPs": 340,
+       "awd": true,
+       "trunkL": 585,
+       "trunkFoldedL": 1710,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://insideevs.de/features/739676/skoda-enyaq:-%C3%BCbersicht-daten-preise/",
+       "what": "Facelift length 4658 (+9 mm against 4649), trunk 585-1710 l, Coupé 570-1610 l"
+      },
+      {
+       "url": "https://www.firmenauto.de/fahrzeuge/fahrbericht-skoda-enyaq-2025-elektro-suv-facelift/",
+       "what": "Facelift test with dimensions and trunk"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2226-Enyaq+2025",
+       "what": "Enyaq 2025 dimensions"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26864/full",
+       "what": "Official data sheet Enyaq 85x 2025 (210 kW / 286 PS)"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Facelift 2025: the 'iV' suffix was dropped and the car is 9 mm longer. Height is given as 1620 or 1622 mm depending on the source. Trunk unchanged at 585/1710 l (rear trunk). No frunk was found in the data. AUTO BILD reports a new entry-level model for 2026 (not covered)."
+    },
+    {
+     "id": "2021-enyaq-iv-vor-facelift",
+     "name": "Enyaq iV (vor Facelift)",
+     "yearFrom": 2021,
+     "yearTo": 2024,
+     "bodyType": "suv",
+     "lengthMm": 4649,
+     "widthMm": 1879,
+     "heightMm": null,
+     "wheelbaseMm": 2765,
+     "trunkL": 585,
+     "trunkFoldedL": 1710,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "enyaq-iv-50-elektro-55-kwh",
+       "name": "Enyaq iV 50 (Elektro 55 kWh)",
+       "powertrain": "bev",
+       "powerPs": 148,
+       "awd": false,
+       "trunkL": 585,
+       "trunkFoldedL": 1710,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "enyaq-iv-60-elektro-62-kwh",
+       "name": "Enyaq iV 60 (Elektro 62 kWh)",
+       "powertrain": "bev",
+       "powerPs": 180,
+       "awd": false,
+       "trunkL": 585,
+       "trunkFoldedL": 1710,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "enyaq-iv-80-elektro-82-kwh",
+       "name": "Enyaq iV 80 (Elektro 82 kWh)",
+       "powertrain": "bev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 585,
+       "trunkFoldedL": 1710,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "enyaq-iv-80x-elektro-allrad",
+       "name": "Enyaq iV 80x (Elektro, Allrad)",
+       "powertrain": "bev",
+       "powerPs": 265,
+       "awd": true,
+       "trunkL": 585,
+       "trunkFoldedL": 1710,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "enyaq-iv-85-85x-elektro-82-kwh",
+       "name": "Enyaq iV 85 / 85x (Elektro 82 kWh)",
+       "powertrain": "bev",
+       "powerPs": 286,
+       "awd": false,
+       "trunkL": 585,
+       "trunkFoldedL": 1710,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2023,
+       "yearTo": null,
+       "notes": "85x has all-wheel drive with the same trunk."
+      },
+      {
+       "id": "enyaq-rs-iv-elektro-allrad",
+       "name": "Enyaq RS iV (Elektro, Allrad)",
+       "powertrain": "bev",
+       "powerPs": 299,
+       "awd": true,
+       "trunkL": 585,
+       "trunkFoldedL": 1710,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://insideevs.de/features/739676/skoda-enyaq:-%C3%BCbersicht-daten-preise/",
+       "what": "Comparison table: pre-facelift length 4649, width 1879, trunk 585/1710"
+      },
+      {
+       "url": "https://kofferraum.org/volumen/skoda/enyaq-iv/",
+       "what": "Enyaq iV trunk volume 585/1710"
+      },
+      {
+       "url": "https://fuhrpark.de/facelift-der-neue-skoda-enyaq-2025",
+       "what": "Facelift vs pre-facelift comparison"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Pre-facelift Enyaq iV. Length 4649 mm per the InsideEVs facelift comparison. Height left null because sources conflict (1604 mm vs about 1620 mm). Trunk 585/1710 l for all variants. Variant names changed over time (iV 50/60/80/80x/RS, later 85/85x)."
+    }
+   ]
+  },
+  {
+   "id": "enyaq-coupe",
+   "name": "Enyaq Coupé",
+   "generations": [
+    {
+     "id": "2022-enyaq-coupe-iv-inkl-facelift-2025",
+     "name": "Enyaq Coupé (iV, inkl. Facelift 2025)",
+     "yearFrom": 2022,
+     "yearTo": null,
+     "bodyType": "suv-coupe",
+     "lengthMm": 4653,
+     "widthMm": 1879,
+     "heightMm": 1621,
+     "wheelbaseMm": 2765,
+     "trunkL": 570,
+     "trunkFoldedL": 1610,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "coupe-60-elektro",
+       "name": "Coupé 60 (Elektro)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 570,
+       "trunkFoldedL": 1610,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Output depends on model year."
+      },
+      {
+       "id": "coupe-80-85-elektro-77-82-kwh",
+       "name": "Coupé 80 / 85 (Elektro 77-82 kWh)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 570,
+       "trunkFoldedL": 1610,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "coupe-80x-85x-elektro-allrad",
+       "name": "Coupé 80x / 85x (Elektro, Allrad)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 570,
+       "trunkFoldedL": 1610,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "coupe-rs-elektro-allrad",
+       "name": "Coupé RS (Elektro, Allrad)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 570,
+       "trunkFoldedL": 1610,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Pre-facelift RS iV 299 PS, facelift RS 340 PS."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26868/full",
+       "what": "Official data sheet Enyaq/Enyaq Coupé 2025: Coupé 4653 mm, height 1621, trunk 570/1610"
+      },
+      {
+       "url": "https://insideevs.de/news/531068/skoda-enyaq-coupe-bilder-daten/",
+       "what": "Enyaq Coupé iV data and trunk"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2138-Enyaq+Coupe+iV",
+       "what": "Coupé iV: 4653 / 1879 / 1621, wheelbase 2765"
+      },
+      {
+       "url": "https://www.carwow.de/skoda/enyaq-iv-coupe/technische-daten",
+       "what": "Facelift Coupé 4658 / 1623, wheelbase 2771"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/25878",
+       "what": "Official data sheet Enyaq Coupé RS (2023)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Added as a missing model (same segment as the Enyaq). Trunk 570/1610 l, unchanged at the 2025 facelift. Skoda's 2025 data sheet gives 4653 mm and 1621 mm height; InsideEVs and carwow give 4658 mm, 1623 mm and a wheelbase of 2766-2771 mm for the facelift. Pre-facelift: 4653 x 1879 x about 1617-1622 mm. RS versions have the same trunk. No frunk found."
+    }
+   ]
+  },
+  {
+   "id": "fabia",
+   "name": "Fabia",
+   "generations": [
+    {
+     "id": "2021-pj-4-generation",
+     "name": "PJ (4. Generation)",
+     "yearFrom": 2021,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 4108,
+     "widthMm": 1780,
+     "heightMm": 1459,
+     "wheelbaseMm": 2564,
+     "trunkL": 380,
+     "trunkFoldedL": 1190,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-mpi-benziner-65-80-ps",
+       "name": "1.0 MPI (Benziner, 65/80 PS)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1190,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-0-tsi-95-ps",
+       "name": "1.0 TSI 95 PS",
+       "powertrain": "petrol",
+       "powerPs": 95,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1190,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-0-tsi-116-ps",
+       "name": "1.0 TSI 116 PS",
+       "powertrain": "petrol",
+       "powerPs": 116,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1190,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-5-tsi-150-ps-dsg-u-a-monte-carlo",
+       "name": "1.5 TSI 150 PS DSG (u.a. Monte Carlo)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1190,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.auto-motor-und-sport.de/marken-modelle/skoda/fabia/typ-pj/technische-daten/",
+       "what": "Technical data for type PJ: dimensions and trunk"
+      },
+      {
+       "url": "https://automobilsalon-bellemann.de/news/skoda-fabia-kofferraum-masse-abmessungen/",
+       "what": "Length 4108 mm, trunk 380 / 1190 l"
+      },
+      {
+       "url": "https://www.automobiledimension.com/model/skoda/fabia",
+       "what": "Width 1780 mm without mirrors (1954 mm with), height 1459 mm"
+      },
+      {
+       "url": "https://www.mobile.de/auto/skoda/fabia/2021/schr%C3%A4gheck/modell/daten-fakten/",
+       "what": "Height and wheelbase discrepancies (1479 / 2552 mm)"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/skoda/fabia/fabia-1-0-tsi-seit-2021-limousine-benzin/",
+       "what": "Height 1482 mm for some variants"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Height varies by source and trim: 1459 to 1460 mm (manufacturer, magazines), 1479 mm (mobile.de), and 1482 mm for some variants (AutoScout24, probably with roof rails). One source gives the length as 4107 mm. No PHEV, BEV or diesel, so the trunk is the same for every powertrain. No facelift with changed dimensions found up to 2026. The special-edition Fabia 130 (2024) was not researched."
+    },
+    {
+     "id": "2018-nj-facelift-3-generation",
+     "name": "NJ Facelift (3. Generation)",
+     "yearFrom": 2018,
+     "yearTo": 2021,
+     "bodyType": "hatchback",
+     "lengthMm": 3997,
+     "widthMm": 1732,
+     "heightMm": 1482,
+     "wheelbaseMm": 2470,
+     "trunkL": 330,
+     "trunkFoldedL": 1150,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-mpi-benziner-60-75-ps",
+       "name": "1.0 MPI (Benziner, 60/75 PS)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 330,
+       "trunkFoldedL": 1150,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2021,
+       "notes": ""
+      },
+      {
+       "id": "1-0-tsi-benziner-95-110-ps",
+       "name": "1.0 TSI (Benziner, 95/110 PS)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 330,
+       "trunkFoldedL": 1150,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": 2021,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/fabia/3generation-facelift/292809/",
+       "what": "Dimensions, wheelbase, trunk 330 / 1150 l"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Fabia_III",
+       "what": "Trunk volumes, spare wheel -25 l"
+      },
+      {
+       "url": "https://www.automoli.com/de/vehicles/skoda/fabia/fabia-iii-facelift-2018-6436/",
+       "what": "330 / 1150 l for the facelift"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "ADAC (1.0 TSI Style 08/18-07/19) gives 3997 x 1732 x 1482 mm and a wheelbase of 2470 mm. Some other sources give a lower height (1467 mm), probably without roof rails. According to Wikipedia, a spare wheel reduces the trunk by 25 l. After the 2018 facelift only petrol engines were sold, so there is no diesel variant."
+    }
+   ]
+  },
+  {
+   "id": "fabia-combi",
+   "name": "Fabia Combi",
+   "generations": [
+    {
+     "id": "2018-nj-facelift-3-generation",
+     "name": "NJ Facelift (3. Generation)",
+     "yearFrom": 2018,
+     "yearTo": 2021,
+     "bodyType": "wagon",
+     "lengthMm": 4257,
+     "widthMm": 1732,
+     "heightMm": 1467,
+     "wheelbaseMm": null,
+     "trunkL": 530,
+     "trunkFoldedL": 1395,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-mpi-1-0-tsi-benziner",
+       "name": "1.0 MPI / 1.0 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 530,
+       "trunkFoldedL": 1395,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/skoda/fabia/fabia-iii-combi-17839/",
+       "what": "Trunk 530 - 1395 l"
+      },
+      {
+       "url": "https://www.automoli.com/us/vehicles/skoda/fabia/fabia-iii-combi-facelift-2018-6437/",
+       "what": "Combi facelift 2018: 530 / 1395 l"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Fabia_III",
+       "what": "Combi 530 / 1395 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Added as a missing body style. The 4th-generation Fabia (2021) has no Combi. The 2021 end year of the Combi was not verified exactly; it may have been built somewhat longer in parallel with the new Fabia. Dimensions come from a database listing (4257 x 1732 x 1467 mm, diesel). Wheelbase not confirmed (null)."
+    }
+   ]
+  },
+  {
+   "id": "kamiq",
+   "name": "Kamiq",
+   "generations": [
+    {
+     "id": "2019-nw-inkl-facelift-2024",
+     "name": "NW (inkl. Facelift 2024)",
+     "yearFrom": 2019,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4241,
+     "widthMm": 1793,
+     "heightMm": 1531,
+     "wheelbaseMm": 2651,
+     "trunkL": 400,
+     "trunkFoldedL": 1395,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-tsi-benziner-95-116-ps",
+       "name": "1.0 TSI (Benziner, 95-116 PS)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 400,
+       "trunkFoldedL": 1395,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-5-tsi-150-ps-u-a-monte-carlo",
+       "name": "1.5 TSI 150 PS (u.a. Monte Carlo)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 400,
+       "trunkFoldedL": 1395,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-6-tdi-diesel-vor-facelift",
+       "name": "1.6 TDI (Diesel, Vor-Facelift)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 400,
+       "trunkFoldedL": 1395,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No different trunk value found."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/kamiq/1generation-facelift/331299/",
+       "what": "Facelift 01/24: length 4241, width 1793, wheelbase 2651 mm"
+      },
+      {
+       "url": "https://www.skoda-media.de/model/txt/16074/*",
+       "what": "Manufacturer: wheelbase 2651 mm, load length 2447 mm with front passenger seat folded"
+      },
+      {
+       "url": "https://automobilsalon-bellemann.de/news/skoda-kamiq-kofferraum-masse/",
+       "what": "400 l, 4.24 m"
+      },
+      {
+       "url": "https://www.carwow.de/skoda/kamiq/technische-daten",
+       "what": "400 / 1395 l, wheelbase 2639 (discrepancy)"
+      },
+      {
+       "url": "https://www.mobile.de/auto/skoda/kamiq/2019/modell/daten-fakten/",
+       "what": "Type NW since 2019"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "The 2024 facelift did not change the outer dimensions or trunk, so it is not split out. Wheelbase is 2651 mm per ADAC and Skoda Media; Carwow gives 2639 mm. Height ranges from 1531 to 1562 mm depending on source and equipment. With the optional fold-down front passenger seatback, items up to 2447 mm long fit (Skoda)."
+    }
+   ]
+  },
+  {
+   "id": "karoq",
+   "name": "Karoq",
+   "generations": [
+    {
+     "id": "2022-1-generation-nu7-facelift",
+     "name": "1. Generation (NU7) Facelift",
+     "yearFrom": 2022,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4390,
+     "widthMm": 1841,
+     "heightMm": 1603,
+     "wheelbaseMm": 2638,
+     "trunkL": 521,
+     "trunkFoldedL": 1630,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-tsi-benziner",
+       "name": "1.0 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 521,
+       "trunkFoldedL": 1630,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Power not verified in this search pass (about 110-116 PS)."
+      },
+      {
+       "id": "sportline",
+       "name": "Sportline",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 521,
+       "trunkFoldedL": 1630,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Trim available with the 1.5 TSI and the 2.0 TSI 4x4. Sources give a wheelbase of 2625 mm."
+      },
+      {
+       "id": "1-5-tsi-150-ps-benziner",
+       "name": "1.5 TSI 150 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 521,
+       "trunkFoldedL": 1630,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tsi-4x4-190-ps-dsg-benziner",
+       "name": "2.0 TSI 4x4 190 PS DSG (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 190,
+       "awd": true,
+       "trunkL": 521,
+       "trunkFoldedL": 1630,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Wheelbase 2630 mm with 4x4. No separate 4x4 trunk figure was published, so the base value is used."
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 521,
+       "trunkFoldedL": 1630,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Offered with 116 and 150 PS. Power not verified in this search pass."
+      },
+      {
+       "id": "2-0-tdi-4x4-150-ps-dsg-diesel",
+       "name": "2.0 TDI 4x4 150 PS DSG (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 150,
+       "awd": true,
+       "trunkL": 521,
+       "trunkFoldedL": 1630,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No separate 4x4 trunk figure was found, so the base value is used."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.newcarz.de/skoda-karoq-facelift-feinfuehlig-modernisiert/",
+       "what": "Facelift dimensions 4390/1841/1603, wheelbase 2638 (2WD) / 2630 (4x4), trunk 521/1630, VarioFlex 588/1605/1810"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/karoq/1generation-facelift/322673/",
+       "what": "ADAC catalogue, Karoq 1.5 TSI facelift (12/21-04/23) technical data"
+      },
+      {
+       "url": "https://www.carwow.de/skoda/karoq/technische-daten",
+       "what": "Cross-check of dimensions and trunk"
+      },
+      {
+       "url": "https://www.carwow.de/skoda/karoq-sportline/technische-daten",
+       "what": "Sportline data (wheelbase/height variance)"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Facelift presented Nov 2021, on sale in Germany from early 2022. Standard rear bench: 521 / 1630 l. With optional VarioFlex rear seats: up to 588 l (seats slid forward), 1605 l with backrests folded and 1810 l with the seats removed. Wheelbase 2638 mm with front-wheel drive and 2630 mm with 4x4 (one source gives 2625 mm for the Sportline). Other sources give a height of 1624 or 1632 mm depending on trim and roof rails. No PHEV or BEV is offered. No published load-floor measurements were found."
+    },
+    {
+     "id": "2017-1-generation-nu7-vor-facelift",
+     "name": "1. Generation (NU7) vor Facelift",
+     "yearFrom": 2017,
+     "yearTo": 2021,
+     "bodyType": "suv",
+     "lengthMm": 4382,
+     "widthMm": 1841,
+     "heightMm": 1603,
+     "wheelbaseMm": 2638,
+     "trunkL": 521,
+     "trunkFoldedL": 1630,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-tsi-benziner",
+       "name": "1.0 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 521,
+       "trunkFoldedL": 1630,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-5-tsi-150-ps-benziner",
+       "name": "1.5 TSI 150 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 521,
+       "trunkFoldedL": 1630,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tsi-4x4-190-ps-dsg-benziner",
+       "name": "2.0 TSI 4x4 190 PS DSG (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 190,
+       "awd": true,
+       "trunkL": 521,
+       "trunkFoldedL": 1630,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 521,
+       "trunkFoldedL": 1630,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-4x4-diesel",
+       "name": "2.0 TDI 4x4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 521,
+       "trunkFoldedL": 1630,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1729-skoda-karoq",
+       "what": "Pre-facelift length 4382 mm, wheelbase about 2636 mm"
+      },
+      {
+       "url": "https://www.mobile.de/magazin/artikel/skoda-karoq-suv-2020-test-28772",
+       "what": "Karoq 2020 test (pre-facelift)"
+      },
+      {
+       "url": "https://www.newcarz.de/skoda-karoq-facelift-feinfuehlig-modernisiert/",
+       "what": "Trunk 521/1630 unchanged at the facelift"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Pre-facelift model, about 8 mm shorter (4382 mm per angurten.de). Trunk 521/1630 l, the same as the facelift, and the VarioFlex option is also unchanged (588/1810 l). The same database gives a wheelbase of 2636 mm, against 2638 mm from the manufacturer. Height and width are assumed unchanged from the facelift."
+    }
+   ]
+  },
+  {
+   "id": "kodiaq",
+   "name": "Kodiaq",
+   "generations": [
+    {
+     "id": "2024-2-generation-ps",
+     "name": "2. Generation (PS)",
+     "yearFrom": 2024,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4758,
+     "widthMm": 1864,
+     "heightMm": 1656,
+     "wheelbaseMm": 2791,
+     "trunkL": 910,
+     "trunkFoldedL": 2105,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tsi-4x4-204-ps-dsg-benziner",
+       "name": "2.0 TSI 4x4 204 PS DSG (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 204,
+       "awd": true,
+       "trunkL": 910,
+       "trunkFoldedL": 2105,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "rs-2-0-tsi-4x4-265-ps-dsg",
+       "name": "RS 2.0 TSI 4x4 265 PS DSG",
+       "powertrain": "petrol",
+       "powerPs": 265,
+       "awd": true,
+       "trunkL": 910,
+       "trunkFoldedL": 2105,
+       "lengthMm": 4761,
+       "widthMm": null,
+       "heightMm": 1663,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Launched 2025. Carwow gives a height of 1683 mm (conflicting)."
+      },
+      {
+       "id": "1-5-tsi-mhev-150-ps-dsg-mild-hybrid",
+       "name": "1.5 TSI mHEV 150 PS DSG (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 910,
+       "trunkFoldedL": 2105,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "The 7-seat option gives 845 l (3rd row folded) and 340 l (all rows up)."
+      },
+      {
+       "id": "2-0-tdi-150-ps-dsg-diesel",
+       "name": "2.0 TDI 150 PS DSG (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 910,
+       "trunkFoldedL": 2105,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-4x4-193-ps-dsg-diesel",
+       "name": "2.0 TDI 4x4 193 PS DSG (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 193,
+       "awd": true,
+       "trunkL": 910,
+       "trunkFoldedL": 2105,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-5-tsi-iv-204-ps-plug-in-hybrid",
+       "name": "1.5 TSI iV 204 PS (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 745,
+       "trunkFoldedL": 1945,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1656,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "25.7 kWh battery, 45 l tank. 5-seater only. Trunk is 165 l smaller than the combustion versions."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26880/full",
+       "what": "Official data sheet Kodiaq iV 2025: 4758/1864/1656, wheelbase 2791, trunk 745/1945"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26681/full",
+       "what": "Official data sheet Kodiaq 2024"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/skoda-kodiaq/",
+       "what": "ADAC: iV trunk 745 l, 45 l tank, height 1679 for some variants"
+      },
+      {
+       "url": "https://www.oeamtc.at/autotouring/auto/skoda-kodiaq-2024-im-test-70343143",
+       "what": "7-seater 340 / 845 l (non-hybrid only); iV 204 PS system output"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/marken-modelle/skoda/kodiaq/kodiaq/technische-daten/",
+       "what": "Technical data for all engines, 910/2105 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/kodiaq/2generation/331198/",
+       "what": "ADAC 2.0 TDI Selection DSG (03/24-05/25) data"
+      },
+      {
+       "url": "https://www.automobile.at/magazin/751146",
+       "what": "Kodiaq RS: 265 PS, 4761 x 1864 x 1663 mm"
+      },
+      {
+       "url": "https://www.carwow.de/skoda/kodiaq-rs/technische-daten",
+       "what": "Kodiaq RS trunk 910/2105 l"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "On sale in Germany from 03/2024. Height 1656 mm (Skoda data sheet, at kerb weight); other sources give 1674-1679 mm depending on variant and roof rails. 5-seater: 910 / 2105 l. 7-seater option (combustion engines only, not the iV): 340 l with all three rows up and 845 l with the 3rd row folded; the 7-seat folded maximum was not found. The plug-in hybrid has a much smaller trunk (745/1945 l) and is a 5-seater only."
+    },
+    {
+     "id": "2017-1-generation-ns7-inkl-facelift-2021",
+     "name": "1. Generation (NS7, inkl. Facelift 2021)",
+     "yearFrom": 2017,
+     "yearTo": 2024,
+     "bodyType": "suv",
+     "lengthMm": 4697,
+     "widthMm": 1882,
+     "heightMm": 1660,
+     "wheelbaseMm": 2791,
+     "trunkL": 835,
+     "trunkFoldedL": 2065,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-5-tsi-150-ps-benziner",
+       "name": "1.5 TSI 150 PS (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 835,
+       "trunkFoldedL": 2065,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "The 7-seat option gives 765 / 2005 l."
+      },
+      {
+       "id": "2-0-tsi-4x4-dsg-benziner",
+       "name": "2.0 TSI 4x4 DSG (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 190,
+       "awd": true,
+       "trunkL": 835,
+       "trunkFoldedL": 2065,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "rs-2-0-tsi-4x4-245-ps-dsg",
+       "name": "RS 2.0 TSI 4x4 245 PS DSG",
+       "powertrain": "petrol",
+       "powerPs": 245,
+       "awd": true,
+       "trunkL": 835,
+       "trunkFoldedL": 2065,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": null,
+       "notes": "Facelift RS. The pre-facelift RS (2019-2020) used the 2.0 BiTDI diesel. RS-specific dimensions not found (length about 4699 mm)."
+      },
+      {
+       "id": "2-0-tdi-150-ps-diesel",
+       "name": "2.0 TDI 150 PS (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 835,
+       "trunkFoldedL": 2065,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-4x4-dsg-diesel",
+       "name": "2.0 TDI 4x4 DSG (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": 200,
+       "awd": true,
+       "trunkL": 835,
+       "trunkFoldedL": 2065,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "200 PS version from the facelift. 150 PS 4x4 also offered."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.skodapress.ch/sites/default/files/media/pdf/2021-06/Pressemappe_SKODA%20KODIAQ%20Facelift.pdf",
+       "what": "Official facelift press kit: 5-seater 835 / 2065 l"
+      },
+      {
+       "url": "https://www.skoda-storyboard.com/de/lifestyle-de/skoda-kodiaq-ein-raumwunder/",
+       "what": "Official: 7-seater 765 / 2005 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/kodiaq/1generation-facelift/322736/",
+       "what": "ADAC facelift 2.0 TSI 4x4 (12/21-06/22): length 4697 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/kodiaq/1generation/307621/",
+       "what": "ADAC 2.0 TDI Sportline 4x4: 4699 x 1882 x 1660 mm, wheelbase 2791, trunk 650/2065"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/skoda/kodiaq/",
+       "what": "2016-2023 model: from 4698 x 1882 x 1671 mm, trunk 270-2065 l"
+      },
+      {
+       "url": "https://de.motor1.com/news/500501/skoda-kodiaq-suv-facelift-2021/",
+       "what": "Facelift 2021 overview"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Facelift 04/2021 with no meaningful change to dimensions or trunk (length 4697-4699 mm depending on trim and source). The official press kit gives 835 / 2065 l for the 5-seater (835 l is with the sliding rear bench moved forward). ADAC lists 650 l and angurten.de lists 720 l as the normal value, presumably with the bench in a different position. The 7-seater (option) has 765 l with the 3rd row folded, 2005 l maximum and about 270 l with all rows up. Height 1660 mm (ADAC, Sportline 4x4); AutoScout24 gives 1671 mm or more for other trims. No PHEV was offered."
+    }
+   ]
+  },
+  {
+   "id": "octavia-combi",
+   "name": "Octavia Combi",
+   "generations": [
+    {
+     "id": "2020-nx-4-generation-inkl-facelift-2024",
+     "name": "NX (4. Generation, inkl. Facelift 2024)",
+     "yearFrom": 2020,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": 4689,
+     "widthMm": 1829,
+     "heightMm": 1468,
+     "wheelbaseMm": 2686,
+     "trunkL": 640,
+     "trunkFoldedL": 1700,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-1-5-tsi-benziner",
+       "name": "1.0 / 1.5 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 640,
+       "trunkFoldedL": 1700,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "rs-2-0-tsi-2-0-tdi-vor-facelift",
+       "name": "RS 2.0 TSI / 2.0 TDI (Vor-Facelift)",
+       "powertrain": "petrol",
+       "powerPs": 245,
+       "awd": false,
+       "trunkL": 640,
+       "trunkFoldedL": 1700,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": "Length of the pre-facelift RS not found. RS 2.0 TDI (200 PS, partly 4x4) has the same trunk."
+      },
+      {
+       "id": "rs-2-0-tsi-265-ps-dsg-facelift",
+       "name": "RS 2.0 TSI 265 PS DSG (Facelift)",
+       "powertrain": "petrol",
+       "powerPs": 265,
+       "awd": false,
+       "trunkL": 640,
+       "trunkFoldedL": 1700,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "ADAC gives 4709 mm length and about 1455 mm height for the RS facelift, from the Limousine entry. Not separately confirmed for the Combi, so variant dimensions are left empty."
+      },
+      {
+       "id": "1-0-1-5-etsi-dsg-mild-hybrid",
+       "name": "1.0 / 1.5 eTSI DSG (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 640,
+       "trunkFoldedL": 1700,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 640,
+       "trunkFoldedL": 1700,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-4x4",
+       "name": "2.0 TDI 4x4",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 640,
+       "trunkFoldedL": 1700,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "4x4 trunk not separately confirmed; no different value found."
+      },
+      {
+       "id": "1-4-tsi-iv-rs-iv-plug-in-hybrid-204-245-ps",
+       "name": "1.4 TSI iV / RS iV (Plug-in-Hybrid, 204/245 PS)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 490,
+       "trunkFoldedL": 1555,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": "Battery under the floor. Confirmed by ADAC (iV) and ausfahrt.tv (RS iV). No longer offered after the 2024 facelift."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26611/full",
+       "what": "Manufacturer data Octavia Combi 2024: 640 / 1700 l, 4689 / 1829 / 1468 / 2686 mm"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/4generation/315163/",
+       "what": "Combi 1.4 TSI iV: 490 / 1555 l"
+      },
+      {
+       "url": "https://ausfahrt.tv/2020-skoda-octavia-combi-rs-iv-phev-nx/",
+       "what": "RS iV Combi: 490 / 1555 l"
+      },
+      {
+       "url": "https://www.autozeitung.de/neues-skoda-octavia-facelift-2024-fahrbericht-206001.html",
+       "what": "Facelift length 4698 mm (discrepancy)"
+      },
+      {
+       "url": "https://www.automobile.at/magazin/740133",
+       "what": "RS 2024: Combi 640 - 1700 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/4generation-facelift/336166/",
+       "what": "RS facelift (from 07/24): length 4709 mm, width 1829 mm"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "The manufacturer data sheet for the 2024 Combi (facelift) still gives 4689 / 1829 / 1468 / 2686 mm and 640 / 1700 l. Auto Zeitung gives 4698 mm for the facelift. Because the trunk did not change, the facelift is not split out. The facelift (2024) dropped the PHEV models (iV / RS iV). The 4x4 trunk was not separately confirmed. Scout and G-TEC were not researched."
+    }
+   ]
+  },
+  {
+   "id": "octavia-limousine",
+   "name": "Octavia Limousine",
+   "generations": [
+    {
+     "id": "2020-nx-4-generation-inkl-facelift-2024",
+     "name": "NX (4. Generation, inkl. Facelift 2024)",
+     "yearFrom": 2020,
+     "yearTo": null,
+     "bodyType": "sedan",
+     "lengthMm": 4689,
+     "widthMm": 1829,
+     "heightMm": 1470,
+     "wheelbaseMm": 2686,
+     "trunkL": 600,
+     "trunkFoldedL": 1555,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-1-5-tsi-benziner",
+       "name": "1.0 / 1.5 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 600,
+       "trunkFoldedL": 1555,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "rs-2-0-tsi-2-0-tdi-vor-facelift",
+       "name": "RS 2.0 TSI / 2.0 TDI (Vor-Facelift)",
+       "powertrain": "petrol",
+       "powerPs": 245,
+       "awd": false,
+       "trunkL": 600,
+       "trunkFoldedL": 1555,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": "Length of the pre-facelift RS not found."
+      },
+      {
+       "id": "rs-2-0-tsi-265-ps-dsg-facelift",
+       "name": "RS 2.0 TSI 265 PS DSG (Facelift)",
+       "powertrain": "petrol",
+       "powerPs": 265,
+       "awd": false,
+       "trunkL": 600,
+       "trunkFoldedL": 1555,
+       "lengthMm": 4709,
+       "widthMm": null,
+       "heightMm": 1455,
+       "yearFrom": 2024,
+       "yearTo": null,
+       "notes": "ADAC / auto-data: 4709 mm long; height 1455 mm (Carwow 1457 mm)."
+      },
+      {
+       "id": "1-0-1-5-etsi-dsg-mild-hybrid",
+       "name": "1.0 / 1.5 eTSI DSG (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 600,
+       "trunkFoldedL": 1555,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 600,
+       "trunkFoldedL": 1555,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-4-tsi-iv-rs-iv-plug-in-hybrid-204-245-ps",
+       "name": "1.4 TSI iV / RS iV (Plug-in-Hybrid, 204/245 PS)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 450,
+       "trunkFoldedL": 1405,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2024,
+       "notes": "450 / 1405 l confirmed for the iV (ADAC, Skoda). Not separately confirmed for the RS iV Limousine, which has the same PHEV drivetrain."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/4generation/315165/",
+       "what": "1.4 TSI iV Limousine: 450 / 1405 l"
+      },
+      {
+       "url": "https://www.skoda-media.de/model/txt/16306/*",
+       "what": "Manufacturer: Octavia iV Limousine 450 l, Combi 490 l"
+      },
+      {
+       "url": "https://www.autozeitung.de/neues-skoda-octavia-facelift-2024-fahrbericht-206001.html",
+       "what": "Facelift Limousine trunk unchanged at 600 - 1555 l"
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/skoda/octavia/",
+       "what": "Width 1.83 m, height 1.47 m, wheelbase 2.68 m unchanged"
+      },
+      {
+       "url": "https://www.automobile.at/magazin/740133",
+       "what": "RS 2024 Limousine 600 - 1555 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/4generation-facelift/336166/",
+       "what": "RS DSG (from 07/24): length 4709, width 1829 mm"
+      },
+      {
+       "url": "https://www.auto-data.net/en/skoda-octavia-iv-facelift-2024-rs-2.0-tsi-265hp-dsg-52252",
+       "what": "RS facelift 4709 mm, height 1455 mm"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "A liftback (fastback with a large tailgate including the rear window), not a classic notchback sedan. Length, width and wheelbase were taken over from the manufacturer's Combi data sheet. AUTO BILD confirms width 1.83 m, height 1.47 m and wheelbase 2.68 m for the Octavia, so the height (1470) is only the rounded 1.47 m. Facelift 2024: trunk unchanged at 600 / 1555 l (autozeitung), and the PHEVs were dropped."
+    }
+   ]
+  },
+  {
+   "id": "scala",
+   "name": "Scala",
+   "generations": [
+    {
+     "id": "2019-nw-inkl-facelift-2024",
+     "name": "NW (inkl. Facelift 2024)",
+     "yearFrom": 2019,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 4362,
+     "widthMm": 1793,
+     "heightMm": 1514,
+     "wheelbaseMm": 2649,
+     "trunkL": 467,
+     "trunkFoldedL": 1410,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "1-0-tsi-benziner-95-116-ps",
+       "name": "1.0 TSI (Benziner, 95-116 PS)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 467,
+       "trunkFoldedL": 1410,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-5-tsi-150-ps-u-a-monte-carlo",
+       "name": "1.5 TSI 150 PS (u.a. Monte Carlo)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 467,
+       "trunkFoldedL": 1410,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-6-tdi-diesel-vor-facelift",
+       "name": "1.6 TDI (Diesel, Vor-Facelift)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 467,
+       "trunkFoldedL": 1410,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No different trunk value found; assumed to be the same body."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/scala/1generation-facelift/331276/",
+       "what": "Facelift dimensions and wheelbase"
+      },
+      {
+       "url": "https://automobilsalon-bellemann.de/news/skoda-scala-kofferraum-masse/",
+       "what": "Trunk 467 l, dimensions"
+      },
+      {
+       "url": "https://www.carwow.de/skoda/scala/technische-daten",
+       "what": "467 / 1410 l"
+      },
+      {
+       "url": "https://www.autozeitung.de/skoda-scala-facelift-2023-preis-motoren-200788.html",
+       "what": "Facelift has unchanged dimensions"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/skoda-scala/",
+       "what": "ADAC test, manufacturer 467 / 1410 l vs. measured values"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Added as a missing model (compact hatchback between the Fabia and Octavia). The 2023/2024 facelift did not change the outer dimensions (autozeitung), so it is not split out. Sources give a height of 1514 mm and a wheelbase of 2649 or 2650 mm. The ADAC's own measurement gives 370 / 1070 l; the values here are the manufacturer VDA figures."
+    }
+   ]
+  },
+  {
+   "id": "superb-combi",
+   "name": "Superb Combi",
+   "generations": [
+    {
+     "id": "2024-3y-b9-4-generation",
+     "name": "3Y / B9 (4. Generation)",
+     "yearFrom": 2024,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": 4902,
+     "widthMm": 1849,
+     "heightMm": 1482,
+     "wheelbaseMm": 2841,
+     "trunkL": 690,
+     "trunkFoldedL": 1920,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tsi-4x4-benziner-204-265-ps",
+       "name": "2.0 TSI 4x4 (Benziner, 204/265 PS)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 690,
+       "trunkFoldedL": 1920,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "4x4 trunk not separately confirmed."
+      },
+      {
+       "id": "1-5-tsi-mhev-150-ps-dsg-mild-hybrid",
+       "name": "1.5 TSI mHEV 150 PS DSG (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 690,
+       "trunkFoldedL": 1920,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 690,
+       "trunkFoldedL": 1920,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-4x4-diesel",
+       "name": "2.0 TDI 4x4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 690,
+       "trunkFoldedL": 1920,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "4x4 trunk not separately confirmed."
+      },
+      {
+       "id": "1-5-tsi-iv-204-ps-plug-in-hybrid",
+       "name": "1.5 TSI iV 204 PS (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 510,
+       "trunkFoldedL": 1770,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26531/full",
+       "what": "Manufacturer data Superb Combi 2024: 690 / 1920 l, 4902 / 1849 / 1482 / 2841 mm"
+      },
+      {
+       "url": "https://www.carwow.de/skoda/superb-combi/technische-daten",
+       "what": "iV trunk 510 l, battery position"
+      },
+      {
+       "url": "https://www.autoscout24.de/auto/technische-daten/skoda/superb/",
+       "what": "Combi PHEV 510 - 1770 l"
+      },
+      {
+       "url": "https://de.motor1.com/reviews/677305/skoda-superb-combi-2024-vorserientest/",
+       "what": "Pre-production test of the Superb Combi 2024"
+      },
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/26935",
+       "what": "Superb iV Combi 2025 data sheet"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "PHEV (iV / e-Hybrid): 510 / 1770 l because the battery sits in the floor. One database gives 1521 mm height for the iV (not confirmed by the manufacturer, so not used). mobile.de lists 645 l in one place, which does not match the manufacturer figure. 4x4 trunk not separately confirmed."
+    },
+    {
+     "id": "2019-3v-b8-facelift-3-generation",
+     "name": "3V / B8 Facelift (3. Generation)",
+     "yearFrom": 2019,
+     "yearTo": 2023,
+     "bodyType": "wagon",
+     "lengthMm": 4862,
+     "widthMm": 1864,
+     "heightMm": 1477,
+     "wheelbaseMm": 2841,
+     "trunkL": 660,
+     "trunkFoldedL": 1950,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tsi-4x4-benziner",
+       "name": "2.0 TSI 4x4 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 660,
+       "trunkFoldedL": 1950,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "4x4 trunk not separately confirmed."
+      },
+      {
+       "id": "1-5-tsi-benziner",
+       "name": "1.5 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 660,
+       "trunkFoldedL": 1950,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-diesel",
+       "name": "2.0 TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 660,
+       "trunkFoldedL": 1950,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-4x4-diesel",
+       "name": "2.0 TDI 4x4 (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 660,
+       "trunkFoldedL": 1950,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "4x4 trunk not separately confirmed."
+      },
+      {
+       "id": "1-4-tsi-iv-218-ps-plug-in-hybrid",
+       "name": "1.4 TSI iV 218 PS (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 218,
+       "awd": false,
+       "trunkL": 510,
+       "trunkFoldedL": 1800,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2023,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/superb/3generation-facelift/307602/",
+       "what": "Combi 1.4 TSI iV: 4862 / 1864 / 1477 mm, 510 / 1800 l"
+      },
+      {
+       "url": "https://www.motorsport-total.com/auto/news/skoda-superb-facelift-2019-preis-motoren-kofferraumvolumen-19083005",
+       "what": "Combi 660 / 1950 l, iV 510 l"
+      },
+      {
+       "url": "https://www.autobild.de/artikel/skoda-superb-facelift-2019-test-laenge-bilder-led-diesel-hybrid-masse-preis-sportline-combi-10615055.html",
+       "what": "Facelift dimensions, wheelbase 2841 mm, battery in front of the rear axle"
+      },
+      {
+       "url": "https://www.automoli.com/de/vehicles/skoda/superb/superb-iii-combi-facelift-2019-7144/",
+       "what": "Combi facelift 2019 data"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Facelift from autumn 2019 (model year 2020). iV PHEV (from 2020): 510 / 1800 l (ADAC). Automoli gives 1447 mm height for the iV, probably an error (ADAC says 1477). Superb Combi Scout (raised, 4x4) not researched."
+    }
+   ]
+  },
+  {
+   "id": "superb-limousine",
+   "name": "Superb Limousine",
+   "generations": [
+    {
+     "id": "2024-3y-b9-4-generation",
+     "name": "3Y / B9 (4. Generation)",
+     "yearFrom": 2024,
+     "yearTo": null,
+     "bodyType": "sedan",
+     "lengthMm": 4912,
+     "widthMm": 1849,
+     "heightMm": 1481,
+     "wheelbaseMm": null,
+     "trunkL": 645,
+     "trunkFoldedL": 1795,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tsi-4x4-benziner",
+       "name": "2.0 TSI 4x4 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 645,
+       "trunkFoldedL": 1795,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "4x4 trunk not separately confirmed."
+      },
+      {
+       "id": "1-5-tsi-mhev-150-ps-dsg-mild-hybrid",
+       "name": "1.5 TSI mHEV 150 PS DSG (Mild-Hybrid)",
+       "powertrain": "mhev",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 645,
+       "trunkFoldedL": 1795,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-diesel-auch-4x4",
+       "name": "2.0 TDI (Diesel, auch 4x4)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 645,
+       "trunkFoldedL": 1795,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-5-tsi-iv-204-ps-plug-in-hybrid",
+       "name": "1.5 TSI iV 204 PS (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 204,
+       "awd": false,
+       "trunkL": 486,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "486 l only from automobiledimension (marked with an asterisk). Folded volume not found."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.carwow.de/skoda/superb/technische-daten",
+       "what": "Limousine 645 / 1795 l"
+      },
+      {
+       "url": "https://www.autoscout24.at/auto/technische-daten/skoda/superb/",
+       "what": "Superb 3Y Limousine 4912 x 1849 x 1481 mm, 645 - 1795 l"
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/skoda/superb/",
+       "what": "Limousine 645 l (+20 l)"
+      },
+      {
+       "url": "https://www.automobiledimension.com/model/skoda/superb",
+       "what": "Superb iV trunk 486* l"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/%C5%A0koda_Superb_IV",
+       "what": "Superb IV: length 4902-4912 mm, height 1481-1506 mm"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Added as a missing body style. A liftback with a large tailgate. Manufacturer figure is 645 l (+20 vs. predecessor); ADAC measured 560 l. Wheelbase not confirmed separately for the Limousine (Combi: 2841 mm). The iV / PHEV trunk is only from automobiledimension (486 l, marked with an asterisk); folded value not found."
+    },
+    {
+     "id": "2019-3v-b8-facelift-3-generation",
+     "name": "3V / B8 Facelift (3. Generation)",
+     "yearFrom": 2019,
+     "yearTo": 2023,
+     "bodyType": "sedan",
+     "lengthMm": 4869,
+     "widthMm": 1864,
+     "heightMm": 1468,
+     "wheelbaseMm": 2841,
+     "trunkL": 625,
+     "trunkFoldedL": 1760,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tsi-4x4-benziner",
+       "name": "2.0 TSI 4x4 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 625,
+       "trunkFoldedL": 1760,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "4x4 trunk not separately confirmed."
+      },
+      {
+       "id": "1-5-tsi-benziner",
+       "name": "1.5 TSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": 150,
+       "awd": false,
+       "trunkL": 625,
+       "trunkFoldedL": 1760,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "2-0-tdi-diesel-auch-4x4",
+       "name": "2.0 TDI (Diesel, auch 4x4)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 625,
+       "trunkFoldedL": 1760,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "1-4-tsi-iv-218-ps-plug-in-hybrid",
+       "name": "1.4 TSI iV 218 PS (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 218,
+       "awd": false,
+       "trunkL": 485,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": 2023,
+       "notes": "Folded volume not found."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.skoda-media.de/model_motor/genpdf/23805",
+       "what": "Manufacturer data Superb iV Limousine 2021: length 4869, height 1468 mm, 485 l"
+      },
+      {
+       "url": "https://www.skoda-storyboard.com/de/modelle-de/superb-de/skoda-superb-iv-reichweite-ausstattung-und-details/",
+       "what": "Skoda: iV Limousine 485 l, Combi 510 l"
+      },
+      {
+       "url": "https://www.motorsport-total.com/auto/news/skoda-superb-facelift-2019-preis-motoren-kofferraumvolumen-19083005",
+       "what": "Limousine 625 / 1760 l, iV Limousine 485 l"
+      },
+      {
+       "url": "https://www.autobild.de/artikel/skoda-superb-facelift-2019-test-laenge-bilder-led-diesel-hybrid-masse-preis-sportline-combi-10615055.html",
+       "what": "Wheelbase 2841, width 1864 mm"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Liftback. Length and height are from the manufacturer data sheet for the Superb iV Limousine 2021 (4869 / 1468 mm). Width and wheelbase are shared with the Combi (ADAC / AUTO BILD). iV Limousine: 485 l (Skoda), folded value not found."
+    }
+   ]
+  }
+ ]
+}

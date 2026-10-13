@@ -1,19 +1,11 @@
 {
  "stats": {
-  "models": 25,
-  "generations": 35,
-  "variants": 191
+  "models": 97,
+  "generations": 139,
+  "variants": 555
  },
  "warnings": [
-  "BMW: keine Modelle",
-  "Škoda: keine Modelle",
-  "Audi: keine Modelle",
-  "Seat: keine Modelle",
-  "Cupra: keine Modelle",
-  "Opel: keine Modelle",
-  "Ford: keine Modelle",
-  "Hyundai: keine Modelle",
-  "Toyota: keine Modelle"
+  "Ford: keine Modelle"
  ],
  "unapplied": []
 }

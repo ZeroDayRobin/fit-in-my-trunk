@@ -24,13 +24,13 @@
    ]
   },
   {
-   "id": "p-ford",
+   "id": "p-ford-b",
    "brand": "Ford",
    "models": [
-    "Puma (inkl. Gen-E)",
-    "Kuga",
-    "Focus Turnier",
-    "Explorer (Elektro)"
+    "Puma (2. Gen inkl. Facelift 2024 und Puma Gen-E)",
+    "Kuga (3. Generation inkl. Facelift 2024, PHEV)",
+    "Focus Turnier (4. Generation, bis 2025)",
+    "Explorer (Elektro, ab 2024)"
    ]
   },
   {

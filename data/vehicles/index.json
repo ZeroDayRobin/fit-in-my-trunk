@@ -21,11 +21,25 @@
      "yearTo": null
     },
     {
+     "id": "golf",
+     "name": "Golf",
+     "bodyType": "hatchback",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
      "id": "golf-sportsvan",
      "name": "Golf Sportsvan",
      "bodyType": "van",
      "yearFrom": 2018,
      "yearTo": 2020
+    },
+    {
+     "id": "golf-variant",
+     "name": "Golf Variant",
+     "bodyType": "wagon",
+     "yearFrom": 2020,
+     "yearTo": null
     },
     {
      "id": "id-buzz",
@@ -40,6 +54,13 @@
      "bodyType": "van",
      "yearFrom": 2024,
      "yearTo": null
+    },
+    {
+     "id": "id-3",
+     "name": "ID.3",
+     "bodyType": "hatchback",
+     "yearFrom": 2020,
+     "yearTo": 2026
     },
     {
      "id": "id-4",
@@ -102,6 +123,13 @@
      "name": "Passat Variant",
      "bodyType": "wagon",
      "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "polo",
+     "name": "Polo",
+     "bodyType": "hatchback",
+     "yearFrom": 2017,
      "yearTo": null
     },
     {
@@ -175,6 +203,55 @@
    "kbaRank": 2,
    "models": [
     {
+     "id": "a-klasse-kompaktlimousine",
+     "name": "A-Klasse Kompaktlimousine",
+     "bodyType": "hatchback",
+     "yearFrom": 2018,
+     "yearTo": null
+    },
+    {
+     "id": "a-klasse-limousine",
+     "name": "A-Klasse Limousine",
+     "bodyType": "sedan",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "c-klasse-limousine",
+     "name": "C-Klasse Limousine",
+     "bodyType": "sedan",
+     "yearFrom": 2021,
+     "yearTo": null
+    },
+    {
+     "id": "c-klasse-t-modell",
+     "name": "C-Klasse T-Modell",
+     "bodyType": "wagon",
+     "yearFrom": 2021,
+     "yearTo": null
+    },
+    {
+     "id": "cla",
+     "name": "CLA",
+     "bodyType": "sedan",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "cla-shooting-brake",
+     "name": "CLA Shooting Brake",
+     "bodyType": "wagon",
+     "yearFrom": 2026,
+     "yearTo": null
+    },
+    {
+     "id": "e-klasse-t-modell",
+     "name": "E-Klasse T-Modell",
+     "bodyType": "wagon",
+     "yearFrom": 2016,
+     "yearTo": null
+    },
+    {
      "id": "gla",
      "name": "GLA",
      "bodyType": "suv",
@@ -187,6 +264,13 @@
      "bodyType": "suv",
      "yearFrom": 2019,
      "yearTo": null
+    },
+    {
+     "id": "glc",
+     "name": "GLC",
+     "bodyType": "suv",
+     "yearFrom": 2015,
+     "yearTo": null
     }
    ]
   },
@@ -194,37 +278,372 @@
    "id": "bmw",
    "name": "BMW",
    "kbaRank": 3,
-   "models": []
+   "models": [
+    {
+     "id": "1er",
+     "name": "1er",
+     "bodyType": "hatchback",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "2er-active-tourer",
+     "name": "2er Active Tourer",
+     "bodyType": "van",
+     "yearFrom": 2014,
+     "yearTo": null
+    },
+    {
+     "id": "3er-limousine",
+     "name": "3er Limousine",
+     "bodyType": "sedan",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "3er-touring",
+     "name": "3er Touring",
+     "bodyType": "wagon",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "5er-touring-inkl-i5-touring",
+     "name": "5er Touring (inkl. i5 Touring)",
+     "bodyType": "wagon",
+     "yearFrom": 2017,
+     "yearTo": null
+    },
+    {
+     "id": "ix3",
+     "name": "iX3",
+     "bodyType": "suv",
+     "yearFrom": 2021,
+     "yearTo": null
+    },
+    {
+     "id": "x1",
+     "name": "X1",
+     "bodyType": "suv",
+     "yearFrom": 2015,
+     "yearTo": null
+    },
+    {
+     "id": "x3",
+     "name": "X3",
+     "bodyType": "suv",
+     "yearFrom": 2017,
+     "yearTo": null
+    },
+    {
+     "id": "x5",
+     "name": "X5",
+     "bodyType": "suv",
+     "yearFrom": 2018,
+     "yearTo": null
+    }
+   ]
   },
   {
    "id": "skoda",
    "name": "Škoda",
    "kbaRank": 4,
-   "models": []
+   "models": [
+    {
+     "id": "elroq",
+     "name": "Elroq",
+     "bodyType": "suv",
+     "yearFrom": 2025,
+     "yearTo": null
+    },
+    {
+     "id": "enyaq",
+     "name": "Enyaq",
+     "bodyType": "suv",
+     "yearFrom": 2021,
+     "yearTo": null
+    },
+    {
+     "id": "enyaq-coupe",
+     "name": "Enyaq Coupé",
+     "bodyType": "suv-coupe",
+     "yearFrom": 2022,
+     "yearTo": null
+    },
+    {
+     "id": "fabia",
+     "name": "Fabia",
+     "bodyType": "hatchback",
+     "yearFrom": 2018,
+     "yearTo": null
+    },
+    {
+     "id": "fabia-combi",
+     "name": "Fabia Combi",
+     "bodyType": "wagon",
+     "yearFrom": 2018,
+     "yearTo": 2021
+    },
+    {
+     "id": "kamiq",
+     "name": "Kamiq",
+     "bodyType": "suv",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "karoq",
+     "name": "Karoq",
+     "bodyType": "suv",
+     "yearFrom": 2017,
+     "yearTo": null
+    },
+    {
+     "id": "kodiaq",
+     "name": "Kodiaq",
+     "bodyType": "suv",
+     "yearFrom": 2017,
+     "yearTo": null
+    },
+    {
+     "id": "octavia-combi",
+     "name": "Octavia Combi",
+     "bodyType": "wagon",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "octavia-limousine",
+     "name": "Octavia Limousine",
+     "bodyType": "sedan",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "scala",
+     "name": "Scala",
+     "bodyType": "hatchback",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "superb-combi",
+     "name": "Superb Combi",
+     "bodyType": "wagon",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "superb-limousine",
+     "name": "Superb Limousine",
+     "bodyType": "sedan",
+     "yearFrom": 2019,
+     "yearTo": null
+    }
+   ]
   },
   {
    "id": "audi",
    "name": "Audi",
    "kbaRank": 5,
-   "models": []
+   "models": [
+    {
+     "id": "a3-sportback",
+     "name": "A3 Sportback",
+     "bodyType": "hatchback",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "a4-avant",
+     "name": "A4 Avant",
+     "bodyType": "wagon",
+     "yearFrom": 2016,
+     "yearTo": 2024
+    },
+    {
+     "id": "a5-avant",
+     "name": "A5 Avant",
+     "bodyType": "wagon",
+     "yearFrom": 2024,
+     "yearTo": null
+    },
+    {
+     "id": "a6-avant",
+     "name": "A6 Avant",
+     "bodyType": "wagon",
+     "yearFrom": 2018,
+     "yearTo": null
+    },
+    {
+     "id": "q3",
+     "name": "Q3",
+     "bodyType": "suv",
+     "yearFrom": 2018,
+     "yearTo": null
+    },
+    {
+     "id": "q3-sportback",
+     "name": "Q3 Sportback",
+     "bodyType": "suv-coupe",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "q4-e-tron",
+     "name": "Q4 e-tron",
+     "bodyType": "suv",
+     "yearFrom": 2021,
+     "yearTo": null
+    },
+    {
+     "id": "q4-sportback-e-tron",
+     "name": "Q4 Sportback e-tron",
+     "bodyType": "suv-coupe",
+     "yearFrom": 2021,
+     "yearTo": null
+    },
+    {
+     "id": "q5",
+     "name": "Q5",
+     "bodyType": "suv",
+     "yearFrom": 2017,
+     "yearTo": null
+    }
+   ]
   },
   {
    "id": "seat",
    "name": "Seat",
    "kbaRank": 6,
-   "models": []
+   "models": [
+    {
+     "id": "arona",
+     "name": "Arona",
+     "bodyType": "suv",
+     "yearFrom": 2017,
+     "yearTo": null
+    },
+    {
+     "id": "ateca",
+     "name": "Ateca",
+     "bodyType": "suv",
+     "yearFrom": 2016,
+     "yearTo": null
+    },
+    {
+     "id": "ibiza",
+     "name": "Ibiza",
+     "bodyType": "hatchback",
+     "yearFrom": 2017,
+     "yearTo": null
+    },
+    {
+     "id": "leon",
+     "name": "Leon",
+     "bodyType": "hatchback",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "leon-sportstourer",
+     "name": "Leon Sportstourer",
+     "bodyType": "wagon",
+     "yearFrom": 2020,
+     "yearTo": null
+    }
+   ]
   },
   {
    "id": "cupra",
    "name": "Cupra",
    "kbaRank": 6,
-   "models": []
+   "models": [
+    {
+     "id": "born",
+     "name": "Born",
+     "bodyType": "hatchback",
+     "yearFrom": 2021,
+     "yearTo": null
+    },
+    {
+     "id": "formentor",
+     "name": "Formentor",
+     "bodyType": "suv-coupe",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "tavascan",
+     "name": "Tavascan",
+     "bodyType": "suv-coupe",
+     "yearFrom": 2024,
+     "yearTo": null
+    },
+    {
+     "id": "terramar",
+     "name": "Terramar",
+     "bodyType": "suv",
+     "yearFrom": 2024,
+     "yearTo": null
+    }
+   ]
   },
   {
    "id": "opel",
    "name": "Opel",
    "kbaRank": 7,
-   "models": []
+   "models": [
+    {
+     "id": "astra",
+     "name": "Astra",
+     "bodyType": "hatchback",
+     "yearFrom": 2022,
+     "yearTo": null
+    },
+    {
+     "id": "astra-sports-tourer",
+     "name": "Astra Sports Tourer",
+     "bodyType": "wagon",
+     "yearFrom": 2022,
+     "yearTo": null
+    },
+    {
+     "id": "corsa",
+     "name": "Corsa",
+     "bodyType": "hatchback",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "crossland",
+     "name": "Crossland",
+     "bodyType": "suv",
+     "yearFrom": 2017,
+     "yearTo": 2024
+    },
+    {
+     "id": "frontera",
+     "name": "Frontera",
+     "bodyType": "suv",
+     "yearFrom": 2024,
+     "yearTo": null
+    },
+    {
+     "id": "grandland",
+     "name": "Grandland",
+     "bodyType": "suv",
+     "yearFrom": 2017,
+     "yearTo": null
+    },
+    {
+     "id": "mokka",
+     "name": "Mokka",
+     "bodyType": "suv",
+     "yearFrom": 2021,
+     "yearTo": null
+    }
+   ]
   },
   {
    "id": "ford",
@@ -236,13 +655,106 @@
    "id": "hyundai",
    "name": "Hyundai",
    "kbaRank": 9,
-   "models": []
+   "models": [
+    {
+     "id": "i10",
+     "name": "i10",
+     "bodyType": "hatchback",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "i20",
+     "name": "i20",
+     "bodyType": "hatchback",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "i30-kombi",
+     "name": "i30 Kombi",
+     "bodyType": "wagon",
+     "yearFrom": 2017,
+     "yearTo": null
+    },
+    {
+     "id": "inster",
+     "name": "Inster",
+     "bodyType": "hatchback",
+     "yearFrom": 2025,
+     "yearTo": null
+    },
+    {
+     "id": "ioniq-5",
+     "name": "Ioniq 5",
+     "bodyType": "suv",
+     "yearFrom": 2021,
+     "yearTo": null
+    },
+    {
+     "id": "kona",
+     "name": "Kona",
+     "bodyType": "suv",
+     "yearFrom": 2017,
+     "yearTo": null
+    },
+    {
+     "id": "tucson",
+     "name": "Tucson",
+     "bodyType": "suv",
+     "yearFrom": 2020,
+     "yearTo": null
+    }
+   ]
   },
   {
    "id": "toyota",
    "name": "Toyota",
    "kbaRank": 10,
-   "models": []
+   "models": [
+    {
+     "id": "c-hr",
+     "name": "C-HR",
+     "bodyType": "suv-coupe",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "corolla-cross",
+     "name": "Corolla Cross",
+     "bodyType": "suv",
+     "yearFrom": 2022,
+     "yearTo": null
+    },
+    {
+     "id": "corolla-touring-sports",
+     "name": "Corolla Touring Sports",
+     "bodyType": "wagon",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "rav4",
+     "name": "RAV4",
+     "bodyType": "suv",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "yaris",
+     "name": "Yaris",
+     "bodyType": "hatchback",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "yaris-cross",
+     "name": "Yaris Cross",
+     "bodyType": "suv",
+     "yearFrom": 2021,
+     "yearTo": null
+    }
+   ]
   }
  ]
 }

@@ -3,6 +3,966 @@
  "name": "Mercedes-Benz",
  "models": [
   {
+   "id": "a-klasse-kompaktlimousine",
+   "name": "A-Klasse Kompaktlimousine",
+   "generations": [
+    {
+     "id": "2023-w177-mopf-2023",
+     "name": "W177 (Mopf 2023)",
+     "yearFrom": 2023,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 4419,
+     "widthMm": 1796,
+     "heightMm": 1440,
+     "wheelbaseMm": 2729,
+     "trunkL": 355,
+     "trunkFoldedL": 1195,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "a-180-a-200-a-250-4matic-benziner-48-v-mildhybrid",
+       "name": "A 180 / A 200 / A 250 4MATIC (Benziner, 48-V-Mildhybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 355,
+       "trunkFoldedL": 1195,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Standard value from carwow / AUTO BILD for the regular five-door. AUTO BILD's tech overview also lists 345-1210 l."
+      },
+      {
+       "id": "a-180-d-a-200-d-a-220-d-diesel",
+       "name": "A 180 d / A 200 d / A 220 d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 355,
+       "trunkFoldedL": 1195,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No diesel-specific figure found; the sources give 355/1195 l as the general standard value."
+      },
+      {
+       "id": "a-250-e-plug-in-hybrid",
+       "name": "A 250 e (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 310,
+       "trunkFoldedL": 1125,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Manufacturer value per the ADAC catalogue (A 250 e AMG-Line, 01/24-07/24) and carwow. ADAC measured only 260 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1727-mercedes-benz-a-klasse",
+       "what": "Length 4419, width without mirrors 1796, height 1440, wheelbase 2729 (page for model year 2026)"
+      },
+      {
+       "url": "https://www.carwow.de/mercedes/a-klasse/technische-daten",
+       "what": "Trunk 355/1195 l; A 250 e 310-1125 l"
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/mercedes-benz/a-klasse/",
+       "what": "Trunk 355-1195 l (tech overview also says 345-1210 l)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/mercedes-a-klasse/",
+       "what": "A 250 e: 310 l / 1125 l (manufacturer), ADAC-measured 260 l"
+      },
+      {
+       "url": "https://www.automoli.com/de/vehicles/mercedes-benz/klasa-a/klasa-a-w177-facelift-2022-9050/",
+       "what": "Differing facelift figures 4428 mm / 1423 mm / 350-1190 l (single aggregator source, not used)"
+      },
+      {
+       "url": "https://www.motorsport-total.com/auto/news/mercedes-a-klasse-2023-mehr-modellpflege-denn-facelift-22101204",
+       "what": "Facelift 2023 is a light model update (improved A 250 e battery)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Split from the pre-facelift model because the stated trunk volume changed (370->355 l). Dimensions come from angurten and may be pre-facelift values carried over. Automoli gives 4428/1423 mm for the facelift (unverified). AMG A 35/A 45 S not found."
+    },
+    {
+     "id": "2018-w177-2018-2022",
+     "name": "W177 (2018-2022)",
+     "yearFrom": 2018,
+     "yearTo": 2022,
+     "bodyType": "hatchback",
+     "lengthMm": 4419,
+     "widthMm": 1796,
+     "heightMm": 1440,
+     "wheelbaseMm": 2729,
+     "trunkL": 370,
+     "trunkFoldedL": 1210,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "a-160-a-250-benziner",
+       "name": "A 160 - A 250 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 370,
+       "trunkFoldedL": 1210,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "a-180-d-a-220-d-diesel",
+       "name": "A 180 d - A 220 d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 370,
+       "trunkFoldedL": 1210,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "No diesel-specific figure found; generation value."
+      },
+      {
+       "id": "a-250-e-plug-in-hybrid",
+       "name": "A 250 e (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Smaller than the base car (the facelift A 250 e has 310/1125 l), but no pre-facelift figure was found."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1727-mercedes-benz-a-klasse",
+       "what": "Dimensions 4419/1796/1440, wheelbase 2729"
+      },
+      {
+       "url": "https://gebrauchtwagenberater.de/mercedes-a-klasse-w177-technische-daten/",
+       "what": "Trunk 370-1210 l (base version)"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_A-Class_(W177)",
+       "what": "Generation overview, A 250 e 15.6 kWh battery"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "The base trunk volume comes from a used-car guide, not from the manufacturer directly."
+    }
+   ]
+  },
+  {
+   "id": "a-klasse-limousine",
+   "name": "A-Klasse Limousine",
+   "generations": [
+    {
+     "id": "2019-v177",
+     "name": "V177",
+     "yearFrom": 2019,
+     "yearTo": null,
+     "bodyType": "sedan",
+     "lengthMm": 4549,
+     "widthMm": null,
+     "heightMm": 1446,
+     "wheelbaseMm": 2729,
+     "trunkL": 420,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "a-180-a-200-a-220-benziner",
+       "name": "A 180 / A 200 / A 220 (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 420,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Since the 2023 facelift the petrol engines are 48-V mild hybrids."
+      },
+      {
+       "id": "a-250-e-plug-in-hybrid",
+       "name": "A 250 e (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "carwow gives a range of 332-420 l with the rear seats up, but does not assign the lower value to a powertrain explicitly."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1848-mercedes-benz-a-klasse-limousine",
+       "what": "Length 4549, height 1446, wheelbase 2729"
+      },
+      {
+       "url": "https://www.carwow.de/mercedes/a-klasse-limousine/technische-daten",
+       "what": "Trunk 420 l (range 332-420 l)"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Added as a missing model from the same segment. Only researched briefly; width and folded volume not found."
+    }
+   ]
+  },
+  {
+   "id": "c-klasse-limousine",
+   "name": "C-Klasse Limousine",
+   "generations": [
+    {
+     "id": "2021-w206",
+     "name": "W206",
+     "yearFrom": 2021,
+     "yearTo": null,
+     "bodyType": "sedan",
+     "lengthMm": 4751,
+     "widthMm": 1820,
+     "heightMm": 1446,
+     "wheelbaseMm": 2865,
+     "trunkL": 455,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "c-180-c-200-c-300-benziner-48-v-mildhybrid",
+       "name": "C 180 / C 200 / C 300 (Benziner, 48-V-Mildhybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 455,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "c-220-d-c-300-d-diesel",
+       "name": "C 220 d / C 300 d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 455,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Diesel with 48-V ISG; no separate figure found, generation value."
+      },
+      {
+       "id": "c-300-e-c-400-e-plug-in-hybrid",
+       "name": "C 300 e / C 400 e (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 315,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "315 l per JESMB (vs 455 l for the combustion version). One search summary also mentioned 360 l, but that is the T-Modell value. Medium confidence."
+      },
+      {
+       "id": "mercedes-amg-c-63-s-e-performance",
+       "name": "Mercedes-AMG C 63 S E PERFORMANCE",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 280,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "280 l per angurten. Longer than the base car (Wikipedia length range up to 4842 mm), but no exact variant value was verified."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2035-mercedes-benz-c-klasse-limousine",
+       "what": "Height 1446 (C 200), trunk 455 l, AMG C 63 S 280 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/mercedes-c-klasse/",
+       "what": "ADAC test C 200: measured 390 l / 775 l folded"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Mercedes-Benz_Baureihe_206",
+       "what": "Length 4751-4842 mm depending on version"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/206/322419/",
+       "what": "Width 1820 and wheelbase 2865 (same platform, T-Modell data sheet)"
+      },
+      {
+       "url": "https://jesmb.de/6473/",
+       "what": "C-Klasse plug-in hybrid trunk: Limousine 315 l vs 455 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Height 1446 is from angurten. The official Mercedes figure might be lower (angurten is also about 8 mm above ADAC for the T-Modell). angurten's length of 4893 mm is implausible and was not used. Predecessor W205 (until 2021) was not covered for budget reasons. No VDA folded volume is published for the sedan; ADAC measured 775 l."
+    }
+   ]
+  },
+  {
+   "id": "c-klasse-t-modell",
+   "name": "C-Klasse T-Modell",
+   "generations": [
+    {
+     "id": "2021-s206",
+     "name": "S206",
+     "yearFrom": 2021,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": 4751,
+     "widthMm": 1820,
+     "heightMm": 1454,
+     "wheelbaseMm": 2865,
+     "trunkL": 490,
+     "trunkFoldedL": 1510,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "c-180-c-200-c-300-benziner-48-v-mildhybrid",
+       "name": "C 180 / C 200 / C 300 (Benziner, 48-V-Mildhybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 490,
+       "trunkFoldedL": 1510,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "c-220-d-c-300-d-diesel",
+       "name": "C 220 d / C 300 d (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 490,
+       "trunkFoldedL": 1510,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Generation value; no separate diesel figure."
+      },
+      {
+       "id": "c-220-d-4matic-all-terrain",
+       "name": "C 220 d 4MATIC All-Terrain",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 490,
+       "trunkFoldedL": 1510,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1494,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Height 1494 (carwow, autozeitung). Length is disputed (carwow 4793, autozeitung 4755), so null."
+      },
+      {
+       "id": "c-300-e-c-400-e-plug-in-hybrid",
+       "name": "C 300 e / C 400 e (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 360,
+       "trunkFoldedL": 1375,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Manufacturer value per ADAC (C 300 e T-Modell AMG Line) and JESMB. ADAC measured 300/715/1260 l."
+      },
+      {
+       "id": "mercedes-amg-c-63-s-e-performance-t-modell",
+       "name": "Mercedes-AMG C 63 S E PERFORMANCE T-Modell",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 320,
+       "trunkFoldedL": 1335,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Per angurten."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/206/322419/",
+       "what": "C 300 e T-Modell: 4751/1820/1454 mm, wheelbase 2865, trunk 360/1375 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2036-C-Klasse+T-Modell",
+       "what": "Trunk 490-1510 l (C 200), AMG C 63 S 320-1335 l, height 1462"
+      },
+      {
+       "url": "https://jesmb.de/6473/",
+       "what": "PHEV 360 l vs 490 l, 1375 l vs 1510 l"
+      },
+      {
+       "url": "https://www.carwow.de/mercedes/c-klasse-all-terrain/technische-daten",
+       "what": "All-Terrain 4793/1820/1494, 490/1510 l"
+      },
+      {
+       "url": "https://www.autozeitung.de/mercedes-c-klasse-t-modell-2021-preis-technische-daten-186015.html",
+       "what": "All-Terrain 4755 mm length, 1494 mm height"
+      },
+      {
+       "url": "https://www.automoli.com/de/vehicles/mercedes-benz/klasa-c/c-class-t-modell-s206-8160/",
+       "what": "Length 4751, trunk 490/1510 l"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/mercedes-c-klasse-t-modell/",
+       "what": "ADAC test T-Modell, measured values"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Height 1454 per ADAC (AMG Line); angurten gives 1462 for the C 200. Predecessor S205 (until 2021) not covered. No published load-floor measurements found."
+    }
+   ]
+  },
+  {
+   "id": "cla",
+   "name": "CLA",
+   "generations": [
+    {
+     "id": "2025-c174-c178-3-generation",
+     "name": "C174 / C178 (3. Generation)",
+     "yearFrom": 2025,
+     "yearTo": null,
+     "bodyType": "sedan",
+     "lengthMm": 4723,
+     "widthMm": 1855,
+     "heightMm": 1468,
+     "wheelbaseMm": 2790,
+     "trunkL": 405,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "cla-180-cla-200-cla-220-4matic-hybrid-1-5-l-48-v-e-motor",
+       "name": "CLA 180 / CLA 200 / CLA 220 4MATIC (Hybrid, 1,5 l + 48-V-E-Motor)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 405,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": 1450,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Internal code C178. 1.5-l turbo plus 22 kW electric motor, 1.3 kWh battery. 405 l and 1450 mm height per encyCARpedia (CLA 200). No frunk."
+      },
+      {
+       "id": "cla-250-mit-eq-technologie-elektro-85-kwh",
+       "name": "CLA 250+ mit EQ-Technologie (Elektro 85 kWh)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 405,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Rear trunk 405 l (Wikipedia). Plus a frunk of about 101 l (101 l confirmed for the Shooting Brake; not verified separately for the sedan)."
+      },
+      {
+       "id": "cla-350-4matic-mit-eq-technologie-elektro-85-kwh",
+       "name": "CLA 350 4MATIC mit EQ-Technologie (Elektro 85 kWh)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 405,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Generation value; frunk see above."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://de.wikipedia.org/wiki/Mercedes-Benz_Baureihe_174/178",
+       "what": "About 4.72 x 1.86 x 1.47 m, wheelbase 2.79 m, trunk 405 l, hybrid powertrain, 85 kWh battery"
+      },
+      {
+       "url": "https://www.encycarpedia.com/de/mercedes/26-cla-200-limousine",
+       "what": "CLA 200 hybrid: 4723/1855/1450, wheelbase 2790, 405 l"
+      },
+      {
+       "url": "https://www.autozine.org/Archive/Mercedes/new/CLA_C174.html",
+       "what": "Height 1468 mm"
+      },
+      {
+       "url": "https://www.auto-motor-und-sport.de/marken-modelle/mercedes/cla/c174-c178/technische-daten/",
+       "what": "Technical data overview of all engines"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Height differs by source (1450 vs 1468). 1468 is used for the generation (matches Wikipedia's 1.47 m); the hybrid gets 1450 per encyCARpedia. Power figures were not researched (null)."
+    },
+    {
+     "id": "2019-c118-2-generation-incl-mopf-2023",
+     "name": "C118 (2. Generation, incl. Mopf 2023)",
+     "yearFrom": 2019,
+     "yearTo": 2025,
+     "bodyType": "sedan",
+     "lengthMm": 4688,
+     "widthMm": null,
+     "heightMm": null,
+     "wheelbaseMm": null,
+     "trunkL": 460,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "cla-180-cla-250-cla-180-d-cla-220-d-benziner-diesel",
+       "name": "CLA 180 - CLA 250 / CLA 180 d - CLA 220 d (Benziner/Diesel)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "mercedes-amg-cla-45-s-4matic",
+       "name": "Mercedes-AMG CLA 45 S 4MATIC+",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 460,
+       "trunkFoldedL": null,
+       "lengthMm": 4693,
+       "widthMm": 1857,
+       "heightMm": 1413,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Dimensions and 460 l per AUTO BILD table."
+      },
+      {
+       "id": "cla-250-e-plug-in-hybrid",
+       "name": "CLA 250 e (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 395,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "395 l from mobile.de model text (one reader comment says 390 l). Low confidence."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autobild.de/artikel/mercedes-cla-2.-generation-c-118-gebrauchtwagen-test-28408933.html",
+       "what": "460 l; AMG CLA 45 S 4693/1857/1413"
+      },
+      {
+       "url": "https://mbpassion.de/2019/01/erster-blick-auf-die-neue-cla-generation-der-baureihe-c-118/",
+       "what": "Launch 2019: 460 l"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1885-mercedes-benz-cla",
+       "what": "C118 data sheet, length 4688"
+      },
+      {
+       "url": "https://www.mobile.de/auto/mercedes/cla/c118/modell/",
+       "what": "395 l (PHEV context), CLA 250 e 15.6 kWh"
+      },
+      {
+       "url": "https://www.auto-data.net/en/mercedes-benz-cla-coupe-c118-facelift-2023-generation-9219",
+       "what": "Facelift 2023: length 4701, width 1857 (not used separately)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Called 'CLA Coupé' at Mercedes (4-door). Width, height and wheelbase of the base version not confirmed by search. Facelift 2023 is reportedly slightly longer (4701 mm, auto-data); no separate entry because the trunk is unchanged."
+    }
+   ]
+  },
+  {
+   "id": "cla-shooting-brake",
+   "name": "CLA Shooting Brake",
+   "generations": [
+    {
+     "id": "2026-x174-elektrisch",
+     "name": "X174 (elektrisch)",
+     "yearFrom": 2026,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": null,
+     "widthMm": null,
+     "heightMm": null,
+     "wheelbaseMm": null,
+     "trunkL": 455,
+     "trunkFoldedL": 1290,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "cla-250-shooting-brake-mit-eq-technologie-elektro-85-kwh",
+       "name": "CLA 250+ Shooting Brake mit EQ-Technologie (Elektro 85 kWh)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 455,
+       "trunkFoldedL": 1290,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Plus a 101-l frunk. Rear seat 40:20:40."
+      },
+      {
+       "id": "cla-350-4matic-shooting-brake-mit-eq-technologie-elektro-85-",
+       "name": "CLA 350 4MATIC Shooting Brake mit EQ-Technologie (Elektro 85 kWh)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 455,
+       "trunkFoldedL": 1290,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Plus a 101-l frunk."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.elektroauto-news.net/news/daten-fakten-mercedes-benz-cla-shooting-brake",
+       "what": "455/1290 l, frunk 101 l, 85 kWh"
+      },
+      {
+       "url": "https://www.autobild.de/artikel/mercedes-cla-250-shooting-brake-test-28750339.html",
+       "what": "Test CLA 250+ Shooting Brake"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/mercedes-cla-shooting-brake-fahrbericht/",
+       "what": "Drive report"
+      },
+      {
+       "url": "https://mbpassion.de/2026/04/mercedes-cla-shooting-brake-2026-elektrischer-kombi-mit-stil-reichweite-und-maximaler-alltagstauglichkeit/",
+       "what": "Shooting Brake 2026 overview"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Mercedes-Benz_Baureihe_174/178",
+       "what": "Like the sedan about 4.72 x 1.86 x 1.47 m, wheelbase 2.79 m (rounded)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Added as a missing model from the same segment. Exact mm dimensions not found; Wikipedia gives a rounded 4.72 x 1.86 x 1.47 m and 2.79 m wheelbase. t-online lists 1209 l (probably a typo). The predecessor X118 (about 485 l) and any hybrid Shooting Brake were not researched."
+    }
+   ]
+  },
+  {
+   "id": "e-klasse-t-modell",
+   "name": "E-Klasse T-Modell",
+   "generations": [
+    {
+     "id": "2023-s214",
+     "name": "S214",
+     "yearFrom": 2023,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": 4949,
+     "widthMm": 1880,
+     "heightMm": 1469,
+     "wheelbaseMm": 2961,
+     "trunkL": 615,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "e-200-e-220-d-e-450-d-4matic-verbrenner-48-v-mildhybrid",
+       "name": "E 200 / E 220 d / E 450 d 4MATIC (Verbrenner, 48-V-Mildhybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 615,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "615 l for the combustion versions; the folded value was not verified."
+      },
+      {
+       "id": "e-220-d-4matic-all-terrain",
+       "name": "E 220 d 4MATIC All-Terrain",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 615,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "All-Terrain dimensions (higher, wider cladding) not found; trunk assumed to equal the combustion T-Modell."
+      },
+      {
+       "id": "e-300-e-e-400-e-4matic-plug-in-hybrid",
+       "name": "E 300 e / E 400 e 4MATIC (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 460,
+       "trunkFoldedL": 1675,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Per AutoScout24 and JESMB."
+      },
+      {
+       "id": "mercedes-amg-e-53-hybrid-4matic-t-modell",
+       "name": "Mercedes-AMG E 53 HYBRID 4MATIC+ T-Modell",
+       "powertrain": "phev",
+       "powerPs": 585,
+       "awd": true,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Plug-in hybrid, 585 PS. No specific trunk figure found (probably near the PHEV value of 460 l, unverified)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2115-mercedes-benz-e-klasse-t-modell",
+       "what": "E 220 d: 4949/1880 (without mirrors)/1469, wheelbase 2961; AMG E 53 585 PS PHEV"
+      },
+      {
+       "url": "https://www.autobild.de/artikel/mercedes-e-klasse-t-modell-s-214-alle-infos-zum-kombi-22792871.html",
+       "what": "Length, width, wheelbase confirmed (height differs by 1 mm)"
+      },
+      {
+       "url": "https://www.autoscout24.de/informieren/news/ist-das-neue-e-klasse-t-modell-der-letzte-mercedes-kombi/",
+       "what": "615 l combustion, 460 l plug-in hybrid"
+      },
+      {
+       "url": "https://jesmb.de/19742/",
+       "what": "PHEV 460-1675 l"
+      },
+      {
+       "url": "https://auto-motor-und-sport.de/neuheiten/mercedes-e-klasse-t-modell-weltpremiere-daten-preis-s214/amp",
+       "what": "World premiere S214, data"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Folded volume of the combustion versions not confirmed by search (null)."
+    },
+    {
+     "id": "2016-s213-incl-mopf-2020",
+     "name": "S213 (incl. Mopf 2020)",
+     "yearFrom": 2016,
+     "yearTo": 2023,
+     "bodyType": "wagon",
+     "lengthMm": 4933,
+     "widthMm": null,
+     "heightMm": null,
+     "wheelbaseMm": null,
+     "trunkL": 640,
+     "trunkFoldedL": 1820,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "e-200-e-450-e-220-d-e-400-d-benziner-diesel",
+       "name": "E 200 - E 450 / E 220 d - E 400 d (Benziner/Diesel)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 640,
+       "trunkFoldedL": 1820,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "all-terrain-4matic",
+       "name": "All-Terrain 4MATIC",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 640,
+       "trunkFoldedL": 1820,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Since 2017. Own dimensions not found; trunk assumed to equal the T-Modell."
+      },
+      {
+       "id": "e-300-de-e-300-e-plug-in-hybrid",
+       "name": "E 300 de / E 300 e (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Smaller because of the battery; no T-Modell figure found (JESMB gives 540->370 l only for the facelift sedan)."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.mobile.de/auto/mercedes/e-klasse/2016/kombi/modell/daten-fakten/",
+       "what": "Trunk 640 l, max 1820 l"
+      },
+      {
+       "url": "https://www.autobild.de/artikel/mercedes-e-klasse-t-modell-2016-vorstellung-8540351.html",
+       "what": "Length 4933 mm"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1647-mercedes-benz-e-klasse-t-modell",
+       "what": "Data sheet for S213"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Mercedes-Benz_Baureihe_213",
+       "what": "All-Terrain on sale from March 2017"
+      },
+      {
+       "url": "https://jesmb.de/3172/",
+       "what": "E 300 de facelift sedan 370 l (sedan only)"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Predecessor included because the generation changed in 2023. Width, height and wheelbase were not covered by the search budget."
+    }
+   ]
+  },
+  {
    "id": "gla",
    "name": "GLA",
    "generations": [
@@ -1032,6 +1992,173 @@
       "corrected": 0
      },
      "notes": "Market launch Germany 12/2019 (first full model year 2020). Optional 7-seater (third row). Official press figure for the 5-seater: 570-1805 l. The 570 l grows to 760 l with the second row slid forward and the backrest upright. No verified 7-seat VDA value was found; a UK review says about 130 l with all 7 seats in use. Dimensions from encyCARpedia (GLB 180 d / 220 d 4MATIC), not checked against an ADAC pre-facelift page. Variant power taken from the identical facelift engine line-up (autozeitung)."
+    }
+   ]
+  },
+  {
+   "id": "glc",
+   "name": "GLC",
+   "generations": [
+    {
+     "id": "2022-x254",
+     "name": "X254",
+     "yearFrom": 2022,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4716,
+     "widthMm": 1890,
+     "heightMm": 1640,
+     "wheelbaseMm": 2888,
+     "trunkL": 620,
+     "trunkFoldedL": 1680,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "glc-200-4matic-glc-300-4matic-benziner-48-v-mildhybrid",
+       "name": "GLC 200 4MATIC / GLC 300 4MATIC (Benziner, 48-V-Mildhybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 620,
+       "trunkFoldedL": 1680,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "glc-220-d-4matic-diesel-48-v-mildhybrid",
+       "name": "GLC 220 d 4MATIC (Diesel, 48-V-Mildhybrid)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 620,
+       "trunkFoldedL": 1680,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC: GLC 220 d 4MATIC 620/1680 l."
+      },
+      {
+       "id": "glc-300-e-glc-400-e-4matic-plug-in-hybrid",
+       "name": "GLC 300 e / GLC 400 e 4MATIC (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 470,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "470 l per ultimatespecs and carwow ('150 l less'). JESMB gives 463 l. Folded about 1520-1530 l, unconfirmed."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2084-mercedes-benz-glc",
+       "what": "4716/1890/1640, wheelbase 2888"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glc/254/325062/",
+       "what": "GLC 220 d 4MATIC: 620/1680 l"
+      },
+      {
+       "url": "https://jesmb.de/12272/",
+       "what": "620 l (+70 l vs predecessor)"
+      },
+      {
+       "url": "https://www.carwow.de/mercedes/glc/technische-daten",
+       "what": "PHEV 150 l smaller; predecessor 550 l"
+      },
+      {
+       "url": "https://www.ultimatespecs.com/car-specs/Mercedes-Benz/133393/Mercedes-Benz-X254-GLC-300e-4MATIC.html",
+       "what": "GLC 300e 4MATIC 470 l"
+      },
+      {
+       "url": "https://jesmb.de/12333/",
+       "what": "PHEV trio: 463 l (X254) vs 395 l (X253 PHEV)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Wikipedia gives 600 l (different from the 620 l in most sources). AMG GLC 43 / GLC 63 S E PERFORMANCE not found. The new electric GLC 'mit EQ-Technologie' (2026) is a separate model and was not researched."
+    },
+    {
+     "id": "2015-x253-incl-mopf-2019",
+     "name": "X253 (incl. Mopf 2019)",
+     "yearFrom": 2015,
+     "yearTo": 2022,
+     "bodyType": "suv",
+     "lengthMm": null,
+     "widthMm": null,
+     "heightMm": null,
+     "wheelbaseMm": null,
+     "trunkL": 550,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "glc-200-glc-300-glc-200-d-glc-300-d-4matic-benziner-diesel",
+       "name": "GLC 200 - GLC 300 / GLC 200 d - GLC 300 d 4MATIC (Benziner/Diesel)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 550,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "glc-300-e-glc-300-de-4matic-plug-in-hybrid",
+       "name": "GLC 300 e / GLC 300 de 4MATIC (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 395,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "395 l per JESMB (predecessor PHEV figure), low confidence."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.carwow.de/mercedes/glc/technische-daten",
+       "what": "Trunk grew from 550 l (X253) to 620 l"
+      },
+      {
+       "url": "https://jesmb.de/12333/",
+       "what": "Predecessor PHEV 395 l"
+      },
+      {
+       "url": "https://jesmb.de/12272/",
+       "what": "+70 l vs predecessor (consistent with 550 l)"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Dimensions and folded volume were not researched (search budget)."
     }
    ]
   }

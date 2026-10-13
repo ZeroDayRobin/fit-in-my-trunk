@@ -1,0 +1,898 @@
+{
+ "id": "audi",
+ "name": "Audi",
+ "models": [
+  {
+   "id": "a3-sportback",
+   "name": "A3 Sportback",
+   "generations": [
+    {
+     "id": "2020-8y-inkl-facelift-2024",
+     "name": "8Y (inkl. Facelift 2024)",
+     "yearFrom": 2020,
+     "yearTo": null,
+     "bodyType": "hatchback",
+     "lengthMm": 4352,
+     "widthMm": 1816,
+     "heightMm": 1441,
+     "wheelbaseMm": 2635,
+     "trunkL": 380,
+     "trunkFoldedL": 1200,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "tfsi-benziner-inkl-mhev",
+       "name": "TFSI (Benziner, inkl. MHEV)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1200,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC data sheet 30 TFSI (06/24-06/25), manufacturer figure."
+      },
+      {
+       "id": "tdi-diesel",
+       "name": "TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1200,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Search summary gives 380/1200 for petrol and diesel. ADAC's own measurement of the 35 TDI: 265/1005 l (not VDA)."
+      },
+      {
+       "id": "tfsi-e-plug-in-hybrid",
+       "name": "TFSI e (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 280,
+       "trunkFoldedL": 1100,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Facelift: 1.5 TFSI e / 45 TFSI e 272 PS. ADAC overview and carwow both give 280/1100. ADAC measurement 1.5 TFSI e: 205/945 l. Pre-facelift 40/45 TFSI e not checked separately."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a3/8y-facelift/335888/",
+       "what": "Facelift dimensions L 4352 / W 1816 (1984 with mirrors) / H 1441 / WB 2635; trunk 380/1200"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/audi-a3/",
+       "what": "TFSI e trunk 280/1100; ADAC measured values"
+      },
+      {
+       "url": "https://www.carwow.de/audi/a3-sportback/technische-daten",
+       "what": "Confirms TFSI e 280/1100"
+      },
+      {
+       "url": "https://www.auto-data.net/en/audi-a3-sportback-8y-facelift-2024-35-tfsi-150hp-52191",
+       "what": "Confirms length/height of the facelift"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Dimensions are for the 2024 facelift. The pre-facelift (2020-2024) is a few mm shorter (exact value not verified here). Trunk figures stayed the same, so no separate entry. S3/RS 3 not researched."
+    }
+   ]
+  },
+  {
+   "id": "a4-avant",
+   "name": "A4 Avant",
+   "generations": [
+    {
+     "id": "2016-b9-facelift-2019",
+     "name": "B9 (Facelift 2019)",
+     "yearFrom": 2016,
+     "yearTo": 2024,
+     "bodyType": "wagon",
+     "lengthMm": 4762,
+     "widthMm": 1847,
+     "heightMm": 1435,
+     "wheelbaseMm": null,
+     "trunkL": 495,
+     "trunkFoldedL": 1495,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "rs-4-avant",
+       "name": "RS 4 Avant",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 495,
+       "trunkFoldedL": 1495,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "kofferraum.org, manufacturer figure."
+      },
+      {
+       "id": "tfsi-benziner",
+       "name": "TFSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 495,
+       "trunkFoldedL": 1495,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "tdi-diesel",
+       "name": "TDI (Diesel)",
+       "powertrain": "diesel",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 495,
+       "trunkFoldedL": 1495,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "carwow gives 495/1495 for the A4 Avant across the range."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.carwow.de/audi/a4-avant/technische-daten",
+       "what": "Trunk 495/1495 l"
+      },
+      {
+       "url": "https://kofferraum.org/masse/audi/a4-avant/",
+       "what": "External dimensions 476 x 185 x 144 cm (rounded), facelift 2019"
+      },
+      {
+       "url": "https://kofferraum.org/?p=24208",
+       "what": "RS 4 Avant 495/1495 l manufacturer figure"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "The exact L/W/H of 4762/1847/1435 mm were not found in mm in a source. They match kofferraum.org's rounded 476/185/144 cm but should be checked against the Audi data sheet. Wheelbase not verified. No PHEV was offered. A g-tron (CNG) with a smaller trunk existed until about 2020, but its value was not checked."
+    }
+   ]
+  },
+  {
+   "id": "a5-avant",
+   "name": "A5 Avant",
+   "generations": [
+    {
+     "id": "2024-b10",
+     "name": "B10",
+     "yearFrom": 2024,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": 4829,
+     "widthMm": 1860,
+     "heightMm": 1460,
+     "wheelbaseMm": 2892,
+     "trunkL": null,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "e-hybrid-quattro-plug-in-hybrid",
+       "name": "e-hybrid quattro (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 361,
+       "trunkFoldedL": 1306,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2025,
+       "yearTo": null,
+       "notes": "ADAC manufacturer figure (from 04/25). 299 PS and 367 PS versions. kofferraum-check.de gives 361-1361 l for the folded value instead."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a5/b10/339591/",
+       "what": "Dimensions L 4829 / W 1860 (2099 with mirrors) / H 1460 / WB 2892; e-hybrid trunk 361/1306"
+      },
+      {
+       "url": "https://vision-mobility.de/elektroauto/obere-mittelklasse/audi-a5-avant-e-hybrid-quattro-220-kw-plugin-hybrid-reichweite-70-km-299-ps-bestellbar-379192.html",
+       "what": "Confirms e-hybrid trunk"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/audi-a5-test/",
+       "what": "ADAC measurement of the mild hybrid: 465/1370 l (not VDA manufacturer)"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-audi-a5-avant-b10-2024-bis/",
+       "what": "e-hybrid 361-1361 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "The manufacturer VDA trunk figure for the TFSI/TDI (non-PHEV) was NOT found. My unconfirmed recollection of Audi's press value is 476/1527 l; please verify. ADAC measured 465/1370 l. Dimensions are from the ADAC e-hybrid page. Motor1 gives a length of 4820 mm instead."
+    }
+   ]
+  },
+  {
+   "id": "a6-avant",
+   "name": "A6 Avant",
+   "generations": [
+    {
+     "id": "2025-c9",
+     "name": "C9",
+     "yearFrom": 2025,
+     "yearTo": null,
+     "bodyType": "wagon",
+     "lengthMm": 4999,
+     "widthMm": null,
+     "heightMm": null,
+     "wheelbaseMm": 2927,
+     "trunkL": 503,
+     "trunkFoldedL": 1534,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "2-0-tfsi-benziner-frontantrieb",
+       "name": "2.0 TFSI (Benziner, Frontantrieb)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 503,
+       "trunkFoldedL": 1534,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "tdi-v6-tfsi-quattro-mhev-plus",
+       "name": "TDI / V6 TFSI quattro (MHEV plus)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 466,
+       "trunkFoldedL": 1497,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Smaller because of the MHEV-plus system and quattro hardware."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://de.motor1.com/news/751058/audi-a6-avant-2025-erstkontakt/",
+       "what": "Length 4.99 m (+60 mm vs. predecessor), wheelbase 2927, trunk 466/503 - 1497/1534 l"
+      },
+      {
+       "url": "https://www.autoscout24.at/informieren/testberichte/audi/a6/audi-a6-avant-2025-im-ersten-check-alles-premium-oder-was/",
+       "what": "Trunk figures by drivetrain"
+      },
+      {
+       "url": "https://www.angurten.de/is/abmessungen/2232-audi-a6-avant-2025",
+       "what": "Database dimensions (wheelbase 2923)"
+      },
+      {
+       "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-test-audi-a6-avant-tfsi-typ-c9-2024-bis/",
+       "what": "Trunk test of the C9 Avant TFSI"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Length 4999 is derived from 4939 + 60 mm (sources: 4.99 m). The wheelbase is 2927 in one report and 2923 in a database. Width/height not verified. The e-hybrid (PHEV, from about 2025/26) trunk was not found. The electric A6 Avant e-tron is a separate model and was not researched."
+    },
+    {
+     "id": "2018-c8",
+     "name": "C8",
+     "yearFrom": 2018,
+     "yearTo": 2025,
+     "bodyType": "wagon",
+     "lengthMm": 4939,
+     "widthMm": null,
+     "heightMm": null,
+     "wheelbaseMm": 2924,
+     "trunkL": 565,
+     "trunkFoldedL": 1680,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "tfsi-tdi-benziner-diesel-mhev",
+       "name": "TFSI / TDI (Benziner/Diesel, MHEV)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 565,
+       "trunkFoldedL": 1680,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 55 TFSI quattro (08/20-04/23), manufacturer figure."
+      },
+      {
+       "id": "tfsi-e-quattro-plug-in-hybrid",
+       "name": "TFSI e quattro (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 367,
+       "awd": true,
+       "trunkL": 405,
+       "trunkFoldedL": 1535,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": "Audi press release and data sheet: 405 l, no step in the load floor, 1535 l folded. Applies to the 50 and 55 TFSI e."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a6/c8/314374",
+       "what": "55 TFSI trunk 565/1680"
+      },
+      {
+       "url": "https://audi-mediacenter.com/de/pressemitteilungen/audi-oberklasse-kombi-jetzt-als-plug-in-hybridder-neue-a6-avant-tfsi-e-quattro-12762/download",
+       "what": "Audi press release: TFSI e trunk 405/1535"
+      },
+      {
+       "url": "https://uploads.audi-mediacenter.com/system/production/car_motorizations/1247/file_de/817b875e54a89e3795d0d19c0c7d0a9ee4991af3/TD-Audi-A6-Avant-55-TFSIe-quattro-S_tronic-195kW_270kW_240829.pdf",
+       "what": "Audi data sheet 55 TFSI e"
+      },
+      {
+       "url": "https://www.auto-data.net/de/audi-a6-avant-c8-55-tfsi-e-367hp-plug-in-hybrid-quattro-ultra-s-tronic-42727",
+       "what": "Length 4939, wheelbase 2924, 405-1535 l"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Width and height not verified (null). The 2023 facelift brought no relevant change in trunk volume."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "name": "Q3",
+   "generations": [
+    {
+     "id": "2025-3-generation",
+     "name": "3. Generation",
+     "yearFrom": 2025,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4531,
+     "widthMm": 1859,
+     "heightMm": 1601,
+     "wheelbaseMm": 2681,
+     "trunkL": 488,
+     "trunkFoldedL": 1386,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "tfsi-tdi-benziner-diesel",
+       "name": "TFSI / TDI (Benziner/Diesel)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 488,
+       "trunkFoldedL": 1386,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "e-hybrid-plug-in-hybrid",
+       "name": "e-hybrid (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 375,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Low confidence: automobiledimension shows 375* l, and the basis is unclear. hh-autos gives up to 1360 l folded, which conflicts. Check against Audi data."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autobild.de/marken-modelle/audi/q3/",
+       "what": "L 4531 / W 1859 / H 1601 / WB 2681; trunk 488/1386"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/audi-q3-test/",
+       "what": "ADAC measurement 470/1380 l; height about 1.58 m"
+      },
+      {
+       "url": "https://www.automobiledimension.com/model/audi/q3",
+       "what": "e-hybrid 375* l; height 1588"
+      },
+      {
+       "url": "https://hh-autos.com/audi-q3/",
+       "what": "PHEV up to 1360 l (conflicting)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Height varies by source (1601 Auto Bild, 1588 automobiledimension, about 1580 ADAC)."
+    },
+    {
+     "id": "2018-f3",
+     "name": "F3",
+     "yearFrom": 2018,
+     "yearTo": 2025,
+     "bodyType": "suv",
+     "lengthMm": 4484,
+     "widthMm": 1849,
+     "heightMm": 1585,
+     "wheelbaseMm": 2680,
+     "trunkL": 530,
+     "trunkFoldedL": 1525,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "tfsi-benziner",
+       "name": "TFSI (Benziner)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 530,
+       "trunkFoldedL": 1525,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "ADAC 35 TFSI, identical across 2018-2025."
+      },
+      {
+       "id": "45-tfsi-e-plug-in-hybrid",
+       "name": "45 TFSI e (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 245,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1375,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/f3/333689/",
+       "what": "35 TFSI: L 4484 / W 1849 (2024 with mirrors) / H 1585 / WB 2680; trunk 530/1525"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/f3/295935/",
+       "what": "Same values at the 2018 launch"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/f3/318777",
+       "what": "45 TFSI e: trunk 380/1375, L 4484, WB 2680"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "530 l applies with the sliding rear bench in its standard position. TDI not checked separately; probably the same as TFSI (not verified)."
+    }
+   ]
+  },
+  {
+   "id": "q3-sportback",
+   "name": "Q3 Sportback",
+   "generations": [
+    {
+     "id": "2025-3-generation",
+     "name": "3. Generation",
+     "yearFrom": 2025,
+     "yearTo": null,
+     "bodyType": "suv-coupe",
+     "lengthMm": null,
+     "widthMm": null,
+     "heightMm": null,
+     "wheelbaseMm": null,
+     "trunkL": 488,
+     "trunkFoldedL": 1275,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "alle-motorisierungen",
+       "name": "Alle Motorisierungen",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": null,
+       "trunkFoldedL": null,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autobild.de/marken-modelle/audi/q3/",
+       "what": "New Q3 Sportback trunk 488-1275 l"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Dimensions and e-hybrid trunk not researched."
+    },
+    {
+     "id": "2019-f3",
+     "name": "F3",
+     "yearFrom": 2019,
+     "yearTo": 2025,
+     "bodyType": "suv-coupe",
+     "lengthMm": 4500,
+     "widthMm": null,
+     "heightMm": null,
+     "wheelbaseMm": null,
+     "trunkL": 530,
+     "trunkFoldedL": 1400,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "tfsi-tdi-benziner-diesel",
+       "name": "TFSI / TDI (Benziner/Diesel)",
+       "powertrain": "petrol",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 530,
+       "trunkFoldedL": 1400,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Value according to Auto Bild ('Vorgänger bot noch 530 bis 1400 Liter')."
+      },
+      {
+       "id": "45-tfsi-e-plug-in-hybrid",
+       "name": "45 TFSI e (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 245,
+       "awd": false,
+       "trunkL": 380,
+       "trunkFoldedL": 1250,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2021,
+       "yearTo": null,
+       "notes": ""
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/f3/318779",
+       "what": "Sportback 45 TFSI e: L 4500, trunk 380/1250"
+      },
+      {
+       "url": "https://www.autobild.de/marken-modelle/audi/q3/",
+       "what": "Predecessor Sportback 530-1400 l"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Added because it is clearly part of the segment. Width/height/wheelbase not researched (probably the same as the Q3 except height)."
+    }
+   ]
+  },
+  {
+   "id": "q4-e-tron",
+   "name": "Q4 e-tron",
+   "generations": [
+    {
+     "id": "2021-fz-inkl-facelift-2023",
+     "name": "FZ (inkl. Facelift 2023)",
+     "yearFrom": 2021,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4588,
+     "widthMm": 1865,
+     "heightMm": 1632,
+     "wheelbaseMm": 2764,
+     "trunkL": 520,
+     "trunkFoldedL": 1490,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "e-tron-elektro-35-40-45-50-55",
+       "name": "e-tron (Elektro, 35/40/45/50/55)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 520,
+       "trunkFoldedL": 1490,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Rear trunk only; no frunk (MEB). Differences between power and battery versions not checked separately. Some sources give 515 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.angurten.de/is/abmessungen/1724-audi-q4-e-tron",
+       "what": "L 4588 / W 1865 / H 1632 / WB 2764; trunk 520/1490"
+      },
+      {
+       "url": "https://www.mobile.de/auto/audi/q4-e-tron/2021/modell/daten-fakten/",
+       "what": "Length 4588, wheelbase 2764"
+      },
+      {
+       "url": "https://kofferraum.org/volumen/audi/q4-e-tron/",
+       "what": "Trunk 520/1490"
+      }
+     ],
+     "confidence": "high",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "carwow gives a length of 4603 mm (deviation, possibly the facelift or a different measurement)."
+    }
+   ]
+  },
+  {
+   "id": "q4-sportback-e-tron",
+   "name": "Q4 Sportback e-tron",
+   "generations": [
+    {
+     "id": "2021-fz",
+     "name": "FZ",
+     "yearFrom": 2021,
+     "yearTo": null,
+     "bodyType": "suv-coupe",
+     "lengthMm": null,
+     "widthMm": null,
+     "heightMm": 1614,
+     "wheelbaseMm": null,
+     "trunkL": 535,
+     "trunkFoldedL": 1460,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "e-tron-elektro",
+       "name": "e-tron (Elektro)",
+       "powertrain": "bev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 535,
+       "trunkFoldedL": 1460,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": "Rear trunk only, no frunk."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.carwow.de/audi/q4-sportback-e-tron/technische-daten",
+       "what": "Trunk 535/1460, height 1614"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Added because it is clearly part of the segment. Length/width/wheelbase not separately verified (probably the same as the Q4 e-tron)."
+    }
+   ]
+  },
+  {
+   "id": "q5",
+   "name": "Q5",
+   "generations": [
+    {
+     "id": "2024-gu-3-generation",
+     "name": "GU (3. Generation)",
+     "yearFrom": 2024,
+     "yearTo": null,
+     "bodyType": "suv",
+     "lengthMm": 4717,
+     "widthMm": 1900,
+     "heightMm": null,
+     "wheelbaseMm": 2820,
+     "trunkL": 520,
+     "trunkFoldedL": 1473,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "tfsi-tdi-benziner-diesel-mhev-plus",
+       "name": "TFSI / TDI (Benziner/Diesel, MHEV plus)",
+       "powertrain": "mhev",
+       "powerPs": null,
+       "awd": false,
+       "trunkL": 520,
+       "trunkFoldedL": 1473,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": null,
+       "yearTo": null,
+       "notes": ""
+      },
+      {
+       "id": "e-hybrid-quattro-plug-in-hybrid",
+       "name": "e-hybrid quattro (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": null,
+       "awd": true,
+       "trunkL": 438,
+       "trunkFoldedL": 1358,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2025,
+       "yearTo": null,
+       "notes": "Audi press release. Q5 Sportback e-hybrid: 433 l."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.motorsport-total.com/auto/news/audi-q5-2024-die-abmessungen-der-neuauflage-im-ueberblick-24092504",
+       "what": "L 4717 x W 1900, WB 2820"
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Audi_Q5_GU",
+       "what": "Height about 1.65 m, trunk max 1473 l"
+      },
+      {
+       "url": "https://www.carwow.de/audi/q5/technische-daten",
+       "what": "Trunk 520/1473"
+      },
+      {
+       "url": "https://www.audi-mediacenter.com/en/press-releases/the-audi-q5-e-hybrid-all-rounder-with-great-electric-range-16685",
+       "what": "e-hybrid trunk 438/1358 (Sportback 433)"
+      },
+      {
+       "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/audi-q5-test/",
+       "what": "ADAC measurement 475/1395 l (combustion)"
+      }
+     ],
+     "confidence": "medium",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "Exact height not verified (about 1.65 m). Q5 Sportback (2020-, new 2024-) is a separate model and not researched."
+    },
+    {
+     "id": "2017-fy-facelift-2020",
+     "name": "FY (Facelift 2020)",
+     "yearFrom": 2017,
+     "yearTo": 2024,
+     "bodyType": "suv",
+     "lengthMm": 4682,
+     "widthMm": 1893,
+     "heightMm": 1662,
+     "wheelbaseMm": null,
+     "trunkL": null,
+     "trunkFoldedL": null,
+     "loadSpace": null,
+     "variants": [
+      {
+       "id": "tfsi-e-quattro-plug-in-hybrid",
+       "name": "TFSI e quattro (Plug-in-Hybrid)",
+       "powertrain": "phev",
+       "powerPs": 367,
+       "awd": true,
+       "trunkL": 465,
+       "trunkFoldedL": 1405,
+       "lengthMm": null,
+       "widthMm": null,
+       "heightMm": null,
+       "yearFrom": 2020,
+       "yearTo": null,
+       "notes": "465/1405 according to a Dutch listing (55 TFSI e). autotijd.be gives 460/1400. Audi data sheet (eTD 55 TFSIe) found but not read."
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://www.autoscout24.at/auto/technische-daten/audi/q5",
+       "what": "L 4682 x W 1893 x H 1662"
+      },
+      {
+       "url": "https://autotijd.be/it/dimensioni/audi/q5/55-tfsi-e-quattro-367-hp-awd-4229",
+       "what": "55 TFSI e: L 4682, W 1893, WB 2824, trunk 460-1400"
+      },
+      {
+       "url": "https://autorai.nl/autozoeker/audi/q5/3709",
+       "what": "55 TFSI e trunk 465 l"
+      },
+      {
+       "url": "https://uploads.audi-mediacenter.com/system/production/car_motorizations/933/file_en/1c194a48ecee337757e5f1e0933a8111196df7f6/eTD-Audi-Q5-55-TFSIe-quattro-S_tronic-270kW_240402.pdf",
+       "what": "Audi data sheet Q5 55 TFSI e (content not read)"
+      }
+     ],
+     "confidence": "low",
+     "verification": {
+      "checked": 0,
+      "confirmed": 0,
+      "corrected": 0
+     },
+     "notes": "The manufacturer trunk figure for TFSI/TDI was NOT found (550/1550 not confirmed; my unconfirmed recollection of the official value is 520/1520). Wheelbase conflicts: 2819 vs 2824, so null."
+    }
+   ]
+  }
+ ]
+}

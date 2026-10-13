@@ -1,0 +1,506 @@
+{
+ "id": "p-bmw-2",
+ "brand": "BMW",
+ "data": {
+  "models": [
+   {
+    "brand": "BMW",
+    "model": "3er Limousine",
+    "generations": [
+     {
+      "name": "G20 (inkl. LCI 2022)",
+      "yearFrom": 2019,
+      "yearTo": null,
+      "bodyType": "sedan",
+      "lengthMm": 4709,
+      "widthMm": 1827,
+      "heightMm": 1435,
+      "wheelbaseMm": 2851,
+      "trunkL": 480,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "confidence": "high",
+      "notes": "The dimensions are from BMW press data sheets for the pre-facelift car (320i 07/2019, 320d 02/2020). The 2022 facelift (LCI) adds about 4 mm of length (about 4713 mm), and the trunk volume did not change, so it is not split into its own entry. The LCI height of the Limousine was not checked. A sedan has no published VDA maximum with the seats folded (40:20:40 split rear seat). The M3 Limousine (G80) is not covered.",
+      "variants": [
+       {
+        "name": "320i / 330i (Benziner)",
+        "powertrain": "petrol",
+        "trunkL": 480,
+        "trunkFoldedL": null,
+        "notes": "Variants with the 59 l tank have 480 l, per bmw.de."
+       },
+       {
+        "name": "318d / 320d / 330d (Diesel, ab LCI 48V-Mildhybrid)",
+        "powertrain": "diesel",
+        "trunkL": 480,
+        "trunkFoldedL": null
+       },
+       {
+        "name": "xDrive (Allrad)",
+        "powertrain": "petrol",
+        "awd": true,
+        "trunkL": 480,
+        "trunkFoldedL": null,
+        "notes": "Same 480 l as the rear-wheel-drive car."
+       },
+       {
+        "name": "330e / 330e xDrive (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 292,
+        "trunkL": 375,
+        "trunkFoldedL": null,
+        "notes": "The trunk is smaller because the battery sits under the floor. bmw.de gives 375 l for the variant with the 40 l tank, and ADAC confirms 375 l."
+       },
+       {
+        "name": "M340i xDrive",
+        "powertrain": "mhev",
+        "awd": true,
+        "trunkL": 480,
+        "trunkFoldedL": null,
+        "notes": "Has the 59 l tank, so 480 l per the bmw.de variant table."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://press.bmwgroup.com/deutschland/article/attachment/T0234765DE/329372",
+        "what": "BMW press data sheet G20: length 4709, width 1827, height 1435 mm, trunk 480 l"
+       },
+       {
+        "url": "https://press.bmwgroup.com/austria/article/attachment/T0299463DE/436303",
+        "what": "BMW press data sheet G20 (320i/320d), 480 l"
+       },
+       {
+        "url": "https://www.bmw.de/de/neufahrzeuge/3er/bmw-3-er-limousine/bmw-3er-limousine-phev-technische-daten.html",
+        "what": "bmw.de PHEV technical data: 375 l (40 l tank) and 480 l (59 l tank)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/3er-reihe/g20-g21-g80/300175/",
+        "what": "ADAC: 330e trunk 375 l"
+       },
+       {
+        "url": "https://www.auto-data.net/en/bmw-3-series-sedan-g20-lci-facelift-2022-330e-292hp-plug-in-hybrid-xdrive-steptronic-45818",
+        "what": "330e LCI 292 PS, 375 l (secondary source)"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "BMW",
+    "model": "3er Touring",
+    "generations": [
+     {
+      "name": "G21 (inkl. LCI 2022)",
+      "yearFrom": 2019,
+      "yearTo": null,
+      "bodyType": "wagon",
+      "lengthMm": 4713,
+      "widthMm": 1827,
+      "heightMm": 1448,
+      "wheelbaseMm": 2851,
+      "trunkL": 500,
+      "trunkFoldedL": 1510,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "The dimensions are bmw.de LCI values (published there for the 330e Touring). The pre-facelift car was about 4709 mm long, and the trunk did not change at the facelift. The M3 Touring (G81) is not covered.",
+      "variants": [
+       {
+        "name": "320i / 330i (Benziner)",
+        "powertrain": "petrol",
+        "trunkL": 500,
+        "trunkFoldedL": 1510
+       },
+       {
+        "name": "318d / 320d / 330d (Diesel, ab LCI 48V-Mildhybrid)",
+        "powertrain": "diesel",
+        "trunkL": 500,
+        "trunkFoldedL": 1510
+       },
+       {
+        "name": "xDrive (Allrad, Verbrenner)",
+        "powertrain": "diesel",
+        "awd": true,
+        "trunkL": 500,
+        "trunkFoldedL": 1510
+       },
+       {
+        "name": "330e / 330e xDrive (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 292,
+        "lengthMm": 4713,
+        "heightMm": 1448,
+        "trunkL": 410,
+        "trunkFoldedL": 1420,
+        "notes": "bmw.de gives 410-1420 l for the PHEV. One search summary linked 500-1510 l to an xDrive variant, but that most likely refers to the combustion-engine xDrive cars. Check the 330e xDrive Touring in the configurator."
+       },
+       {
+        "name": "M340i / M340d xDrive",
+        "powertrain": "mhev",
+        "awd": true,
+        "trunkL": 500,
+        "trunkFoldedL": 1510
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.bmw.de/de/neufahrzeuge/3er/bmw-3-er-touring/bmw-3er-touring-technische-daten.html",
+        "what": "bmw.de G21 technical data: 4713 x 1827 x 1448 mm (330e), 410-1420 l PHEV, 500-1510 l"
+       },
+       {
+        "url": "https://www.bmw.lu/de/all-models/3-series/bmw-3-er-touring/bmw-3er-touring-phev-technische-daten.html",
+        "what": "BMW Luxembourg PHEV: wheelbase 2851 mm, width with mirrors 2068 mm"
+       },
+       {
+        "url": "https://www.7-forum.com/news/2019/bmw_3er_touring_g21/technische_daten.pdf",
+        "what": "BMW G21 technical data press PDF 2019 (pre-LCI)"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/bmw-3er-touring-g21-2019-test-preise-motoren-kofferraum-abmessungen-marktstart--13947531.html",
+        "what": "AUTO BILD G21 trunk and dimensions overview"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "BMW",
+    "model": "5er Touring (inkl. i5 Touring)",
+    "generations": [
+     {
+      "name": "G61 / i5 Touring",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "wagon",
+      "lengthMm": 5060,
+      "widthMm": 1900,
+      "heightMm": 1515,
+      "wheelbaseMm": 2995,
+      "trunkL": 570,
+      "trunkFoldedL": 1700,
+      "loadSpace": {
+       "heightMm": 692,
+       "lengthMm": 1080,
+       "widthMm": 1380,
+       "widthBetweenArchesMm": 1147,
+       "lengthFoldedMm": null,
+       "openingHeightMm": null,
+       "sillHeightMm": null,
+       "source": "bmw.de: load space 69.2 cm high x 108 cm deep x 114.7-138 cm wide"
+      },
+      "confidence": "high",
+      "notes": "BMW gives the same 570-1700 l for every drivetrain: petrol, diesel, PHEV and the electric i5 Touring. The i5 Touring has no frunk. Width with mirrors is 2156 mm. The 550e and M5 Touring have a 3006 mm wheelbase.",
+      "variants": [
+       {
+        "name": "520i (Benziner, 48V-Mildhybrid)",
+        "powertrain": "mhev",
+        "trunkL": 570,
+        "trunkFoldedL": 1700
+       },
+       {
+        "name": "520d / 520d xDrive (Diesel, 48V-Mildhybrid)",
+        "powertrain": "diesel",
+        "trunkL": 570,
+        "trunkFoldedL": 1700
+       },
+       {
+        "name": "530e / 530e xDrive (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "trunkL": 570,
+        "trunkFoldedL": 1700,
+        "notes": "Confirmed by ADAC (530e Touring xDrive, 07/24-10/25) and BMW: no volume loss for the PHEV."
+       },
+       {
+        "name": "550e xDrive (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "awd": true,
+        "trunkL": 570,
+        "trunkFoldedL": 1700,
+        "notes": "Wheelbase 3006 mm per bmw.ch. The trunk follows BMW's statement that volume is the same for all drivetrains; it was not checked separately for this variant."
+       },
+       {
+        "name": "i5 eDrive40 Touring (Elektro)",
+        "powertrain": "bev",
+        "trunkL": 570,
+        "trunkFoldedL": 1700,
+        "notes": "No frunk."
+       },
+       {
+        "name": "i5 xDrive40 Touring (Elektro, 394 PS)",
+        "powertrain": "bev",
+        "awd": true,
+        "powerPs": 394,
+        "trunkL": 570,
+        "trunkFoldedL": 1700
+       },
+       {
+        "name": "i5 M60 xDrive Touring (Elektro, 601 PS)",
+        "powertrain": "bev",
+        "awd": true,
+        "powerPs": 601,
+        "trunkL": 570,
+        "trunkFoldedL": 1700
+       },
+       {
+        "name": "M5 Touring (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "awd": true,
+        "lengthMm": 5096,
+        "widthMm": 1970,
+        "heightMm": 1516,
+        "trunkL": 500,
+        "trunkFoldedL": 1630,
+        "notes": "G99, from 2025. Wheelbase 3006 mm, width with mirrors 2156 mm. The trunk is smaller than the regular Touring."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.bmw.de/de/neufahrzeuge/5er/5-series-touring/bmw-5er-touring-technische-daten.html",
+        "what": "bmw.de G61: 5060 x 1900 x 1515 mm, wheelbase 2995, 570-1700 l, load space 692 x 1080 x 1147-1380 mm"
+       },
+       {
+        "url": "https://www.bmw.de/de/neufahrzeuge/5er/5-series-touring/5-series-touring-2024-g61phev-technical-data.html",
+        "what": "bmw.de G61 PHEV technical data: 570-1700 l"
+       },
+       {
+        "url": "https://www.bmw.ch/de/bmw-neuwagen/5er/5er-touring/bmw-5er-touring-phev-technische-daten.html",
+        "what": "bmw.ch: PHEV wheelbase 3006 mm for some models; i5 Touring 570-1700 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/5er-reihe/g60-g61-g90-g99/332582/",
+        "what": "ADAC 530e Touring xDrive: 570/1700 l, 5060/1900 mm"
+       },
+       {
+        "url": "https://www.bmw.de/de/neufahrzeuge/m/m5-series/bmw-m5-touring-technische-daten.html",
+        "what": "bmw.de M5 Touring: 5096 x 1970 x 1516 mm, 500-1630 l"
+       },
+       {
+        "url": "https://www.7-forum.com/news/2024/bmw_5er/m5_touring_g99/technische_daten.pdf",
+        "what": "BMW M5 Touring technical data PDF: wheelbase 3006 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/5er-reihe/g60-g61-g90-g99/345290/",
+        "what": "ADAC M5 Touring data"
+       }
+      ]
+     },
+     {
+      "name": "G31 (inkl. LCI 2020)",
+      "yearFrom": 2017,
+      "yearTo": 2024,
+      "bodyType": "wagon",
+      "lengthMm": 4943,
+      "widthMm": 1868,
+      "heightMm": 1498,
+      "wheelbaseMm": 2975,
+      "trunkL": 570,
+      "trunkFoldedL": 1700,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "The facelift was in 2020, and the trunk did not change. The 4943 mm length comes from magazines (autozeitung/motor-talk), not a manufacturer sheet. The 2975 mm wheelbase is from memory of BMW data and was not checked in this search. No M5 Touring was offered in this generation.",
+      "variants": [
+       {
+        "name": "520i / 530i / 540i (Benziner, ab LCI 48V-Mildhybrid)",
+        "powertrain": "petrol",
+        "trunkL": 570,
+        "trunkFoldedL": 1700
+       },
+       {
+        "name": "520d / 530d / 540d xDrive (Diesel, ab LCI 48V-Mildhybrid)",
+        "powertrain": "diesel",
+        "trunkL": 570,
+        "trunkFoldedL": 1700
+       },
+       {
+        "name": "530e / 530e xDrive Touring (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "powerPs": 292,
+        "yearFrom": 2020,
+        "trunkL": 430,
+        "trunkFoldedL": 1560,
+        "notes": "The battery sits under the rear seat and floor. The 430/1560 l figure comes only from auto-data.net. A BMW press sheet for the 530e Touring (11/2020) exists, but its contents were not shown."
+       },
+       {
+        "name": "M550i xDrive",
+        "powertrain": "petrol",
+        "awd": true,
+        "trunkL": 570,
+        "trunkFoldedL": 1700
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autozeitung.de/bmw-5er-touring-2017-110359.html",
+        "what": "autozeitung: G31 trunk 570-1700 l"
+       },
+       {
+        "url": "https://www.motor-talk.de/news/der-5er-mit-der-kleinen-klappe-t5933249.html",
+        "what": "motor-talk: length 4943, height 1498, width 1868 mm"
+       },
+       {
+        "url": "https://www.bimmertoday.de/2017/02/01/bmw-5er-touring-2017-alle-bilder-und-infos-zum-kombi-g31",
+        "what": "G31 launch data, 570-1700 l"
+       },
+       {
+        "url": "https://www.auto-data.net/de/bmw-5-series-touring-g31-lci-facelift-2020-530e-292hp-plug-in-hybrid-xdrive-steptronic-42241",
+        "what": "530e Touring 292 PS: 430-1560 l"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0317776DE/461541",
+        "what": "BMW press information 11/2020: 530e Touring (body data; contents not extracted)"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "BMW",
+    "model": "X5",
+    "generations": [
+     {
+      "name": "G05 LCI (Facelift)",
+      "yearFrom": 2023,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4935,
+      "widthMm": 2004,
+      "heightMm": 1755,
+      "wheelbaseMm": 2975,
+      "trunkL": 650,
+      "trunkFoldedL": 1870,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Height is 1755 mm per ADAC (xDrive50e). Other sources give 1753 or 1765 mm. A 7-seat option (third row) exists, but its trunk volume was not found. The X5 M Competition (F95) is not covered.",
+      "variants": [
+       {
+        "name": "xDrive40i (Benziner, 48V-Mildhybrid)",
+        "powertrain": "mhev",
+        "awd": true,
+        "trunkL": 650,
+        "trunkFoldedL": 1870
+       },
+       {
+        "name": "xDrive30d / xDrive40d (Diesel, 48V-Mildhybrid)",
+        "powertrain": "diesel",
+        "awd": true,
+        "trunkL": 650,
+        "trunkFoldedL": 1870
+       },
+       {
+        "name": "xDrive50e (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "awd": true,
+        "trunkL": 500,
+        "trunkFoldedL": 1720,
+        "notes": "BMW press data sheet and ADAC: 500/1720 l, 4935 x 2004 x 1755 mm, 69 l tank."
+       },
+       {
+        "name": "M60i xDrive",
+        "powertrain": "mhev",
+        "awd": true,
+        "trunkL": 650,
+        "trunkFoldedL": 1870,
+        "notes": "Inferred from the 650-1870 l range given for the non-PHEV X5. Not checked for this variant."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0408159DE/574406",
+        "what": "BMW press technical data X5 xDrive50e: 500/1720 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x5/g05-f95-facelift/327257/",
+        "what": "ADAC X5 xDrive50e LCI: 4935/2004/1755 mm, wheelbase 2975, 500/1720 l"
+       },
+       {
+        "url": "https://www.carsales.com.au/research/bmw/x5/2023/",
+        "what": "X5 2023 trunk range 500 (PHEV) to 650-1870 l"
+       },
+       {
+        "url": "https://www.truedelta.com/-LC-vs-BMW-X5-specs-comparison,1356-29,2019-2023",
+        "what": "2023 X5 length 4935, width 2004 mm"
+       }
+      ]
+     },
+     {
+      "name": "G05 (Vor-Facelift)",
+      "yearFrom": 2018,
+      "yearTo": 2023,
+      "bodyType": "suv",
+      "lengthMm": 4922,
+      "widthMm": 2004,
+      "heightMm": 1745,
+      "wheelbaseMm": 2975,
+      "trunkL": 650,
+      "trunkFoldedL": 1870,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Some sources give 645/1860 l. BMW's standard figure is 650-1870 l. A 7-seat option exists; no trunk figure for it was found.",
+      "variants": [
+       {
+        "name": "xDrive40i (Benziner)",
+        "powertrain": "petrol",
+        "awd": true,
+        "trunkL": 650,
+        "trunkFoldedL": 1870
+       },
+       {
+        "name": "xDrive30d / M50d (Diesel)",
+        "powertrain": "diesel",
+        "awd": true,
+        "trunkL": 650,
+        "trunkFoldedL": 1870
+       },
+       {
+        "name": "xDrive45e (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "awd": true,
+        "yearFrom": 2019,
+        "trunkL": 500,
+        "trunkFoldedL": null,
+        "notes": "500 l, consistent with the LCI xDrive50e and the 500 l lower bound given by carsales. The folded maximum was not found."
+       },
+       {
+        "name": "M50i (Benziner)",
+        "powertrain": "petrol",
+        "awd": true,
+        "trunkL": 650,
+        "trunkFoldedL": 1870
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.7-forum.com/news/2018/bmw_x5_g05/technische_daten.pdf",
+        "what": "BMW G05 technical data press PDF (xDrive40i)"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1841-bmw-x5-2019",
+        "what": "G05 dimensions 4922/2004/1745 mm, wheelbase 2975"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/BMW_G05",
+        "what": "G05 overview, 5/7 seats"
+       },
+       {
+        "url": "https://www.speedheads.de/auto-test/bmw-x5-2019-test-0029117.html",
+        "what": "Test: trunk 650 l (1860 l folded)"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "3er Limousine G20 LCI height (only the pre-LCI 1435 mm was checked)",
+   "M3 Limousine G80 / M3 Touring G81 dimensions and trunk (not searched, to keep the search short)",
+   "3er Touring 330e xDrive trunk (the summary was ambiguous: 410/1420 vs 500/1510)",
+   "5er Touring G31 530e trunk from an official source (only auto-data.net 430/1560)",
+   "X5 xDrive45e (2019-2023) trunk with seats folded",
+   "X5 7-seat trunk volume",
+   "X5 M Competition (F95) dimensions and trunk",
+   "Published load-floor dimensions for 3er Touring, G31 and X5",
+   "Engine power (PS) for most variants (only 330e, i5 xDrive40 and i5 M60 were checked)"
+  ],
+  "notes": "I kept this short on purpose (80/20), using 11 searches. Official BMW and ADAC data cover the key values: trunk volumes per drivetrain for 3er Limousine and Touring, 5er Touring G61 and i5 Touring, and X5 LCI. The main findings: the PHEV trunk is smaller in the 3er and the X5. The 5er Touring G61 has the same 570-1700 l for every drivetrain, including the PHEV and the i5. The M5 Touring has 500-1630 l. I did not add the 5er Limousine G60 / i5 Limousine, which is in the same segment, because another list may already cover it. Check that and add it if it is missing."
+ },
+ "verification": null
+}

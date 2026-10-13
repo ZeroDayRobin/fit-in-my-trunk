@@ -212,7 +212,7 @@ function cleanGeneration(g, ctx) {
   const c = `${ctx} / ${name}`;
   const yearFrom = Math.round(Number(g.yearFrom));
   const yearTo = g.yearTo == null ? null : Math.round(Number(g.yearTo));
-  if (!Number.isFinite(yearFrom)) {
+  if (!Number.isFinite(yearFrom) || yearFrom < 1990 || yearFrom > 2030 || /placeholder/i.test(name)) {
     warnings.push(`${c}: kein Startjahr → verworfen`);
     return null;
   }

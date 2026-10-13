@@ -1,0 +1,779 @@
+{
+ "id": "p-bmw-1",
+ "brand": "BMW",
+ "data": {
+  "models": [
+   {
+    "brand": "BMW",
+    "model": "1er",
+    "generations": [
+     {
+      "name": "F70",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "hatchback",
+      "lengthMm": 4361,
+      "widthMm": 1800,
+      "heightMm": 1459,
+      "wheelbaseMm": 2670,
+      "trunkL": 380,
+      "trunkFoldedL": 1200,
+      "variants": [
+       {
+        "name": "116 / 118 (Benziner, ohne Mildhybrid)",
+        "powertrain": "petrol",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 380,
+        "trunkFoldedL": 1200,
+        "notes": "BMW CH lists 380-1200 L for the variant without mild hybrid. Wikipedia F70 says only the 48V models lose about 75-80 L. Power not checked."
+       },
+       {
+        "name": "120 (Benziner, 48V-Mildhybrid)",
+        "powertrain": "mhev",
+        "awd": false,
+        "powerPs": 170,
+        "trunkL": 300,
+        "trunkFoldedL": 1135,
+        "notes": "48V battery under the load floor. BMW gives 300-1135 L, Wikipedia says 305 L."
+       },
+       {
+        "name": "118d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 380,
+        "trunkFoldedL": 1200,
+        "notes": "Not mild-hybrid, so 380 L follows from BMW/Wikipedia saying only 120 and 120d have the smaller trunk. Not confirmed separately for 118d."
+       },
+       {
+        "name": "120d (Diesel, 48V-Mildhybrid)",
+        "powertrain": "mhev",
+        "awd": false,
+        "powerPs": 163,
+        "trunkL": 300,
+        "trunkFoldedL": 1135,
+        "notes": "48V mild hybrid with reduced trunk. ADAC measured only 265 L on a 120d M Sport, but the official VDA figure is 300 L."
+       },
+       {
+        "name": "M135 xDrive",
+        "powertrain": "petrol",
+        "awd": true,
+        "powerPs": 300,
+        "trunkL": 380,
+        "trunkFoldedL": 1200,
+        "notes": "No 48V system, full 380-1200 L (BMW CH M135 data)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.7-forum.com/news/2024/bmw_1er_f70/technische_daten.pdf",
+        "what": "BMW press technical data F70 (dimensions, trunk)"
+       },
+       {
+        "url": "https://www.bmw.de/de/neufahrzeuge/1er/bmw-1er/bmw-1er-technische-daten.html",
+        "what": "BMW DE technical data F70"
+       },
+       {
+        "url": "https://www.bmw.ch/de/bmw-neuwagen/1er/bmw-1er/bmw-1er-technische-daten.html",
+        "what": "BMW CH technical data: 380-1200 L (non-MHEV) vs 300-1135 L (MHEV)"
+       },
+       {
+        "url": "https://www.bmw.ch/de/bmw-neuwagen/m/bmw-m-135/bmw-1er-m-automobile-technische-daten.html",
+        "what": "M135 xDrive 380-1200 L, 300 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/1er-reihe/f70/335711/",
+        "what": "ADAC 120 Steptronic: 4361/1800/1459 mm"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/BMW_F70",
+        "what": "Wheelbase 2670 mm, MHEV trunk reduction"
+       },
+       {
+        "url": "https://kofferraum-check.de/kofferraum-check/kofferraum-check-bmw-1er-f70-2024-bis/",
+        "what": "120 MHEV 300/1135 L"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Width with mirrors 2072 mm. Generation trunk values are for the non-mild-hybrid models. Variant names follow the German price list (116, 118, 120, 118d, 120d, M135 xDrive)."
+     },
+     {
+      "name": "F40",
+      "yearFrom": 2019,
+      "yearTo": 2024,
+      "bodyType": "hatchback",
+      "lengthMm": 4319,
+      "widthMm": null,
+      "heightMm": 1434,
+      "wheelbaseMm": 2670,
+      "trunkL": 380,
+      "trunkFoldedL": 1200,
+      "variants": [
+       {
+        "name": "116i / 118i / 120i / 128ti (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 380,
+        "trunkFoldedL": 1200,
+        "notes": "No separate figure found for 128ti, so the generation value is used."
+       },
+       {
+        "name": "116d / 118d / 120d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 380,
+        "trunkFoldedL": 1200
+       },
+       {
+        "name": "M135i xDrive",
+        "powertrain": "petrol",
+        "awd": true,
+        "powerPs": null,
+        "trunkL": 380,
+        "trunkFoldedL": 1200,
+        "notes": "One source mentions 360-1200 L, apparently for the sedan sold outside Europe. The generation value 380 L is used."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://de.wikipedia.org/wiki/BMW_F40",
+        "what": "Length 4319 mm, height 1434 mm, trunk 380/1200 L"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1929-1er+2020",
+        "what": "Dimensions and trunk F40"
+       },
+       {
+        "url": "https://de.motor1.com/news/351301/bmw-1er-f40-2019-infos/",
+        "what": "Trunk 380/1200 L"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/bmw-1er-f40-2019-test-motoren-preis-innenraum-abmessungen-antrieb-allrad-ausstattung-5109646.html",
+        "what": "F40 dimensions and trunk"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/BMW_F70",
+        "what": "Wheelbase unchanged from F40 at 2670 mm"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "widthMm not confirmed in the search results; 1799 mm is often quoted but was not checked. Wheelbase comes from the F70 article (unchanged from F40)."
+     }
+    ]
+   },
+   {
+    "brand": "BMW",
+    "model": "2er Active Tourer",
+    "generations": [
+     {
+      "name": "U06",
+      "yearFrom": 2022,
+      "yearTo": null,
+      "bodyType": "van",
+      "lengthMm": 4386,
+      "widthMm": 1824,
+      "heightMm": 1576,
+      "wheelbaseMm": 2670,
+      "trunkL": 470,
+      "trunkFoldedL": 1455,
+      "variants": [
+       {
+        "name": "218i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 470,
+        "trunkFoldedL": 1455,
+        "heightMm": 1576,
+        "notes": "ADAC: models without 48V reach 470-1455 L. BMW data sheet gives height 1576 mm for 218i."
+       },
+       {
+        "name": "220i / 223i xDrive (Benziner, 48V-Mildhybrid)",
+        "powertrain": "mhev",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 415,
+        "trunkFoldedL": 1405,
+        "notes": "BMW DE gives 415-1405 L for 220i (48V battery under the load floor). The 223i is xDrive. ADAC measured 325 L on a 220i."
+       },
+       {
+        "name": "218d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 470,
+        "trunkFoldedL": 1455,
+        "notes": "Non-48V model, ADAC value for models without mild hybrid."
+       },
+       {
+        "name": "220d (Diesel, 48V-Mildhybrid)",
+        "powertrain": "mhev",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 415,
+        "trunkFoldedL": 1405,
+        "notes": "ADAC value for the 48V models."
+       },
+       {
+        "name": "225e xDrive / 230e xDrive (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "awd": true,
+        "powerPs": null,
+        "trunkL": 406,
+        "trunkFoldedL": 1370,
+        "heightMm": 1570,
+        "notes": "BMW data: 406-1370 L. Height 1570 mm per BMW data sheet."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.bmw.de/de/neufahrzeuge/2er/2-series-active-tourer/bmw-2er-active-tourer-technische-daten.html",
+        "what": "BMW DE technical data: dimensions, PHEV 406-1370 L, 220i 415-1405 L"
+       },
+       {
+        "url": "https://www.bmw.lu/de/all-models/2-series/activetourer/bmw-2er-active-tourer-technische-daten.html",
+        "what": "Length 4386, width 1824, height"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/bmw-2er-active-tourer/",
+        "what": "Non-48V 470-1455 L, 48V 415-1405 L"
+       },
+       {
+        "url": "https://de.wikipedia.org/wiki/BMW_U06",
+        "what": "Height 1576, wheelbase 2670"
+       },
+       {
+        "url": "https://www.carwow.de/bmw/2er-active-tourer/technische-daten",
+        "what": "Trunk 415/470 L by powertrain"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/2038-bmw-2er-active-tourer",
+        "what": "Dimensions"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Compact MPV. Width with mirrors 2102 mm. Which variants have 48V comes from ADAC/BMW (220i is confirmed). Assigning 218i/218d to non-48V and 223i/220d to 48V follows the price-list engines."
+     },
+     {
+      "name": "F45",
+      "yearFrom": 2014,
+      "yearTo": 2021,
+      "bodyType": "van",
+      "lengthMm": 4342,
+      "widthMm": 1800,
+      "heightMm": 1586,
+      "wheelbaseMm": 2670,
+      "trunkL": 468,
+      "trunkFoldedL": 1510,
+      "variants": [
+       {
+        "name": "216i / 218i / 220i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 468,
+        "trunkFoldedL": 1510
+       },
+       {
+        "name": "216d / 218d / 220d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 468,
+        "trunkFoldedL": 1510
+       },
+       {
+        "name": "225xe iPerformance (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "awd": true,
+        "powerPs": null,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Trunk is smaller than the base car because of the battery, but no verified figure was found (often quoted around 400 L, not confirmed)."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://de.wikipedia.org/wiki/BMW_F45",
+        "what": "Dimensions, facelift 01/2018, 225xe from 08/2016"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1513-bmw-2er-active-tourer",
+        "what": "Length 4342, width 1800, height 1586, wheelbase 2670"
+       },
+       {
+        "url": "https://www.automoli.com/de/vehicles/bmw/seria-2/seria-2-active-tourer-f45-4183/",
+        "what": "Manufacturer trunk 468-1510 L"
+       },
+       {
+        "url": "https://www.mobile.de/auto/bmw/2er-active-tourer/2014/van/modell/daten-fakten/",
+        "what": "F45 data"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/2er-reihe-active-gran-tourer/f45-f46/240388/",
+        "what": "ADAC 218i (pre-facelift)"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Dimensions mostly pre-facelift. The 2018 facelift may have changed length slightly (not checked). Some sources give height 1555-1560 mm. Relevant for model years 2020-2021 only."
+     }
+    ]
+   },
+   {
+    "brand": "BMW",
+    "model": "X1",
+    "generations": [
+     {
+      "name": "U11",
+      "yearFrom": 2022,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4500,
+      "widthMm": 1845,
+      "heightMm": 1642,
+      "wheelbaseMm": 2692,
+      "trunkL": 540,
+      "trunkFoldedL": 1600,
+      "variants": [
+       {
+        "name": "sDrive18i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 540,
+        "trunkFoldedL": 1600,
+        "notes": "Confirmed 540 L (kofferraum-check / motor1)."
+       },
+       {
+        "name": "sDrive20i / xDrive23i / 20d (48V-Mildhybrid)",
+        "powertrain": "mhev",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Sources name only 18i, 18d and M35i as having the full 540 L. A test of an sDrive20i measured 500/1545 L (measured, not VDA). AutoScout24 gives a range from 420 L. Official value not found."
+       },
+       {
+        "name": "sDrive18d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 540,
+        "trunkFoldedL": 1600
+       },
+       {
+        "name": "M35i xDrive",
+        "powertrain": "petrol",
+        "awd": true,
+        "powerPs": null,
+        "trunkL": 540,
+        "trunkFoldedL": 1600,
+        "lengthMm": 4505,
+        "notes": "Length 4505 mm."
+       },
+       {
+        "name": "xDrive25e / xDrive30e (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "awd": true,
+        "powerPs": null,
+        "trunkL": 490,
+        "trunkFoldedL": 1495,
+        "heightMm": 1630,
+        "notes": "BMW: 490-1495 L. Height 1630 mm per BMW for xDrive25e."
+       },
+       {
+        "name": "iX1 eDrive20 (Elektro)",
+        "powertrain": "bev",
+        "awd": false,
+        "powerPs": 204,
+        "trunkL": 490,
+        "trunkFoldedL": 1495,
+        "heightMm": 1616,
+        "notes": "150 kW. No frunk."
+       },
+       {
+        "name": "iX1 xDrive30 (Elektro)",
+        "powertrain": "bev",
+        "awd": true,
+        "powerPs": 313,
+        "trunkL": 490,
+        "trunkFoldedL": 1495,
+        "heightMm": 1616,
+        "notes": "230 kW. No frunk."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.bmw.de/de/neufahrzeuge/x/x1/bmw-x1-technische-daten.html",
+        "what": "BMW DE X1 technical data: dimensions, 540-1600 L, PHEV 490-1495 L, 25e height 1630"
+       },
+       {
+        "url": "https://www.bmw.de/de/neufahrzeuge/bmw-i/ix1/bmw-ix1-technische-daten.html",
+        "what": "BMW DE iX1: 4500/1845/1616, wheelbase 2692, 490-1495 L"
+       },
+       {
+        "url": "https://de.motor1.com/news/768630/bmw-x1-u11-innenraum-kofferraum/",
+        "what": "540 L for 18i, 18d, M35i"
+       },
+       {
+        "url": "https://kofferraum-check.de/suv/kofferraum-test-bmw-x1-bmw-ix1-typ-u11-2023-bis/",
+        "what": "Trunk test X1/iX1"
+       },
+       {
+        "url": "https://www.carwow.de/bmw/x1/technische-daten",
+        "what": "Height 1642, PHEV 490 L"
+       },
+       {
+        "url": "https://firstev.de/bmw/ix1/u11-technische-daten/",
+        "what": "iX1 eDrive20 150 kW"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/2074-bmw-ix1",
+        "what": "iX1 dimensions"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "The iX1 is included as a variant (same body). Width with mirrors 2104 mm. Trunk for the 48V mild-hybrid variants is unresolved."
+     },
+     {
+      "name": "F48",
+      "yearFrom": 2015,
+      "yearTo": 2022,
+      "bodyType": "suv",
+      "lengthMm": 4439,
+      "widthMm": null,
+      "heightMm": null,
+      "wheelbaseMm": null,
+      "trunkL": 505,
+      "trunkFoldedL": 1550,
+      "variants": [
+       {
+        "name": "sDrive18i / sDrive20i / xDrive25i (Benziner)",
+        "powertrain": "petrol",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 505,
+        "trunkFoldedL": 1550
+       },
+       {
+        "name": "sDrive18d / xDrive20d / xDrive25d (Diesel)",
+        "powertrain": "diesel",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 505,
+        "trunkFoldedL": 1550
+       },
+       {
+        "name": "xDrive25e (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "awd": true,
+        "powerPs": null,
+        "trunkL": 450,
+        "trunkFoldedL": 1470,
+        "yearFrom": 2020,
+        "notes": "ADAC and BMW press kit 01/2020: 450-1470 L. mobile.de/carwow 490 L figures belong to the U11 PHEV."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autobild.de/artikel/bmw-x1-f48-vorstellung-motoren-und-preise-5180441.html",
+        "what": "Trunk 505-1550 L"
+       },
+       {
+        "url": "https://www.bimmertoday.de/2015/06/03/bmw-x1-2015-alle-bilder-und-infos-zum-neuen-x1-f48/",
+        "what": "Length 4439 mm (2015), trunk 505/1550 L"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x1/f48-facelift/310237/",
+        "what": "xDrive25e 450/1470 L"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0314292DE/457887",
+        "what": "BMW press kit X1 xDrive25e: 450-1470 L"
+       },
+       {
+        "url": "https://www.mobile.de/auto/bmw/x1/2015/suv/modell/daten-fakten/",
+        "what": "F48 data"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Length 4439 mm is before the facelift. The 2019 facelift is slightly longer (about 4447 mm, not confirmed). Width, height and wheelbase were not found in this limited search."
+     }
+    ]
+   },
+   {
+    "brand": "BMW",
+    "model": "X3",
+    "generations": [
+     {
+      "name": "G45",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4755,
+      "widthMm": 1920,
+      "heightMm": 1660,
+      "wheelbaseMm": 2865,
+      "trunkL": 570,
+      "trunkFoldedL": 1700,
+      "variants": [
+       {
+        "name": "20 / 20 xDrive (Benziner, 48V-Mildhybrid)",
+        "powertrain": "mhev",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 570,
+        "trunkFoldedL": 1700,
+        "notes": "Mild-hybrid models keep 570-1700 L."
+       },
+       {
+        "name": "20d xDrive (Diesel, 48V-Mildhybrid)",
+        "powertrain": "mhev",
+        "awd": true,
+        "powerPs": null,
+        "trunkL": 570,
+        "trunkFoldedL": 1700
+       },
+       {
+        "name": "30e xDrive (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "awd": true,
+        "powerPs": null,
+        "trunkL": 460,
+        "trunkFoldedL": 1600,
+        "notes": "BMW DE/CH: 460-1600 L."
+       },
+       {
+        "name": "M50 xDrive",
+        "powertrain": "mhev",
+        "awd": true,
+        "powerPs": null,
+        "trunkL": 570,
+        "trunkFoldedL": 1700,
+        "notes": "Combustion/MHEV value 570-1700 L. Not listed separately in the search snippets, so confidence is medium."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.bmw.lu/de/all-models/x-series/x3/bmw-x3-technische-daten.html",
+        "what": "BMW technical data G45: dimensions, trunk"
+       },
+       {
+        "url": "https://www.bmw.ch/de/bmw-neuwagen/x/x3/bmw-x3-phev-technische-daten.html",
+        "what": "PHEV 460-1600 L"
+       },
+       {
+        "url": "https://www.bmw.ch/de/bmw-neuwagen/x/x3/bmw-x3-technische-daten.html",
+        "what": "Combustion 570-1700 L"
+       },
+       {
+        "url": "https://www.bmw.de/de/neufahrzeuge/m/x3-m50/bmw-x3-m50-technische-daten.html",
+        "what": "X3 M50 technical data"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/2158-bmw-x3-g45-",
+        "what": "4755/1920/1660, wheelbase 2865"
+       },
+       {
+        "url": "https://www.motorsport-total.com/auto/news/bmw-x3-masse-und-kofferraumvolumen-der-neuen-generation-2024-24092001",
+        "what": "Trunk by powertrain incl. 30e 460-1600"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Width with mirrors 2132 mm. There is no G45 iX3: the electric successor is the Neue Klasse iX3 (separate model entry)."
+     },
+     {
+      "name": "G01",
+      "yearFrom": 2017,
+      "yearTo": 2024,
+      "bodyType": "suv",
+      "lengthMm": 4708,
+      "widthMm": 1891,
+      "heightMm": 1676,
+      "wheelbaseMm": 2864,
+      "trunkL": 550,
+      "trunkFoldedL": 1600,
+      "variants": [
+       {
+        "name": "sDrive20i / xDrive20i / xDrive30i / M40i (Benziner)",
+        "powertrain": "petrol",
+        "awd": true,
+        "powerPs": null,
+        "trunkL": 550,
+        "trunkFoldedL": 1600,
+        "notes": "Generation value. No source shows a reduction for M40i."
+       },
+       {
+        "name": "xDrive20d / xDrive30d / M40d (Diesel, ab 2020 teils 48V-Mildhybrid)",
+        "powertrain": "diesel",
+        "awd": true,
+        "powerPs": null,
+        "trunkL": 550,
+        "trunkFoldedL": 1600
+       },
+       {
+        "name": "xDrive30e (Plug-in-Hybrid)",
+        "powertrain": "phev",
+        "awd": true,
+        "powerPs": null,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Smaller trunk because of the battery. The often-quoted 450/1500 L could not be verified."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1732-bmw-x3-2017",
+        "what": "G01 dimensions and trunk 550/1600"
+       },
+       {
+        "url": "https://gebrauchtwagenberater.de/bmw-x3-g01-technische-daten/",
+        "what": "4708/1891/1676, wheelbase 2864"
+       },
+       {
+        "url": "https://kofferraum-check.de/kofferraum-check/bmw-x3-g01-kofferraum-test/",
+        "what": "Trunk test G01"
+       },
+       {
+        "url": "https://www.carsized.com/en/cars/bmw-x3-2017-suv/",
+        "what": "Dimensions"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "The 2021 facelift (LCI) is listed by one source at 4716 mm length and 1897 mm width (versus 4708/1891). The difference is too small to split. The X3 M (F97) is not included."
+     }
+    ]
+   },
+   {
+    "brand": "BMW",
+    "model": "iX3",
+    "generations": [
+     {
+      "name": "NA5 (Neue Klasse)",
+      "yearFrom": 2026,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4782,
+      "widthMm": 1895,
+      "heightMm": 1635,
+      "wheelbaseMm": 2897,
+      "trunkL": 520,
+      "trunkFoldedL": 1750,
+      "variants": [
+       {
+        "name": "50 xDrive (Elektro)",
+        "powertrain": "bev",
+        "awd": true,
+        "powerPs": 469,
+        "trunkL": 520,
+        "trunkFoldedL": 1750,
+        "notes": "Plus a 58 L front trunk (frunk). 345 kW."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/ix3/na5/343921/",
+        "what": "ADAC iX3 50 xDrive: 4782/1895/1635, wheelbase 2897, 520/1750 L, frunk 58 L"
+       },
+       {
+        "url": "https://www.autoscout24.de/informieren/testberichte/bmw/ix3/bmw-ix3-50-xdrive-test-neue-klasse/",
+        "what": "Confirms dimensions and 520-1750 L + 58 L frunk"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0451998DE/der-anfang-einer-aera-der-neue-bmw-ix3?language=de",
+        "what": "BMW press release Neue Klasse iX3"
+       },
+       {
+        "url": "https://www.bmw.de/de/neufahrzeuge/x/ix3/bmw-ix3.html",
+        "what": "BMW DE iX3 NA5"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Kept as its own model (Neue Klasse platform, not an X3 variant). Deliveries in Germany from 03/2026. Width with mirrors 2093 mm. Smaller or RWD variants (e.g. 40) were not researched."
+     },
+     {
+      "name": "G08",
+      "yearFrom": 2021,
+      "yearTo": 2025,
+      "bodyType": "suv",
+      "lengthMm": 4734,
+      "widthMm": 1891,
+      "heightMm": 1668,
+      "wheelbaseMm": 2864,
+      "trunkL": 510,
+      "trunkFoldedL": 1560,
+      "variants": [
+       {
+        "name": "iX3 (Elektro, Heckantrieb)",
+        "powertrain": "bev",
+        "awd": false,
+        "powerPs": null,
+        "trunkL": 510,
+        "trunkFoldedL": 1560,
+        "notes": "No frunk. Power not checked."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/ix3/g08/313832/",
+        "what": "ADAC: 510/1560 L"
+       },
+       {
+        "url": "https://www.press.bmwgroup.com/deutschland/article/attachment/T0314265DE/457880",
+        "what": "BMW press kit iX3 07/2020"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/2060-bmw-ix3",
+        "what": "4734/1891/1668, wheelbase 2864"
+       },
+       {
+        "url": "https://firmenwagen.co.at/reise-und-freizeit/der-bmw-ix3-im-e-auto-test/",
+        "what": "Test: 510/1560 L, sill height 72 cm"
+       },
+       {
+        "url": "https://www.carsized.com/en/cars/bmw-ix3-2021-suv/",
+        "what": "Model years 2021-2025"
+       }
+      ],
+      "loadSpace": {
+       "heightMm": null,
+       "lengthFoldedMm": null,
+       "lengthMm": null,
+       "openingHeightMm": null,
+       "sillHeightMm": 720,
+       "widthBetweenArchesMm": null,
+       "widthMm": null,
+       "source": "firmenwagen.co.at test (Ladekantenhöhe 72 cm)"
+      },
+      "confidence": "high",
+      "notes": "Electric version of X3 G01 (body G08), built in China. Width with mirrors 2138 mm. Facelift 2021/22 (LCI) had no dimension change in the sources. The 520/1750 L figures on carwow mix in the NA5."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "1er F40 width without mirrors (1799 mm often quoted, not confirmed)",
+   "1er F40/F70 power figures for 116/118/118d and the F40 range",
+   "1er F70 116/118/118d trunk confirmed only indirectly (non-48V = 380 L)",
+   "2er Active Tourer F45 225xe trunk volume",
+   "2er Active Tourer F45 facelift (2018) exact length/height",
+   "2er Active Tourer U06 per-variant power figures",
+   "X1 U11 sDrive20i / xDrive23i / 20d (48V mild hybrid) official trunk volume",
+   "X1 U11 M35i height and power",
+   "X1 F48 width, height, wheelbase and facelift length",
+   "X3 G01 xDrive30e trunk volume",
+   "X3 G01 facelift 2021 exact dimensions (4708 vs 4716 mm)",
+   "X3 G45 M50 trunk volume listed separately (assumed same as MHEV models)",
+   "iX3 G08 power",
+   "iX3 NA5 variants other than 50 xDrive",
+   "loadSpace measurements for all models except iX3 G08 sill height",
+   "2er Gran Tourer F46 (7-seat MPV, sold until 2022): not researched",
+   "2er Gran Coupé (F44/F74) and X2/iX2 (U10): same segment, not researched (may be on other lists)"
+  ],
+  "notes": "I kept the research short (12 searches, extended mode). Main dimensions and trunk volumes are covered for all current generations. Several predecessor values and the 48V mild-hybrid trunk of the X1 U11 are still open, so they are null and listed in notFound. The iX1 is a variant of X1 U11. The iX3 is its own model with two generations (G08 2021-2025 based on X3 G01, and the Neue Klasse NA5 from 2026), because the NA5 is not an X3 variant. Mild-hybrid models of the 1er F70 and 2er Active Tourer U06 have noticeably smaller trunks because of the 48V battery (1er: 300 vs 380 L, 2er AT: 415 vs 470 L)."
+ },
+ "verification": null
+}
