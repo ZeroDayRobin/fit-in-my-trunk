@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Dark Mode per Klasse auf <html> (umschaltbar) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  color-scheme: light;
+  background: #ecedef;
+}
+
+html.dark {
+  color-scheme: dark;
+  background: #0b0c0f;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+@theme {
+  --animate-toast: toast 4.2s ease-out forwards;
+
+  @keyframes toast {
+    0% {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+    8%,
+    85% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-8px);
+      visibility: hidden;
+    }
+  }
+}
