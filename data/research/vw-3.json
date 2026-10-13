@@ -1,0 +1,747 @@
+{
+ "id": "vw-3",
+ "brand": "Volkswagen",
+ "data": {
+  "models": [
+   {
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "generations": [
+     {
+      "name": "AD1 (Tiguan II, Vorfacelift)",
+      "yearFrom": 2016,
+      "yearTo": 2020,
+      "bodyType": "suv",
+      "lengthMm": 4486,
+      "widthMm": 1839,
+      "heightMm": 1632,
+      "wheelbaseMm": 2677,
+      "trunkL": 615,
+      "trunkFoldedL": 1655,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.5 TSI ACT 130 PS (6-Gang)",
+        "powertrain": "petrol",
+        "powerPs": 130,
+        "awd": false,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "yearTo": 2020,
+        "notes": "Power figure from general knowledge, not individually verified by a source in this run."
+       },
+       {
+        "name": "1.5 TSI ACT 150 PS (6-Gang / DSG)",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "yearTo": 2020,
+        "notes": "ADAC lists 1.5 TSI OPF ACT Comfortline/Highline DSG (07/19-06/20). Power not shown in the ADAC search summary; 150 PS is the DSG version."
+       },
+       {
+        "name": "2.0 TSI 4MOTION 190 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 190,
+        "awd": true,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "yearTo": 2020,
+        "notes": "ADAC entry 2.0 TSI OPF IQ.DRIVE 4MOTION DSG (07/19-01/20). Power not individually verified."
+       },
+       {
+        "name": "2.0 TSI 4MOTION 230 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 230,
+        "awd": true,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "yearTo": 2020,
+        "notes": "Power not verified by a source in this run."
+       },
+       {
+        "name": "2.0 TDI SCR 150 PS (6-Gang / DSG / 4MOTION DSG)",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "yearTo": 2020,
+        "notes": "Also available with 4MOTION. ADAC gives 1643 mm height for the 4MOTION TDI entries. Power not individually verified."
+       },
+       {
+        "name": "2.0 TDI SCR 4MOTION 190 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 190,
+        "awd": true,
+        "heightMm": 1643,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "yearTo": 2020,
+        "notes": "ADAC 2.0 TDI SCR 4MOTION DSG entries (07/19-06/20): 4486 x 1839 x 1643 mm, 615/1655 l. Power not individually verified."
+       },
+       {
+        "name": "2.0 TDI SCR 4MOTION 240 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 240,
+        "awd": true,
+        "heightMm": 1643,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "yearTo": 2020,
+        "notes": "Power not verified by a source in this run."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii/302602/",
+        "what": "ADAC 2.0 TDI SCR Comfortline 4MOTION DSG (07/19-06/20): 4486 x 1839 (2099 with mirrors) x 1643 mm, trunk 615 / 1655 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii/302597",
+        "what": "ADAC 1.5 TSI OPF ACT Comfortline DSG (07/19-06/20): length 4486, height 1632, wheelbase 2677 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii/302608/",
+        "what": "ADAC 1.5 TSI OPF ACT Highline DSG (07/19-06/20): variant existence in MY2020"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii/302611/",
+        "what": "ADAC 2.0 TSI OPF IQ.DRIVE 4MOTION DSG (07/19-01/20): variant existence"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii/269647/",
+        "what": "ADAC 2.0 TSI 4MOTION: trunk 615 l normal / 1655 l roof-high with rear seats folded"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Pre-facelift Tiguan II, sold with model year 2020 until about 06/2020. All data are ADAC catalog values. Height is 1632 mm (FWD 1.5 TSI) or 1643 mm (4MOTION TDI entries). The 615 l figure is VW's headline value, which (as far as I know, not verified in this run) is measured with the sliding rear bench in its forward position. With the bench fully back the figure is lower. There was no PHEV before the facelift. Power figures for the pre-facelift engines were not verified one by one."
+     },
+     {
+      "name": "AD1 Facelift (Tiguan II)",
+      "yearFrom": 2020,
+      "yearTo": 2024,
+      "bodyType": "suv",
+      "lengthMm": 4509,
+      "widthMm": 1839,
+      "heightMm": 1675,
+      "wheelbaseMm": 2678,
+      "trunkL": 615,
+      "trunkFoldedL": 1655,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.5 TSI 130 PS (6-Gang)",
+        "powertrain": "petrol",
+        "powerPs": 130,
+        "awd": false,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "notes": "ADAC lists 1.5 TSI OPF (manual, e.g. ACTIVE 01/21-11/22). Power from the VW facelift line-up, not individually verified in this run."
+       },
+       {
+        "name": "1.5 TSI 150 PS (6-Gang / DSG)",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "notes": "ADAC 1.5 TSI OPF Life DSG (09/20-11/23): 4509 / 1675 / 2678 mm. Power not individually verified."
+       },
+       {
+        "name": "2.0 TSI 4MOTION 190 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 190,
+        "awd": true,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "notes": "Power not verified by a source in this run."
+       },
+       {
+        "name": "2.0 TSI 4MOTION 245 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 245,
+        "awd": true,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "notes": "Power not verified by a source in this run."
+       },
+       {
+        "name": "2.0 TDI 122 PS (6-Gang)",
+        "powertrain": "diesel",
+        "powerPs": 122,
+        "awd": false,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "notes": "Power not verified by a source in this run."
+       },
+       {
+        "name": "2.0 TDI 150 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "notes": "Power not verified by a source in this run."
+       },
+       {
+        "name": "2.0 TDI 4MOTION 150 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": true,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "notes": "Power not verified by a source in this run."
+       },
+       {
+        "name": "2.0 TDI 4MOTION 200 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 200,
+        "awd": true,
+        "trunkL": 615,
+        "trunkFoldedL": 1655,
+        "notes": "Power not verified by a source in this run."
+       },
+       {
+        "name": "1.4 eHybrid 245 PS DSG",
+        "powertrain": "phev",
+        "powerPs": 245,
+        "awd": false,
+        "trunkL": 476,
+        "trunkFoldedL": 1516,
+        "notes": "476 l with seats up is backed by drivingelectric, which says the battery takes 139 l (615 - 139 = 476), and by autonotizen. The 1516 l folded value comes from the autotijd database only. Conflict: ADAC (11/20-09/22 entries) and the ACE data sheet list 615 / 1655 l for the eHybrid, which is probably carried over from the non-hybrid car. Low confidence for the folded value. Heights also differ by source: 1675 mm (fiches-auto), 1672 mm (ACE), 1681 mm (autotijd)."
+       },
+       {
+        "name": "R 2.0 TSI 4MOTION 320 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 320,
+        "awd": true,
+        "lengthMm": 4514,
+        "widthMm": 1859,
+        "heightMm": 1677,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Dimensions from the auto motor und sport test of the Tiguan R (4514 x 1859 x 1677 mm, wheelbase 2678 mm). AMS measured a sill height of 730 mm and 1910 mm standing height under the tailgate. No source in this run gave the R's trunk volume. It is probably the same as the other non-hybrid models, but that is not verified."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii-facelift/313737",
+        "what": "ADAC 1.5 TSI OPF Life DSG (09/20-11/23): length 4509, height 1675, wheelbase 2678 mm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii-facelift/318818",
+        "what": "ADAC 1.5 TSI OPF ACTIVE (manual) 01/21-11/22: variant existence"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii-facelift/326939",
+        "what": "ADAC 1.5 TSI OPF MOVE DSG (12/22-11/23): production until 11/2023"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii-facelift/318266/",
+        "what": "ADAC 1.4 eHybrid OPF Elegance DSG (11/20-09/22): lists 615 / 1655 l (conflicts with other sources)"
+       },
+       {
+        "url": "https://images.ace.de/dokumente/autoclub/td-vw-tiguan-ehybrid.pdf",
+        "what": "ACE data sheet Tiguan eHybrid: L/B(with mirrors)/H 4509/2099/1672, VDA 615-1655 l (conflicting)"
+       },
+       {
+        "url": "https://www.drivingelectric.com/volkswagen/tiguan/practicality",
+        "what": "Tiguan eHybrid trunk 476 l with seats up, 139 l less than the standard car"
+       },
+       {
+        "url": "https://autonotizen.de/fahrberichte/vw-tiguan-ehybrid-plug-in-facelift-test-fahrt-video",
+        "what": "Tiguan eHybrid facelift: 476 l trunk, length 4509 mm, wheelbase 2678 mm"
+       },
+       {
+        "url": "https://autotijd.be/en/dimensions/volkswagen/tiguan/14-ehybrid-245-hp-3148",
+        "what": "Tiguan 1.4 eHybrid 245 PS (2021-2023): 476-1516 l, height 1681 mm"
+       },
+       {
+        "url": "https://www.fiches-auto.fr/fiches-techniques/hybrides/f-188-volkswagen-tiguan-ii-ehybrid-245-ch.php",
+        "what": "Tiguan II eHybrid 245 ch, width 1839 mm, height 1675 mm"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/test/vw-tiguan-r-mit-fahraktivem-allrad/technische-daten/",
+        "what": "Tiguan R test: 4514 x 1859 x 1677 mm, wheelbase 2678 mm, 320 PS, sill height 730 mm"
+       },
+       {
+        "url": "https://www.volkswagen-newsroom.com/en/press-releases/powerful-320-ps-performance-version-of-the-successful-suv-new-tiguan-r-now-available-to-order-6638",
+        "what": "VW press release: Tiguan R 235 kW / 320 PS, 4MOTION with R-Performance Torque Vectoring"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Facelift launched 09/2020. ADAC entries run until 11/2023, and the Tiguan III followed in early 2024. The facelift is longer than the pre-facelift car (4509 vs 4486 mm) and taller (1675 vs 1632 mm). Width without mirrors is 1839 mm for standard trims. The R measures 1859 mm wide in the AMS data, and R-Line may also be wider, but that was not verified. Facelift power figures (except eHybrid 245 PS and R 320 PS) come from the VW facelift line-up as I know it and were not re-verified in this run, because the web search budget ran out."
+     },
+     {
+      "name": "3. Generation (ab 2024)",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4539,
+      "widthMm": 1842,
+      "heightMm": 1656,
+      "wheelbaseMm": 2680,
+      "trunkL": 652,
+      "trunkFoldedL": 1650,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.5 eTSI 130 PS DSG",
+        "powertrain": "mhev",
+        "powerPs": 130,
+        "awd": false,
+        "trunkL": 652,
+        "trunkFoldedL": 1650,
+        "notes": "Entry engine (Belgian price list on autotijd). VW Austria configurator also lists 130 PS."
+       },
+       {
+        "name": "1.5 eTSI 150 PS DSG",
+        "powertrain": "mhev",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 652,
+        "trunkFoldedL": 1650,
+        "notes": "ADAC Elegance/Life/R-Line/GOAL/ENERGY entries: 110 kW, 652 / 1650 l."
+       },
+       {
+        "name": "2.0 TSI 4MOTION 204 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 204,
+        "awd": true,
+        "trunkL": 652,
+        "trunkFoldedL": 1650,
+        "yearFrom": 2024,
+        "notes": "angurten.de: 150 kW / 204 PS, built from 10/2024. Trunk per Autozeitung (652 l for petrol and TDI)."
+       },
+       {
+        "name": "2.0 TSI 4MOTION 265 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 265,
+        "awd": true,
+        "trunkL": 652,
+        "trunkFoldedL": 1650,
+        "yearFrom": 2024,
+        "notes": "ADAC 2.0 TSI OPF R-Line 4MOTION DSG (09/24-02/26, new entry 'R-Line 195 4MOTION' from 02/26): 195 kW / 265 PS. R-Line width is 1859 mm per ADAC (R-Line eHybrid entry)."
+       },
+       {
+        "name": "2.0 TDI 150 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 652,
+        "trunkFoldedL": 1650,
+        "notes": "Listed on VW Austria and angurten.de."
+       },
+       {
+        "name": "2.0 TDI 4MOTION 193 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 193,
+        "awd": true,
+        "trunkL": 652,
+        "trunkFoldedL": 1650,
+        "notes": "angurten.de: 142 kW / 193 PS. ADAC 2.0 TDI SCR ENERGY 4MOTION DSG (from 06/25): 4539 x 1842 x 1656 mm, wheelbase 2680 mm, 652 / 1650 l."
+       },
+       {
+        "name": "1.5 eHybrid 204 PS DSG",
+        "powertrain": "phev",
+        "powerPs": 204,
+        "awd": false,
+        "trunkL": 490,
+        "trunkFoldedL": 1486,
+        "notes": "The PHEV trunk is smaller because of the battery. VW Austria: 490 l (eHybrid) vs 652 l, and 1486 l vs 1650 l."
+       },
+       {
+        "name": "1.5 eHybrid 272 PS DSG",
+        "powertrain": "phev",
+        "powerPs": 272,
+        "awd": false,
+        "heightMm": 1658,
+        "trunkL": 490,
+        "trunkFoldedL": 1486,
+        "notes": "ADAC eHybrid R-Line entries: 4539 mm long, 1658 mm high, wheelbase 2677 mm, 1859 mm wide (R-Line). The Elegance is 1842 mm wide. Trunk 490 / 1486 l."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/iii/340811/",
+        "what": "ADAC 2.0 TDI SCR ENERGY 4MOTION DSG (from 06/25): 4539 x 1842 (2140 with mirrors) x 1656 mm, wheelbase 2680, 652 / 1650 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/iii/330535/",
+        "what": "ADAC 1.5 eTSI OPF Elegance DSG (03/24-11/24): 110 kW/150 PS mild hybrid, 652 / 1650 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/iii/340807/",
+        "what": "ADAC 1.5 eTSI ENERGY DSG (from 06/25): 652 / 1650 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/iii/333001",
+        "what": "ADAC 1.5 eHybrid OPF R-Line DSG (03/24-10/25): 4539 x 1859 x 1658 mm, wheelbase 2677, 490 / 1486 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/iii/336980/",
+        "what": "ADAC 2.0 TSI OPF R-Line 4MOTION DSG (09/24-02/26): 195 kW / 265 PS"
+       },
+       {
+        "url": "https://www.volkswagen.at/tiguan/der-neue-tiguan",
+        "what": "VW Austria (manufacturer): trunk 652 l (eHybrid 490 l), up to 1650 l (eHybrid 1486 l)"
+       },
+       {
+        "url": "https://www.autozeitung.de/vw-tiguan-iii-2024-motor-ausstattung-197692.html",
+        "what": "Length 4539 mm (+30 mm), width 1842, wheelbase 2680 mm, 652 l VDA for petrol and TDI"
+       },
+       {
+        "url": "https://www.angurten.de/is/technische-daten/VW-Tiguan+III-20+TSI+4MOTION+%28204+PS%29-150-kW-204-PS-2110-19638.html",
+        "what": "Engine line-up: 2.0 TSI 4MOTION 204/265 PS, 2.0 TDI 150 PS and 4MOTION 193 PS, 1.5 eHybrid 204/272 PS"
+       },
+       {
+        "url": "https://autotijd.be/de/preise/volkswagen/tiguan",
+        "what": "1.5 eTSI 130 PS entry engine, eHybrid 272 PS (Belgian price list)"
+       },
+       {
+        "url": "https://de.motor1.com/news/695479/vw-tiguan-abmessungen-kofferraum-2023/",
+        "what": "Rounded dimensions (4540 x 1840 x 1670 mm, wheelbase 2680), 652 l"
+       }
+      ],
+      "confidence": "high",
+      "notes": "Height differs by source: ADAC gives 1656 mm (TDI 4MOTION) and 1658 mm (eHybrid R-Line), while motor1 gives 1670 mm (possibly with roof rails). The ADAC value is used here. R-Line trims are 1859 mm wide and the others 1842 mm. Wheelbase is 2677-2680 mm depending on version. The 652 l figure is VW's headline value. I believe (not verified in this run) that it is measured with the rear bench pushed forward, the same convention as the 615 l of the Tiguan II."
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Tiguan Allspace",
+    "generations": [
+     {
+      "name": "BW2 (inkl. Facelift 2021)",
+      "yearFrom": 2017,
+      "yearTo": 2024,
+      "bodyType": "suv",
+      "lengthMm": null,
+      "widthMm": null,
+      "heightMm": null,
+      "wheelbaseMm": null,
+      "trunkL": null,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "2.0 TDI SCR 4MOTION DSG",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "ADAC entry 2.0 TDI SCR IQ.DRIVE 4MOTION DSG (01/19-07/19). Power and trunk not retrieved."
+       },
+       {
+        "name": "2.0 TSI OPF 4MOTION DSG",
+        "powertrain": "petrol",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearTo": 2024,
+        "notes": "ADAC entry Allspace 2.0 TSI OPF R-Line 4MOTION DSG (05/24-08/24). Power and trunk not retrieved."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii-facelift/335290/",
+        "what": "ADAC: Tiguan Allspace 2.0 TSI OPF R-Line 4MOTION DSG offered 05/24-08/24, so sold until 2024"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/ii/297067",
+        "what": "ADAC: Tiguan Allspace 2.0 TDI SCR IQ.DRIVE 4MOTION DSG (01/19-07/19), variant existence"
+       },
+       {
+        "url": "https://www.carwow.de/volkswagen/tiguan-allspace/technische-daten",
+        "what": "Technical data page found but contents not retrieved"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Not researched: the shared web-search budget (200 calls per turn across all agents) ran out before the Allspace searches. All dimensions, trunk volumes (5- and 7-seat) and the engine line-up are null. Its successor in Europe is the Tayron. The Allspace was sold until about 08/2024 according to ADAC. yearFrom 2017 is the European launch year as I know it and was not verified."
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Tayron",
+    "generations": [
+     {
+      "name": "1. Generation (ab 2025)",
+      "yearFrom": 2025,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4792,
+      "widthMm": 1866,
+      "heightMm": 1666,
+      "wheelbaseMm": 2789,
+      "trunkL": 885,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.5 eTSI 150 PS DSG",
+        "powertrain": "mhev",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 885,
+        "trunkFoldedL": null,
+        "notes": "885 l (5-seat, combustion) per carwow. Folded value not found. Power not verified by a source in this run."
+       },
+       {
+        "name": "2.0 TSI 4MOTION 204 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 204,
+        "awd": true,
+        "trunkL": 885,
+        "trunkFoldedL": null,
+        "notes": "Power not verified by a source in this run."
+       },
+       {
+        "name": "2.0 TSI 4MOTION 265 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 265,
+        "awd": true,
+        "trunkL": 885,
+        "trunkFoldedL": null,
+        "notes": "Power not verified by a source in this run."
+       },
+       {
+        "name": "2.0 TDI 150 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 885,
+        "trunkFoldedL": null,
+        "notes": "Power not verified by a source in this run."
+       },
+       {
+        "name": "2.0 TDI 4MOTION 193 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 193,
+        "awd": true,
+        "trunkL": 885,
+        "trunkFoldedL": null,
+        "notes": "Power not verified by a source in this run."
+       },
+       {
+        "name": "1.5 eHybrid 204 PS DSG",
+        "powertrain": "phev",
+        "powerPs": 204,
+        "awd": false,
+        "trunkL": 705,
+        "trunkFoldedL": 1915,
+        "notes": "5 seats only, no third row for the eHybrid. ADAC Life/Style entries list 705 / 1915 l. Power not verified in this run."
+       },
+       {
+        "name": "1.5 eHybrid 272 PS DSG",
+        "powertrain": "phev",
+        "powerPs": 272,
+        "awd": false,
+        "trunkL": 705,
+        "trunkFoldedL": 1915,
+        "notes": "5 seats only. ADAC R-Line/Elegance eHybrid and the auto motor und sport test both give 705-1915 l. Power not verified in this run."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tayron/1generation/337908/",
+        "what": "ADAC Tayron 1.5 eHybrid OPF Elegance DSG (03/25-10/25): 4792 x 1866 x 1666 mm, wheelbase 2789 mm, 705 / 1915 l, 5 seats"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tayron/1generation/337163/",
+        "what": "ADAC Tayron 1.5 eHybrid OPF R-Line DSG: empty weight 1948 kg, payload 552 kg, 5 seats"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tayron/1generation/345194/",
+        "what": "ADAC Tayron 1.5 eHybrid OPF Life DSG (from 10/25): variant existence"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/test/vw-tayron-ehybrid-warum-der-plug-in-suv-nichts-fuer-heisse-sommertage-ist/technische-daten/",
+        "what": "AMS test Tayron 1.5 eHybrid R-Line: trunk 705-1915 l, 5 seats"
+       },
+       {
+        "url": "https://de.motor1.com/news/739444/vw-tayron-abmessungen-suv-2025/",
+        "what": "European Tayron 4.77 m long, 1.85 m wide, 1.66 m high, wheelbase 2.79 m (rounded)"
+       },
+       {
+        "url": "https://www.carwow.de/volkswagen/tayron/technische-daten",
+        "what": "Combustion versions 885 l trunk; optional third row not available for the hybrid"
+       }
+      ],
+      "confidence": "medium",
+      "notes": "Successor of the Tiguan Allspace. Generation dimensions come from the ADAC eHybrid Elegance entry. Motor1 gives 4.77 / 1.85 / 1.66 m, so the 4792 mm length may be trim-specific (bumper design), which was not verified. The combustion trunk of 885 l (5-seat) is from carwow only and its folded volume was not found. The optional 7-seat layout exists for combustion versions only; its volumes (third row up or folded) were not found. Engine power figures follow the Tayron launch line-up as I know it and were not verified one by one, because the search budget ran out."
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Touran",
+    "generations": [
+     {
+      "name": "5T (2. Generation)",
+      "yearFrom": 2015,
+      "yearTo": null,
+      "bodyType": "van",
+      "lengthMm": 4527,
+      "widthMm": 1829,
+      "heightMm": 1674,
+      "wheelbaseMm": 2786,
+      "trunkL": 834,
+      "trunkFoldedL": 1980,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "1.5 TSI 150 PS (6-Gang / DSG)",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 834,
+        "trunkFoldedL": 1980,
+        "notes": "Power not verified by a source in this run."
+       },
+       {
+        "name": "2.0 TDI 122 PS (6-Gang)",
+        "powertrain": "diesel",
+        "powerPs": 122,
+        "awd": false,
+        "trunkL": 834,
+        "trunkFoldedL": 1980,
+        "notes": "Power not verified by a source in this run."
+       },
+       {
+        "name": "2.0 TDI 150 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 834,
+        "trunkFoldedL": 1980,
+        "notes": "autotijd lists the Touran 2.0 TDI 150 PS."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.autoscout24.at/auto/technische-daten/volkswagen/touran/touran-highline-2-0-scr-tdi-van-kleinbus-diesel-20777/",
+        "what": "Touran Highline 2.0 SCR TDI: 4527 x 1829 x 1674 mm, wheelbase 2786 mm"
+       },
+       {
+        "url": "https://www.carwow.de/volkswagen/touran/technische-daten",
+        "what": "4527 x 1829 x 1682 mm, trunk 834-1980 l"
+       },
+       {
+        "url": "https://www.autozeitung.de/vw-touran-2015-preis-motor-95033.html?panorama=1",
+        "what": "Touran (2015) 7-seater, up to 1857 l trunk, technical updates in 2023"
+       },
+       {
+        "url": "https://autotijd.be/de/technische-daten/volkswagen/touran/20-tdi-150-hp",
+        "what": "Touran 2.0 TDI 150 PS variant"
+       }
+      ],
+      "confidence": "low",
+      "notes": "Trunk volumes conflict and no official VW or ADAC value was retrieved. carwow gives 834-1980 l, while autozeitung gives a maximum of 1857 l. The two are probably different measurement heights (roof-high vs. up to the front seat backrest), but this is not verified. 834 / 1980 are used here as the only sourced pair. The available 7-seat layout's volumes (third row folded = 5-seat value) were not found. The 2020/2023 updates did not change exterior dimensions as far as the sources show. The engine list is the 2020-2025 German line-up as I know it and was not verified, because the search budget ran out. yearTo is null on the assumption that the Touran is still on sale, which was not verified."
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Touareg",
+    "generations": [
+     {
+      "name": "CR (3. Generation, inkl. Facelift 2023)",
+      "yearFrom": 2018,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4902,
+      "widthMm": 1984,
+      "heightMm": 1712,
+      "wheelbaseMm": null,
+      "trunkL": null,
+      "trunkFoldedL": null,
+      "loadSpace": null,
+      "variants": [
+       {
+        "name": "3.0 V6 eHybrid 4MOTION Tiptronic 381 PS",
+        "powertrain": "phev",
+        "powerPs": 381,
+        "awd": true,
+        "trunkL": 665,
+        "trunkFoldedL": 1675,
+        "yearFrom": 2020,
+        "notes": "ADAC entry 3.0 V6 eHybrid Elegance 4MOTION Tiptronic from 10/20. 381 PS per Fleet News and autotijd. Trunk 665-1675 l per autotijd (not an official source)."
+       },
+       {
+        "name": "R eHybrid 4MOTION Tiptronic",
+        "powertrain": "phev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "AMS Touareg R test: 4902 x 1984 x 1712 mm. Power and trunk not retrieved in this run."
+       },
+       {
+        "name": "3.0 V6 TDI 4MOTION Tiptronic",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "notes": "Power levels (231/286 PS) and trunk not verified in this run."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.auto-motor-und-sport.de/test/vw-touareg-r/technische-daten/",
+        "what": "AMS test Touareg R: 4902 x 1984 x 1712 mm"
+       },
+       {
+        "url": "https://autotijd.be/en/specs/volkswagen/touareg/ehybrid-4motion-381-hp-awd",
+        "what": "Touareg eHybrid 4Motion 381 hp: length 4902, width without mirrors 1984 mm, trunk 665-1675 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/touareg/iii/316569",
+        "what": "ADAC Touareg 3.0 V6 eHybrid Elegance 4MOTION Tiptronic (10/20-08/21): variant existence"
+       },
+       {
+        "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2023/05/26/2024-vw-touareg-facelift-revealed-with-two-plug-in-hybrid-engines",
+        "what": "2024 Touareg facelift (revealed 05/2023) with two PHEV powertrains, eHybrid 381 PS"
+       },
+       {
+        "url": "https://kofferraum.org/masse/vw/touareg/",
+        "what": "Rounded 490 x 198 x 171 cm; claims manufacturer trunk 655 l and measured up to 810 l (unreliable, not used)"
+       }
+      ],
+      "confidence": "low",
+      "notes": "The non-hybrid trunk volume could not be confirmed. kofferraum.org claims 655 l as the manufacturer figure, but that is implausible next to the eHybrid's 665 l, so trunkL was left null. Wheelbase was not found. Height 1712 mm comes from the Touareg R test (AMS); kofferraum.org also gives about 171 cm. Height may vary with air suspension. Whether the 2023 facelift (MY2024) changed dimensions or trunk volume was not verified, so it is kept in one entry. The full German engine line-up (V6 TDI 231/286 PS, V6 TSI, V8 TDI until about 2020, R eHybrid) was not verified because the search budget ran out."
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Tiguan Allspace (BW2, 2017-2024, incl. 2021 facelift): all dimensions, 5-seat and 7-seat trunk volumes, folded volume, engine line-up and power (not researched, search budget exhausted)",
+   "Tiguan II facelift Tiguan R trunk volume (trunkL/trunkFoldedL)",
+   "Tiguan II facelift eHybrid official folded trunk volume (only autotijd 1516 l; ADAC/ACE list 615/1655 l, which conflicts with 476 l seats-up)",
+   "Tiguan II pre-facelift and facelift: VW figure for trunk with rear bench in rearmost position",
+   "Tiguan II/III: official verification of individual engine power figures for pre-facelift and facelift variants",
+   "Tiguan III: official VW press-kit height (ADAC 1656 mm vs motor1 1670 mm)",
+   "Tayron combustion variants trunkFoldedL",
+   "Tayron 7-seat trunk volumes (3rd row up / folded)",
+   "Tayron per-trim length and width (4770 vs 4792 mm, 1853 vs 1866 mm unclear)",
+   "Touran official VW/ADAC VDA trunk volumes (carwow 834/1980 vs autozeitung 1857)",
+   "Touran 7-seat trunk volumes",
+   "Touran current sales status 2026 / exact yearTo",
+   "Touareg CR wheelbase",
+   "Touareg CR non-hybrid trunk volume (V6 TDI / V6 TSI / V8 TDI)",
+   "Touareg R eHybrid trunk volume and power",
+   "Touareg 2023 facelift: whether dimensions/trunk changed",
+   "Touareg full German engine line-up with PS per model year",
+   "loadSpace (Ladelänge, Ladebreite, Ladekantenhöhe etc.) for all models; only the Tiguan R sill height of 730 mm (AMS measurement) was found",
+   "Sharan (7N, MPV, sold until about 2022; same segment as Touran): not researched, so all data missing"
+  ],
+  "notes": "The research stopped early: the shared WebSearch budget (200 calls per turn across all agents) ran out after about 20 searches by this agent. No further searches were possible. Coverage is therefore uneven. The best data, from ADAC Autokatalog plus VW Austria and Autozeitung, is for the Tiguan III and Tiguan II (facelift and pre-facelift). The Tayron has ADAC and AMS data for the eHybrid and only carwow for the combustion trunk. Touran and Touareg have only third-party data. The Tiguan Allspace is essentially empty (null values). Rules followed: trunk and dimension numbers come only from the sources listed. Engine power figures not confirmed in this run are flagged in each variant's notes; they are taken from the known VW line-ups and should be re-verified. Conflicts found: (1) Tiguan II eHybrid trunk, where ADAC and ACE give 615/1655 l and drivingelectric, autonotizen and autotijd give 476 l (476 used; it is consistent with the stated 139 l loss to the battery). (2) Touran trunk, where carwow gives 834/1980 l and autozeitung 1857 l. (3) Touareg trunk, where kofferraum.org claims 655 l, which conflicts with 665 l for the eHybrid. Possible missing model: the VW Sharan (7N), an MPV sold until about 2022 in the same segment as the Touran, was not researched and is listed in notFound. A follow-up run with a fresh search budget should cover the Tiguan Allspace, the Touareg's non-hybrid trunk and wheelbase, the Tayron's 7-seat and folded volumes, the Touran's official volumes, and the Sharan."
+ },
+ "verification": null
+}

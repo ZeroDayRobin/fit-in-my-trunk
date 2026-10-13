@@ -1,0 +1,646 @@
+{
+ "id": "vw-4",
+ "brand": "Volkswagen",
+ "data": {
+  "models": [
+   {
+    "brand": "Volkswagen",
+    "model": "Passat Variant",
+    "generations": [
+     {
+      "name": "B9",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "wagon",
+      "lengthMm": 4917,
+      "widthMm": 1849,
+      "heightMm": 1521,
+      "wheelbaseMm": 2837,
+      "trunkL": 690,
+      "trunkFoldedL": 1920,
+      "loadSpace": null,
+      "confidence": "high",
+      "notes": "Abmessungen und Kofferraum laut ADAC-Autokatalog (Herstellerangaben), gleiche Werte für 2.0 TDI (FWD) und 2.0 TDI 4MOTION. Breite mit Spiegeln 2090 mm, Wendekreis 12,0 m. In frühem Pressematerial bzw. bei Motor1 stehen abweichend Höhe 1506 mm und Radstand 2841 mm (Vorserien-/Pressewerte); ADAC-Katalogwerte 1521/2837 werden verwendet. Plug-in-Hybride (eHybrid) haben wegen der Traktionsbatterie einen kleineren Kofferraum: 510/1770 l. ADAC-Autotest (eigene Messung, nicht VDA): 575-1665 l für Nicht-PHEV, eHybrid 455-1545 l (unter Abdeckung 455 l, dachhoch 625 l). Nur noch als Variant erhältlich (keine Limousine). Ladeboden ohne innere Ladekante, aber keine veröffentlichten Ladeflächenmaße gefunden.",
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b9/329521/",
+        "what": "2.0 TDI Elegance DSG (02/24-06/25): Länge 4917, Breite 1849 (2090 mit Spiegeln), Höhe 1521, Radstand 2837 mm, Kofferraum 690/1920 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b9/333687/",
+        "what": "2.0 TDI R-Line 4MOTION DSG: identische Maße und Kofferraum 690/1920 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b9/344645/",
+        "what": "2.0 TDI DSG (09/25-07/26): Kofferraum 690/1920 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b9/333678/",
+        "what": "1.5 eHybrid DSG (03/24-10/25): Kofferraum 510/1770 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b9/333683/",
+        "what": "1.5 eHybrid Elegance DSG (03/24-08/25): Kofferraum 510/1770 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b9/345188/",
+        "what": "1.5 eHybrid DSG (10/25-07/26): 150 kW (204 PS) Systemleistung, 510/1770 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b9/329502/",
+        "what": "1.5 eTSI ACT Business DSG (02/24-11/24) Katalogeintrag (Mild-Hybrid)"
+       },
+       {
+        "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT6517-vw-passat-variant-15-ehybrid-dsg/vw-passat-variant-15-ehybrid-dsg.pdf",
+        "what": "ADAC Autotest eHybrid: gemessen 455 l (dachhoch 625 l), PHEV gut 100 l kleiner als Nicht-PHEV"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/vw-passat/",
+        "what": "ADAC Test: Messwerte 575-1665 l (Nicht-PHEV) und 455-1545 l (eHybrid)"
+       },
+       {
+        "url": "https://de.motor1.com/news/709876/vw-passat-variant-abmessungen-2024/",
+        "what": "Kofferraum 690 l / 1920 l (+40 l ggü. B8); Pressewerte 4917/1849/1506 mm, Radstand 2841 mm"
+       },
+       {
+        "url": "https://www.angurten.de/is/ausstattung-vergleich/2126-1034-1032-Passat+9+Variant-Style-Trend",
+        "what": "Motorenprogramm DE mit Preisen: 1.5 eTSI 150 PS, 2.0 TDI 122/150 PS, 2.0 TDI 4MOTION 193 PS, 1.5 eHybrid 204/272 PS, 2.0 TSI 204 PS, 2.0 TSI 4MOTION 265 PS"
+       },
+       {
+        "url": "https://www.angurten.de/is/alternativen10/VW-Passat+9+Variant-20+TSI+4MOTION+%28265+PS%29-195-kW-265-PS-2126-19178.html",
+        "what": "2.0 TSI 4MOTION 195 kW / 265 PS"
+       },
+       {
+        "url": "https://www.angurten.de/is/alternativen10/VW-Passat+9+Variant-20+TDI+4MOTION+%28193+PS%29-142-kW-193-PS-2126-19176.html",
+        "what": "2.0 TDI 4MOTION 142 kW / 193 PS"
+       },
+       {
+        "url": "https://www.autohled.cz/de/a/volkswagen/passat-variant/variant-1-5-ehybrid-dsg-2760026",
+        "what": "eHybrid (150 kW und 200 kW) jeweils 510 l"
+       }
+      ],
+      "variants": [
+       {
+        "name": "1.5 eTSI 150 PS DSG",
+        "powertrain": "mhev",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 690,
+        "trunkFoldedL": 1920,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "48-V-Mild-Hybrid (eTSI, ACT). Kofferraum = Basiswert 690/1920 l (VW nennt für alle Nicht-PHEV denselben Wert; für eTSI nicht separat im ADAC-Snippet bestätigt)."
+       },
+       {
+        "name": "2.0 TDI 122 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 122,
+        "awd": false,
+        "trunkL": 690,
+        "trunkFoldedL": 1920,
+        "yearFrom": null,
+        "yearTo": null,
+        "notes": "Leistung laut angurten.de/ADAC-Modellliste."
+       },
+       {
+        "name": "2.0 TDI 150 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 690,
+        "trunkFoldedL": 1920,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "ADAC: 690/1920 l."
+       },
+       {
+        "name": "2.0 TDI 4MOTION 193 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 193,
+        "awd": true,
+        "trunkL": 690,
+        "trunkFoldedL": 1920,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "ADAC R-Line 4MOTION DSG: gleiche Maße und Kofferraum wie Fronttriebler."
+       },
+       {
+        "name": "2.0 TSI 4MOTION 204 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 204,
+        "awd": true,
+        "trunkL": 690,
+        "trunkFoldedL": 1920,
+        "yearFrom": null,
+        "yearTo": null,
+        "notes": "204 PS laut angurten.de-Preisliste; 4MOTION-Zuordnung laut VW-Pressematerial zum B9 (in dieser Recherche nicht separat per Quelle bestätigt). Kofferraum = Basiswert (4MOTION laut ADAC ohne Einbuße)."
+       },
+       {
+        "name": "2.0 TSI 4MOTION 265 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 265,
+        "awd": true,
+        "trunkL": 690,
+        "trunkFoldedL": 1920,
+        "yearFrom": null,
+        "yearTo": null,
+        "notes": "Kofferraum = Basiswert (4MOTION laut ADAC ohne Einbuße)."
+       },
+       {
+        "name": "1.5 eHybrid 204 PS DSG",
+        "powertrain": "phev",
+        "powerPs": 204,
+        "awd": false,
+        "trunkL": 510,
+        "trunkFoldedL": 1770,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "Plug-in-Hybrid; kleinerer Kofferraum wegen Batterie (ADAC-Katalog 510/1770 l)."
+       },
+       {
+        "name": "1.5 eHybrid 272 PS DSG",
+        "powertrain": "phev",
+        "powerPs": 272,
+        "awd": false,
+        "trunkL": 510,
+        "trunkFoldedL": 1770,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "Plug-in-Hybrid, 200 kW Systemleistung; Kofferraum 510/1770 l (ADAC, autohled)."
+       }
+      ]
+     },
+     {
+      "name": "B8 (Facelift)",
+      "yearFrom": 2019,
+      "yearTo": 2023,
+      "bodyType": "wagon",
+      "lengthMm": 4773,
+      "widthMm": 1832,
+      "heightMm": 1516,
+      "wheelbaseMm": 2786,
+      "trunkL": 650,
+      "trunkFoldedL": 1780,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Facelift-Marktstart 08/2019 (Modelljahr 2020), Bauende Variant 11/2023 laut ADAC. Maße/Kofferraum laut ADAC (Herstellerangaben), Breite mit Spiegeln 2083 mm. Die Facelift-Maße/Kofferraum entsprechen den Werten des Vor-Facelift-B8 (ADAC: 650/1780 l, Höhe 1516 mm), daher eine Generation. GTE (Plug-in-Hybrid) hat nur 483/1613 l. Motorenprogramm unvollständig verifiziert (siehe notFound).",
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/314127/",
+        "what": "2.0 TDI SCR DSG (08/20-11/23): 90 kW/122 PS, Länge 4773, Breite 1832 (2083 mit Spiegeln), Höhe 1516, Radstand 2786 mm, Kofferraum 650/1780 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/315037/",
+        "what": "2.0 TDI SCR Elegance DSG (09/20-11/23), 110 kW/150 PS"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/315525/",
+        "what": "2.0 TDI SCR Business DSG (09/20-11/23)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/300379/",
+        "what": "2.0 TDI SCR Elegance DSG (08/19-09/20)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/300373/",
+        "what": "2.0 TSI OPF Elegance DSG (08/19-09/20): 190 PS, 320 Nm"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/315523/",
+        "what": "1.5 TSI OPF Business DSG (09/20-11/23) Katalogeintrag"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/304134",
+        "what": "Passat Variant GTE DSG (09/19-11/20), größere Batterie im Facelift"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/test/vw-passat-gte-variant-dauertest-100000-km/technische-daten/",
+        "what": "Passat GTE Variant Facelift: Kofferraumvolumen 483 bis 1613 l"
+       },
+       {
+        "url": "https://www.mobile.de/magazin/artikel/vw-passat-variant-gte-im-alltagstest-6742",
+        "what": "GTE Systemleistung 218 PS (1.4 TSI 156 PS + E-Motor 115 PS)"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Volkswagen_Passat_(B8)",
+        "what": "Produktionsende Limousine 12/2021, Variant 2023"
+       }
+      ],
+      "variants": [
+       {
+        "name": "1.5 TSI 150 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 650,
+        "trunkFoldedL": 1780,
+        "yearFrom": 2019,
+        "yearTo": 2023,
+        "notes": "ADAC-Eintrag 1.5 TSI OPF (ACT) Business DSG vorhanden; 150 PS ist die bekannte Leistung des 1.5 TSI im Passat, im ADAC-Snippet nicht explizit angezeigt. Schaltgetriebe-Version nicht verifiziert."
+       },
+       {
+        "name": "2.0 TSI 190 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 190,
+        "awd": false,
+        "trunkL": 650,
+        "trunkFoldedL": 1780,
+        "yearFrom": 2019,
+        "yearTo": null,
+        "notes": "ADAC 08/19-09/20; spätere Verfügbarkeit nicht verifiziert."
+       },
+       {
+        "name": "2.0 TDI 122 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 122,
+        "awd": false,
+        "trunkL": 650,
+        "trunkFoldedL": 1780,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "ADAC 08/20-11/23."
+       },
+       {
+        "name": "2.0 TDI 150 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 650,
+        "trunkFoldedL": 1780,
+        "yearFrom": 2019,
+        "yearTo": 2023,
+        "notes": "ADAC (Elegance/Business DSG)."
+       },
+       {
+        "name": "2.0 TDI 200 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 200,
+        "awd": false,
+        "trunkL": 650,
+        "trunkFoldedL": 1780,
+        "yearFrom": 2019,
+        "yearTo": null,
+        "notes": "147 kW/200 PS laut ADAC für Limousine und Alltrack belegt; für Variant nicht separat per Quelle bestätigt."
+       },
+       {
+        "name": "2.0 TDI 4MOTION 200 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 200,
+        "awd": true,
+        "trunkL": 650,
+        "trunkFoldedL": 1780,
+        "yearFrom": 2019,
+        "yearTo": null,
+        "notes": "4MOTION-Version des 200-PS-TDI (ADAC-Einträge für Limousine 4MOTION DSG vorhanden); für Variant nicht separat bestätigt. Kofferraum = Basiswert."
+       },
+       {
+        "name": "GTE 218 PS DSG",
+        "powertrain": "phev",
+        "powerPs": 218,
+        "awd": false,
+        "trunkL": 483,
+        "trunkFoldedL": 1613,
+        "yearFrom": 2019,
+        "yearTo": null,
+        "notes": "1.4 TSI + E-Motor, Batterie unter dem Ladeboden -> 483/1613 l (auto motor und sport). Bauzeitende nicht eindeutig (AMS nennt Bauzeit bis 01/2022)."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Passat Alltrack",
+    "generations": [
+     {
+      "name": "B8 (Facelift)",
+      "yearFrom": 2019,
+      "yearTo": 2023,
+      "bodyType": "wagon",
+      "lengthMm": 4780,
+      "widthMm": 1853,
+      "heightMm": 1527,
+      "wheelbaseMm": null,
+      "trunkL": 639,
+      "trunkFoldedL": 1769,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Offroad-Variant mit höherer Bodenfreiheit, nur 4MOTION. Maße/Kofferraum laut ADAC-Eintrag 09/20-11/23 (Breite mit Spiegeln 2083 mm). Radstand für das Facelift nicht gefunden (ADAC nennt für Vor-Facelift-Alltrack 2789 mm; nicht übernommen). Vor-Facelift-ADAC-Werte abweichend: 4777 x 1832 x 1506 mm, gleiches Kofferraumvolumen 639/1769 l. Zum Modellsegment hinzugefügt, da in der Liste fehlend.",
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/315529/",
+        "what": "Alltrack 2.0 TDI SCR 4MOTION DSG (09/20-11/23): 147 kW/200 PS, 4780 x 1853 x 1527 mm, Kofferraum 639/1769 l"
+       },
+       {
+        "url": "https://www.auto-wiki.org/vw/passat/b8/passat-alltrack-2-0-tdi-scr-4motion-dsg-7-gang-147-kw-88490/",
+        "what": "Alltrack 2.0 TDI 200 PS (09/20-): 4780/1853/1527 mm, 639/1769 l"
+       },
+       {
+        "url": "https://auto-wiki.org/vw/passat/b8/passat-alltrack-2-0-tdi-scr-4motion-dsg-7-gang-140-kw-88558/",
+        "what": "Alltrack 2.0 TDI SCR 4MOTION DSG 140 kW/190 PS (08/19-09/20)"
+       },
+       {
+        "url": "https://www.auto-data.net/de/volkswagen-passat-alltrack-b8-facelift-2019-2.0-tsi-280hp-4motion-dsg-51996",
+        "what": "Alltrack Facelift 2.0 TSI 280 PS 4MOTION DSG (2020-2023)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8/297961",
+        "what": "Vor-Facelift-Alltrack (03/19-05/19): 4777 x 1832 x 1506 mm, Radstand 2789 mm, 639/1769 l (Vergleich)"
+       }
+      ],
+      "variants": [
+       {
+        "name": "2.0 TDI SCR 4MOTION 190 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 190,
+        "awd": true,
+        "trunkL": 639,
+        "trunkFoldedL": 1769,
+        "yearFrom": 2019,
+        "yearTo": 2020,
+        "notes": "auto-wiki.org (08/19-09/20)."
+       },
+       {
+        "name": "2.0 TDI SCR 4MOTION 200 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 200,
+        "awd": true,
+        "trunkL": 639,
+        "trunkFoldedL": 1769,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "ADAC (09/20-11/23)."
+       },
+       {
+        "name": "2.0 TSI 4MOTION 280 PS DSG",
+        "powertrain": "petrol",
+        "powerPs": 280,
+        "awd": true,
+        "trunkL": 639,
+        "trunkFoldedL": 1769,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "Nur durch auto-data.net belegt (dort abweichend 4780 x 1853 mm); Kofferraum = Alltrack-Karosseriewert."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "Passat Limousine",
+    "generations": [
+     {
+      "name": "B8 (Facelift)",
+      "yearFrom": 2019,
+      "yearTo": 2021,
+      "bodyType": "sedan",
+      "lengthMm": null,
+      "widthMm": null,
+      "heightMm": null,
+      "wheelbaseMm": null,
+      "trunkL": 586,
+      "trunkFoldedL": 1152,
+      "loadSpace": null,
+      "confidence": "low",
+      "notes": "Stufenheck-Passat, in Deutschland bis ca. 08/2021 im ADAC-Katalog (Produktion bis 12/2021 laut Wikipedia), Modelljahre 2020-2021. Zum Segment hinzugefügt, da in der Liste fehlend. Kofferraum 586/1152 l laut ADAC-Facelift-Einträgen. Außenmaße konnten nicht verifiziert werden (Suchbudget erschöpft) und sind daher null. GTE-Limousine (Plug-in) nicht aufgenommen, Kofferraum nicht gefunden.",
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/315519/",
+        "what": "Passat 2.0 TDI SCR Elegance DSG (09/20-08/21), Limousine; Kofferraum 586/1152 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/300370/",
+        "what": "Passat 2.0 TDI SCR Elegance 4MOTION DSG (08/19-09/20), Limousine; Kofferraum 586/1152 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/315518/",
+        "what": "Passat 2.0 TDI SCR Business 4MOTION DSG (09/20-08/21)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b8-facelift/315520",
+        "what": "Passat 2.0 TDI SCR Elegance 4MOTION DSG (09/20-08/21)"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Volkswagen_Passat_(B8)",
+        "what": "Limousine gebaut bis 12/2021"
+       }
+      ],
+      "variants": [
+       {
+        "name": "2.0 TDI SCR 200 PS DSG",
+        "powertrain": "diesel",
+        "powerPs": 200,
+        "awd": false,
+        "trunkL": 586,
+        "trunkFoldedL": 1152,
+        "yearFrom": 2019,
+        "yearTo": 2021,
+        "notes": "ADAC: 147 kW/200 PS, 400 Nm (Elegance DSG)."
+       },
+       {
+        "name": "2.0 TDI SCR 4MOTION DSG",
+        "powertrain": "diesel",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 586,
+        "trunkFoldedL": 1152,
+        "yearFrom": 2019,
+        "yearTo": 2021,
+        "notes": "ADAC-Einträge vorhanden, Leistung im Suchergebnis nicht angegeben."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "ID.7",
+    "generations": [
+     {
+      "name": "ID.7 (Limousine)",
+      "yearFrom": 2023,
+      "yearTo": null,
+      "bodyType": "hatchback",
+      "lengthMm": 4961,
+      "widthMm": 1862,
+      "heightMm": 1538,
+      "wheelbaseMm": 2971,
+      "trunkL": 532,
+      "trunkFoldedL": 1586,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Fließheck-Limousine mit großer Heckklappe (VW: 'Limousine'). Kofferraum 532/1586 l (mehrere Quellen). Maße: Länge/Breite/Radstand identisch mit ID.7 Tourer (4961/1862/2971 mm laut VW AT/ADAC für Tourer); Limousinen-Maße per Quelle nur gerundet bestätigt (4,96 x 1,86 x 1,54 m), exakte Höhe 1538 mm aus VW-Pressedaten. Kein Frunk. Leistungsangaben der Varianten aus VW-Pressematerial bekannt, in dieser Sitzung nicht per Suche erneut verifiziert.",
+      "sources": [
+       {
+        "url": "https://www.weekend.at/motor/vw-elektroautos-id7-golf",
+        "what": "ID.7 Kofferraum 532 l, umgeklappt 1586 l"
+       },
+       {
+        "url": "https://www.mobile.de/auto/vw/id7/serie/",
+        "what": "ID.7 Limousine 532-1586 l, Tourer 605-1714 l"
+       },
+       {
+        "url": "https://www.meinid.com/wiki/entry/100-id-7/",
+        "what": "Maße 4,96 m lang, 1,86 m breit, 1,54 m hoch"
+       },
+       {
+        "url": "https://www.volkswagen-newsroom.com/de/pressemitteilungen/der-neue-vollelektrische-id7-ist-ab-sofort-bestellbar-17554",
+        "what": "Bestellstart ID.7 in Deutschland (2023)"
+       }
+      ],
+      "variants": [
+       {
+        "name": "Pro 286 PS",
+        "powertrain": "bev",
+        "powerPs": 286,
+        "awd": false,
+        "trunkL": 532,
+        "trunkFoldedL": 1586,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "77 kWh (netto), Heckantrieb; Leistung aus VW-Pressedaten (210 kW), nicht erneut per Suche verifiziert."
+       },
+       {
+        "name": "Pro S 286 PS",
+        "powertrain": "bev",
+        "powerPs": 286,
+        "awd": false,
+        "trunkL": 532,
+        "trunkFoldedL": 1586,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "86 kWh (netto), Heckantrieb; Leistung aus VW-Pressedaten, nicht erneut verifiziert."
+       },
+       {
+        "name": "GTX 340 PS 4MOTION",
+        "powertrain": "bev",
+        "powerPs": 340,
+        "awd": true,
+        "trunkL": 532,
+        "trunkFoldedL": 1586,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "Allrad (zusätzlicher Frontmotor), 86 kWh; Leistung aus VW-Pressedaten. Kofferraum = Modellwert, für GTX nicht separat verifiziert."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Volkswagen",
+    "model": "ID.7 Tourer",
+    "generations": [
+     {
+      "name": "ID.7 Tourer",
+      "yearFrom": 2024,
+      "yearTo": null,
+      "bodyType": "wagon",
+      "lengthMm": 4961,
+      "widthMm": 1862,
+      "heightMm": 1543,
+      "wheelbaseMm": 2971,
+      "trunkL": 605,
+      "trunkFoldedL": 1714,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Kombi auf ID.7-Basis, Auslieferung ab 06/2024 laut ADAC. Kofferraum offiziell 605-1714 l (VW Österreich, ADAC). Laut VW-Kofferraumseite: 545 l bei normaler Rücksitzneigung, 605 l mit steiler gestellten Lehnen ('Cargo-Position', weiterhin 5 Sitzplätze), bis 1714 l umgeklappt dachhoch. Höhe 1543 mm ohne Dachreling (VW AT); ADAC/meinauto/autotijd nennen 1551 mm (vermutl. mit Reling). Breite mit Spiegeln 2141 mm (ADAC). Wendekreis 10,9 m (RWD), GTX 12,3 m (carwow). Kein Frunk. Leistungsangaben aus VW-Pressedaten, nicht erneut per Suche verifiziert.",
+      "sources": [
+       {
+        "url": "https://www.volkswagen.at/id7-tourer/id7-tourer/technische-daten/pure",
+        "what": "Herstellerdaten Tourer Pure: Kofferraum 605-1714 l, Länge 4961, Breite 1862, Höhe ohne Dachreling 1543, Radstand 2971 mm"
+       },
+       {
+        "url": "https://www.volkswagen.at/id7-tourer/id7-tourer/technische-daten/pro-business",
+        "what": "Herstellerdaten Tourer Pro: Kofferraum 605-1714 l"
+       },
+       {
+        "url": "https://www.volkswagen.at/id7-tourer/id7-tourer/kofferraum",
+        "what": "545 l bei normaler Lehnenneigung, 605 l in Cargo-Position, bis 1714 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/id7/1generation/333591/",
+        "what": "ID.7 Tourer Pro (ab 06/24): 605 l normal, 1714 l dachhoch; Höhe 1551 mm, Breite mit Spiegeln 2141 mm, Wendekreis 10,9 m"
+       },
+       {
+        "url": "https://autotijd.be/de/abmessungen/volkswagen/id7-tourer",
+        "what": "Abmessungen Tourer (Höhe 1551 mm)"
+       },
+       {
+        "url": "https://www.carwow.de/volkswagen/id7-tourer-gtx/technische-daten",
+        "what": "ID.7 GTX Tourer, Wendekreis 12,3 m"
+       },
+       {
+        "url": "https://www.mobile.de/auto/vw/id7/serie/",
+        "what": "Tourer 605-1714 l"
+       }
+      ],
+      "variants": [
+       {
+        "name": "Pure 170 PS",
+        "powertrain": "bev",
+        "powerPs": 170,
+        "awd": false,
+        "trunkL": 605,
+        "trunkFoldedL": 1714,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "Kleiner Akku (52 kWh netto); Kofferraum laut VW AT 605-1714 l. Leistung (125 kW) aus VW-Pressedaten, nicht erneut verifiziert."
+       },
+       {
+        "name": "Pro 286 PS",
+        "powertrain": "bev",
+        "powerPs": 286,
+        "awd": false,
+        "trunkL": 605,
+        "trunkFoldedL": 1714,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "77 kWh netto; ADAC 605/1714 l."
+       },
+       {
+        "name": "Pro S 286 PS",
+        "powertrain": "bev",
+        "powerPs": 286,
+        "awd": false,
+        "trunkL": 605,
+        "trunkFoldedL": 1714,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "86 kWh netto; Leistung aus VW-Pressedaten."
+       },
+       {
+        "name": "GTX 340 PS 4MOTION",
+        "powertrain": "bev",
+        "powerPs": 340,
+        "awd": true,
+        "trunkL": 605,
+        "trunkFoldedL": 1714,
+        "yearFrom": 2024,
+        "yearTo": null,
+        "notes": "Allrad; Kofferraum = Modellwert, für GTX nicht separat verifiziert. Leistung aus VW-Pressedaten."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "Arteon (Fastback-Limousine, Facelift 2020-2024): alle Maße, Kofferraum (inkl. eHybrid) und Motorisierungen - nicht recherchiert, Websuche-Budget der Sitzung war erschöpft (Limit 200 Suchen/Turn)",
+   "Arteon Shooting Brake (2020-2024): alle Maße, Kofferraum (inkl. eHybrid) und Motorisierungen - nicht recherchiert, Suchbudget erschöpft",
+   "Sharan (bis Produktionsende 2022): Maße, Kofferraum 5-/7-Sitzer und Motorisierungen - nicht recherchiert, Suchbudget erschöpft",
+   "Passat Variant B8 Facelift: 2.0 TSI 4MOTION (272 bzw. 280 PS) und 2.0 BiTDI 240 PS 4MOTION - Verfügbarkeit und Daten nicht verifiziert",
+   "Passat Variant B8 Facelift: 1.5 TSI mit Schaltgetriebe sowie 1.6 TDI 120 PS (Modelljahr 2020) nicht verifiziert",
+   "Passat Variant B8 Facelift GTE: genaues Bauzeitende",
+   "Passat Variant B9: 2.0 TDI 150 PS 4MOTION (falls angeboten) nicht verifiziert",
+   "Passat Limousine B8 Facelift: Länge, Breite, Höhe, Radstand; GTE Limousine Kofferraumvolumen; Leistung der 2.0 TDI 4MOTION-Version",
+   "Passat Alltrack B8 Facelift: Radstand",
+   "loadSpace (Ladelänge, Ladebreite, Ladekantenhöhe) für alle Passat-, ID.7- und ID.7-Tourer-Generationen",
+   "ID.7 Limousine: exakte Herstellerwerte Länge/Breite/Höhe nur gerundet per Quelle bestätigt; ID.7 Pure Limousine (falls in DE angeboten) nicht verifiziert",
+   "ID.7 / ID.7 Tourer GTX: separates Kofferraumvolumen nicht verifiziert",
+   "ID.7 / ID.7 Tourer: Leistungsangaben der Varianten nicht per Suche in dieser Sitzung verifiziert (aus VW-Pressedaten)"
+  ],
+  "notes": "Die Websuche brach nach 16 Suchen ab, weil das gemeinsame Limit von 200 Suchen pro Turn (für alle Agenten zusammen) aufgebraucht war. Arteon, Arteon Shooting Brake und Sharan konnten deshalb gar nicht recherchiert werden. Sie fehlen in models und stehen in notFound; für diese drei ist ein Folgedurchlauf nötig. Datenbasis: Die Kennwerte für Passat Variant B8/B9 stammen aus dem ADAC-Autokatalog (dort als Herstellerangaben geführt), die für den ID.7 Tourer von volkswagen.at (Hersteller) und vom ADAC. Ergänzt wurden zwei Modelle aus demselben Segment, die in der Liste fehlten: Passat Alltrack (B8 Facelift) und Passat Limousine (B8 Facelift, Modelljahre 2020-2021; Außenmaße nicht gefunden, daher null). Alle Leistungsangaben zum ID.7 (170/286/340 PS) stammen aus VW-Pressedaten, die ich aus früherem Wissen kenne; in dieser Sitzung wurden sie nicht per Suche bestätigt. Die Kofferraumwerte der GTX-Versionen sind die Modellwerte und wurden nicht einzeln geprüft. Beim ID.7 Tourer weist VW 605 l mit steil gestellten Lehnen aus; bei normaler Neigung sind es 545 l. Für eine realistische Pack-Simulation ist der Wert von 545 l möglicherweise der bessere."
+ },
+ "verification": null
+}

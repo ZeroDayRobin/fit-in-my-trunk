@@ -2,7 +2,8 @@
 
 import { useMemo } from "react";
 import { create } from "zustand";
-import { CAR_BY_ID, CARS, type CarId } from "./cars";
+import { canFoldSeats, type BodyType, type CarModel } from "./cars";
+import type { CarInfo, VehicleSelection } from "./vehicles/spec";
 import type { LuggageType } from "./luggage";
 import {
   autoPack,
@@ -25,8 +26,11 @@ export type ViewName = "rear" | "top" | "side" | "front";
 export type Theme = "light" | "dark";
 
 interface SimState {
-  carId: CarId;
-  paints: Record<CarId, string>;
+  /** Aktuell gewähltes Fahrzeug (3D-Beschreibung, offizielle Daten, Auswahl) */
+  car: CarModel;
+  info: CarInfo | null;
+  selection: VehicleSelection | null;
+  paintId: string;
   seatsFolded: boolean;
   items: Item[];
   selectedId: string | null;
@@ -36,7 +40,7 @@ interface SimState {
   view: { name: ViewName; nonce: number };
   notice: { text: string; nonce: number } | null;
 
-  setCar: (id: CarId) => void;
+  setVehicle: (car: CarModel, info: CarInfo, selection: VehicleSelection) => void;
   setPaint: (paintId: string) => void;
   toggleSeats: () => void;
   addItem: (type: LuggageType) => void;
@@ -57,11 +61,30 @@ interface SimState {
 let idCounter = 0;
 const nextId = () => `item-${Date.now().toString(36)}-${(idCounter++).toString(36)}`;
 
-const envOf = (s: Pick<SimState, "carId" | "seatsFolded">) => makeEnv(CAR_BY_ID[s.carId], s.seatsFolded);
+const envOf = (s: Pick<SimState, "car" | "seatsFolded">) => makeEnv(s.car, s.seatsFolded);
+
+/** Platzhalter bis die Fahrzeugdaten geladen sind (wird nicht angezeigt) */
+const PLACEHOLDER_STYLE: BodyType = "hatchback";
+const PLACEHOLDER_CAR: CarModel = {
+  id: "placeholder",
+  name: "",
+  style: PLACEHOLDER_STYLE,
+  length: 4.3,
+  width: 1.8,
+  height: 1.5,
+  wheelbase: 2.65,
+  frontOverhang: 0.86,
+  wheelRadius: 0.32,
+  groundClearance: 0.15,
+  body: { beltline: 0.98, rearBeltline: 1.02, noseHeight: 0.7, cowl: 1.05, roofStart: 1.95, roofEnd: 0.32, rearBeltInset: 0.06 },
+  trunk: { width: 1, height: 0.48, depth: 0.8, floorY: 0.62, rearInset: 0.14, foldExtension: 0.8 },
+};
 
 export const useSim = create<SimState>((set, get) => ({
-  carId: "compact",
-  paints: Object.fromEntries(CARS.map((c) => [c.id, c.defaultPaint])) as Record<CarId, string>,
+  car: PLACEHOLDER_CAR,
+  info: null,
+  selection: null,
+  paintId: "nachtblau",
   seatsFolded: false,
   items: [],
   selectedId: null,
@@ -71,22 +94,27 @@ export const useSim = create<SimState>((set, get) => ({
   view: { name: "rear", nonce: 0 },
   notice: null,
 
-  setCar: (carId) => {
-    if (carId === get().carId) return;
-    const env = makeEnv(CAR_BY_ID[carId], get().seatsFolded);
-    const { items, packedIds } = autoPack(get().items, env);
-    set((s) => ({ carId, items, selectedId: null, view: { name: "rear", nonce: s.view.nonce + 1 } }));
+  setVehicle: (car, info, selection) => {
+    const prev = get();
+    if (prev.car.id === car.id) return;
+    const seatsFolded = prev.seatsFolded && canFoldSeats(car);
+    const { items, packedIds } = autoPack(prev.items, makeEnv(car, seatsFolded));
+    set((s) => ({ car, info, selection, seatsFolded, items, selectedId: null, view: { name: "rear", nonce: s.view.nonce + 1 } }));
     if (items.length > 0) {
-      get().notify(`Gepäck umgeladen: ${packedIds.length} von ${items.length} passen in den ${CAR_BY_ID[carId].name}.`);
+      get().notify(`Gepäck umgeladen: ${packedIds.length} von ${items.length} passen in den ${info.brand} ${info.model}.`);
     }
   },
 
-  setPaint: (paintId) => set((s) => ({ paints: { ...s.paints, [s.carId]: paintId } })),
+  setPaint: (paintId) => set({ paintId }),
 
   toggleSeats: () => {
-    const seatsFolded = !get().seatsFolded;
-    const env = envOf({ carId: get().carId, seatsFolded });
-    set({ seatsFolded, items: settle(get().items, env) });
+    const s = get();
+    if (!s.seatsFolded && !canFoldSeats(s.car)) {
+      s.notify("Für dieses Fahrzeug ist kein Volumen mit umgeklappter Rückbank bekannt.");
+      return;
+    }
+    const seatsFolded = !s.seatsFolded;
+    set({ seatsFolded, items: settle(s.items, makeEnv(s.car, seatsFolded)) });
   },
 
   addItem: (type) => {
@@ -164,11 +192,9 @@ export const useSim = create<SimState>((set, get) => ({
     set({ draggingId: null, items: settle(s.items, envOf(s)) });
   },
 
+  // Die Seite startet immer hell; der Umschalter gilt nur für die aktuelle Sitzung
   setTheme: (theme) => {
     set({ theme });
-    try {
-      localStorage.setItem("trunk-theme", theme);
-    } catch {}
     document.documentElement.classList.toggle("dark", theme === "dark");
   },
 
@@ -179,12 +205,12 @@ export const useSim = create<SimState>((set, get) => ({
   notify: (text) => set((s) => ({ notice: { text, nonce: (s.notice?.nonce ?? 0) + 1 } })),
 }));
 
-export const useCar = () => useSim((s) => CAR_BY_ID[s.carId]);
+export const useCar = () => useSim((s) => s.car);
 
 export function usePackEnv() {
-  const carId = useSim((s) => s.carId);
+  const car = useSim((s) => s.car);
   const folded = useSim((s) => s.seatsFolded);
-  return useMemo(() => makeEnv(CAR_BY_ID[carId], folded), [carId, folded]);
+  return useMemo(() => makeEnv(car, folded), [car, folded]);
 }
 
 export function useStatuses() {

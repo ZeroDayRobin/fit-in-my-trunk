@@ -1,5 +1,5 @@
 import type { SVGProps } from "react";
-import type { BodyStyle } from "@/lib/cars";
+import type { BodyType } from "@/lib/cars";
 import type { LuggageType } from "@/lib/luggage";
 
 type P = SVGProps<SVGSVGElement>;
@@ -90,8 +90,8 @@ export const IconSeat = (p: P) => (
   </svg>
 );
 
-export function CarSilhouette({ style, className }: { style: BodyStyle; className?: string }) {
-  const shapes: Record<BodyStyle, { body: string; wheels: [number, number]; r: number }> = {
+export function CarSilhouette({ style, className }: { style: BodyType; className?: string }) {
+  const shapes: Record<BodyType, { body: string; wheels: [number, number]; r: number }> = {
     hatchback: {
       body: "M8 34 C8 28.5 10.5 26.5 17 25.5 L31 23.5 L44 14 C47 12 50 11 54 11 L82 11 C86 11 88.5 12 90.5 15 L101 24.5 C108 25.5 112 27.5 112 31.5 L112 34 Z",
       wheels: [31, 91],
@@ -106,6 +106,31 @@ export function CarSilhouette({ style, className }: { style: BodyStyle; classNam
       body: "M7 34 C7 26.5 9.5 24 16 23 L28 21 L40 9.5 C43 7.5 46 6.5 50 6.5 L98 6.5 C101 6.5 103 8 104.5 11 L110 21 C113 22 114 25 114 30 L114 34 Z",
       wheels: [30, 92],
       r: 7.5,
+    },
+    "suv-coupe": {
+      body: "M7 34 C7 26.5 9.5 24 16 23 L28 21 L40 9.5 C43 7.5 46 6.5 50 6.5 L84 6.5 C90 6.5 96 10 104 17 L110 21.5 C113 22.5 114 25 114 30 L114 34 Z",
+      wheels: [30, 92],
+      r: 7.5,
+    },
+    sedan: {
+      body: "M6 34 C6 28.5 8.5 26.5 15 25.5 L29 23.5 L42 13 C45 11 48 10 52 10 L76 10 C80 10 83 11.5 86 14 L96 22 L110 23.5 C113 24 114 27 114 30 L114 34 Z",
+      wheels: [29, 93],
+      r: 6.5,
+    },
+    coupe: {
+      body: "M6 34 C6 29 8.5 27 15 26 L32 24 L46 15 C50 13 54 12.5 58 12.5 L74 12.5 C80 12.5 86 15 92 19.5 L108 23.5 C112 24.5 114 27 114 30.5 L114 34 Z",
+      wheels: [29, 93],
+      r: 6.5,
+    },
+    convertible: {
+      body: "M6 34 C6 29 8.5 27 15 26 L34 24 L44 17 L46 17 L46 21 L88 21 C92 21 96 22 100 23 L108 24 C112 25 114 27.5 114 30.5 L114 34 Z",
+      wheels: [29, 93],
+      r: 6.5,
+    },
+    van: {
+      body: "M6 34 L6 22 C6 18 8 16 12 14 L26 6 C28 5 30 4.5 33 4.5 L108 4.5 C111 4.5 113 6 113 9 L114 34 Z",
+      wheels: [27, 95],
+      r: 7,
     },
   };
   const s = shapes[style];

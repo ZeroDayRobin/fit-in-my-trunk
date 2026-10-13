@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import { useEffect } from "react";
+import { initialVehicle } from "@/lib/vehicles/catalog";
 import { useSim } from "@/lib/store";
 import { Sidebar } from "./ui/Sidebar";
 import { StatsPanel } from "./ui/StatsPanel";
@@ -9,32 +10,34 @@ import { ViewToolbar } from "./ui/ViewToolbar";
 import { SelectionBar } from "./ui/SelectionBar";
 import { Notice } from "./ui/Notice";
 import { KeyboardShortcuts } from "./ui/KeyboardShortcuts";
+import { FeedbackButton } from "./ui/FeedbackButton";
 
-// Three.js greift auf window/WebGL zu → nur im Browser rendern (kein SSR).
-const Scene = dynamic(() => import("./Scene"), {
-  ssr: false,
-  loading: () => (
+function SceneLoading() {
+  return (
     <div className="grid h-full w-full place-items-center">
       <div className="flex flex-col items-center gap-3 text-sm text-neutral-500 dark:text-neutral-400">
         <span className="h-8 w-8 animate-spin rounded-full border-2 border-neutral-300 border-t-neutral-900 dark:border-neutral-700 dark:border-t-white" />
         3D-Szene wird geladen …
       </div>
     </div>
-  ),
-});
+  );
+}
+
+// Three.js greift auf window/WebGL zu → nur im Browser rendern (kein SSR).
+const Scene = dynamic(() => import("./Scene"), { ssr: false, loading: SceneLoading });
 
 export default function Simulator() {
-  // Theme aus dem (per Inline-Script gesetzten) <html class="dark"> übernehmen
+  const ready = useSim((s) => s.info !== null);
+
+  // Startfahrzeug laden (Datenbank-Chunk der Marke)
   useEffect(() => {
-    useSim.setState({ theme: document.documentElement.classList.contains("dark") ? "dark" : "light" });
+    initialVehicle().then((r) => r && useSim.getState().setVehicle(r.car, r.info, r.selection));
   }, []);
 
   return (
-    <main className="relative h-dvh w-full overflow-hidden bg-[#ecedef] text-neutral-900 dark:bg-[#0b0c0f] dark:text-neutral-100">
+    <main className="relative h-dvh w-full overflow-hidden bg-[#e3e5e8] text-neutral-900 dark:bg-[#0b0c0f] dark:text-neutral-100">
       {/* isolate: hält die 3D-Html-Labels unterhalb der Overlay-UI */}
-      <div className="absolute inset-0 isolate">
-        <Scene />
-      </div>
+      <div className="absolute inset-0 isolate">{ready ? <Scene /> : <SceneLoading />}</div>
 
       {/* Overlay-UI */}
       <div className="pointer-events-none absolute inset-0 z-10">
@@ -69,6 +72,7 @@ export default function Simulator() {
         </div>
 
         <Sidebar />
+        <FeedbackButton />
       </div>
 
       <KeyboardShortcuts />

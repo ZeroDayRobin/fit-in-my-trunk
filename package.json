@@ -2,11 +2,14 @@
   "name": "fit-in-my-trunk",
   "version": "0.1.0",
   "private": true,
+  "license": "CC-BY-NC-4.0",
+  "author": "ZeroDayRobin (https://github.com/ZeroDayRobin)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "data": "node scripts/build-vehicle-data.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.9",

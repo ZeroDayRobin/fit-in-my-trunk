@@ -1,14 +1,27 @@
-// Fahrzeugdaten. Alle Maße in Metern (1 Einheit in der 3D-Szene = 1 m).
+// 3D-Fahrzeugbeschreibung für Szene und Pack-Logik. Alle Maße in Metern (1 Einheit = 1 m).
 // Das Auto steht entlang der Z-Achse: Front bei -Z, Heck bei +Z.
+// Konkrete Fahrzeuge werden aus den recherchierten Herstellerdaten erzeugt (lib/vehicles/spec.ts).
 
-export type CarId = "compact" | "wagon" | "suv";
-export type BodyStyle = "hatchback" | "wagon" | "suv";
+export type BodyType = "hatchback" | "sedan" | "wagon" | "suv" | "suv-coupe" | "coupe" | "convertible" | "van";
+
+export const BODY_TYPE_LABEL: Record<BodyType, string> = {
+  hatchback: "Schrägheck",
+  sedan: "Limousine",
+  wagon: "Kombi",
+  suv: "SUV",
+  "suv-coupe": "SUV-Coupé",
+  coupe: "Coupé",
+  convertible: "Cabrio",
+  van: "Van",
+};
+
+/** Karosserien mit separatem Kofferraumdeckel statt Heckklappe */
+export const hasTrunkLid = (style: BodyType) => style === "sedan" || style === "coupe" || style === "convertible";
 
 export interface CarModel {
-  id: CarId;
+  id: string;
   name: string;
-  segment: string;
-  style: BodyStyle;
+  style: BodyType;
   /** Außenmaße & Fahrwerk */
   length: number;
   width: number;
@@ -24,8 +37,8 @@ export interface CarModel {
     noseHeight: number; // Oberkante Front
     cowl: number; // Abstand Front → Windschutzscheiben-Fuß
     roofStart: number; // Abstand Front → Dachvorderkante
-    roofEnd: number; // Abstand Heck → Dachhinterkante (Heckklappen-Scharnier)
-    rearBeltInset: number; // Abstand Heck → Heckscheiben-Unterkante
+    roofEnd: number; // Abstand Heck → Dachhinterkante (Heckklappen-Scharnier bzw. Heckscheiben-Oberkante)
+    rearBeltInset: number; // Abstand Heck → Heckscheiben-Unterkante bzw. Kofferraumdeckel-Vorderkante
   };
   /** Nutzbarer Kofferraum als Quader */
   trunk: {
@@ -34,108 +47,9 @@ export interface CarModel {
     depth: number;
     floorY: number; // Ladeboden-Höhe über Grund
     rearInset: number; // Abstand Fahrzeugheck → Kofferraum-Rückwand
-    foldExtension: number; // zusätzliche Tiefe bei umgeklappter Rückbank
+    foldExtension: number; // zusätzliche Tiefe bei umgeklappter Rückbank (0 = nicht klappbar)
   };
-  defaultPaint: string;
 }
-
-export const CARS: CarModel[] = [
-  {
-    id: "compact",
-    name: "Kompaktwagen",
-    segment: "Kompaktklasse · Fließheck",
-    style: "hatchback",
-    length: 4.28,
-    width: 1.79,
-    height: 1.46,
-    wheelbase: 2.62,
-    frontOverhang: 0.89,
-    wheelRadius: 0.32,
-    groundClearance: 0.15,
-    body: {
-      beltline: 0.98,
-      rearBeltline: 1.02,
-      noseHeight: 0.7,
-      cowl: 1.05,
-      roofStart: 1.95,
-      roofEnd: 0.32,
-      rearBeltInset: 0.06,
-    },
-    trunk: {
-      width: 1.0,
-      height: 0.48,
-      depth: 0.8,
-      floorY: 0.7,
-      rearInset: 0.16,
-      foldExtension: 0.82,
-    },
-    defaultPaint: "nachtblau",
-  },
-  {
-    id: "wagon",
-    name: "Kombi",
-    segment: "Mittelklasse · Variant",
-    style: "wagon",
-    length: 4.77,
-    width: 1.83,
-    height: 1.5,
-    wheelbase: 2.79,
-    frontOverhang: 0.92,
-    wheelRadius: 0.33,
-    groundClearance: 0.15,
-    body: {
-      beltline: 0.98,
-      rearBeltline: 1.0,
-      noseHeight: 0.7,
-      cowl: 1.1,
-      roofStart: 2.0,
-      roofEnd: 0.13,
-      rearBeltInset: 0.05,
-    },
-    trunk: {
-      width: 1.05,
-      height: 0.58,
-      depth: 1.05,
-      floorY: 0.72,
-      rearInset: 0.11,
-      foldExtension: 0.95,
-    },
-    defaultPaint: "mondsilber",
-  },
-  {
-    id: "suv",
-    name: "SUV",
-    segment: "Kompakt-SUV · 5 Sitze",
-    style: "suv",
-    length: 4.51,
-    width: 1.86,
-    height: 1.66,
-    wheelbase: 2.68,
-    frontOverhang: 0.93,
-    wheelRadius: 0.37,
-    groundClearance: 0.2,
-    body: {
-      beltline: 1.1,
-      rearBeltline: 1.12,
-      noseHeight: 0.86,
-      cowl: 1.12,
-      roofStart: 1.98,
-      roofEnd: 0.2,
-      rearBeltInset: 0.06,
-    },
-    trunk: {
-      width: 1.05,
-      height: 0.64,
-      depth: 0.92,
-      floorY: 0.8,
-      rearInset: 0.14,
-      foldExtension: 0.88,
-    },
-    defaultPaint: "salbei",
-  },
-];
-
-export const CAR_BY_ID: Record<CarId, CarModel> = Object.fromEntries(CARS.map((c) => [c.id, c])) as Record<CarId, CarModel>;
 
 export interface Paint {
   id: string;
@@ -156,8 +70,10 @@ export const PAINTS: Paint[] = [
 
 export const PAINT_BY_ID: Record<string, Paint> = Object.fromEntries(PAINTS.map((p) => [p.id, p]));
 
-/** Kofferraum-Volumen in Litern */
+/** Volumen der Laderaum-Box in Litern */
 export function trunkLiters(car: CarModel, folded: boolean): number {
   const depth = car.trunk.depth + (folded ? car.trunk.foldExtension : 0);
   return Math.round(car.trunk.width * car.trunk.height * depth * 1000);
 }
+
+export const canFoldSeats = (car: CarModel) => car.trunk.foldExtension > 0;

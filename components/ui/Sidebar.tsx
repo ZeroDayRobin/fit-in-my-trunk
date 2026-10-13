@@ -1,11 +1,11 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { CARS, PAINTS, trunkLiters } from "@/lib/cars";
+import { useState } from "react";
+import { canFoldSeats, PAINTS, trunkLiters } from "@/lib/cars";
 import { LUGGAGE, LUGGAGE_TYPES, luggageDimsLabel, luggageLiters, type LuggageType } from "@/lib/luggage";
-import { autoPack, makeEnv } from "@/lib/packing";
 import { useCar, useSim } from "@/lib/store";
-import { CarSilhouette, IconChevron, IconPlus, IconReset, IconSeat, IconSparkle, LuggageGlyph } from "./icons";
+import { IconChevron, IconPlus, IconReset, IconSeat, IconSparkle, LuggageGlyph } from "./icons";
+import { VehiclePicker } from "./VehiclePicker";
 import { cx, panel, sectionLabel } from "./styles";
 
 /** Linke Seitenleiste (Desktop) bzw. Bottom-Sheet (Mobil). */
@@ -16,7 +16,7 @@ export function Sidebar() {
     <aside
       className={cx(
         panel,
-        "pointer-events-auto flex flex-col overflow-hidden",
+        "pointer-events-auto z-20 flex flex-col overflow-hidden",
         // Mobil: Bottom-Sheet
         "fixed inset-x-0 bottom-0 rounded-b-none rounded-t-3xl",
         // Desktop: schwebende Seitenleiste
@@ -41,7 +41,7 @@ export function Sidebar() {
 
       <div className={cx("min-h-0 flex-1 overflow-y-auto overscroll-contain", open ? "max-h-[46dvh]" : "hidden", "lg:block lg:max-h-none")}>
         <div className="space-y-6 px-5 pb-5 pt-1 lg:pt-5">
-          <CarSection />
+          <VehiclePicker />
           <PaintSection />
           <section className="hidden lg:block">
             <h2 className={sectionLabel}>Gepäck hinzufügen</h2>
@@ -55,6 +55,27 @@ export function Sidebar() {
           <p className="hidden text-[11px] leading-relaxed text-neutral-400 lg:block dark:text-neutral-500">
             <Kbd>Ziehen</Kbd> Gepäck verschieben · <Kbd>R</Kbd> drehen · <Kbd>T</Kbd> kippen · <Kbd>Entf</Kbd> löschen · <Kbd>1</Kbd>–
             <Kbd>3</Kbd> hinzufügen. Ziehen im freien Raum dreht die Kamera, Scrollen zoomt.
+          </p>
+          <p className="text-[10.5px] leading-relaxed text-neutral-400 dark:text-neutral-500">
+            © 2026{" "}
+            <a
+              href="https://github.com/ZeroDayRobin/fit-in-my-trunk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline-offset-2 hover:underline"
+            >
+              ZeroDayRobin
+            </a>{" "}
+            ·{" "}
+            <a
+              href="https://creativecommons.org/licenses/by-nc/4.0/deed.de"
+              target="_blank"
+              rel="noopener noreferrer license"
+              className="underline-offset-2 hover:underline"
+            >
+              CC BY-NC 4.0
+            </a>{" "}
+            · Fahrzeugdaten nach Herstellerangaben, ohne Gewähr
           </p>
         </div>
       </div>
@@ -70,96 +91,8 @@ function Kbd({ children }: { children: React.ReactNode }) {
   );
 }
 
-function CarSection() {
-  const carId = useSim((s) => s.carId);
-  const setCar = useSim((s) => s.setCar);
-  const items = useSim((s) => s.items);
-  const folded = useSim((s) => s.seatsFolded);
-
-  // Vorschau: Wie viele der aktuellen Gepäckstücke passen in jedes Modell?
-  const fitKey = items
-    .map((i) => i.type)
-    .sort()
-    .join(",");
-  const fits = useMemo(() => {
-    if (!fitKey) return null;
-    return Object.fromEntries(CARS.map((c) => [c.id, autoPack(items, makeEnv(c, folded)).packedIds.length]));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [fitKey, folded]);
-
-  return (
-    <section>
-      <h2 className={sectionLabel}>Fahrzeug</h2>
-      <div className="mt-3 grid grid-cols-3 gap-2">
-        {CARS.map((c) => {
-          const active = c.id === carId;
-          const fit = fits?.[c.id];
-          const all = fit === items.length;
-          return (
-            <button
-              key={c.id}
-              onClick={() => setCar(c.id)}
-              className={cx(
-                "group relative flex flex-col items-start rounded-2xl border p-2.5 text-left transition",
-                active
-                  ? "border-neutral-900 bg-neutral-900 text-white shadow-lg shadow-neutral-900/20 dark:border-white dark:bg-white dark:text-neutral-900"
-                  : "border-black/[0.07] bg-white/60 text-neutral-800 hover:border-black/20 hover:bg-white dark:border-white/10 dark:bg-white/[0.03] dark:text-neutral-200 dark:hover:border-white/25",
-              )}
-            >
-              <CarSilhouette
-                style={c.style}
-                className={cx("h-7 w-full", active ? "text-white dark:text-neutral-900" : "text-neutral-700 dark:text-neutral-300")}
-              />
-              <span className="mt-1.5 text-[13px] font-semibold leading-tight">{c.name}</span>
-              <span
-                className={cx(
-                  "text-[11px] tabular-nums",
-                  active ? "text-white/70 dark:text-neutral-500" : "text-neutral-500 dark:text-neutral-400",
-                )}
-              >
-                {trunkLiters(c, folded)} L
-              </span>
-              {fit !== undefined && (
-                <span
-                  className={cx(
-                    "absolute right-1.5 top-1.5 rounded-full px-1.5 py-px text-[10px] font-semibold tabular-nums",
-                    all ? "bg-emerald-500 text-white" : "bg-amber-400 text-amber-950",
-                  )}
-                  title={`${fit} von ${items.length} Gepäckstücken passen`}
-                >
-                  {fit}/{items.length}
-                </span>
-              )}
-            </button>
-          );
-        })}
-      </div>
-      <CarDetails />
-    </section>
-  );
-}
-
-function CarDetails() {
-  const car = useCar();
-  const t = car.trunk;
-  const cm = (v: number) => Math.round(v * 100);
-  return (
-    <div className="mt-3 flex items-baseline justify-between gap-3 rounded-2xl bg-black/[0.03] px-3.5 py-2.5 dark:bg-white/[0.04]">
-      <div>
-        <div className="text-[13px] font-medium text-neutral-900 dark:text-neutral-100">{car.segment}</div>
-        <div className="text-[11px] text-neutral-500 dark:text-neutral-400">
-          Ladefläche {cm(t.width)} × {cm(t.depth)} cm · Höhe {cm(t.height)} cm
-        </div>
-      </div>
-      <div className="text-right text-[11px] text-neutral-500 tabular-nums dark:text-neutral-400">
-        {car.length.toFixed(2).replace(".", ",")} m
-      </div>
-    </div>
-  );
-}
-
 function PaintSection() {
-  const paintId = useSim((s) => s.paints[s.carId]);
+  const paintId = useSim((s) => s.paintId);
   const setPaint = useSim((s) => s.setPaint);
   const current = PAINTS.find((p) => p.id === paintId);
   return (
@@ -251,6 +184,7 @@ function CargoSection() {
   const packAll = useSim((s) => s.packAll);
   const clearItems = useSim((s) => s.clearItems);
   const hasItems = useSim((s) => s.items.length > 0);
+  const foldable = canFoldSeats(car);
   const extra = trunkLiters(car, true) - trunkLiters(car, false);
 
   return (
@@ -260,14 +194,17 @@ function CargoSection() {
         onClick={toggleSeats}
         role="switch"
         aria-checked={folded}
-        className="mt-3 flex w-full items-center gap-3 rounded-2xl border border-black/[0.07] bg-white/60 px-3 py-2.5 text-left transition hover:border-black/20 dark:border-white/10 dark:bg-white/[0.03] dark:hover:border-white/25"
+        disabled={!foldable}
+        className="mt-3 flex w-full items-center gap-3 rounded-2xl border border-black/[0.07] bg-white/60 px-3 py-2.5 text-left transition hover:border-black/20 disabled:cursor-not-allowed disabled:opacity-50 dark:border-white/10 dark:bg-white/[0.03] dark:hover:border-white/25"
       >
         <span className="grid h-9 w-9 place-items-center rounded-xl bg-black/[0.04] text-neutral-700 dark:bg-white/[0.06] dark:text-neutral-300">
           <IconSeat />
         </span>
         <span className="flex-1">
           <span className="block text-[14px] font-semibold text-neutral-900 dark:text-neutral-100">Rücksitze umklappen</span>
-          <span className="block text-[11px] text-neutral-500 tabular-nums dark:text-neutral-400">+{extra} L Ladevolumen</span>
+          <span className="block text-[11px] text-neutral-500 tabular-nums dark:text-neutral-400">
+            {foldable ? `+${extra} L Ladevolumen` : "Kein Wert für umgeklappte Rückbank"}
+          </span>
         </span>
         <span
           className={cx("relative h-6 w-11 rounded-full transition-colors", folded ? "bg-sky-500" : "bg-neutral-300 dark:bg-neutral-700")}

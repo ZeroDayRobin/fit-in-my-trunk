@@ -9,8 +9,7 @@ import { useEffect, useMemo, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 import { toCreasedNormals } from "three/addons/utils/BufferGeometryUtils.js";
-import type { CarModel as Car } from "@/lib/cars";
-import { PAINT_BY_ID } from "@/lib/cars";
+import { hasTrunkLid, PAINT_BY_ID, type CarModel as Car } from "@/lib/cars";
 import { trunkBox } from "@/lib/packing";
 
 const SKIN = 0.12; // Stärke der Seitenwände (inkl. gerundeter Schulter)
@@ -133,7 +132,7 @@ export function CarModel({ car, paintId, xray, seatsFolded }: Props) {
 
       {/* Heck: Rückleuchten & Diffusor */}
       {[1, -1].map((side) => (
-        <mesh key={side} material={materials.lightRear} position={[side * g.tailLightX, car.trunk.floorY - 0.07, car.length / 2 - 0.006]}>
+        <mesh key={side} material={materials.lightRear} position={[side * g.tailLightX, g.tailLightY, car.length / 2 - 0.006]}>
           <boxGeometry args={[0.26, 0.035, 0.02]} />
         </mesh>
       ))}
@@ -141,23 +140,19 @@ export function CarModel({ car, paintId, xray, seatsFolded }: Props) {
         <boxGeometry args={[W * 0.62, 0.07, 0.16]} />
       </mesh>
 
-      {/* Heckklappe (am Dach angeschlagen, geöffnet) */}
+      {/* Heckklappe (am Dach angeschlagen) bzw. Kofferraumdeckel (Limousine/Coupé) – geöffnet */}
       <group ref={tailgate} position={[0, g.hingeY, g.zHinge]}>
-        <mesh material={materials.glass} position={g.gateGlass.position} rotation={[g.gateGlass.rotX, 0, 0]}>
-          <boxGeometry args={[g.gateWidth - 0.08, 0.018, g.gateGlass.length]} />
-        </mesh>
-        <mesh material={materials.body} position={g.gateFrame.position} rotation={[g.gateFrame.rotX, 0, 0]} castShadow={shadow}>
-          <boxGeometry args={[g.gateWidth, 0.012, g.gateFrame.length]} />
-        </mesh>
-        <mesh material={materials.body} position={g.gateBody.position} rotation={[g.gateBody.rotX, 0, 0]} castShadow={shadow}>
-          <boxGeometry args={[g.gateWidth, 0.06, g.gateBody.length]} />
-        </mesh>
-        <mesh material={materials.lightRear} position={g.gateLight.position} rotation={[g.gateLight.rotX, 0, 0]}>
-          <boxGeometry args={[g.gateWidth * 0.92, 0.02, 0.05]} />
-        </mesh>
-        <mesh material={materials.trim} position={[0, 0.015, 0.04]}>
-          <boxGeometry args={[g.gateWidth, 0.03, 0.12]} />
-        </mesh>
+        {g.gateParts.map((p, i) => (
+          <mesh
+            key={i}
+            material={materials[p.material]}
+            position={p.position}
+            rotation={[p.rotX, 0, 0]}
+            castShadow={p.material === "body" && shadow}
+          >
+            <boxGeometry args={[p.width, p.thickness, p.length]} />
+          </mesh>
+        ))}
       </group>
 
       {/* Rückbank (klappbar) */}
@@ -165,7 +160,7 @@ export function CarModel({ car, paintId, xray, seatsFolded }: Props) {
         <mesh material={materials.interior} position={[0, g.backrestHeight / 2, g.backrestThickness / 2]} castShadow receiveShadow>
           <boxGeometry args={[g.innerWidth - 0.04, g.backrestHeight, g.backrestThickness]} />
         </mesh>
-        {[-0.45, 0, 0.45].map((x) => (
+        {(g.headrests ? [-g.innerWidth * 0.3, 0, g.innerWidth * 0.3] : []).map((x) => (
           <mesh key={x} material={materials.interior} position={[x, g.backrestHeight + 0.08, g.backrestThickness / 2]}>
             <boxGeometry args={[0.24, 0.13, 0.08]} />
           </mesh>
@@ -294,19 +289,23 @@ function buildGeometry(car: Car) {
   const r = car.wheelRadius;
   const ra = r * 1.1;
   const gc = car.groundClearance;
+  const lid = hasTrunkLid(car.style);
   const zF = -L / 2;
   const zR = L / 2;
   const zFW = zF + car.frontOverhang;
   const zRW = zFW + car.wheelbase;
   const zCowl = zF + b.cowl;
   const zRoofStart = zF + b.roofStart;
-  const zHinge = zR - b.roofEnd;
-  const zRearBelt = zR - b.rearBeltInset;
+  const zHinge = zR - b.roofEnd; // Dachende (Heckklappen-Scharnier bzw. Heckscheiben-Oberkante)
+  const zRearBelt = zR - b.rearBeltInset; // Heckscheiben-Unterkante bzw. Deckel-Vorderkante
   const floorY = car.trunk.floorY;
+  const archTop = r + ra;
+  const sideFloorY = Math.max(floorY, archTop + 0.03); // Radhäuser ragen seitlich in den Laderaum
   const roofFrontY = H - 0.05;
-  const roofRearY = car.style === "hatchback" ? H - 0.07 : H - 0.04;
+  const roofRearY = car.style === "hatchback" || car.style === "suv-coupe" ? H - 0.07 : lid ? H - 0.09 : H - 0.04;
   const roofMid: [number, number] = [(zRoofStart + zHinge) / 2, H + 0.02];
   const noseLow = gc + 0.26;
+  const hoodCtrl = Math.min(0.5, b.cowl * 0.5);
 
   // Draufsicht: Enden verjüngen, Dach einziehen, Unterkante leicht runden
   const taper = (y: number, z: number) => {
@@ -331,40 +330,52 @@ function buildGeometry(car: Car) {
   };
   const placed = (geo: THREE.BufferGeometry, x: number, y = 0, z = 0) => geo.translate(x, y, z);
 
-  // Gemeinsamer Unterbau inkl. Radhäuser (von vorne nach hinten)
-  const lowerPath = (s: THREE.Shape) => {
+  // Gemeinsamer Unterbau (von vorne nach hinten), optional mit Radhäusern
+  const lowerPath = (s: THREE.Shape, arches: boolean, rearTop: number) => {
     s.moveTo(zF, noseLow);
     s.quadraticCurveTo(zF + 0.02, gc + 0.01, zF + 0.24, gc);
-    for (const zw of [zFW, zRW]) {
-      s.lineTo(zw - ra, gc);
-      s.lineTo(zw - ra, r);
-      s.absarc(zw, r, ra, Math.PI, 0, true);
-      s.lineTo(zw + ra, gc);
+    if (arches) {
+      for (const zw of [zFW, zRW]) {
+        s.lineTo(zw - ra, gc);
+        s.lineTo(zw - ra, r);
+        s.absarc(zw, r, ra, Math.PI, 0, true);
+        s.lineTo(zw + ra, gc);
+      }
     }
     s.lineTo(zR - 0.22, gc);
     s.quadraticCurveTo(zR - 0.005, gc + 0.01, zR, gc + 0.26);
-    s.lineTo(zR, floorY);
+    s.lineTo(zR, rearTop);
   };
   const hoodAndNose = (s: THREE.Shape) => {
     s.lineTo(zCowl, b.beltline - 0.03);
-    s.quadraticCurveTo(zF + 0.5, b.noseHeight + 0.08, zF + 0.1, b.noseHeight);
+    s.quadraticCurveTo(zF + hoodCtrl, b.noseHeight + 0.08, zF + 0.1, b.noseHeight);
     s.quadraticCurveTo(zF - 0.005, b.noseHeight - 0.03, zF, b.noseHeight - 0.2);
     s.lineTo(zF, noseLow);
   };
 
   // Seitenwand: geschlossenes Profil bis zur Fensterlinie
   const skinShape = new THREE.Shape();
-  lowerPath(skinShape);
-  skinShape.quadraticCurveTo(zR + 0.005, b.rearBeltline - 0.05, zRearBelt, b.rearBeltline);
+  if (lid) {
+    lowerPath(skinShape, true, b.rearBeltline - 0.08);
+    skinShape.quadraticCurveTo(zR, b.rearBeltline, zR - 0.1, b.rearBeltline);
+    skinShape.lineTo(zRearBelt, b.rearBeltline);
+  } else {
+    lowerPath(skinShape, true, floorY);
+    skinShape.quadraticCurveTo(zR + 0.005, b.rearBeltline - 0.05, zRearBelt, b.rearBeltline);
+  }
   skinShape.lineTo(zCowl, b.beltline);
   hoodAndNose(skinShape);
 
-  // Kern: Profil mit offener Wanne für Innenraum + Kofferraum
-  const coreShape = new THREE.Shape();
-  lowerPath(coreShape);
-  coreShape.lineTo(zCowl + 0.02, floorY);
-  coreShape.lineTo(zCowl + 0.02, b.beltline - 0.03);
-  hoodAndNose(coreShape);
+  // Kern: Profil mit offener Wanne für Innenraum + Kofferraum.
+  // Mitte ohne Radhäuser (tiefer Ladeboden), Seiten mit Radhäusern (erhöhter Boden = Radkästen).
+  const coreShape = (arches: boolean, tubFloor: number) => {
+    const s = new THREE.Shape();
+    lowerPath(s, arches, tubFloor);
+    s.lineTo(zCowl + 0.02, tubFloor);
+    s.lineTo(zCowl + 0.02, b.beltline - 0.03);
+    hoodAndNose(s);
+    return s;
+  };
 
   // Seitenscheiben
   const glassShape = new THREE.Shape();
@@ -393,24 +404,33 @@ function buildGeometry(car: Car) {
   roofShape.closePath();
 
   const glassX = W / 2 - TUMBLE;
+  const innerHalf = Math.min(car.trunk.width / 2 + 0.04, W / 2 - 0.28);
+  const sideW = W / 2 - SKIN + 0.02 - innerHalf;
   const body = [
-    finish(extrude(coreShape, W - 2 * SKIN + 0.04)),
+    finish(extrude(coreShape(false, floorY), 2 * innerHalf + 0.004)),
     finish(placed(extrude(skinShape, SKIN, 0.05), W / 2 - SKIN / 2)),
     finish(placed(extrude(skinShape, SKIN, 0.05), -W / 2 + SKIN / 2)),
-    finish(extrude(roofShape, 2 * glassX + 0.05, 0.012)),
+    finish(extrude(roofShape, 2 * glassX + 0.05, 0.012), false),
   ];
+  if (sideW > 0.01) {
+    for (const side of [1, -1]) body.push(finish(placed(extrude(coreShape(true, sideFloorY), sideW), side * (innerHalf + sideW / 2))));
+  }
 
-  // Windschutzscheibe als Quader, danach ebenfalls verjüngt
-  const ws = segment([zCowl + 0.05, b.beltline - 0.01], [zRoofStart, roofFrontY - 0.02]);
-  const windshield = new THREE.BoxGeometry(2 * glassX, 0.014, ws.length, 1, 1, 1);
-  windshield.rotateX(ws.rotX);
-  windshield.translate(...ws.position);
-
+  // Scheiben als Quader, danach ebenfalls verjüngt
+  const pane = (from: [number, number], to: [number, number], width: number) => {
+    const sg = segment(from, to);
+    const geo = new THREE.BoxGeometry(width, 0.014, sg.length, 1, 1, 1);
+    geo.rotateX(sg.rotX);
+    geo.translate(...sg.position);
+    return finish(geo, false);
+  };
   const glass = [
     finish(placed(extrude(glassShape, 0.016), glassX), false),
     finish(placed(extrude(glassShape, 0.016), -glassX), false),
-    finish(windshield, false),
+    pane([zCowl + 0.05, b.beltline - 0.01], [zRoofStart, roofFrontY - 0.02], 2 * glassX),
   ];
+  // Limousine/Coupé: feste Heckscheibe zwischen Dach und Kofferraumdeckel
+  if (lid) glass.push(pane([zHinge, roofRearY - 0.02], [zRearBelt, b.rearBeltline], 2 * glassX - 0.04));
   const trim = [
     finish(placed(extrude(pillarShape, 0.02), glassX + 0.004), false),
     finish(placed(extrude(pillarShape, 0.02), -glassX - 0.004), false),
@@ -424,33 +444,91 @@ function buildGeometry(car: Car) {
   const carpetEnd = zR - 0.04;
   const carpetLen = carpetEnd - carpetStart;
   const carpetZ = (carpetStart + carpetEnd) / 2;
-  const liningH = b.beltline - floorY;
+  const liningH = Math.max(0.05, b.beltline - sideFloorY);
   const interior = [1, -1].map((side) =>
-    finish(new THREE.BoxGeometry(0.02, liningH, carpetLen).translate(side * (W / 2 - SKIN - 0.008), floorY + liningH / 2, carpetZ), false),
+    finish(
+      new THREE.BoxGeometry(0.02, liningH, carpetLen).translate(side * (W / 2 - SKIN - 0.008), sideFloorY + liningH / 2, carpetZ),
+      false,
+    ),
   );
   const dashH = b.beltline - 0.02 - (floorY - 0.1);
   interior.push(finish(new THREE.BoxGeometry(innerWidth, dashH, 0.42).translate(0, floorY - 0.1 + dashH / 2, zCowl + 0.27), false));
-  const carpet = finish(new THREE.BoxGeometry(innerWidth + 0.01, 0.006, carpetLen).translate(0, floorY + 0.003, carpetZ), false);
+  const carpet = finish(new THREE.BoxGeometry(2 * innerHalf + 0.01, 0.006, carpetLen).translate(0, floorY + 0.003, carpetZ), false);
 
-  // Heckklappe in lokalen Koordinaten relativ zum Scharnier
-  const hingeY = roofRearY - 0.02;
-  const p1: [number, number] = [zRearBelt - zHinge, b.rearBeltline - hingeY];
-  const p2: [number, number] = [zR - zHinge + 0.01, floorY + 0.01 - hingeY];
-  const gateGlass = segment([0, 0], p1);
-  const gateFrame = { ...gateGlass, position: [0, gateGlass.position[1] - 0.012, gateGlass.position[2]] as [number, number, number] };
-  const gateBody = segment(p1, p2);
-  const lt = 0.25;
-  const gateLight = {
-    position: [0, p1[1] + (p2[1] - p1[1]) * lt, p1[0] + (p2[0] - p1[0]) * lt + 0.035] as [number, number, number],
-    rotX: gateBody.rotX,
+  // Heckklappe/Kofferraumdeckel in lokalen Koordinaten relativ zum Scharnier
+  type GatePart = {
+    material: "glass" | "body" | "lightRear" | "trim";
+    position: [number, number, number];
+    rotX: number;
+    length: number;
+    width: number;
+    thickness: number;
   };
-  const closedAngle = Math.atan2(p1[1], p1[0]);
-  const tailgateOpen = closedAngle - 0.24;
   const gateWidth = W * taper(b.rearBeltline, zR - 0.1) - 2 * 0.07;
+  const part = (
+    material: GatePart["material"],
+    from: [number, number],
+    to: [number, number],
+    width: number,
+    thickness: number,
+    lift = 0,
+  ) => {
+    const sg = segment(from, to);
+    const position: [number, number, number] = [0, sg.position[1] + lift, sg.position[2]];
+    return { material, position, rotX: sg.rotX, length: sg.length, width, thickness };
+  };
+  let hingeZ: number;
+  let hingeY: number;
+  let gateParts: GatePart[];
+  let tailgateOpen: number;
+  let tailLightY: number;
+  if (lid) {
+    // Deckel: vom Heckscheiben-Fuß waagerecht nach hinten, dann senkrecht nach unten
+    hingeZ = zRearBelt;
+    hingeY = b.rearBeltline + 0.005;
+    const lidBottom = Math.max(floorY + 0.1, b.rearBeltline - 0.32);
+    const p1: [number, number] = [zR - 0.06 - hingeZ, -0.02];
+    const p2: [number, number] = [zR + 0.005 - hingeZ, lidBottom - hingeY];
+    const lt = 0.3;
+    gateParts = [
+      part("body", [0, 0], p1, gateWidth, 0.05),
+      part("body", p1, p2, gateWidth, 0.05),
+      {
+        ...part("lightRear", p1, p2, gateWidth * 0.92, 0.02),
+        position: [0, p1[1] + (p2[1] - p1[1]) * lt, p1[0] + (p2[0] - p1[0]) * lt + 0.03],
+        length: 0.05,
+      },
+    ];
+    tailgateOpen = -1.2;
+    tailLightY = lidBottom - 0.05;
+  } else {
+    hingeZ = zHinge;
+    hingeY = roofRearY - 0.02;
+    const p1: [number, number] = [zRearBelt - zHinge, b.rearBeltline - hingeY];
+    const p2: [number, number] = [zR - zHinge + 0.01, floorY + 0.01 - hingeY];
+    const lt = 0.25;
+    const body = part("body", p1, p2, gateWidth, 0.06);
+    gateParts = [
+      part("glass", [0, 0], p1, gateWidth - 0.08, 0.018),
+      part("body", [0, 0], p1, gateWidth, 0.012, -0.012),
+      body,
+      {
+        material: "lightRear",
+        position: [0, p1[1] + (p2[1] - p1[1]) * lt, p1[0] + (p2[0] - p1[0]) * lt + 0.035],
+        rotX: body.rotX,
+        length: 0.05,
+        width: gateWidth * 0.92,
+        thickness: 0.02,
+      },
+      { material: "trim", position: [0, 0.015, 0.04], rotX: 0, length: 0.12, width: gateWidth, thickness: 0.03 },
+    ];
+    tailgateOpen = Math.atan2(p1[1], p1[0]) - 0.24;
+    tailLightY = floorY - 0.07;
+  }
 
   const backrestThickness = 0.14;
   const backrestPivotZ = trunk.min[2] - backrestThickness;
-  const backrestHeight = Math.min(0.58, roofRearY - floorY - 0.3);
+  const backrestHeight = Math.min(0.58, Math.max(0.3, (lid ? b.rearBeltline - 0.02 : roofRearY - 0.3) - floorY));
   const frontSeatZ = folded.min[2] - 0.2;
   const seatBack = Math.min(0.55, H - floorY - 0.3);
 
@@ -469,21 +547,19 @@ function buildGeometry(car: Car) {
     trim,
     interior,
     carpet,
-    gateGlass,
-    gateFrame,
-    gateBody,
-    gateLight,
-    gateWidth,
+    gateParts,
     hingeY,
-    zHinge,
+    zHinge: hingeZ,
     zCowl,
     tailgateOpen,
     tailLightX: (W / 2 - 0.16) * taper(floorY, zR),
+    tailLightY,
     floorY,
     innerWidth,
     backrestThickness,
     backrestPivotZ,
     backrestHeight,
+    headrests: !lid,
     frontSeatZ,
     seatBack,
     wheels,

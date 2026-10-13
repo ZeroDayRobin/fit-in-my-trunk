@@ -3,7 +3,6 @@
 import { useEffect } from "react";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
-import { CAR_BY_ID } from "@/lib/cars";
 import { clampToStage, itemBox, makeEnv, orientedSize, pickSurface, snapXZ } from "@/lib/packing";
 import { useSim } from "@/lib/store";
 import { dragSession } from "@/lib/dragSession";
@@ -34,7 +33,7 @@ export function DragController() {
       ndc.set(((e.clientX - rect.left) / rect.width) * 2 - 1, -((e.clientY - rect.top) / rect.height) * 2 + 1);
       raycaster.setFromCamera(ndc, camera);
 
-      const env = makeEnv(CAR_BY_ID[s.carId], s.seatsFolded);
+      const env = makeEnv(s.car, s.seatsFolded);
       const others = s.items.filter((i) => i.id !== draggingId).map(itemBox);
       const hit = pickSurface(raycaster.ray, others, env);
       if (!hit) return;

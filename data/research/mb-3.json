@@ -1,0 +1,857 @@
+{
+ "id": "mb-3",
+ "brand": "Mercedes-Benz",
+ "data": {
+  "models": [
+   {
+    "brand": "Mercedes-Benz",
+    "model": "GLA",
+    "generations": [
+     {
+      "name": "H247 (Vor-Facelift)",
+      "yearFrom": 2020,
+      "yearTo": 2023,
+      "bodyType": "suv",
+      "lengthMm": 4410,
+      "widthMm": 1834,
+      "heightMm": 1611,
+      "wheelbaseMm": 2729,
+      "trunkL": 435,
+      "trunkFoldedL": 1430,
+      "loadSpace": null,
+      "confidence": "high",
+      "notes": "German market from 04/2020 (ADAC: 04/20 - 05/23). Base values = petrol (ADAC: 435 l normal / 1430 l dachhoch mit umgeklappter Rücksitzbank). ADAC lists the GLA 200 d models with 425/1420 l and the GLA 250 e with 385 l (1385 l folded per Motor1/angurten); the PHEV battery sits under the boot floor. Motor1 gives height 1616 mm (that is the facelift figure); ADAC pre-facelift height is 1611 mm. Width without mirrors 1834 mm (2020 mm with mirrors per ADAC). Variants without a trunk value had no per-variant figure in the sources found; use the generation value for petrol models.",
+      "variants": [
+       {
+        "name": "GLA 180 7G-DCT",
+        "powertrain": "petrol",
+        "powerPs": 136,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "136 PS according to the engine overview (autozeitung). No per-variant trunk figure found; very likely the petrol value of 435/1430 l, but this was not checked."
+       },
+       {
+        "name": "GLA 200 7G-DCT",
+        "powertrain": "petrol",
+        "powerPs": 163,
+        "awd": false,
+        "trunkL": 435,
+        "trunkFoldedL": 1430,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "ADAC GLA 200 AMG Line 7G-DCT (04/20 - 05/23): 120 kW/163 PS, 435/1430 l."
+       },
+       {
+        "name": "GLA 200 4MATIC 8G-DCT",
+        "powertrain": "petrol",
+        "powerPs": 163,
+        "awd": true,
+        "trunkL": 435,
+        "trunkFoldedL": 1430,
+        "yearFrom": 2020,
+        "yearTo": 2021,
+        "notes": "ADAC GLA 200 EDITION 1 4MATIC 8G-DCT (12/20 - 04/21): 435/1430 l."
+       },
+       {
+        "name": "GLA 250 8G-DCT",
+        "powertrain": "petrol",
+        "powerPs": 224,
+        "awd": false,
+        "trunkL": 435,
+        "trunkFoldedL": 1430,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "ADAC GLA 250 Progressive 8G-DCT / EDITION 2022: 435 l normal. The front-wheel-drive GLA 250 was dropped with the facelift (autozeitung)."
+       },
+       {
+        "name": "GLA 250 4MATIC 8G-DCT",
+        "powertrain": "petrol",
+        "powerPs": 224,
+        "awd": true,
+        "trunkL": 435,
+        "trunkFoldedL": 1430,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "ADAC GLA 250 Progressive 4MATIC / EDITION 1 4MATIC pages (petrol pre-facelift 435/1430 l)."
+       },
+       {
+        "name": "GLA 180 d 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 116,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "116 PS according to the engine overview. No per-variant trunk figure found (ADAC gives 425/1420 l for the 200 d models)."
+       },
+       {
+        "name": "GLA 200 d 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": 425,
+        "trunkFoldedL": 1420,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "ADAC 200 d models: 425 l / 1420 l (10 l less than the petrol models)."
+       },
+       {
+        "name": "GLA 200 d 4MATIC 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": true,
+        "trunkL": 425,
+        "trunkFoldedL": 1420,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "ADAC GLA 200 d 4MATIC 8G-DCT (04/20 - 05/23)."
+       },
+       {
+        "name": "GLA 220 d 4MATIC 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 190,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "190 PS. No per-variant pre-facelift trunk figure found."
+       },
+       {
+        "name": "GLA 250 e 8G-DCT",
+        "powertrain": "phev",
+        "powerPs": 218,
+        "awd": false,
+        "trunkL": 385,
+        "trunkFoldedL": 1385,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "ADAC GLA 250 e 8G-DCT (08/20 - 05/23): 385 l, length 4410, height 1611. 1385 l folded per Motor1/angurten. 160 kW/218 PS system power."
+       },
+       {
+        "name": "Mercedes-AMG GLA 35 4MATIC",
+        "powertrain": "petrol",
+        "powerPs": 306,
+        "awd": true,
+        "lengthMm": 4436,
+        "widthMm": 1849,
+        "heightMm": 1588,
+        "trunkL": 435,
+        "trunkFoldedL": 1430,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "ADAC GLA 35 AMG 4MATIC SPEEDSHIFT DCT 8G (06/20 - 05/23): 4436 x 1849 (2020 with mirrors) x 1588 mm, 435/1430 l."
+       },
+       {
+        "name": "Mercedes-AMG GLA 45 S 4MATIC+",
+        "powertrain": "petrol",
+        "powerPs": 421,
+        "awd": true,
+        "lengthMm": 4436,
+        "widthMm": 1849,
+        "heightMm": 1588,
+        "trunkL": 435,
+        "trunkFoldedL": 1430,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "ADAC GLA 45 S AMG 4MATIC+ (06/20 - 05/23): 4436 x 1849 x 1588 mm. Trunk 435/1430 l is consistent across sources."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247/310497",
+        "what": "GLA 200 AMG Line (04/20-05/23): 163 PS, 435/1430 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247/316859",
+        "what": "GLA 200 EDITION 1 4MATIC: 435/1430 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247/324613/",
+        "what": "GLA 250 EDITION 2022: length 4410, height 1611, 435 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247/310504/",
+        "what": "GLA 250 Progressive 4MATIC (petrol pre-facelift data)"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247/310491/",
+        "what": "GLA 200 d 4MATIC: diesel 425/1420 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247/313894/",
+        "what": "GLA 250 e (08/20-05/23): 385 l, length 4410, height 1611"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247/313007",
+        "what": "AMG GLA 35: 4436x1849x1588, 435/1430 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247/313009",
+        "what": "AMG GLA 45 S: 4436x1849x1588"
+       },
+       {
+        "url": "https://de.motor1.com/news/701872/mercedes-gla-abmessungen-kofferraum-2023/",
+        "what": "Wheelbase 2729, width 1834, trunk 435-1430 / PHEV 385-1385 l"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/1974-GLA",
+        "what": "Hybrid 385-1385 l"
+       },
+       {
+        "url": "https://www.autozeitung.de/mercedes-gla-2020-preis-technische-daten-189976.html",
+        "what": "GLA 2020 engines/plug-in hybrid overview"
+       }
+      ]
+     },
+     {
+      "name": "H247 (Facelift)",
+      "yearFrom": 2023,
+      "yearTo": 2026,
+      "bodyType": "suv",
+      "lengthMm": 4412,
+      "widthMm": 1834,
+      "heightMm": 1616,
+      "wheelbaseMm": 2729,
+      "trunkL": 425,
+      "trunkFoldedL": 1420,
+      "loadSpace": null,
+      "confidence": "high",
+      "notes": "Facelift from 07/2023 (ADAC). All petrol engines now have a 48-volt mild-hybrid system (+10 kW/14 PS boost). ADAC lists the GLA 250 4MATIC with 175 kW (238 PS), which apparently includes the boost; the nominal rating is 165 kW/224 PS. Dimensions: ADAC 4412 x 1834 (2020 with mirrors) x 1616, wheelbase 2729. Trunk varies by powertrain: petrol MHEV 425/1420 l, diesel 427/1422 l, AMG 435/1430 l, PHEV 385/1385 l (Motor1). The GLA 200 4MATIC and front-wheel-drive GLA 250 were dropped; the GLA 220 4MATIC was added. Replaced by the third generation (order start 30.07.2026, market launch around 11/2026); hybrid versions of the new GLA follow in early 2027, so H247 may stay on sale until then.",
+      "variants": [
+       {
+        "name": "GLA 180 7G-DCT",
+        "powertrain": "mhev",
+        "powerPs": 136,
+        "awd": false,
+        "trunkL": 425,
+        "trunkFoldedL": 1420,
+        "yearFrom": 2023,
+        "yearTo": 2024,
+        "notes": "ADAC GLA 180 7G-DCT (07/23 - 01/24): 4412x1834x1616, 425/1420 l."
+       },
+       {
+        "name": "GLA 200 7G-DCT",
+        "powertrain": "mhev",
+        "powerPs": 163,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "ADAC page 331699 exists. No per-variant trunk figure retrieved; petrol MHEV siblings show 425/1420 l."
+       },
+       {
+        "name": "GLA 220 4MATIC 8G-DCT",
+        "powertrain": "mhev",
+        "powerPs": 190,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "New with the facelift (autozeitung). No per-variant trunk figure retrieved."
+       },
+       {
+        "name": "GLA 250 4MATIC 8G-DCT",
+        "powertrain": "mhev",
+        "powerPs": 224,
+        "awd": true,
+        "trunkL": 425,
+        "trunkFoldedL": 1420,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "ADAC (01/24-01/25): 425/1420 l, 4412x1834x1616, wheelbase 2729. ADAC lists 175 kW/238 PS (incl. 48V boost); nominal 224 PS."
+       },
+       {
+        "name": "GLA 180 d 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 116,
+        "awd": false,
+        "trunkL": 427,
+        "trunkFoldedL": 1422,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "ADAC GLA 180 d 8G-DCT (ab 01/25): 427/1422 l, same exterior dimensions."
+       },
+       {
+        "name": "GLA 200 d 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "ADAC page 339234 exists. Trunk not retrieved; the 180 d and 220 d 4MATIC both show 427/1422 l."
+       },
+       {
+        "name": "GLA 200 d 4MATIC 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "ADAC page 339227 exists. Trunk not retrieved."
+       },
+       {
+        "name": "GLA 220 d 4MATIC 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 190,
+        "awd": true,
+        "trunkL": 427,
+        "trunkFoldedL": 1422,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "ADAC (07/23 - 01/25 and from 01/25): 427/1422 l on all trims."
+       },
+       {
+        "name": "GLA 250 e 8G-DCT",
+        "powertrain": "phev",
+        "powerPs": 218,
+        "awd": false,
+        "trunkL": 385,
+        "trunkFoldedL": 1385,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "PHEV 385-1385 l per Motor1 (2023 facelift article). The ADAC facelift page (ab 09/24, id 336420) exists, but its trunk value was not retrieved."
+       },
+       {
+        "name": "Mercedes-AMG GLA 35 4MATIC",
+        "powertrain": "mhev",
+        "powerPs": 306,
+        "awd": true,
+        "lengthMm": 4436,
+        "widthMm": 1849,
+        "heightMm": 1590,
+        "trunkL": 435,
+        "trunkFoldedL": 1430,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "ADAC GLA 35 AMG Premium 4MATIC (ab 01/25): 4436 x 1849 x 1590 mm, 435/1430 l. 225 kW/306 PS. MHEV classification per facelift reports; not explicitly confirmed for AMG."
+       },
+       {
+        "name": "Mercedes-AMG GLA 45 S 4MATIC+",
+        "powertrain": "petrol",
+        "powerPs": 421,
+        "awd": true,
+        "lengthMm": 4443,
+        "widthMm": 1849,
+        "heightMm": 1590,
+        "trunkL": 435,
+        "trunkFoldedL": 1430,
+        "yearFrom": 2023,
+        "yearTo": null,
+        "notes": "ADAC GLA 45 S AMG Premium 4MATIC (ab 01/25): 4443 x 1849 x 1590 mm, 435/1430 l."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247-facelift/328566/",
+        "what": "GLA 180 (07/23-01/24): 4412x1834x1616, 425/1420 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247-facelift/331720/",
+        "what": "GLA 250 4MATIC: wheelbase 2729, 4412x1834x1616, 425/1420 l, 175 kW"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247-facelift/339217/",
+        "what": "GLA 180 d (ab 01/25): 427/1422 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247-facelift/328590/",
+        "what": "GLA 220 d 4MATIC: 427/1422 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247-facelift/339254/",
+        "what": "AMG GLA 35 facelift: 4436x1849x1590, 435/1430 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247-facelift/339256/",
+        "what": "AMG GLA 45 S facelift: 4443x1849x1590, 435/1430 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/gla/247-facelift/336420/",
+        "what": "GLA 250 e facelift (ab 09/24) catalogue entry"
+       },
+       {
+        "url": "https://de.motor1.com/news/701872/mercedes-gla-abmessungen-kofferraum-2023/",
+        "what": "2023 GLA dimensions, PHEV trunk 385-1385 l"
+       },
+       {
+        "url": "https://www.autozeitung.de/mercedes-gla-facelift-2023-preis-motor-209012.html",
+        "what": "Facelift engine line-up (136/163/190/224 PS, 48V MHEV, 250 e 218 PS)"
+       },
+       {
+        "url": "https://www.autozeitung.de/mercedes-amg-gla-35-facelift-2023-preis-motor-202422.html",
+        "what": "AMG GLA 35 (306 PS) / GLA 45 S (421 PS) facelift"
+       },
+       {
+        "url": "https://www.t-online.de/mobilitaet/autos/id_87746246/auto-guenstigstes-mercedes-suv-im-test-was-der-gla-kann.html",
+        "what": "Test: 425-1420 l"
+       }
+      ]
+     },
+     {
+      "name": "3. Generation (2026, elektrisch)",
+      "yearFrom": 2026,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4565,
+      "widthMm": null,
+      "heightMm": null,
+      "wheelbaseMm": null,
+      "trunkL": 410,
+      "trunkFoldedL": 1400,
+      "loadSpace": null,
+      "confidence": "low",
+      "notes": "New all-electric GLA (MMA platform, 800 V). World premiere in Warsaw in 07/2026, German order start 30.07.2026, market launch around 11/2026, price from 48,599 EUR. Hybrid versions follow in early 2027. Length 4565 mm per mobile.de (ADAC says about 4.57 m). ADAC also gives only rounded values: about 1.87 m wide, 1.60 m high, wheelbase about 2.79 m. Exact mm values were not found, so these fields are null. Rear trunk at least 410 l (70 l more than the predecessor per Motor1), up to 1400 l folded. There is also a front trunk (frunk) of 107 l (auto motor und sport). Codename not confirmed.",
+      "variants": [
+       {
+        "name": "GLA 200 (elektrisch)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 410,
+        "trunkFoldedL": 1400,
+        "yearFrom": 2026,
+        "yearTo": null,
+        "notes": "Launch variant. Power not found. Plus a 107 l frunk."
+       },
+       {
+        "name": "GLA 250+ (elektrisch)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 410,
+        "trunkFoldedL": 1400,
+        "yearFrom": 2026,
+        "yearTo": null,
+        "notes": "85 kWh battery, up to 657 km WLTP range, up to 320 kW charging. Power not found. Plus a 107 l frunk."
+       },
+       {
+        "name": "GLA 350 4MATIC (elektrisch)",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 410,
+        "trunkFoldedL": 1400,
+        "yearFrom": 2026,
+        "yearTo": null,
+        "notes": "Power not found. Plus a 107 l frunk."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.electrive.net/2026/07/29/weltpremiere-des-mercedes-gla-bis-zu-320-kw-ladeleistung-und-657-kilometer-reichweite/",
+        "what": "World premiere, price from 48,599 EUR, 320 kW charging, 657 km"
+       },
+       {
+        "url": "https://www.mobile.de/magazin/artikel/mercedes-benz-gla-suv-elektro",
+        "what": "Length 4565 mm, 85 kWh, 657 km"
+       },
+       {
+        "url": "https://de.motor1.com/news/804367/mercedes-gla-2026-innenraum-detail/",
+        "what": "Trunk 410 l minimum, up to 1400 l"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/neuheiten/mercedes-gla-elektrisch-neuvorstellung/",
+        "what": "Order start 30.07.2026, frunk 107 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/mercedes-gla/",
+        "what": "About 4.57 m long, 1.87 m wide, 1.60 m high, wheelbase 2.79 m, 410 l"
+       },
+       {
+        "url": "https://www.autoguru.at/2026/08/weltpremiere-fuer-den-neuen-mercedes-gla",
+        "what": "Launch variants GLA 200, 250+, 350 4MATIC; hybrids from early 2027"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "brand": "Mercedes-Benz",
+    "model": "GLB",
+    "generations": [
+     {
+      "name": "X247 (Vor-Facelift)",
+      "yearFrom": 2019,
+      "yearTo": 2023,
+      "bodyType": "suv",
+      "lengthMm": 4634,
+      "widthMm": 1834,
+      "heightMm": 1658,
+      "wheelbaseMm": 2829,
+      "trunkL": 570,
+      "trunkFoldedL": 1805,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Market launch Germany 12/2019 (first full model year 2020). Optional 7-seater (third row). Official press figure for the 5-seater: 570-1805 l. The 570 l grows to 760 l with the second row slid forward and the backrest upright. No verified 7-seat VDA value was found; a UK review says about 130 l with all 7 seats in use. Dimensions from encyCARpedia (GLB 180 d / 220 d 4MATIC), not checked against an ADAC pre-facelift page. Variant power taken from the identical facelift engine line-up (autozeitung).",
+      "variants": [
+       {
+        "name": "GLB 180 7G-DCT",
+        "powertrain": "petrol",
+        "powerPs": 136,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "No per-variant trunk found; the official 5-seat range is 570-1805 l."
+       },
+       {
+        "name": "GLB 200 7G-DCT",
+        "powertrain": "petrol",
+        "powerPs": 163,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2019,
+        "yearTo": 2023,
+        "notes": "No per-variant trunk found; the official 5-seat range is 570-1805 l."
+       },
+       {
+        "name": "GLB 250 4MATIC 8G-DCT",
+        "powertrain": "petrol",
+        "powerPs": 224,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2019,
+        "yearTo": 2023,
+        "notes": "No per-variant trunk found."
+       },
+       {
+        "name": "GLB 180 d 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 116,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2020,
+        "yearTo": 2023,
+        "notes": "encyCARpedia gives dimensions 4634x1834x1658, wheelbase 2829."
+       },
+       {
+        "name": "GLB 200 d 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2019,
+        "yearTo": 2023,
+        "notes": "No per-variant trunk found."
+       },
+       {
+        "name": "GLB 200 d 4MATIC 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2019,
+        "yearTo": 2023,
+        "notes": "No per-variant trunk found."
+       },
+       {
+        "name": "GLB 220 d 4MATIC 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 190,
+        "awd": true,
+        "trunkL": 570,
+        "trunkFoldedL": 1805,
+        "yearFrom": 2019,
+        "yearTo": 2023,
+        "notes": "encyCARpedia: 570-1805 l, 4634x1834x1658, wheelbase 2829."
+       },
+       {
+        "name": "Mercedes-AMG GLB 35 4MATIC",
+        "powertrain": "petrol",
+        "powerPs": 306,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2019,
+        "yearTo": 2023,
+        "notes": "Dimensions and trunk for the AMG were not found."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.encycarpedia.com/de/mercedes/19-glb-220-d-4matic-suv",
+        "what": "GLB 220 d 4MATIC: 4634x1834x1658, wheelbase 2829, 570-1805 l"
+       },
+       {
+        "url": "https://www.encycarpedia.com/de/mercedes/19-glb-200-suv",
+        "what": "GLB 200 spec page"
+       },
+       {
+        "url": "https://mobile.md/en/catalog/mercedes-benz-178/glb-1741/mercedes-benz-glb-x247-4696/glb-180d-116-hp-dct-24102",
+        "what": "GLB 180 d 116 PS: 4634x1834x1658, wheelbase 2829"
+       },
+       {
+        "url": "https://www.auto-medienportal.net/artikel/detail/50861",
+        "what": "Press-based drive report: 570-1805 l (5-seater), 760 l with second row forward"
+       },
+       {
+        "url": "https://professional.auto-motor-und-sport.de/static-download/news/359662/download.attachment.Mercedes-Benz-Preisliste-GLB-X247.pdf",
+        "what": "Official Mercedes-Benz GLB X247 price list (PDF)"
+       },
+       {
+        "url": "https://www.autobild.de/artikel/mercedes-glb-2019-vorstellung-preis-masse-motoren-amg-5979333.html",
+        "what": "GLB 2019 introduction, dimensions/engines"
+       }
+      ]
+     },
+     {
+      "name": "X247 (Facelift)",
+      "yearFrom": 2023,
+      "yearTo": 2025,
+      "bodyType": "suv",
+      "lengthMm": 4634,
+      "widthMm": null,
+      "heightMm": 1692,
+      "wheelbaseMm": null,
+      "trunkL": 570,
+      "trunkFoldedL": 1805,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "Facelift from 09/2023; ADAC entries run until 12/2025. All petrol engines are 48V mild hybrids. ADAC gives 4634 mm length and 1692 mm height; the height differs from the pre-facelift 1658 mm, possibly a different measuring basis such as roof rails. Width and wheelbase were not confirmed for the facelift (pre-facelift: 1834 / 2829 mm). ADAC trunk is 565-570 l normal and 1800-1805 l folded depending on variant; the per-variant mapping was not retrievable, so variants are null and the generation uses the upper (official) value. A 7-seat option is still available (ADAC: max. 7 seats). Successor X248 was presented on 07.12.2025.",
+      "variants": [
+       {
+        "name": "GLB 180 7G-DCT",
+        "powertrain": "mhev",
+        "powerPs": 136,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2023,
+        "yearTo": 2025,
+        "notes": "ADAC range 565-570 / 1800-1805 l."
+       },
+       {
+        "name": "GLB 200 7G-DCT",
+        "powertrain": "mhev",
+        "powerPs": 163,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2023,
+        "yearTo": 2025,
+        "notes": "ADAC range 565-570 / 1800-1805 l."
+       },
+       {
+        "name": "GLB 220 4MATIC 8G-DCT",
+        "powertrain": "mhev",
+        "powerPs": 190,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2023,
+        "yearTo": 2025,
+        "notes": "ADAC range 565-570 / 1800-1805 l."
+       },
+       {
+        "name": "GLB 250 4MATIC 8G-DCT",
+        "powertrain": "mhev",
+        "powerPs": 224,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2023,
+        "yearTo": 2025,
+        "notes": "ADAC range 565-570 / 1800-1805 l."
+       },
+       {
+        "name": "GLB 180 d 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 116,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2023,
+        "yearTo": 2025,
+        "notes": "ADAC range 565-570 / 1800-1805 l."
+       },
+       {
+        "name": "GLB 200 d 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": false,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2023,
+        "yearTo": 2025,
+        "notes": "ADAC range 565-570 / 1800-1805 l."
+       },
+       {
+        "name": "GLB 200 d 4MATIC 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 150,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2023,
+        "yearTo": 2025,
+        "notes": "ADAC page 339299; range 565-570 / 1800-1805 l."
+       },
+       {
+        "name": "GLB 220 d 4MATIC 8G-DCT",
+        "powertrain": "diesel",
+        "powerPs": 190,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2023,
+        "yearTo": 2025,
+        "notes": "ADAC page 339309; range 565-570 / 1800-1805 l."
+       },
+       {
+        "name": "Mercedes-AMG GLB 35 4MATIC",
+        "powertrain": "mhev",
+        "powerPs": 306,
+        "awd": true,
+        "trunkL": null,
+        "trunkFoldedL": null,
+        "yearFrom": 2023,
+        "yearTo": 2025,
+        "notes": "AMG dimensions and trunk not found. MHEV classification per facelift reports."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glb/247-facelift/328490",
+        "what": "GLB 250 4MATIC facelift: length 4634, height 1692"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glb/247-facelift/339299/",
+        "what": "GLB 200 d 4MATIC (01/25-12/25): trunk 565-570 l range"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glb/247-facelift/339281",
+        "what": "GLB 250 4MATIC (01/25-12/25): trunk data"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glb/247-facelift/339309/",
+        "what": "GLB 220 d 4MATIC: folded 1800-1805 l"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glb/247-facelift/339280",
+        "what": "Seats 5 standard, max. 7"
+       },
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/glb/247-facelift/339276",
+        "what": "GLB 220 4MATIC facelift entry"
+       },
+       {
+        "url": "https://www.autozeitung.de/mercedes-glb-facelift-2023-preis-motoren-03076.html",
+        "what": "Facelift engine line-up and power (136/163/190/224; diesel 116/150/190)"
+       },
+       {
+        "url": "https://www.autozeitung.de/mercedes-amg-glb-35-facelift-2023-preis-motor-202470.html",
+        "what": "AMG GLB 35 facelift"
+       },
+       {
+        "url": "https://carwiki.de/?p=75181",
+        "what": "Facelift 2023 timing, trunk table"
+       }
+      ]
+     },
+     {
+      "name": "X248",
+      "yearFrom": 2026,
+      "yearTo": null,
+      "bodyType": "suv",
+      "lengthMm": 4732,
+      "widthMm": 1861,
+      "heightMm": 1687,
+      "wheelbaseMm": 2889,
+      "trunkL": 540,
+      "trunkFoldedL": 1715,
+      "loadSpace": null,
+      "confidence": "medium",
+      "notes": "New generation presented on 07.12.2025, available as an EV (with EQ technology) and as a 48V hybrid. Dimensions 4732 x 1861 x 1687 mm (InsideEVs/ADAC); auto motor und sport lists 4723 x 1861 x 1681 and carwow height 1697, so the figures conflict slightly. Wheelbase 2889 mm per angurten. 5-seater: 540 l / 1715 l. 7-seater: 480 l with the third row stowed, 1605 l folded (InsideEVs). The EV adds a 127 l frunk (104 l per ISO 3832). Trunk values were found for the EV (ADAC drive report); hybrid trunk not confirmed. Power figures for both versions were not retrieved.",
+      "variants": [
+       {
+        "name": "GLB 250+ mit EQ Technologie",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": false,
+        "trunkL": 540,
+        "trunkFoldedL": 1715,
+        "yearFrom": 2026,
+        "yearTo": null,
+        "notes": "5-seat values; 7-seat 480/1605 l. Frunk 127 l. Power not retrieved."
+       },
+       {
+        "name": "GLB 350 4MATIC mit EQ Technologie",
+        "powertrain": "bev",
+        "powerPs": null,
+        "awd": true,
+        "trunkL": 540,
+        "trunkFoldedL": 1715,
+        "yearFrom": 2026,
+        "yearTo": null,
+        "notes": "5-seat values; 7-seat 480/1605 l. Frunk 127 l. Power not retrieved."
+       }
+      ],
+      "sources": [
+       {
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/mercedes-glb-fahrbericht/",
+        "what": "Trunk 540 l (5-seat), 480 l (7-seat), 1715 l folded; EV and hybrid"
+       },
+       {
+        "url": "https://insideevs.de/features/781085/mercedes-glb-eq-daten-preise/",
+        "what": "Dimensions 4732x1861x1687, 7-seat 1605 l, frunk 127 l (104 l ISO)"
+       },
+       {
+        "url": "https://www.auto-motor-und-sport.de/marken-modelle/mercedes/glb/x248/technische-daten/",
+        "what": "Codename X248, dimensions 4723x1861x1681 (conflicting)"
+       },
+       {
+        "url": "https://www.angurten.de/is/abmessungen/2271-mercedes-benz-glb-2026",
+        "what": "Wheelbase 2889 mm"
+       },
+       {
+        "url": "https://www.autohaus.de/nachrichten/fahrberichte/mercedes-glb-test-alles-andere-als-kompakt-3789911",
+        "what": "Drive report new GLB"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLB",
+        "what": "Second generation unveiled 7 December 2025, MHEV and BEV"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "notFound": [
+   "GLC X253 (facelift, model years 2020-2022): all dimensions, trunk volumes and variants (incl. GLC 300 e / 300 de PHEV). Not researched because the shared WebSearch budget (200 calls per turn) ran out",
+   "GLC X254 (2022-): all dimensions, trunk volumes (incl. GLC 300 e/400 e/300 de PHEV) and variants. Not researched (search budget exhausted)",
+   "GLC mit EQ Technologie (electric GLC, presented IAA 2025): not researched (search budget exhausted)",
+   "GLC Coupé C253 (facelift, 2020-2023): all data. Not researched (search budget exhausted)",
+   "GLC Coupé C254 (2023-): all data incl. PHEV trunk. Not researched (search budget exhausted)",
+   "GLE V167 (2019-, facelift 2023): all data incl. GLE 350 de/400 e PHEV trunk and 7-seat option. Not researched (search budget exhausted)",
+   "GLE Coupé C167 (2020-, facelift 2023): all data incl. PHEV trunk. Not researched (search budget exhausted)",
+   "GLS X167 (2019-, facelift 2023) incl. Mercedes-Maybach GLS 600: all data (7-seat/5-seat-config trunk). Not researched (search budget exhausted)",
+   "GLA H247 pre-facelift: per-variant trunk for GLA 180, GLA 180 d, GLA 220 d 4MATIC",
+   "GLA H247 facelift: per-variant trunk for GLA 200, GLA 220 4MATIC, GLA 200 d, GLA 200 d 4MATIC; dimensions of GLA 250 e facelift",
+   "GLA 3rd generation (2026): exact width, height and wheelbase in mm, power of GLA 200 / 250+ / 350 4MATIC, codename",
+   "GLB X247: 7-seat VDA trunk values (3rd row up / folded)",
+   "GLB X247: per-variant trunk values (ADAC 565 vs 570 l mapping), AMG GLB 35 dimensions",
+   "GLB X247 facelift: width and wheelbase confirmation",
+   "GLB X248: hybrid variants (names, power, trunk), power of GLB 250+ / 350 4MATIC",
+   "loadSpace (Ladelänge/Ladebreite/Ladekante) for all GLA/GLB generations"
+  ],
+  "notes": "IMPORTANT: The shared WebSearch budget (200 calls per turn across all agents) ran out after about 20 searches by this agent. Only GLA and GLB could be researched. GLC, GLC Coupé, GLE, GLE Coupé and GLS (and the Maybach GLS) are NOT included, because no numbers were invented. A follow-up run with a fresh search budget is needed for these. Primary source was the ADAC Autokatalog (manufacturer data per variant). Per-variant trunk values are null where no source explicitly stated them; the app should then fall back to the generation value. Two new generations were found and added because they are sold new in Germany in 2026: the electric third-generation GLA (order start 07/2026) and the GLB X248 (presented 12/2025). Other Mercedes SUVs in this segment that were not on my list and may need coverage elsewhere: EQA (H243), EQB (X243), EQC (N293), EQE SUV (X294), EQS SUV (X296), G-Klasse (W465, incl. G 580 with EQ Technologie), and the electric GLC with EQ Technologie (2026)."
+ },
+ "verification": null
+}

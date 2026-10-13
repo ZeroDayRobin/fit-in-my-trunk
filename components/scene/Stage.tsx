@@ -4,7 +4,7 @@ import { ContactShadows, Environment, Lightformer, MeshReflectorMaterial } from 
 import type { Theme } from "@/lib/store";
 
 export const BACKGROUND: Record<Theme, string> = {
-  light: "#ecedef",
+  light: "#e3e5e8",
   dark: "#0b0c0f",
 };
 
@@ -65,7 +65,7 @@ export function Stage({ theme }: { theme: Theme }) {
             mirror={0.6}
           />
         ) : (
-          <meshStandardMaterial color="#e9eaec" roughness={1} />
+          <meshStandardMaterial color="#c9ccd1" roughness={1} />
         )}
       </mesh>
 

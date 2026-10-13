@@ -1,8 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import { CAR_BY_ID } from "@/lib/cars";
 import { useCar, usePackEnv, useSim, useStatuses } from "@/lib/store";
 import { CarModel } from "./scene/CarModel";
 import { TrunkZone } from "./scene/TrunkZone";
@@ -19,14 +19,14 @@ export default function Scene() {
   const items = useSim((s) => s.items);
   const selectedId = useSim((s) => s.selectedId);
   const draggingId = useSim((s) => s.draggingId);
-  const paintId = useSim((s) => s.paints[s.carId]);
+  const paintId = useSim((s) => s.paintId);
   const xray = useSim((s) => s.xray);
   const seatsFolded = useSim((s) => s.seatsFolded);
   const theme = useSim((s) => s.theme);
   const select = useSim((s) => s.select);
 
   // Start-Perspektive: Frontansicht, danach fährt die Kamera zum Heck (CameraRig)
-  const initial = viewFor("front", CAR_BY_ID.compact, typeof window === "undefined" ? 1.6 : window.innerWidth / window.innerHeight);
+  const [initial] = useState(() => viewFor("front", car, typeof window === "undefined" ? 1.6 : window.innerWidth / window.innerHeight));
 
   return (
     <Canvas

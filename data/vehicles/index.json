@@ -1,0 +1,192 @@
+{
+ "generatedAt": "2026-10-13",
+ "brands": [
+  {
+   "id": "volkswagen",
+   "name": "Volkswagen",
+   "kbaRank": 1,
+   "models": [
+    {
+     "id": "golf-sportsvan",
+     "name": "Golf Sportsvan",
+     "bodyType": "van",
+     "yearFrom": 2018,
+     "yearTo": 2020
+    },
+    {
+     "id": "id-7",
+     "name": "ID.7",
+     "bodyType": "hatchback",
+     "yearFrom": 2023,
+     "yearTo": null
+    },
+    {
+     "id": "id-7-tourer",
+     "name": "ID.7 Tourer",
+     "bodyType": "wagon",
+     "yearFrom": 2024,
+     "yearTo": null
+    },
+    {
+     "id": "passat-alltrack",
+     "name": "Passat Alltrack",
+     "bodyType": "wagon",
+     "yearFrom": 2019,
+     "yearTo": 2023
+    },
+    {
+     "id": "passat-limousine",
+     "name": "Passat Limousine",
+     "bodyType": "sedan",
+     "yearFrom": 2019,
+     "yearTo": 2021
+    },
+    {
+     "id": "passat-variant",
+     "name": "Passat Variant",
+     "bodyType": "wagon",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "t-cross",
+     "name": "T-Cross",
+     "bodyType": "suv",
+     "yearFrom": 2019,
+     "yearTo": null
+    },
+    {
+     "id": "t-roc",
+     "name": "T-Roc",
+     "bodyType": "suv",
+     "yearFrom": 2017,
+     "yearTo": null
+    },
+    {
+     "id": "t-roc-cabriolet",
+     "name": "T-Roc Cabriolet",
+     "bodyType": "convertible",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "taigo",
+     "name": "Taigo",
+     "bodyType": "suv-coupe",
+     "yearFrom": 2021,
+     "yearTo": null
+    },
+    {
+     "id": "tayron",
+     "name": "Tayron",
+     "bodyType": "suv",
+     "yearFrom": 2025,
+     "yearTo": null
+    },
+    {
+     "id": "tiguan",
+     "name": "Tiguan",
+     "bodyType": "suv",
+     "yearFrom": 2016,
+     "yearTo": null
+    },
+    {
+     "id": "tiguan-allspace",
+     "name": "Tiguan Allspace",
+     "bodyType": "suv",
+     "yearFrom": 2017,
+     "yearTo": 2024
+    },
+    {
+     "id": "touareg",
+     "name": "Touareg",
+     "bodyType": "suv",
+     "yearFrom": 2018,
+     "yearTo": null
+    },
+    {
+     "id": "touran",
+     "name": "Touran",
+     "bodyType": "van",
+     "yearFrom": 2015,
+     "yearTo": null
+    }
+   ]
+  },
+  {
+   "id": "mercedes-benz",
+   "name": "Mercedes-Benz",
+   "kbaRank": 2,
+   "models": [
+    {
+     "id": "gla",
+     "name": "GLA",
+     "bodyType": "suv",
+     "yearFrom": 2020,
+     "yearTo": null
+    },
+    {
+     "id": "glb",
+     "name": "GLB",
+     "bodyType": "suv",
+     "yearFrom": 2019,
+     "yearTo": null
+    }
+   ]
+  },
+  {
+   "id": "bmw",
+   "name": "BMW",
+   "kbaRank": 3,
+   "models": []
+  },
+  {
+   "id": "skoda",
+   "name": "Škoda",
+   "kbaRank": 4,
+   "models": []
+  },
+  {
+   "id": "audi",
+   "name": "Audi",
+   "kbaRank": 5,
+   "models": []
+  },
+  {
+   "id": "seat",
+   "name": "Seat",
+   "kbaRank": 6,
+   "models": []
+  },
+  {
+   "id": "cupra",
+   "name": "Cupra",
+   "kbaRank": 6,
+   "models": []
+  },
+  {
+   "id": "opel",
+   "name": "Opel",
+   "kbaRank": 7,
+   "models": []
+  },
+  {
+   "id": "ford",
+   "name": "Ford",
+   "kbaRank": 8,
+   "models": []
+  },
+  {
+   "id": "hyundai",
+   "name": "Hyundai",
+   "kbaRank": 9,
+   "models": []
+  },
+  {
+   "id": "toyota",
+   "name": "Toyota",
+   "kbaRank": 10,
+   "models": []
+  }
+ ]
+}
